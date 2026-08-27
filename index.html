@@ -33,8 +33,15 @@
         <label for="compFilter">Campeonato / Circuito</label>
         <select id="compFilter"></select>
       </div>
+      <div class="filter-group" id="tenisGeneroGroup" hidden>
+        <label for="tenisGeneroFilter">Circuito</label>
+        <select id="tenisGeneroFilter">
+          <option value="M">ATP (Masculino)</option>
+          <option value="F">WTA (Feminino)</option>
+        </select>
+      </div>
       <div class="filter-group">
-        <label for="teamFilter">Time / Atleta <span class="filter-count" id="teamsCount"></span></label>
+        <label for="teamFilter"><span id="teamFilterLabel">Time / Atleta</span> <span class="filter-count" id="teamsCount"></span></label>
         <select id="teamFilter"></select>
       </div>
       <div class="filter-group grow">
