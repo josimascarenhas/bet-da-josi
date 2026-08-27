@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard CS · Pós IA | Doutores do Excel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">AI</div>
+        <div>
+          <p class="brand-name">Doutores do Excel</p>
+          <h1>Dashboard CS · Pós IA</h1>
+          <p class="course-line" id="courseLine">Aguardando planilha…</p>
+        </div>
+      </div>
+      <div class="topbar-actions">
+        <label class="btn btn-primary file-btn">
+          Importar planilha
+          <input id="fileInput" type="file" accept=".xlsx,.xls,.csv" hidden />
+        </label>
+        <button id="btnExport" type="button" class="btn btn-ghost" disabled>Exportar lista filtrada</button>
+      </div>
+    </header>
+
+    <div id="statusBanner" class="status-banner hidden" role="status"></div>
+
+    <nav class="tabs" role="tablist" aria-label="Seções do dashboard">
+      <button type="button" class="tab active" data-tab="cs" role="tab" aria-selected="true">Operação CS</button>
+      <button type="button" class="tab" data-tab="jornada" role="tab" aria-selected="false">Jornada acadêmica</button>
+      <button type="button" class="tab" data-tab="comentarios" role="tab" aria-selected="false">Comentários CSAT</button>
+    </nav>
+
+    <!-- ABA 1: OPERAÇÃO CS -->
+    <main id="tab-cs" class="tab-panel active" role="tabpanel">
+      <section class="filters">
+        <div class="filter-field grow">
+          <label for="searchInput">Buscar aluno</label>
+          <input id="searchInput" type="search" placeholder="Nome, e-mail, celular ou matrícula" />
+        </div>
+        <div class="filter-field">
+          <label for="turmaFilter">Turma</label>
+          <select id="turmaFilter"><option value="">Todas</option></select>
+        </div>
+        <div class="filter-field">
+          <label for="matriculaFilter">Status matrícula</label>
+          <select id="matriculaFilter">
+            <option value="ativas">Ativas + Pré-confirmadas</option>
+            <option value="">Todas</option>
+            <option value="Ativa">Ativa</option>
+            <option value="Pré-confirmada">Pré-confirmada</option>
+            <option value="Cancelada">Cancelada</option>
+            <option value="Indeferida">Indeferida</option>
+          </select>
+        </div>
+        <div class="filter-field">
+          <label for="contratoFilter">Contrato</label>
+          <select id="contratoFilter">
+            <option value="">Todos</option>
+            <option value="Aceito">Aceito</option>
+            <option value="Pendente">Pendente</option>
+          </select>
+        </div>
+        <div class="filter-field">
+          <label for="acessoFilter">Último acesso</label>
+          <select id="acessoFilter">
+            <option value="">Qualquer</option>
+            <option value="nunca">Nunca acessou</option>
+            <option value="7">Até 7 dias</option>
+            <option value="15">Até 15 dias</option>
+            <option value="30">Até 30 dias</option>
+            <option value="30plus">Mais de 30 dias</option>
+            <option value="60plus">Mais de 60 dias</option>
+          </select>
+        </div>
+        <div class="filter-field">
+          <label for="avaliacaoFilter">Avaliações</label>
+          <select id="avaliacaoFilter">
+            <option value="">Todas</option>
+            <option value="fez">Fez pelo menos 1</option>
+            <option value="pendente">Nenhuma avaliação</option>
+            <option value="parcial">Só 1 disciplina</option>
+            <option value="completo">2+ disciplinas</option>
+          </select>
+        </div>
+        <div class="filter-field">
+          <label for="prioridadeFilter">Prioridade CS</label>
+          <select id="prioridadeFilter">
+            <option value="">Todas</option>
+            <option value="critica">Crítica</option>
+            <option value="alta">Alta</option>
+            <option value="media">Média</option>
+            <option value="ok">Em dia</option>
+          </select>
+        </div>
+      </section>
+
+      <section class="kpis" id="kpiGrid" aria-label="Indicadores"></section>
+
+      <section class="insights">
+        <article class="panel chart-panel">
+          <div class="panel-head">
+            <h2>Distribuição por último acesso</h2>
+            <p>Engajamento recente da turma.</p>
+          </div>
+          <canvas id="acessoChart" height="140"></canvas>
+        </article>
+        <article class="panel chart-panel">
+          <div class="panel-head">
+            <h2>Prioridade para o CS</h2>
+            <p>Quem precisa de ação agora.</p>
+          </div>
+          <canvas id="prioridadeChart" height="140"></canvas>
+        </article>
+        <article class="panel action-panel">
+          <div class="panel-head">
+            <h2>Filas de ação</h2>
+            <p>Listas prontas para contato ativo.</p>
+          </div>
+          <div class="action-queues" id="actionQueues"></div>
+        </article>
+      </section>
+
+      <section class="secondary-grid">
+        <article class="panel">
+          <div class="panel-head">
+            <h2>Desempenho acadêmico</h2>
+            <p>Consumo e notas por disciplina.</p>
+          </div>
+          <div id="disciplinaCards" class="disciplina-cards"></div>
+        </article>
+        <article class="panel">
+          <div class="panel-head">
+            <h2>CSAT resumido</h2>
+            <p>Notas gerais — detalhes na aba Comentários.</p>
+          </div>
+          <div id="csatBlock" class="csat-block"></div>
+        </article>
+      </section>
+
+      <section class="panel table-panel">
+        <div class="panel-head row">
+          <div>
+            <h2>Alunos</h2>
+            <p id="tableSummary">0 alunos</p>
+          </div>
+          <div class="legend">
+            <span class="tag tag-critica">Crítica</span>
+            <span class="tag tag-alta">Alta</span>
+            <span class="tag tag-media">Média</span>
+            <span class="tag tag-ok">Em dia</span>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table id="studentsTable">
+            <thead>
+              <tr>
+                <th>Prioridade</th>
+                <th>Aluno</th>
+                <th>Matrícula</th>
+                <th>Turma</th>
+                <th>Contrato</th>
+                <th>Último acesso</th>
+                <th>Avaliações</th>
+                <th>Contato</th>
+                <th>Motivo CS</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <!-- ABA 2: JORNADA ACADÊMICA -->
+    <main id="tab-jornada" class="tab-panel" role="tabpanel" hidden>
+      <section class="journey-toolbar panel">
+        <div class="journey-toolbar-main">
+          <div>
+            <h2>Jornada por liberação de matérias</h2>
+            <p>
+              Matéria 1 libera no dia da matrícula (exceto matriculados em
+              <strong>01/07</strong>, cuja 1ª matéria liberou em <strong>02/07</strong>).
+              As seguintes liberam a cada <strong>30 dias</strong> a partir dessa 1ª liberação.
+              A análise usa a <strong>data de referência</strong> abaixo (hoje, por padrão).
+            </p>
+          </div>
+          <div class="ref-date-box">
+            <label for="refDateInput">Data de referência</label>
+            <div class="ref-date-row">
+              <input id="refDateInput" type="date" />
+              <button type="button" id="btnToday" class="btn btn-primary">Usar hoje</button>
+            </div>
+            <p class="ref-date-hint" id="refDateHint"></p>
+          </div>
+        </div>
+        <div class="calendar-wrap">
+          <div class="calendar-head">
+            <button type="button" id="calPrev" class="btn btn-ghost cal-nav" aria-label="Mês anterior">‹</button>
+            <h3 id="calTitle">Calendário</h3>
+            <button type="button" id="calNext" class="btn btn-ghost cal-nav" aria-label="Próximo mês">›</button>
+          </div>
+          <div class="calendar-grid" id="calendarGrid"></div>
+          <p class="calendar-legend">
+            Clique em um dia para projetar a jornada nessa data.
+            <span class="cal-dot unlock"></span> liberações na base
+          </p>
+        </div>
+      </section>
+
+      <section class="kpis" id="journeyKpis" aria-label="Indicadores da jornada"></section>
+
+      <section class="journey-layout">
+        <article class="panel table-panel">
+          <div class="panel-head row">
+            <div>
+              <h2>Alunos na data de referência</h2>
+              <p id="journeySummary">0 alunos</p>
+            </div>
+            <div class="filters journey-filters">
+              <div class="filter-field">
+                <label for="journeySearch">Buscar</label>
+                <input id="journeySearch" type="search" placeholder="Nome ou matrícula" />
+              </div>
+              <div class="filter-field">
+                <label for="journeyMateriaFilter">Matéria atual</label>
+                <select id="journeyMateriaFilter"><option value="">Todas</option></select>
+              </div>
+              <div class="filter-field">
+                <label for="journeyProvaFilter">Prova da matéria atual</label>
+                <select id="journeyProvaFilter">
+                  <option value="">Todas</option>
+                  <option value="concluida">Concluída</option>
+                  <option value="pendente">Pendente</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table id="journeyTable">
+              <thead>
+                <tr>
+                  <th>Aluno</th>
+                  <th>Matrícula / início</th>
+                  <th>Matéria atual</th>
+                  <th>Liberadas</th>
+                  <th>Prova atual</th>
+                  <th>Próxima liberação</th>
+                  <th>Dias até próxima</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </article>
+
+        <article class="panel journey-detail" id="journeyDetail">
+          <div class="panel-head">
+            <h2>Linha do tempo do aluno</h2>
+            <p id="journeyDetailSub">Selecione um aluno na tabela para ver histórico e projeções.</p>
+          </div>
+          <div id="journeyTimeline" class="timeline"></div>
+        </article>
+      </section>
+    </main>
+
+    <!-- ABA 3: COMENTÁRIOS -->
+    <main id="tab-comentarios" class="tab-panel" role="tabpanel" hidden>
+      <section class="panel comments-hero">
+        <div class="panel-head">
+          <h2>Comentários CSAT dos alunos</h2>
+          <p>Feedbacks da aba Client CSAT da planilha.</p>
+        </div>
+        <div id="commentsScores" class="csat-scores"></div>
+      </section>
+      <section class="filters comments-filters">
+        <div class="filter-field grow">
+          <label for="commentSearch">Buscar comentário</label>
+          <input id="commentSearch" type="search" placeholder="Palavra-chave no comentário ou disciplina" />
+        </div>
+        <div class="filter-field">
+          <label for="commentDiscFilter">Disciplina</label>
+          <select id="commentDiscFilter"><option value="">Todas</option></select>
+        </div>
+        <div class="filter-field">
+          <label for="commentOnlyText">Exibir</label>
+          <select id="commentOnlyText">
+            <option value="com">Só com comentário</option>
+            <option value="todos">Todas as respostas</option>
+          </select>
+        </div>
+      </section>
+      <section class="comments-list" id="commentsList"></section>
+    </main>
+
+    <footer class="footer">
+      <p>Dashboard CS · Doutores do Excel — dados processados localmente no navegador.</p>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="materias.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
