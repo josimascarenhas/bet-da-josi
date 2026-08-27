@@ -6,6 +6,7 @@
   var FCAL = window.CALENDARIO_2026;
   var TENIS = window.TENIS_DATA;
   var BASQ = window.BASQUETE_DATA;
+  var UFC = window.UFC_DATA;
 
   var DISPLAY = {
     Palmeiras: "Palmeiras", Flamengo: "Flamengo", "Athletico-PR": "Athletico-PR",
@@ -55,9 +56,12 @@
     return "baixa";
   }
 
+  function isDuel() { return sport === "tenis" || sport === "ufc"; }
+
   function currentGames() {
     if (sport === "futebol") return FCAL.jogos || [];
     if (sport === "tenis") return TENIS.jogos || [];
+    if (sport === "ufc") return UFC.jogos || [];
     return BASQ.jogos || [];
   }
 
@@ -74,7 +78,7 @@
     return list.filter(function (g) {
       if (selectedComp !== "todos" && g.comp !== selectedComp) return false;
       if (!selectedEntity) return true;
-      if (sport === "tenis") return g.jogador1 === selectedEntity || g.jogador2 === selectedEntity;
+      if (isDuel()) return g.jogador1 === selectedEntity || g.jogador2 === selectedEntity;
       return g.mandante === selectedEntity || g.visitante === selectedEntity;
     });
   }
@@ -100,6 +104,14 @@
         { id: "usopen", nome: "US Open 2026" },
         { id: "grandslam", nome: "Grand Slams" },
         { id: "atp1000", nome: "ATP/WTA 1000" }
+      ];
+    }
+    if (sport === "ufc") {
+      return [
+        { id: "todos", nome: "Todos" },
+        { id: "fightnight", nome: "UFC Fight Night" },
+        { id: "ppv", nome: "UFC PPV (numerados)" },
+        { id: "noche", nome: "Noche UFC" }
       ];
     }
     return [
@@ -135,6 +147,11 @@
       });
     }
     if (sport === "tenis") return Object.keys(TENIS.atletas).sort();
+    if (sport === "ufc") {
+      return Object.keys(UFC.atletas).sort(function (a, b) {
+        return (UFC.atletas[b].rating || 0) - (UFC.atletas[a].rating || 0);
+      });
+    }
     return Object.keys(BASQ.times).filter(function (name) {
       if (selectedComp === "todos") return true;
       return basketCompOfTeam(name) === selectedComp;
@@ -180,6 +197,16 @@
     var p2 = TENIS.atletas[g.jogador2];
     if (!p1 || !p2) return { insuficientes: true, nota: "Sem informa\u00e7\u00f5es suficientes dos atletas." };
     return M.tennis(p1, p2, { superficie: g.superficie || "Hard" });
+  }
+
+  function analyzeUfcGame(g) {
+    if (!g.jogador1 || !g.jogador2) {
+      return { insuficientes: true, nota: "Luta ainda n\u00e3o definida no card." };
+    }
+    var f1 = UFC.atletas[g.jogador1];
+    var f2 = UFC.atletas[g.jogador2];
+    if (!f1 || !f2) return { insuficientes: true, nota: "Sem informa\u00e7\u00f5es suficientes dos lutadores." };
+    return M.mma(f1, f2, { weightClass: g.weightClass || f1.weightClass });
   }
 
   function analyzeBasketGame(g) {
@@ -234,7 +261,7 @@
         var allDone = dayGames.every(function (g) { return g.placar != null || (!g.mandante && !g.jogador1); });
         if (allDone && dayGames.some(function (g) { return g.placar; })) classes.push("is-past");
         else if (iso > todayISO) classes.push("is-future");
-        if (dayGames.some(function (g) { return g.comp === "copa" || g.comp === "usopen"; })) classes.push("has-copa");
+        if (dayGames.some(function (g) { return g.comp === "copa" || g.comp === "usopen" || g.comp === "ppv" || g.comp === "noche"; })) classes.push("has-copa");
       }
       html += '<button type="button" class="' + classes.join(" ") + '" data-date="' + iso + '">' +
         '<span class="cal-day-num">' + day + "</span>" +
@@ -251,7 +278,7 @@
   }
 
   function sideNames(g) {
-    if (sport === "tenis") return { a: g.jogador1, b: g.jogador2, aL: label(g.jogador1), bL: label(g.jogador2) };
+    if (isDuel()) return { a: g.jogador1, b: g.jogador2, aL: label(g.jogador1), bL: label(g.jogador2) };
     return { a: g.mandante, b: g.visitante, aL: label(g.mandante), bL: label(g.visitante) };
   }
 
@@ -342,7 +369,7 @@
         if (g.placar) return false;
         if (g.data < todayISO) return false;
         if (selectedComp !== "todos" && g.comp !== selectedComp) return false;
-        if (sport === "tenis") return g.jogador1 === selectedEntity || g.jogador2 === selectedEntity;
+        if (isDuel()) return g.jogador1 === selectedEntity || g.jogador2 === selectedEntity;
         return g.mandante === selectedEntity || g.visitante === selectedEntity;
       }).sort(function (a, b) { return a.data.localeCompare(b.data); }).slice(0, 3);
     }
@@ -358,6 +385,7 @@
       var sides = sideNames(g);
       var an = sport === "futebol" ? analyzeFootballGame(g, selectedEntity || sides.a)
         : sport === "tenis" ? analyzeTennisGame(g)
+        : sport === "ufc" ? analyzeUfcGame(g)
         : analyzeBasketGame(g);
       var blocks = renderMarketsBlock(an);
       if (typeof blocks === "string") {
@@ -366,13 +394,16 @@
       var meta = fmtData(g.data) + " \u00b7 " + (g.horario || "") + " \u00b7 " + (g.estadio || g.local || g.torneio || "");
       var modelNote = an.modelo ? (" \u00b7 Modelo: " + an.modelo) : "";
       if (an.lambdaHome) modelNote += " (\u03bb " + an.lambdaHome + "/" + an.lambdaAway + ")";
+      var roleA = sport === "tenis" ? "Jogador 1" : sport === "ufc" ? "Lutador 1" : "Mandante";
+      var roleB = sport === "tenis" ? "Jogador 2" : sport === "ufc" ? "Lutador 2" : "Visitante";
       return '<article class="fixture-card">' +
         '<div class="fixture-head"><span class="comp-badge comp-' + g.comp + '">' +
-        (g.torneio || g.liga || g.comp) + '</span><span class="fixture-rotulo">' + (g.fase || "") + "</span></div>" +
+        (g.torneio || g.liga || g.comp) + '</span><span class="fixture-rotulo">' + (g.fase || "") +
+        (g.weightClass ? " \u00b7 " + g.weightClass : "") + "</span></div>" +
         '<div class="proximo-match"><div class="proximo-team"><div class="name">' + sides.aL +
-        '</div><div class="role">' + (sport === "tenis" ? "Jogador 1" : "Mandante") +
+        '</div><div class="role">' + roleA +
         '</div></div><div class="proximo-vs">VS</div><div class="proximo-team"><div class="name">' +
-        sides.bL + '</div><div class="role">' + (sport === "tenis" ? "Jogador 2" : "Visitante") +
+        sides.bL + '</div><div class="role">' + roleB +
         "</div></div></div>" +
         '<div class="proximo-meta">' + meta +
         (an.expGols ? " \u00b7 Exp. gols " + an.expGols : "") +
@@ -416,6 +447,19 @@
         { label: "Atletas", value: Object.keys(TENIS.atletas).length, hl: true },
         { label: "Eventos", value: TENIS.jogos.length },
         { label: "Torneio", value: "US Open" }
+      ];
+    } else if (sport === "ufc") {
+      var f = selectedEntity ? UFC.atletas[selectedEntity] : null;
+      items = f ? [
+        { label: "Rating", value: f.rating, hl: true },
+        { label: "KO %", value: pct(f.koPct) },
+        { label: "SUB %", value: pct(f.subPct) },
+        { label: "DEC %", value: pct(f.decisionPct) },
+        { label: "Reach", value: f.reach + '"' }
+      ] : [
+        { label: "Lutadores", value: Object.keys(UFC.atletas).length, hl: true },
+        { label: "Lutas", value: UFC.jogos.length },
+        { label: "Próximo", value: "Shanghai 29/08" }
       ];
     } else {
       var tm = selectedEntity ? BASQ.times[selectedEntity] : null;
@@ -462,6 +506,17 @@
           '</td><td class="num">' + pct(p.holdPct) + '</td><td class="num">' + pct(p.breakPct) +
           '</td><td class="num">' + pct(p.acePct) + "</td></tr>";
       }).join("");
+    } else if (sport === "ufc") {
+      document.getElementById("tableTitle").textContent = "Lutadores";
+      head.innerHTML = "<tr><th>Lutador</th><th>Pa\u00eds</th><th>Categoria</th><th>Rating</th><th>KO</th><th>SUB</th><th>DEC</th></tr>";
+      body.innerHTML = entitiesForSport().map(function (name) {
+        var f = UFC.atletas[name];
+        return '<tr data-ent="' + name + '" class="' + (selectedEntity === name ? "selected-row" : "") + '">' +
+          "<td>" + name + "</td><td>" + f.pais + "</td><td>" + (f.weightClass || "\u2014") +
+          '</td><td class="num">' + f.rating +
+          '</td><td class="num">' + pct(f.koPct) + '</td><td class="num">' + pct(f.subPct) +
+          '</td><td class="num">' + pct(f.decisionPct) + "</td></tr>";
+      }).join("");
     } else {
       document.getElementById("tableTitle").textContent = "Times";
       head.innerHTML = "<tr><th>Time</th><th>Rating</th><th>PPG</th><th>OPP</th><th>Pace</th></tr>";
@@ -489,7 +544,7 @@
       if (!g.placar) return false;
       if (selectedComp !== "todos" && g.comp !== selectedComp) return false;
       if (!selectedEntity) return true;
-      if (sport === "tenis") return g.jogador1 === selectedEntity || g.jogador2 === selectedEntity;
+      if (isDuel()) return g.jogador1 === selectedEntity || g.jogador2 === selectedEntity;
       return g.mandante === selectedEntity || g.visitante === selectedEntity;
     }).sort(function (a, b) { return b.data.localeCompare(a.data); }).slice(0, 20);
 
@@ -512,6 +567,8 @@
       el.innerHTML = "<strong>Modelo matem\u00e1tico \u2014 Futebol</strong><p>Poisson independente para gols de mandante/visitante, com ajuste Dixon-Coles nos placares baixos. Gera 1X2, BTTS, Over/Under, handicap, escanteios e placar correto com odds decimais.</p>";
     } else if (sport === "tenis") {
       el.innerHTML = "<strong>Modelo matem\u00e1tico \u2014 T\u00eanis</strong><p>Bradley-Terry/Elo com rating, hold%, break% e superf\u00edcie. Totais de games via Normal. Sets estimados por probabilidade independente de set.</p>";
+    } else if (sport === "ufc") {
+      el.innerHTML = "<strong>Modelo matem\u00e1tico \u2014 UFC</strong><p>Bradley-Terry com rating, alcance e perfil de finish (KO/SUB/DEC). Mercados de vencedor, m\u00e9todo, dura\u00e7\u00e3o e round betting.</p>";
     } else {
       el.innerHTML = "<strong>Modelo matem\u00e1tico \u2014 Basquete</strong><p>Distribui\u00e7\u00e3o Normal para margem e total de pontos (PPG, pace, rating e fator casa). Moneyline, spread e team totals derivados da CDF.</p>";
     }
@@ -535,7 +592,8 @@
     var titles = {
       futebol: "Futebol 2026",
       tenis: "T\u00eanis 2026",
-      basquete: "Basquete 2026"
+      basquete: "Basquete 2026",
+      ufc: "UFC 2026"
     };
     document.getElementById("pageTitle").textContent = "Bet da Josi \u2014 " + titles[sport];
     document.getElementById("headerBadge").textContent = selectedEntity ? label(selectedEntity) : "Bet da Josi";
