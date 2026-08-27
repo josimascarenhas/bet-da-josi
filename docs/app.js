@@ -110,6 +110,19 @@
     ];
   }
 
+  function basketCompOfTeam(name) {
+    var t = BASQ.times[name];
+    if (!t) return null;
+    if (t.comp) return t.comp;
+    if (t.conf) return "nba";
+    var nbb = {
+      "Flamengo-Basq": 1, Franca: 1, Minas: 1, Paulistano: 1, Bauru: 1,
+      Pinheiros: 1, Unifacisa: 1, Brasilia: 1, "Sao-Jose": 1, "Corinthians-Basq": 1
+    };
+    if (nbb[name]) return "nbb";
+    return "euroleague";
+  }
+
   function entitiesForSport() {
     if (sport === "futebol") {
       var list = selectedComp === "copa"
@@ -122,7 +135,12 @@
       });
     }
     if (sport === "tenis") return Object.keys(TENIS.atletas).sort();
-    return Object.keys(BASQ.times).sort();
+    return Object.keys(BASQ.times).filter(function (name) {
+      if (selectedComp === "todos") return true;
+      return basketCompOfTeam(name) === selectedComp;
+    }).sort(function (a, b) {
+      return (BASQ.times[b].rating || 0) - (BASQ.times[a].rating || 0);
+    });
   }
 
   function getFootStats(key, comp) {
@@ -407,9 +425,11 @@
         { label: "OPP", value: tm.opp },
         { label: "Pace", value: tm.pace || "\u2014" }
       ] : [
-        { label: "Times", value: Object.keys(BASQ.times).length, hl: true },
-        { label: "Jogos", value: BASQ.jogos.length },
-        { label: "Ligas", value: "NBA \u00b7 NBB \u00b7 EL" }
+        { label: "Times", value: entitiesForSport().length, hl: true },
+        { label: "Jogos", value: currentGames().filter(function (g) {
+          return selectedComp === "todos" || g.comp === selectedComp;
+        }).length },
+        { label: "Liga", value: selectedComp === "todos" ? "NBA \u00b7 NBB \u00b7 EL" : (selectedComp || "").toUpperCase() }
       ];
     }
     document.getElementById("kpiGrid").innerHTML = items.map(function (i) {
