@@ -180,6 +180,9 @@ body {
 .comp-badge.comp-brasileirao, .comp-badge.comp-nba { background: #e5f0fc; color: #1859a8; }
 .comp-badge.comp-nbb { background: var(--accent-soft); color: var(--accent); }
 .comp-badge.comp-euroleague, .comp-badge.comp-atp1000, .comp-badge.comp-grandslam { background: #efe8ff; color: #5b3db8; }
+.comp-badge.comp-fightnight { background: #ffe8e0; color: #9a3a1a; }
+.comp-badge.comp-ppv { background: #1a1a1a; color: #f5c518; }
+.comp-badge.comp-noche { background: #ffe6f0; color: #9a1a4a; }
 .team-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 0.3rem; vertical-align: middle; border: 1px solid rgba(0,0,0,0.12); }
 
 .fixtures-container { display: flex; flex-direction: column; gap: 1.1rem; margin-bottom: 1.15rem; }

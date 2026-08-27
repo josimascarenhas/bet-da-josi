@@ -295,8 +295,71 @@
     };
   }
 
+  /* --- UFC/MMA: Bradley-Terry + método de vitória --- */
+  function mmaAnalyze(f1, f2, ctx) {
+    f1 = f1 || { nome: "A", rating: 80, koPct: 30, subPct: 20, decisionPct: 50, reach: 70 };
+    f2 = f2 || { nome: "B", rating: 80, koPct: 30, subPct: 20, decisionPct: 50, reach: 70 };
+    var reachDiff = ((f1.reach || 70) - (f2.reach || 70)) * 0.35;
+    var finishBias = ((f1.koPct + f1.subPct) - (f2.koPct + f2.subPct)) * 0.08;
+    var diff = (f1.rating - f2.rating) + reachDiff + finishBias;
+    var win1 = clamp(round0(100 / (1 + Math.pow(10, -diff / 16))), 28, 82);
+    var win2 = 100 - win1;
+
+    var finishPool1 = (f1.koPct || 30) + (f1.subPct || 20);
+    var finishPool2 = (f2.koPct || 30) + (f2.subPct || 20);
+    var goDistance = clamp(round0(((f1.decisionPct || 50) + (f2.decisionPct || 50)) / 2 * 0.92 + Math.abs(diff) * -0.4), 28, 68);
+    var finishFight = 100 - goDistance;
+
+    var koShare = ((f1.koPct || 30) + (f2.koPct || 30)) / Math.max(1, finishPool1 + finishPool2);
+    var koFight = clamp(round0(finishFight * koShare), 18, 55);
+    var subFight = clamp(round0(finishFight - koFight), 12, 40);
+
+    var f1Ko = clamp(round0(win1 * ((f1.koPct || 30) / 100) * 1.15), 8, 48);
+    var f1Sub = clamp(round0(win1 * ((f1.subPct || 20) / 100) * 1.15), 6, 40);
+    var f1Dec = clamp(win1 - f1Ko - f1Sub, 8, 50);
+    var f2Ko = clamp(round0(win2 * ((f2.koPct || 30) / 100) * 1.15), 8, 48);
+    var f2Sub = clamp(round0(win2 * ((f2.subPct || 20) / 100) * 1.15), 6, 40);
+    var f2Dec = clamp(win2 - f2Ko - f2Sub, 8, 50);
+
+    var round1 = clamp(round0(finishFight * 0.38), 14, 42);
+    var round2 = clamp(round0(finishFight * 0.28), 12, 32);
+    var overRounds = clamp(round0(goDistance + 8), 36, 72);
+
+    var markets = [];
+    function add(grupo, mercado, prob, motivo) {
+      markets.push({ grupo: grupo, mercado: mercado, prob: prob, odd: toOdd(prob), conf: confLabel(prob), motivo: motivo });
+    }
+    var n1 = f1.nome || "Lutador 1";
+    var n2 = f2.nome || "Lutador 2";
+    add("Vencedor da Luta", n1 + " vence", win1, "Bradley-Terry (rating + alcance + finish)");
+    add("Vencedor da Luta", n2 + " vence", win2, "Bradley-Terry");
+    add("Método de Vitória", n1 + " por KO/TKO", f1Ko, "KO% histórico × P(vitória)");
+    add("Método de Vitória", n1 + " por finalização", f1Sub, "SUB% histórico × P(vitória)");
+    add("Método de Vitória", n1 + " por decisão", f1Dec, "DEC% histórico × P(vitória)");
+    add("Método de Vitória", n2 + " por KO/TKO", f2Ko, "KO% histórico × P(vitória)");
+    add("Método de Vitória", n2 + " por finalização", f2Sub, "SUB% histórico × P(vitória)");
+    add("Método de Vitória", n2 + " por decisão", f2Dec, "DEC% histórico × P(vitória)");
+    add("Duração", "Vai à decisão", goDistance, "Média de decision% do confronto");
+    add("Duração", "Termina antes do limite", finishFight, "Complementar da decisão");
+    add("Duração", "Over 2.5 rounds", overRounds, "Proxy de luta longa");
+    add("Round Betting", "Termina no round 1", round1, "Finish precoce");
+    add("Round Betting", "Termina no round 2", round2, "Finish médio");
+    add("Especiais", "Haverá KO/TKO na luta", koFight, "Mix de KO% dos lutadores");
+    add("Especiais", "Haverá finalização na luta", subFight, "Mix de SUB% dos lutadores");
+    if (ctx && ctx.weightClass) {
+      add("Contexto", "Categoria: " + ctx.weightClass, clamp(round0(55 + Math.abs(diff) * 0.3), 50, 70), "Info do card");
+    }
+
+    markets.sort(function (a, b) { return b.prob - a.prob; });
+    var top = markets.filter(function (m) {
+      return m.grupo !== "Contexto" && m.prob >= 52 && m.prob <= 78;
+    }).slice(0, 5);
+    if (top.length < 3) top = markets.filter(function (m) { return m.grupo !== "Contexto"; }).slice(0, 5);
+    return { markets: markets, topPicks: top, win1: win1, win2: win2, modelo: "Bradley-Terry MMA + método" };
+  }
+
   global.BET_MARKETS = {
     clamp: clamp, toOdd: toOdd, confLabel: confLabel,
-    football: footballAnalyze, tennis: tennisAnalyze, basketball: basketballAnalyze
+    football: footballAnalyze, tennis: tennisAnalyze, basketball: basketballAnalyze, mma: mmaAnalyze
   };
 })(window);
