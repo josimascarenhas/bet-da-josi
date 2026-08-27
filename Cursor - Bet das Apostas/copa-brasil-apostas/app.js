@@ -33,6 +33,7 @@
   ];
 
   var sport = "futebol";
+  var tenisGenero = "M";
   var selectedComp = "todos";
   var selectedEntity = "";
   var selectedDate = "";
@@ -58,9 +59,20 @@
 
   function isDuel() { return sport === "tenis" || sport === "ufc"; }
 
+  function tenisAtletas() {
+    return Object.keys(TENIS.atletas).filter(function (name) {
+      return TENIS.atletas[name].genero === tenisGenero;
+    });
+  }
+
+  function matchesTenisGenero(g) {
+    if (sport !== "tenis") return true;
+    return g.genero === tenisGenero;
+  }
+
   function currentGames() {
     if (sport === "futebol") return FCAL.jogos || [];
-    if (sport === "tenis") return TENIS.jogos || [];
+    if (sport === "tenis") return (TENIS.jogos || []).filter(matchesTenisGenero);
     if (sport === "ufc") return UFC.jogos || [];
     return BASQ.jogos || [];
   }
@@ -146,7 +158,11 @@
         return pa - pb;
       });
     }
-    if (sport === "tenis") return Object.keys(TENIS.atletas).sort();
+    if (sport === "tenis") {
+      return tenisAtletas().sort(function (a, b) {
+        return (TENIS.atletas[a].ranking || 99) - (TENIS.atletas[b].ranking || 99);
+      });
+    }
     if (sport === "ufc") {
       return Object.keys(UFC.atletas).sort(function (a, b) {
         return (UFC.atletas[b].rating || 0) - (UFC.atletas[a].rating || 0);
@@ -196,7 +212,10 @@
     var p1 = TENIS.atletas[g.jogador1];
     var p2 = TENIS.atletas[g.jogador2];
     if (!p1 || !p2) return { insuficientes: true, nota: "Sem informa\u00e7\u00f5es suficientes dos atletas." };
-    return M.tennis(p1, p2, { superficie: g.superficie || "Hard" });
+    return M.tennis(p1, p2, {
+      superficie: g.superficie || "Hard",
+      genero: g.genero || p1.genero
+    });
   }
 
   function analyzeUfcGame(g) {
@@ -227,6 +246,15 @@
   }
 
   function populateFilters() {
+    var generoGroup = document.getElementById("tenisGeneroGroup");
+    if (generoGroup) generoGroup.hidden = sport !== "tenis";
+    if (sport === "tenis") {
+      document.getElementById("tenisGeneroFilter").value = tenisGenero;
+      document.getElementById("teamFilterLabel").textContent = "Atleta";
+    } else {
+      document.getElementById("teamFilterLabel").textContent = "Time / Atleta";
+    }
+
     var comps = compsForSport();
     if (!comps.some(function (c) { return c.id === selectedComp; })) selectedComp = "todos";
     document.getElementById("compFilter").innerHTML = comps.map(function (c) {
@@ -278,6 +306,15 @@
   }
 
   function sideNames(g) {
+    if (sport === "tenis") {
+      var p1 = TENIS.atletas[g.jogador1];
+      var p2 = TENIS.atletas[g.jogador2];
+      return {
+        a: g.jogador1, b: g.jogador2,
+        aL: p1 ? ("#" + p1.ranking + " " + p1.nome) : label(g.jogador1),
+        bL: p2 ? ("#" + p2.ranking + " " + p2.nome) : label(g.jogador2)
+      };
+    }
     if (isDuel()) return { a: g.jogador1, b: g.jogador2, aL: label(g.jogador1), bL: label(g.jogador2) };
     return { a: g.mandante, b: g.visitante, aL: label(g.mandante), bL: label(g.visitante) };
   }
@@ -294,9 +331,11 @@
     }
     body.innerHTML = games.map(function (g) {
       var sides = sideNames(g);
+      var badgeClass = sport === "tenis" ? (g.genero === "F" ? "wta" : "atp") : g.comp;
+      var badgeLabel = sport === "tenis" ? (g.genero === "F" ? "WTA" : "ATP") : (g.torneio || g.liga || g.comp);
       if (!sides.a || !sides.b) {
-        return '<div class="day-game day-game-tbd"><div class="day-game-meta"><span class="comp-badge comp-' + g.comp + '">' +
-          (g.torneio || g.liga || g.comp) + "</span> " + (g.fase || "") + "</div>" +
+        return '<div class="day-game day-game-tbd"><div class="day-game-meta"><span class="comp-badge comp-' + badgeClass + '">' +
+          badgeLabel + "</span> " + (g.fase || "") + (g.superficie ? " \u00b7 " + g.superficie : "") + "</div>" +
           '<div class="day-game-tbd-msg">' + (g.nota || "Chave a definir") + "</div></div>";
       }
       var status = g.placar
@@ -304,8 +343,8 @@
         : '<span class="day-kick">' + (g.horario || "") + "</span>";
       var cls = g.placar ? "played" : (g.data === todayISO ? "live-day" : "upcoming");
       return '<button type="button" class="day-game ' + cls + '" data-id="' + g.id + '">' +
-        '<div class="day-game-meta"><span class="comp-badge comp-' + g.comp + '">' +
-        (g.torneio || g.liga || g.comp) + "</span><span>" + (g.fase || "") + "</span></div>" +
+        '<div class="day-game-meta"><span class="comp-badge comp-' + badgeClass + '">' +
+        badgeLabel + "</span><span>" + (g.fase || "") + (g.superficie ? " \u00b7 " + g.superficie : "") + "</span></div>" +
         '<div class="day-game-row"><span class="day-team">' + sides.aL + "</span>" + status +
         '<span class="day-team right">' + sides.bL + "</span></div>" +
         (g.placar ? "" : '<div class="day-game-cta">Abrir an\u00e1lise \u2192</div>') +
@@ -392,14 +431,23 @@
         return '<article class="fixture-card"><div class="proximo-meta">' + blocks + "</div></article>";
       }
       var meta = fmtData(g.data) + " \u00b7 " + (g.horario || "") + " \u00b7 " + (g.estadio || g.local || g.torneio || "");
+      if (sport === "tenis" && g.superficie) meta += " \u00b7 Quadra " + g.superficie;
+      if (sport === "tenis" && an.rankP1 && an.rankP2) meta += " \u00b7 Ranking #" + an.rankP1 + " vs #" + an.rankP2;
       var modelNote = an.modelo ? (" \u00b7 Modelo: " + an.modelo) : "";
       if (an.lambdaHome) modelNote += " (\u03bb " + an.lambdaHome + "/" + an.lambdaAway + ")";
-      var roleA = sport === "tenis" ? "Jogador 1" : sport === "ufc" ? "Lutador 1" : "Mandante";
-      var roleB = sport === "tenis" ? "Jogador 2" : sport === "ufc" ? "Lutador 2" : "Visitante";
+      var roleA = sport === "tenis"
+        ? (TENIS.atletas[sides.a] ? TENIS.atletas[sides.a].idade + " anos" : "Jogador 1")
+        : sport === "ufc" ? "Lutador 1" : "Mandante";
+      var roleB = sport === "tenis"
+        ? (TENIS.atletas[sides.b] ? TENIS.atletas[sides.b].idade + " anos" : "Jogador 2")
+        : sport === "ufc" ? "Lutador 2" : "Visitante";
+      var circuitoBadge = sport === "tenis" ? (g.genero === "F" ? "wta" : "atp") : g.comp;
       return '<article class="fixture-card">' +
-        '<div class="fixture-head"><span class="comp-badge comp-' + g.comp + '">' +
-        (g.torneio || g.liga || g.comp) + '</span><span class="fixture-rotulo">' + (g.fase || "") +
-        (g.weightClass ? " \u00b7 " + g.weightClass : "") + "</span></div>" +
+        '<div class="fixture-head"><span class="comp-badge comp-' + circuitoBadge + '">' +
+        (sport === "tenis" ? (g.genero === "F" ? "WTA" : "ATP") : (g.torneio || g.liga || g.comp)) +
+        '</span><span class="fixture-rotulo">' + (g.fase || "") +
+        (g.weightClass ? " \u00b7 " + g.weightClass : "") +
+        (g.superficie ? " \u00b7 " + g.superficie : "") + "</span></div>" +
         '<div class="proximo-match"><div class="proximo-team"><div class="name">' + sides.aL +
         '</div><div class="role">' + roleA +
         '</div></div><div class="proximo-vs">VS</div><div class="proximo-team"><div class="name">' +
@@ -439,13 +487,14 @@
     } else if (sport === "tenis") {
       var p = selectedEntity ? TENIS.atletas[selectedEntity] : null;
       items = p ? [
-        { label: "Rating", value: p.rating, hl: true },
-        { label: "Hold %", value: pct(p.holdPct) },
-        { label: "Break %", value: pct(p.breakPct) },
-        { label: "Ace %", value: pct(p.acePct) }
+        { label: "Ranking", value: "#" + p.ranking, hl: true },
+        { label: "Idade", value: p.idade + "a" },
+        { label: "Hard", value: pct(p.hardPct) },
+        { label: "Saibro", value: pct(p.clayPct) },
+        { label: "Grama", value: pct(p.grassPct) }
       ] : [
-        { label: "Atletas", value: Object.keys(TENIS.atletas).length, hl: true },
-        { label: "Eventos", value: TENIS.jogos.length },
+        { label: tenisGenero === "M" ? "ATP" : "WTA", value: tenisAtletas().length + " atletas", hl: true },
+        { label: "Eventos", value: currentGames().length },
         { label: "Torneio", value: "US Open" }
       ];
     } else if (sport === "ufc") {
@@ -487,6 +536,7 @@
     var body = document.getElementById("teamsTableBody");
     if (sport === "futebol") {
       document.getElementById("tableTitle").textContent = "Tabela / stats";
+      document.getElementById("tableSub").textContent = "Estat\u00edsticas do filtro atual";
       head.innerHTML = "<tr><th>Time</th><th>Pos</th><th>Gols/J</th><th>Sofr</th><th>O2.5</th><th>Ambas</th></tr>";
       body.innerHTML = entitiesForSport().map(function (name) {
         var s = getFootStats(name, selectedComp === "copa" ? "copa" : "brasileirao");
@@ -497,17 +547,20 @@
           '</td><td class="num">' + pct(s.over25Pct) + '</td><td class="num">' + pct(s.bttsPct) + "</td></tr>";
       }).join("");
     } else if (sport === "tenis") {
-      document.getElementById("tableTitle").textContent = "Atletas";
-      head.innerHTML = "<tr><th>Atleta</th><th>Pa\u00eds</th><th>Rating</th><th>Hold</th><th>Break</th><th>Ace</th></tr>";
+      document.getElementById("tableTitle").textContent = tenisGenero === "M" ? "Ranking ATP" : "Ranking WTA";
+      document.getElementById("tableSub").textContent = "Classificação atual \u00b7 clique para filtrar";
+      head.innerHTML = "<tr><th>#</th><th>Atleta</th><th>Pa\u00eds</th><th>Idade</th><th>Hard</th><th>Saibro</th><th>Grama</th></tr>";
       body.innerHTML = entitiesForSport().map(function (name) {
         var p = TENIS.atletas[name];
         return '<tr data-ent="' + name + '" class="' + (selectedEntity === name ? "selected-row" : "") + '">' +
-          "<td>" + name + "</td><td>" + p.pais + '</td><td class="num">' + p.rating +
-          '</td><td class="num">' + pct(p.holdPct) + '</td><td class="num">' + pct(p.breakPct) +
-          '</td><td class="num">' + pct(p.acePct) + "</td></tr>";
+          '<td class="num">' + p.ranking + "</td><td>" + p.nome + "</td><td>" + p.pais +
+          '</td><td class="num">' + p.idade +
+          '</td><td class="num">' + pct(p.hardPct) + '</td><td class="num">' + pct(p.clayPct) +
+          '</td><td class="num">' + pct(p.grassPct) + "</td></tr>";
       }).join("");
     } else if (sport === "ufc") {
       document.getElementById("tableTitle").textContent = "Lutadores";
+      document.getElementById("tableSub").textContent = "Estat\u00edsticas do filtro atual";
       head.innerHTML = "<tr><th>Lutador</th><th>Pa\u00eds</th><th>Categoria</th><th>Rating</th><th>KO</th><th>SUB</th><th>DEC</th></tr>";
       body.innerHTML = entitiesForSport().map(function (name) {
         var f = UFC.atletas[name];
@@ -519,6 +572,7 @@
       }).join("");
     } else {
       document.getElementById("tableTitle").textContent = "Times";
+      document.getElementById("tableSub").textContent = "Estat\u00edsticas do filtro atual";
       head.innerHTML = "<tr><th>Time</th><th>Rating</th><th>PPG</th><th>OPP</th><th>Pace</th></tr>";
       body.innerHTML = entitiesForSport().map(function (name) {
         var t = BASQ.times[name];
@@ -566,7 +620,7 @@
     if (sport === "futebol") {
       el.innerHTML = "<strong>Modelo matem\u00e1tico \u2014 Futebol</strong><p>Poisson independente para gols de mandante/visitante, com ajuste Dixon-Coles nos placares baixos. Gera 1X2, BTTS, Over/Under, handicap, escanteios e placar correto com odds decimais.</p>";
     } else if (sport === "tenis") {
-      el.innerHTML = "<strong>Modelo matem\u00e1tico \u2014 T\u00eanis</strong><p>Bradley-Terry/Elo com rating, hold%, break% e superf\u00edcie. Totais de games via Normal. Sets estimados por probabilidade independente de set.</p>";
+      el.innerHTML = "<strong>Modelo matem\u00e1tico \u2014 T\u00eanis</strong><p>Bradley-Terry com <strong>ranking ATP/WTA</strong>, <strong>idade</strong> (pico 24\u201328, penalidade 35+) e <strong>% de vit\u00f3ria por superf\u00edcie</strong> (hard, saibro, grama). Totais de games via Normal. ATP e WTA separados.</p>";
     } else if (sport === "ufc") {
       el.innerHTML = "<strong>Modelo matem\u00e1tico \u2014 UFC</strong><p>Bradley-Terry com rating, alcance e perfil de finish (KO/SUB/DEC). Mercados de vencedor, m\u00e9todo, dura\u00e7\u00e3o e round betting.</p>";
     } else {
@@ -598,7 +652,8 @@
     document.getElementById("pageTitle").textContent = "Bet da Josi \u2014 " + titles[sport];
     document.getElementById("headerBadge").textContent = selectedEntity ? label(selectedEntity) : "Bet da Josi";
     document.getElementById("metaInfo").textContent =
-      titles[sport] + " \u00b7 Hoje " + fmtData(todayISO) + " \u00b7 " + currentGames().length + " eventos no calend\u00e1rio";
+      titles[sport] + (sport === "tenis" ? (" \u00b7 " + (tenisGenero === "M" ? "ATP" : "WTA")) : "") +
+      " \u00b7 Hoje " + fmtData(todayISO) + " \u00b7 " + currentGames().length + " eventos no calend\u00e1rio";
 
     populateFilters();
     updateGlossario();
@@ -621,6 +676,7 @@
         sport = tab.getAttribute("data-sport");
         selectedComp = "todos";
         selectedEntity = "";
+        if (sport === "tenis") tenisGenero = "M";
         analyzeTarget = null;
         renderAll(true);
       };
@@ -628,6 +684,12 @@
 
     document.getElementById("compFilter").onchange = function (e) {
       selectedComp = e.target.value;
+      analyzeTarget = null;
+      renderAll(false);
+    };
+    document.getElementById("tenisGeneroFilter").onchange = function (e) {
+      tenisGenero = e.target.value;
+      selectedEntity = "";
       analyzeTarget = null;
       renderAll(false);
     };

@@ -194,51 +194,86 @@
   }
 
   /* --- Tenis: Bradley-Terry / Elo --- */
+  function tennisAgeFactor(age) {
+    if (!age) return 0;
+    if (age >= 24 && age <= 28) return 4;
+    if (age >= 22 && age <= 30) return 1.5;
+    if (age >= 35) return -5 - (age - 35) * 0.9;
+    if (age <= 19) return -1.5;
+    return 0;
+  }
+
+  function tennisSurfacePct(p, surface) {
+    if (surface === "Clay") return p.clayPct || 70;
+    if (surface === "Grass") return p.grassPct || 70;
+    return p.hardPct || 70;
+  }
+
   function tennisAnalyze(p1, p2, ctx) {
-    p1 = p1 || { nome: "A", rating: 75, holdPct: 75, breakPct: 22, acePct: 8, avgGames: 22 };
-    p2 = p2 || { nome: "B", rating: 75, holdPct: 75, breakPct: 22, acePct: 8, avgGames: 22 };
-    var diff = (p1.rating - p2.rating) + ((p1.holdPct - p2.holdPct) * 0.08) + ((p1.breakPct - p2.breakPct) * 0.12);
-    if (ctx.superficie === "Grass") diff += (p1.acePct - p2.acePct) * 0.15;
-    if (ctx.superficie === "Clay") diff += ((p1.breakPct || 22) - (p2.breakPct || 22)) * 0.2;
-    // Bradley-Terry
-    var win1 = clamp(round0(100 / (1 + Math.pow(10, -diff / 18))), 28, 82);
+    p1 = p1 || { nome: "A", rating: 75, ranking: 50, idade: 27, holdPct: 75, breakPct: 22, acePct: 10, avgGames: 22, hardPct: 70, clayPct: 70, grassPct: 70 };
+    p2 = p2 || { nome: "B", rating: 75, ranking: 50, idade: 27, holdPct: 75, breakPct: 22, acePct: 10, avgGames: 22, hardPct: 70, clayPct: 70, grassPct: 70 };
+    var surface = ctx.superficie || "Hard";
+    var surfLabel = surface === "Clay" ? "saibro" : surface === "Grass" ? "grama" : "hard";
+
+    var rankDiff = (p2.ranking || 50) - (p1.ranking || 50);
+    var rankScore = rankDiff * 3.2;
+    var ageDiff = tennisAgeFactor(p1.idade) - tennisAgeFactor(p2.idade);
+    var surfDiff = (tennisSurfacePct(p1, surface) - tennisSurfacePct(p2, surface)) * 0.42;
+    var statDiff = (p1.rating - p2.rating) * 0.28 +
+      ((p1.holdPct - p2.holdPct) * 0.05) +
+      ((p1.breakPct - p2.breakPct) * 0.09);
+
+    var diff = rankScore + ageDiff + surfDiff + statDiff;
+    if (surface === "Grass") diff += (p1.acePct - p2.acePct) * 0.14;
+    if (surface === "Clay") diff += ((p1.breakPct || 22) - (p2.breakPct || 22)) * 0.2;
+
+    var win1 = clamp(round0(100 / (1 + Math.pow(10, -diff / 13.5))), 22, 88);
     var win2 = 100 - win1;
     var pSet = win1 / 100;
-    // Best of 3: P(2-0)=p^2, P(2-1)=2p^2(1-p) roughly with indep sets (pSet)
-    var sets20 = clamp(round0(pSet * pSet * 100), 18, 58);
-    var sets21 = clamp(round0(2 * pSet * pSet * (1 - pSet) * 100 / Math.max(0.01, pSet)), 18, 42);
-    // better: P(2-1)=2 * p^2 * (1-p)
-    sets21 = clamp(round0(2 * Math.pow(pSet, 2) * (1 - pSet) * 100), 16, 42);
-    var totalGames = ((p1.avgGames || 22) + (p2.avgGames || 22)) / 2 + Math.abs(diff) * 0.08;
+    var sets20 = clamp(round0(Math.pow(pSet, 2) * 100), 16, 58);
+    var sets21 = clamp(round0(2 * Math.pow(pSet, 2) * (1 - pSet) * 100), 14, 42);
+    var totalGames = ((p1.avgGames || 22) + (p2.avgGames || 22)) / 2 + Math.abs(diff) * 0.06;
+    if (surface === "Clay") totalGames += 1.2;
+    if (surface === "Grass") totalGames -= 0.8;
+
     function ouGames(line) {
       return clamp(round0((1 - normalCdf(line + 0.5, totalGames, 3.2)) * 100), 25, 78);
     }
     var over22 = ouGames(22.5);
     var over21 = ouGames(21.5);
-    var firstSet = clamp(round0(win1 * 0.9 + 5), 30, 75);
-    var tb = clamp(round0(32 + Math.abs(diff) * -0.5 + ((p1.acePct + p2.acePct) / 2) * 0.25), 18, 48);
+    var firstSet = clamp(round0(win1 * 0.92 + 3), 30, 78);
+    var tb = clamp(round0(32 + Math.abs(diff) * -0.45 + ((p1.acePct + p2.acePct) / 2) * 0.3), 18, 48);
+
+    var rankMotivo = "#" + (p1.ranking || "?") + " vs #" + (p2.ranking || "?");
+    var surfMotivo = surfLabel + " " + tennisSurfacePct(p1, surface) + "% vs " + tennisSurfacePct(p2, surface) + "%";
+    var ageMotivo = p1.idade + "a vs " + p2.idade + "a";
 
     var markets = [];
     function add(grupo, mercado, prob, motivo) {
       markets.push({ grupo: grupo, mercado: mercado, prob: prob, odd: toOdd(prob), conf: confLabel(prob), motivo: motivo });
     }
-    add("Vencedor da Partida", p1.nome + " vence", win1, "Bradley-Terry (rating + serve)");
-    add("Vencedor da Partida", p2.nome + " vence", win2, "Bradley-Terry");
-    add("Handicap de Games", p1.nome + " -2.5", clamp(win1 - 9, 24, 62), "Game handicap");
-    add("Handicap de Games", p2.nome + " +2.5", clamp(100 - (win1 - 9), 32, 76), "Recebe games");
-    add("Total de Games", "Over 21.5", over21, "Normal(mu=" + totalGames.toFixed(1) + ", sigma=3.2)");
+    add("Vencedor da Partida", p1.nome + " vence", win1, rankMotivo + " · " + surfMotivo);
+    add("Vencedor da Partida", p2.nome + " vence", win2, rankMotivo + " · " + ageMotivo);
+    add("Handicap de Games", p1.nome + " -2.5", clamp(win1 - 10, 22, 64), "Ranking + superfície");
+    add("Handicap de Games", p2.nome + " +2.5", clamp(100 - (win1 - 10), 30, 78), "Recebe games");
+    add("Total de Games", "Over 21.5", over21, "Normal(mu=" + totalGames.toFixed(1) + ") · " + surfLabel);
     add("Total de Games", "Over 22.5", over22, "Linha principal");
     add("Total de Games", "Under 22.5", 100 - over22, "Jogo curto");
-    add("Placar em Sets", p1.nome + " 2-0", sets20, "P(set)^2 independente");
-    add("Placar em Sets", p1.nome + " 2-1", sets21, "2 * p^2 * (1-p)");
-    add("1o Set", p1.nome + " vence o 1o set", firstSet, "Correlacionado ao moneyline");
-    add("Especiais", "Havera tie-break", tb, "Aces + equilibrio de rating");
-    add("Especiais", p1.nome + " break no 1o set", clamp(round0((p1.breakPct || 22) * 1.55), 28, 70), "Break % historico");
+    add("Placar em Sets", p1.nome + " 2-0", sets20, "Favorito por ranking/superfície");
+    add("Placar em Sets", p1.nome + " 2-1", sets21, "Confronto equilibrado");
+    add("1o Set", p1.nome + " vence o 1o set", firstSet, rankMotivo);
+    add("Especiais", "Havera tie-break", tb, surface === "Hard" ? "Hard favorece breaks" : surfLabel);
+    add("Especiais", p1.nome + " break no 1o set", clamp(round0((p1.breakPct || 22) * 1.6), 28, 72), "Break % + ranking");
 
     markets.sort(function (a, b) { return b.prob - a.prob; });
-    var top = markets.filter(function (m) { return m.prob >= 54 && m.prob <= 78; }).slice(0, 5);
+    var top = markets.filter(function (m) { return m.prob >= 54 && m.prob <= 82; }).slice(0, 5);
     if (top.length < 3) top = markets.slice(0, 5);
-    return { markets: markets, topPicks: top, win1: win1, win2: win2, modelo: "Bradley-Terry + Normal games" };
+    return {
+      markets: markets, topPicks: top, win1: win1, win2: win2,
+      modelo: "Ranking + idade + superfície (Bradley-Terry)",
+      superficie: surface,
+      rankP1: p1.ranking, rankP2: p2.ranking
+    };
   }
 
   /* --- Basquete: Normal para margem e totais --- */

@@ -207,6 +207,8 @@ body {
 .comp-badge.comp-brasileirao, .comp-badge.comp-nba { background: #e5f0fc; color: #1859a8; }
 .comp-badge.comp-nbb { background: var(--accent-soft); color: var(--accent); }
 .comp-badge.comp-euroleague, .comp-badge.comp-atp1000, .comp-badge.comp-grandslam { background: #efe8ff; color: #5b3db8; }
+.comp-badge.comp-atp { background: #e5f0fc; color: #1859a8; }
+.comp-badge.comp-wta { background: #fce8f0; color: #a8326b; }
 .comp-badge.comp-fightnight { background: #ffe8e0; color: #9a3a1a; }
 .comp-badge.comp-ppv { background: #1a1a1a; color: #f5c518; }
 .comp-badge.comp-noche { background: #ffe6f0; color: #9a1a4a; }
