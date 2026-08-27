@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bet da Josi 2026 — Futebol, Tênis e Basquete</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <nav class="sport-tabs" aria-label="Esportes">
+      <button type="button" class="sport-tab active" data-sport="futebol"><span class="tab-ico">⚽</span> Futebol</button>
+      <button type="button" class="sport-tab" data-sport="tenis"><span class="tab-ico">🎾</span> Tênis</button>
+      <button type="button" class="sport-tab" data-sport="basquete"><span class="tab-ico">🏀</span> Basquete</button>
+    </nav>
+
+    <header class="header">
+      <div class="brand-mark">BET<br/>JOSI</div>
+      <div>
+        <span class="badge" id="headerBadge">Bet da Josi</span>
+        <h1 id="pageTitle">Bet da Josi 2026</h1>
+        <p class="sub" id="metaInfo">Carregando…</p>
+      </div>
+      <div class="header-today" id="todayClock" aria-live="polite"></div>
+    </header>
+
+    <section class="filters" aria-label="Filtros">
+      <div class="filter-group">
+        <label for="compFilter">Campeonato / Circuito</label>
+        <select id="compFilter"></select>
+      </div>
+      <div class="filter-group">
+        <label for="teamFilter">Time / Atleta <span class="filter-count" id="teamsCount"></span></label>
+        <select id="teamFilter"></select>
+      </div>
+      <div class="filter-group grow">
+        <label for="searchInput">Buscar</label>
+        <input id="searchInput" type="search" placeholder="Filtrar tabela…" />
+      </div>
+    </section>
+
+    <aside class="glossario-box" id="glossarioBox">
+      <div class="glossario-icon">📊</div>
+      <div id="glossarioText"></div>
+    </aside>
+
+    <section class="calendar-section">
+      <div class="panel panel-field">
+        <div class="panel-head calendar-head">
+          <div>
+            <h2>Calendário 2026</h2>
+            <p>Abre na data de hoje. Clique para ver os jogos do dia.</p>
+          </div>
+          <div class="calendar-nav">
+            <button type="button" id="btnPrevMonth" class="cal-btn" aria-label="Mês anterior">←</button>
+            <span id="calMonthLabel" class="cal-month-label">Agosto 2026</span>
+            <button type="button" id="btnNextMonth" class="cal-btn" aria-label="Próximo mês">→</button>
+            <button type="button" id="btnToday" class="cal-btn cal-btn-today">Hoje</button>
+          </div>
+        </div>
+        <div class="panel-body">
+          <div class="cal-weekdays"><span>Dom</span><span>Seg</span><span>Ter</span><span>Qua</span><span>Qui</span><span>Sex</span><span>Sáb</span></div>
+          <div id="calendarGrid" class="calendar-grid"></div>
+          <div class="cal-legend">
+            <span><i class="dot dot-past"></i> Jogado</span>
+            <span><i class="dot dot-today"></i> Hoje</span>
+            <span><i class="dot dot-future"></i> Futuro</span>
+            <span><i class="dot dot-copa"></i> Destaque</span>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-field day-panel">
+        <div class="panel-head">
+          <h2 id="dayTitle">Jogos do dia</h2>
+          <p id="daySubtitle">Selecione uma data</p>
+        </div>
+        <div class="panel-body" id="dayGamesBody"><div class="empty">Carregando…</div></div>
+      </div>
+    </section>
+
+    <div class="hint-box" id="hintBox">
+      Selecione um jogo futuro ou um time/atleta para ver análises com probabilidade e odd decimal.
+    </div>
+
+    <section id="fixturesContainer" class="fixtures-container"></section>
+    <section class="kpi-grid" id="kpiGrid"></section>
+
+    <div class="grid-2">
+      <article class="panel panel-field">
+        <div class="panel-head">
+          <h2 id="tableTitle">Resumo</h2>
+          <p id="tableSub">Estatísticas do filtro atual</p>
+        </div>
+        <div class="panel-body table-wrap">
+          <table>
+            <thead id="teamsTableHead"></thead>
+            <tbody id="teamsTableBody"></tbody>
+          </table>
+        </div>
+      </article>
+      <article class="panel panel-field">
+        <div class="panel-head">
+          <h2>Histórico recente</h2>
+          <p>Resultados passados no filtro</p>
+        </div>
+        <div class="panel-body table-wrap">
+          <table>
+            <thead>
+              <tr><th>Data</th><th>Comp</th><th>Confronto</th><th>Placar</th></tr>
+            </thead>
+            <tbody id="matchesTableBody"></tbody>
+          </table>
+          <div class="empty" id="matchesEmpty" style="display:none">Nenhum resultado.</div>
+        </div>
+      </article>
+    </div>
+
+    <footer class="footer">
+      <p><strong>Bet da Josi</strong> — modelo estatístico: Poisson (futebol), Bradley-Terry (tênis) e Normal (basquete).</p>
+      <p style="margin-top:0.4rem"><strong>Aviso:</strong> Probabilidades e odds são estimativas para apoio à análise, não cotações oficiais. 18+ jogue com responsabilidade.</p>
+    </footer>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="calendario.js"></script>
+  <script src="tenis-data.js"></script>
+  <script src="basquete-data.js"></script>
+  <script src="markets-engine.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
