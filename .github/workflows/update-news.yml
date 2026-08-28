@@ -17,14 +17,14 @@ jobs:
       - name: Buscar notícias do ge.globo.com
         run: python3 "Cursor - Bet das Apostas/scripts/fetch-ge-news.py"
 
+      - name: Atualizar placares e estatísticas dos jogos finalizados
+        run: python3 "Cursor - Bet das Apostas/scripts/update-from-results.py"
+
       - name: Gerar intel (xG, descanso, desfalques)
         run: python3 "Cursor - Bet das Apostas/scripts/fetch-football-intel.py"
 
       - name: Gerar odds de mercado
         run: python3 "Cursor - Bet das Apostas/scripts/fetch-odds.py"
-
-      - name: Gerar placares ao vivo
-        run: python3 "Cursor - Bet das Apostas/scripts/fetch-live-scores.py"
 
       - name: Commit em main
         run: |
@@ -34,13 +34,15 @@ jobs:
                   "Cursor - Bet das Apostas/docs/live/intel.json" \
                   "Cursor - Bet das Apostas/docs/live/odds.json" \
                   "Cursor - Bet das Apostas/docs/live/scores.json" \
+                  "Cursor - Bet das Apostas/docs/live/results.json" \
                   "Cursor - Bet das Apostas/docs/live/football.json" \
                   "Cursor - Bet das Apostas/copa-brasil-apostas/live/news.json" \
                   "Cursor - Bet das Apostas/copa-brasil-apostas/live/intel.json" \
                   "Cursor - Bet das Apostas/copa-brasil-apostas/live/odds.json" \
                   "Cursor - Bet das Apostas/copa-brasil-apostas/live/scores.json" \
+                  "Cursor - Bet das Apostas/copa-brasil-apostas/live/results.json" \
                   "Cursor - Bet das Apostas/copa-brasil-apostas/live/football.json"
-          git diff --staged --quiet || git commit -m "chore: atualizar notícias, intel, odds e placares ao vivo"
+          git diff --staged --quiet || git commit -m "chore: atualizar resultados, estatísticas e dados ao vivo"
           git push
 
       - name: Publicar em gh-pages
@@ -49,6 +51,7 @@ jobs:
           cp "Cursor - Bet das Apostas/docs/live/intel.json" intel.json.tmp
           cp "Cursor - Bet das Apostas/docs/live/odds.json" odds.json.tmp
           cp "Cursor - Bet das Apostas/docs/live/scores.json" scores.json.tmp
+          cp "Cursor - Bet das Apostas/docs/live/results.json" results.json.tmp
           cp "Cursor - Bet das Apostas/docs/live/football.json" football.json.tmp
           git fetch origin gh-pages
           git checkout gh-pages
@@ -57,7 +60,8 @@ jobs:
           mv intel.json.tmp live/intel.json
           mv odds.json.tmp live/odds.json
           mv scores.json.tmp live/scores.json
+          mv results.json.tmp live/results.json
           mv football.json.tmp live/football.json
-          git add live/news.json live/intel.json live/odds.json live/scores.json live/football.json
-          git diff --staged --quiet || git commit -m "chore: atualizar notícias, intel, odds e placares ao vivo"
+          git add live/news.json live/intel.json live/odds.json live/scores.json live/results.json live/football.json
+          git diff --staged --quiet || git commit -m "chore: atualizar resultados, estatísticas e dados ao vivo"
           git push origin gh-pages

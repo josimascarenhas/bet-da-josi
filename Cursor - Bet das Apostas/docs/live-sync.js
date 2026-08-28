@@ -98,12 +98,19 @@
     });
   }
 
+  function mergeResults(data) {
+    if (!data) return;
+    global.RESULTS_DATA = data;
+  }
+
   global.LIVE_SYNC = {
     atualizadoEm: null,
     newsAtualizadoEm: null,
     intelAtualizadoEm: null,
     oddsAtualizadoEm: null,
     scoresAtualizadoEm: null,
+    statsAtualizadoEm: null,
+    resultsAtualizadoEm: null,
     status: "pendente",
     fetchAll: function () {
       global.LIVE_SYNC.status = "carregando";
@@ -113,11 +120,13 @@
         fetchJson("live/news.json"),
         fetchJson("live/intel.json"),
         fetchJson("live/odds.json"),
-        fetchJson("live/scores.json")
+        fetchJson("live/scores.json"),
+        fetchJson("live/results.json")
       ]).then(function (results) {
         if (results[0]) {
           mergeFootball(results[0]);
           global.LIVE_SYNC.atualizadoEm = results[0].meta && results[0].meta.atualizadoEm;
+          global.LIVE_SYNC.statsAtualizadoEm = results[0].meta && results[0].meta.atualizadoEm;
         }
         if (results[1]) {
           mergeTenis(results[1]);
@@ -140,6 +149,10 @@
         if (results[5]) {
           mergeScores(results[5]);
           global.LIVE_SYNC.scoresAtualizadoEm = results[5].meta && results[5].meta.atualizadoEm;
+        }
+        if (results[6]) {
+          mergeResults(results[6]);
+          global.LIVE_SYNC.resultsAtualizadoEm = results[6].meta && results[6].meta.atualizadoEm;
         }
         global.LIVE_SYNC.status = results.some(function (r) { return !!r; }) ? "ok" : "offline";
       }).catch(function () {

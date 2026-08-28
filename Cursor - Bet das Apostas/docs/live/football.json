@@ -1,7 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-28T14:33:03-03:00",
-    "fonte": "CBF / GE / modelo xG / calendário"
+    "atualizadoEm": "2026-08-28T17:41:00-03:00",
+    "fonte": "CBF / GE / modelo xG / calendário",
+    "jogosFinalizados": 247,
+    "timesAtualizados": 26,
+    "placaresFonte": "calendário"
   },
   "competicoes": {
     "brasileirao": {
@@ -14,15 +17,31 @@
         "posicao": 1,
         "pontos": 51,
         "ultimos5": [
-          "V 4-1 VAS",
-          "D 2-3 FLU",
+          "D 1-2 ATLMG",
+          "V 4-0",
           "E 0-0 INT",
-          "V 4-0 VIT",
-          "D 1-2 CAM"
+          "D 2-3",
+          "V 4-1 VAS"
         ],
         "sequencia": "1V",
-        "xGporJogo": 1.24,
-        "xGSporJogo": 1.24
+        "xGporJogo": 1.64,
+        "xGSporJogo": 0.94,
+        "jogos": 24,
+        "golsPorJogo": 1.79,
+        "golsSofridosPorJogo": 0.83,
+        "over25Pct": 58,
+        "bttsPct": 62,
+        "cleanSheetPct": 38,
+        "casa": {
+          "j": 12,
+          "gpg": 1.75,
+          "gsg": 0.75
+        },
+        "fora": {
+          "j": 12,
+          "gpg": 1.83,
+          "gsg": 0.92
+        }
       },
       "desfalques": [
         {
@@ -59,12 +78,48 @@
         "xGSporJogo": 1.11
       },
       "libertadores": {
-        "xGporJogo": 1.18,
-        "xGSporJogo": 1.18
+        "xGporJogo": 1.05,
+        "xGSporJogo": 0.69,
+        "jogos": 2,
+        "golsPorJogo": 1.0,
+        "golsSofridosPorJogo": 0.5,
+        "over25Pct": 0,
+        "bttsPct": 50,
+        "cleanSheetPct": 50,
+        "ultimos5": [
+          "E 1-1 CERPO",
+          "V 1-0"
+        ],
+        "sequencia": "1V",
+        "casa": {
+          "j": 1,
+          "gpg": 1.0,
+          "gsg": 1.0
+        },
+        "fora": {
+          "j": 1,
+          "gpg": 1.0,
+          "gsg": 0.0
+        }
       },
       "copa": {
-        "xGporJogo": 1.07,
-        "xGSporJogo": 1.07
+        "xGporJogo": 2.46,
+        "xGSporJogo": 0.3,
+        "jogos": 1,
+        "golsPorJogo": 3.0,
+        "golsSofridosPorJogo": 0.0,
+        "over25Pct": 100,
+        "bttsPct": 0,
+        "cleanSheetPct": 100,
+        "ultimos5": [
+          "V 3-0 SAN"
+        ],
+        "sequencia": "1V",
+        "casa": {
+          "j": 1,
+          "gpg": 3.0,
+          "gsg": 0.0
+        }
       },
       "premier-league": {
         "xGporJogo": 1.43,
@@ -88,15 +143,31 @@
         "posicao": 2,
         "pontos": 45,
         "ultimos5": [
-          "D 1-2 CRU",
+          "E 1-1 SAOPA",
+          "E 1-1",
           "V 2-0 VIT",
-          "V 3-1 INT",
-          "E 1-1 MIR",
-          "V 2-0 BAH"
+          "V 5-1",
+          "D 1-2"
         ],
         "sequencia": "1D",
-        "xGporJogo": 1.24,
-        "xGSporJogo": 1.24
+        "xGporJogo": 1.76,
+        "xGSporJogo": 1.0,
+        "jogos": 23,
+        "golsPorJogo": 1.96,
+        "golsSofridosPorJogo": 0.91,
+        "over25Pct": 61,
+        "bttsPct": 52,
+        "cleanSheetPct": 39,
+        "casa": {
+          "j": 10,
+          "gpg": 1.9,
+          "gsg": 0.8
+        },
+        "fora": {
+          "j": 13,
+          "gpg": 2.0,
+          "gsg": 1.0
+        }
       },
       "desfalques": [
         {
@@ -127,8 +198,29 @@
         "xGSporJogo": 1.11
       },
       "libertadores": {
-        "xGporJogo": 1.18,
-        "xGSporJogo": 1.18
+        "xGporJogo": 1.77,
+        "xGSporJogo": 1.05,
+        "jogos": 2,
+        "golsPorJogo": 2.0,
+        "golsSofridosPorJogo": 1.0,
+        "over25Pct": 100,
+        "bttsPct": 100,
+        "cleanSheetPct": 0,
+        "ultimos5": [
+          "V 2-1 CRU",
+          "V 2-1"
+        ],
+        "sequencia": "2V",
+        "casa": {
+          "j": 1,
+          "gpg": 2.0,
+          "gsg": 1.0
+        },
+        "fora": {
+          "j": 1,
+          "gpg": 2.0,
+          "gsg": 1.0
+        }
       },
       "copa": {
         "xGporJogo": 1.07,
@@ -156,15 +248,31 @@
         "posicao": 3,
         "pontos": 41,
         "ultimos5": [
-          "V 2-1 BOT",
-          "E 1-1 REM",
-          "V 2-0 CHA",
-          "D 0-1 FLU",
-          "V 1-0 COR"
+          "V 2-0 INT",
+          "E 0-0",
+          "V 2-0",
+          "E 1-1 BRA",
+          "V 3-2"
         ],
         "sequencia": "1V",
-        "xGporJogo": 1.24,
-        "xGSporJogo": 1.24
+        "xGporJogo": 1.37,
+        "xGSporJogo": 1.01,
+        "jogos": 24,
+        "golsPorJogo": 1.42,
+        "golsSofridosPorJogo": 0.92,
+        "over25Pct": 42,
+        "bttsPct": 50,
+        "cleanSheetPct": 33,
+        "casa": {
+          "j": 12,
+          "gpg": 1.67,
+          "gsg": 0.58
+        },
+        "fora": {
+          "j": 12,
+          "gpg": 1.17,
+          "gsg": 1.25
+        }
       },
       "desfalques": [],
       "retornando": [
@@ -224,15 +332,31 @@
         "posicao": 4,
         "pontos": 41,
         "ultimos5": [
+          "E 1-1",
+          "E 0-0 BAH",
+          "E 1-1",
           "V 3-2 PAL",
-          "E 1-1 GRE",
-          "V 2-0 CAP",
-          "D 0-2 BAH",
-          "E 2-2 REM"
+          "V 2-1 REM"
         ],
-        "sequencia": "1V",
-        "xGporJogo": 1.24,
-        "xGSporJogo": 1.24
+        "sequencia": "2V",
+        "xGporJogo": 1.4,
+        "xGSporJogo": 1.19,
+        "jogos": 24,
+        "golsPorJogo": 1.46,
+        "golsSofridosPorJogo": 1.17,
+        "over25Pct": 46,
+        "bttsPct": 71,
+        "cleanSheetPct": 21,
+        "casa": {
+          "j": 13,
+          "gpg": 1.69,
+          "gsg": 1.0
+        },
+        "fora": {
+          "j": 11,
+          "gpg": 1.18,
+          "gsg": 1.36
+        }
       },
       "desfalques": [
         {
@@ -263,8 +387,29 @@
         "xGSporJogo": 1.11
       },
       "libertadores": {
-        "xGporJogo": 1.18,
-        "xGSporJogo": 1.18
+        "xGporJogo": 0.69,
+        "xGSporJogo": 0.33,
+        "jogos": 2,
+        "golsPorJogo": 0.5,
+        "golsSofridosPorJogo": 0.0,
+        "over25Pct": 0,
+        "bttsPct": 0,
+        "cleanSheetPct": 100,
+        "ultimos5": [
+          "V 1-0 INDRI",
+          "E 0-0"
+        ],
+        "sequencia": "1E",
+        "casa": {
+          "j": 1,
+          "gpg": 1.0,
+          "gsg": 0.0
+        },
+        "fora": {
+          "j": 1,
+          "gpg": 0.0,
+          "gsg": 0.0
+        }
       },
       "copa": {
         "xGporJogo": 1.07,
@@ -292,15 +437,31 @@
         "posicao": 5,
         "pontos": 39,
         "ultimos5": [
-          "V 2-1 FLA",
-          "V 2-1 COR",
+          "D 0-1 BOT",
+          "V 1-0",
           "V 3-1 MIR",
-          "V 1-0 COR-C",
-          "D 0-1 BOT"
+          "V 2-1",
+          "V 2-1 FLA"
         ],
-        "sequencia": "1V",
-        "xGporJogo": 1.24,
-        "xGSporJogo": 1.24
+        "sequencia": "4V",
+        "xGporJogo": 1.37,
+        "xGSporJogo": 1.34,
+        "jogos": 24,
+        "golsPorJogo": 1.42,
+        "golsSofridosPorJogo": 1.38,
+        "over25Pct": 62,
+        "bttsPct": 67,
+        "cleanSheetPct": 21,
+        "casa": {
+          "j": 13,
+          "gpg": 1.62,
+          "gsg": 1.15
+        },
+        "fora": {
+          "j": 11,
+          "gpg": 1.18,
+          "gsg": 1.64
+        }
       },
       "desfalques": [],
       "retornando": [
@@ -331,12 +492,48 @@
         "xGSporJogo": 1.11
       },
       "libertadores": {
-        "xGporJogo": 1.18,
-        "xGSporJogo": 1.18
+        "xGporJogo": 1.05,
+        "xGSporJogo": 1.77,
+        "jogos": 2,
+        "golsPorJogo": 1.0,
+        "golsSofridosPorJogo": 2.0,
+        "over25Pct": 100,
+        "bttsPct": 100,
+        "cleanSheetPct": 0,
+        "ultimos5": [
+          "D 1-2",
+          "D 1-2 FLA"
+        ],
+        "sequencia": "2D",
+        "casa": {
+          "j": 1,
+          "gpg": 1.0,
+          "gsg": 2.0
+        },
+        "fora": {
+          "j": 1,
+          "gpg": 1.0,
+          "gsg": 2.0
+        }
       },
       "copa": {
-        "xGporJogo": 1.07,
-        "xGSporJogo": 1.07
+        "xGporJogo": 1.02,
+        "xGSporJogo": 1.02,
+        "jogos": 1,
+        "golsPorJogo": 1.0,
+        "golsSofridosPorJogo": 1.0,
+        "over25Pct": 0,
+        "bttsPct": 100,
+        "cleanSheetPct": 0,
+        "ultimos5": [
+          "E 1-1 ATLMG"
+        ],
+        "sequencia": "1E",
+        "casa": {
+          "j": 1,
+          "gpg": 1.0,
+          "gsg": 1.0
+        }
       },
       "premier-league": {
         "xGporJogo": 1.43,
@@ -360,15 +557,31 @@
         "posicao": 6,
         "pontos": 37,
         "ultimos5": [
-          "V 2-0 VIT",
+          "E 1-1 COR",
+          "E 0-0",
           "E 0-0 VAS",
-          "V 2-0 FLU",
-          "E 1-1 CAM",
-          "D 0-1 RBB"
+          "E 3-3",
+          "V 2-0"
         ],
         "sequencia": "1V",
-        "xGporJogo": 1.24,
-        "xGSporJogo": 1.24
+        "xGporJogo": 1.37,
+        "xGSporJogo": 1.19,
+        "jogos": 24,
+        "golsPorJogo": 1.42,
+        "golsSofridosPorJogo": 1.17,
+        "over25Pct": 46,
+        "bttsPct": 62,
+        "cleanSheetPct": 33,
+        "casa": {
+          "j": 12,
+          "gpg": 1.42,
+          "gsg": 0.92
+        },
+        "fora": {
+          "j": 12,
+          "gpg": 1.42,
+          "gsg": 1.42
+        }
       },
       "desfalques": [
         {
@@ -428,15 +641,31 @@
         "posicao": 7,
         "pontos": 35,
         "ultimos5": [
-          "D 1-2 CAP",
-          "V 2-0 BAH",
-          "E 1-1 INT",
-          "D 0-2 FLA",
-          "V 1-0 CHA"
+          "E 1-1",
+          "E 0-0 COR",
+          "D 0-2 COR",
+          "E 1-1",
+          "V 1-0 GRE"
         ],
-        "sequencia": "1D",
-        "xGporJogo": 1.24,
-        "xGSporJogo": 1.24
+        "sequencia": "1V",
+        "xGporJogo": 1.13,
+        "xGSporJogo": 1.03,
+        "jogos": 22,
+        "golsPorJogo": 1.09,
+        "golsSofridosPorJogo": 0.95,
+        "over25Pct": 32,
+        "bttsPct": 41,
+        "cleanSheetPct": 36,
+        "casa": {
+          "j": 11,
+          "gpg": 1.18,
+          "gsg": 0.82
+        },
+        "fora": {
+          "j": 11,
+          "gpg": 1.0,
+          "gsg": 1.09
+        }
       },
       "desfalques": [],
       "retornando": [],
@@ -490,15 +719,31 @@
         "posicao": 8,
         "pontos": 34,
         "ultimos5": [
-          "V 2-1 REM",
-          "E 1-1 MIR",
-          "D 0-2 BOT",
-          "V 1-0 CHA",
-          "E 2-2 FLU"
+          "E 0-0",
+          "D 0-1 CRU",
+          "V 2-1 CHA",
+          "E 1-1",
+          "V 2-1 COR"
         ],
         "sequencia": "1V",
-        "xGporJogo": 1.24,
-        "xGSporJogo": 1.24
+        "xGporJogo": 1.25,
+        "xGSporJogo": 1.28,
+        "jogos": 24,
+        "golsPorJogo": 1.25,
+        "golsSofridosPorJogo": 1.29,
+        "over25Pct": 46,
+        "bttsPct": 50,
+        "cleanSheetPct": 25,
+        "casa": {
+          "j": 12,
+          "gpg": 1.25,
+          "gsg": 1.17
+        },
+        "fora": {
+          "j": 12,
+          "gpg": 1.25,
+          "gsg": 1.42
+        }
       },
       "desfalques": [
         {
@@ -558,15 +803,31 @@
         "posicao": 9,
         "pontos": 33,
         "ultimos5": [
-          "E 0-0 INT",
+          "E 1-1 BAH",
+          "V 2-1",
+          "E 2-2",
           "V 3-0 GRE",
-          "E 2-2 REM",
-          "V 2-1 PAL",
-          "E 1-1 BAH"
+          "E 0-0"
         ],
         "sequencia": "1E",
-        "xGporJogo": 1.24,
-        "xGSporJogo": 1.24
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.19,
+        "jogos": 23,
+        "golsPorJogo": 1.3,
+        "golsSofridosPorJogo": 1.17,
+        "over25Pct": 48,
+        "bttsPct": 43,
+        "cleanSheetPct": 26,
+        "casa": {
+          "j": 10,
+          "gpg": 1.7,
+          "gsg": 1.3
+        },
+        "fora": {
+          "j": 13,
+          "gpg": 1.0,
+          "gsg": 1.08
+        }
       },
       "desfalques": [
         {
@@ -607,8 +868,23 @@
         "xGSporJogo": 1.18
       },
       "copa": {
-        "xGporJogo": 1.07,
-        "xGSporJogo": 1.07
+        "xGporJogo": 1.02,
+        "xGSporJogo": 1.02,
+        "jogos": 1,
+        "golsPorJogo": 1.0,
+        "golsSofridosPorJogo": 1.0,
+        "over25Pct": 0,
+        "bttsPct": 100,
+        "cleanSheetPct": 0,
+        "ultimos5": [
+          "E 1-1"
+        ],
+        "sequencia": "1E",
+        "fora": {
+          "j": 1,
+          "gpg": 1.0,
+          "gsg": 1.0
+        }
       },
       "premier-league": {
         "xGporJogo": 1.43,
@@ -632,15 +908,31 @@
         "posicao": 10,
         "pontos": 32,
         "ultimos5": [
-          "V 2-1 CRU",
-          "D 1-2 INT",
-          "E 1-1 RBB",
-          "D 0-1 CAP",
-          "V 1-0 CHA"
+          "E 1-1",
+          "E 0-0 ATHPR",
+          "V 2-0",
+          "D 1-2 CRU",
+          "D 1-2"
         ],
-        "sequencia": "1V",
-        "xGporJogo": 1.24,
-        "xGSporJogo": 1.24
+        "sequencia": "2D",
+        "xGporJogo": 1.12,
+        "xGSporJogo": 1.07,
+        "jogos": 24,
+        "golsPorJogo": 1.08,
+        "golsSofridosPorJogo": 1.0,
+        "over25Pct": 38,
+        "bttsPct": 50,
+        "cleanSheetPct": 42,
+        "casa": {
+          "j": 12,
+          "gpg": 1.08,
+          "gsg": 0.83
+        },
+        "fora": {
+          "j": 12,
+          "gpg": 1.08,
+          "gsg": 1.17
+        }
       },
       "desfalques": [
         {
@@ -676,8 +968,29 @@
         "xGSporJogo": 1.11
       },
       "libertadores": {
-        "xGporJogo": 1.18,
-        "xGSporJogo": 1.18
+        "xGporJogo": 0.69,
+        "xGSporJogo": 0.33,
+        "jogos": 2,
+        "golsPorJogo": 0.5,
+        "golsSofridosPorJogo": 0.0,
+        "over25Pct": 0,
+        "bttsPct": 0,
+        "cleanSheetPct": 100,
+        "ultimos5": [
+          "E 0-0",
+          "V 1-0 ROSCE"
+        ],
+        "sequencia": "1V",
+        "casa": {
+          "j": 1,
+          "gpg": 1.0,
+          "gsg": 0.0
+        },
+        "fora": {
+          "j": 1,
+          "gpg": 0.0,
+          "gsg": 0.0
+        }
       },
       "copa": {
         "xGporJogo": 1.07,
@@ -705,15 +1018,31 @@
         "posicao": 11,
         "pontos": 30,
         "ultimos5": [
-          "D 1-2 CAP",
-          "V 2-0 CFC",
-          "E 2-2 FLU",
-          "D 1-2 REM",
-          "V 1-0 MIR"
+          "E 0-0 VIT",
+          "V 1-0",
+          "E 1-1 FLU",
+          "D 0-1",
+          "D 2-3 ATHPR"
         ],
-        "sequencia": "1D",
-        "xGporJogo": 1.24,
-        "xGSporJogo": 1.24
+        "sequencia": "2D",
+        "xGporJogo": 1.51,
+        "xGSporJogo": 1.51,
+        "jogos": 23,
+        "golsPorJogo": 1.61,
+        "golsSofridosPorJogo": 1.61,
+        "over25Pct": 70,
+        "bttsPct": 74,
+        "cleanSheetPct": 13,
+        "casa": {
+          "j": 11,
+          "gpg": 1.82,
+          "gsg": 1.55
+        },
+        "fora": {
+          "j": 12,
+          "gpg": 1.42,
+          "gsg": 1.67
+        }
       },
       "desfalques": [],
       "retornando": [
@@ -773,15 +1102,31 @@
         "posicao": 12,
         "pontos": 29,
         "ultimos5": [
-          "D 0-2 FLA",
-          "D 0-2 BAH",
-          "V 1-0 BOT",
+          "D 0-2",
           "D 0-4 PAL",
-          "V 2-0 SAO"
+          "D 0-2",
+          "V 1-0 BOT",
+          "D 0-2 BAH"
         ],
         "sequencia": "1D",
-        "xGporJogo": 1.24,
-        "xGSporJogo": 1.24
+        "xGporJogo": 1.04,
+        "xGSporJogo": 1.4,
+        "jogos": 24,
+        "golsPorJogo": 0.96,
+        "golsSofridosPorJogo": 1.46,
+        "over25Pct": 33,
+        "bttsPct": 33,
+        "cleanSheetPct": 38,
+        "casa": {
+          "j": 12,
+          "gpg": 1.33,
+          "gsg": 0.75
+        },
+        "fora": {
+          "j": 12,
+          "gpg": 0.58,
+          "gsg": 2.17
+        }
       },
       "desfalques": [
         {
@@ -816,8 +1161,23 @@
         "xGSporJogo": 1.18
       },
       "copa": {
-        "xGporJogo": 1.07,
-        "xGSporJogo": 1.07
+        "xGporJogo": 0.3,
+        "xGSporJogo": 1.02,
+        "jogos": 1,
+        "golsPorJogo": 0.0,
+        "golsSofridosPorJogo": 1.0,
+        "over25Pct": 0,
+        "bttsPct": 0,
+        "cleanSheetPct": 0,
+        "ultimos5": [
+          "D 0-1"
+        ],
+        "sequencia": "1D",
+        "fora": {
+          "j": 1,
+          "gpg": 0.0,
+          "gsg": 1.0
+        }
       },
       "premier-league": {
         "xGporJogo": 1.43,
@@ -841,15 +1201,31 @@
         "posicao": 13,
         "pontos": 27,
         "ultimos5": [
-          "D 0-1 CHA",
-          "E 1-1 REM",
-          "V 2-1 GRE",
-          "D 0-2 VIT",
-          "E 0-0 FLU"
+          "D 1-2 ATHPR",
+          "E 1-1",
+          "D 1-2",
+          "E 1-1 COR",
+          "D 0-1"
         ],
         "sequencia": "1D",
-        "xGporJogo": 1.24,
-        "xGSporJogo": 1.24
+        "xGporJogo": 1.19,
+        "xGSporJogo": 1.19,
+        "jogos": 23,
+        "golsPorJogo": 1.17,
+        "golsSofridosPorJogo": 1.17,
+        "over25Pct": 39,
+        "bttsPct": 61,
+        "cleanSheetPct": 17,
+        "casa": {
+          "j": 10,
+          "gpg": 1.6,
+          "gsg": 0.9
+        },
+        "fora": {
+          "j": 13,
+          "gpg": 0.85,
+          "gsg": 1.38
+        }
       },
       "desfalques": [
         {
@@ -909,15 +1285,31 @@
         "posicao": 14,
         "pontos": 26,
         "ultimos5": [
-          "E 1-1 MIR",
-          "V 3-0 VAS",
-          "D 0-2 CAP",
+          "D 1-2",
           "E 2-2 CHA",
-          "D 1-2 BOT"
+          "D 0-2 ATHPR",
+          "V 3-0",
+          "E 1-1 MIR"
         ],
         "sequencia": "1E",
-        "xGporJogo": 1.24,
-        "xGSporJogo": 1.24
+        "xGporJogo": 1.38,
+        "xGSporJogo": 1.48,
+        "jogos": 23,
+        "golsPorJogo": 1.43,
+        "golsSofridosPorJogo": 1.57,
+        "over25Pct": 61,
+        "bttsPct": 70,
+        "cleanSheetPct": 22,
+        "casa": {
+          "j": 13,
+          "gpg": 1.38,
+          "gsg": 1.31
+        },
+        "fora": {
+          "j": 10,
+          "gpg": 1.5,
+          "gsg": 1.9
+        }
       },
       "desfalques": [
         {
@@ -958,8 +1350,23 @@
         "xGSporJogo": 1.18
       },
       "copa": {
-        "xGporJogo": 1.07,
-        "xGSporJogo": 1.07
+        "xGporJogo": 0.3,
+        "xGSporJogo": 2.46,
+        "jogos": 1,
+        "golsPorJogo": 0.0,
+        "golsSofridosPorJogo": 3.0,
+        "over25Pct": 100,
+        "bttsPct": 0,
+        "cleanSheetPct": 0,
+        "ultimos5": [
+          "D 0-3"
+        ],
+        "sequencia": "1D",
+        "fora": {
+          "j": 1,
+          "gpg": 0.0,
+          "gsg": 3.0
+        }
       },
       "premier-league": {
         "xGporJogo": 1.43,
@@ -983,15 +1390,31 @@
         "posicao": 15,
         "pontos": 25,
         "ultimos5": [
-          "D 0-1 RBB",
-          "D 0-3 CAM",
-          "V 2-1 SAO",
+          "D 1-2",
           "E 1-1 FLU",
-          "D 1-2 MIR"
+          "V 2-1 SAOPA",
+          "D 0-3",
+          "D 0-1"
         ],
-        "sequencia": "1D",
-        "xGporJogo": 1.24,
-        "xGSporJogo": 1.24
+        "sequencia": "2D",
+        "xGporJogo": 1.1,
+        "xGSporJogo": 1.32,
+        "jogos": 23,
+        "golsPorJogo": 1.04,
+        "golsSofridosPorJogo": 1.35,
+        "over25Pct": 43,
+        "bttsPct": 57,
+        "cleanSheetPct": 22,
+        "casa": {
+          "j": 11,
+          "gpg": 1.64,
+          "gsg": 1.18
+        },
+        "fora": {
+          "j": 12,
+          "gpg": 0.5,
+          "gsg": 1.5
+        }
       },
       "desfalques": [
         {
@@ -1051,15 +1474,31 @@
         "posicao": 16,
         "pontos": 25,
         "ultimos5": [
-          "E 0-0 CAM",
-          "E 1-1 REM",
-          "E 0-0 PAL",
+          "D 0-2",
           "E 1-1 FLA",
-          "D 0-2 CAP"
+          "E 0-0",
+          "E 1-1 REM",
+          "E 0-0 ATLMG"
         ],
-        "sequencia": "5E",
-        "xGporJogo": 1.24,
-        "xGSporJogo": 1.24
+        "sequencia": "4E",
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.15,
+        "jogos": 24,
+        "golsPorJogo": 1.0,
+        "golsSofridosPorJogo": 1.12,
+        "over25Pct": 33,
+        "bttsPct": 54,
+        "cleanSheetPct": 25,
+        "casa": {
+          "j": 13,
+          "gpg": 1.08,
+          "gsg": 0.92
+        },
+        "fora": {
+          "j": 11,
+          "gpg": 0.91,
+          "gsg": 1.36
+        }
       },
       "desfalques": [
         {
@@ -1130,15 +1569,31 @@
         "posicao": 17,
         "pontos": 24,
         "ultimos5": [
-          "E 1-1 SAN",
-          "E 1-1 FLA",
-          "D 1-3 CRU",
-          "E 1-1 CFC",
-          "V 2-1 GRE"
+          "E 1-1",
+          "V 2-1 REM",
+          "D 1-3",
+          "D 1-5 FLA",
+          "E 1-1"
         ],
-        "sequencia": "1V",
-        "xGporJogo": 1.24,
-        "xGSporJogo": 1.24
+        "sequencia": "1E",
+        "xGporJogo": 1.16,
+        "xGSporJogo": 1.48,
+        "jogos": 23,
+        "golsPorJogo": 1.13,
+        "golsSofridosPorJogo": 1.57,
+        "over25Pct": 57,
+        "bttsPct": 70,
+        "cleanSheetPct": 4,
+        "casa": {
+          "j": 12,
+          "gpg": 1.33,
+          "gsg": 1.5
+        },
+        "fora": {
+          "j": 11,
+          "gpg": 0.91,
+          "gsg": 1.64
+        }
       },
       "desfalques": [],
       "retornando": [],
@@ -1166,7 +1621,22 @@
         "xGporJogo": 1.34,
         "xGSporJogo": 1.16,
         "escanteiosPorJogo": 5.5,
-        "cartoesPorJogo": 2.6
+        "cartoesPorJogo": 2.6,
+        "jogos": 1,
+        "golsPorJogo": 0.0,
+        "golsSofridosPorJogo": 0.0,
+        "over25Pct": 0,
+        "bttsPct": 0,
+        "cleanSheetPct": 100,
+        "ultimos5": [
+          "E 0-0"
+        ],
+        "sequencia": "1E",
+        "fora": {
+          "j": 1,
+          "gpg": 0.0,
+          "gsg": 0.0
+        }
       },
       "copa": {
         "xGporJogo": 1.07,
@@ -1194,15 +1664,31 @@
         "posicao": 18,
         "pontos": 23,
         "ultimos5": [
-          "D 1-2 CFC",
-          "E 1-1 INT",
-          "E 2-2 FLU",
-          "V 2-1 BOT",
-          "E 1-1 CAP"
+          "V 2-0 VIT",
+          "D 1-2",
+          "E 2-2 ATLMG",
+          "E 1-1",
+          "D 1-2"
         ],
-        "sequencia": "1E",
-        "xGporJogo": 1.24,
-        "xGSporJogo": 1.24
+        "sequencia": "1D",
+        "xGporJogo": 1.16,
+        "xGSporJogo": 1.44,
+        "jogos": 23,
+        "golsPorJogo": 1.13,
+        "golsSofridosPorJogo": 1.52,
+        "over25Pct": 48,
+        "bttsPct": 57,
+        "cleanSheetPct": 13,
+        "casa": {
+          "j": 11,
+          "gpg": 1.36,
+          "gsg": 1.18
+        },
+        "fora": {
+          "j": 12,
+          "gpg": 0.92,
+          "gsg": 1.83
+        }
       },
       "desfalques": [
         {
@@ -1262,15 +1748,31 @@
         "posicao": 19,
         "pontos": 22,
         "ultimos5": [
-          "D 1-4 PAL",
-          "E 0-0 BAH",
-          "D 0-2 FLU",
+          "D 0-1",
+          "E 1-1 MIR",
+          "E 0-0",
           "D 0-3 SAN",
-          "E 1-1 MIR"
+          "D 1-4"
         ],
-        "sequencia": "1E",
-        "xGporJogo": 1.24,
-        "xGSporJogo": 1.24
+        "sequencia": "2D",
+        "xGporJogo": 1.1,
+        "xGSporJogo": 1.54,
+        "jogos": 23,
+        "golsPorJogo": 1.04,
+        "golsSofridosPorJogo": 1.65,
+        "over25Pct": 57,
+        "bttsPct": 65,
+        "cleanSheetPct": 9,
+        "casa": {
+          "j": 12,
+          "gpg": 1.08,
+          "gsg": 1.42
+        },
+        "fora": {
+          "j": 11,
+          "gpg": 1.0,
+          "gsg": 1.91
+        }
       },
       "desfalques": [
         {
@@ -1305,8 +1807,23 @@
         "xGSporJogo": 1.18
       },
       "copa": {
-        "xGporJogo": 1.07,
-        "xGSporJogo": 1.07
+        "xGporJogo": 1.02,
+        "xGSporJogo": 0.3,
+        "jogos": 1,
+        "golsPorJogo": 1.0,
+        "golsSofridosPorJogo": 0.0,
+        "over25Pct": 0,
+        "bttsPct": 0,
+        "cleanSheetPct": 100,
+        "ultimos5": [
+          "V 1-0 VIT"
+        ],
+        "sequencia": "1V",
+        "casa": {
+          "j": 1,
+          "gpg": 1.0,
+          "gsg": 0.0
+        }
       },
       "premier-league": {
         "xGporJogo": 1.43,
@@ -1330,15 +1847,31 @@
         "posicao": 20,
         "pontos": 14,
         "ultimos5": [
-          "V 1-0 SAO",
-          "D 0-2 CAP",
-          "E 2-2 SAN",
-          "D 0-1 CFC",
-          "D 1-3 RBB"
+          "D 0-4 FLA",
+          "E 2-2",
+          "D 1-2",
+          "E 3-3 BAH",
+          "V 1-0 SAOPA"
         ],
         "sequencia": "1V",
-        "xGporJogo": 1.24,
-        "xGSporJogo": 1.24
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.76,
+        "jogos": 23,
+        "golsPorJogo": 1.0,
+        "golsSofridosPorJogo": 1.96,
+        "over25Pct": 48,
+        "bttsPct": 57,
+        "cleanSheetPct": 9,
+        "casa": {
+          "j": 12,
+          "gpg": 1.42,
+          "gsg": 2.25
+        },
+        "fora": {
+          "j": 11,
+          "gpg": 0.55,
+          "gsg": 1.64
+        }
       },
       "desfalques": [],
       "retornando": [],
@@ -1385,6 +1918,150 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      }
+    },
+    "Cerro-Porteno": {
+      "libertadores": {
+        "jogos": 2,
+        "golsPorJogo": 0.5,
+        "golsSofridosPorJogo": 1.0,
+        "over25Pct": 0,
+        "bttsPct": 50,
+        "cleanSheetPct": 0,
+        "ultimos5": [
+          "E 1-1",
+          "D 0-1 PAL"
+        ],
+        "sequencia": "1D",
+        "xGporJogo": 0.69,
+        "xGSporJogo": 1.05,
+        "casa": {
+          "j": 1,
+          "gpg": 0.0,
+          "gsg": 1.0
+        },
+        "fora": {
+          "j": 1,
+          "gpg": 1.0,
+          "gsg": 1.0
+        }
+      }
+    },
+    "Rosario-Central": {
+      "libertadores": {
+        "jogos": 2,
+        "golsPorJogo": 0.0,
+        "golsSofridosPorJogo": 0.5,
+        "over25Pct": 0,
+        "bttsPct": 0,
+        "cleanSheetPct": 50,
+        "ultimos5": [
+          "E 0-0 COR",
+          "D 0-1"
+        ],
+        "sequencia": "1D",
+        "xGporJogo": 0.33,
+        "xGSporJogo": 0.69,
+        "casa": {
+          "j": 1,
+          "gpg": 0.0,
+          "gsg": 0.0
+        },
+        "fora": {
+          "j": 1,
+          "gpg": 0.0,
+          "gsg": 1.0
+        }
+      }
+    },
+    "Independiente-Rivadavia": {
+      "libertadores": {
+        "jogos": 2,
+        "golsPorJogo": 0.0,
+        "golsSofridosPorJogo": 0.5,
+        "over25Pct": 0,
+        "bttsPct": 0,
+        "cleanSheetPct": 50,
+        "ultimos5": [
+          "D 0-1",
+          "E 0-0 FLU"
+        ],
+        "sequencia": "1E",
+        "xGporJogo": 0.33,
+        "xGSporJogo": 0.69,
+        "casa": {
+          "j": 1,
+          "gpg": 0.0,
+          "gsg": 0.0
+        },
+        "fora": {
+          "j": 1,
+          "gpg": 0.0,
+          "gsg": 1.0
+        }
+      }
+    },
+    "LDU-Quito": {
+      "libertadores": {
+        "jogos": 1,
+        "golsPorJogo": 0.0,
+        "golsSofridosPorJogo": 0.0,
+        "over25Pct": 0,
+        "bttsPct": 0,
+        "cleanSheetPct": 100,
+        "ultimos5": [
+          "E 0-0 MIR"
+        ],
+        "sequencia": "1E",
+        "xGporJogo": 0.33,
+        "xGSporJogo": 0.33,
+        "casa": {
+          "j": 1,
+          "gpg": 0.0,
+          "gsg": 0.0
+        }
+      }
+    },
+    "Independiente-del-Valle": {
+      "libertadores": {
+        "jogos": 1,
+        "golsPorJogo": 3.0,
+        "golsSofridosPorJogo": 1.0,
+        "over25Pct": 100,
+        "bttsPct": 100,
+        "cleanSheetPct": 0,
+        "ultimos5": [
+          "V 3-1 DEPTO"
+        ],
+        "sequencia": "1V",
+        "xGporJogo": 2.49,
+        "xGSporJogo": 1.05,
+        "casa": {
+          "j": 1,
+          "gpg": 3.0,
+          "gsg": 1.0
+        }
+      }
+    },
+    "Deportes-Tolima": {
+      "libertadores": {
+        "jogos": 1,
+        "golsPorJogo": 1.0,
+        "golsSofridosPorJogo": 3.0,
+        "over25Pct": 100,
+        "bttsPct": 100,
+        "cleanSheetPct": 0,
+        "ultimos5": [
+          "D 1-3"
+        ],
+        "sequencia": "1D",
+        "xGporJogo": 1.05,
+        "xGSporJogo": 2.49,
+        "fora": {
+          "j": 1,
+          "gpg": 1.0,
+          "gsg": 3.0
+        }
       }
     }
   }
