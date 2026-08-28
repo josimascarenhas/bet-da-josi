@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-28T18:50:17.337747-03:00",
-    "fonte": "calendário",
-    "jogos": 249,
-    "finalizadosTotal": 249
+    "atualizadoEm": "2026-08-28T19:01:13.942874-03:00",
+    "fonte": "calendário + openligadb.de",
+    "jogos": 251,
+    "finalizadosTotal": 251
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -1878,6 +1878,14 @@
       "data": "2026-08-22",
       "comp": "brasileirao"
     },
+    "eu-primeira-liga-2026-08-22-Sporting-CP-Alverca": {
+      "status": "finished",
+      "placar": "3-1",
+      "golsCasa": 3,
+      "golsFora": 1,
+      "data": "2026-08-22",
+      "comp": "primeira-liga"
+    },
     "br-24-Internacional-Atletico-MG": {
       "status": "finished",
       "placar": "0-0",
@@ -1997,6 +2005,14 @@
       "golsFora": 1,
       "data": "2026-08-28",
       "comp": "bundesliga"
+    },
+    "eu-premier-league-2026-08-28-Crystal-Palace-Manchester-City": {
+      "status": "finished",
+      "placar": "1-4",
+      "golsCasa": 1,
+      "golsFora": 4,
+      "data": "2026-08-28",
+      "comp": "premier-league"
     }
   }
 }

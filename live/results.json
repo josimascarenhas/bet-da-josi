@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-28T18:50:17.337747-03:00",
+    "atualizadoEm": "2026-08-28T19:01:13.942874-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
@@ -12,6 +12,14 @@
       "mandante": "Bayern-Munich",
       "visitante": "VfB-Stuttgart",
       "placar": "5-1"
+    },
+    {
+      "id": "eu-premier-league-2026-08-28-Crystal-Palace-Manchester-City",
+      "data": "2026-08-28",
+      "comp": "premier-league",
+      "mandante": "Crystal-Palace",
+      "visitante": "Manchester-City",
+      "placar": "1-4"
     },
     {
       "id": "copa-q-int-gre-ida",
@@ -116,6 +124,14 @@
       "mandante": "Fluminense",
       "visitante": "Remo",
       "placar": "2-1"
+    },
+    {
+      "id": "eu-primeira-liga-2026-08-22-Sporting-CP-Alverca",
+      "data": "2026-08-22",
+      "comp": "primeira-liga",
+      "mandante": "Sporting-CP",
+      "visitante": "Alverca",
+      "placar": "3-1"
     },
     {
       "id": "br-24-Internacional-Atletico-MG",
@@ -228,22 +244,6 @@
       "mandante": "Corinthians",
       "visitante": "Cruzeiro",
       "placar": "1-2"
-    },
-    {
-      "id": "br-23-Fluminense-Palmeiras",
-      "data": "2026-08-15",
-      "comp": "brasileirao",
-      "mandante": "Fluminense",
-      "visitante": "Palmeiras",
-      "placar": "3-2"
-    },
-    {
-      "id": "br-23-Athletico-PR-Bragantino",
-      "data": "2026-08-15",
-      "comp": "brasileirao",
-      "mandante": "Athletico-PR",
-      "visitante": "Bragantino",
-      "placar": "1-1"
     }
   ]
 }
