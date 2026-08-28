@@ -108,7 +108,10 @@ body {
   display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1rem; padding: 1rem;
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow);
 }
-.filter-group { display: flex; flex-direction: column; gap: 0.25rem; }
+.filter-tenis-only { display: none !important; }
+body.sport-tenis .filter-tenis-only { display: flex !important; }
+
+.filters .filter-group { display: flex; flex-direction: column; gap: 0.25rem; }
 .filter-group.grow { flex: 1; min-width: 180px; }
 .filter-group label { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); font-weight: 700; }
 .filter-count { font-weight: 400; text-transform: none; letter-spacing: 0; }

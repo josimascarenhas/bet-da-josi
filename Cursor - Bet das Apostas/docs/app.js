@@ -183,6 +183,40 @@
     return t.brasileirao || t.copa;
   }
 
+  function getFootTeamInfo(key) {
+    return FOOT.times[key] || {};
+  }
+
+  function buildFootballContext(g, team, adv, comp) {
+    var tInfo = getFootTeamInfo(team);
+    var aInfo = getFootTeamInfo(adv);
+    var tStats = getFootStats(team, comp);
+    var aStats = getFootStats(adv, comp);
+    var isHome = g.mandante === team;
+    return {
+      isMandante: isHome,
+      mataMata: g.comp === "copa",
+      tipo: String(g.fase || "").indexOf("volta") >= 0 ? "volta" : "ida",
+      mandanteLabel: label(g.mandante),
+      visitanteLabel: label(g.visitante),
+      teamLabel: label(team),
+      teamForm: tStats && tStats.ultimos5,
+      advForm: aStats && aStats.ultimos5,
+      teamSequencia: tStats && tStats.sequencia,
+      advSequencia: aStats && aStats.sequencia,
+      teamDesfalques: tInfo.desfalques || [],
+      advDesfalques: aInfo.desfalques || [],
+      teamRetornando: tInfo.retornando || [],
+      advRetornando: aInfo.retornando || [],
+      teamCasa: tInfo.casa,
+      teamFora: tInfo.fora,
+      advCasa: aInfo.casa,
+      advFora: aInfo.fora,
+      mandanteCasa: getFootTeamInfo(g.mandante).casa,
+      visitanteFora: getFootTeamInfo(g.visitante).fora
+    };
+  }
+
   function analyzeFootballGame(g, focusTeam) {
     var team = focusTeam || g.mandante;
     var isHome = g.mandante === team;
@@ -195,14 +229,7 @@
     };
     if (!t) return { insuficientes: true, nota: "Sem informa\u00e7\u00f5es suficientes para este confronto." };
     var liga = FOOT.competicoes[comp].liga;
-    return M.football(t, a, liga, {
-      isMandante: isHome,
-      mataMata: g.comp === "copa",
-      tipo: String(g.fase || "").indexOf("volta") >= 0 ? "volta" : "ida",
-      mandanteLabel: label(g.mandante),
-      visitanteLabel: label(g.visitante),
-      teamLabel: label(team)
-    });
+    return M.football(t, a, liga, buildFootballContext(g, team, adv, comp));
   }
 
   function analyzeTennisGame(g) {
@@ -246,6 +273,7 @@
   }
 
   function populateFilters() {
+    document.body.className = "sport-" + sport;
     var generoGroup = document.getElementById("tenisGeneroGroup");
     if (generoGroup) generoGroup.hidden = sport !== "tenis";
     if (sport === "tenis") {
@@ -431,6 +459,11 @@
         return '<article class="fixture-card"><div class="proximo-meta">' + blocks + "</div></article>";
       }
       var meta = fmtData(g.data) + " \u00b7 " + (g.horario || "") + " \u00b7 " + (g.estadio || g.local || g.torneio || "");
+      if (sport === "futebol" && an.contexto) {
+        meta += " \u00b7 " + an.contexto.local + " \u00b7 Forma " + an.contexto.formT + "%/" + an.contexto.formA + "%";
+        if (an.contexto.sequencia) meta += " \u00b7 " + an.contexto.sequencia;
+        if (an.contexto.desfalques) meta += " \u00b7 " + an.contexto.desfalques;
+      }
       if (sport === "tenis" && g.superficie) meta += " \u00b7 Quadra " + g.superficie;
       if (sport === "tenis" && an.rankP1 && an.rankP2) meta += " \u00b7 Ranking #" + an.rankP1 + " vs #" + an.rankP2;
       var modelNote = an.modelo ? (" \u00b7 Modelo: " + an.modelo) : "";
@@ -471,18 +504,19 @@
     if (sport === "futebol") {
       var liga = FOOT.competicoes.brasileirao.liga;
       var t = selectedEntity ? getFootStats(selectedEntity, selectedComp === "copa" ? "copa" : "brasileirao") : null;
+      var tInfo = selectedEntity ? getFootTeamInfo(selectedEntity) : null;
       items = t ? [
-        { label: "Gols/J", value: t.golsPorJogo, hl: true },
-        { label: "Sofridos", value: t.golsSofridosPorJogo },
-        { label: "Over 2.5", value: pct(t.over25Pct) },
-        { label: "Ambas", value: pct(t.bttsPct) },
-        { label: "Esc/J", value: t.escanteiosPorJogo },
-        { label: "Posi\u00e7\u00e3o", value: t.posicao || "\u2014" }
+        { label: "Posição", value: "#" + (t.posicao || "\u2014"), hl: true },
+        { label: "Pontos", value: t.pontos || "\u2014" },
+        { label: "Sequência", value: t.sequencia || "\u2014" },
+        { label: "Forma (5)", value: (t.ultimos5 || []).join(" ") },
+        { label: "Desfalques", value: (tInfo.desfalques || []).length || "0" },
+        { label: "Retornando", value: (tInfo.retornando || []).length || "0" }
       ] : [
         { label: "M\u00e9dia gols", value: liga.mediaGols, hl: true },
         { label: "Over 2.5", value: pct(liga.over25) },
         { label: "BTTS", value: pct(liga.btts) },
-        { label: "Casa vence", value: pct(liga.vitoriaMandante) }
+        { label: "Rodada", value: FOOT.competicoes.brasileirao.fase || "\u2014" }
       ];
     } else if (sport === "tenis") {
       var p = selectedEntity ? TENIS.atletas[selectedEntity] : null;
@@ -535,16 +569,19 @@
     var head = document.getElementById("teamsTableHead");
     var body = document.getElementById("teamsTableBody");
     if (sport === "futebol") {
-      document.getElementById("tableTitle").textContent = "Tabela / stats";
-      document.getElementById("tableSub").textContent = "Estat\u00edsticas do filtro atual";
-      head.innerHTML = "<tr><th>Time</th><th>Pos</th><th>Gols/J</th><th>Sofr</th><th>O2.5</th><th>Ambas</th></tr>";
+      document.getElementById("tableTitle").textContent = "Classificação";
+      document.getElementById("tableSub").textContent = "Brasileir\u00e3o atualizado \u00b7 clique para filtrar";
+      head.innerHTML = "<tr><th>Pos</th><th>Time</th><th>Pts</th><th>Seq</th><th>\u00daltimos 5</th><th>Desf</th></tr>";
       body.innerHTML = entitiesForSport().map(function (name) {
         var s = getFootStats(name, selectedComp === "copa" ? "copa" : "brasileirao");
+        var info = getFootTeamInfo(name);
         if (!s) return "";
         return '<tr data-ent="' + name + '" class="' + (selectedEntity === name ? "selected-row" : "") + '">' +
-          "<td>" + label(name) + '</td><td class="num">' + (s.posicao || "\u2014") +
-          '</td><td class="num">' + s.golsPorJogo + '</td><td class="num">' + s.golsSofridosPorJogo +
-          '</td><td class="num">' + pct(s.over25Pct) + '</td><td class="num">' + pct(s.bttsPct) + "</td></tr>";
+          '<td class="num">' + (s.posicao || "\u2014") + "</td><td>" + label(name) +
+          '</td><td class="num">' + (s.pontos || "\u2014") +
+          '</td><td class="num">' + (s.sequencia || "\u2014") +
+          '</td><td>' + ((s.ultimos5 || []).join(" ")) +
+          '</td><td class="num">' + ((info.desfalques || []).length) + "</td></tr>";
       }).join("");
     } else if (sport === "tenis") {
       document.getElementById("tableTitle").textContent = tenisGenero === "M" ? "Ranking ATP" : "Ranking WTA";
@@ -618,9 +655,9 @@
   function updateGlossario() {
     var el = document.getElementById("glossarioText");
     if (sport === "futebol") {
-      el.innerHTML = "<strong>Modelo matem\u00e1tico \u2014 Futebol</strong><p>Poisson independente para gols de mandante/visitante, com ajuste Dixon-Coles nos placares baixos. Gera 1X2, BTTS, Over/Under, handicap, escanteios e placar correto com odds decimais.</p>";
+      el.innerHTML = "<strong>Modelo matem\u00e1tico \u2014 Futebol</strong><p>Poisson + Dixon-Coles com <strong>forma recente</strong> (\u00faltimos 5), <strong>sequ\u00eancia</strong>, <strong>casa/fora</strong>, <strong>desfalques</strong> e <strong>retornos</strong>. Dados atualizados a cada recarga da p\u00e1gina.</p>";
     } else if (sport === "tenis") {
-      el.innerHTML = "<strong>Modelo matem\u00e1tico \u2014 T\u00eanis</strong><p>Bradley-Terry com <strong>ranking ATP/WTA</strong>, <strong>idade</strong> (pico 24\u201328, penalidade 35+) e <strong>% de vit\u00f3ria por superf\u00edcie</strong> (hard, saibro, grama). Totais de games via Normal. ATP e WTA separados.</p>";
+      el.innerHTML = "<strong>Modelo matem\u00e1tico \u2014 T\u00eanis</strong><p>Bradley-Terry com <strong>ranking ATP/WTA atualizado</strong>, idade e % por superf\u00edcie. Rankings sincronizados a cada recarga.</p>";
     } else if (sport === "ufc") {
       el.innerHTML = "<strong>Modelo matem\u00e1tico \u2014 UFC</strong><p>Bradley-Terry com rating, alcance e perfil de finish (KO/SUB/DEC). Mercados de vencedor, m\u00e9todo, dura\u00e7\u00e3o e round betting.</p>";
     } else {
@@ -641,6 +678,13 @@
     }
   }
 
+  function syncLabel() {
+    if (!window.LIVE_SYNC || LIVE_SYNC.status !== "ok" || !LIVE_SYNC.atualizadoEm) return "";
+    var d = new Date(LIVE_SYNC.atualizadoEm);
+    if (isNaN(d.getTime())) return " \u00b7 Dados ao vivo";
+    return " \u00b7 Atualizado " + pad2(d.getHours()) + ":" + pad2(d.getMinutes());
+  }
+
   function renderAll(resetTarget) {
     if (resetTarget) analyzeTarget = null;
     var titles = {
@@ -653,7 +697,7 @@
     document.getElementById("headerBadge").textContent = selectedEntity ? label(selectedEntity) : "Bet da Josi";
     document.getElementById("metaInfo").textContent =
       titles[sport] + (sport === "tenis" ? (" \u00b7 " + (tenisGenero === "M" ? "ATP" : "WTA")) : "") +
-      " \u00b7 Hoje " + fmtData(todayISO) + " \u00b7 " + currentGames().length + " eventos no calend\u00e1rio";
+      " \u00b7 Hoje " + fmtData(todayISO) + " \u00b7 " + currentGames().length + " eventos" + syncLabel();
 
     populateFilters();
     updateGlossario();
@@ -719,7 +763,14 @@
       renderAll(false);
     };
 
-    renderAll(true);
+    var boot = function () {
+      if (window.LIVE_SYNC) {
+        LIVE_SYNC.fetchAll().finally(function () { renderAll(true); });
+      } else {
+        renderAll(true);
+      }
+    };
+    boot();
     setInterval(renderTodayClock, 30000);
   }
 

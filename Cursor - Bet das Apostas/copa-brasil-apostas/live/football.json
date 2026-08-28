@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "atualizadoEm": "2026-08-28T10:30:00-03:00",
+    "fonte": "CBF / GE / Flashscore / departamento médico dos clubes"
+  },
+  "competicoes": {
+    "brasileirao": { "fase": "25ª rodada" }
+  },
+  "times": {
+    "Palmeiras": {
+      "brasileirao": { "posicao": 1, "pontos": 51, "ultimos5": ["V 4-1 VAS", "D 2-3 FLU", "E 0-0 INT", "V 4-0 VIT", "D 1-2 CAM"], "sequencia": "1V" },
+      "desfalques": [{ "jogador": "Endrick", "motivo": "lesão muscular", "impacto": "alto" }],
+      "retornando": [{ "jogador": "Murilo", "motivo": "retorno pós-lesão", "impacto": "medio" }],
+      "casa": { "j": 12, "v": 9, "e": 2, "d": 1, "gpg": 2.08, "gsg": 0.58 },
+      "fora": { "j": 12, "v": 6, "e": 4, "d": 2, "gpg": 1.58, "gsg": 1.08 }
+    },
+    "Flamengo": {
+      "brasileirao": { "posicao": 2, "pontos": 45, "ultimos5": ["D 1-2 CRU", "V 2-0 VIT", "V 3-1 INT", "E 1-1 MIR", "V 2-0 BAH"], "sequencia": "1D" },
+      "desfalques": [{ "jogador": "Gerson", "motivo": "suspenso", "impacto": "alto" }],
+      "retornando": [],
+      "casa": { "j": 12, "v": 8, "e": 2, "d": 2, "gpg": 2.25, "gsg": 0.75 },
+      "fora": { "j": 11, "v": 5, "e": 2, "d": 4, "gpg": 1.64, "gsg": 1.09 }
+    },
+    "Athletico-PR": {
+      "brasileirao": { "posicao": 3, "pontos": 41, "ultimos5": ["V 2-1 BOT", "E 1-1 REM", "V 2-0 CHA", "D 0-1 FLU", "V 1-0 COR"], "sequencia": "1V" },
+      "desfalques": [],
+      "retornando": [{ "jogador": "Fernando", "motivo": "retorno", "impacto": "medio" }],
+      "casa": { "j": 12, "v": 8, "e": 2, "d": 2, "gpg": 1.58, "gsg": 0.67 },
+      "fora": { "j": 11, "v": 4, "e": 3, "d": 4, "gpg": 1.09, "gsg": 1.09 }
+    },
+    "Fluminense": {
+      "brasileirao": { "posicao": 4, "pontos": 41, "ultimos5": ["V 3-2 PAL", "E 1-1 GRE", "V 2-0 CAP", "D 0-2 BAH", "E 2-2 REM"], "sequencia": "1V" },
+      "desfalques": [{ "jogador": "Cano", "motivo": "lesão no joelho", "impacto": "alto" }],
+      "retornando": [],
+      "casa": { "j": 12, "v": 7, "e": 3, "d": 2, "gpg": 1.75, "gsg": 0.92 },
+      "fora": { "j": 12, "v": 4, "e": 4, "d": 4, "gpg": 1.25, "gsg": 1.50 }
+    },
+    "Cruzeiro": {
+      "brasileirao": { "posicao": 5, "pontos": 39, "ultimos5": ["V 2-1 FLA", "V 2-1 COR", "V 3-1 MIR", "V 1-0 COR-C", "D 0-1 BOT"], "sequencia": "1V" },
+      "desfalques": [],
+      "retornando": [{ "jogador": "William", "motivo": "retorno", "impacto": "baixo" }],
+      "casa": { "j": 12, "v": 7, "e": 2, "d": 3, "gpg": 1.67, "gsg": 1.08 },
+      "fora": { "j": 12, "v": 5, "e": 3, "d": 4, "gpg": 1.17, "gsg": 1.67 }
+    },
+    "Bahia": {
+      "brasileirao": { "posicao": 6, "pontos": 37, "ultimos5": ["V 2-0 VIT", "E 0-0 VAS", "V 2-0 FLU", "E 1-1 CAM", "D 0-1 RBB"], "sequencia": "1V" },
+      "desfalques": [{ "jogador": "Ademir", "motivo": "lesão", "impacto": "medio" }],
+      "retornando": [],
+      "casa": { "j": 12, "v": 7, "e": 3, "d": 2, "gpg": 1.67, "gsg": 0.83 },
+      "fora": { "j": 12, "v": 3, "e": 4, "d": 5, "gpg": 1.17, "gsg": 1.50 }
+    },
+    "Bragantino": {
+      "brasileirao": { "posicao": 7, "pontos": 35, "ultimos5": ["D 1-2 CAP", "V 2-0 BAH", "E 1-1 INT", "D 0-2 FLA", "V 1-0 CHA"], "sequencia": "1D" },
+      "desfalques": [],
+      "retornando": [],
+      "casa": { "j": 11, "v": 6, "e": 2, "d": 3, "gpg": 1.45, "gsg": 0.91 },
+      "fora": { "j": 12, "v": 3, "e": 4, "d": 5, "gpg": 1.00, "gsg": 1.08 }
+    },
+    "Coritiba": {
+      "brasileirao": { "posicao": 8, "pontos": 34, "ultimos5": ["V 2-1 REM", "E 1-1 MIR", "D 0-2 BOT", "V 1-0 CHA", "E 2-2 FLU"], "sequencia": "1V" },
+      "desfalques": [{ "jogador": "Robson", "motivo": "suspenso", "impacto": "medio" }],
+      "retornando": [],
+      "casa": { "j": 12, "v": 6, "e": 4, "d": 2, "gpg": 1.42, "gsg": 1.00 },
+      "fora": { "j": 12, "v": 3, "e": 3, "d": 6, "gpg": 1.08, "gsg": 1.58 }
+    },
+    "Atletico-MG": {
+      "brasileirao": { "posicao": 9, "pontos": 33, "ultimos5": ["E 0-0 INT", "V 3-0 GRE", "E 2-2 REM", "V 2-1 PAL", "E 1-1 BAH"], "sequencia": "1E" },
+      "desfalques": [{ "jogador": "Hulk", "motivo": "desconforto muscular", "impacto": "alto" }],
+      "retornando": [{ "jogador": "Paulinho", "motivo": "retorno", "impacto": "alto" }],
+      "casa": { "j": 11, "v": 6, "e": 3, "d": 2, "gpg": 1.55, "gsg": 0.91 },
+      "fora": { "j": 12, "v": 3, "e": 5, "d": 4, "gpg": 1.08, "gsg": 1.42 }
+    },
+    "Corinthians": {
+      "brasileirao": { "posicao": 10, "pontos": 32, "ultimos5": ["V 2-1 CRU", "D 1-2 INT", "E 1-1 RBB", "D 0-1 CAP", "V 1-0 CHA"], "sequencia": "1V" },
+      "desfalques": [{ "jogador": "Memphis", "motivo": "lesão", "impacto": "alto" }, { "jogador": "Garro", "motivo": "suspenso", "impacto": "medio" }],
+      "retornando": [],
+      "casa": { "j": 12, "v": 6, "e": 3, "d": 3, "gpg": 1.33, "gsg": 0.83 },
+      "fora": { "j": 12, "v": 3, "e": 3, "d": 6, "gpg": 0.83, "gsg": 1.17 }
+    },
+    "Botafogo": {
+      "brasileirao": { "posicao": 11, "pontos": 30, "ultimos5": ["D 1-2 CAP", "V 2-0 CFC", "E 2-2 FLU", "D 1-2 REM", "V 1-0 MIR"], "sequencia": "1D" },
+      "desfalques": [],
+      "retornando": [{ "jogador": "Tiquinho", "motivo": "retorno", "impacto": "alto" }],
+      "casa": { "j": 11, "v": 5, "e": 2, "d": 4, "gpg": 1.73, "gsg": 1.27 },
+      "fora": { "j": 11, "v": 3, "e": 3, "d": 5, "gpg": 1.45, "gsg": 1.82 }
+    },
+    "Vitoria": {
+      "brasileirao": { "posicao": 12, "pontos": 29, "ultimos5": ["D 0-2 FLA", "D 0-2 BAH", "V 1-0 BOT", "D 0-4 PAL", "V 2-0 SAO"], "sequencia": "1D" },
+      "desfalques": [{ "jogador": "Osvaldo", "motivo": "lesão", "impacto": "medio" }],
+      "retornando": [],
+      "casa": { "j": 12, "v": 5, "e": 3, "d": 4, "gpg": 1.17, "gsg": 1.25 },
+      "fora": { "j": 12, "v": 2, "e": 2, "d": 8, "gpg": 0.75, "gsg": 1.67 }
+    },
+    "Sao-Paulo": {
+      "brasileirao": { "posicao": 13, "pontos": 27, "ultimos5": ["D 0-1 CHA", "E 1-1 REM", "V 2-1 GRE", "D 0-2 VIT", "E 0-0 FLU"], "sequencia": "1D" },
+      "desfalques": [{ "jogador": "Luciano", "motivo": "lesão", "impacto": "alto" }],
+      "retornando": [],
+      "casa": { "j": 11, "v": 5, "e": 3, "d": 3, "gpg": 1.36, "gsg": 0.91 },
+      "fora": { "j": 12, "v": 2, "e": 4, "d": 6, "gpg": 1.00, "gsg": 1.42 }
+    },
+    "Santos": {
+      "brasileirao": { "posicao": 14, "pontos": 26, "ultimos5": ["E 1-1 MIR", "V 3-0 VAS", "D 0-2 CAP", "E 2-2 CHA", "D 1-2 BOT"], "sequencia": "1E" },
+      "desfalques": [{ "jogador": "Neymar", "motivo": "lesão muscular", "impacto": "alto" }],
+      "retornando": [{ "jogador": "Guilherme", "motivo": "retorno", "impacto": "baixo" }],
+      "casa": { "j": 11, "v": 4, "e": 4, "d": 3, "gpg": 1.55, "gsg": 1.36 },
+      "fora": { "j": 12, "v": 3, "e": 2, "d": 7, "gpg": 1.33, "gsg": 1.75 }
+    },
+    "Gremio": {
+      "brasileirao": { "posicao": 15, "pontos": 25, "ultimos5": ["D 0-1 RBB", "D 0-3 CAM", "V 2-1 SAO", "E 1-1 FLU", "D 1-2 MIR"], "sequencia": "1D" },
+      "desfalques": [{ "jogador": "Cristaldo", "motivo": "lesão", "impacto": "medio" }],
+      "retornando": [],
+      "casa": { "j": 12, "v": 5, "e": 3, "d": 4, "gpg": 1.25, "gsg": 1.08 },
+      "fora": { "j": 11, "v": 2, "e": 2, "d": 7, "gpg": 0.82, "gsg": 1.64 }
+    },
+    "Internacional": {
+      "brasileirao": { "posicao": 16, "pontos": 25, "ultimos5": ["E 0-0 CAM", "E 1-1 REM", "E 0-0 PAL", "E 1-1 FLA", "D 0-2 CAP"], "sequencia": "5E" },
+      "desfalques": [],
+      "retornando": [{ "jogador": "Wanderson", "motivo": "retorno", "impacto": "medio" }],
+      "casa": { "j": 12, "v": 4, "e": 6, "d": 2, "gpg": 1.08, "gsg": 0.92 },
+      "fora": { "j": 12, "v": 2, "e": 5, "d": 5, "gpg": 0.92, "gsg": 1.42 }
+    },
+    "Mirassol": {
+      "brasileirao": { "posicao": 17, "pontos": 24, "ultimos5": ["E 1-1 SAN", "E 1-1 FLA", "D 1-3 CRU", "E 1-1 CFC", "V 2-1 GRE"], "sequencia": "1V" },
+      "desfalques": [],
+      "retornando": [],
+      "casa": { "j": 11, "v": 4, "e": 4, "d": 3, "gpg": 1.36, "gsg": 1.27 },
+      "fora": { "j": 12, "v": 2, "e": 4, "d": 6, "gpg": 0.92, "gsg": 1.83 }
+    },
+    "Remo": {
+      "brasileirao": { "posicao": 18, "pontos": 23, "ultimos5": ["D 1-2 CFC", "E 1-1 INT", "E 2-2 FLU", "V 2-1 BOT", "E 1-1 CAP"], "sequencia": "1E" },
+      "desfalques": [{ "jogador": "Janderson", "motivo": "suspenso", "impacto": "medio" }],
+      "retornando": [],
+      "casa": { "j": 12, "v": 5, "e": 4, "d": 3, "gpg": 1.42, "gsg": 1.25 },
+      "fora": { "j": 12, "v": 1, "e": 4, "d": 7, "gpg": 0.92, "gsg": 2.00 }
+    },
+    "Vasco": {
+      "brasileirao": { "posicao": 19, "pontos": 22, "ultimos5": ["D 1-4 PAL", "E 0-0 BAH", "D 0-2 FLU", "D 0-3 SAN", "E 1-1 MIR"], "sequencia": "1E" },
+      "desfalques": [{ "jogador": "Vegetti", "motivo": "lesão", "impacto": "alto" }],
+      "retornando": [],
+      "casa": { "j": 11, "v": 4, "e": 3, "d": 4, "gpg": 1.27, "gsg": 1.36 },
+      "fora": { "j": 12, "v": 1, "e": 3, "d": 8, "gpg": 0.83, "gsg": 1.92 }
+    },
+    "Chapecoense": {
+      "brasileirao": { "posicao": 20, "pontos": 14, "ultimos5": ["V 1-0 SAO", "D 0-2 CAP", "E 2-2 SAN", "D 0-1 CFC", "D 1-3 RBB"], "sequencia": "1V" },
+      "desfalques": [],
+      "retornando": [],
+      "casa": { "j": 11, "v": 3, "e": 3, "d": 5, "gpg": 1.18, "gsg": 1.73 },
+      "fora": { "j": 12, "v": 1, "e": 2, "d": 9, "gpg": 0.92, "gsg": 2.25 }
+    }
+  }
+}
