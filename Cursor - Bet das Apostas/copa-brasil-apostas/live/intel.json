@@ -1,0 +1,2383 @@
+{
+  "meta": {
+    "atualizadoEm": "2026-08-28T14:33:03.388995-03:00",
+    "fonte": "calendário + GE + modelo xG"
+  },
+  "times": {
+    "Coritiba": {
+      "brasileirao": {
+        "xGporJogo": 1.24,
+        "xGSporJogo": 1.24
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.18,
+        "xGSporJogo": 1.18
+      },
+      "copa": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.07
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      }
+    },
+    "Sao-Paulo": {
+      "brasileirao": {
+        "xGporJogo": 1.24,
+        "xGSporJogo": 1.24
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.18,
+        "xGSporJogo": 1.18
+      },
+      "copa": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.07
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      }
+    },
+    "Chapecoense": {
+      "brasileirao": {
+        "xGporJogo": 1.24,
+        "xGSporJogo": 1.24
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.18,
+        "xGSporJogo": 1.18
+      },
+      "copa": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.07
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      }
+    },
+    "Gremio": {
+      "brasileirao": {
+        "xGporJogo": 1.24,
+        "xGSporJogo": 1.24
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.18,
+        "xGSporJogo": 1.18
+      },
+      "copa": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.07
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      }
+    },
+    "Vitoria": {
+      "brasileirao": {
+        "xGporJogo": 1.24,
+        "xGSporJogo": 1.24
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.18,
+        "xGSporJogo": 1.18
+      },
+      "copa": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.07
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      }
+    },
+    "Cruzeiro": {
+      "brasileirao": {
+        "xGporJogo": 1.24,
+        "xGSporJogo": 1.24
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.18,
+        "xGSporJogo": 1.18
+      },
+      "copa": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.07
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      }
+    },
+    "Corinthians": {
+      "brasileirao": {
+        "xGporJogo": 1.24,
+        "xGSporJogo": 1.24
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.18,
+        "xGSporJogo": 1.18
+      },
+      "copa": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.07
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      }
+    },
+    "Bahia": {
+      "brasileirao": {
+        "xGporJogo": 1.24,
+        "xGSporJogo": 1.24
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.18,
+        "xGSporJogo": 1.18
+      },
+      "copa": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.07
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      }
+    },
+    "Remo": {
+      "brasileirao": {
+        "xGporJogo": 1.24,
+        "xGSporJogo": 1.24
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.18,
+        "xGSporJogo": 1.18
+      },
+      "copa": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.07
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      }
+    },
+    "Atletico-MG": {
+      "brasileirao": {
+        "xGporJogo": 1.24,
+        "xGSporJogo": 1.24
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.18,
+        "xGSporJogo": 1.18
+      },
+      "copa": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.07
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      }
+    },
+    "Mirassol": {
+      "brasileirao": {
+        "xGporJogo": 1.24,
+        "xGSporJogo": 1.24
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.34,
+        "xGSporJogo": 1.16,
+        "escanteiosPorJogo": 5.5,
+        "cartoesPorJogo": 2.6
+      },
+      "copa": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.07
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      }
+    },
+    "Flamengo": {
+      "brasileirao": {
+        "xGporJogo": 1.24,
+        "xGSporJogo": 1.24
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.18,
+        "xGSporJogo": 1.18
+      },
+      "copa": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.07
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      }
+    },
+    "Vasco": {
+      "brasileirao": {
+        "xGporJogo": 1.24,
+        "xGSporJogo": 1.24
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.18,
+        "xGSporJogo": 1.18
+      },
+      "copa": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.07
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      }
+    },
+    "Santos": {
+      "brasileirao": {
+        "xGporJogo": 1.24,
+        "xGSporJogo": 1.24
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.18,
+        "xGSporJogo": 1.18
+      },
+      "copa": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.07
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      }
+    },
+    "Athletico-PR": {
+      "brasileirao": {
+        "xGporJogo": 1.24,
+        "xGSporJogo": 1.24
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.18,
+        "xGSporJogo": 1.18
+      },
+      "copa": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.07
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      }
+    },
+    "Palmeiras": {
+      "brasileirao": {
+        "xGporJogo": 1.24,
+        "xGSporJogo": 1.24
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.18,
+        "xGSporJogo": 1.18
+      },
+      "copa": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.07
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      }
+    },
+    "Fluminense": {
+      "desfalques": [
+        {
+          "jogador": "SuspensÃ£o de HÃ©rcules abre brecha para",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        }
+      ],
+      "brasileirao": {
+        "xGporJogo": 1.24,
+        "xGSporJogo": 1.24
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.18,
+        "xGSporJogo": 1.18
+      },
+      "copa": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.07
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      }
+    },
+    "Internacional": {
+      "desfalques": [
+        {
+          "jogador": "Endrick não treina com o grupo do Real M",
+          "motivo": "notícia GE",
+          "impacto": "alto"
+        },
+        {
+          "jogador": "Simeone diz que Julián não jogará contra",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        }
+      ],
+      "brasileirao": {
+        "xGporJogo": 1.24,
+        "xGSporJogo": 1.24
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.18,
+        "xGSporJogo": 1.18
+      },
+      "copa": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.07
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      }
+    },
+    "Bragantino": {
+      "brasileirao": {
+        "xGporJogo": 1.24,
+        "xGSporJogo": 1.24
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.18,
+        "xGSporJogo": 1.18
+      },
+      "copa": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.07
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      }
+    },
+    "Botafogo": {
+      "brasileirao": {
+        "xGporJogo": 1.24,
+        "xGSporJogo": 1.24
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.18,
+        "xGSporJogo": 1.18
+      },
+      "copa": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.07
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      }
+    }
+  },
+  "jogos": {
+    "br-25-Flamengo-Botafogo": {
+      "restMandante": 8,
+      "restVisitante": 6,
+      "games7Mandante": 0,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-25-Vasco-Cruzeiro": {
+      "restMandante": 3,
+      "restVisitante": 4,
+      "games7Mandante": 2,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-25-Sao-Paulo-Bragantino": {
+      "restMandante": 6,
+      "restVisitante": 6,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-25-Corinthians-Santos": {
+      "restMandante": 7,
+      "restVisitante": 4,
+      "games7Mandante": 0,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-25-Mirassol-Palmeiras": {
+      "restMandante": 7,
+      "restVisitante": 4,
+      "games7Mandante": 0,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-25-Atletico-MG-Vitoria": {
+      "restMandante": 4,
+      "restVisitante": 3,
+      "games7Mandante": 1,
+      "games7Visitante": 2,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-25-Gremio-Chapecoense": {
+      "restMandante": 7,
+      "restVisitante": 7,
+      "games7Mandante": 1,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-25-Athletico-PR-Fluminense": {
+      "restMandante": 6,
+      "restVisitante": 8,
+      "games7Mandante": 1,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-25-Bahia-Internacional": {
+      "restMandante": 7,
+      "restVisitante": 8,
+      "games7Mandante": 0,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-25-Remo-Coritiba": {
+      "restMandante": 9,
+      "restVisitante": 8,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-26-Fluminense-Vasco": {
+      "restMandante": 14,
+      "restVisitante": 10,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-26-Botafogo-Palmeiras": {
+      "restMandante": 13,
+      "restVisitante": 11,
+      "games7Mandante": 0,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-26-Sao-Paulo-Atletico-MG": {
+      "restMandante": 13,
+      "restVisitante": 11,
+      "games7Mandante": 0,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-26-Corinthians-Chapecoense": {
+      "restMandante": 14,
+      "restVisitante": 14,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-26-Bragantino-Bahia": {
+      "restMandante": 13,
+      "restVisitante": 13,
+      "games7Mandante": 0,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-26-Cruzeiro-Athletico-PR": {
+      "restMandante": 12,
+      "restVisitante": 13,
+      "games7Mandante": 1,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-26-Internacional-Santos": {
+      "restMandante": 15,
+      "restVisitante": 11,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-26-Coritiba-Mirassol": {
+      "restMandante": 13,
+      "restVisitante": 13,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-26-Vitoria-Gremio": {
+      "restMandante": 12,
+      "restVisitante": 15,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-26-Remo-Flamengo": {
+      "restMandante": 15,
+      "restVisitante": 15,
+      "games7Mandante": 1,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-27-Flamengo-Corinthians": {
+      "restMandante": 21,
+      "restVisitante": 20,
+      "games7Mandante": 2,
+      "games7Visitante": 2,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-27-Botafogo-Bragantino": {
+      "restMandante": 19,
+      "restVisitante": 20,
+      "games7Mandante": 1,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-27-Santos-Cruzeiro": {
+      "restMandante": 17,
+      "restVisitante": 18,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-27-Palmeiras-Sao-Paulo": {
+      "restMandante": 18,
+      "restVisitante": 21,
+      "games7Mandante": 1,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-27-Mirassol-Vitoria": {
+      "restMandante": 21,
+      "restVisitante": 18,
+      "games7Mandante": 0,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-27-Atletico-MG-Fluminense": {
+      "restMandante": 19,
+      "restVisitante": 22,
+      "games7Mandante": 0,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-27-Gremio-Vasco": {
+      "restMandante": 22,
+      "restVisitante": 19,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-27-Coritiba-Athletico-PR": {
+      "restMandante": 22,
+      "restVisitante": 21,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-27-Bahia-Remo": {
+      "restMandante": 22,
+      "restVisitante": 23,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-27-Chapecoense-Internacional": {
+      "restMandante": 22,
+      "restVisitante": 23,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-28-Flamengo-Bragantino": {
+      "restMandante": 28,
+      "restVisitante": 27,
+      "games7Mandante": 1,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-28-Vasco-Coritiba": {
+      "restMandante": 24,
+      "restVisitante": 27,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-28-Sao-Paulo-Internacional": {
+      "restMandante": 27,
+      "restVisitante": 28,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-28-Corinthians-Fluminense": {
+      "restMandante": 28,
+      "restVisitante": 29,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-28-Mirassol-Botafogo": {
+      "restMandante": 28,
+      "restVisitante": 27,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-28-Atletico-MG-Chapecoense": {
+      "restMandante": 26,
+      "restVisitante": 28,
+      "games7Mandante": 0,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-28-Gremio-Palmeiras": {
+      "restMandante": 29,
+      "restVisitante": 26,
+      "games7Mandante": 0,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-28-Athletico-PR-Bahia": {
+      "restMandante": 28,
+      "restVisitante": 29,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-28-Vitoria-Cruzeiro": {
+      "restMandante": 26,
+      "restVisitante": 27,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-28-Remo-Santos": {
+      "restMandante": 30,
+      "restVisitante": 26,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-29-Fluminense-Coritiba": {
+      "restMandante": 46,
+      "restVisitante": 45,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-29-Botafogo-Vasco": {
+      "restMandante": 44,
+      "restVisitante": 42,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-29-Santos-Flamengo": {
+      "restMandante": 42,
+      "restVisitante": 46,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-29-Palmeiras-Bahia": {
+      "restMandante": 42,
+      "restVisitante": 45,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-29-Bragantino-Mirassol": {
+      "restMandante": 45,
+      "restVisitante": 45,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-29-Cruzeiro-Sao-Paulo": {
+      "restMandante": 44,
+      "restVisitante": 46,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-29-Internacional-Corinthians": {
+      "restMandante": 47,
+      "restVisitante": 46,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-29-Athletico-PR-Atletico-MG": {
+      "restMandante": 45,
+      "restVisitante": 44,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-29-Vitoria-Chapecoense": {
+      "restMandante": 43,
+      "restVisitante": 46,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-29-Remo-Gremio": {
+      "restMandante": 47,
+      "restVisitante": 46,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-30-Flamengo-Fluminense": {
+      "restMandante": 49,
+      "restVisitante": 49,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-30-Vasco-Remo": {
+      "restMandante": 45,
+      "restVisitante": 49,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-30-Sao-Paulo-Vitoria": {
+      "restMandante": 48,
+      "restVisitante": 45,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-30-Palmeiras-Corinthians": {
+      "restMandante": 46,
+      "restVisitante": 49,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-30-Bragantino-Cruzeiro": {
+      "restMandante": 49,
+      "restVisitante": 47,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-30-Atletico-MG-Santos": {
+      "restMandante": 47,
+      "restVisitante": 46,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-30-Gremio-Internacional": {
+      "restMandante": 50,
+      "restVisitante": 51,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-30-Coritiba-Botafogo": {
+      "restMandante": 50,
+      "restVisitante": 49,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-30-Bahia-Mirassol": {
+      "restMandante": 50,
+      "restVisitante": 50,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-30-Chapecoense-Athletico-PR": {
+      "restMandante": 50,
+      "restVisitante": 49,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-31-Fluminense-Santos": {
+      "restMandante": 56,
+      "restVisitante": 52,
+      "games7Mandante": 0,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-31-Botafogo-Chapecoense": {
+      "restMandante": 54,
+      "restVisitante": 55,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-31-Sao-Paulo-Vasco": {
+      "restMandante": 55,
+      "restVisitante": 52,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-31-Corinthians-Vitoria": {
+      "restMandante": 56,
+      "restVisitante": 53,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-31-Mirassol-Internacional": {
+      "restMandante": 56,
+      "restVisitante": 57,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-31-Atletico-MG-Coritiba": {
+      "restMandante": 54,
+      "restVisitante": 56,
+      "games7Mandante": 0,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-31-Gremio-Cruzeiro": {
+      "restMandante": 57,
+      "restVisitante": 55,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-31-Athletico-PR-Palmeiras": {
+      "restMandante": 56,
+      "restVisitante": 54,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-31-Bahia-Flamengo": {
+      "restMandante": 57,
+      "restVisitante": 58,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-31-Remo-Bragantino": {
+      "restMandante": 58,
+      "restVisitante": 57,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-32-Flamengo-Atletico-MG": {
+      "restMandante": 63,
+      "restVisitante": 60,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-32-Vasco-Corinthians": {
+      "restMandante": 59,
+      "restVisitante": 62,
+      "games7Mandante": 0,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-32-Santos-Bahia": {
+      "restMandante": 59,
+      "restVisitante": 62,
+      "games7Mandante": 0,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-32-Palmeiras-Bragantino": {
+      "restMandante": 60,
+      "restVisitante": 63,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-32-Mirassol-Sao-Paulo": {
+      "restMandante": 63,
+      "restVisitante": 63,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-32-Cruzeiro-Remo": {
+      "restMandante": 61,
+      "restVisitante": 64,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-32-Internacional-Botafogo": {
+      "restMandante": 65,
+      "restVisitante": 63,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-32-Coritiba-Gremio": {
+      "restMandante": 64,
+      "restVisitante": 64,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-32-Vitoria-Athletico-PR": {
+      "restMandante": 61,
+      "restVisitante": 63,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-32-Chapecoense-Fluminense": {
+      "restMandante": 64,
+      "restVisitante": 65,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-33-Fluminense-Internacional": {
+      "restMandante": 67,
+      "restVisitante": 67,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-33-Vasco-Flamengo": {
+      "restMandante": 63,
+      "restVisitante": 67,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-33-Santos-Palmeiras": {
+      "restMandante": 63,
+      "restVisitante": 63,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-33-Corinthians-Mirassol": {
+      "restMandante": 66,
+      "restVisitante": 66,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-33-Bragantino-Chapecoense": {
+      "restMandante": 66,
+      "restVisitante": 66,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-33-Atletico-MG-Cruzeiro": {
+      "restMandante": 65,
+      "restVisitante": 65,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-33-Gremio-Athletico-PR": {
+      "restMandante": 67,
+      "restVisitante": 66,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-33-Coritiba-Vitoria": {
+      "restMandante": 67,
+      "restVisitante": 64,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-33-Bahia-Sao-Paulo": {
+      "restMandante": 67,
+      "restVisitante": 67,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-33-Remo-Botafogo": {
+      "restMandante": 68,
+      "restVisitante": 66,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-34-Flamengo-Gremio": {
+      "restMandante": 74,
+      "restVisitante": 73,
+      "games7Mandante": 0,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-34-Botafogo-Atletico-MG": {
+      "restMandante": 72,
+      "restVisitante": 71,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-34-Sao-Paulo-Corinthians": {
+      "restMandante": 73,
+      "restVisitante": 73,
+      "games7Mandante": 1,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-34-Palmeiras-Remo": {
+      "restMandante": 70,
+      "restVisitante": 74,
+      "games7Mandante": 0,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-34-Bragantino-Santos": {
+      "restMandante": 73,
+      "restVisitante": 70,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-34-Cruzeiro-Bahia": {
+      "restMandante": 72,
+      "restVisitante": 74,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-34-Internacional-Coritiba": {
+      "restMandante": 75,
+      "restVisitante": 74,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-34-Athletico-PR-Vasco": {
+      "restMandante": 73,
+      "restVisitante": 71,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-34-Vitoria-Fluminense": {
+      "restMandante": 71,
+      "restVisitante": 75,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-34-Chapecoense-Mirassol": {
+      "restMandante": 74,
+      "restVisitante": 74,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-35-Flamengo-Athletico-PR": {
+      "restMandante": 88,
+      "restVisitante": 86,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-35-Vasco-Internacional": {
+      "restMandante": 84,
+      "restVisitante": 88,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-35-Sao-Paulo-Fluminense": {
+      "restMandante": 87,
+      "restVisitante": 88,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-35-Corinthians-Botafogo": {
+      "restMandante": 87,
+      "restVisitante": 86,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-35-Mirassol-Atletico-MG": {
+      "restMandante": 87,
+      "restVisitante": 85,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-35-Cruzeiro-Palmeiras": {
+      "restMandante": 86,
+      "restVisitante": 85,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-35-Gremio-Bahia": {
+      "restMandante": 88,
+      "restVisitante": 88,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-35-Coritiba-Santos": {
+      "restMandante": 88,
+      "restVisitante": 85,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-35-Vitoria-Bragantino": {
+      "restMandante": 85,
+      "restVisitante": 88,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-35-Remo-Chapecoense": {
+      "restMandante": 89,
+      "restVisitante": 88,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-36-Fluminense-Mirassol": {
+      "restMandante": 91,
+      "restVisitante": 90,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-36-Botafogo-Sao-Paulo": {
+      "restMandante": 89,
+      "restVisitante": 90,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-36-Santos-Gremio": {
+      "restMandante": 87,
+      "restVisitante": 90,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-36-Palmeiras-Flamengo": {
+      "restMandante": 88,
+      "restVisitante": 92,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-36-Bragantino-Vasco": {
+      "restMandante": 91,
+      "restVisitante": 88,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-36-Atletico-MG-Corinthians": {
+      "restMandante": 89,
+      "restVisitante": 91,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-36-Internacional-Vitoria": {
+      "restMandante": 93,
+      "restVisitante": 89,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-36-Athletico-PR-Remo": {
+      "restMandante": 91,
+      "restVisitante": 93,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-36-Bahia-Coritiba": {
+      "restMandante": 92,
+      "restVisitante": 92,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-36-Chapecoense-Cruzeiro": {
+      "restMandante": 92,
+      "restVisitante": 90,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-37-Fluminense-Cruzeiro": {
+      "restMandante": 98,
+      "restVisitante": 95,
+      "games7Mandante": 0,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-37-Botafogo-Bahia": {
+      "restMandante": 96,
+      "restVisitante": 97,
+      "games7Mandante": 0,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-37-Sao-Paulo-Remo": {
+      "restMandante": 97,
+      "restVisitante": 98,
+      "games7Mandante": 0,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-37-Corinthians-Gremio": {
+      "restMandante": 97,
+      "restVisitante": 97,
+      "games7Mandante": 1,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-37-Mirassol-Athletico-PR": {
+      "restMandante": 97,
+      "restVisitante": 96,
+      "games7Mandante": 0,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-37-Atletico-MG-Vasco": {
+      "restMandante": 96,
+      "restVisitante": 95,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-37-Internacional-Bragantino": {
+      "restMandante": 99,
+      "restVisitante": 98,
+      "games7Mandante": 1,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-37-Coritiba-Flamengo": {
+      "restMandante": 98,
+      "restVisitante": 99,
+      "games7Mandante": 1,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-37-Vitoria-Santos": {
+      "restMandante": 95,
+      "restVisitante": 95,
+      "games7Mandante": 1,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-37-Chapecoense-Palmeiras": {
+      "restMandante": 98,
+      "restVisitante": 95,
+      "games7Mandante": 1,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-38-Flamengo-Chapecoense": {
+      "restMandante": 102,
+      "restVisitante": 101,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-38-Vasco-Vitoria": {
+      "restMandante": 98,
+      "restVisitante": 98,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-38-Santos-Botafogo": {
+      "restMandante": 98,
+      "restVisitante": 100,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-38-Palmeiras-Coritiba": {
+      "restMandante": 98,
+      "restVisitante": 101,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-38-Bragantino-Fluminense": {
+      "restMandante": 101,
+      "restVisitante": 102,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-38-Cruzeiro-Internacional": {
+      "restMandante": 99,
+      "restVisitante": 102,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-38-Gremio-Mirassol": {
+      "restMandante": 101,
+      "restVisitante": 101,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-38-Athletico-PR-Sao-Paulo": {
+      "restMandante": 100,
+      "restVisitante": 101,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-38-Bahia-Atletico-MG": {
+      "restMandante": 101,
+      "restVisitante": 99,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "br-38-Remo-Corinthians": {
+      "restMandante": 102,
+      "restVisitante": 101,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "copa-q-cam-cru-vol": {
+      "restMandante": 7,
+      "restVisitante": 7,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "copa-q-san-pal-vol": {
+      "restMandante": 7,
+      "restVisitante": 7,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "copa-q-vit-vas-vol": {
+      "restMandante": 7,
+      "restVisitante": 7,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "copa-q-gre-int-vol": {
+      "restMandante": 11,
+      "restVisitante": 12,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "s2-2026-08-28-Goias-Sao-Bernardo": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "s2-2026-08-28-Novorizontino-Sport": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "s2-2026-08-28-Nautico-Athletic-PR": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "s2-2026-08-29-Botafogo-SP-Cuiaba": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "s2-2026-08-30-Avai-Atletico-GO": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "s2-2026-08-30-America-MG-Ponte-Preta": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "s2-2026-08-30-CRB-Criciuma": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "s2-2026-08-30-Vila-Nova-Ceara": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "s2-2026-08-31-Fortaleza-Operario-PR": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "s2-2026-09-01-Londrina-Juventude": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "s2-2026-09-03-Nautico-Botafogo-SP": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "s2-2026-09-04-Criciuma-Cuiaba": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "s2-2026-09-04-Athletic-PR-Vila-Nova": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "s2-2026-09-04-CRB-America-MG": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "s2-2026-09-05-Novorizontino-Avai": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "s2-2026-09-05-Goias-Fortaleza": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "s2-2026-09-05-Juventude-Atletico-GO": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "s2-2026-09-05-Ceara-Sport": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 1,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "s2-2026-09-06-Londrina-Operario-PR": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 1,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "s2-2026-09-06-Ponte-Preta-Sao-Bernardo": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "lib-2026-09-08-Fluminense-Platense": {
+      "restMandante": 17,
+      "restVisitante": null,
+      "games7Mandante": 1,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "lib-2026-09-09-Palmeiras-LDU-Quito": {
+      "restMandante": 14,
+      "restVisitante": 20,
+      "games7Mandante": 1,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "lib-2026-09-09-Estudiantes-Corinthians": {
+      "restMandante": null,
+      "restVisitante": 17,
+      "games7Mandante": 0,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "lib-2026-09-10-Independiente-del-Valle-Flamengo": {
+      "restMandante": 16,
+      "restVisitante": 19,
+      "games7Mandante": 0,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "lib-2026-09-15-Platense-Fluminense": {
+      "restMandante": null,
+      "restVisitante": 24,
+      "games7Mandante": 0,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "lib-2026-09-16-LDU-Quito-Palmeiras": {
+      "restMandante": 27,
+      "restVisitante": 21,
+      "games7Mandante": 0,
+      "games7Visitante": 1,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "lib-2026-09-16-Corinthians-Estudiantes": {
+      "restMandante": 24,
+      "restVisitante": null,
+      "games7Mandante": 1,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "lib-2026-09-17-Flamengo-Independiente-del-Valle": {
+      "restMandante": 26,
+      "restVisitante": 23,
+      "games7Mandante": 1,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-bundesliga-2026-08-28-Bayern-Munich-VfB-Stuttgart": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-bundesliga-2026-08-29-SC-Freiburg-Augsburg": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-bundesliga-2026-08-29-Heidenheim-Wolfsburg": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-bundesliga-2026-08-29-RB-Leipzig-Hamburger-SV": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-bundesliga-2026-08-29-Borussia-Mgladbach-Hoffenheim": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-bundesliga-2026-08-29-Werder-Bremen-Bayer-Leverkusen": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-bundesliga-2026-08-29-Mainz-Koln": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-bundesliga-2026-08-29-Union-Berlin-St-Pauli": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-bundesliga-2026-08-29-Eintracht-Frankfurt-Borussia-Dortmund": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-la-liga-2026-08-28-Racing-Elche": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-la-liga-2026-08-28-Alaves-Villarreal": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-la-liga-2026-08-29-Levante-Real-Betis": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-la-liga-2026-08-29-Real-Sociedad-Espanyol": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-la-liga-2026-08-29-Sevilla-Atletico-Madrid": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-la-liga-2026-08-30-Real-Madrid-Malaga": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-la-liga-2026-08-30-Deportivo-Valencia": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-la-liga-2026-08-30-Celta-Athletic": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-la-liga-2026-08-31-Osasuna-Getafe": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-la-liga-2026-08-31-Barcelona-Rayo-Vallecano": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-premier-league-2026-08-29-Manchester-United-Coventry-City": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-premier-league-2026-08-29-Arsenal-Leeds-United": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-premier-league-2026-08-29-Brentford-Aston-Villa": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-premier-league-2026-08-29-Ipswich-Town-Sunderland": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-premier-league-2026-08-29-Bournemouth-Hull-City": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-premier-league-2026-08-29-Chelsea-Fulham": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-premier-league-2026-08-30-Everton-Brighton": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-premier-league-2026-08-30-Crystal-Palace-Nottingham-Forest": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-premier-league-2026-08-30-Newcastle-United-Liverpool": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-premier-league-2026-08-31-Manchester-City-Tottenham": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-primeira-liga-2026-08-28-Rio-Ave-Sporting-CP": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-primeira-liga-2026-08-29-Alverca-Santa-Clara": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-primeira-liga-2026-08-29-Arouca-Maritimo": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-primeira-liga-2026-08-29-Academico-Viseu-Porto": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-primeira-liga-2026-08-30-Nacional-Estoril": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-primeira-liga-2026-08-30-Casa-Pia-Moreirense": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-primeira-liga-2026-08-30-Famalicao-Vitoria-Guimaraes": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    },
+    "eu-primeira-liga-2026-08-31-Benfica-Gil-Vicente": {
+      "restMandante": null,
+      "restVisitante": null,
+      "games7Mandante": 0,
+      "games7Visitante": 0,
+      "arbitro": null,
+      "cartoesArbitro": null
+    }
+  }
+}

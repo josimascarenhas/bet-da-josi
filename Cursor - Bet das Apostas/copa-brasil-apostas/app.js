@@ -81,6 +81,7 @@
 
   var currentView = "painel";
   var diaProbMin = 70;
+  var diaValueOnly = false;
 
   var MONTHS = [
     "Janeiro", "Fevereiro", "Mar\u00e7o", "Abril", "Maio", "Junho",
@@ -610,6 +611,31 @@
     return FOOT.times[key] || {};
   }
 
+  function getGameIntel(g) {
+    var intel = window.INTEL_DATA;
+    if (!intel || !intel.jogos) return null;
+    return intel.jogos[g.id] || null;
+  }
+
+  function getBookOddsForGame(g) {
+    var odds = window.ODDS_DATA;
+    if (!odds || !odds.jogos) return null;
+    return odds.jogos[g.id] || null;
+  }
+
+  function marketGroupKey(mercado) {
+    if (/Empate|\(1\)|\(2\)|\(X\)/.test(mercado)) return "resultado";
+    if (/Escanteio|Corner/i.test(mercado)) return "escanteios";
+    if (/Cart/i.test(mercado)) return "cartoes";
+    if (/Over|Under|BTTS|Sim|Nao/.test(mercado)) return "gols";
+    return "outros";
+  }
+
+  function pickScore(p) {
+    var edge = p.market.valueEdge || 0;
+    return p.market.prob + (p.market.hasValue ? 8 : 0) + edge * 0.6;
+  }
+
   function buildFootballContext(g, team, adv, comp) {
     var tInfo = getFootTeamInfo(team);
     var aInfo = getFootTeamInfo(adv);
@@ -621,7 +647,7 @@
       bundesliga: 18, "primeira-liga": 18
     };
     var totalTimes = totalMap[comp] || 0;
-    return {
+    var ctx = {
       isMandante: isHome,
       competicao: comp,
       mataMata: g.comp === "copa" || g.comp === "libertadores",
@@ -649,6 +675,20 @@
       visitanteFora: getFootTeamInfo(g.visitante).fora,
       h2hGoalDiff: h2hGoalDiff(team, adv)
     };
+    var intel = getGameIntel(g);
+    if (intel) {
+      ctx.restDaysHome = intel.restMandante;
+      ctx.restDaysAway = intel.restVisitante;
+      ctx.games7Home = intel.games7Mandante;
+      ctx.games7Away = intel.games7Visitante;
+      if (intel.arbitro) {
+        ctx.refereeNome = intel.arbitro;
+        ctx.refereeCards = intel.cartoesArbitro;
+      }
+    }
+    var book = getBookOddsForGame(g);
+    if (book) ctx.bookOdds = book;
+    return ctx;
   }
 
   function analyzeFootballGame(g, focusTeam) {
@@ -1180,7 +1220,7 @@
     });
   }
 
-  function collectDayPicks(minProb) {
+  function collectDayPicks(minProb, valueOnly) {
     var picks = [];
     var skipGroups = ["Placar Exato", "Contexto"];
     gamesTodayFootball().forEach(function (g) {
@@ -1189,28 +1229,77 @@
       (an.markets || []).forEach(function (m) {
         if (m.prob < minProb || skipGroups.indexOf(m.grupo) >= 0) return;
         if (/Over 0\.5|Under 0\.5/.test(m.mercado)) return;
-        picks.push({ game: g, market: m });
+        if (valueOnly && !m.hasValue) return;
+        picks.push({ game: g, market: m, groupKey: marketGroupKey(m.mercado) });
       });
     });
-    return picks.sort(function (a, b) { return b.market.prob - a.market.prob; });
+    return picks.sort(function (a, b) { return pickScore(b) - pickScore(a); });
   }
 
   function buildCombinada(picks, maxLegs) {
-    maxLegs = maxLegs || 4;
+    maxLegs = Math.min(maxLegs || 3, 3);
     var byGame = {};
     picks.forEach(function (p) {
-      var id = p.game.id;
-      if (!byGame[id] || p.market.prob > byGame[id].market.prob) byGame[id] = p;
+      if (!p.groupKey) p.groupKey = marketGroupKey(p.market.mercado);
+      if (!byGame[p.game.id]) byGame[p.game.id] = [];
+      byGame[p.game.id].push(p);
     });
-    var legs = Object.keys(byGame).map(function (k) { return byGame[k]; })
-      .sort(function (a, b) { return b.market.prob - a.market.prob; })
-      .slice(0, maxLegs);
+
+    var candidates = [];
+    Object.keys(byGame).forEach(function (id) {
+      var bestByGroup = {};
+      byGame[id].forEach(function (p) {
+        var gk = p.groupKey;
+        if (!bestByGroup[gk] || pickScore(p) > pickScore(bestByGroup[gk])) bestByGroup[gk] = p;
+      });
+      Object.keys(bestByGroup).forEach(function (gk) { candidates.push(bestByGroup[gk]); });
+    });
+    candidates.sort(function (a, b) { return pickScore(b) - pickScore(a); });
+
+    var legs = [];
+    var usedGames = {};
+    var usedGroups = {};
+    candidates.forEach(function (p) {
+      if (legs.length >= maxLegs) return;
+      if (usedGames[p.game.id]) return;
+      if (usedGroups[p.groupKey] && Object.keys(usedGroups).length < maxLegs) return;
+      legs.push(p);
+      usedGames[p.game.id] = true;
+      usedGroups[p.groupKey] = true;
+    });
+
     if (!legs.length) return null;
     var combinedProb = legs.reduce(function (acc, leg) {
       return acc * (leg.market.prob / 100);
     }, 1) * 100;
     var combinedOdd = M.toOdd(combinedProb);
-    return { legs: legs, combinedProb: Math.round(combinedProb * 10) / 10, combinedOdd: combinedOdd };
+    var bookOdds = legs.map(function (leg) { return leg.market.bookOdd; }).filter(Boolean);
+    var combinedBookOdd = bookOdds.length === legs.length
+      ? round2(bookOdds.reduce(function (a, o) { return a * o; }, 1))
+      : null;
+    return {
+      legs: legs,
+      combinedProb: Math.round(combinedProb * 10) / 10,
+      combinedOdd: combinedOdd,
+      combinedBookOdd: combinedBookOdd
+    };
+  }
+
+  function round2(n) { return Math.round(n * 100) / 100; }
+
+  function formatMarketRow(m) {
+    var book = m.bookOdd ? m.bookOdd.toFixed(2) : "—";
+    var edge = m.valueEdge != null
+      ? '<span class="edge ' + (m.valueEdge >= 3 ? "positive" : "") + '">' +
+        (m.valueEdge > 0 ? "+" : "") + m.valueEdge + "pp</span>"
+      : '<span class="edge">—</span>';
+    var badge = m.hasValue ? '<span class="dia-value-badge">Valor</span>' : "";
+    return '<div class="dia-pick-row ' + probClass(m.prob) + (m.hasValue ? " has-value" : "") + '">' +
+      '<span class="mercado">' + esc(m.mercado) + badge + '</span>' +
+      '<span class="grupo">' + esc(m.grupo) + '</span>' +
+      '<span class="prob">' + m.prob + '%</span>' +
+      '<span class="odd">' + (m.odd || M.toOdd(m.prob)).toFixed(2) + "</span>" +
+      '<span class="book">' + book + "</span>" + edge + "</div>";
   }
 
   function renderDia() {
@@ -1222,6 +1311,8 @@
     document.querySelectorAll(".dia-thresh").forEach(function (btn) {
       btn.classList.toggle("active", Number(btn.getAttribute("data-min")) === diaProbMin);
     });
+    var valueEl = document.getElementById("diaValueOnly");
+    if (valueEl) valueEl.checked = diaValueOnly;
 
     if (sport !== "futebol") {
       sub.textContent = "Selecione Futebol para ver os jogos do dia.";
@@ -1231,20 +1322,25 @@
     }
 
     var games = gamesTodayFootball();
-    sub.textContent = fmtData(todayISO) + " \u00b7 " + games.length + " jogos \u00b7 filtro \u2265" + diaProbMin + "%";
-    var picks = collectDayPicks(diaProbMin);
-    var combi = buildCombinada(picks, diaProbMin >= 80 ? 3 : diaProbMin >= 70 ? 4 : 5);
+    var filterNote = diaValueOnly ? " \u00b7 s\u00f3 com valor" : "";
+    sub.textContent = fmtData(todayISO) + " \u00b7 " + games.length + " jogos \u00b7 filtro \u2265" + diaProbMin + "%" + filterNote;
+    var picks = collectDayPicks(diaProbMin, diaValueOnly);
+    var combi = buildCombinada(picks, 3);
 
     if (combi && combi.legs.length >= 2) {
-      combEl.innerHTML = '<h3>Combinada sugerida (' + combi.legs.length + " pernas)</h3>" +
+      combEl.innerHTML = '<h3>Combinada inteligente (' + combi.legs.length + " pernas \u00b7 mercados descorrelacionados)</h3>" +
         '<div class="dia-combi-legs">' + combi.legs.map(function (leg) {
           var g = leg.game;
+          var val = leg.market.hasValue ? ' <span class="dia-value-badge">Valor</span>' : "";
           return '<div class="dia-combi-leg"><span class="comp-badge comp-' + g.comp + '">' +
             compDisplayName(g.comp, g) + '</span><span>' + label(g.mandante) + " x " + label(g.visitante) +
-            '</span><span>' + esc(leg.market.mercado) + '</span><span class="prob">' + leg.market.prob + "%</span></div>";
+            '</span><span>' + esc(leg.market.mercado) + val + '</span><span class="prob">' + leg.market.prob + "%</span></div>";
         }).join("") + "</div>" +
         '<div class="dia-combi-summary"><span>Prob. combinada: <strong>' + combi.combinedProb +
-        "%</strong></span><span>Odd estimada: <strong>" + combi.combinedOdd.toFixed(2) + "</strong></span></div>";
+        "%</strong></span><span>Odd modelo: <strong>" + combi.combinedOdd.toFixed(2) + "</strong></span>" +
+        (combi.combinedBookOdd
+          ? '<span>Odd mercado: <strong>' + combi.combinedBookOdd.toFixed(2) + "</strong></span>"
+          : "") + "</div>";
     } else if (combi && combi.legs.length === 1) {
       combEl.innerHTML = '<h3>Melhor aposta do dia</h3><div class="dia-combi-legs">' +
         combi.legs.map(function (leg) {
@@ -1253,8 +1349,9 @@
             '</span><span>' + esc(leg.market.mercado) + '</span><span class="prob">' + leg.market.prob + "%</span></div>";
         }).join("") + "</div>";
     } else {
-      combEl.innerHTML = '<div class="dia-warn">Nenhuma combinada com 2+ jogos acima de ' + diaProbMin +
-        "%. Tente um filtro menor ou aguarde mais jogos.</div>";
+      combEl.innerHTML = '<div class="dia-warn">Nenhuma combinada com 2+ jogos' +
+        (diaValueOnly ? " com valor" : "") + " acima de " + diaProbMin +
+        "%. Tente um filtro menor ou desative \u00abS\u00f3 com valor\u00bb.</div>";
     }
 
     if (!games.length) {
@@ -1271,21 +1368,23 @@
     body.innerHTML = games.map(function (g) {
       var entry = byGame[g.id];
       var an = analyzeFootballGame(g, g.mandante);
+      var intel = getGameIntel(g);
+      var intelNote = intel && intel.restMandante != null
+        ? '<div class="dia-intel">Descanso: ' + intel.restMandante + "d vs " + intel.restVisitante +
+          "d" + (intel.arbitro ? " \u00b7 \u00c1rbitro: " + esc(intel.arbitro) : "") + "</div>"
+        : "";
       var head = '<div class="dia-game-head"><span class="comp-badge comp-' + g.comp + '">' +
         compDisplayName(g.comp, g) + '</span><span class="dia-game-head teams">' +
         teamCellHtml(g.mandante) + " vs " + teamCellHtml(g.visitante) +
-        '</span><span class="day-kick">' + (g.horario || "") + "</span></div>";
+        '</span><span class="day-kick">' + (g.horario || "") + "</span></div>" + intelNote;
       if (!entry || !entry.markets.length) {
-        var note = an.insuficientes ? an.nota : "Nenhum mercado acima de " + diaProbMin + "%.";
+        var note = an.insuficientes ? an.nota : "Nenhum mercado" +
+          (diaValueOnly ? " com valor" : "") + " acima de " + diaProbMin + "%.";
         return '<div class="dia-game-block">' + head + '<div class="dia-picks"><div class="empty">' + esc(note) + "</div></div></div>";
       }
-      var rows = entry.markets.slice(0, 8).map(function (m) {
-        return '<div class="dia-pick-row ' + probClass(m.prob) + '"><span class="mercado">' + esc(m.mercado) +
-          '</span><span class="grupo">' + esc(m.grupo) + '</span><span class="prob">' + m.prob +
-          '%</span><span class="odd">' + (m.odd || M.toOdd(m.prob)).toFixed(2) + "</span></div>";
-      }).join("");
+      var rows = entry.markets.slice(0, 8).map(formatMarketRow).join("");
       return '<div class="dia-game-block">' + head + '<div class="dia-picks">' + rows + "</div></div>";
-    }).join("") + '<p class="dia-warn">Probabilidades estimadas pelo modelo Poisson (Dixon-Coles). N\u00e3o s\u00e3o cota\u00e7\u00f5es oficiais. Combine apenas mercados de jogos diferentes para reduzir correla\u00e7\u00e3o.</p>';
+    }).join("") + '<p class="dia-warn">Probabilidades estimadas pelo modelo Poisson (Dixon-Coles) com xG, descanso e desfalques. Odd mercado quando dispon\u00edvel. Valor = modelo \u2212 implied da odd (+3pp m\u00edn.). Combine mercados de grupos diferentes (resultado/gols/escanteios).</p>';
   }
 
   function renderAll(resetTarget) {
@@ -1384,6 +1483,13 @@
         renderDia();
       };
     });
+    var diaValueEl = document.getElementById("diaValueOnly");
+    if (diaValueEl) {
+      diaValueEl.onchange = function () {
+        diaValueOnly = diaValueEl.checked;
+        renderDia();
+      };
+    }
     switchView(currentView);
 
     var boot = function () {

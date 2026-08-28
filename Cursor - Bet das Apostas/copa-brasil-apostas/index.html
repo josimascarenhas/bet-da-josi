@@ -138,10 +138,16 @@
             <h2>Jogos do Dia — Apostas de Alta Probabilidade</h2>
             <p id="diaSub">Modelo Poisson · probabilidades estimadas · filtre por confiança mínima</p>
           </div>
-          <div class="dia-thresholds" id="diaThresholds">
-            <button type="button" class="dia-thresh" data-min="60">+60%</button>
-            <button type="button" class="dia-thresh active" data-min="70">+70%</button>
-            <button type="button" class="dia-thresh" data-min="80">+80%</button>
+          <div class="dia-controls">
+            <div class="dia-thresholds" id="diaThresholds">
+              <button type="button" class="dia-thresh" data-min="60">+60%</button>
+              <button type="button" class="dia-thresh active" data-min="70">+70%</button>
+              <button type="button" class="dia-thresh" data-min="80">+80%</button>
+            </div>
+            <label class="dia-value-toggle">
+              <input type="checkbox" id="diaValueOnly" />
+              Só apostas com valor (+3pp vs mercado)
+            </label>
           </div>
         </div>
         <div class="panel-body">

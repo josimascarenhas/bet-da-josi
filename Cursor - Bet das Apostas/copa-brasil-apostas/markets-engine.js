@@ -79,6 +79,43 @@
     return 0;
   }
 
+  function restFactor(days) {
+    if (days == null || isNaN(days)) return 0;
+    if (days <= 2) return -0.06;
+    if (days === 3) return -0.03;
+    if (days >= 8) return 0.025;
+    if (days >= 6) return 0.015;
+    return 0;
+  }
+
+  function fatigueFactor(gamesIn7) {
+    if (gamesIn7 == null || isNaN(gamesIn7)) return 0;
+    if (gamesIn7 >= 3) return -0.05;
+    if (gamesIn7 === 2) return -0.02;
+    return 0;
+  }
+
+  function attackRate(stats, ligaAvg) {
+    var gpg = stats.xGporJogo || stats.golsPorJogo || 1.2;
+    return gpg / Math.max(0.9, ligaAvg / 2);
+  }
+
+  function defenseRate(stats, ligaAvg) {
+    var gsg = stats.xGSporJogo || stats.golsSofridosPorJogo || 1.2;
+    return gsg / Math.max(0.9, ligaAvg / 2);
+  }
+
+  function impliedProb(odd) {
+    if (!odd || odd <= 1) return null;
+    return clamp(100 / odd, 3, 92);
+  }
+
+  function valueEdge(modelProb, bookOdd) {
+    var implied = impliedProb(bookOdd);
+    if (implied == null) return null;
+    return round1(modelProb - implied);
+  }
+
   function altitudePenalty(pais, isHomeTeam) {
     if (isHomeTeam) return 0;
     if (pais === "BOL") return -0.12;
@@ -105,10 +142,10 @@
     var home = !!ctx.isMandante;
     var avg = Math.max(0.9, liga.mediaGols || 2.4);
 
-    var attT = (t.golsPorJogo || 1.2) / (avg / 2);
-    var defT = (t.golsSofridosPorJogo || 1.2) / (avg / 2);
-    var attA = (a.golsPorJogo || 1.2) / (avg / 2);
-    var defA = (a.golsSofridosPorJogo || 1.2) / (avg / 2);
+    var attT = attackRate(t, avg);
+    var defT = defenseRate(t, avg);
+    var attA = attackRate(a, avg);
+    var defA = defenseRate(a, avg);
 
     var formT = formScore(ctx.teamForm || t.ultimos5);
     var formA = formScore(ctx.advForm || a.ultimos5);
@@ -121,6 +158,11 @@
 
     var h2hAdj = ctx.h2hGoalDiff || 0;
     var altAdj = altitudePenalty(ctx.advPais, home);
+    var restHome = ctx.restDaysHome;
+    var restAway = ctx.restDaysAway;
+    var restAdj = home
+      ? restFactor(restHome) - restFactor(restAway) + fatigueFactor(ctx.games7Home) - fatigueFactor(ctx.games7Away)
+      : restFactor(restAway) - restFactor(restHome) + fatigueFactor(ctx.games7Away) - fatigueFactor(ctx.games7Home);
 
     var injT = squadImpact(ctx.teamDesfalques, "out");
     var injA = squadImpact(ctx.advDesfalques, "out");
@@ -132,7 +174,7 @@
     var homeBoost = home ? splitFactor(homeM, true) : splitFactor(awayM, false);
     var awayBoost = home ? splitFactor(awayM, false) : splitFactor(homeM, true);
     var compBoost = compHomeFactor(ctx.competicao || "brasileirao");
-    var totalAdj = formAdj + seqAdj + pressAdj + (h2hAdj * 0.015) + altAdj;
+    var totalAdj = formAdj + seqAdj + pressAdj + (h2hAdj * 0.015) + altAdj + restAdj;
 
     var lambdaHome = clamp(attT * defA * (avg / 2) * compBoost * homeBoost * (1 + totalAdj - injT + retT), 0.35, 3.4);
     var lambdaAway = clamp(attA * defT * (avg / 2) * 0.95 * awayBoost * (1 - totalAdj - injA + retA), 0.3, 3.2);
@@ -150,6 +192,12 @@
         ? " | " + ctx.advDesfalques.map(function (d) { return d.jogador; }).join(", ") + " fora"
         : "");
     var venueNote = home ? "Mandante em casa" : "Visitante fora de casa";
+    var restNote = (restHome != null && restAway != null)
+      ? "Descanso " + restHome + "d vs " + restAway + "d"
+      : "";
+    var xgNote = (t.xGporJogo || a.xGporJogo)
+      ? "xG " + (t.xGporJogo || t.golsPorJogo || 0).toFixed(2) + " vs " + (a.xGporJogo || a.golsPorJogo || 0).toFixed(2)
+      : "";
 
     var rho = -0.08; // Dixon-Coles low-score corr
     function joint(i, j) {
@@ -218,7 +266,9 @@
     var over85Esc = poissonOver(escExp, 8.5);
     var over95Esc = poissonOver(escExp, 9.5);
     var over105Esc = poissonOver(escExp, 10.5);
-    var cartTotal = (liga.mediaCartoesAmarelos || 5.2) * (((t.cartoesPorJogo || 2.2) + (a.cartoesPorJogo || 2.2)) / 4.4);
+    var cartBase = (liga.mediaCartoesAmarelos || 5.2) * (((t.cartoesPorJogo || 2.2) + (a.cartoesPorJogo || 2.2)) / 4.4);
+    var refMult = ctx.refereeCards ? ctx.refereeCards / (liga.mediaCartoesAmarelos || 5.2) : 1;
+    var cartTotal = cartBase * clamp(refMult, 0.85, 1.2);
     var over45Cart = poissonOver(cartTotal, 4.5);
     var over35Cart = poissonOver(cartTotal, 3.5);
 
@@ -237,7 +287,14 @@
 
     var markets = [];
     function add(grupo, mercado, prob, motivo) {
-      markets.push({ grupo: grupo, mercado: mercado, prob: prob, odd: toOdd(prob), conf: confLabel(prob), motivo: motivo });
+      var bookOdd = ctx.bookOdds && ctx.bookOdds[mercado];
+      var edge = valueEdge(prob, bookOdd);
+      markets.push({
+        grupo: grupo, mercado: mercado, prob: prob, odd: toOdd(prob),
+        bookOdd: bookOdd || null, implied: bookOdd ? impliedProb(bookOdd) : null,
+        valueEdge: edge, hasValue: edge != null && edge >= 3,
+        conf: confLabel(prob), motivo: motivo
+      });
     }
     add("Resultado Final", ctx.mandanteLabel + " (1)", pHome, venueNote + " · forma " + Math.round(formT) + "% vs " + Math.round(formA) + "%");
     add("Resultado Final", "Empate (X)", pDraw, "Poisson ajustado · " + seqNote);
@@ -258,7 +315,9 @@
     add("Escanteios", "Over 9.5", over95Esc, "Linha classica");
     add("Escanteios", "Over 10.5", over105Esc, "Pressao ofensiva");
     add("Cartoes", "Over 3.5", over35Cart, "Poisson cartoes");
-    add("Cartoes", "Over 4.5", over45Cart, "Media da competicao");
+    add("Cartoes", "Over 4.5", over45Cart, ctx.refereeNome
+      ? "Arbitro " + ctx.refereeNome + " (" + (ctx.refereeCards || "?") + " cart/j)"
+      : "Media da competicao");
     add("1o Tempo", "Over 0.5 gols HT", over05HT, "Fator 45% do lambda total");
     add("1o Tempo", "Mandante vence HT", htHome, "Estimativa intervalo");
     csList.forEach(function (c) { add("Placar Correto", c.m, c.p, "Massa de probabilidade Poisson"); });
@@ -286,10 +345,11 @@
       expGols: expTotal.toFixed(2),
       lambdaHome: lambdaHome.toFixed(2),
       lambdaAway: lambdaAway.toFixed(2),
-      modelo: "Poisson + Dixon-Coles + forma/seq/pressao/casa",
+      modelo: "Poisson + Dixon-Coles + xG/forma/descanso/casa",
       contexto: {
         formT: Math.round(formT), formA: Math.round(formA),
-        sequencia: seqNote, desfalques: injNote, local: venueNote
+        sequencia: seqNote, desfalques: injNote, local: venueNote,
+        descanso: restNote, xg: xgNote
       },
       x1: { mandante: pHome, empate: pDraw, visitante: pAway, teamWin: teamWin, teamLose: teamLose },
       markets: markets,
@@ -499,7 +559,7 @@
   }
 
   global.BET_MARKETS = {
-    clamp: clamp, toOdd: toOdd, confLabel: confLabel,
+    clamp: clamp, toOdd: toOdd, confLabel: confLabel, impliedProb: impliedProb, valueEdge: valueEdge,
     football: footballAnalyze, tennis: tennisAnalyze, basketball: basketballAnalyze, mma: mmaAnalyze
   };
 })(window);

@@ -17,22 +17,40 @@ jobs:
       - name: Buscar notícias do ge.globo.com
         run: python3 "Cursor - Bet das Apostas/scripts/fetch-ge-news.py"
 
+      - name: Gerar intel (xG, descanso, desfalques)
+        run: python3 "Cursor - Bet das Apostas/scripts/fetch-football-intel.py"
+
+      - name: Gerar odds de mercado
+        run: python3 "Cursor - Bet das Apostas/scripts/fetch-odds.py"
+
       - name: Commit em main
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add "Cursor - Bet das Apostas/docs/live/news.json" \
-                  "Cursor - Bet das Apostas/copa-brasil-apostas/live/news.json"
-          git diff --staged --quiet || git commit -m "chore: atualizar notícias do ge.globo.com"
+                  "Cursor - Bet das Apostas/docs/live/intel.json" \
+                  "Cursor - Bet das Apostas/docs/live/odds.json" \
+                  "Cursor - Bet das Apostas/docs/live/football.json" \
+                  "Cursor - Bet das Apostas/copa-brasil-apostas/live/news.json" \
+                  "Cursor - Bet das Apostas/copa-brasil-apostas/live/intel.json" \
+                  "Cursor - Bet das Apostas/copa-brasil-apostas/live/odds.json" \
+                  "Cursor - Bet das Apostas/copa-brasil-apostas/live/football.json"
+          git diff --staged --quiet || git commit -m "chore: atualizar notícias, intel e odds ao vivo"
           git push
 
       - name: Publicar em gh-pages
         run: |
           cp "Cursor - Bet das Apostas/docs/live/news.json" news.json.tmp
+          cp "Cursor - Bet das Apostas/docs/live/intel.json" intel.json.tmp
+          cp "Cursor - Bet das Apostas/docs/live/odds.json" odds.json.tmp
+          cp "Cursor - Bet das Apostas/docs/live/football.json" football.json.tmp
           git fetch origin gh-pages
           git checkout gh-pages
           mkdir -p live
           mv news.json.tmp live/news.json
-          git add live/news.json
-          git diff --staged --quiet || git commit -m "chore: atualizar notícias do ge.globo.com"
+          mv intel.json.tmp live/intel.json
+          mv odds.json.tmp live/odds.json
+          mv football.json.tmp live/football.json
+          git add live/news.json live/intel.json live/odds.json live/football.json
+          git diff --staged --quiet || git commit -m "chore: atualizar notícias, intel e odds ao vivo"
           git push origin gh-pages
