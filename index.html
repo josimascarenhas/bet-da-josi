@@ -20,11 +20,12 @@
 
     <header class="header">
       <div class="brand-mark">BET<br/>JOSI</div>
-      <div>
+      <div class="header-main">
         <span class="badge" id="headerBadge">Bet da Josi</span>
         <h1 id="pageTitle">Bet da Josi 2026</h1>
         <p class="sub" id="metaInfo">Carregando…</p>
       </div>
+      <div class="header-selected" id="headerSelected" hidden></div>
       <div class="header-today" id="todayClock" aria-live="polite"></div>
     </header>
 
@@ -50,11 +51,12 @@
       </div>
     </section>
 
-    <aside class="glossario-box" id="glossarioBox">
-      <div class="glossario-icon">📊</div>
-      <div id="glossarioText"></div>
-    </aside>
+    <nav class="view-tabs" aria-label="Visualização">
+      <button type="button" class="view-tab active" data-view="painel">📋 Painel</button>
+      <button type="button" class="view-tab" data-view="modelo">📊 Modelo Matemático</button>
+    </nav>
 
+    <div id="viewPainel" class="view-panel">
     <section class="calendar-section">
       <div class="panel panel-field">
         <div class="panel-head calendar-head">
@@ -123,6 +125,17 @@
           </table>
           <div class="empty" id="matchesEmpty" style="display:none">Nenhum resultado.</div>
         </div>
+      </article>
+    </div>
+    </div>
+
+    <div id="viewModelo" class="view-panel" hidden>
+      <article class="panel panel-field modelo-panel">
+        <div class="panel-head">
+          <h2>Modelo Matemático</h2>
+          <p id="modeloSub">Metodologia de cálculo das probabilidades</p>
+        </div>
+        <div class="panel-body" id="glossarioText"></div>
       </article>
     </div>
 
