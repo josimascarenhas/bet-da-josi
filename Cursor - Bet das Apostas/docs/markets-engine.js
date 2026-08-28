@@ -364,8 +364,10 @@
     add("Handicap Europeu", ctx.mandanteLabel + " +1", ehHomeP1, "Nao perde por 2+ gols");
     add("Handicap Europeu", ctx.visitanteLabel + " -1", ehAwayM1, "Visitante vence por 2+ gols");
     add("Handicap Europeu", ctx.visitanteLabel + " +1", ehAwayP1, "Visitante nao perde por 2+");
-    add("Handicap Europeu", ctx.teamLabel + " -1", ehTeamM1, "Foco do time analisado · EH -1");
-    add("Handicap Europeu", ctx.teamLabel + " +1", ehTeamP1, "Foco do time analisado · EH +1");
+    if (ctx.teamLabel !== ctx.mandanteLabel && ctx.teamLabel !== ctx.visitanteLabel) {
+      add("Handicap Europeu", ctx.teamLabel + " -1", ehTeamM1, "Foco do time analisado · EH -1");
+      add("Handicap Europeu", ctx.teamLabel + " +1", ehTeamP1, "Foco do time analisado · EH +1");
+    }
     add("Empate Anula", "DNB " + ctx.teamLabel, dnbWin, "Condicional sem empate");
     add("Chutes ao Gol", "Over 7.5", over75Sot, "Poisson SOT total=" + sotTotal.toFixed(1));
     add("Chutes ao Gol", "Over 8.5", over85Sot, "Media " + sotHome.toFixed(1) + " + " + sotAway.toFixed(1));
