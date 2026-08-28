@@ -458,6 +458,27 @@ tr.selected-row td { background: #d9f0e4; font-weight: 600; }
   border-radius: var(--radius); padding: 1rem 1.15rem; margin-bottom: 1.15rem;
 }
 .dia-combinada h3 { font-size: 0.85rem; margin-bottom: 0.65rem; opacity: 0.95; }
+.dia-combi-grupos {
+  display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.75rem;
+}
+.dia-combi-grupo-btn {
+  display: inline-flex; align-items: center; gap: 0.35rem;
+  padding: 0.4rem 0.7rem; border-radius: 999px; border: 1px solid rgba(255,255,255,0.35);
+  background: rgba(255,255,255,0.1); color: #fff; font-family: inherit;
+  font-size: 0.72rem; font-weight: 700; cursor: pointer; transition: background 0.15s, border-color 0.15s;
+}
+.dia-combi-grupo-btn:hover { background: rgba(255,255,255,0.22); border-color: rgba(255,255,255,0.55); }
+.dia-combi-grupo-btn.active {
+  background: #fff; color: #0b7a4b; border-color: #fff;
+}
+.dia-combi-grupo-count {
+  font-family: var(--mono); font-size: 0.68rem; font-weight: 800;
+  background: rgba(0,0,0,0.18); padding: 0.05rem 0.35rem; border-radius: 999px;
+}
+.dia-combi-grupo-btn.active .dia-combi-grupo-count { background: rgba(11,122,75,0.15); color: #0b7a4b; }
+.dia-combi-grupo-note {
+  font-size: 0.76rem; opacity: 0.9; margin: 0 0 0.65rem;
+}
 .dia-combi-legs { display: flex; flex-direction: column; gap: 0.45rem; margin-bottom: 0.75rem; }
 .dia-combi-legs-all { max-height: 420px; overflow-y: auto; padding-right: 0.25rem; }
 .dia-combi-leg-wrap { display: flex; flex-direction: column; gap: 0; }
