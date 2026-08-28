@@ -46,7 +46,8 @@
     "Brighton": "Brighton", "Aston-Villa": "Aston Villa", "Brentford": "Brentford",
     "Atletico-Madrid": "Atl\u00e9tico Madrid", "Sevilla": "Sevilla", "Real-Betis": "Betis",
     "Villarreal": "Villarreal", Alaves: "Alav\u00e9s", Benfica: "Benfica", Porto: "Porto",
-    "Sporting-CP": "Sporting CP", Braga: "Braga", "VfB-Stuttgart": "Stuttgart"
+    "Sporting-CP": "Sporting CP", Braga: "Braga", "VfB-Stuttgart": "Stuttgart",
+    "Schalke-04": "Schalke", "SC-Paderborn": "Paderborn", "SV-Elversberg": "Elversberg"
   };
 
   var TEAM_LOGOS = {

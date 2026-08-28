@@ -100,17 +100,17 @@ window.EUROPE_DATA = {
       "Eintracht-Frankfurt",
       "VfB-Stuttgart",
       "SC-Freiburg",
-      "Wolfsburg",
       "Hoffenheim",
       "Werder-Bremen",
       "Union-Berlin",
       "Mainz",
       "Augsburg",
-      "Heidenheim",
-      "St-Pauli",
       "Hamburger-SV",
       "Koln",
-      "Borussia-Mgladbach"
+      "Borussia-Mgladbach",
+      "Schalke-04",
+      "SC-Paderborn",
+      "SV-Elversberg"
     ],
     "liga": {
       "jogos": 306,
@@ -2143,6 +2143,21 @@ window.EUROPE_DATA = {
       ],
       "sequencia": "1D"
     }
+  },
+  "Schalke-04": {
+    "id": "S04", "cor": "#005CA9", "pais": "GER",
+    "casa": {"gpg": 1.35, "gsg": 1.2}, "fora": {"gpg": 0.95, "gsg": 1.5},
+    "bundesliga": {"jogos": 0, "posicao": 12, "pontos": 0, "golsPorJogo": 1.2, "golsSofridosPorJogo": 1.35, "over25Pct": 46, "bttsPct": 48, "cleanSheetPct": 28, "cartoesPorJogo": 2.3, "escanteiosPorJogo": 5.2, "chutesNoGolPorJogo": 4.5, "ultimos5": ["V 2-0", "D 1-1", "V 1-0", "D 0-1", "E 1-1"], "sequencia": "1V"}
+  },
+  "SC-Paderborn": {
+    "id": "SCP", "cor": "#0066B3", "pais": "GER",
+    "casa": {"gpg": 1.38, "gsg": 1.25}, "fora": {"gpg": 0.9, "gsg": 1.55},
+    "bundesliga": {"jogos": 0, "posicao": 14, "pontos": 0, "golsPorJogo": 1.15, "golsSofridosPorJogo": 1.4, "over25Pct": 44, "bttsPct": 46, "cleanSheetPct": 26, "cartoesPorJogo": 2.4, "escanteiosPorJogo": 5.0, "chutesNoGolPorJogo": 4.3, "ultimos5": ["V 2-1", "D 0-0", "V 1-0", "D 1-2", "E 2-2"], "sequencia": "1V"}
+  },
+  "SV-Elversberg": {
+    "id": "SVE", "cor": "#005CA9", "pais": "GER",
+    "casa": {"gpg": 1.3, "gsg": 1.3}, "fora": {"gpg": 0.85, "gsg": 1.6},
+    "bundesliga": {"jogos": 0, "posicao": 16, "pontos": 0, "golsPorJogo": 1.1, "golsSofridosPorJogo": 1.45, "over25Pct": 42, "bttsPct": 44, "cleanSheetPct": 24, "cartoesPorJogo": 2.5, "escanteiosPorJogo": 4.8, "chutesNoGolPorJogo": 4.1, "ultimos5": ["V 1-0", "D 1-1", "D 0-2", "V 2-1", "E 0-0"], "sequencia": "1V"}
   },
   "Porto": {
     "id": "POR",

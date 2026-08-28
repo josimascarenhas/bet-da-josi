@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-28T18:14:02-03:00",
+    "atualizadoEm": "2026-08-28T18:50:17-03:00",
     "fonte": "resultados + recálculo estatístico",
-    "jogosFinalizados": 248,
-    "timesAtualizados": 26,
+    "jogosFinalizados": 249,
+    "timesAtualizados": 28,
     "placaresFonte": "calendário"
   },
   "competicoes": {
@@ -2091,6 +2091,48 @@
           "j": 1,
           "gpg": 1.0,
           "gsg": 3.0
+        }
+      }
+    },
+    "Bayern-Munich": {
+      "bundesliga": {
+        "jogos": 1,
+        "golsPorJogo": 5.0,
+        "golsSofridosPorJogo": 1.0,
+        "over25Pct": 100,
+        "bttsPct": 100,
+        "cleanSheetPct": 0,
+        "ultimos5": [
+          "V 5-1 VFBST"
+        ],
+        "sequencia": "1V",
+        "xGporJogo": 4.03,
+        "xGSporJogo": 1.15,
+        "casa": {
+          "j": 1,
+          "gpg": 5.0,
+          "gsg": 1.0
+        }
+      }
+    },
+    "VfB-Stuttgart": {
+      "bundesliga": {
+        "jogos": 1,
+        "golsPorJogo": 1.0,
+        "golsSofridosPorJogo": 5.0,
+        "over25Pct": 100,
+        "bttsPct": 100,
+        "cleanSheetPct": 0,
+        "ultimos5": [
+          "D 1-5"
+        ],
+        "sequencia": "1D",
+        "xGporJogo": 1.15,
+        "xGSporJogo": 4.03,
+        "fora": {
+          "j": 1,
+          "gpg": 1.0,
+          "gsg": 5.0
         }
       }
     }
