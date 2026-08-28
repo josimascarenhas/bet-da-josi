@@ -1,10 +1,18 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-28T19:01:13.942874-03:00",
+    "atualizadoEm": "2026-08-28T19:14:37.357926-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "eu-la-liga-2026-08-28-Racing-Elche",
+      "data": "2026-08-28",
+      "comp": "la-liga",
+      "mandante": "Racing",
+      "visitante": "Elche",
+      "placar": "3-2"
+    },
     {
       "id": "eu-bundesliga-2026-08-28-Bayern-Munich-VfB-Stuttgart",
       "data": "2026-08-28",
@@ -22,12 +30,52 @@
       "placar": "1-4"
     },
     {
+      "id": "eu-primeira-liga-2026-08-28-Rio-Ave-Sporting-CP",
+      "data": "2026-08-28",
+      "comp": "primeira-liga",
+      "mandante": "Rio-Ave",
+      "visitante": "Sporting-CP",
+      "placar": "0-4"
+    },
+    {
+      "id": "eu-la-liga-2026-08-28-Alaves-Villarreal",
+      "data": "2026-08-28",
+      "comp": "la-liga",
+      "mandante": "Alaves",
+      "visitante": "Villarreal",
+      "placar": "1-0"
+    },
+    {
+      "id": "eu-la-liga-2026-08-27-Celta-Osasuna",
+      "data": "2026-08-27",
+      "comp": "la-liga",
+      "mandante": "Celta",
+      "visitante": "Osasuna",
+      "placar": "1-2"
+    },
+    {
+      "id": "eu-la-liga-2026-08-27-Barcelona-Athletic",
+      "data": "2026-08-27",
+      "comp": "la-liga",
+      "mandante": "Barcelona",
+      "visitante": "Athletic",
+      "placar": "2-0"
+    },
+    {
       "id": "copa-q-int-gre-ida",
       "data": "2026-08-27",
       "comp": "copa",
       "mandante": "Internacional",
       "visitante": "Gremio",
       "placar": "0-0"
+    },
+    {
+      "id": "eu-la-liga-2026-08-26-Real-Madrid-Real-Sociedad",
+      "data": "2026-08-26",
+      "comp": "la-liga",
+      "mandante": "Real-Madrid",
+      "visitante": "Real-Sociedad",
+      "placar": "4-1"
     },
     {
       "id": "copa-q-pal-san-ida",
@@ -46,6 +94,30 @@
       "placar": "1-0"
     },
     {
+      "id": "eu-la-liga-2026-08-25-Valencia-Real-Betis",
+      "data": "2026-08-25",
+      "comp": "la-liga",
+      "mandante": "Valencia",
+      "visitante": "Real-Betis",
+      "placar": "0-1"
+    },
+    {
+      "id": "s2-2026-08-25-Atletico-GO-Botafogo-SP",
+      "data": "2026-08-25",
+      "comp": "serieb",
+      "mandante": "Atletico-GO",
+      "visitante": "Botafogo-SP",
+      "placar": "3-0"
+    },
+    {
+      "id": "s2-2026-08-25-Juventude-CRB",
+      "data": "2026-08-25",
+      "comp": "serieb",
+      "mandante": "Juventude",
+      "visitante": "CRB",
+      "placar": "2-1"
+    },
+    {
       "id": "copa-q-cru-cam-ida",
       "data": "2026-08-25",
       "comp": "copa",
@@ -62,6 +134,54 @@
       "placar": "3-1"
     },
     {
+      "id": "eu-la-liga-2026-08-24-Osasuna-Levante",
+      "data": "2026-08-24",
+      "comp": "la-liga",
+      "mandante": "Osasuna",
+      "visitante": "Levante",
+      "placar": "0-0"
+    },
+    {
+      "id": "eu-premier-league-2026-08-24-Fulham-Chelsea",
+      "data": "2026-08-24",
+      "comp": "premier-league",
+      "mandante": "Fulham",
+      "visitante": "Chelsea",
+      "placar": "2-3"
+    },
+    {
+      "id": "eu-primeira-liga-2026-08-24-Gil-Vicente-Casa-Pia",
+      "data": "2026-08-24",
+      "comp": "primeira-liga",
+      "mandante": "Gil-Vicente",
+      "visitante": "Casa-Pia",
+      "placar": "2-0"
+    },
+    {
+      "id": "eu-la-liga-2026-08-24-Malaga-Deportivo",
+      "data": "2026-08-24",
+      "comp": "la-liga",
+      "mandante": "Malaga",
+      "visitante": "Deportivo",
+      "placar": "1-1"
+    },
+    {
+      "id": "s2-2026-08-24-Athletic-PR-Novorizontino",
+      "data": "2026-08-24",
+      "comp": "serieb",
+      "mandante": "Athletic-PR",
+      "visitante": "Novorizontino",
+      "placar": "1-4"
+    },
+    {
+      "id": "s2-2026-08-24-Sport-America-MG",
+      "data": "2026-08-24",
+      "comp": "serieb",
+      "mandante": "Sport",
+      "visitante": "America-MG",
+      "placar": "3-0"
+    },
+    {
       "id": "br-24-Botafogo-Athletico-PR",
       "data": "2026-08-24",
       "comp": "brasileirao",
@@ -70,180 +190,60 @@
       "placar": "2-3"
     },
     {
-      "id": "br-24-Bragantino-Gremio",
+      "id": "eu-premier-league-2026-08-23-Brighton-Aston-Villa",
       "data": "2026-08-23",
-      "comp": "brasileirao",
-      "mandante": "Bragantino",
-      "visitante": "Gremio",
-      "placar": "1-0"
+      "comp": "premier-league",
+      "mandante": "Brighton",
+      "visitante": "Aston-Villa",
+      "placar": "4-0"
     },
     {
-      "id": "br-24-Palmeiras-Vasco",
+      "id": "eu-premier-league-2026-08-23-Manchester-City-Bournemouth",
       "data": "2026-08-23",
-      "comp": "brasileirao",
-      "mandante": "Palmeiras",
-      "visitante": "Vasco",
-      "placar": "4-1"
-    },
-    {
-      "id": "br-24-Vitoria-Bahia",
-      "data": "2026-08-23",
-      "comp": "brasileirao",
-      "mandante": "Vitoria",
-      "visitante": "Bahia",
-      "placar": "0-2"
-    },
-    {
-      "id": "br-24-Chapecoense-Sao-Paulo",
-      "data": "2026-08-23",
-      "comp": "brasileirao",
-      "mandante": "Chapecoense",
-      "visitante": "Sao-Paulo",
-      "placar": "1-0"
-    },
-    {
-      "id": "br-24-Santos-Mirassol",
-      "data": "2026-08-23",
-      "comp": "brasileirao",
-      "mandante": "Santos",
-      "visitante": "Mirassol",
-      "placar": "1-1"
-    },
-    {
-      "id": "br-24-Coritiba-Corinthians",
-      "data": "2026-08-23",
-      "comp": "brasileirao",
-      "mandante": "Coritiba",
-      "visitante": "Corinthians",
+      "comp": "premier-league",
+      "mandante": "Manchester-City",
+      "visitante": "Bournemouth",
       "placar": "2-1"
     },
     {
-      "id": "br-24-Fluminense-Remo",
-      "data": "2026-08-22",
-      "comp": "brasileirao",
-      "mandante": "Fluminense",
-      "visitante": "Remo",
-      "placar": "2-1"
-    },
-    {
-      "id": "eu-primeira-liga-2026-08-22-Sporting-CP-Alverca",
-      "data": "2026-08-22",
+      "id": "eu-primeira-liga-2026-08-23-Vitoria-Guimaraes-Nacional",
+      "data": "2026-08-23",
       "comp": "primeira-liga",
-      "mandante": "Sporting-CP",
-      "visitante": "Alverca",
-      "placar": "3-1"
-    },
-    {
-      "id": "br-24-Internacional-Atletico-MG",
-      "data": "2026-08-22",
-      "comp": "brasileirao",
-      "mandante": "Internacional",
-      "visitante": "Atletico-MG",
-      "placar": "0-0"
-    },
-    {
-      "id": "br-24-Cruzeiro-Flamengo",
-      "data": "2026-08-22",
-      "comp": "brasileirao",
-      "mandante": "Cruzeiro",
-      "visitante": "Flamengo",
-      "placar": "2-1"
-    },
-    {
-      "id": "lib-2026-08-20-Independiente-Rivadavia-Fluminense",
-      "data": "2026-08-20",
-      "comp": "libertadores",
-      "mandante": "Independiente-Rivadavia",
-      "visitante": "Fluminense",
-      "placar": "0-0"
-    },
-    {
-      "id": "lib-2026-08-20-LDU-Quito-Mirassol",
-      "data": "2026-08-20",
-      "comp": "libertadores",
-      "mandante": "LDU-Quito",
-      "visitante": "Mirassol",
-      "placar": "0-0"
-    },
-    {
-      "id": "lib-2026-08-20-Corinthians-Rosario-Central",
-      "data": "2026-08-20",
-      "comp": "libertadores",
-      "mandante": "Corinthians",
-      "visitante": "Rosario-Central",
+      "mandante": "Vitoria-Guimaraes",
+      "visitante": "Nacional",
       "placar": "1-0"
     },
     {
-      "id": "lib-2026-08-19-Cerro-Porteno-Palmeiras",
-      "data": "2026-08-19",
-      "comp": "libertadores",
-      "mandante": "Cerro-Porteno",
-      "visitante": "Palmeiras",
-      "placar": "0-1"
+      "id": "eu-la-liga-2026-08-23-Atletico-Madrid-Villarreal",
+      "data": "2026-08-23",
+      "comp": "la-liga",
+      "mandante": "Atletico-Madrid",
+      "visitante": "Villarreal",
+      "placar": "2-2"
     },
     {
-      "id": "lib-2026-08-19-Cruzeiro-Flamengo",
-      "data": "2026-08-19",
-      "comp": "libertadores",
-      "mandante": "Cruzeiro",
-      "visitante": "Flamengo",
-      "placar": "1-2"
+      "id": "eu-premier-league-2026-08-23-Newcastle-United-Liverpool",
+      "data": "2026-08-23",
+      "comp": "premier-league",
+      "mandante": "Newcastle-United",
+      "visitante": "Liverpool",
+      "placar": "2-2"
     },
     {
-      "id": "br-23-Internacional-Remo",
-      "data": "2026-08-17",
-      "comp": "brasileirao",
-      "mandante": "Internacional",
-      "visitante": "Remo",
-      "placar": "1-1"
-    },
-    {
-      "id": "br-23-Chapecoense-Bahia",
-      "data": "2026-08-16",
-      "comp": "brasileirao",
-      "mandante": "Chapecoense",
-      "visitante": "Bahia",
-      "placar": "3-3"
-    },
-    {
-      "id": "br-23-Atletico-MG-Gremio",
-      "data": "2026-08-16",
-      "comp": "brasileirao",
-      "mandante": "Atletico-MG",
-      "visitante": "Gremio",
-      "placar": "3-0"
-    },
-    {
-      "id": "br-23-Vasco-Santos",
-      "data": "2026-08-16",
-      "comp": "brasileirao",
-      "mandante": "Vasco",
-      "visitante": "Santos",
-      "placar": "0-3"
-    },
-    {
-      "id": "br-23-Mirassol-Flamengo",
-      "data": "2026-08-16",
-      "comp": "brasileirao",
-      "mandante": "Mirassol",
-      "visitante": "Flamengo",
-      "placar": "1-5"
-    },
-    {
-      "id": "br-23-Vitoria-Botafogo",
-      "data": "2026-08-16",
-      "comp": "brasileirao",
-      "mandante": "Vitoria",
-      "visitante": "Botafogo",
+      "id": "eu-primeira-liga-2026-08-23-Santa-Clara-Famalicao",
+      "data": "2026-08-23",
+      "comp": "primeira-liga",
+      "mandante": "Santa-Clara",
+      "visitante": "Famalicao",
       "placar": "1-0"
     },
     {
-      "id": "br-23-Corinthians-Cruzeiro",
-      "data": "2026-08-16",
-      "comp": "brasileirao",
-      "mandante": "Corinthians",
-      "visitante": "Cruzeiro",
-      "placar": "1-2"
+      "id": "eu-la-liga-2026-08-23-Getafe-Racing",
+      "data": "2026-08-23",
+      "comp": "la-liga",
+      "mandante": "Getafe",
+      "visitante": "Racing",
+      "placar": "1-0"
     }
   ]
 }
