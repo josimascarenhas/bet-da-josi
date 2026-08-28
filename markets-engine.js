@@ -34,6 +34,32 @@
   }
 
   /* --- Futebol: Poisson + ajuste Dixon-Coles leve --- */
+  function formScore(ultimos5) {
+    if (!ultimos5 || !ultimos5.length) return 50;
+    var pts = 0;
+    ultimos5.forEach(function (s) {
+      var c = String(s).charAt(0);
+      if (c === "V") pts += 3;
+      else if (c === "E") pts += 1;
+    });
+    return pts / (ultimos5.length * 3) * 100;
+  }
+
+  function squadImpact(list, type) {
+    if (!list || !list.length) return 0;
+    var w = { alto: type === "out" ? 0.12 : 0.08, medio: type === "out" ? 0.07 : 0.05, baixo: type === "out" ? 0.03 : 0.02 };
+    var sum = 0;
+    list.forEach(function (x) { sum += w[x.impacto] || w.medio; });
+    return Math.min(sum, type === "out" ? 0.35 : 0.2);
+  }
+
+  function splitFactor(split, isHome) {
+    if (!split) return 1;
+    var gpg = split.gpg || 1.2;
+    var gsg = split.gsg || 1.2;
+    return isHome ? clamp(gpg / 1.35, 0.75, 1.25) : clamp(gsg / 1.35, 0.75, 1.25);
+  }
+
   function footballAnalyze(teamStats, advStats, liga, ctx) {
     var t = teamStats || {};
     var a = advStats || {};
@@ -46,13 +72,36 @@
     var attA = (a.golsPorJogo || 1.2) / (avg / 2);
     var defA = (a.golsSofridosPorJogo || 1.2) / (avg / 2);
 
-    var lambdaHome = clamp(attT * defA * (avg / 2) * 1.05, 0.45, 3.1);
-    var lambdaAway = clamp(attA * defT * (avg / 2) * 0.95, 0.4, 2.9);
-    // Se o time focado e visitante, ainda calculamos placar mandante/visitante do jogo
+    var formT = formScore(ctx.teamForm || t.ultimos5);
+    var formA = formScore(ctx.advForm || a.ultimos5);
+    var formAdj = (formT - formA) * 0.0035;
+
+    var injT = squadImpact(ctx.teamDesfalques, "out");
+    var injA = squadImpact(ctx.advDesfalques, "out");
+    var retT = squadImpact(ctx.teamRetornando, "in");
+    var retA = squadImpact(ctx.advRetornando, "in");
+
+    var homeM = ctx.mandanteCasa || ctx.teamCasa;
+    var awayM = ctx.visitanteFora || ctx.advFora;
+    var homeBoost = home ? splitFactor(homeM, true) : splitFactor(awayM, false);
+    var awayBoost = home ? splitFactor(awayM, false) : splitFactor(homeM, true);
+
+    var lambdaHome = clamp(attT * defA * (avg / 2) * 1.05 * homeBoost * (1 + formAdj - injT + retT), 0.35, 3.4);
+    var lambdaAway = clamp(attA * defT * (avg / 2) * 0.95 * awayBoost * (1 - formAdj - injA + retA), 0.3, 3.2);
     if (!home) {
-      lambdaHome = clamp(attA * defT * (avg / 2) * 1.05, 0.45, 3.1);
-      lambdaAway = clamp(attT * defA * (avg / 2) * 0.95, 0.4, 2.9);
+      lambdaHome = clamp(attA * defT * (avg / 2) * 1.05 * homeBoost * (1 - formAdj - injA + retA), 0.35, 3.4);
+      lambdaAway = clamp(attT * defA * (avg / 2) * 0.95 * awayBoost * (1 + formAdj - injT + retT), 0.3, 3.2);
     }
+
+    var seqNote = (ctx.teamSequencia ? "Seq " + ctx.teamSequencia : "") +
+      (ctx.advSequencia ? " vs " + ctx.advSequencia : "");
+    var injNote = (ctx.teamDesfalques && ctx.teamDesfalques.length
+      ? "Desfalques " + ctx.teamLabel + ": " + ctx.teamDesfalques.map(function (d) { return d.jogador; }).join(", ")
+      : "") +
+      (ctx.advDesfalques && ctx.advDesfalques.length
+        ? " | " + ctx.advDesfalques.map(function (d) { return d.jogador; }).join(", ") + " fora"
+        : "");
+    var venueNote = home ? "Mandante em casa" : "Visitante fora de casa";
 
     var rho = -0.08; // Dixon-Coles low-score corr
     function joint(i, j) {
@@ -142,9 +191,9 @@
     function add(grupo, mercado, prob, motivo) {
       markets.push({ grupo: grupo, mercado: mercado, prob: prob, odd: toOdd(prob), conf: confLabel(prob), motivo: motivo });
     }
-    add("Resultado Final", ctx.mandanteLabel + " (1)", pHome, "Poisson mandante vs visitante");
-    add("Resultado Final", "Empate (X)", pDraw, "P(i=j) no modelo Poisson");
-    add("Resultado Final", ctx.visitanteLabel + " (2)", pAway, "Poisson visitante");
+    add("Resultado Final", ctx.mandanteLabel + " (1)", pHome, venueNote + " · forma " + Math.round(formT) + "% vs " + Math.round(formA) + "%");
+    add("Resultado Final", "Empate (X)", pDraw, "Poisson ajustado · " + seqNote);
+    add("Resultado Final", ctx.visitanteLabel + " (2)", pAway, injNote || "Modelo criterioso");
     add("Dupla Chance", ctx.mandanteLabel + " ou Empate (1X)", clamp(pHome + pDraw, 42, 88), "1X = 1 + X");
     add("Dupla Chance", ctx.visitanteLabel + " ou Empate (X2)", clamp(pAway + pDraw, 42, 88), "X2 = X + 2");
     add("Ambas Marcam", "Sim (BTTS)", bttsSim, "P(casa>=1 e fora>=1)");
@@ -185,7 +234,11 @@
       expGols: expTotal.toFixed(2),
       lambdaHome: lambdaHome.toFixed(2),
       lambdaAway: lambdaAway.toFixed(2),
-      modelo: "Poisson + Dixon-Coles",
+      modelo: "Poisson + Dixon-Coles + forma/lesões/casa",
+      contexto: {
+        formT: Math.round(formT), formA: Math.round(formA),
+        sequencia: seqNote, desfalques: injNote, local: venueNote
+      },
       x1: { mandante: pHome, empate: pDraw, visitante: pAway, teamWin: teamWin, teamLose: teamLose },
       markets: markets,
       topPicks: top,
