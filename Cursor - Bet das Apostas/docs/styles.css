@@ -429,11 +429,52 @@ tr.selected-row td { background: #d9f0e4; font-weight: 600; }
 }
 .dia-combinada h3 { font-size: 0.85rem; margin-bottom: 0.65rem; opacity: 0.95; }
 .dia-combi-legs { display: flex; flex-direction: column; gap: 0.45rem; margin-bottom: 0.75rem; }
+.dia-combi-leg-wrap { display: flex; flex-direction: column; gap: 0; }
 .dia-combi-leg {
-  display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem;
-  background: rgba(255,255,255,0.12); border-radius: 8px; padding: 0.5rem 0.65rem; font-size: 0.82rem;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; width: 100%;
+  background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 8px; padding: 0.5rem 0.65rem; font-size: 0.82rem;
+  color: #fff; cursor: pointer; text-align: left; font-family: inherit;
+  transition: background 0.15s, border-color 0.15s;
 }
+.dia-combi-leg:hover { background: rgba(255,255,255,0.2); border-color: rgba(255,255,255,0.35); }
+.dia-combi-leg.open { background: rgba(255,255,255,0.22); border-color: rgba(255,255,255,0.45); }
 .dia-combi-leg .prob { font-family: var(--mono); font-weight: 800; margin-left: auto; }
+.dia-combi-match { font-weight: 700; }
+.dia-combi-market-preview { opacity: 0.92; font-size: 0.78rem; }
+.dia-combi-chevron {
+  font-size: 0.75rem; opacity: 0.75; transition: transform 0.15s; margin-left: 0.15rem;
+}
+.dia-combi-leg.open .dia-combi-chevron { transform: rotate(90deg); }
+.dia-combi-detail {
+  background: rgba(0,0,0,0.22); border: 1px solid rgba(255,255,255,0.12);
+  border-top: none; border-radius: 0 0 8px 8px; margin-top: -4px; padding: 0.65rem 0.75rem 0.75rem;
+  font-size: 0.8rem; color: rgba(255,255,255,0.95);
+}
+.dia-combi-detail-inner { display: flex; flex-direction: column; gap: 0.45rem; }
+.dia-combi-bet-title { font-size: 0.88rem; }
+.dia-combi-bet-title strong { font-weight: 800; }
+.dia-combi-bet-meta {
+  display: flex; flex-wrap: wrap; gap: 0.45rem 0.75rem; align-items: center; font-size: 0.76rem;
+}
+.dia-combi-bet-meta strong { font-family: var(--mono); }
+.dia-combi-tag {
+  background: rgba(255,255,255,0.15); padding: 0.12rem 0.4rem; border-radius: 4px; font-weight: 700;
+}
+.dia-combi-motivo, .dia-combi-context { margin: 0; line-height: 1.45; opacity: 0.92; font-size: 0.76rem; }
+.dia-combi-goto {
+  align-self: flex-start; margin-top: 0.15rem; padding: 0.35rem 0.65rem;
+  border-radius: 6px; border: 1px solid rgba(255,255,255,0.35);
+  background: rgba(255,255,255,0.12); color: #fff; font-size: 0.74rem; font-weight: 700; cursor: pointer;
+}
+.dia-combi-goto:hover { background: rgba(255,255,255,0.22); }
+.dia-value-badge-light {
+  color: #fff; background: rgba(255,255,255,0.2);
+}
+.dia-game-block.dia-game-highlight {
+  box-shadow: 0 0 0 2px var(--accent), 0 8px 24px rgba(11,122,75,0.15);
+  transition: box-shadow 0.2s;
+}
 .dia-combi-summary {
   display: flex; flex-wrap: wrap; gap: 1rem; align-items: center;
   padding-top: 0.65rem; border-top: 1px solid rgba(255,255,255,0.25); font-size: 0.88rem;

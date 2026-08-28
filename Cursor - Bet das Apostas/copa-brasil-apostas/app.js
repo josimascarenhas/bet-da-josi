@@ -1287,6 +1287,84 @@
 
   function round2(n) { return Math.round(n * 100) / 100; }
 
+  function formatCombiLegDetail(leg) {
+    var g = leg.game;
+    var m = leg.market;
+    var intel = getGameIntel(g);
+    var book = m.bookOdd ? m.bookOdd.toFixed(2) : "—";
+    var edge = m.valueEdge != null
+      ? (m.valueEdge > 0 ? "+" : "") + m.valueEdge + "pp vs mercado"
+      : "";
+    return '<div class="dia-combi-detail-inner">' +
+      '<div class="dia-combi-bet-title">Apostar em: <strong>' + esc(m.mercado) + "</strong></div>" +
+      '<div class="dia-combi-bet-meta">' +
+      '<span class="dia-combi-tag">' + esc(m.grupo) + "</span>" +
+      '<span>Prob. modelo: <strong>' + m.prob + "%</strong></span>" +
+      '<span>Odd modelo: <strong>' + (m.odd || M.toOdd(m.prob)).toFixed(2) + "</strong></span>" +
+      '<span>Odd mercado: <strong>' + book + "</strong></span>" +
+      (m.hasValue ? '<span class="dia-value-badge dia-value-badge-light">Valor ' + edge + "</span>" : "") +
+      "</div>" +
+      '<p class="dia-combi-motivo"><strong>Por qu\u00ea:</strong> ' + esc(m.motivo || "Mercado com maior confian\u00e7a do modelo para este duelo.") + "</p>" +
+      '<p class="dia-combi-context">' + label(g.mandante) + " x " + label(g.visitante) +
+      " \u00b7 " + (g.horario || "hor\u00e1rio a definir") +
+      (intel && intel.restMandante != null
+        ? " \u00b7 Descanso " + intel.restMandante + "d vs " + intel.restVisitante + "d"
+        : "") +
+      (intel && intel.arbitro ? " \u00b7 \u00c1rbitro: " + esc(intel.arbitro) : "") +
+      "</p>" +
+      '<button type="button" class="dia-combi-goto" data-game-id="' + g.id + '">Ver todos os mercados deste jogo \u2193</button>' +
+      "</div>";
+  }
+
+  function renderCombiLeg(leg, idx) {
+    var g = leg.game;
+    var val = leg.market.hasValue ? ' <span class="dia-value-badge dia-value-badge-light">Valor</span>' : "";
+    return '<div class="dia-combi-leg-wrap">' +
+      '<button type="button" class="dia-combi-leg" data-leg-idx="' + idx + '" aria-expanded="false">' +
+      '<span class="comp-badge comp-' + g.comp + '">' + compDisplayName(g.comp, g) + "</span>" +
+      '<span class="dia-combi-match">' + label(g.mandante) + " x " + label(g.visitante) + "</span>" +
+      '<span class="dia-combi-market-preview">' + esc(leg.market.mercado) + val + "</span>" +
+      '<span class="prob">' + leg.market.prob + "%</span>" +
+      '<span class="dia-combi-chevron" aria-hidden="true">\u25b8</span>' +
+      "</button>" +
+      '<div class="dia-combi-detail" id="diaCombiDetail' + idx + '" hidden>' +
+      formatCombiLegDetail(leg) +
+      "</div></div>";
+  }
+
+  function bindCombiLegClicks(container) {
+    if (!container) return;
+    container.querySelectorAll(".dia-combi-leg").forEach(function (btn) {
+      btn.onclick = function () {
+        var idx = Number(btn.getAttribute("data-leg-idx"));
+        var detail = document.getElementById("diaCombiDetail" + idx);
+        if (!detail) return;
+        var isOpen = !detail.hidden;
+        container.querySelectorAll(".dia-combi-detail").forEach(function (d) { d.hidden = true; });
+        container.querySelectorAll(".dia-combi-leg").forEach(function (b) {
+          b.classList.remove("open");
+          b.setAttribute("aria-expanded", "false");
+        });
+        if (!isOpen) {
+          detail.hidden = false;
+          btn.classList.add("open");
+          btn.setAttribute("aria-expanded", "true");
+        }
+      };
+    });
+    container.querySelectorAll(".dia-combi-goto").forEach(function (btn) {
+      btn.onclick = function (e) {
+        e.stopPropagation();
+        var gid = btn.getAttribute("data-game-id");
+        var block = document.querySelector('.dia-game-block[data-game-id="' + gid + '"]');
+        if (!block) return;
+        block.scrollIntoView({ behavior: "smooth", block: "center" });
+        block.classList.add("dia-game-highlight");
+        setTimeout(function () { block.classList.remove("dia-game-highlight"); }, 2200);
+      };
+    });
+  }
+
   function formatMarketRow(m) {
     var book = m.bookOdd ? m.bookOdd.toFixed(2) : "—";
     var edge = m.valueEdge != null
@@ -1328,26 +1406,18 @@
     var combi = buildCombinada(picks, 3);
 
     if (combi && combi.legs.length >= 2) {
-      combEl.innerHTML = '<h3>Combinada inteligente (' + combi.legs.length + " pernas \u00b7 mercados descorrelacionados)</h3>" +
-        '<div class="dia-combi-legs">' + combi.legs.map(function (leg) {
-          var g = leg.game;
-          var val = leg.market.hasValue ? ' <span class="dia-value-badge">Valor</span>' : "";
-          return '<div class="dia-combi-leg"><span class="comp-badge comp-' + g.comp + '">' +
-            compDisplayName(g.comp, g) + '</span><span>' + label(g.mandante) + " x " + label(g.visitante) +
-            '</span><span>' + esc(leg.market.mercado) + val + '</span><span class="prob">' + leg.market.prob + "%</span></div>";
-        }).join("") + "</div>" +
+      combEl.innerHTML = '<h3>Combinada inteligente (' + combi.legs.length + " pernas \u00b7 clique no duelo para ver a aposta)</h3>" +
+        '<div class="dia-combi-legs">' + combi.legs.map(renderCombiLeg).join("") + "</div>" +
         '<div class="dia-combi-summary"><span>Prob. combinada: <strong>' + combi.combinedProb +
         "%</strong></span><span>Odd modelo: <strong>" + combi.combinedOdd.toFixed(2) + "</strong></span>" +
         (combi.combinedBookOdd
           ? '<span>Odd mercado: <strong>' + combi.combinedBookOdd.toFixed(2) + "</strong></span>"
           : "") + "</div>";
+      bindCombiLegClicks(combEl);
     } else if (combi && combi.legs.length === 1) {
-      combEl.innerHTML = '<h3>Melhor aposta do dia</h3><div class="dia-combi-legs">' +
-        combi.legs.map(function (leg) {
-          var g = leg.game;
-          return '<div class="dia-combi-leg"><span>' + label(g.mandante) + " x " + label(g.visitante) +
-            '</span><span>' + esc(leg.market.mercado) + '</span><span class="prob">' + leg.market.prob + "%</span></div>";
-        }).join("") + "</div>";
+      combEl.innerHTML = '<h3>Melhor aposta do dia (clique para ver detalhes)</h3><div class="dia-combi-legs">' +
+        renderCombiLeg(combi.legs[0], 0) + "</div>";
+      bindCombiLegClicks(combEl);
     } else {
       combEl.innerHTML = '<div class="dia-warn">Nenhuma combinada com 2+ jogos' +
         (diaValueOnly ? " com valor" : "") + " acima de " + diaProbMin +
@@ -1380,10 +1450,10 @@
       if (!entry || !entry.markets.length) {
         var note = an.insuficientes ? an.nota : "Nenhum mercado" +
           (diaValueOnly ? " com valor" : "") + " acima de " + diaProbMin + "%.";
-        return '<div class="dia-game-block">' + head + '<div class="dia-picks"><div class="empty">' + esc(note) + "</div></div></div>";
+        return '<div class="dia-game-block" data-game-id="' + g.id + '">' + head + '<div class="dia-picks"><div class="empty">' + esc(note) + "</div></div></div>";
       }
       var rows = entry.markets.slice(0, 8).map(formatMarketRow).join("");
-      return '<div class="dia-game-block">' + head + '<div class="dia-picks">' + rows + "</div></div>";
+      return '<div class="dia-game-block" data-game-id="' + g.id + '">' + head + '<div class="dia-picks">' + rows + "</div></div>";
     }).join("") + '<p class="dia-warn">Probabilidades estimadas pelo modelo Poisson (Dixon-Coles) com xG, descanso e desfalques. Odd mercado quando dispon\u00edvel. Valor = modelo \u2212 implied da odd (+3pp m\u00edn.). Combine mercados de grupos diferentes (resultado/gols/escanteios).</p>';
   }
 
