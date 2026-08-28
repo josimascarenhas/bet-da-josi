@@ -22,7 +22,7 @@ window.BET_DATA = {
     serieb: {
       id: "serieb",
       nome: "Brasileir\u00e3o S\u00e9rie B",
-      fase: "27\u00aa rodada",
+      fase: "25\u00aa rodada",
       timesAtivos: [],
       liga: {
         jogos: 380, mediaGols: 2.22, over25: 42, btts: 46,
@@ -34,7 +34,7 @@ window.BET_DATA = {
     libertadores: {
       id: "libertadores",
       nome: "Copa Libertadores",
-      fase: "Oitavas de final",
+      fase: "Quartas de final",
       timesAtivos: [],
       liga: {
         jogos: 125, mediaGols: 2.35, over25: 46, btts: 44,
