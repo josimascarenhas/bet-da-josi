@@ -91,6 +91,10 @@
     if (comp === "libertadores") return 1.08;
     if (comp === "copa") return 1.06;
     if (comp === "serieb") return 1.04;
+    if (comp === "premier-league") return 1.06;
+    if (comp === "la-liga") return 1.05;
+    if (comp === "bundesliga") return 1.04;
+    if (comp === "primeira-liga") return 1.05;
     return 1.05;
   }
 

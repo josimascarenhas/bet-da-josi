@@ -311,6 +311,10 @@ body.sport-tenis .filter-tenis-only { display: flex !important; }
 .comp-badge.comp-brasileirao, .comp-badge.comp-nba { background: #e5f0fc; color: #1859a8; }
 .comp-badge.comp-serieb { background: #e8f5e9; color: #2e7d32; }
 .comp-badge.comp-libertadores { background: #fff3e0; color: #e65100; }
+.comp-badge.comp-premier-league { background: #e8eaf6; color: #283593; }
+.comp-badge.comp-la-liga { background: #fce4ec; color: #ad1457; }
+.comp-badge.comp-bundesliga { background: #fff8e1; color: #f57f17; }
+.comp-badge.comp-primeira-liga { background: #e0f2f1; color: #00695c; }
 .comp-badge.comp-nbb { background: var(--accent-soft); color: var(--accent); }
 .comp-badge.comp-euroleague, .comp-badge.comp-atp1000, .comp-badge.comp-grandslam { background: #efe8ff; color: #5b3db8; }
 .comp-badge.comp-atp { background: #e5f0fc; color: #1859a8; }
@@ -403,3 +407,50 @@ tr.selected-row td { background: #d9f0e4; font-weight: 600; }
   box-shadow: var(--shadow);
 }
 .empty { text-align: center; padding: 2rem 1rem; color: var(--muted); font-size: 0.875rem; }
+
+/* Jogos do Dia */
+.dia-panel .panel-head { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 1rem; }
+.dia-thresholds { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+.dia-thresh {
+  padding: 0.45rem 0.85rem; border-radius: 8px; border: 2px solid var(--border);
+  background: #fff; font-weight: 800; font-size: 0.78rem; cursor: pointer; color: var(--muted);
+}
+.dia-thresh.active { border-color: var(--accent); background: var(--accent-soft); color: var(--accent); }
+.dia-thresh:hover { border-color: var(--blue); }
+.dia-combinada {
+  background: linear-gradient(135deg, #0b7a4b 0%, #1565c0 100%); color: #fff;
+  border-radius: var(--radius); padding: 1rem 1.15rem; margin-bottom: 1.15rem;
+}
+.dia-combinada h3 { font-size: 0.85rem; margin-bottom: 0.65rem; opacity: 0.95; }
+.dia-combi-legs { display: flex; flex-direction: column; gap: 0.45rem; margin-bottom: 0.75rem; }
+.dia-combi-leg {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem;
+  background: rgba(255,255,255,0.12); border-radius: 8px; padding: 0.5rem 0.65rem; font-size: 0.82rem;
+}
+.dia-combi-leg .prob { font-family: var(--mono); font-weight: 800; margin-left: auto; }
+.dia-combi-summary {
+  display: flex; flex-wrap: wrap; gap: 1rem; align-items: center;
+  padding-top: 0.65rem; border-top: 1px solid rgba(255,255,255,0.25); font-size: 0.88rem;
+}
+.dia-combi-summary strong { font-family: var(--mono); font-size: 1.05rem; }
+.dia-game-block {
+  border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: 0.85rem;
+  overflow: hidden; background: var(--surface);
+}
+.dia-game-head {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem;
+  padding: 0.65rem 0.85rem; background: var(--surface2); border-bottom: 1px solid var(--border);
+}
+.dia-game-head .teams { font-weight: 800; font-size: 0.92rem; flex: 1; min-width: 180px; }
+.dia-picks { padding: 0.5rem 0.65rem; }
+.dia-pick-row {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem;
+  padding: 0.45rem 0.35rem; border-bottom: 1px solid var(--border); font-size: 0.82rem;
+}
+.dia-pick-row:last-child { border-bottom: none; }
+.dia-pick-row .mercado { flex: 1; min-width: 140px; font-weight: 600; }
+.dia-pick-row .prob { font-family: var(--mono); font-weight: 800; min-width: 3rem; text-align: right; }
+.dia-pick-row .odd { font-family: var(--mono); color: var(--blue); font-weight: 700; min-width: 3rem; text-align: right; }
+.dia-pick-row.prob-alta .prob { color: var(--accent); }
+.dia-pick-row.prob-media .prob { color: #c77800; }
+.dia-warn { font-size: 0.75rem; color: var(--muted); margin-top: 0.75rem; padding: 0.65rem; background: var(--surface2); border-radius: 8px; }
