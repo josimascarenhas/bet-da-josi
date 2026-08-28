@@ -57,12 +57,14 @@
 
   global.LIVE_SYNC = {
     atualizadoEm: null,
+    newsAtualizadoEm: null,
     status: "pendente",
     fetchAll: function () {
       global.LIVE_SYNC.status = "carregando";
       return Promise.all([
         fetchJson("live/football.json"),
-        fetchJson("live/tenis.json")
+        fetchJson("live/tenis.json"),
+        fetchJson("live/news.json")
       ]).then(function (results) {
         if (results[0]) {
           mergeFootball(results[0]);
@@ -74,7 +76,11 @@
             global.LIVE_SYNC.atualizadoEm = results[1].meta.atualizadoEm;
           }
         }
-        global.LIVE_SYNC.status = results[0] || results[1] ? "ok" : "offline";
+        if (results[2]) {
+          global.NEWS_DATA = results[2];
+          global.LIVE_SYNC.newsAtualizadoEm = results[2].meta && results[2].meta.atualizadoEm;
+        }
+        global.LIVE_SYNC.status = results[0] || results[1] || results[2] ? "ok" : "offline";
       }).catch(function () {
         global.LIVE_SYNC.status = "offline";
       });

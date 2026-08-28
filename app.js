@@ -239,6 +239,122 @@
     });
     document.getElementById("viewPainel").hidden = view !== "painel";
     document.getElementById("viewModelo").hidden = view !== "modelo";
+    document.getElementById("viewNoticias").hidden = view !== "noticias";
+    var search = document.getElementById("searchInput");
+    if (search) {
+      search.placeholder = view === "noticias" ? "Buscar not\u00edcias\u2026" : "Filtrar tabela\u2026";
+      if (view === "noticias") renderNews();
+    }
+  }
+
+  function newsUpdatedLabel() {
+    if (!window.LIVE_SYNC || !LIVE_SYNC.newsAtualizadoEm) return "";
+    var d = new Date(LIVE_SYNC.newsAtualizadoEm);
+    if (isNaN(d.getTime())) return "";
+    return "Atualizado " + pad2(d.getDate()) + "/" + pad2(d.getMonth() + 1) + " " +
+      pad2(d.getHours()) + ":" + pad2(d.getMinutes());
+  }
+
+  function newsForCurrentFilter() {
+    var data = window.NEWS_DATA;
+    if (!data) return [];
+    var q = (document.getElementById("searchInput").value || "").toLowerCase().trim();
+    var items = [];
+
+    if (sport === "futebol") {
+      var foot = data.futebol || {};
+      if (selectedEntity && foot.times && foot.times[selectedEntity]) {
+        items = foot.times[selectedEntity].slice();
+      } else {
+        items = (foot.geral || []).slice();
+      }
+    } else if (sport === "tenis") {
+      items = ((data.tenis && data.tenis.geral) || []).slice();
+      if (selectedEntity) {
+        var name = (TENIS.atletas[selectedEntity] && TENIS.atletas[selectedEntity].nome) || selectedEntity;
+        var nl = name.toLowerCase();
+        items = items.filter(function (n) {
+          return n.titulo.toLowerCase().indexOf(nl) >= 0 ||
+            (n.resumo && n.resumo.toLowerCase().indexOf(nl) >= 0);
+        });
+      }
+    } else if (sport === "ufc") {
+      items = ((data.ufc && data.ufc.geral) || []).slice();
+      if (selectedEntity) {
+        var fl = selectedEntity.toLowerCase();
+        items = items.filter(function (n) {
+          return n.titulo.toLowerCase().indexOf(fl) >= 0 ||
+            (n.resumo && n.resumo.toLowerCase().indexOf(fl) >= 0);
+        });
+      }
+    } else {
+      items = ((data.basquete && data.basquete.geral) || []).slice();
+      if (selectedEntity) {
+        var bl = label(selectedEntity).toLowerCase();
+        items = items.filter(function (n) {
+          return n.titulo.toLowerCase().indexOf(bl) >= 0 ||
+            (n.resumo && n.resumo.toLowerCase().indexOf(bl) >= 0);
+        });
+      }
+    }
+
+    if (q) {
+      items = items.filter(function (n) {
+        return n.titulo.toLowerCase().indexOf(q) >= 0 ||
+          (n.resumo && n.resumo.toLowerCase().indexOf(q) >= 0);
+      });
+    }
+    return items;
+  }
+
+  function renderNews() {
+    var body = document.getElementById("newsBody");
+    var sub = document.getElementById("newsSub");
+    var meta = document.getElementById("newsMeta");
+    if (!body) return;
+
+    var sportLabels = {
+      futebol: "Futebol", tenis: "T\u00eanis", basquete: "Basquete", ufc: "UFC"
+    };
+    var filterLabel = selectedEntity ? label(selectedEntity) : "Todos";
+    if (sub) {
+      sub.innerHTML = sportLabels[sport] + " \u00b7 " + filterLabel +
+        ' \u00b7 Fonte: <a href="https://ge.globo.com/" target="_blank" rel="noopener noreferrer">ge.globo.com</a>';
+    }
+    if (meta) {
+      var lbl = newsUpdatedLabel();
+      meta.textContent = lbl || "Sincronizando\u2026";
+    }
+
+    if (!window.NEWS_DATA) {
+      body.innerHTML = '<div class="empty">Carregando not\u00edcias do ge.globo.com\u2026</div>';
+      return;
+    }
+
+    var items = newsForCurrentFilter();
+    if (!items.length) {
+      body.innerHTML = '<div class="empty">Nenhuma not\u00edcia encontrada para o filtro atual. Tente outro time ou aguarde a pr\u00f3xima atualiza\u00e7\u00e3o.</div>';
+      return;
+    }
+
+    body.innerHTML = '<div class="news-list">' + items.map(function (n) {
+      var img = n.imagem
+        ? '<img class="news-thumb" src="' + esc(n.imagem) + '" alt="" loading="lazy" onerror="this.style.display=\'none\'">'
+        : '<div class="news-thumb news-thumb-fallback">\ud83d\udcf0</div>';
+      var crest = "";
+      if (sport === "futebol" && selectedEntity) {
+        crest = teamCrestHtml(selectedEntity, "sm");
+      }
+      return '<a class="news-card" href="' + esc(n.url) + '" target="_blank" rel="noopener noreferrer">' +
+        img +
+        '<div class="news-content">' +
+        (crest ? '<div class="news-team">' + crest + "<span>" + esc(label(selectedEntity)) + "</span></div>" : "") +
+        '<h3 class="news-title">' + esc(n.titulo) + "</h3>" +
+        (n.resumo ? '<p class="news-resumo">' + esc(n.resumo) + "</p>" : "") +
+        '<div class="news-footer"><span class="news-date">' + esc(n.dataFmt || "") +
+        '</span><span class="news-link">Ler no ge \u2192</span></div>' +
+        "</div></a>";
+    }).join("") + "</div>";
   }
 
   function isDuel() { return sport === "tenis" || sport === "ufc"; }
@@ -908,6 +1024,7 @@
     renderKpis();
     renderTable();
     renderMatches();
+    if (currentView === "noticias") renderNews();
   }
 
   function init() {
@@ -944,6 +1061,10 @@
     };
     document.getElementById("searchInput").oninput = function (e) {
       var q = e.target.value.toLowerCase();
+      if (currentView === "noticias") {
+        renderNews();
+        return;
+      }
       document.querySelectorAll("#teamsTableBody tr").forEach(function (tr) {
         tr.style.display = tr.textContent.toLowerCase().indexOf(q) >= 0 ? "" : "none";
       });

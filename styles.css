@@ -208,6 +208,29 @@ body.sport-tenis .filter-tenis-only { display: flex !important; }
 .kpi-form .value { display: flex; justify-content: center; padding-top: 0.15rem; }
 .table-form-col { min-width: 190px; }
 
+.news-panel .panel-head.news-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 0.75rem; }
+.news-meta { font-size: 0.72rem; color: var(--muted); font-family: var(--mono); padding: 0.35rem 0.65rem; background: var(--surface2); border-radius: 8px; border: 1px solid var(--border); }
+.news-list { display: flex; flex-direction: column; gap: 0.65rem; }
+.news-card {
+  display: flex; gap: 0.85rem; padding: 0.85rem; background: var(--surface);
+  border: 1px solid var(--border); border-radius: 12px; text-decoration: none; color: inherit;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.news-card:hover { border-color: var(--accent); box-shadow: 0 4px 14px rgba(11,122,75,0.1); }
+.news-thumb { width: 110px; height: 74px; object-fit: cover; border-radius: 8px; flex-shrink: 0; background: var(--surface2); }
+.news-thumb-fallback { display: grid; place-items: center; font-size: 1.6rem; background: var(--surface2); }
+.news-content { flex: 1; min-width: 0; }
+.news-team { display: flex; align-items: center; gap: 0.35rem; margin-bottom: 0.25rem; font-size: 0.72rem; font-weight: 700; color: var(--muted); }
+.news-title { font-size: 0.92rem; font-weight: 800; line-height: 1.35; margin: 0 0 0.3rem; color: var(--text); }
+.news-resumo { font-size: 0.78rem; color: var(--muted); line-height: 1.45; margin: 0 0 0.4rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.news-footer { display: flex; justify-content: space-between; align-items: center; gap: 0.5rem; font-size: 0.7rem; }
+.news-date { color: var(--muted); font-family: var(--mono); }
+.news-link { color: var(--accent); font-weight: 700; }
+@media (max-width: 600px) {
+  .news-card { flex-direction: column; }
+  .news-thumb { width: 100%; height: 140px; }
+}
+
 .calendar-section { display: grid; grid-template-columns: minmax(240px, 0.78fr) 1.22fr; gap: 0.85rem; margin-bottom: 1rem; }
 @media (max-width: 980px) { .calendar-section { grid-template-columns: 1fr; } }
 .panel {
