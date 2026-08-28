@@ -1447,10 +1447,14 @@
   }
 
   function syncLabel() {
-    if (!window.LIVE_SYNC || LIVE_SYNC.status !== "ok" || !LIVE_SYNC.atualizadoEm) return "";
-    var d = new Date(LIVE_SYNC.atualizadoEm);
+    if (!window.LIVE_SYNC || LIVE_SYNC.status !== "ok") return "";
+    var ts = LIVE_SYNC.statsAtualizadoEm || LIVE_SYNC.atualizadoEm;
+    if (!ts) return " \u00b7 Dados ao vivo";
+    var d = new Date(ts);
     if (isNaN(d.getTime())) return " \u00b7 Dados ao vivo";
-    return " \u00b7 Atualizado " + pad2(d.getHours()) + ":" + pad2(d.getMinutes());
+    var lbl = " \u00b7 Stats " + pad2(d.getHours()) + ":" + pad2(d.getMinutes());
+    if (LIVE_SYNC.scoresAtualizadoEm) lbl += " \u00b7 placares";
+    return lbl;
   }
 
   function gamesDiaFootball(dateISO) {
