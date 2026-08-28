@@ -1,10 +1,18 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-28T17:40:59.985712-03:00",
+    "atualizadoEm": "2026-08-28T18:14:02.613952-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "copa-q-int-gre-ida",
+      "data": "2026-08-27",
+      "comp": "copa",
+      "mandante": "Internacional",
+      "visitante": "Gremio",
+      "placar": "0-0"
+    },
     {
       "id": "copa-q-pal-san-ida",
       "data": "2026-08-26",
@@ -236,14 +244,6 @@
       "mandante": "Athletico-PR",
       "visitante": "Bragantino",
       "placar": "1-1"
-    },
-    {
-      "id": "lib-2026-08-13-Rosario-Central-Corinthians",
-      "data": "2026-08-13",
-      "comp": "libertadores",
-      "mandante": "Rosario-Central",
-      "visitante": "Corinthians",
-      "placar": "0-0"
     }
   ]
 }

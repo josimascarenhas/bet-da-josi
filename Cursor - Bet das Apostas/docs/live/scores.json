@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-28T17:40:59.985712-03:00",
+    "atualizadoEm": "2026-08-28T18:14:02.613952-03:00",
     "fonte": "calendário",
-    "jogos": 247,
-    "finalizadosTotal": 247
+    "jogos": 248,
+    "finalizadosTotal": 248
   },
   "jogos": {
     "br-1-Fluminense-Gremio": {
@@ -1900,6 +1900,14 @@
       "golsCasa": 1,
       "golsFora": 0,
       "data": "2026-08-26",
+      "comp": "copa"
+    },
+    "copa-q-int-gre-ida": {
+      "status": "finished",
+      "placar": "0-0",
+      "golsCasa": 0,
+      "golsFora": 0,
+      "data": "2026-08-27",
       "comp": "copa"
     },
     "lib-2026-08-12-Flamengo-Cruzeiro": {

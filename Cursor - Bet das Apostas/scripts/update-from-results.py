@@ -7,14 +7,18 @@ import os
 import re
 import urllib.error
 import urllib.request
+import xml.etree.ElementTree as ET
 from collections import defaultdict
 from datetime import datetime, timezone, timedelta
+from email.utils import parsedate_to_datetime
+from html import unescape
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
 LIVE = DOCS / "live"
 MIRROR = ROOT / "copa-brasil-apostas" / "live"
+UA = "Mozilla/5.0 (compatible; BetDaJosi/1.0; +https://josimascarenhas.github.io/bet-da-josi/)"
 
 COMPS = (
     "brasileirao", "serieb", "libertadores", "copa",
@@ -36,11 +40,61 @@ SPORT_MAP = {
     "libertadores": "soccer_conmebol_copa_libertadores",
 }
 
+TEAM_ALIASES: dict[str, list[str]] = {
+    "palmeiras": ["palmeiras"],
+    "santos": ["santos"],
+    "flamengo": ["flamengo"],
+    "corinthians": ["corinthians"],
+    "sao-paulo": ["saopaulo", "sãopaulo", "spfc"],
+    "internacional": ["internacional", "inter"],
+    "gremio": ["gremio", "grêmio"],
+    "atletico-mg": ["atleticomg", "atléticomg", "galo"],
+    "cruzeiro": ["cruzeiro"],
+    "vasco": ["vasco"],
+    "vitoria": ["vitoria", "vitória", "vit"],
+    "bahia": ["bahia"],
+    "botafogo": ["botafogo"],
+    "fluminense": ["fluminense", "flu"],
+    "goias": ["goias", "goiás"],
+    "sport": ["sport"],
+    "nautico": ["nautico", "náutico"],
+    "novorizontino": ["novorizontino"],
+    "athletic-pr": ["athletic", "athletico"],
+    "sao-bernardo": ["saobernardo", "sãobernardo"],
+    "bayern-munich": ["bayern", "bayernmunich"],
+    "vfb-stuttgart": ["stuttgart"],
+    "racing": ["racing"],
+    "elche": ["elche"],
+    "alaves": ["alaves", "alavés"],
+    "villarreal": ["villarreal"],
+    "rio-ave": ["rioave"],
+    "sporting-cp": ["sporting", "sportingcp"],
+}
+
 
 def load_calendario() -> list:
     raw = (DOCS / "calendario.js").read_text(encoding="utf-8")
     m = re.search(r"window\.CALENDARIO_2026\s*=\s*(\{.+\})\s*;?\s*$", raw, re.DOTALL)
     return json.loads(m.group(1)).get("jogos", []) if m else []
+
+
+def save_calendario(updates: dict[str, str]) -> None:
+    raw = (DOCS / "calendario.js").read_text(encoding="utf-8")
+    m = re.search(r"window\.CALENDARIO_2026\s*=\s*(\{.+\})\s*;?\s*$", raw, re.DOTALL)
+    if not m:
+        return
+    data = json.loads(m.group(1))
+    changed = False
+    for g in data.get("jogos", []):
+        gid = g.get("id")
+        if gid in updates and not g.get("placar"):
+            g["placar"] = updates[gid]
+            changed = True
+    if not changed:
+        return
+    data.setdefault("meta", {})["atualizadoEm"] = datetime.now(timezone(timedelta(hours=-3))).strftime("%Y-%m-%d")
+    text = "window.CALENDARIO_2026 = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\n"
+    (DOCS / "calendario.js").write_text(text, encoding="utf-8")
 
 
 def load_json(path: Path) -> dict:
@@ -51,6 +105,168 @@ def load_json(path: Path) -> dict:
 
 def normalize_team(s: str) -> str:
     return re.sub(r"[^a-z0-9]", "", s.lower())
+
+
+def team_tokens(name: str) -> set[str]:
+    key = normalize_team(name)
+    aliases = TEAM_ALIASES.get(key, [key])
+    return {normalize_team(a) for a in aliases}
+
+
+def text_has_team(text: str, team: str) -> bool:
+    norm = normalize_team(text)
+    for tok in team_tokens(team):
+        if tok and tok in norm:
+            return True
+    return False
+
+
+def text_has_both_teams(text: str, home: str, away: str) -> bool:
+    return text_has_team(text, home) and text_has_team(text, away)
+
+
+def fetch_url(url: str, timeout: int = 25) -> str:
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        return resp.read().decode("utf-8", "replace")
+
+
+def parse_ge_rss() -> list[dict]:
+    try:
+        xml = fetch_url("https://ge.globo.com/rss/ge/")
+        root = ET.fromstring(xml)
+    except (urllib.error.URLError, TimeoutError, ET.ParseError) as exc:
+        print(f"GE RSS skip: {exc}")
+        return []
+    items: list[dict] = []
+    for item in root.findall(".//item"):
+        title = unescape(item.findtext("title", "") or "")
+        link = item.findtext("link", "") or ""
+        pub = item.findtext("pubDate", "") or ""
+        desc = unescape(item.findtext("description", "") or "")
+        iso_date = ""
+        if pub:
+            try:
+                iso_date = parsedate_to_datetime(pub).astimezone(
+                    timezone(timedelta(hours=-3))
+                ).strftime("%Y-%m-%d")
+            except (TypeError, ValueError, OverflowError):
+                pass
+        if not iso_date and link:
+            m = re.search(r"/noticia/(\d{4})/(\d{2})/(\d{2})/", link)
+            if m:
+                iso_date = f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+        items.append({"title": title, "link": link, "text": f"{title} {desc}", "date": iso_date})
+    return items
+
+
+def score_from_news_text(text: str, home: str, away: str) -> tuple[int, int] | None:
+    t = unescape(text)
+    if not text_has_both_teams(t, home, away):
+        return None
+    if re.search(r"empat(am|aram|ou|a)[^.]{0,80}sem gols?", t, re.I):
+        return 0, 0
+    if re.search(r"empat(am|aram|ou|a)[^.]{0,40}0\s*[x×X]\s*0", t, re.I):
+        return 0, 0
+    home_label = home.replace("-", " ")
+    away_label = away.replace("-", " ")
+    for first, second, is_home_first in (
+        (home_label, away_label, True),
+        (away_label, home_label, False),
+    ):
+        m = re.search(
+            rf"{re.escape(first)}[^\d]{{0,50}}(\d+)\s*[x×X]\s*(\d+)[^\d]{{0,50}}{re.escape(second)}",
+            t,
+            re.I,
+        )
+        if m:
+            a, b = int(m.group(1)), int(m.group(2))
+            return (a, b) if is_home_first else (b, a)
+    if re.search(r"(vence|venceu|derrota|goleada|resultado|placar|terminou|ficam no empate)", t, re.I):
+        m = re.search(
+            rf"(\d+)\s*[x×X]\s*(\d+)[^.]{{0,80}}(?:{re.escape(home_label)}|{re.escape(away_label)})",
+            t,
+            re.I,
+        )
+        if m:
+            a, b = int(m.group(1)), int(m.group(2))
+            if a <= 9 and b <= 9:
+                return a, b
+        m = re.search(r"por\s+(\d+)\s+a\s+(\d+)", t, re.I)
+        if m:
+            a, b = int(m.group(1)), int(m.group(2))
+            if a <= 9 and b <= 9:
+                return a, b
+    return None
+
+
+def game_kickoff_passed(game: dict, now: datetime) -> bool:
+    try:
+        gd = datetime.strptime(game["data"], "%Y-%m-%d").date()
+    except ValueError:
+        return False
+    if gd < now.date():
+        return True
+    if gd > now.date():
+        return False
+    horario = game.get("horario") or "23:59"
+    try:
+        hh, mm = horario.split(":")[:2]
+        kick = datetime(
+            gd.year, gd.month, gd.day, int(hh), int(mm),
+            tzinfo=timezone(timedelta(hours=-3)),
+        )
+        return now >= kick + timedelta(minutes=105)
+    except (ValueError, TypeError):
+        return now.hour >= 23
+
+
+def pending_games(jogos: list, now: datetime, days_back: int = 14) -> list[dict]:
+    start = now.date() - timedelta(days=days_back)
+    pending = []
+    for g in jogos:
+        if not g.get("mandante") or not g.get("visitante") or g.get("placar"):
+            continue
+        try:
+            gd = datetime.strptime(g["data"], "%Y-%m-%d").date()
+        except ValueError:
+            continue
+        if gd < start or gd > now.date():
+            continue
+        if gd < now.date() or game_kickoff_passed(g, now):
+            pending.append(g)
+    return pending
+
+
+def fetch_scores_from_ge(jogos: list, now: datetime) -> dict[str, dict]:
+    news = parse_ge_rss()
+    if not news:
+        return {}
+    out: dict[str, dict] = {}
+    for g in pending_games(jogos, now):
+        gdate = g.get("data", "")
+        for item in news:
+            if gdate and item.get("date") and item["date"] != gdate:
+                continue
+            text = item["text"]
+            if not text_has_both_teams(text, g["mandante"], g["visitante"]):
+                continue
+            sc = score_from_news_text(text, g["mandante"], g["visitante"])
+            if not sc:
+                continue
+            placar = f"{sc[0]}-{sc[1]}"
+            out[g["id"]] = {
+                "status": "finished",
+                "placar": placar,
+                "golsCasa": sc[0],
+                "golsFora": sc[1],
+                "data": gdate,
+                "comp": g.get("comp"),
+                "fonte": "ge",
+            }
+            print(f"GE placar: {g['mandante']} x {g['visitante']} ({gdate}) = {placar}")
+            break
+    return out
 
 
 def parse_placar(placar: str) -> tuple[int, int] | None:
@@ -203,8 +419,7 @@ def compute_team_comp_stats(team: str, comp: str, games: list[dict]) -> dict | N
     return stats
 
 
-def build_scores_map(jogos: list, api_key: str) -> tuple[dict, str]:
-    now = datetime.now(timezone(timedelta(hours=-3)))
+def build_scores_map(jogos: list, api_key: str, now: datetime) -> tuple[dict, str]:
     today = now.date()
     out: dict[str, dict] = {}
     fonte = "calendário"
@@ -223,6 +438,18 @@ def build_scores_map(jogos: list, api_key: str) -> tuple[dict, str]:
             "data": g.get("data"),
             "comp": g.get("comp"),
         }
+
+    ge_scores = fetch_scores_from_ge(jogos, now)
+    for gid, entry in ge_scores.items():
+        if gid not in out:
+            out[gid] = entry
+            # patch in-memory jogos for stats recalculation
+            for g in jogos:
+                if g.get("id") == gid:
+                    g["placar"] = entry["placar"]
+                    break
+    if ge_scores:
+        fonte = "calendário + ge.globo.com"
 
     if api_key:
         by_comp: dict[str, list] = defaultdict(list)
@@ -267,7 +494,7 @@ def build_scores_map(jogos: list, api_key: str) -> tuple[dict, str]:
                 }
                 fetched += 1
         if fetched:
-            fonte = "calendário + the-odds-api.com"
+            fonte = "calendário + ge.globo.com + the-odds-api.com" if ge_scores else "calendário + the-odds-api.com"
 
     return out, fonte
 
@@ -358,7 +585,11 @@ def main():
     jogos = load_calendario()
     api_key = os.environ.get("THE_ODDS_API_KEY", "").strip()
 
-    scores, fonte_scores = build_scores_map(jogos, api_key)
+    scores, fonte_scores = build_scores_map(jogos, api_key, now)
+
+    ge_updates = {gid: e["placar"] for gid, e in scores.items() if e.get("fonte") == "ge"}
+    if ge_updates:
+        save_calendario(ge_updates)
     finished = collect_finished_games(jogos, scores)
     times_patch = build_team_stats(finished)
 
