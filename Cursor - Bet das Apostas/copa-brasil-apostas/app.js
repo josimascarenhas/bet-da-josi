@@ -82,6 +82,9 @@
   var currentView = "painel";
   var diaProbMin = 70;
   var diaValueOnly = false;
+  var diaSelectedDate = "";
+  var diaPollTimer = null;
+  var DIA_POLL_MS = 90000;
 
   var MONTHS = [
     "Janeiro", "Fevereiro", "Mar\u00e7o", "Abril", "Maio", "Junho",
@@ -292,7 +295,239 @@
       "</div>";
   }
 
+  function addDaysISO(iso, days) {
+    var p = iso.split("-").map(Number);
+    var d = new Date(p[0], p[1] - 1, p[2]);
+    d.setDate(d.getDate() + days);
+    return d.getFullYear() + "-" + pad2(d.getMonth() + 1) + "-" + pad2(d.getDate());
+  }
+
+  function getDiaDateRange() {
+    var dates = [];
+    var i;
+    for (i = 0; i <= 7; i++) dates.push(addDaysISO(todayISO, i));
+    return dates;
+  }
+
+  function ensureDiaDateInRange() {
+    if (getDiaDateRange().indexOf(diaSelectedDate) < 0) diaSelectedDate = todayISO;
+  }
+
+  function refreshTodayDate() {
+    var now = getTodayISO();
+    if (now === todayISO) return false;
+    todayISO = now;
+    ensureDiaDateInRange();
+    selectedDate = todayISO;
+    var parts = todayISO.split("-").map(Number);
+    if (parts[0] === 2026) {
+      calYear = 2026;
+      calMonth = parts[1] - 1;
+    }
+    return true;
+  }
+
+  function diaWeekday(iso) {
+    var p = iso.split("-").map(Number);
+    var days = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "S\u00e1b"];
+    return days[new Date(p[0], p[1] - 1, p[2]).getDay()];
+  }
+
+  function parseScore(placar) {
+    if (!placar) return null;
+    var m = String(placar).match(/(\d+)\s*[-x×X]\s*(\d+)/i);
+    if (!m) return null;
+    return { home: parseInt(m[1], 10), away: parseInt(m[2], 10) };
+  }
+
+  function getLiveState(g) {
+    var scores = window.LIVE_SCORES;
+    if (scores && scores.jogos && scores.jogos[g.id]) return scores.jogos[g.id];
+    if (g._live) return g._live;
+    if (g.placar) {
+      var s = parseScore(g.placar);
+      if (s) {
+        return {
+          status: "finished",
+          golsCasa: s.home,
+          golsFora: s.away,
+          placar: g.placar
+        };
+      }
+    }
+    return null;
+  }
+
+  function isGameFinished(g) {
+    var live = getLiveState(g);
+    return !!(live && live.status === "finished") || !!(g.placar && !g._live);
+  }
+
+  function liveScoreLabel(g) {
+    var live = getLiveState(g);
+    if (!live) return "";
+    var sc = (live.golsCasa != null && live.golsFora != null)
+      ? live.golsCasa + "-" + live.golsFora
+      : (live.placar || "");
+    if (live.status === "live") {
+      return (live.minuto ? live.minuto + "' " : "Ao vivo ") + sc;
+    }
+    if (live.status === "finished" && sc) return "Final " + sc;
+    return sc ? String(sc) : "";
+  }
+
+  function settleMarket(mercado, g, grupo) {
+    var live = getLiveState(g);
+    if (!live) return { state: "pendente", text: "Aguardando", cls: "settle-pending" };
+
+    var h = live.golsCasa;
+    var a = live.golsFora;
+    if (h == null || a == null) {
+      var parsed = parseScore(live.placar || g.placar);
+      if (!parsed) return { state: "pendente", text: "Aguardando", cls: "settle-pending" };
+      h = parsed.home;
+      a = parsed.away;
+    }
+
+    var total = h + a;
+    var homeL = label(g.mandante);
+    var awayL = label(g.visitante);
+    var finished = live.status === "finished" || (!!g.placar && live.status !== "live");
+    var inPlay = live.status === "live";
+    var liveTxt = (live.minuto ? live.minuto + "'" : "Ao vivo") + " \u00b7 " + h + "-" + a;
+
+    function green() {
+      return {
+        state: "green",
+        text: finished ? "Green \u2713" : "Green \u2713 (ao vivo)",
+        cls: "settle-green"
+      };
+    }
+    function red() {
+      return { state: "red", text: "Red \u2717", cls: "settle-red" };
+    }
+    function pending() {
+      if (inPlay) return { state: "live", text: liveTxt, cls: "settle-live" };
+      return { state: "pendente", text: "No jogo", cls: "settle-pending" };
+    }
+
+    if (mercado === homeL + " (1)") {
+      if (h > a) return green();
+      if (h < a && finished) return red();
+      return pending();
+    }
+    if (mercado === awayL + " (2)") {
+      if (a > h) return green();
+      if (finished && a <= h) return red();
+      return pending();
+    }
+    if (mercado === "Empate (X)") {
+      if (h === a && finished) return green();
+      if (h !== a && finished) return red();
+      return pending();
+    }
+    if (/Over 2\.5/.test(mercado)) {
+      if (total >= 3) return green();
+      if (finished && total <= 2) return red();
+      return pending();
+    }
+    if (/Under 2\.5/.test(mercado)) {
+      if (finished && total <= 2) return green();
+      if (total >= 3) return red();
+      return pending();
+    }
+    if (/Over 1\.5/.test(mercado)) {
+      if (total >= 2) return green();
+      if (finished && total <= 1) return red();
+      return pending();
+    }
+    if (/Over 3\.5/.test(mercado)) {
+      if (total >= 4) return green();
+      if (finished && total <= 3) return red();
+      return pending();
+    }
+    if (/Under 3\.5/.test(mercado)) {
+      if (finished && total <= 3) return green();
+      if (total >= 4) return red();
+      return pending();
+    }
+    if (mercado === "Sim (BTTS)" || (grupo === "Ambas Marcam" && mercado === "Sim")) {
+      if (h > 0 && a > 0) return green();
+      if (finished) return red();
+      return pending();
+    }
+    if (mercado === "Nao" && grupo === "Ambas Marcam") {
+      if (finished && (h === 0 || a === 0)) return green();
+      if (h > 0 && a > 0) return red();
+      return pending();
+    }
+    if (/Escanteio|Cart/i.test(mercado)) {
+      if (inPlay) return { state: "live", text: "Stats indispon\u00edvel", cls: "settle-pending" };
+      return { state: "pendente", text: "Aguardando", cls: "settle-pending" };
+    }
+    if (finished) return { state: "pendente", text: "Conferir manualmente", cls: "settle-pending" };
+    return pending();
+  }
+
+  function combinadaSettlement(legs) {
+    if (!legs || !legs.length) return null;
+    var results = legs.map(function (leg) {
+      return settleMarket(leg.market.mercado, leg.game, leg.market.grupo);
+    });
+    if (results.some(function (r) { return r.state === "red"; })) {
+      return { text: "Combinada perdida", cls: "combi-lost", results: results };
+    }
+    if (results.every(function (r) { return r.state === "green"; })) {
+      return { text: "Combinada green!", cls: "combi-won", results: results };
+    }
+    if (results.some(function (r) { return r.state === "live"; })) {
+      var greens = results.filter(function (r) { return r.state === "green"; }).length;
+      return {
+        text: "Em andamento \u00b7 " + greens + "/" + results.length + " green",
+        cls: "combi-live",
+        results: results
+      };
+    }
+    return { text: "Aguardando jogos", cls: "combi-pending", results: results };
+  }
+
+  function startDiaPolling() {
+    stopDiaPolling();
+    if (currentView !== "dia") return;
+    diaPollTimer = setInterval(function () {
+      var dayChanged = refreshTodayDate();
+      if (window.LIVE_SYNC) {
+        LIVE_SYNC.fetchAll().finally(function () {
+          if (currentView === "dia") renderDia();
+          else if (dayChanged) renderAll(false);
+        });
+      } else if (currentView === "dia") {
+        renderDia();
+      } else if (dayChanged) {
+        renderAll(false);
+      }
+    }, DIA_POLL_MS);
+  }
+
+  function stopDiaPolling() {
+    if (diaPollTimer) {
+      clearInterval(diaPollTimer);
+      diaPollTimer = null;
+    }
+  }
+
+  function refetchLiveAndRenderDia() {
+    if (!window.LIVE_SYNC) {
+      renderDia();
+      return;
+    }
+    LIVE_SYNC.fetchAll().finally(function () {
+      if (currentView === "dia") renderDia();
+    });
+  }
+
   function switchView(view) {
+    if (view !== "dia") stopDiaPolling();
     currentView = view;
     document.querySelectorAll(".view-tab").forEach(function (tab) {
       tab.classList.toggle("active", tab.getAttribute("data-view") === view);
@@ -305,7 +540,12 @@
     if (search) {
       search.placeholder = view === "noticias" ? "Buscar not\u00edcias\u2026" : "Filtrar tabela\u2026";
       if (view === "noticias") renderNews();
-      if (view === "dia") renderDia();
+      if (view === "dia") {
+        refreshTodayDate();
+        ensureDiaDateInRange();
+        refetchLiveAndRenderDia();
+        startDiaPolling();
+      }
     }
   }
 
@@ -1193,6 +1433,7 @@
   function goToToday() {
     todayISO = getTodayISO();
     selectedDate = todayISO;
+    diaSelectedDate = todayISO;
     var parts = todayISO.split("-").map(Number);
     if (parts[0] === 2026) {
       calYear = 2026;
@@ -1210,9 +1451,9 @@
     return " \u00b7 Atualizado " + pad2(d.getHours()) + ":" + pad2(d.getMinutes());
   }
 
-  function gamesTodayFootball() {
+  function gamesDiaFootball(dateISO) {
     return (FCAL.jogos || []).filter(function (g) {
-      if (g.data !== todayISO || !g.mandante || !g.visitante || g.placar) return false;
+      if (g.data !== dateISO || !g.mandante || !g.visitante) return false;
       if (selectedComp !== "todos" && g.comp !== selectedComp) return false;
       return true;
     }).sort(function (a, b) {
@@ -1220,10 +1461,43 @@
     });
   }
 
-  function collectDayPicks(minProb, valueOnly) {
+  function gamesDiaFootballOpen(dateISO) {
+    return gamesDiaFootball(dateISO).filter(function (g) { return !isGameFinished(g); });
+  }
+
+  function gamesTodayFootball() {
+    return gamesDiaFootballOpen(diaSelectedDate || todayISO);
+  }
+
+  function renderDiaDateStrip() {
+    var strip = document.getElementById("diaDateStrip");
+    if (!strip) return;
+    ensureDiaDateInRange();
+    var dates = getDiaDateRange();
+    strip.innerHTML = dates.map(function (iso) {
+      var isToday = iso === todayISO;
+      var isActive = iso === diaSelectedDate;
+      var count = gamesDiaFootball(iso).length;
+      return '<button type="button" class="dia-date-btn' +
+        (isActive ? " active" : "") + (isToday ? " is-today" : "") +
+        '" data-date="' + iso + '">' +
+        '<span class="dia-date-day">' + (isToday ? "Hoje" : diaWeekday(iso)) + "</span>" +
+        '<span class="dia-date-num">' + fmtData(iso).slice(0, 5) + "</span>" +
+        (count ? '<span class="dia-date-count">' + count + "</span>" : "") +
+        "</button>";
+    }).join("");
+    strip.querySelectorAll(".dia-date-btn").forEach(function (btn) {
+      btn.onclick = function () {
+        diaSelectedDate = btn.getAttribute("data-date");
+        renderDia();
+      };
+    });
+  }
+
+  function collectDayPicks(minProb, valueOnly, dateISO) {
     var picks = [];
     var skipGroups = ["Placar Exato", "Contexto"];
-    gamesTodayFootball().forEach(function (g) {
+    gamesDiaFootballOpen(dateISO || diaSelectedDate || todayISO).forEach(function (g) {
       var an = analyzeFootballGame(g, g.mandante);
       if (an.insuficientes) return;
       (an.markets || []).forEach(function (m) {
@@ -1287,7 +1561,7 @@
 
   function round2(n) { return Math.round(n * 100) / 100; }
 
-  function formatCombiLegDetail(leg) {
+  function formatCombiLegDetail(leg, settle) {
     var g = leg.game;
     var m = leg.market;
     var intel = getGameIntel(g);
@@ -1295,7 +1569,10 @@
     var edge = m.valueEdge != null
       ? (m.valueEdge > 0 ? "+" : "") + m.valueEdge + "pp vs mercado"
       : "";
+    var scoreNote = liveScoreLabel(g);
     return '<div class="dia-combi-detail-inner">' +
+      (settle ? '<div class="dia-combi-settle ' + settle.cls + '">' + esc(settle.text) +
+        (scoreNote ? " \u00b7 " + esc(scoreNote) : "") + "</div>" : "") +
       '<div class="dia-combi-bet-title">Apostar em: <strong>' + esc(m.mercado) + "</strong></div>" +
       '<div class="dia-combi-bet-meta">' +
       '<span class="dia-combi-tag">' + esc(m.grupo) + "</span>" +
@@ -1316,19 +1593,26 @@
       "</div>";
   }
 
-  function renderCombiLeg(leg, idx) {
+  function renderCombiLeg(leg, idx, settle) {
     var g = leg.game;
     var val = leg.market.hasValue ? ' <span class="dia-value-badge dia-value-badge-light">Valor</span>' : "";
+    var scoreNote = liveScoreLabel(g);
+    var settleBadge = settle
+      ? '<span class="dia-combi-settle-badge ' + settle.cls + '">' + esc(settle.text) + "</span>"
+      : "";
     return '<div class="dia-combi-leg-wrap">' +
-      '<button type="button" class="dia-combi-leg" data-leg-idx="' + idx + '" aria-expanded="false">' +
+      '<button type="button" class="dia-combi-leg' + (settle && settle.cls ? " " + settle.cls : "") +
+      '" data-leg-idx="' + idx + '" aria-expanded="false">' +
       '<span class="comp-badge comp-' + g.comp + '">' + compDisplayName(g.comp, g) + "</span>" +
       '<span class="dia-combi-match">' + label(g.mandante) + " x " + label(g.visitante) + "</span>" +
       '<span class="dia-combi-market-preview">' + esc(leg.market.mercado) + val + "</span>" +
+      (scoreNote ? '<span class="dia-combi-score">' + esc(scoreNote) + "</span>" : "") +
+      settleBadge +
       '<span class="prob">' + leg.market.prob + "%</span>" +
       '<span class="dia-combi-chevron" aria-hidden="true">\u25b8</span>' +
       "</button>" +
       '<div class="dia-combi-detail" id="diaCombiDetail' + idx + '" hidden>' +
-      formatCombiLegDetail(leg) +
+      formatCombiLegDetail(leg, settle) +
       "</div></div>";
   }
 
@@ -1380,11 +1664,22 @@
       '<span class="book">' + book + "</span>" + edge + "</div>";
   }
 
+  function renderCombiLegWithSettle(leg, idx) {
+    var settle = diaSelectedDate === todayISO
+      ? settleMarket(leg.market.mercado, leg.game, leg.market.grupo)
+      : null;
+    return renderCombiLeg(leg, idx, settle);
+  }
+
   function renderDia() {
     var sub = document.getElementById("diaSub");
     var combEl = document.getElementById("diaCombinada");
     var body = document.getElementById("diaPicksBody");
     if (!body) return;
+
+    refreshTodayDate();
+    ensureDiaDateInRange();
+    renderDiaDateStrip();
 
     document.querySelectorAll(".dia-thresh").forEach(function (btn) {
       btn.classList.toggle("active", Number(btn.getAttribute("data-min")) === diaProbMin);
@@ -1399,15 +1694,28 @@
       return;
     }
 
-    var games = gamesTodayFootball();
+    var allGames = gamesDiaFootball(diaSelectedDate);
+    var openCount = gamesDiaFootballOpen(diaSelectedDate).length;
     var filterNote = diaValueOnly ? " \u00b7 s\u00f3 com valor" : "";
-    sub.textContent = fmtData(todayISO) + " \u00b7 " + games.length + " jogos \u00b7 filtro \u2265" + diaProbMin + "%" + filterNote;
-    var picks = collectDayPicks(diaProbMin, diaValueOnly);
+    var liveNote = window.LIVE_SYNC && LIVE_SYNC.scoresAtualizadoEm ? " \u00b7 placares ao vivo" : "";
+    sub.textContent = fmtData(diaSelectedDate) +
+      (diaSelectedDate === todayISO ? " (hoje)" : "") +
+      " \u00b7 " + allGames.length + " jogos \u00b7 " + openCount + " em aberto \u00b7 filtro \u2265" +
+      diaProbMin + "%" + filterNote + liveNote;
+
+    var picks = collectDayPicks(diaProbMin, diaValueOnly, diaSelectedDate);
     var combi = buildCombinada(picks, 3);
+    var combiStatus = combi && diaSelectedDate === todayISO ? combinadaSettlement(combi.legs) : null;
 
     if (combi && combi.legs.length >= 2) {
-      combEl.innerHTML = '<h3>Combinada inteligente (' + combi.legs.length + " pernas \u00b7 clique no duelo para ver a aposta)</h3>" +
-        '<div class="dia-combi-legs">' + combi.legs.map(renderCombiLeg).join("") + "</div>" +
+      combEl.innerHTML = '<h3>Combinada inteligente (' + combi.legs.length +
+        " pernas \u00b7 clique no duelo para ver a aposta)</h3>" +
+        (combiStatus
+          ? '<div class="dia-combi-status-bar ' + combiStatus.cls + '">' + esc(combiStatus.text) + "</div>"
+          : "") +
+        '<div class="dia-combi-legs">' +
+        combi.legs.map(function (leg, idx) { return renderCombiLegWithSettle(leg, idx); }).join("") +
+        "</div>" +
         '<div class="dia-combi-summary"><span>Prob. combinada: <strong>' + combi.combinedProb +
         "%</strong></span><span>Odd modelo: <strong>" + combi.combinedOdd.toFixed(2) + "</strong></span>" +
         (combi.combinedBookOdd
@@ -1415,17 +1723,21 @@
           : "") + "</div>";
       bindCombiLegClicks(combEl);
     } else if (combi && combi.legs.length === 1) {
-      combEl.innerHTML = '<h3>Melhor aposta do dia (clique para ver detalhes)</h3><div class="dia-combi-legs">' +
-        renderCombiLeg(combi.legs[0], 0) + "</div>";
+      combiStatus = diaSelectedDate === todayISO ? combinadaSettlement(combi.legs) : null;
+      combEl.innerHTML = '<h3>Melhor aposta do dia (clique para ver detalhes)</h3>' +
+        (combiStatus
+          ? '<div class="dia-combi-status-bar ' + combiStatus.cls + '">' + esc(combiStatus.text) + "</div>"
+          : "") +
+        '<div class="dia-combi-legs">' + renderCombiLegWithSettle(combi.legs[0], 0) + "</div>";
       bindCombiLegClicks(combEl);
     } else {
       combEl.innerHTML = '<div class="dia-warn">Nenhuma combinada com 2+ jogos' +
         (diaValueOnly ? " com valor" : "") + " acima de " + diaProbMin +
-        "%. Tente um filtro menor ou desative \u00abS\u00f3 com valor\u00bb.</div>";
+        "% nesta data. Tente outro dia ou um filtro menor.</div>";
     }
 
-    if (!games.length) {
-      body.innerHTML = '<div class="empty">Nenhum jogo futuro para hoje no filtro atual.</div>';
+    if (!allGames.length) {
+      body.innerHTML = '<div class="empty">Nenhum jogo nesta data para o filtro atual.</div>';
       return;
     }
 
@@ -1435,26 +1747,37 @@
       byGame[p.game.id].markets.push(p.market);
     });
 
-    body.innerHTML = games.map(function (g) {
+    body.innerHTML = allGames.map(function (g) {
       var entry = byGame[g.id];
       var an = analyzeFootballGame(g, g.mandante);
       var intel = getGameIntel(g);
+      var finished = isGameFinished(g);
+      var scoreLbl = liveScoreLabel(g);
       var intelNote = intel && intel.restMandante != null
         ? '<div class="dia-intel">Descanso: ' + intel.restMandante + "d vs " + intel.restVisitante +
           "d" + (intel.arbitro ? " \u00b7 \u00c1rbitro: " + esc(intel.arbitro) : "") + "</div>"
         : "";
-      var head = '<div class="dia-game-head"><span class="comp-badge comp-' + g.comp + '">' +
-        compDisplayName(g.comp, g) + '</span><span class="dia-game-head teams">' +
-        teamCellHtml(g.mandante) + " vs " + teamCellHtml(g.visitante) +
-        '</span><span class="day-kick">' + (g.horario || "") + "</span></div>" + intelNote;
+      var head = '<div class="dia-game-head' + (finished ? " dia-game-finished" : "") + '">' +
+        '<span class="comp-badge comp-' + g.comp + '">' + compDisplayName(g.comp, g) + "</span>" +
+        '<span class="dia-game-head teams">' + teamCellHtml(g.mandante) + " vs " + teamCellHtml(g.visitante) +
+        '</span><span class="day-kick">' + esc(scoreLbl || g.horario || "") + "</span></div>" + intelNote;
+      if (finished) {
+        return '<div class="dia-game-block dia-game-finished" data-game-id="' + g.id + '">' + head +
+          '<div class="dia-picks"><div class="empty">Jogo encerrado' +
+          (scoreLbl ? " \u00b7 " + esc(scoreLbl) : "") + ".</div></div></div>";
+      }
       if (!entry || !entry.markets.length) {
         var note = an.insuficientes ? an.nota : "Nenhum mercado" +
           (diaValueOnly ? " com valor" : "") + " acima de " + diaProbMin + "%.";
-        return '<div class="dia-game-block" data-game-id="' + g.id + '">' + head + '<div class="dia-picks"><div class="empty">' + esc(note) + "</div></div></div>";
+        return '<div class="dia-game-block" data-game-id="' + g.id + '">' + head +
+          '<div class="dia-picks"><div class="empty">' + esc(note) + "</div></div></div>";
       }
       var rows = entry.markets.slice(0, 8).map(formatMarketRow).join("");
-      return '<div class="dia-game-block" data-game-id="' + g.id + '">' + head + '<div class="dia-picks">' + rows + "</div></div>";
-    }).join("") + '<p class="dia-warn">Probabilidades estimadas pelo modelo Poisson (Dixon-Coles) com xG, descanso e desfalques. Odd mercado quando dispon\u00edvel. Valor = modelo \u2212 implied da odd (+3pp m\u00edn.). Combine mercados de grupos diferentes (resultado/gols/escanteios).</p>';
+      return '<div class="dia-game-block" data-game-id="' + g.id + '">' + head +
+        '<div class="dia-picks">' + rows + "</div></div>";
+    }).join("") +
+    '<p class="dia-warn">Data atual do dispositivo: ' + fmtData(todayISO) +
+    ". An\u00e1lises atualizadas ao abrir e a cada ~90s nesta aba. Probabilidades estimadas pelo modelo Poisson (Dixon-Coles) com xG, descanso e desfalques.</p>";
   }
 
   function renderAll(resetTarget) {
@@ -1482,7 +1805,12 @@
     renderTable();
     renderMatches();
     if (currentView === "noticias") renderNews();
-    if (currentView === "dia") renderDia();
+    if (currentView === "dia") {
+      renderDia();
+      startDiaPolling();
+    } else {
+      stopDiaPolling();
+    }
   }
 
   function init() {
@@ -1563,6 +1891,7 @@
     switchView(currentView);
 
     var boot = function () {
+      refreshTodayDate();
       if (window.LIVE_SYNC) {
         LIVE_SYNC.fetchAll().finally(function () { renderAll(true); });
       } else {
@@ -1570,7 +1899,23 @@
       }
     };
     boot();
-    setInterval(renderTodayClock, 30000);
+    setInterval(function () {
+      renderTodayClock();
+      if (refreshTodayDate()) {
+        if (currentView === "dia") renderDia();
+        else renderAll(false);
+      }
+    }, 30000);
+    document.addEventListener("visibilitychange", function () {
+      if (document.visibilityState !== "visible") return;
+      refreshTodayDate();
+      if (window.LIVE_SYNC) {
+        LIVE_SYNC.fetchAll().finally(function () {
+          if (currentView === "dia") renderDia();
+          else renderAll(false);
+        });
+      }
+    });
   }
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);

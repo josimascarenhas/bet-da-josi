@@ -410,6 +410,26 @@ tr.selected-row td { background: #d9f0e4; font-weight: 600; }
 
 /* Jogos do Dia */
 .dia-panel .panel-head { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 1rem; }
+.dia-date-strip {
+  display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 1rem;
+  overflow-x: auto; padding-bottom: 0.25rem;
+}
+.dia-date-btn {
+  display: flex; flex-direction: column; align-items: center; gap: 0.1rem;
+  min-width: 4.2rem; padding: 0.45rem 0.55rem; border-radius: 10px;
+  border: 2px solid var(--border); background: #fff; cursor: pointer;
+  font-family: inherit; color: var(--text); position: relative;
+}
+.dia-date-btn:hover { border-color: var(--blue); }
+.dia-date-btn.active { border-color: var(--accent); background: var(--accent-soft); }
+.dia-date-btn.is-today:not(.active) { border-color: #1565c0; }
+.dia-date-day { font-size: 0.68rem; font-weight: 800; text-transform: uppercase; color: var(--muted); }
+.dia-date-num { font-size: 0.82rem; font-weight: 800; font-family: var(--mono); }
+.dia-date-count {
+  position: absolute; top: -5px; right: -5px; background: var(--accent); color: #fff;
+  font-size: 0.62rem; font-weight: 800; min-width: 1.1rem; height: 1.1rem;
+  border-radius: 999px; display: flex; align-items: center; justify-content: center;
+}
 .dia-controls { display: flex; flex-direction: column; align-items: flex-end; gap: 0.55rem; }
 .dia-value-toggle {
   display: flex; align-items: center; gap: 0.4rem; font-size: 0.78rem; color: var(--muted);
@@ -471,6 +491,31 @@ tr.selected-row td { background: #d9f0e4; font-weight: 600; }
 .dia-value-badge-light {
   color: #fff; background: rgba(255,255,255,0.2);
 }
+.dia-combi-status-bar {
+  font-size: 0.82rem; font-weight: 800; padding: 0.45rem 0.65rem;
+  border-radius: 8px; margin-bottom: 0.65rem; text-align: center;
+}
+.dia-combi-status-bar.combi-won { background: rgba(46, 160, 67, 0.35); }
+.dia-combi-status-bar.combi-lost { background: rgba(220, 53, 69, 0.35); }
+.dia-combi-status-bar.combi-live { background: rgba(255, 193, 7, 0.28); }
+.dia-combi-status-bar.combi-pending { background: rgba(255,255,255,0.15); }
+.dia-combi-settle-badge {
+  font-size: 0.68rem; font-weight: 800; padding: 0.15rem 0.4rem; border-radius: 4px;
+}
+.dia-combi-settle-badge.settle-green { background: rgba(46, 160, 67, 0.45); }
+.dia-combi-settle-badge.settle-red { background: rgba(220, 53, 69, 0.45); }
+.dia-combi-settle-badge.settle-live { background: rgba(255, 193, 7, 0.4); color: #1a1a1a; }
+.dia-combi-settle-badge.settle-pending { background: rgba(255,255,255,0.18); }
+.dia-combi-leg.settle-green { box-shadow: inset 3px 0 0 #2ea043; }
+.dia-combi-leg.settle-red { box-shadow: inset 3px 0 0 #dc3545; }
+.dia-combi-leg.settle-live { box-shadow: inset 3px 0 0 #ffc107; }
+.dia-combi-score { font-family: var(--mono); font-size: 0.75rem; opacity: 0.95; }
+.dia-combi-settle { font-weight: 800; font-size: 0.82rem; margin-bottom: 0.25rem; }
+.dia-combi-settle.settle-green { color: #9be9a8; }
+.dia-combi-settle.settle-red { color: #ffb3ba; }
+.dia-combi-settle.settle-live { color: #ffe082; }
+.dia-game-finished { opacity: 0.72; }
+.dia-game-block.dia-game-finished .dia-game-head { background: #eee; }
 .dia-game-block.dia-game-highlight {
   box-shadow: 0 0 0 2px var(--accent), 0 8px 24px rgba(11,122,75,0.15);
   transition: box-shadow 0.2s;

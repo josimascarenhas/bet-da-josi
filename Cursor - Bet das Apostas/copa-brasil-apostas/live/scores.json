@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "atualizadoEm": "2026-08-28T15:56:48.859657-03:00",
+    "fonte": "calendário",
+    "jogos": 4
+  },
+  "jogos": {
+    "copa-q-cru-cam-ida": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1
+    },
+    "copa-q-pal-san-ida": {
+      "status": "finished",
+      "placar": "3-0",
+      "golsCasa": 3,
+      "golsFora": 0
+    },
+    "copa-q-vas-vit-ida": {
+      "status": "finished",
+      "placar": "1-0",
+      "golsCasa": 1,
+      "golsFora": 0
+    },
+    "lib-2026-08-25-Independiente-del-Valle-Deportes-Tolima": {
+      "status": "finished",
+      "placar": "3-1",
+      "golsCasa": 3,
+      "golsFora": 1
+    }
+  }
+}

@@ -82,11 +82,28 @@
     });
   }
 
+  function mergeScores(data) {
+    if (!data) return;
+    global.LIVE_SCORES = data;
+    if (!data.jogos || !global.CALENDARIO_2026 || !global.CALENDARIO_2026.jogos) return;
+    global.CALENDARIO_2026.jogos.forEach(function (g) {
+      var patch = data.jogos[g.id];
+      if (!patch) return;
+      if (patch.placar) g.placar = patch.placar;
+      if (patch.status === "live") g._live = patch;
+      else if (patch.status === "finished") {
+        g.placar = patch.placar || g.placar;
+        delete g._live;
+      }
+    });
+  }
+
   global.LIVE_SYNC = {
     atualizadoEm: null,
     newsAtualizadoEm: null,
     intelAtualizadoEm: null,
     oddsAtualizadoEm: null,
+    scoresAtualizadoEm: null,
     status: "pendente",
     fetchAll: function () {
       global.LIVE_SYNC.status = "carregando";
@@ -95,7 +112,8 @@
         fetchJson("live/tenis.json"),
         fetchJson("live/news.json"),
         fetchJson("live/intel.json"),
-        fetchJson("live/odds.json")
+        fetchJson("live/odds.json"),
+        fetchJson("live/scores.json")
       ]).then(function (results) {
         if (results[0]) {
           mergeFootball(results[0]);
@@ -118,6 +136,10 @@
         if (results[4]) {
           global.ODDS_DATA = results[4];
           global.LIVE_SYNC.oddsAtualizadoEm = results[4].meta && results[4].meta.atualizadoEm;
+        }
+        if (results[5]) {
+          mergeScores(results[5]);
+          global.LIVE_SYNC.scoresAtualizadoEm = results[5].meta && results[5].meta.atualizadoEm;
         }
         global.LIVE_SYNC.status = results.some(function (r) { return !!r; }) ? "ok" : "offline";
       }).catch(function () {
