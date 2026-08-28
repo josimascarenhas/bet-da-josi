@@ -1510,39 +1510,18 @@
     return picks.sort(function (a, b) { return pickScore(b) - pickScore(a); });
   }
 
-  function buildCombinada(picks, maxLegs) {
-    maxLegs = Math.min(maxLegs || 3, 3);
-    var byGame = {};
-    picks.forEach(function (p) {
+  function buildCombinada(picks) {
+    if (!picks || !picks.length) return null;
+    var legs = picks.map(function (p) {
       if (!p.groupKey) p.groupKey = marketGroupKey(p.market.mercado);
-      if (!byGame[p.game.id]) byGame[p.game.id] = [];
-      byGame[p.game.id].push(p);
+      return p;
+    }).sort(function (a, b) {
+      var ta = (a.game.horario || "") + a.game.id;
+      var tb = (b.game.horario || "") + b.game.id;
+      if (ta !== tb) return ta.localeCompare(tb);
+      return pickScore(b) - pickScore(a);
     });
 
-    var candidates = [];
-    Object.keys(byGame).forEach(function (id) {
-      var bestByGroup = {};
-      byGame[id].forEach(function (p) {
-        var gk = p.groupKey;
-        if (!bestByGroup[gk] || pickScore(p) > pickScore(bestByGroup[gk])) bestByGroup[gk] = p;
-      });
-      Object.keys(bestByGroup).forEach(function (gk) { candidates.push(bestByGroup[gk]); });
-    });
-    candidates.sort(function (a, b) { return pickScore(b) - pickScore(a); });
-
-    var legs = [];
-    var usedGames = {};
-    var usedGroups = {};
-    candidates.forEach(function (p) {
-      if (legs.length >= maxLegs) return;
-      if (usedGames[p.game.id]) return;
-      if (usedGroups[p.groupKey] && Object.keys(usedGroups).length < maxLegs) return;
-      legs.push(p);
-      usedGames[p.game.id] = true;
-      usedGroups[p.groupKey] = true;
-    });
-
-    if (!legs.length) return null;
     var combinedProb = legs.reduce(function (acc, leg) {
       return acc * (leg.market.prob / 100);
     }, 1) * 100;
@@ -1553,7 +1532,7 @@
       : null;
     return {
       legs: legs,
-      combinedProb: Math.round(combinedProb * 10) / 10,
+      combinedProb: Math.round(combinedProb * 1000) / 1000,
       combinedOdd: combinedOdd,
       combinedBookOdd: combinedBookOdd
     };
@@ -1704,34 +1683,27 @@
       diaProbMin + "%" + filterNote + liveNote;
 
     var picks = collectDayPicks(diaProbMin, diaValueOnly, diaSelectedDate);
-    var combi = buildCombinada(picks, 3);
+    var combi = buildCombinada(picks);
     var combiStatus = combi && diaSelectedDate === todayISO ? combinadaSettlement(combi.legs) : null;
 
-    if (combi && combi.legs.length >= 2) {
-      combEl.innerHTML = '<h3>Combinada inteligente (' + combi.legs.length +
-        " pernas \u00b7 clique no duelo para ver a aposta)</h3>" +
+    if (combi && combi.legs.length) {
+      combEl.innerHTML = '<h3>Combinada inteligente \u2014 ' + combi.legs.length +
+        " mercados \u2265" + diaProbMin + "% (todos os mercados do filtro)</h3>" +
         (combiStatus
           ? '<div class="dia-combi-status-bar ' + combiStatus.cls + '">' + esc(combiStatus.text) + "</div>"
           : "") +
-        '<div class="dia-combi-legs">' +
+        '<div class="dia-combi-legs dia-combi-legs-all">' +
         combi.legs.map(function (leg, idx) { return renderCombiLegWithSettle(leg, idx); }).join("") +
         "</div>" +
-        '<div class="dia-combi-summary"><span>Prob. combinada: <strong>' + combi.combinedProb +
+        '<div class="dia-combi-summary"><span>Mercados: <strong>' + combi.legs.length + "</strong></span>" +
+        '<span>Prob. combinada: <strong>' + combi.combinedProb +
         "%</strong></span><span>Odd modelo: <strong>" + combi.combinedOdd.toFixed(2) + "</strong></span>" +
         (combi.combinedBookOdd
           ? '<span>Odd mercado: <strong>' + combi.combinedBookOdd.toFixed(2) + "</strong></span>"
           : "") + "</div>";
       bindCombiLegClicks(combEl);
-    } else if (combi && combi.legs.length === 1) {
-      combiStatus = diaSelectedDate === todayISO ? combinadaSettlement(combi.legs) : null;
-      combEl.innerHTML = '<h3>Melhor aposta do dia (clique para ver detalhes)</h3>' +
-        (combiStatus
-          ? '<div class="dia-combi-status-bar ' + combiStatus.cls + '">' + esc(combiStatus.text) + "</div>"
-          : "") +
-        '<div class="dia-combi-legs">' + renderCombiLegWithSettle(combi.legs[0], 0) + "</div>";
-      bindCombiLegClicks(combEl);
     } else {
-      combEl.innerHTML = '<div class="dia-warn">Nenhuma combinada com 2+ jogos' +
+      combEl.innerHTML = '<div class="dia-warn">Nenhum mercado' +
         (diaValueOnly ? " com valor" : "") + " acima de " + diaProbMin +
         "% nesta data. Tente outro dia ou um filtro menor.</div>";
     }

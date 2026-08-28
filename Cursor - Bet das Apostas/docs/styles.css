@@ -449,6 +449,7 @@ tr.selected-row td { background: #d9f0e4; font-weight: 600; }
 }
 .dia-combinada h3 { font-size: 0.85rem; margin-bottom: 0.65rem; opacity: 0.95; }
 .dia-combi-legs { display: flex; flex-direction: column; gap: 0.45rem; margin-bottom: 0.75rem; }
+.dia-combi-legs-all { max-height: 420px; overflow-y: auto; padding-right: 0.25rem; }
 .dia-combi-leg-wrap { display: flex; flex-direction: column; gap: 0; }
 .dia-combi-leg {
   display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; width: 100%;
