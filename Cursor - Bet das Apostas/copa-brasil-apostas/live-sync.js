@@ -35,6 +35,12 @@
       if (patch.brasileirao && global.BET_DATA.times[team].brasileirao) {
         mergeDeep(global.BET_DATA.times[team].brasileirao, patch.brasileirao);
       }
+      if (patch.serieb && global.BET_DATA.times[team].serieb) {
+        mergeDeep(global.BET_DATA.times[team].serieb, patch.serieb);
+      }
+      if (patch.libertadores && global.BET_DATA.times[team].libertadores) {
+        mergeDeep(global.BET_DATA.times[team].libertadores, patch.libertadores);
+      }
       if (patch.copa && global.BET_DATA.times[team].copa) {
         mergeDeep(global.BET_DATA.times[team].copa, patch.copa);
       }

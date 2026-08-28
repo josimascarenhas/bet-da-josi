@@ -60,6 +60,40 @@
     return isHome ? clamp(gpg / 1.35, 0.75, 1.25) : clamp(gsg / 1.35, 0.75, 1.25);
   }
 
+  function seqMomentum(sequencia) {
+    if (!sequencia) return 0;
+    var m = String(sequencia).match(/^(\d+)([VDE])/i);
+    if (!m) return 0;
+    var n = parseInt(m[1], 10);
+    var t = m[2].toUpperCase();
+    var base = t === "V" ? 0.025 : t === "D" ? -0.025 : 0;
+    return base * Math.min(n, 5);
+  }
+
+  function tablePressure(posicao, total) {
+    if (!posicao || !total) return 0;
+    if (posicao <= 4) return 0.04;
+    if (posicao <= 8) return 0.02;
+    if (posicao >= total - 3) return -0.05;
+    if (posicao >= total - 7) return -0.02;
+    return 0;
+  }
+
+  function altitudePenalty(pais, isHomeTeam) {
+    if (isHomeTeam) return 0;
+    if (pais === "BOL") return -0.12;
+    if (pais === "ECU") return -0.08;
+    if (pais === "PER") return -0.04;
+    return 0;
+  }
+
+  function compHomeFactor(comp) {
+    if (comp === "libertadores") return 1.08;
+    if (comp === "copa") return 1.06;
+    if (comp === "serieb") return 1.04;
+    return 1.05;
+  }
+
   function footballAnalyze(teamStats, advStats, liga, ctx) {
     var t = teamStats || {};
     var a = advStats || {};
@@ -76,6 +110,14 @@
     var formA = formScore(ctx.advForm || a.ultimos5);
     var formAdj = (formT - formA) * 0.0035;
 
+    var seqAdj = seqMomentum(ctx.teamSequencia) - seqMomentum(ctx.advSequencia);
+    var pressT = tablePressure(ctx.teamPosicao, ctx.totalTimes);
+    var pressA = tablePressure(ctx.advPosicao, ctx.totalTimes);
+    var pressAdj = pressT - pressA;
+
+    var h2hAdj = ctx.h2hGoalDiff || 0;
+    var altAdj = altitudePenalty(ctx.advPais, home);
+
     var injT = squadImpact(ctx.teamDesfalques, "out");
     var injA = squadImpact(ctx.advDesfalques, "out");
     var retT = squadImpact(ctx.teamRetornando, "in");
@@ -85,12 +127,14 @@
     var awayM = ctx.visitanteFora || ctx.advFora;
     var homeBoost = home ? splitFactor(homeM, true) : splitFactor(awayM, false);
     var awayBoost = home ? splitFactor(awayM, false) : splitFactor(homeM, true);
+    var compBoost = compHomeFactor(ctx.competicao || "brasileirao");
+    var totalAdj = formAdj + seqAdj + pressAdj + (h2hAdj * 0.015) + altAdj;
 
-    var lambdaHome = clamp(attT * defA * (avg / 2) * 1.05 * homeBoost * (1 + formAdj - injT + retT), 0.35, 3.4);
-    var lambdaAway = clamp(attA * defT * (avg / 2) * 0.95 * awayBoost * (1 - formAdj - injA + retA), 0.3, 3.2);
+    var lambdaHome = clamp(attT * defA * (avg / 2) * compBoost * homeBoost * (1 + totalAdj - injT + retT), 0.35, 3.4);
+    var lambdaAway = clamp(attA * defT * (avg / 2) * 0.95 * awayBoost * (1 - totalAdj - injA + retA), 0.3, 3.2);
     if (!home) {
-      lambdaHome = clamp(attA * defT * (avg / 2) * 1.05 * homeBoost * (1 - formAdj - injA + retA), 0.35, 3.4);
-      lambdaAway = clamp(attT * defA * (avg / 2) * 0.95 * awayBoost * (1 + formAdj - injT + retT), 0.3, 3.2);
+      lambdaHome = clamp(attA * defT * (avg / 2) * compBoost * homeBoost * (1 - totalAdj - injA + retA), 0.35, 3.4);
+      lambdaAway = clamp(attT * defA * (avg / 2) * 0.95 * awayBoost * (1 + totalAdj - injT + retT), 0.3, 3.2);
     }
 
     var seqNote = (ctx.teamSequencia ? "Seq " + ctx.teamSequencia : "") +
@@ -215,8 +259,12 @@
     add("1o Tempo", "Mandante vence HT", htHome, "Estimativa intervalo");
     csList.forEach(function (c) { add("Placar Correto", c.m, c.p, "Massa de probabilidade Poisson"); });
     if (ctx.mataMata) {
-      var avanca = clamp(teamWin + (ctx.tipo === "volta" && ctx.golsTimeIda > ctx.golsAdvIda ? 12 : 0), 30, 80);
-      add("Classificacao", ctx.teamLabel + " avanca", avanca, "Inclui prorrogacao/penaltis");
+      var idaBonus = 0;
+      if (ctx.tipo === "volta" && ctx.golsTimeIda != null && ctx.golsAdvIda != null) {
+        idaBonus = ctx.golsTimeIda > ctx.golsAdvIda ? 14 : ctx.golsTimeIda < ctx.golsAdvIda ? -10 : 4;
+      }
+      var avanca = clamp(teamWin + idaBonus, 28, 82);
+      add("Classificacao", ctx.teamLabel + " avanca", avanca, "Mata-mata · inclui prorrogacao/penaltis");
     }
 
     markets.sort(function (x, y) { return y.prob - x.prob; });
@@ -234,7 +282,7 @@
       expGols: expTotal.toFixed(2),
       lambdaHome: lambdaHome.toFixed(2),
       lambdaAway: lambdaAway.toFixed(2),
-      modelo: "Poisson + Dixon-Coles + forma/lesões/casa",
+      modelo: "Poisson + Dixon-Coles + forma/seq/pressao/casa",
       contexto: {
         formT: Math.round(formT), formA: Math.round(formA),
         sequencia: seqNote, desfalques: injNote, local: venueNote

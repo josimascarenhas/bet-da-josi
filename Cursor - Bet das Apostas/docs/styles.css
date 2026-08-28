@@ -309,6 +309,8 @@ body.sport-tenis .filter-tenis-only { display: flex !important; }
 }
 .comp-badge.comp-copa, .comp-badge.comp-usopen { background: #fff4df; color: #9a6400; }
 .comp-badge.comp-brasileirao, .comp-badge.comp-nba { background: #e5f0fc; color: #1859a8; }
+.comp-badge.comp-serieb { background: #e8f5e9; color: #2e7d32; }
+.comp-badge.comp-libertadores { background: #fff3e0; color: #e65100; }
 .comp-badge.comp-nbb { background: var(--accent-soft); color: var(--accent); }
 .comp-badge.comp-euroleague, .comp-badge.comp-atp1000, .comp-badge.comp-grandslam { background: #efe8ff; color: #5b3db8; }
 .comp-badge.comp-atp { background: #e5f0fc; color: #1859a8; }

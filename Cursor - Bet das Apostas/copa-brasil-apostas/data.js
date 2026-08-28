@@ -18,6 +18,31 @@ window.BET_DATA = {
         mediaChutesNoGol: 7.96, vitoriaMandante: 44, vitoriaVisitante: 25, empate: 31
       }
     },
+
+    serieb: {
+      id: "serieb",
+      nome: "Brasileir\u00e3o S\u00e9rie B",
+      fase: "27\u00aa rodada",
+      timesAtivos: [],
+      liga: {
+        jogos: 380, mediaGols: 2.22, over25: 42, btts: 46,
+        mediaEscanteios: 9.2, over85Escanteios: 58, over95Escanteios: 50,
+        mediaCartoesAmarelos: 5.0, over35Cartoes: 70, over45Cartoes: 55,
+        mediaChutesNoGol: 7.5, vitoriaMandante: 48, vitoriaVisitante: 26, empate: 26
+      }
+    },
+    libertadores: {
+      id: "libertadores",
+      nome: "Copa Libertadores",
+      fase: "Oitavas de final",
+      timesAtivos: [],
+      liga: {
+        jogos: 125, mediaGols: 2.35, over25: 46, btts: 44,
+        mediaEscanteios: 9.6, over85Escanteios: 60, over95Escanteios: 52,
+        mediaCartoesAmarelos: 5.4, over35Cartoes: 72, over45Cartoes: 58,
+        mediaChutesNoGol: 8.0, vitoriaMandante: 50, vitoriaVisitante: 27, empate: 23
+      }
+    },
     brasileirao: {
       id: "brasileirao",
       nome: "Brasileir\u00e3o S\u00e9rie A",
