@@ -53,6 +53,7 @@
 
     <nav class="view-tabs" aria-label="Visualização">
       <button type="button" class="view-tab active" data-view="painel">📋 Painel</button>
+      <button type="button" class="view-tab" data-view="noticias">📰 Notícias</button>
       <button type="button" class="view-tab" data-view="modelo">📊 Modelo Matemático</button>
     </nav>
 
@@ -136,6 +137,21 @@
           <p id="modeloSub">Metodologia de cálculo das probabilidades</p>
         </div>
         <div class="panel-body" id="glossarioText"></div>
+      </article>
+    </div>
+
+    <div id="viewNoticias" class="view-panel" hidden>
+      <article class="panel panel-field news-panel">
+        <div class="panel-head news-head">
+          <div>
+            <h2>Últimas notícias</h2>
+            <p id="newsSub">Fonte: <a href="https://ge.globo.com/" target="_blank" rel="noopener noreferrer">ge.globo.com</a></p>
+          </div>
+          <div class="news-meta" id="newsMeta"></div>
+        </div>
+        <div class="panel-body" id="newsBody">
+          <div class="empty">Carregando notícias…</div>
+        </div>
       </article>
     </div>
 
