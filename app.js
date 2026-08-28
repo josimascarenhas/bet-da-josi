@@ -126,9 +126,6 @@
     };
     return map[comp] || comp || "";
   }
-    if (g.comp === "copa" || g.comp === "serieb" || g.comp === "libertadores") return g.comp;
-    return "brasileirao";
-  }
 
   function footCompList() {
     return ["brasileirao", "serieb", "libertadores", "copa"];
