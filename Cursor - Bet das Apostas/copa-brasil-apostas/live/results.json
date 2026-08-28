@@ -1,10 +1,18 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-28T18:14:02.613952-03:00",
+    "atualizadoEm": "2026-08-28T18:50:17.337747-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "eu-bundesliga-2026-08-28-Bayern-Munich-VfB-Stuttgart",
+      "data": "2026-08-28",
+      "comp": "bundesliga",
+      "mandante": "Bayern-Munich",
+      "visitante": "VfB-Stuttgart",
+      "placar": "5-1"
+    },
     {
       "id": "copa-q-int-gre-ida",
       "data": "2026-08-27",
@@ -54,22 +62,6 @@
       "placar": "2-3"
     },
     {
-      "id": "br-24-Santos-Mirassol",
-      "data": "2026-08-23",
-      "comp": "brasileirao",
-      "mandante": "Santos",
-      "visitante": "Mirassol",
-      "placar": "1-1"
-    },
-    {
-      "id": "br-24-Palmeiras-Vasco",
-      "data": "2026-08-23",
-      "comp": "brasileirao",
-      "mandante": "Palmeiras",
-      "visitante": "Vasco",
-      "placar": "4-1"
-    },
-    {
       "id": "br-24-Bragantino-Gremio",
       "data": "2026-08-23",
       "comp": "brasileirao",
@@ -78,12 +70,12 @@
       "placar": "1-0"
     },
     {
-      "id": "br-24-Coritiba-Corinthians",
+      "id": "br-24-Palmeiras-Vasco",
       "data": "2026-08-23",
       "comp": "brasileirao",
-      "mandante": "Coritiba",
-      "visitante": "Corinthians",
-      "placar": "2-1"
+      "mandante": "Palmeiras",
+      "visitante": "Vasco",
+      "placar": "4-1"
     },
     {
       "id": "br-24-Vitoria-Bahia",
@@ -102,19 +94,27 @@
       "placar": "1-0"
     },
     {
+      "id": "br-24-Santos-Mirassol",
+      "data": "2026-08-23",
+      "comp": "brasileirao",
+      "mandante": "Santos",
+      "visitante": "Mirassol",
+      "placar": "1-1"
+    },
+    {
+      "id": "br-24-Coritiba-Corinthians",
+      "data": "2026-08-23",
+      "comp": "brasileirao",
+      "mandante": "Coritiba",
+      "visitante": "Corinthians",
+      "placar": "2-1"
+    },
+    {
       "id": "br-24-Fluminense-Remo",
       "data": "2026-08-22",
       "comp": "brasileirao",
       "mandante": "Fluminense",
       "visitante": "Remo",
-      "placar": "2-1"
-    },
-    {
-      "id": "br-24-Cruzeiro-Flamengo",
-      "data": "2026-08-22",
-      "comp": "brasileirao",
-      "mandante": "Cruzeiro",
-      "visitante": "Flamengo",
       "placar": "2-1"
     },
     {
@@ -126,12 +126,12 @@
       "placar": "0-0"
     },
     {
-      "id": "lib-2026-08-20-Corinthians-Rosario-Central",
-      "data": "2026-08-20",
-      "comp": "libertadores",
-      "mandante": "Corinthians",
-      "visitante": "Rosario-Central",
-      "placar": "1-0"
+      "id": "br-24-Cruzeiro-Flamengo",
+      "data": "2026-08-22",
+      "comp": "brasileirao",
+      "mandante": "Cruzeiro",
+      "visitante": "Flamengo",
+      "placar": "2-1"
     },
     {
       "id": "lib-2026-08-20-Independiente-Rivadavia-Fluminense",
@@ -150,12 +150,12 @@
       "placar": "0-0"
     },
     {
-      "id": "lib-2026-08-19-Cruzeiro-Flamengo",
-      "data": "2026-08-19",
+      "id": "lib-2026-08-20-Corinthians-Rosario-Central",
+      "data": "2026-08-20",
       "comp": "libertadores",
-      "mandante": "Cruzeiro",
-      "visitante": "Flamengo",
-      "placar": "1-2"
+      "mandante": "Corinthians",
+      "visitante": "Rosario-Central",
+      "placar": "1-0"
     },
     {
       "id": "lib-2026-08-19-Cerro-Porteno-Palmeiras",
@@ -166,52 +166,20 @@
       "placar": "0-1"
     },
     {
+      "id": "lib-2026-08-19-Cruzeiro-Flamengo",
+      "data": "2026-08-19",
+      "comp": "libertadores",
+      "mandante": "Cruzeiro",
+      "visitante": "Flamengo",
+      "placar": "1-2"
+    },
+    {
       "id": "br-23-Internacional-Remo",
       "data": "2026-08-17",
       "comp": "brasileirao",
       "mandante": "Internacional",
       "visitante": "Remo",
       "placar": "1-1"
-    },
-    {
-      "id": "br-23-Vasco-Santos",
-      "data": "2026-08-16",
-      "comp": "brasileirao",
-      "mandante": "Vasco",
-      "visitante": "Santos",
-      "placar": "0-3"
-    },
-    {
-      "id": "br-23-Corinthians-Cruzeiro",
-      "data": "2026-08-16",
-      "comp": "brasileirao",
-      "mandante": "Corinthians",
-      "visitante": "Cruzeiro",
-      "placar": "1-2"
-    },
-    {
-      "id": "br-23-Mirassol-Flamengo",
-      "data": "2026-08-16",
-      "comp": "brasileirao",
-      "mandante": "Mirassol",
-      "visitante": "Flamengo",
-      "placar": "1-5"
-    },
-    {
-      "id": "br-23-Atletico-MG-Gremio",
-      "data": "2026-08-16",
-      "comp": "brasileirao",
-      "mandante": "Atletico-MG",
-      "visitante": "Gremio",
-      "placar": "3-0"
-    },
-    {
-      "id": "br-23-Vitoria-Botafogo",
-      "data": "2026-08-16",
-      "comp": "brasileirao",
-      "mandante": "Vitoria",
-      "visitante": "Botafogo",
-      "placar": "1-0"
     },
     {
       "id": "br-23-Chapecoense-Bahia",
@@ -222,20 +190,52 @@
       "placar": "3-3"
     },
     {
+      "id": "br-23-Atletico-MG-Gremio",
+      "data": "2026-08-16",
+      "comp": "brasileirao",
+      "mandante": "Atletico-MG",
+      "visitante": "Gremio",
+      "placar": "3-0"
+    },
+    {
+      "id": "br-23-Vasco-Santos",
+      "data": "2026-08-16",
+      "comp": "brasileirao",
+      "mandante": "Vasco",
+      "visitante": "Santos",
+      "placar": "0-3"
+    },
+    {
+      "id": "br-23-Mirassol-Flamengo",
+      "data": "2026-08-16",
+      "comp": "brasileirao",
+      "mandante": "Mirassol",
+      "visitante": "Flamengo",
+      "placar": "1-5"
+    },
+    {
+      "id": "br-23-Vitoria-Botafogo",
+      "data": "2026-08-16",
+      "comp": "brasileirao",
+      "mandante": "Vitoria",
+      "visitante": "Botafogo",
+      "placar": "1-0"
+    },
+    {
+      "id": "br-23-Corinthians-Cruzeiro",
+      "data": "2026-08-16",
+      "comp": "brasileirao",
+      "mandante": "Corinthians",
+      "visitante": "Cruzeiro",
+      "placar": "1-2"
+    },
+    {
       "id": "br-23-Fluminense-Palmeiras",
       "data": "2026-08-15",
       "comp": "brasileirao",
       "mandante": "Fluminense",
       "visitante": "Palmeiras",
       "placar": "3-2"
-    },
-    {
-      "id": "br-23-Sao-Paulo-Coritiba",
-      "data": "2026-08-15",
-      "comp": "brasileirao",
-      "mandante": "Sao-Paulo",
-      "visitante": "Coritiba",
-      "placar": "1-1"
     },
     {
       "id": "br-23-Athletico-PR-Bragantino",

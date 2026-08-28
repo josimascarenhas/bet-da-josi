@@ -1,51 +1,11 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-28T18:14:02.613952-03:00",
+    "atualizadoEm": "2026-08-28T18:50:17.337747-03:00",
     "fonte": "calendário",
-    "jogos": 248,
-    "finalizadosTotal": 248
+    "jogos": 249,
+    "finalizadosTotal": 249
   },
   "jogos": {
-    "br-1-Fluminense-Gremio": {
-      "status": "finished",
-      "placar": "2-1",
-      "golsCasa": 2,
-      "golsFora": 1,
-      "data": "2026-01-28",
-      "comp": "brasileirao"
-    },
-    "br-1-Botafogo-Cruzeiro": {
-      "status": "finished",
-      "placar": "4-0",
-      "golsCasa": 4,
-      "golsFora": 0,
-      "data": "2026-01-29",
-      "comp": "brasileirao"
-    },
-    "br-1-Sao-Paulo-Flamengo": {
-      "status": "finished",
-      "placar": "2-1",
-      "golsCasa": 2,
-      "golsFora": 1,
-      "data": "2026-01-28",
-      "comp": "brasileirao"
-    },
-    "br-1-Corinthians-Bahia": {
-      "status": "finished",
-      "placar": "1-2",
-      "golsCasa": 1,
-      "golsFora": 2,
-      "data": "2026-01-28",
-      "comp": "brasileirao"
-    },
-    "br-1-Mirassol-Vasco": {
-      "status": "finished",
-      "placar": "2-1",
-      "golsCasa": 2,
-      "golsFora": 1,
-      "data": "2026-01-29",
-      "comp": "brasileirao"
-    },
     "br-1-Atletico-MG-Palmeiras": {
       "status": "finished",
       "placar": "2-2",
@@ -54,7 +14,7 @@
       "data": "2026-01-28",
       "comp": "brasileirao"
     },
-    "br-1-Internacional-Athletico-PR": {
+    "br-1-Coritiba-Bragantino": {
       "status": "finished",
       "placar": "0-1",
       "golsCasa": 0,
@@ -62,7 +22,7 @@
       "data": "2026-01-28",
       "comp": "brasileirao"
     },
-    "br-1-Coritiba-Bragantino": {
+    "br-1-Internacional-Athletico-PR": {
       "status": "finished",
       "placar": "0-1",
       "golsCasa": 0,
@@ -78,12 +38,60 @@
       "data": "2026-01-28",
       "comp": "brasileirao"
     },
+    "br-1-Fluminense-Gremio": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-01-28",
+      "comp": "brasileirao"
+    },
     "br-1-Chapecoense-Santos": {
       "status": "finished",
       "placar": "4-2",
       "golsCasa": 4,
       "golsFora": 2,
       "data": "2026-01-28",
+      "comp": "brasileirao"
+    },
+    "br-1-Corinthians-Bahia": {
+      "status": "finished",
+      "placar": "1-2",
+      "golsCasa": 1,
+      "golsFora": 2,
+      "data": "2026-01-28",
+      "comp": "brasileirao"
+    },
+    "br-1-Sao-Paulo-Flamengo": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-01-28",
+      "comp": "brasileirao"
+    },
+    "br-1-Mirassol-Vasco": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-01-29",
+      "comp": "brasileirao"
+    },
+    "br-1-Botafogo-Cruzeiro": {
+      "status": "finished",
+      "placar": "4-0",
+      "golsCasa": 4,
+      "golsFora": 0,
+      "data": "2026-01-29",
+      "comp": "brasileirao"
+    },
+    "br-2-Bragantino-Atletico-MG": {
+      "status": "finished",
+      "placar": "1-0",
+      "golsCasa": 1,
+      "golsFora": 0,
+      "data": "2026-02-04",
       "comp": "brasileirao"
     },
     "br-2-Flamengo-Internacional": {
@@ -94,12 +102,12 @@
       "data": "2026-02-04",
       "comp": "brasileirao"
     },
-    "br-2-Vasco-Chapecoense": {
+    "br-2-Remo-Mirassol": {
       "status": "finished",
-      "placar": "1-1",
-      "golsCasa": 1,
-      "golsFora": 1,
-      "data": "2026-02-05",
+      "placar": "2-2",
+      "golsCasa": 2,
+      "golsFora": 2,
+      "data": "2026-02-04",
       "comp": "brasileirao"
     },
     "br-2-Santos-Sao-Paulo": {
@@ -107,6 +115,14 @@
       "placar": "1-1",
       "golsCasa": 1,
       "golsFora": 1,
+      "data": "2026-02-04",
+      "comp": "brasileirao"
+    },
+    "br-2-Gremio-Botafogo": {
+      "status": "finished",
+      "placar": "5-3",
+      "golsCasa": 5,
+      "golsFora": 3,
       "data": "2026-02-04",
       "comp": "brasileirao"
     },
@@ -118,38 +134,6 @@
       "data": "2026-02-04",
       "comp": "brasileirao"
     },
-    "br-2-Bragantino-Atletico-MG": {
-      "status": "finished",
-      "placar": "1-0",
-      "golsCasa": 1,
-      "golsFora": 0,
-      "data": "2026-02-04",
-      "comp": "brasileirao"
-    },
-    "br-2-Cruzeiro-Coritiba": {
-      "status": "finished",
-      "placar": "1-2",
-      "golsCasa": 1,
-      "golsFora": 2,
-      "data": "2026-02-05",
-      "comp": "brasileirao"
-    },
-    "br-2-Gremio-Botafogo": {
-      "status": "finished",
-      "placar": "5-3",
-      "golsCasa": 5,
-      "golsFora": 3,
-      "data": "2026-02-04",
-      "comp": "brasileirao"
-    },
-    "br-2-Athletico-PR-Corinthians": {
-      "status": "finished",
-      "placar": "0-1",
-      "golsCasa": 0,
-      "golsFora": 1,
-      "data": "2026-02-19",
-      "comp": "brasileirao"
-    },
     "br-2-Bahia-Fluminense": {
       "status": "finished",
       "placar": "1-1",
@@ -158,76 +142,20 @@
       "data": "2026-02-05",
       "comp": "brasileirao"
     },
-    "br-2-Remo-Mirassol": {
+    "br-2-Vasco-Chapecoense": {
       "status": "finished",
-      "placar": "2-2",
-      "golsCasa": 2,
-      "golsFora": 2,
-      "data": "2026-02-04",
-      "comp": "brasileirao"
-    },
-    "br-3-Fluminense-Botafogo": {
-      "status": "finished",
-      "placar": "1-0",
+      "placar": "1-1",
       "golsCasa": 1,
-      "golsFora": 0,
-      "data": "2026-02-12",
-      "comp": "brasileirao"
-    },
-    "br-3-Vasco-Bahia": {
-      "status": "finished",
-      "placar": "0-1",
-      "golsCasa": 0,
       "golsFora": 1,
-      "data": "2026-02-11",
+      "data": "2026-02-05",
       "comp": "brasileirao"
     },
-    "br-3-Sao-Paulo-Gremio": {
-      "status": "finished",
-      "placar": "2-0",
-      "golsCasa": 2,
-      "golsFora": 0,
-      "data": "2026-02-11",
-      "comp": "brasileirao"
-    },
-    "br-3-Corinthians-Bragantino": {
-      "status": "finished",
-      "placar": "2-0",
-      "golsCasa": 2,
-      "golsFora": 0,
-      "data": "2026-02-12",
-      "comp": "brasileirao"
-    },
-    "br-3-Mirassol-Cruzeiro": {
-      "status": "finished",
-      "placar": "2-2",
-      "golsCasa": 2,
-      "golsFora": 2,
-      "data": "2026-02-11",
-      "comp": "brasileirao"
-    },
-    "br-3-Atletico-MG-Remo": {
-      "status": "finished",
-      "placar": "3-3",
-      "golsCasa": 3,
-      "golsFora": 3,
-      "data": "2026-02-11",
-      "comp": "brasileirao"
-    },
-    "br-3-Internacional-Palmeiras": {
+    "br-2-Cruzeiro-Coritiba": {
       "status": "finished",
       "placar": "1-2",
       "golsCasa": 1,
       "golsFora": 2,
-      "data": "2026-02-12",
-      "comp": "brasileirao"
-    },
-    "br-3-Athletico-PR-Santos": {
-      "status": "finished",
-      "placar": "2-1",
-      "golsCasa": 2,
-      "golsFora": 1,
-      "data": "2026-02-12",
+      "data": "2026-02-05",
       "comp": "brasileirao"
     },
     "br-3-Vitoria-Flamengo": {
@@ -246,34 +174,98 @@
       "data": "2026-02-11",
       "comp": "brasileirao"
     },
-    "br-4-Botafogo-Vitoria": {
+    "br-3-Mirassol-Cruzeiro": {
       "status": "finished",
-      "placar": "0-0",
-      "golsCasa": 0,
+      "placar": "2-2",
+      "golsCasa": 2,
+      "golsFora": 2,
+      "data": "2026-02-11",
+      "comp": "brasileirao"
+    },
+    "br-3-Atletico-MG-Remo": {
+      "status": "finished",
+      "placar": "3-3",
+      "golsCasa": 3,
+      "golsFora": 3,
+      "data": "2026-02-11",
+      "comp": "brasileirao"
+    },
+    "br-3-Sao-Paulo-Gremio": {
+      "status": "finished",
+      "placar": "2-0",
+      "golsCasa": 2,
       "golsFora": 0,
-      "data": "2026-07-23",
+      "data": "2026-02-11",
       "comp": "brasileirao"
     },
-    "br-4-Santos-Vasco": {
+    "br-3-Vasco-Bahia": {
+      "status": "finished",
+      "placar": "0-1",
+      "golsCasa": 0,
+      "golsFora": 1,
+      "data": "2026-02-11",
+      "comp": "brasileirao"
+    },
+    "br-3-Athletico-PR-Santos": {
       "status": "finished",
       "placar": "2-1",
       "golsCasa": 2,
       "golsFora": 1,
-      "data": "2026-02-26",
+      "data": "2026-02-12",
       "comp": "brasileirao"
     },
-    "br-4-Palmeiras-Fluminense": {
+    "br-3-Fluminense-Botafogo": {
       "status": "finished",
-      "placar": "2-1",
+      "placar": "1-0",
+      "golsCasa": 1,
+      "golsFora": 0,
+      "data": "2026-02-12",
+      "comp": "brasileirao"
+    },
+    "br-3-Corinthians-Bragantino": {
+      "status": "finished",
+      "placar": "2-0",
       "golsCasa": 2,
+      "golsFora": 0,
+      "data": "2026-02-12",
+      "comp": "brasileirao"
+    },
+    "br-3-Internacional-Palmeiras": {
+      "status": "finished",
+      "placar": "1-2",
+      "golsCasa": 1,
+      "golsFora": 2,
+      "data": "2026-02-12",
+      "comp": "brasileirao"
+    },
+    "br-2-Athletico-PR-Corinthians": {
+      "status": "finished",
+      "placar": "0-1",
+      "golsCasa": 0,
       "golsFora": 1,
-      "data": "2026-02-25",
+      "data": "2026-02-19",
       "comp": "brasileirao"
     },
     "br-4-Bragantino-Athletico-PR": {
       "status": "finished",
       "placar": "1-1",
       "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-02-25",
+      "comp": "brasileirao"
+    },
+    "br-4-Remo-Internacional": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-02-25",
+      "comp": "brasileirao"
+    },
+    "br-4-Coritiba-Sao-Paulo": {
+      "status": "finished",
+      "placar": "0-1",
+      "golsCasa": 0,
       "golsFora": 1,
       "data": "2026-02-25",
       "comp": "brasileirao"
@@ -294,60 +286,20 @@
       "data": "2026-02-25",
       "comp": "brasileirao"
     },
-    "br-4-Coritiba-Sao-Paulo": {
-      "status": "finished",
-      "placar": "0-1",
-      "golsCasa": 0,
-      "golsFora": 1,
-      "data": "2026-02-25",
-      "comp": "brasileirao"
-    },
-    "br-4-Bahia-Chapecoense": {
-      "status": "finished",
-      "placar": "2-0",
-      "golsCasa": 2,
-      "golsFora": 0,
-      "data": "2026-07-17",
-      "comp": "brasileirao"
-    },
-    "br-4-Remo-Internacional": {
-      "status": "finished",
-      "placar": "1-1",
-      "golsCasa": 1,
-      "golsFora": 1,
-      "data": "2026-02-25",
-      "comp": "brasileirao"
-    },
-    "br-5-Flamengo-Cruzeiro": {
-      "status": "finished",
-      "placar": "2-0",
-      "golsCasa": 2,
-      "golsFora": 0,
-      "data": "2026-03-11",
-      "comp": "brasileirao"
-    },
-    "br-5-Vasco-Palmeiras": {
+    "br-4-Palmeiras-Fluminense": {
       "status": "finished",
       "placar": "2-1",
       "golsCasa": 2,
       "golsFora": 1,
-      "data": "2026-03-12",
+      "data": "2026-02-25",
       "comp": "brasileirao"
     },
-    "br-5-Sao-Paulo-Chapecoense": {
+    "br-4-Santos-Vasco": {
       "status": "finished",
-      "placar": "2-0",
+      "placar": "2-1",
       "golsCasa": 2,
-      "golsFora": 0,
-      "data": "2026-03-12",
-      "comp": "brasileirao"
-    },
-    "br-5-Corinthians-Coritiba": {
-      "status": "finished",
-      "placar": "0-2",
-      "golsCasa": 0,
-      "golsFora": 2,
-      "data": "2026-03-11",
+      "golsFora": 1,
+      "data": "2026-02-26",
       "comp": "brasileirao"
     },
     "br-5-Mirassol-Santos": {
@@ -366,27 +318,27 @@
       "data": "2026-03-11",
       "comp": "brasileirao"
     },
-    "br-5-Gremio-Bragantino": {
-      "status": "finished",
-      "placar": "1-1",
-      "golsCasa": 1,
-      "golsFora": 1,
-      "data": "2026-03-12",
-      "comp": "brasileirao"
-    },
-    "br-5-Athletico-PR-Botafogo": {
-      "status": "finished",
-      "placar": "4-1",
-      "golsCasa": 4,
-      "golsFora": 1,
-      "data": "2026-03-29",
-      "comp": "brasileirao"
-    },
     "br-5-Bahia-Vitoria": {
       "status": "finished",
       "placar": "1-1",
       "golsCasa": 1,
       "golsFora": 1,
+      "data": "2026-03-11",
+      "comp": "brasileirao"
+    },
+    "br-5-Corinthians-Coritiba": {
+      "status": "finished",
+      "placar": "0-2",
+      "golsCasa": 0,
+      "golsFora": 2,
+      "data": "2026-03-11",
+      "comp": "brasileirao"
+    },
+    "br-5-Flamengo-Cruzeiro": {
+      "status": "finished",
+      "placar": "2-0",
+      "golsCasa": 2,
+      "golsFora": 0,
       "data": "2026-03-11",
       "comp": "brasileirao"
     },
@@ -398,12 +350,36 @@
       "data": "2026-03-12",
       "comp": "brasileirao"
     },
-    "br-6-Fluminense-Athletico-PR": {
+    "br-5-Vasco-Palmeiras": {
       "status": "finished",
-      "placar": "3-2",
-      "golsCasa": 3,
-      "golsFora": 2,
-      "data": "2026-03-15",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-03-12",
+      "comp": "brasileirao"
+    },
+    "br-5-Sao-Paulo-Chapecoense": {
+      "status": "finished",
+      "placar": "2-0",
+      "golsCasa": 2,
+      "golsFora": 0,
+      "data": "2026-03-12",
+      "comp": "brasileirao"
+    },
+    "br-5-Gremio-Bragantino": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-03-12",
+      "comp": "brasileirao"
+    },
+    "br-6-Vitoria-Atletico-MG": {
+      "status": "finished",
+      "placar": "2-0",
+      "golsCasa": 2,
+      "golsFora": 0,
+      "data": "2026-03-14",
       "comp": "brasileirao"
     },
     "br-6-Botafogo-Flamengo": {
@@ -414,11 +390,35 @@
       "data": "2026-03-14",
       "comp": "brasileirao"
     },
+    "br-6-Fluminense-Athletico-PR": {
+      "status": "finished",
+      "placar": "3-2",
+      "golsCasa": 3,
+      "golsFora": 2,
+      "data": "2026-03-15",
+      "comp": "brasileirao"
+    },
+    "br-6-Internacional-Bahia": {
+      "status": "finished",
+      "placar": "0-1",
+      "golsCasa": 0,
+      "golsFora": 1,
+      "data": "2026-03-15",
+      "comp": "brasileirao"
+    },
     "br-6-Santos-Corinthians": {
       "status": "finished",
       "placar": "1-1",
       "golsCasa": 1,
       "golsFora": 1,
+      "data": "2026-03-15",
+      "comp": "brasileirao"
+    },
+    "br-6-Coritiba-Remo": {
+      "status": "finished",
+      "placar": "1-0",
+      "golsCasa": 1,
+      "golsFora": 0,
       "data": "2026-03-15",
       "comp": "brasileirao"
     },
@@ -446,30 +446,6 @@
       "data": "2026-03-15",
       "comp": "brasileirao"
     },
-    "br-6-Internacional-Bahia": {
-      "status": "finished",
-      "placar": "0-1",
-      "golsCasa": 0,
-      "golsFora": 1,
-      "data": "2026-03-15",
-      "comp": "brasileirao"
-    },
-    "br-6-Coritiba-Remo": {
-      "status": "finished",
-      "placar": "1-0",
-      "golsCasa": 1,
-      "golsFora": 0,
-      "data": "2026-03-15",
-      "comp": "brasileirao"
-    },
-    "br-6-Vitoria-Atletico-MG": {
-      "status": "finished",
-      "placar": "2-0",
-      "golsCasa": 2,
-      "golsFora": 0,
-      "data": "2026-03-14",
-      "comp": "brasileirao"
-    },
     "br-6-Chapecoense-Gremio": {
       "status": "finished",
       "placar": "1-1",
@@ -478,27 +454,11 @@
       "data": "2026-03-16",
       "comp": "brasileirao"
     },
-    "br-7-Flamengo-Remo": {
+    "br-7-Bahia-Bragantino": {
       "status": "finished",
-      "placar": "3-0",
-      "golsCasa": 3,
+      "placar": "2-0",
+      "golsCasa": 2,
       "golsFora": 0,
-      "data": "2026-03-19",
-      "comp": "brasileirao"
-    },
-    "br-7-Vasco-Fluminense": {
-      "status": "finished",
-      "placar": "3-2",
-      "golsCasa": 3,
-      "golsFora": 2,
-      "data": "2026-03-18",
-      "comp": "brasileirao"
-    },
-    "br-7-Santos-Internacional": {
-      "status": "finished",
-      "placar": "1-2",
-      "golsCasa": 1,
-      "golsFora": 2,
       "data": "2026-03-18",
       "comp": "brasileirao"
     },
@@ -510,10 +470,10 @@
       "data": "2026-03-18",
       "comp": "brasileirao"
     },
-    "br-7-Mirassol-Coritiba": {
+    "br-7-Athletico-PR-Cruzeiro": {
       "status": "finished",
-      "placar": "0-1",
-      "golsCasa": 0,
+      "placar": "2-1",
+      "golsCasa": 2,
       "golsFora": 1,
       "data": "2026-03-18",
       "comp": "brasileirao"
@@ -526,6 +486,30 @@
       "data": "2026-03-18",
       "comp": "brasileirao"
     },
+    "br-7-Mirassol-Coritiba": {
+      "status": "finished",
+      "placar": "0-1",
+      "golsCasa": 0,
+      "golsFora": 1,
+      "data": "2026-03-18",
+      "comp": "brasileirao"
+    },
+    "br-7-Santos-Internacional": {
+      "status": "finished",
+      "placar": "1-2",
+      "golsCasa": 1,
+      "golsFora": 2,
+      "data": "2026-03-18",
+      "comp": "brasileirao"
+    },
+    "br-7-Vasco-Fluminense": {
+      "status": "finished",
+      "placar": "3-2",
+      "golsCasa": 3,
+      "golsFora": 2,
+      "data": "2026-03-18",
+      "comp": "brasileirao"
+    },
     "br-7-Gremio-Vitoria": {
       "status": "finished",
       "placar": "2-0",
@@ -534,20 +518,12 @@
       "data": "2026-03-19",
       "comp": "brasileirao"
     },
-    "br-7-Athletico-PR-Cruzeiro": {
+    "br-7-Flamengo-Remo": {
       "status": "finished",
-      "placar": "2-1",
-      "golsCasa": 2,
-      "golsFora": 1,
-      "data": "2026-03-18",
-      "comp": "brasileirao"
-    },
-    "br-7-Bahia-Bragantino": {
-      "status": "finished",
-      "placar": "2-0",
-      "golsCasa": 2,
+      "placar": "3-0",
+      "golsCasa": 3,
       "golsFora": 0,
-      "data": "2026-03-18",
+      "data": "2026-03-19",
       "comp": "brasileirao"
     },
     "br-7-Chapecoense-Corinthians": {
@@ -558,20 +534,20 @@
       "data": "2026-03-19",
       "comp": "brasileirao"
     },
+    "br-8-Bragantino-Botafogo": {
+      "status": "finished",
+      "placar": "1-2",
+      "golsCasa": 1,
+      "golsFora": 2,
+      "data": "2026-03-21",
+      "comp": "brasileirao"
+    },
     "br-8-Fluminense-Atletico-MG": {
       "status": "finished",
       "placar": "1-0",
       "golsCasa": 1,
       "golsFora": 0,
       "data": "2026-03-21",
-      "comp": "brasileirao"
-    },
-    "br-8-Vasco-Gremio": {
-      "status": "finished",
-      "placar": "2-1",
-      "golsCasa": 2,
-      "golsFora": 1,
-      "data": "2026-03-22",
       "comp": "brasileirao"
     },
     "br-8-Sao-Paulo-Palmeiras": {
@@ -582,20 +558,12 @@
       "data": "2026-03-21",
       "comp": "brasileirao"
     },
-    "br-8-Corinthians-Flamengo": {
+    "br-8-Athletico-PR-Coritiba": {
       "status": "finished",
-      "placar": "1-1",
-      "golsCasa": 1,
-      "golsFora": 1,
+      "placar": "2-0",
+      "golsCasa": 2,
+      "golsFora": 0,
       "data": "2026-03-22",
-      "comp": "brasileirao"
-    },
-    "br-8-Bragantino-Botafogo": {
-      "status": "finished",
-      "placar": "1-2",
-      "golsCasa": 1,
-      "golsFora": 2,
-      "data": "2026-03-21",
       "comp": "brasileirao"
     },
     "br-8-Cruzeiro-Santos": {
@@ -606,15 +574,23 @@
       "data": "2026-03-22",
       "comp": "brasileirao"
     },
-    "br-8-Internacional-Chapecoense": {
+    "br-8-Remo-Bahia": {
       "status": "finished",
-      "placar": "2-0",
-      "golsCasa": 2,
-      "golsFora": 0,
+      "placar": "4-1",
+      "golsCasa": 4,
+      "golsFora": 1,
       "data": "2026-03-22",
       "comp": "brasileirao"
     },
-    "br-8-Athletico-PR-Coritiba": {
+    "br-8-Vasco-Gremio": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-03-22",
+      "comp": "brasileirao"
+    },
+    "br-8-Internacional-Chapecoense": {
       "status": "finished",
       "placar": "2-0",
       "golsCasa": 2,
@@ -630,20 +606,20 @@
       "data": "2026-03-22",
       "comp": "brasileirao"
     },
-    "br-8-Remo-Bahia": {
+    "br-8-Corinthians-Flamengo": {
       "status": "finished",
-      "placar": "4-1",
-      "golsCasa": 4,
+      "placar": "1-1",
+      "golsCasa": 1,
       "golsFora": 1,
       "data": "2026-03-22",
       "comp": "brasileirao"
     },
-    "br-9-Fluminense-Corinthians": {
+    "br-5-Athletico-PR-Botafogo": {
       "status": "finished",
-      "placar": "3-1",
-      "golsCasa": 3,
+      "placar": "4-1",
+      "golsCasa": 4,
       "golsFora": 1,
-      "data": "2026-04-01",
+      "data": "2026-03-29",
       "comp": "brasileirao"
     },
     "br-9-Botafogo-Mirassol": {
@@ -654,47 +630,7 @@
       "data": "2026-04-01",
       "comp": "brasileirao"
     },
-    "br-9-Santos-Remo": {
-      "status": "finished",
-      "placar": "2-0",
-      "golsCasa": 2,
-      "golsFora": 0,
-      "data": "2026-04-02",
-      "comp": "brasileirao"
-    },
-    "br-9-Palmeiras-Gremio": {
-      "status": "finished",
-      "placar": "2-1",
-      "golsCasa": 2,
-      "golsFora": 1,
-      "data": "2026-04-02",
-      "comp": "brasileirao"
-    },
-    "br-9-Bragantino-Flamengo": {
-      "status": "finished",
-      "placar": "3-0",
-      "golsCasa": 3,
-      "golsFora": 0,
-      "data": "2026-04-02",
-      "comp": "brasileirao"
-    },
-    "br-9-Cruzeiro-Vitoria": {
-      "status": "finished",
-      "placar": "3-0",
-      "golsCasa": 3,
-      "golsFora": 0,
-      "data": "2026-04-01",
-      "comp": "brasileirao"
-    },
     "br-9-Internacional-Sao-Paulo": {
-      "status": "finished",
-      "placar": "1-1",
-      "golsCasa": 1,
-      "golsFora": 1,
-      "data": "2026-04-01",
-      "comp": "brasileirao"
-    },
-    "br-9-Coritiba-Vasco": {
       "status": "finished",
       "placar": "1-1",
       "golsCasa": 1,
@@ -710,6 +646,30 @@
       "data": "2026-04-01",
       "comp": "brasileirao"
     },
+    "br-9-Cruzeiro-Vitoria": {
+      "status": "finished",
+      "placar": "3-0",
+      "golsCasa": 3,
+      "golsFora": 0,
+      "data": "2026-04-01",
+      "comp": "brasileirao"
+    },
+    "br-9-Coritiba-Vasco": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-04-01",
+      "comp": "brasileirao"
+    },
+    "br-9-Fluminense-Corinthians": {
+      "status": "finished",
+      "placar": "3-1",
+      "golsCasa": 3,
+      "golsFora": 1,
+      "data": "2026-04-01",
+      "comp": "brasileirao"
+    },
     "br-9-Chapecoense-Atletico-MG": {
       "status": "finished",
       "placar": "0-4",
@@ -718,12 +678,44 @@
       "data": "2026-04-02",
       "comp": "brasileirao"
     },
-    "br-10-Flamengo-Santos": {
+    "br-9-Santos-Remo": {
       "status": "finished",
-      "placar": "3-1",
+      "placar": "2-0",
+      "golsCasa": 2,
+      "golsFora": 0,
+      "data": "2026-04-02",
+      "comp": "brasileirao"
+    },
+    "br-9-Bragantino-Flamengo": {
+      "status": "finished",
+      "placar": "3-0",
       "golsCasa": 3,
+      "golsFora": 0,
+      "data": "2026-04-02",
+      "comp": "brasileirao"
+    },
+    "br-9-Palmeiras-Gremio": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
       "golsFora": 1,
-      "data": "2026-04-05",
+      "data": "2026-04-02",
+      "comp": "brasileirao"
+    },
+    "br-10-Sao-Paulo-Cruzeiro": {
+      "status": "finished",
+      "placar": "4-1",
+      "golsCasa": 4,
+      "golsFora": 1,
+      "data": "2026-04-04",
+      "comp": "brasileirao"
+    },
+    "br-10-Coritiba-Fluminense": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-04-04",
       "comp": "brasileirao"
     },
     "br-10-Vasco-Botafogo": {
@@ -734,12 +726,36 @@
       "data": "2026-04-04",
       "comp": "brasileirao"
     },
-    "br-10-Sao-Paulo-Cruzeiro": {
+    "br-10-Chapecoense-Vitoria": {
       "status": "finished",
-      "placar": "4-1",
-      "golsCasa": 4,
+      "placar": "1-1",
+      "golsCasa": 1,
       "golsFora": 1,
-      "data": "2026-04-04",
+      "data": "2026-04-05",
+      "comp": "brasileirao"
+    },
+    "br-10-Atletico-MG-Athletico-PR": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-04-05",
+      "comp": "brasileirao"
+    },
+    "br-10-Flamengo-Santos": {
+      "status": "finished",
+      "placar": "3-1",
+      "golsCasa": 3,
+      "golsFora": 1,
+      "data": "2026-04-05",
+      "comp": "brasileirao"
+    },
+    "br-10-Bahia-Palmeiras": {
+      "status": "finished",
+      "placar": "1-2",
+      "golsCasa": 1,
+      "golsFora": 2,
+      "data": "2026-04-05",
       "comp": "brasileirao"
     },
     "br-10-Corinthians-Internacional": {
@@ -758,14 +774,6 @@
       "data": "2026-04-05",
       "comp": "brasileirao"
     },
-    "br-10-Atletico-MG-Athletico-PR": {
-      "status": "finished",
-      "placar": "2-1",
-      "golsCasa": 2,
-      "golsFora": 1,
-      "data": "2026-04-05",
-      "comp": "brasileirao"
-    },
     "br-10-Gremio-Remo": {
       "status": "finished",
       "placar": "0-0",
@@ -774,60 +782,20 @@
       "data": "2026-04-05",
       "comp": "brasileirao"
     },
-    "br-10-Coritiba-Fluminense": {
+    "br-11-Remo-Vasco": {
       "status": "finished",
       "placar": "1-1",
       "golsCasa": 1,
       "golsFora": 1,
-      "data": "2026-04-04",
-      "comp": "brasileirao"
-    },
-    "br-10-Bahia-Palmeiras": {
-      "status": "finished",
-      "placar": "1-2",
-      "golsCasa": 1,
-      "golsFora": 2,
-      "data": "2026-04-05",
-      "comp": "brasileirao"
-    },
-    "br-10-Chapecoense-Vitoria": {
-      "status": "finished",
-      "placar": "1-1",
-      "golsCasa": 1,
-      "golsFora": 1,
-      "data": "2026-04-05",
-      "comp": "brasileirao"
-    },
-    "br-11-Fluminense-Flamengo": {
-      "status": "finished",
-      "placar": "1-2",
-      "golsCasa": 1,
-      "golsFora": 2,
-      "data": "2026-04-12",
-      "comp": "brasileirao"
-    },
-    "br-11-Botafogo-Coritiba": {
-      "status": "finished",
-      "placar": "2-2",
-      "golsCasa": 2,
-      "golsFora": 2,
-      "data": "2026-04-12",
-      "comp": "brasileirao"
-    },
-    "br-11-Santos-Atletico-MG": {
-      "status": "finished",
-      "placar": "1-0",
-      "golsCasa": 1,
-      "golsFora": 0,
       "data": "2026-04-11",
       "comp": "brasileirao"
     },
-    "br-11-Corinthians-Palmeiras": {
+    "br-11-Vitoria-Sao-Paulo": {
       "status": "finished",
-      "placar": "0-0",
-      "golsCasa": 0,
+      "placar": "2-0",
+      "golsCasa": 2,
       "golsFora": 0,
-      "data": "2026-04-12",
+      "data": "2026-04-11",
       "comp": "brasileirao"
     },
     "br-11-Mirassol-Bahia": {
@@ -838,12 +806,12 @@
       "data": "2026-04-11",
       "comp": "brasileirao"
     },
-    "br-11-Cruzeiro-Bragantino": {
+    "br-11-Santos-Atletico-MG": {
       "status": "finished",
-      "placar": "2-1",
-      "golsCasa": 2,
-      "golsFora": 1,
-      "data": "2026-04-12",
+      "placar": "1-0",
+      "golsCasa": 1,
+      "golsFora": 0,
+      "data": "2026-04-11",
       "comp": "brasileirao"
     },
     "br-11-Internacional-Gremio": {
@@ -862,28 +830,44 @@
       "data": "2026-04-12",
       "comp": "brasileirao"
     },
-    "br-11-Vitoria-Sao-Paulo": {
+    "br-11-Botafogo-Coritiba": {
       "status": "finished",
-      "placar": "2-0",
+      "placar": "2-2",
       "golsCasa": 2,
-      "golsFora": 0,
-      "data": "2026-04-11",
+      "golsFora": 2,
+      "data": "2026-04-12",
       "comp": "brasileirao"
     },
-    "br-11-Remo-Vasco": {
+    "br-11-Fluminense-Flamengo": {
       "status": "finished",
-      "placar": "1-1",
+      "placar": "1-2",
       "golsCasa": 1,
-      "golsFora": 1,
-      "data": "2026-04-11",
+      "golsFora": 2,
+      "data": "2026-04-12",
       "comp": "brasileirao"
     },
-    "br-12-Flamengo-Bahia": {
+    "br-11-Corinthians-Palmeiras": {
       "status": "finished",
-      "placar": "2-0",
-      "golsCasa": 2,
+      "placar": "0-0",
+      "golsCasa": 0,
       "golsFora": 0,
-      "data": "2026-04-19",
+      "data": "2026-04-12",
+      "comp": "brasileirao"
+    },
+    "br-11-Cruzeiro-Bragantino": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-04-12",
+      "comp": "brasileirao"
+    },
+    "br-12-Chapecoense-Botafogo": {
+      "status": "finished",
+      "placar": "1-4",
+      "golsCasa": 1,
+      "golsFora": 4,
+      "data": "2026-04-18",
       "comp": "brasileirao"
     },
     "br-12-Vasco-Sao-Paulo": {
@@ -894,20 +878,12 @@
       "data": "2026-04-18",
       "comp": "brasileirao"
     },
-    "br-12-Santos-Fluminense": {
+    "br-12-Vitoria-Corinthians": {
       "status": "finished",
-      "placar": "2-3",
-      "golsCasa": 2,
-      "golsFora": 3,
-      "data": "2026-04-19",
-      "comp": "brasileirao"
-    },
-    "br-12-Palmeiras-Athletico-PR": {
-      "status": "finished",
-      "placar": "1-0",
-      "golsCasa": 1,
+      "placar": "0-0",
+      "golsCasa": 0,
       "golsFora": 0,
-      "data": "2026-04-19",
+      "data": "2026-04-18",
       "comp": "brasileirao"
     },
     "br-12-Cruzeiro-Gremio": {
@@ -934,28 +910,36 @@
       "data": "2026-04-19",
       "comp": "brasileirao"
     },
-    "br-12-Vitoria-Corinthians": {
+    "br-12-Santos-Fluminense": {
       "status": "finished",
-      "placar": "0-0",
-      "golsCasa": 0,
-      "golsFora": 0,
-      "data": "2026-04-18",
+      "placar": "2-3",
+      "golsCasa": 2,
+      "golsFora": 3,
+      "data": "2026-04-19",
       "comp": "brasileirao"
     },
-    "br-12-Chapecoense-Botafogo": {
-      "status": "finished",
-      "placar": "1-4",
-      "golsCasa": 1,
-      "golsFora": 4,
-      "data": "2026-04-18",
-      "comp": "brasileirao"
-    },
-    "br-13-Fluminense-Chapecoense": {
+    "br-12-Palmeiras-Athletico-PR": {
       "status": "finished",
       "placar": "1-0",
       "golsCasa": 1,
       "golsFora": 0,
-      "data": "2026-04-26",
+      "data": "2026-04-19",
+      "comp": "brasileirao"
+    },
+    "br-12-Flamengo-Bahia": {
+      "status": "finished",
+      "placar": "2-0",
+      "golsCasa": 2,
+      "golsFora": 0,
+      "data": "2026-04-19",
+      "comp": "brasileirao"
+    },
+    "br-13-Bahia-Santos": {
+      "status": "finished",
+      "placar": "2-2",
+      "golsCasa": 2,
+      "golsFora": 2,
+      "data": "2026-04-25",
       "comp": "brasileirao"
     },
     "br-13-Botafogo-Internacional": {
@@ -963,6 +947,14 @@
       "placar": "2-2",
       "golsCasa": 2,
       "golsFora": 2,
+      "data": "2026-04-25",
+      "comp": "brasileirao"
+    },
+    "br-13-Remo-Cruzeiro": {
+      "status": "finished",
+      "placar": "0-1",
+      "golsCasa": 0,
+      "golsFora": 1,
       "data": "2026-04-25",
       "comp": "brasileirao"
     },
@@ -982,22 +974,6 @@
       "data": "2026-04-26",
       "comp": "brasileirao"
     },
-    "br-13-Bragantino-Palmeiras": {
-      "status": "finished",
-      "placar": "0-1",
-      "golsCasa": 0,
-      "golsFora": 1,
-      "data": "2026-04-26",
-      "comp": "brasileirao"
-    },
-    "br-13-Atletico-MG-Flamengo": {
-      "status": "finished",
-      "placar": "0-4",
-      "golsCasa": 0,
-      "golsFora": 4,
-      "data": "2026-04-26",
-      "comp": "brasileirao"
-    },
     "br-13-Gremio-Coritiba": {
       "status": "finished",
       "placar": "1-0",
@@ -1014,28 +990,28 @@
       "data": "2026-04-26",
       "comp": "brasileirao"
     },
-    "br-13-Bahia-Santos": {
-      "status": "finished",
-      "placar": "2-2",
-      "golsCasa": 2,
-      "golsFora": 2,
-      "data": "2026-04-25",
-      "comp": "brasileirao"
-    },
-    "br-13-Remo-Cruzeiro": {
+    "br-13-Bragantino-Palmeiras": {
       "status": "finished",
       "placar": "0-1",
       "golsCasa": 0,
       "golsFora": 1,
-      "data": "2026-04-25",
+      "data": "2026-04-26",
       "comp": "brasileirao"
     },
-    "br-14-Flamengo-Vasco": {
+    "br-13-Atletico-MG-Flamengo": {
       "status": "finished",
-      "placar": "2-2",
-      "golsCasa": 2,
-      "golsFora": 2,
-      "data": "2026-05-03",
+      "placar": "0-4",
+      "golsCasa": 0,
+      "golsFora": 4,
+      "data": "2026-04-26",
+      "comp": "brasileirao"
+    },
+    "br-13-Fluminense-Chapecoense": {
+      "status": "finished",
+      "placar": "1-0",
+      "golsCasa": 1,
+      "golsFora": 0,
+      "data": "2026-04-26",
       "comp": "brasileirao"
     },
     "br-14-Botafogo-Remo": {
@@ -1046,51 +1022,11 @@
       "data": "2026-05-02",
       "comp": "brasileirao"
     },
-    "br-14-Sao-Paulo-Bahia": {
-      "status": "finished",
-      "placar": "2-2",
-      "golsCasa": 2,
-      "golsFora": 2,
-      "data": "2026-05-03",
-      "comp": "brasileirao"
-    },
     "br-14-Palmeiras-Santos": {
       "status": "finished",
       "placar": "1-1",
       "golsCasa": 1,
       "golsFora": 1,
-      "data": "2026-05-02",
-      "comp": "brasileirao"
-    },
-    "br-14-Mirassol-Corinthians": {
-      "status": "finished",
-      "placar": "2-1",
-      "golsCasa": 2,
-      "golsFora": 1,
-      "data": "2026-05-03",
-      "comp": "brasileirao"
-    },
-    "br-14-Cruzeiro-Atletico-MG": {
-      "status": "finished",
-      "placar": "1-3",
-      "golsCasa": 1,
-      "golsFora": 3,
-      "data": "2026-05-02",
-      "comp": "brasileirao"
-    },
-    "br-14-Internacional-Fluminense": {
-      "status": "finished",
-      "placar": "2-0",
-      "golsCasa": 2,
-      "golsFora": 0,
-      "data": "2026-05-03",
-      "comp": "brasileirao"
-    },
-    "br-14-Athletico-PR-Gremio": {
-      "status": "finished",
-      "placar": "0-0",
-      "golsCasa": 0,
-      "golsFora": 0,
       "data": "2026-05-02",
       "comp": "brasileirao"
     },
@@ -1102,12 +1038,68 @@
       "data": "2026-05-02",
       "comp": "brasileirao"
     },
+    "br-14-Athletico-PR-Gremio": {
+      "status": "finished",
+      "placar": "0-0",
+      "golsCasa": 0,
+      "golsFora": 0,
+      "data": "2026-05-02",
+      "comp": "brasileirao"
+    },
+    "br-14-Cruzeiro-Atletico-MG": {
+      "status": "finished",
+      "placar": "1-3",
+      "golsCasa": 1,
+      "golsFora": 3,
+      "data": "2026-05-02",
+      "comp": "brasileirao"
+    },
+    "br-14-Flamengo-Vasco": {
+      "status": "finished",
+      "placar": "2-2",
+      "golsCasa": 2,
+      "golsFora": 2,
+      "data": "2026-05-03",
+      "comp": "brasileirao"
+    },
+    "br-14-Sao-Paulo-Bahia": {
+      "status": "finished",
+      "placar": "2-2",
+      "golsCasa": 2,
+      "golsFora": 2,
+      "data": "2026-05-03",
+      "comp": "brasileirao"
+    },
     "br-14-Chapecoense-Bragantino": {
       "status": "finished",
       "placar": "1-2",
       "golsCasa": 1,
       "golsFora": 2,
       "data": "2026-05-03",
+      "comp": "brasileirao"
+    },
+    "br-14-Internacional-Fluminense": {
+      "status": "finished",
+      "placar": "2-0",
+      "golsCasa": 2,
+      "golsFora": 0,
+      "data": "2026-05-03",
+      "comp": "brasileirao"
+    },
+    "br-14-Mirassol-Corinthians": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-05-03",
+      "comp": "brasileirao"
+    },
+    "br-15-Coritiba-Internacional": {
+      "status": "finished",
+      "placar": "2-2",
+      "golsCasa": 2,
+      "golsFora": 2,
+      "data": "2026-05-09",
       "comp": "brasileirao"
     },
     "br-15-Fluminense-Vitoria": {
@@ -1118,19 +1110,27 @@
       "data": "2026-05-09",
       "comp": "brasileirao"
     },
-    "br-15-Vasco-Athletico-PR": {
+    "br-15-Bahia-Cruzeiro": {
       "status": "finished",
-      "placar": "1-0",
+      "placar": "1-2",
       "golsCasa": 1,
-      "golsFora": 0,
+      "golsFora": 2,
+      "data": "2026-05-09",
+      "comp": "brasileirao"
+    },
+    "br-15-Atletico-MG-Botafogo": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
       "data": "2026-05-10",
       "comp": "brasileirao"
     },
-    "br-15-Santos-Bragantino": {
+    "br-15-Remo-Palmeiras": {
       "status": "finished",
-      "placar": "2-0",
-      "golsCasa": 2,
-      "golsFora": 0,
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
       "data": "2026-05-10",
       "comp": "brasileirao"
     },
@@ -1150,11 +1150,11 @@
       "data": "2026-05-10",
       "comp": "brasileirao"
     },
-    "br-15-Atletico-MG-Botafogo": {
+    "br-15-Santos-Bragantino": {
       "status": "finished",
-      "placar": "1-1",
-      "golsCasa": 1,
-      "golsFora": 1,
+      "placar": "2-0",
+      "golsCasa": 2,
+      "golsFora": 0,
       "data": "2026-05-10",
       "comp": "brasileirao"
     },
@@ -1166,68 +1166,12 @@
       "data": "2026-05-10",
       "comp": "brasileirao"
     },
-    "br-15-Coritiba-Internacional": {
+    "br-15-Vasco-Athletico-PR": {
       "status": "finished",
-      "placar": "2-2",
-      "golsCasa": 2,
-      "golsFora": 2,
-      "data": "2026-05-09",
-      "comp": "brasileirao"
-    },
-    "br-15-Bahia-Cruzeiro": {
-      "status": "finished",
-      "placar": "1-2",
+      "placar": "1-0",
       "golsCasa": 1,
-      "golsFora": 2,
-      "data": "2026-05-09",
-      "comp": "brasileirao"
-    },
-    "br-15-Remo-Palmeiras": {
-      "status": "finished",
-      "placar": "1-1",
-      "golsCasa": 1,
-      "golsFora": 1,
-      "data": "2026-05-10",
-      "comp": "brasileirao"
-    },
-    "br-16-Fluminense-Sao-Paulo": {
-      "status": "finished",
-      "placar": "2-1",
-      "golsCasa": 2,
-      "golsFora": 1,
-      "data": "2026-05-16",
-      "comp": "brasileirao"
-    },
-    "br-16-Botafogo-Corinthians": {
-      "status": "finished",
-      "placar": "3-1",
-      "golsCasa": 3,
-      "golsFora": 1,
-      "data": "2026-05-17",
-      "comp": "brasileirao"
-    },
-    "br-16-Santos-Coritiba": {
-      "status": "finished",
-      "placar": "0-3",
-      "golsCasa": 0,
-      "golsFora": 3,
-      "data": "2026-05-17",
-      "comp": "brasileirao"
-    },
-    "br-16-Palmeiras-Cruzeiro": {
-      "status": "finished",
-      "placar": "1-1",
-      "golsCasa": 1,
-      "golsFora": 1,
-      "data": "2026-05-16",
-      "comp": "brasileirao"
-    },
-    "br-16-Bragantino-Vitoria": {
-      "status": "finished",
-      "placar": "2-0",
-      "golsCasa": 2,
       "golsFora": 0,
-      "data": "2026-05-17",
+      "data": "2026-05-10",
       "comp": "brasileirao"
     },
     "br-16-Atletico-MG-Mirassol": {
@@ -1246,11 +1190,27 @@
       "data": "2026-05-16",
       "comp": "brasileirao"
     },
-    "br-16-Athletico-PR-Flamengo": {
+    "br-16-Fluminense-Sao-Paulo": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-05-16",
+      "comp": "brasileirao"
+    },
+    "br-16-Palmeiras-Cruzeiro": {
       "status": "finished",
       "placar": "1-1",
       "golsCasa": 1,
       "golsFora": 1,
+      "data": "2026-05-16",
+      "comp": "brasileirao"
+    },
+    "br-16-Santos-Coritiba": {
+      "status": "finished",
+      "placar": "0-3",
+      "golsCasa": 0,
+      "golsFora": 3,
       "data": "2026-05-17",
       "comp": "brasileirao"
     },
@@ -1262,6 +1222,22 @@
       "data": "2026-05-17",
       "comp": "brasileirao"
     },
+    "br-16-Botafogo-Corinthians": {
+      "status": "finished",
+      "placar": "3-1",
+      "golsCasa": 3,
+      "golsFora": 1,
+      "data": "2026-05-17",
+      "comp": "brasileirao"
+    },
+    "br-16-Bragantino-Vitoria": {
+      "status": "finished",
+      "placar": "2-0",
+      "golsCasa": 2,
+      "golsFora": 0,
+      "data": "2026-05-17",
+      "comp": "brasileirao"
+    },
     "br-16-Chapecoense-Remo": {
       "status": "finished",
       "placar": "2-3",
@@ -1270,20 +1246,12 @@
       "data": "2026-05-17",
       "comp": "brasileirao"
     },
-    "br-17-Flamengo-Palmeiras": {
+    "br-16-Athletico-PR-Flamengo": {
       "status": "finished",
-      "placar": "0-3",
-      "golsCasa": 0,
-      "golsFora": 3,
-      "data": "2026-05-23",
-      "comp": "brasileirao"
-    },
-    "br-17-Vasco-Bragantino": {
-      "status": "finished",
-      "placar": "0-3",
-      "golsCasa": 0,
-      "golsFora": 3,
-      "data": "2026-05-24",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-05-17",
       "comp": "brasileirao"
     },
     "br-17-Sao-Paulo-Botafogo": {
@@ -1294,12 +1262,20 @@
       "data": "2026-05-23",
       "comp": "brasileirao"
     },
-    "br-17-Corinthians-Atletico-MG": {
+    "br-17-Vitoria-Internacional": {
       "status": "finished",
-      "placar": "1-0",
-      "golsCasa": 1,
+      "placar": "2-0",
+      "golsCasa": 2,
       "golsFora": 0,
-      "data": "2026-05-24",
+      "data": "2026-05-23",
+      "comp": "brasileirao"
+    },
+    "br-17-Gremio-Santos": {
+      "status": "finished",
+      "placar": "3-2",
+      "golsCasa": 3,
+      "golsFora": 2,
+      "data": "2026-05-23",
       "comp": "brasileirao"
     },
     "br-17-Mirassol-Fluminense": {
@@ -1307,6 +1283,14 @@
       "placar": "1-0",
       "golsCasa": 1,
       "golsFora": 0,
+      "data": "2026-05-23",
+      "comp": "brasileirao"
+    },
+    "br-17-Flamengo-Palmeiras": {
+      "status": "finished",
+      "placar": "0-3",
+      "golsCasa": 0,
+      "golsFora": 3,
       "data": "2026-05-23",
       "comp": "brasileirao"
     },
@@ -1318,12 +1302,28 @@
       "data": "2026-05-24",
       "comp": "brasileirao"
     },
-    "br-17-Gremio-Santos": {
+    "br-17-Remo-Athletico-PR": {
       "status": "finished",
-      "placar": "3-2",
-      "golsCasa": 3,
+      "placar": "1-2",
+      "golsCasa": 1,
       "golsFora": 2,
-      "data": "2026-05-23",
+      "data": "2026-05-24",
+      "comp": "brasileirao"
+    },
+    "br-17-Corinthians-Atletico-MG": {
+      "status": "finished",
+      "placar": "1-0",
+      "golsCasa": 1,
+      "golsFora": 0,
+      "data": "2026-05-24",
+      "comp": "brasileirao"
+    },
+    "br-17-Vasco-Bragantino": {
+      "status": "finished",
+      "placar": "0-3",
+      "golsCasa": 0,
+      "golsFora": 3,
+      "data": "2026-05-24",
       "comp": "brasileirao"
     },
     "br-17-Coritiba-Bahia": {
@@ -1334,82 +1334,18 @@
       "data": "2026-05-25",
       "comp": "brasileirao"
     },
-    "br-17-Vitoria-Internacional": {
+    "br-18-Athletico-PR-Mirassol": {
       "status": "finished",
-      "placar": "2-0",
-      "golsCasa": 2,
-      "golsFora": 0,
-      "data": "2026-05-23",
-      "comp": "brasileirao"
-    },
-    "br-17-Remo-Athletico-PR": {
-      "status": "finished",
-      "placar": "1-2",
+      "placar": "1-0",
       "golsCasa": 1,
-      "golsFora": 2,
-      "data": "2026-05-24",
+      "golsFora": 0,
+      "data": "2026-05-30",
       "comp": "brasileirao"
     },
     "br-18-Flamengo-Coritiba": {
       "status": "finished",
       "placar": "3-0",
       "golsCasa": 3,
-      "golsFora": 0,
-      "data": "2026-05-30",
-      "comp": "brasileirao"
-    },
-    "br-18-Vasco-Atletico-MG": {
-      "status": "finished",
-      "placar": "0-1",
-      "golsCasa": 0,
-      "golsFora": 1,
-      "data": "2026-05-31",
-      "comp": "brasileirao"
-    },
-    "br-18-Santos-Vitoria": {
-      "status": "finished",
-      "placar": "3-1",
-      "golsCasa": 3,
-      "golsFora": 1,
-      "data": "2026-05-30",
-      "comp": "brasileirao"
-    },
-    "br-18-Palmeiras-Chapecoense": {
-      "status": "finished",
-      "placar": "1-0",
-      "golsCasa": 1,
-      "golsFora": 0,
-      "data": "2026-05-31",
-      "comp": "brasileirao"
-    },
-    "br-18-Bragantino-Internacional": {
-      "status": "finished",
-      "placar": "3-1",
-      "golsCasa": 3,
-      "golsFora": 1,
-      "data": "2026-05-31",
-      "comp": "brasileirao"
-    },
-    "br-18-Cruzeiro-Fluminense": {
-      "status": "finished",
-      "placar": "1-1",
-      "golsCasa": 1,
-      "golsFora": 1,
-      "data": "2026-05-31",
-      "comp": "brasileirao"
-    },
-    "br-18-Gremio-Corinthians": {
-      "status": "finished",
-      "placar": "1-3",
-      "golsCasa": 1,
-      "golsFora": 3,
-      "data": "2026-05-30",
-      "comp": "brasileirao"
-    },
-    "br-18-Athletico-PR-Mirassol": {
-      "status": "finished",
-      "placar": "1-0",
-      "golsCasa": 1,
       "golsFora": 0,
       "data": "2026-05-30",
       "comp": "brasileirao"
@@ -1422,12 +1358,92 @@
       "data": "2026-05-30",
       "comp": "brasileirao"
     },
+    "br-18-Gremio-Corinthians": {
+      "status": "finished",
+      "placar": "1-3",
+      "golsCasa": 1,
+      "golsFora": 3,
+      "data": "2026-05-30",
+      "comp": "brasileirao"
+    },
+    "br-18-Santos-Vitoria": {
+      "status": "finished",
+      "placar": "3-1",
+      "golsCasa": 3,
+      "golsFora": 1,
+      "data": "2026-05-30",
+      "comp": "brasileirao"
+    },
+    "br-18-Bragantino-Internacional": {
+      "status": "finished",
+      "placar": "3-1",
+      "golsCasa": 3,
+      "golsFora": 1,
+      "data": "2026-05-31",
+      "comp": "brasileirao"
+    },
+    "br-18-Palmeiras-Chapecoense": {
+      "status": "finished",
+      "placar": "1-0",
+      "golsCasa": 1,
+      "golsFora": 0,
+      "data": "2026-05-31",
+      "comp": "brasileirao"
+    },
+    "br-18-Vasco-Atletico-MG": {
+      "status": "finished",
+      "placar": "0-1",
+      "golsCasa": 0,
+      "golsFora": 1,
+      "data": "2026-05-31",
+      "comp": "brasileirao"
+    },
+    "br-18-Cruzeiro-Fluminense": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-05-31",
+      "comp": "brasileirao"
+    },
     "br-18-Remo-Sao-Paulo": {
       "status": "finished",
       "placar": "1-0",
       "golsCasa": 1,
       "golsFora": 0,
       "data": "2026-05-31",
+      "comp": "brasileirao"
+    },
+    "br-19-Botafogo-Santos": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-07-16",
+      "comp": "brasileirao"
+    },
+    "br-19-Vitoria-Vasco": {
+      "status": "finished",
+      "placar": "1-0",
+      "golsCasa": 1,
+      "golsFora": 0,
+      "data": "2026-07-16",
+      "comp": "brasileirao"
+    },
+    "br-4-Bahia-Chapecoense": {
+      "status": "finished",
+      "placar": "2-0",
+      "golsCasa": 2,
+      "golsFora": 0,
+      "data": "2026-07-17",
+      "comp": "brasileirao"
+    },
+    "br-19-Mirassol-Gremio": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-07-17",
       "comp": "brasileirao"
     },
     "br-19-Fluminense-Bragantino": {
@@ -1438,12 +1454,36 @@
       "data": "2026-07-17",
       "comp": "brasileirao"
     },
-    "br-19-Botafogo-Santos": {
+    "br-19-Atletico-MG-Bahia": {
       "status": "finished",
-      "placar": "2-1",
-      "golsCasa": 2,
+      "placar": "1-1",
+      "golsCasa": 1,
       "golsFora": 1,
-      "data": "2026-07-16",
+      "data": "2026-07-21",
+      "comp": "brasileirao"
+    },
+    "br-19-Coritiba-Palmeiras": {
+      "status": "finished",
+      "placar": "1-3",
+      "golsCasa": 1,
+      "golsFora": 3,
+      "data": "2026-07-22",
+      "comp": "brasileirao"
+    },
+    "br-19-Chapecoense-Flamengo": {
+      "status": "finished",
+      "placar": "0-4",
+      "golsCasa": 0,
+      "golsFora": 4,
+      "data": "2026-07-22",
+      "comp": "brasileirao"
+    },
+    "br-19-Internacional-Cruzeiro": {
+      "status": "finished",
+      "placar": "1-2",
+      "golsCasa": 1,
+      "golsFora": 2,
+      "data": "2026-07-22",
       "comp": "brasileirao"
     },
     "br-19-Sao-Paulo-Athletico-PR": {
@@ -1462,67 +1502,19 @@
       "data": "2026-07-23",
       "comp": "brasileirao"
     },
-    "br-19-Mirassol-Gremio": {
+    "br-4-Botafogo-Vitoria": {
       "status": "finished",
-      "placar": "2-1",
-      "golsCasa": 2,
-      "golsFora": 1,
-      "data": "2026-07-17",
-      "comp": "brasileirao"
-    },
-    "br-19-Atletico-MG-Bahia": {
-      "status": "finished",
-      "placar": "1-1",
-      "golsCasa": 1,
-      "golsFora": 1,
-      "data": "2026-07-21",
-      "comp": "brasileirao"
-    },
-    "br-19-Internacional-Cruzeiro": {
-      "status": "finished",
-      "placar": "1-2",
-      "golsCasa": 1,
-      "golsFora": 2,
-      "data": "2026-07-22",
-      "comp": "brasileirao"
-    },
-    "br-19-Coritiba-Palmeiras": {
-      "status": "finished",
-      "placar": "1-3",
-      "golsCasa": 1,
-      "golsFora": 3,
-      "data": "2026-07-22",
-      "comp": "brasileirao"
-    },
-    "br-19-Vitoria-Vasco": {
-      "status": "finished",
-      "placar": "1-0",
-      "golsCasa": 1,
-      "golsFora": 0,
-      "data": "2026-07-16",
-      "comp": "brasileirao"
-    },
-    "br-19-Chapecoense-Flamengo": {
-      "status": "finished",
-      "placar": "0-4",
+      "placar": "0-0",
       "golsCasa": 0,
-      "golsFora": 4,
-      "data": "2026-07-22",
+      "golsFora": 0,
+      "data": "2026-07-23",
       "comp": "brasileirao"
     },
-    "br-20-Flamengo-Sao-Paulo": {
+    "br-20-Athletico-PR-Internacional": {
       "status": "finished",
-      "placar": "1-1",
-      "golsCasa": 1,
-      "golsFora": 1,
-      "data": "2026-07-26",
-      "comp": "brasileirao"
-    },
-    "br-20-Vasco-Mirassol": {
-      "status": "finished",
-      "placar": "1-1",
-      "golsCasa": 1,
-      "golsFora": 1,
+      "placar": "2-0",
+      "golsCasa": 2,
+      "golsFora": 0,
       "data": "2026-07-25",
       "comp": "brasileirao"
     },
@@ -1534,11 +1526,27 @@
       "data": "2026-07-25",
       "comp": "brasileirao"
     },
-    "br-20-Palmeiras-Atletico-MG": {
+    "br-20-Vasco-Mirassol": {
       "status": "finished",
-      "placar": "1-2",
+      "placar": "1-1",
       "golsCasa": 1,
-      "golsFora": 2,
+      "golsFora": 1,
+      "data": "2026-07-25",
+      "comp": "brasileirao"
+    },
+    "br-20-Bahia-Corinthians": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-07-26",
+      "comp": "brasileirao"
+    },
+    "br-20-Cruzeiro-Botafogo": {
+      "status": "finished",
+      "placar": "0-1",
+      "golsCasa": 0,
+      "golsFora": 1,
       "data": "2026-07-26",
       "comp": "brasileirao"
     },
@@ -1550,10 +1558,10 @@
       "data": "2026-07-26",
       "comp": "brasileirao"
     },
-    "br-20-Cruzeiro-Botafogo": {
+    "br-20-Flamengo-Sao-Paulo": {
       "status": "finished",
-      "placar": "0-1",
-      "golsCasa": 0,
+      "placar": "1-1",
+      "golsCasa": 1,
       "golsFora": 1,
       "data": "2026-07-26",
       "comp": "brasileirao"
@@ -1566,19 +1574,11 @@
       "data": "2026-07-26",
       "comp": "brasileirao"
     },
-    "br-20-Athletico-PR-Internacional": {
+    "br-20-Palmeiras-Atletico-MG": {
       "status": "finished",
-      "placar": "2-0",
-      "golsCasa": 2,
-      "golsFora": 0,
-      "data": "2026-07-25",
-      "comp": "brasileirao"
-    },
-    "br-20-Bahia-Corinthians": {
-      "status": "finished",
-      "placar": "1-1",
+      "placar": "1-2",
       "golsCasa": 1,
-      "golsFora": 1,
+      "golsFora": 2,
       "data": "2026-07-26",
       "comp": "brasileirao"
     },
@@ -1590,11 +1590,35 @@
       "data": "2026-07-26",
       "comp": "brasileirao"
     },
+    "br-21-Internacional-Flamengo": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-07-29",
+      "comp": "brasileirao"
+    },
+    "br-21-Mirassol-Remo": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-07-29",
+      "comp": "brasileirao"
+    },
     "br-21-Fluminense-Bahia": {
       "status": "finished",
       "placar": "0-0",
       "golsCasa": 0,
       "golsFora": 0,
+      "data": "2026-07-29",
+      "comp": "brasileirao"
+    },
+    "br-21-Vitoria-Palmeiras": {
+      "status": "finished",
+      "placar": "0-4",
+      "golsCasa": 0,
+      "golsFora": 4,
       "data": "2026-07-29",
       "comp": "brasileirao"
     },
@@ -1606,22 +1630,6 @@
       "data": "2026-07-30",
       "comp": "brasileirao"
     },
-    "br-21-Mirassol-Remo": {
-      "status": "finished",
-      "placar": "2-1",
-      "golsCasa": 2,
-      "golsFora": 1,
-      "data": "2026-07-29",
-      "comp": "brasileirao"
-    },
-    "br-21-Internacional-Flamengo": {
-      "status": "finished",
-      "placar": "1-1",
-      "golsCasa": 1,
-      "golsFora": 1,
-      "data": "2026-07-29",
-      "comp": "brasileirao"
-    },
     "br-21-Coritiba-Cruzeiro": {
       "status": "finished",
       "placar": "0-1",
@@ -1630,20 +1638,28 @@
       "data": "2026-07-30",
       "comp": "brasileirao"
     },
-    "br-21-Vitoria-Palmeiras": {
+    "br-22-Gremio-Sao-Paulo": {
       "status": "finished",
-      "placar": "0-4",
-      "golsCasa": 0,
-      "golsFora": 4,
-      "data": "2026-07-29",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-08-08",
       "comp": "brasileirao"
     },
-    "br-22-Flamengo-Vitoria": {
+    "br-22-Remo-Atletico-MG": {
       "status": "finished",
-      "placar": "2-0",
+      "placar": "2-2",
       "golsCasa": 2,
-      "golsFora": 0,
-      "data": "2026-08-09",
+      "golsFora": 2,
+      "data": "2026-08-08",
+      "comp": "brasileirao"
+    },
+    "br-22-Coritiba-Chapecoense": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-08-08",
       "comp": "brasileirao"
     },
     "br-22-Botafogo-Fluminense": {
@@ -1654,11 +1670,19 @@
       "data": "2026-08-08",
       "comp": "brasileirao"
     },
-    "br-22-Santos-Athletico-PR": {
+    "br-22-Cruzeiro-Mirassol": {
       "status": "finished",
-      "placar": "0-2",
+      "placar": "3-1",
+      "golsCasa": 3,
+      "golsFora": 1,
+      "data": "2026-08-09",
+      "comp": "brasileirao"
+    },
+    "br-22-Bahia-Vasco": {
+      "status": "finished",
+      "placar": "0-0",
       "golsCasa": 0,
-      "golsFora": 2,
+      "golsFora": 0,
       "data": "2026-08-09",
       "comp": "brasileirao"
     },
@@ -1678,45 +1702,53 @@
       "data": "2026-08-09",
       "comp": "brasileirao"
     },
-    "br-22-Cruzeiro-Mirassol": {
+    "br-22-Santos-Athletico-PR": {
       "status": "finished",
-      "placar": "3-1",
-      "golsCasa": 3,
-      "golsFora": 1,
+      "placar": "0-2",
+      "golsCasa": 0,
+      "golsFora": 2,
       "data": "2026-08-09",
       "comp": "brasileirao"
     },
-    "br-22-Gremio-Sao-Paulo": {
+    "br-22-Flamengo-Vitoria": {
       "status": "finished",
-      "placar": "2-1",
+      "placar": "2-0",
       "golsCasa": 2,
-      "golsFora": 1,
-      "data": "2026-08-08",
-      "comp": "brasileirao"
-    },
-    "br-22-Coritiba-Chapecoense": {
-      "status": "finished",
-      "placar": "2-1",
-      "golsCasa": 2,
-      "golsFora": 1,
-      "data": "2026-08-08",
-      "comp": "brasileirao"
-    },
-    "br-22-Bahia-Vasco": {
-      "status": "finished",
-      "placar": "0-0",
-      "golsCasa": 0,
       "golsFora": 0,
       "data": "2026-08-09",
       "comp": "brasileirao"
     },
-    "br-22-Remo-Atletico-MG": {
+    "lib-2026-08-12-Flamengo-Cruzeiro": {
       "status": "finished",
-      "placar": "2-2",
+      "placar": "2-1",
       "golsCasa": 2,
-      "golsFora": 2,
-      "data": "2026-08-08",
-      "comp": "brasileirao"
+      "golsFora": 1,
+      "data": "2026-08-12",
+      "comp": "libertadores"
+    },
+    "lib-2026-08-12-Palmeiras-Cerro-Porteno": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-08-12",
+      "comp": "libertadores"
+    },
+    "lib-2026-08-13-Fluminense-Independiente-Rivadavia": {
+      "status": "finished",
+      "placar": "1-0",
+      "golsCasa": 1,
+      "golsFora": 0,
+      "data": "2026-08-13",
+      "comp": "libertadores"
+    },
+    "lib-2026-08-13-Rosario-Central-Corinthians": {
+      "status": "finished",
+      "placar": "0-0",
+      "golsCasa": 0,
+      "golsFora": 0,
+      "data": "2026-08-13",
+      "comp": "libertadores"
     },
     "br-23-Fluminense-Palmeiras": {
       "status": "finished",
@@ -1726,12 +1758,12 @@
       "data": "2026-08-15",
       "comp": "brasileirao"
     },
-    "br-23-Vasco-Santos": {
+    "br-23-Athletico-PR-Bragantino": {
       "status": "finished",
-      "placar": "0-3",
-      "golsCasa": 0,
-      "golsFora": 3,
-      "data": "2026-08-16",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-08-15",
       "comp": "brasileirao"
     },
     "br-23-Sao-Paulo-Coritiba": {
@@ -1742,19 +1774,11 @@
       "data": "2026-08-15",
       "comp": "brasileirao"
     },
-    "br-23-Corinthians-Cruzeiro": {
+    "br-23-Chapecoense-Bahia": {
       "status": "finished",
-      "placar": "1-2",
-      "golsCasa": 1,
-      "golsFora": 2,
-      "data": "2026-08-16",
-      "comp": "brasileirao"
-    },
-    "br-23-Mirassol-Flamengo": {
-      "status": "finished",
-      "placar": "1-5",
-      "golsCasa": 1,
-      "golsFora": 5,
+      "placar": "3-3",
+      "golsCasa": 3,
+      "golsFora": 3,
       "data": "2026-08-16",
       "comp": "brasileirao"
     },
@@ -1766,20 +1790,20 @@
       "data": "2026-08-16",
       "comp": "brasileirao"
     },
-    "br-23-Internacional-Remo": {
+    "br-23-Vasco-Santos": {
       "status": "finished",
-      "placar": "1-1",
-      "golsCasa": 1,
-      "golsFora": 1,
-      "data": "2026-08-17",
+      "placar": "0-3",
+      "golsCasa": 0,
+      "golsFora": 3,
+      "data": "2026-08-16",
       "comp": "brasileirao"
     },
-    "br-23-Athletico-PR-Bragantino": {
+    "br-23-Mirassol-Flamengo": {
       "status": "finished",
-      "placar": "1-1",
+      "placar": "1-5",
       "golsCasa": 1,
-      "golsFora": 1,
-      "data": "2026-08-15",
+      "golsFora": 5,
+      "data": "2026-08-16",
       "comp": "brasileirao"
     },
     "br-23-Vitoria-Botafogo": {
@@ -1790,55 +1814,63 @@
       "data": "2026-08-16",
       "comp": "brasileirao"
     },
-    "br-23-Chapecoense-Bahia": {
+    "br-23-Corinthians-Cruzeiro": {
       "status": "finished",
-      "placar": "3-3",
-      "golsCasa": 3,
-      "golsFora": 3,
+      "placar": "1-2",
+      "golsCasa": 1,
+      "golsFora": 2,
       "data": "2026-08-16",
       "comp": "brasileirao"
     },
-    "br-24-Fluminense-Remo": {
-      "status": "finished",
-      "placar": "2-1",
-      "golsCasa": 2,
-      "golsFora": 1,
-      "data": "2026-08-22",
-      "comp": "brasileirao"
-    },
-    "br-24-Botafogo-Athletico-PR": {
-      "status": "finished",
-      "placar": "2-3",
-      "golsCasa": 2,
-      "golsFora": 3,
-      "data": "2026-08-24",
-      "comp": "brasileirao"
-    },
-    "br-24-Santos-Mirassol": {
+    "br-23-Internacional-Remo": {
       "status": "finished",
       "placar": "1-1",
       "golsCasa": 1,
       "golsFora": 1,
-      "data": "2026-08-23",
+      "data": "2026-08-17",
       "comp": "brasileirao"
     },
-    "br-24-Palmeiras-Vasco": {
+    "lib-2026-08-19-Cerro-Porteno-Palmeiras": {
       "status": "finished",
-      "placar": "4-1",
-      "golsCasa": 4,
+      "placar": "0-1",
+      "golsCasa": 0,
       "golsFora": 1,
-      "data": "2026-08-23",
-      "comp": "brasileirao"
+      "data": "2026-08-19",
+      "comp": "libertadores"
     },
-    "br-24-Bragantino-Gremio": {
+    "lib-2026-08-19-Cruzeiro-Flamengo": {
+      "status": "finished",
+      "placar": "1-2",
+      "golsCasa": 1,
+      "golsFora": 2,
+      "data": "2026-08-19",
+      "comp": "libertadores"
+    },
+    "lib-2026-08-20-Independiente-Rivadavia-Fluminense": {
+      "status": "finished",
+      "placar": "0-0",
+      "golsCasa": 0,
+      "golsFora": 0,
+      "data": "2026-08-20",
+      "comp": "libertadores"
+    },
+    "lib-2026-08-20-LDU-Quito-Mirassol": {
+      "status": "finished",
+      "placar": "0-0",
+      "golsCasa": 0,
+      "golsFora": 0,
+      "data": "2026-08-20",
+      "comp": "libertadores"
+    },
+    "lib-2026-08-20-Corinthians-Rosario-Central": {
       "status": "finished",
       "placar": "1-0",
       "golsCasa": 1,
       "golsFora": 0,
-      "data": "2026-08-23",
-      "comp": "brasileirao"
+      "data": "2026-08-20",
+      "comp": "libertadores"
     },
-    "br-24-Cruzeiro-Flamengo": {
+    "br-24-Fluminense-Remo": {
       "status": "finished",
       "placar": "2-1",
       "golsCasa": 2,
@@ -1854,10 +1886,26 @@
       "data": "2026-08-22",
       "comp": "brasileirao"
     },
-    "br-24-Coritiba-Corinthians": {
+    "br-24-Cruzeiro-Flamengo": {
       "status": "finished",
       "placar": "2-1",
       "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-08-22",
+      "comp": "brasileirao"
+    },
+    "br-24-Bragantino-Gremio": {
+      "status": "finished",
+      "placar": "1-0",
+      "golsCasa": 1,
+      "golsFora": 0,
+      "data": "2026-08-23",
+      "comp": "brasileirao"
+    },
+    "br-24-Palmeiras-Vasco": {
+      "status": "finished",
+      "placar": "4-1",
+      "golsCasa": 4,
       "golsFora": 1,
       "data": "2026-08-23",
       "comp": "brasileirao"
@@ -1878,6 +1926,30 @@
       "data": "2026-08-23",
       "comp": "brasileirao"
     },
+    "br-24-Santos-Mirassol": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-08-23",
+      "comp": "brasileirao"
+    },
+    "br-24-Coritiba-Corinthians": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-08-23",
+      "comp": "brasileirao"
+    },
+    "br-24-Botafogo-Athletico-PR": {
+      "status": "finished",
+      "placar": "2-3",
+      "golsCasa": 2,
+      "golsFora": 3,
+      "data": "2026-08-24",
+      "comp": "brasileirao"
+    },
     "copa-q-cru-cam-ida": {
       "status": "finished",
       "placar": "1-1",
@@ -1885,6 +1957,14 @@
       "golsFora": 1,
       "data": "2026-08-25",
       "comp": "copa"
+    },
+    "lib-2026-08-25-Independiente-del-Valle-Deportes-Tolima": {
+      "status": "finished",
+      "placar": "3-1",
+      "golsCasa": 3,
+      "golsFora": 1,
+      "data": "2026-08-25",
+      "comp": "libertadores"
     },
     "copa-q-pal-san-ida": {
       "status": "finished",
@@ -1910,85 +1990,13 @@
       "data": "2026-08-27",
       "comp": "copa"
     },
-    "lib-2026-08-12-Flamengo-Cruzeiro": {
+    "eu-bundesliga-2026-08-28-Bayern-Munich-VfB-Stuttgart": {
       "status": "finished",
-      "placar": "2-1",
-      "golsCasa": 2,
+      "placar": "5-1",
+      "golsCasa": 5,
       "golsFora": 1,
-      "data": "2026-08-12",
-      "comp": "libertadores"
-    },
-    "lib-2026-08-12-Palmeiras-Cerro-Porteno": {
-      "status": "finished",
-      "placar": "1-1",
-      "golsCasa": 1,
-      "golsFora": 1,
-      "data": "2026-08-12",
-      "comp": "libertadores"
-    },
-    "lib-2026-08-13-Rosario-Central-Corinthians": {
-      "status": "finished",
-      "placar": "0-0",
-      "golsCasa": 0,
-      "golsFora": 0,
-      "data": "2026-08-13",
-      "comp": "libertadores"
-    },
-    "lib-2026-08-13-Fluminense-Independiente-Rivadavia": {
-      "status": "finished",
-      "placar": "1-0",
-      "golsCasa": 1,
-      "golsFora": 0,
-      "data": "2026-08-13",
-      "comp": "libertadores"
-    },
-    "lib-2026-08-19-Cruzeiro-Flamengo": {
-      "status": "finished",
-      "placar": "1-2",
-      "golsCasa": 1,
-      "golsFora": 2,
-      "data": "2026-08-19",
-      "comp": "libertadores"
-    },
-    "lib-2026-08-19-Cerro-Porteno-Palmeiras": {
-      "status": "finished",
-      "placar": "0-1",
-      "golsCasa": 0,
-      "golsFora": 1,
-      "data": "2026-08-19",
-      "comp": "libertadores"
-    },
-    "lib-2026-08-20-Corinthians-Rosario-Central": {
-      "status": "finished",
-      "placar": "1-0",
-      "golsCasa": 1,
-      "golsFora": 0,
-      "data": "2026-08-20",
-      "comp": "libertadores"
-    },
-    "lib-2026-08-20-Independiente-Rivadavia-Fluminense": {
-      "status": "finished",
-      "placar": "0-0",
-      "golsCasa": 0,
-      "golsFora": 0,
-      "data": "2026-08-20",
-      "comp": "libertadores"
-    },
-    "lib-2026-08-20-LDU-Quito-Mirassol": {
-      "status": "finished",
-      "placar": "0-0",
-      "golsCasa": 0,
-      "golsFora": 0,
-      "data": "2026-08-20",
-      "comp": "libertadores"
-    },
-    "lib-2026-08-25-Independiente-del-Valle-Deportes-Tolima": {
-      "status": "finished",
-      "placar": "3-1",
-      "golsCasa": 3,
-      "golsFora": 1,
-      "data": "2026-08-25",
-      "comp": "libertadores"
+      "data": "2026-08-28",
+      "comp": "bundesliga"
     }
   }
 }
