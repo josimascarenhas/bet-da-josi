@@ -240,6 +240,23 @@ body.sport-tenis .filter-tenis-only { display: flex !important; }
 .panel-field { border-top: 3px solid var(--accent); }
 .panel-head { padding: 0.9rem 1.1rem; border-bottom: 1px solid var(--border); background: var(--surface2); }
 .panel-head h2 { font-size: 0.95rem; font-weight: 800; color: #0f1b2d; }
+.standings-head { display: flex; flex-direction: column; gap: 0.55rem; }
+.standings-title-row { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.45rem; }
+.table-fase { font-size: 0.78rem; font-weight: 600; color: var(--accent); white-space: nowrap; }
+.standings-tabs { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+.standings-tab {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 0.28rem 0.55rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.standings-tab:hover { border-color: var(--accent); color: var(--accent); }
+.standings-tab.active { background: var(--accent); border-color: var(--accent); color: #fff; }
 .panel-head p { font-size: 0.75rem; color: var(--muted); margin-top: 0.15rem; }
 .panel-body { padding: 1rem; }
 .calendar-section .panel-body { padding: 0.65rem 0.75rem 0.75rem; }

@@ -98,6 +98,7 @@
   var tenisGenero = "M";
   var selectedComp = "todos";
   var selectedEntity = "";
+  var standingsTabComp = "brasileirao";
   var selectedDate = "";
   var calYear = 2026;
   var calMonth = 7;
@@ -147,6 +148,56 @@
   function footCompList() {
     return ["brasileirao", "serieb", "libertadores", "copa",
       "premier-league", "la-liga", "bundesliga", "primeira-liga"];
+  }
+
+  function footStandingsTitles() {
+    return {
+      brasileirao: "Classificação — Série A",
+      serieb: "Classificação — Série B",
+      libertadores: "Libertadores — Times",
+      copa: "Copa do Brasil — Participantes",
+      "premier-league": "Premier League",
+      "la-liga": "La Liga",
+      bundesliga: "Bundesliga",
+      "primeira-liga": "Primeira Liga"
+    };
+  }
+
+  function tableCompKey() {
+    if (sport !== "futebol") return "";
+    if (selectedEntity) return activeFootComp();
+    if (selectedComp !== "todos") return activeFootComp();
+    return standingsTabComp;
+  }
+
+  function renderStandingsTabs() {
+    var el = document.getElementById("standingsTabs");
+    if (!el) return;
+    var show = sport === "futebol" && !selectedEntity && selectedComp === "todos";
+    el.hidden = !show;
+    if (!show) {
+      el.innerHTML = "";
+      return;
+    }
+    var titles = footStandingsTitles();
+    el.innerHTML = footCompList().map(function (ck) {
+      var nome = (FOOT.competicoes[ck] && FOOT.competicoes[ck].nome) || titles[ck] || ck;
+      return '<button type="button" class="standings-tab' +
+        (standingsTabComp === ck ? " active" : "") + '" data-standings-comp="' + ck + '">' +
+        esc(nome) + "</button>";
+    }).join("");
+    el.querySelectorAll(".standings-tab").forEach(function (btn) {
+      btn.onclick = function () {
+        standingsTabComp = btn.getAttribute("data-standings-comp");
+        renderTable();
+      };
+    });
+  }
+
+  function setTableFase(fase) {
+    var el = document.getElementById("tableFase");
+    if (!el) return;
+    el.textContent = fase ? fase : "";
   }
 
   function isForeignTeam(key) {
@@ -770,9 +821,19 @@
         bundesliga: "bundesliga",
         "primeira-liga": "primeira-liga"
       };
+      var compKey = "";
       if (selectedComp !== "todos" && compMap[selectedComp]) {
-        var compKey = compMap[selectedComp];
+        compKey = compMap[selectedComp];
+      } else if (!selectedEntity && selectedComp === "todos") {
+        compKey = standingsTabComp;
+      }
+      if (compKey) {
         var list = (FOOT.competicoes[compKey] && FOOT.competicoes[compKey].timesAtivos) || [];
+        if (!list.length) {
+          list = Object.keys(FOOT.times).filter(function (name) {
+            return getFootStats(name, compKey);
+          });
+        }
         return list.slice().sort(function (a, b) {
           var sa = getFootStats(a, compKey);
           var sb = getFootStats(b, compKey);
@@ -1157,7 +1218,6 @@
 
   function renderFixtures() {
     var container = document.getElementById("fixturesContainer");
-    var hint = document.getElementById("hintBox");
     var games = [];
 
     if (analyzeTarget) {
@@ -1174,10 +1234,8 @@
 
     if (!games.length) {
       container.innerHTML = "";
-      hint.style.display = "block";
       return;
     }
-    hint.style.display = "none";
 
     container.innerHTML = games.map(function (g) {
       var sides = sideNames(g);
@@ -1238,12 +1296,7 @@
         { label: "\u00daltimos 5", value: renderFormBadges(t.ultimos5), html: true, formKpi: true },
         { label: "Desfalques", value: (tInfo.desfalques || []).length || "0" },
         { label: "Retornando", value: (tInfo.retornando || []).length || "0" }
-      ] : [
-        { label: "M\u00e9dia gols", value: liga.mediaGols, hl: true },
-        { label: "Over 2.5", value: pct(liga.over25) },
-        { label: "BTTS", value: pct(liga.btts) },
-        { label: "Fase", value: ligaComp.fase || "\u2014" }
-      ];
+      ] : [];
     } else if (sport === "tenis") {
       var p = selectedEntity ? TENIS.atletas[selectedEntity] : null;
       items = p ? [
@@ -1285,6 +1338,7 @@
         { label: "Liga", value: selectedComp === "todos" ? "NBA \u00b7 NBB \u00b7 EL" : (selectedComp || "").toUpperCase() }
       ];
     }
+    document.getElementById("kpiGrid").style.display = items.length ? "" : "none";
     document.getElementById("kpiGrid").innerHTML = items.map(function (i) {
       return '<div class="kpi' + (i.hl ? " highlight" : "") + (i.formKpi ? " kpi-form" : "") +
         '"><div class="label">' + i.label + '</div><div class="value">' +
@@ -1295,20 +1349,13 @@
   function renderTable() {
     var head = document.getElementById("teamsTableHead");
     var body = document.getElementById("teamsTableBody");
+    renderStandingsTabs();
     if (sport === "futebol") {
-      var compKey = activeFootComp();
+      var compKey = tableCompKey();
       var compInfo = FOOT.competicoes[compKey] || FOOT.competicoes.brasileirao;
-      var titles = {
-        brasileirao: "Classificação — Série A",
-        serieb: "Classificação — Série B",
-        libertadores: "Libertadores — Times",
-        copa: "Copa do Brasil — Participantes",
-        "premier-league": "Premier League",
-        "la-liga": "La Liga",
-        "bundesliga": "Bundesliga",
-        "primeira-liga": "Primeira Liga"
-      };
+      var titles = footStandingsTitles();
       document.getElementById("tableTitle").textContent = titles[compKey] || "Classificação";
+      setTableFase(compInfo.fase || "");
       document.getElementById("tableSub").textContent = (compInfo.nome || "") + " \u00b7 clique para filtrar";
       if (compKey === "libertadores") {
         head.innerHTML = "<tr><th>Coef</th><th>Time</th><th>Grp</th><th>Seq</th><th>\u00daltimos 5</th><th>G/J</th></tr>";
@@ -1339,6 +1386,7 @@
       }
     } else if (sport === "tenis") {
       document.getElementById("tableTitle").textContent = tenisGenero === "M" ? "Ranking ATP" : "Ranking WTA";
+      setTableFase("");
       document.getElementById("tableSub").textContent = "Classificação atual \u00b7 clique para filtrar";
       head.innerHTML = "<tr><th>#</th><th>Atleta</th><th>Pa\u00eds</th><th>Idade</th><th>Hard</th><th>Saibro</th><th>Grama</th></tr>";
       body.innerHTML = entitiesForSport().map(function (name) {
@@ -1351,6 +1399,7 @@
       }).join("");
     } else if (sport === "ufc") {
       document.getElementById("tableTitle").textContent = "Lutadores";
+      setTableFase("");
       document.getElementById("tableSub").textContent = "Estat\u00edsticas do filtro atual";
       head.innerHTML = "<tr><th>Lutador</th><th>Pa\u00eds</th><th>Categoria</th><th>Rating</th><th>KO</th><th>SUB</th><th>DEC</th></tr>";
       body.innerHTML = entitiesForSport().map(function (name) {
@@ -1363,6 +1412,7 @@
       }).join("");
     } else {
       document.getElementById("tableTitle").textContent = "Times";
+      setTableFase("");
       document.getElementById("tableSub").textContent = "Estat\u00edsticas do filtro atual";
       head.innerHTML = "<tr><th>Time</th><th>Rating</th><th>PPG</th><th>OPP</th><th>Pace</th></tr>";
       body.innerHTML = entitiesForSport().map(function (name) {
@@ -2043,6 +2093,13 @@
       }
     };
     boot();
+    var PAINEL_POLL_MS = 30 * 60 * 1000;
+    setInterval(function () {
+      if (!window.LIVE_SYNC) return;
+      LIVE_SYNC.fetchAll().finally(function () {
+        if (currentView === "painel" || currentView === "dia") renderAll(false);
+      });
+    }, PAINEL_POLL_MS);
     setInterval(function () {
       renderTodayClock();
       if (refreshTodayDate()) {

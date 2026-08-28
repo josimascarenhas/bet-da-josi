@@ -1,14 +1,163 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-28T19:14:37-03:00",
-    "fonte": "resultados + recálculo estatístico",
+    "atualizadoEm": "2026-08-28T19:17:51-03:00",
+    "fonte": "resultados + recálculo estatístico + classificação",
     "jogosFinalizados": 336,
     "timesAtualizados": 104,
     "placaresFonte": "calendário + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
-      "fase": "25ª rodada"
+      "fase": "4ª rodada",
+      "timesAtivos": [
+        "Palmeiras",
+        "Flamengo",
+        "Athletico-PR",
+        "Fluminense",
+        "Cruzeiro",
+        "Bahia",
+        "Coritiba",
+        "Atletico-MG",
+        "Bragantino",
+        "Corinthians",
+        "Botafogo",
+        "Vitoria",
+        "Sao-Paulo",
+        "Santos",
+        "Internacional",
+        "Gremio",
+        "Mirassol",
+        "Remo",
+        "Vasco",
+        "Chapecoense"
+      ]
+    },
+    "primeira-liga": {
+      "timesAtivos": [
+        "Sporting-CP",
+        "Porto",
+        "Maritimo",
+        "Santa-Clara",
+        "Arouca",
+        "Gil-Vicente",
+        "Benfica",
+        "Nacional",
+        "Vitoria-Guimaraes",
+        "Rio-Ave",
+        "Estrela-Amadora",
+        "Academico-Viseu",
+        "Braga",
+        "Famalicao",
+        "Alverca",
+        "Moreirense",
+        "Estoril",
+        "Casa-Pia"
+      ],
+      "fase": "4ª jornada"
+    },
+    "serieb": {
+      "timesAtivos": [
+        "Sport",
+        "Novorizontino",
+        "Juventude",
+        "Avai",
+        "Ceara",
+        "Athletic-PR",
+        "Botafogo-SP",
+        "Cuiaba",
+        "Fortaleza",
+        "Atletico-GO",
+        "Sao-Bernardo",
+        "CRB",
+        "Vila-Nova",
+        "Goias",
+        "Nautico",
+        "Criciuma",
+        "Operario-PR",
+        "Ponte-Preta",
+        "Londrina",
+        "America-MG"
+      ],
+      "fase": "rodada"
+    },
+    "la-liga": {
+      "timesAtivos": [
+        "Alaves",
+        "Barcelona",
+        "Real-Madrid",
+        "Sevilla",
+        "Real-Betis",
+        "Osasuna",
+        "Racing",
+        "Espanyol",
+        "Getafe",
+        "Deportivo",
+        "Villarreal",
+        "Atletico-Madrid",
+        "Malaga",
+        "Rayo-Vallecano",
+        "Celta",
+        "Valencia",
+        "Levante",
+        "Elche",
+        "Athletic",
+        "Real-Sociedad"
+      ],
+      "fase": "3ª jornada"
+    },
+    "premier-league": {
+      "timesAtivos": [
+        "Manchester-City",
+        "Brighton",
+        "Arsenal",
+        "Brentford",
+        "Everton",
+        "Chelsea",
+        "Ipswich-Town",
+        "Leeds-United",
+        "Liverpool",
+        "Newcastle-United",
+        "Fulham",
+        "Bournemouth",
+        "Sunderland",
+        "Nottingham-Forest",
+        "Coventry-City",
+        "Tottenham",
+        "Aston-Villa",
+        "Crystal-Palace",
+        "Hull-City",
+        "Manchester-United"
+      ],
+      "fase": "2ª rodada"
+    },
+    "bundesliga": {
+      "timesAtivos": [
+        "Bayern-Munich",
+        "VfB-Stuttgart",
+        "Augsburg",
+        "Bayer-Leverkusen",
+        "Borussia-Dortmund",
+        "Borussia-Mgladbach",
+        "Eintracht-Frankfurt",
+        "Hamburger-SV",
+        "Hoffenheim",
+        "Koln",
+        "Mainz",
+        "RB-Leipzig",
+        "SC-Freiburg",
+        "SC-Paderborn",
+        "SV-Elversberg",
+        "Schalke-04",
+        "Union-Berlin",
+        "Werder-Bremen"
+      ],
+      "fase": "1ª rodada"
+    },
+    "libertadores": {
+      "fase": "Quartas — ida"
+    },
+    "copa": {
+      "fase": "Quartas — volta"
     }
   },
   "times": {
@@ -41,7 +190,12 @@
           "j": 12,
           "gpg": 1.83,
           "gsg": 0.92
-        }
+        },
+        "vitorias": 15,
+        "empates": 6,
+        "derrotas": 3,
+        "golsPro": 43,
+        "golsContra": 20
       },
       "desfalques": [
         {
@@ -167,7 +321,12 @@
           "j": 13,
           "gpg": 2.0,
           "gsg": 1.0
-        }
+        },
+        "vitorias": 13,
+        "empates": 6,
+        "derrotas": 4,
+        "golsPro": 45,
+        "golsContra": 21
       },
       "desfalques": [
         {
@@ -246,7 +405,7 @@
     "Athletico-PR": {
       "brasileirao": {
         "posicao": 3,
-        "pontos": 41,
+        "pontos": 44,
         "ultimos5": [
           "V 2-0 INT",
           "E 0-0",
@@ -272,7 +431,12 @@
           "j": 12,
           "gpg": 1.17,
           "gsg": 1.25
-        }
+        },
+        "vitorias": 13,
+        "empates": 5,
+        "derrotas": 6,
+        "golsPro": 34,
+        "golsContra": 22
       },
       "desfalques": [],
       "retornando": [
@@ -356,7 +520,12 @@
           "j": 11,
           "gpg": 1.18,
           "gsg": 1.36
-        }
+        },
+        "vitorias": 11,
+        "empates": 8,
+        "derrotas": 5,
+        "golsPro": 35,
+        "golsContra": 28
       },
       "desfalques": [
         {
@@ -461,7 +630,12 @@
           "j": 11,
           "gpg": 1.18,
           "gsg": 1.64
-        }
+        },
+        "vitorias": 11,
+        "empates": 6,
+        "derrotas": 7,
+        "golsPro": 34,
+        "golsContra": 33
       },
       "desfalques": [],
       "retornando": [
@@ -581,7 +755,12 @@
           "j": 12,
           "gpg": 1.42,
           "gsg": 1.42
-        }
+        },
+        "vitorias": 9,
+        "empates": 10,
+        "derrotas": 5,
+        "golsPro": 34,
+        "golsContra": 28
       },
       "desfalques": [
         {
@@ -638,8 +817,8 @@
     },
     "Bragantino": {
       "brasileirao": {
-        "posicao": 7,
-        "pontos": 35,
+        "posicao": 9,
+        "pontos": 32,
         "ultimos5": [
           "E 1-1",
           "E 0-0 COR",
@@ -665,7 +844,12 @@
           "j": 11,
           "gpg": 1.0,
           "gsg": 1.09
-        }
+        },
+        "vitorias": 9,
+        "empates": 5,
+        "derrotas": 8,
+        "golsPro": 24,
+        "golsContra": 21
       },
       "desfalques": [],
       "retornando": [],
@@ -716,7 +900,7 @@
     },
     "Coritiba": {
       "brasileirao": {
-        "posicao": 8,
+        "posicao": 7,
         "pontos": 34,
         "ultimos5": [
           "E 0-0",
@@ -743,7 +927,12 @@
           "j": 12,
           "gpg": 1.25,
           "gsg": 1.42
-        }
+        },
+        "vitorias": 9,
+        "empates": 7,
+        "derrotas": 8,
+        "golsPro": 30,
+        "golsContra": 31
       },
       "desfalques": [
         {
@@ -800,7 +989,7 @@
     },
     "Atletico-MG": {
       "brasileirao": {
-        "posicao": 9,
+        "posicao": 8,
         "pontos": 33,
         "ultimos5": [
           "E 1-1 BAH",
@@ -827,7 +1016,12 @@
           "j": 13,
           "gpg": 1.0,
           "gsg": 1.08
-        }
+        },
+        "vitorias": 9,
+        "empates": 6,
+        "derrotas": 8,
+        "golsPro": 30,
+        "golsContra": 27
       },
       "desfalques": [
         {
@@ -932,7 +1126,12 @@
           "j": 12,
           "gpg": 1.08,
           "gsg": 1.17
-        }
+        },
+        "vitorias": 8,
+        "empates": 8,
+        "derrotas": 8,
+        "golsPro": 26,
+        "golsContra": 24
       },
       "desfalques": [
         {
@@ -1042,7 +1241,12 @@
           "j": 12,
           "gpg": 1.42,
           "gsg": 1.67
-        }
+        },
+        "vitorias": 8,
+        "empates": 6,
+        "derrotas": 9,
+        "golsPro": 37,
+        "golsContra": 37
       },
       "desfalques": [],
       "retornando": [
@@ -1126,7 +1330,12 @@
           "j": 12,
           "gpg": 0.58,
           "gsg": 2.17
-        }
+        },
+        "vitorias": 8,
+        "empates": 5,
+        "derrotas": 11,
+        "golsPro": 23,
+        "golsContra": 35
       },
       "desfalques": [
         {
@@ -1225,7 +1434,12 @@
           "j": 13,
           "gpg": 0.85,
           "gsg": 1.38
-        }
+        },
+        "vitorias": 7,
+        "empates": 6,
+        "derrotas": 10,
+        "golsPro": 27,
+        "golsContra": 27
       },
       "desfalques": [
         {
@@ -1309,7 +1523,12 @@
           "j": 10,
           "gpg": 1.5,
           "gsg": 1.9
-        }
+        },
+        "vitorias": 6,
+        "empates": 8,
+        "derrotas": 9,
+        "golsPro": 33,
+        "golsContra": 36
       },
       "desfalques": [
         {
@@ -1387,7 +1606,7 @@
     },
     "Gremio": {
       "brasileirao": {
-        "posicao": 15,
+        "posicao": 16,
         "pontos": 25,
         "ultimos5": [
           "D 1-2",
@@ -1414,7 +1633,12 @@
           "j": 12,
           "gpg": 0.5,
           "gsg": 1.5
-        }
+        },
+        "vitorias": 6,
+        "empates": 7,
+        "derrotas": 10,
+        "golsPro": 24,
+        "golsContra": 31
       },
       "desfalques": [
         {
@@ -1486,7 +1710,7 @@
     },
     "Internacional": {
       "brasileirao": {
-        "posicao": 16,
+        "posicao": 15,
         "pontos": 25,
         "ultimos5": [
           "D 0-2",
@@ -1513,7 +1737,12 @@
           "j": 11,
           "gpg": 0.91,
           "gsg": 1.36
-        }
+        },
+        "vitorias": 5,
+        "empates": 10,
+        "derrotas": 9,
+        "golsPro": 24,
+        "golsContra": 27
       },
       "desfalques": [
         {
@@ -1623,7 +1852,12 @@
           "j": 11,
           "gpg": 0.91,
           "gsg": 1.64
-        }
+        },
+        "vitorias": 6,
+        "empates": 6,
+        "derrotas": 11,
+        "golsPro": 26,
+        "golsContra": 36
       },
       "desfalques": [],
       "retornando": [],
@@ -1718,7 +1952,12 @@
           "j": 12,
           "gpg": 0.92,
           "gsg": 1.83
-        }
+        },
+        "vitorias": 5,
+        "empates": 8,
+        "derrotas": 10,
+        "golsPro": 26,
+        "golsContra": 35
       },
       "desfalques": [
         {
@@ -1802,7 +2041,12 @@
           "j": 11,
           "gpg": 1.0,
           "gsg": 1.91
-        }
+        },
+        "vitorias": 5,
+        "empates": 7,
+        "derrotas": 11,
+        "golsPro": 24,
+        "golsContra": 38
       },
       "desfalques": [
         {
@@ -1901,7 +2145,12 @@
           "j": 11,
           "gpg": 0.55,
           "gsg": 1.64
-        }
+        },
+        "vitorias": 2,
+        "empates": 8,
+        "derrotas": 13,
+        "golsPro": 23,
+        "golsContra": 45
       },
       "desfalques": [],
       "retornando": [],
@@ -2112,7 +2361,14 @@
           "j": 1,
           "gpg": 5.0,
           "gsg": 1.0
-        }
+        },
+        "posicao": 1,
+        "pontos": 3,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 5,
+        "golsContra": 1
       }
     },
     "VfB-Stuttgart": {
@@ -2133,7 +2389,14 @@
           "j": 1,
           "gpg": 1.0,
           "gsg": 5.0
-        }
+        },
+        "posicao": 2,
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 1,
+        "golsPro": 1,
+        "golsContra": 5
       }
     },
     "Sporting-CP": {
@@ -2162,7 +2425,14 @@
           "j": 2,
           "gpg": 3.0,
           "gsg": 1.0
-        }
+        },
+        "posicao": 1,
+        "pontos": 10,
+        "vitorias": 3,
+        "empates": 1,
+        "derrotas": 0,
+        "golsPro": 12,
+        "golsContra": 5
       }
     },
     "Alverca": {
@@ -2190,7 +2460,14 @@
           "j": 1,
           "gpg": 2.0,
           "gsg": 2.0
-        }
+        },
+        "posicao": 15,
+        "pontos": 1,
+        "vitorias": 0,
+        "empates": 1,
+        "derrotas": 2,
+        "golsPro": 3,
+        "golsContra": 7
       }
     },
     "Crystal-Palace": {
@@ -2217,7 +2494,14 @@
           "j": 1,
           "gpg": 0.0,
           "gsg": 2.0
-        }
+        },
+        "posicao": 18,
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 2,
+        "golsPro": 1,
+        "golsContra": 6
       }
     },
     "Manchester-City": {
@@ -2244,7 +2528,14 @@
           "j": 1,
           "gpg": 2.0,
           "gsg": 1.0
-        }
+        },
+        "posicao": 1,
+        "pontos": 6,
+        "vitorias": 2,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 6,
+        "golsContra": 2
       }
     },
     "Estoril": {
@@ -2272,7 +2563,14 @@
           "j": 1,
           "gpg": 0.0,
           "gsg": 2.0
-        }
+        },
+        "posicao": 17,
+        "pontos": 1,
+        "vitorias": 0,
+        "empates": 1,
+        "derrotas": 2,
+        "golsPro": 1,
+        "golsContra": 5
       }
     },
     "Famalicao": {
@@ -2300,7 +2598,14 @@
           "j": 2,
           "gpg": 0.5,
           "gsg": 1.0
-        }
+        },
+        "posicao": 14,
+        "pontos": 1,
+        "vitorias": 0,
+        "empates": 1,
+        "derrotas": 2,
+        "golsPro": 2,
+        "golsContra": 4
       }
     },
     "Maritimo": {
@@ -2328,7 +2633,14 @@
           "j": 1,
           "gpg": 2.0,
           "gsg": 1.0
-        }
+        },
+        "posicao": 3,
+        "pontos": 7,
+        "vitorias": 2,
+        "empates": 1,
+        "derrotas": 0,
+        "golsPro": 5,
+        "golsContra": 3
       }
     },
     "Casa-Pia": {
@@ -2356,7 +2668,14 @@
           "j": 2,
           "gpg": 0.0,
           "gsg": 1.5
-        }
+        },
+        "posicao": 18,
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 3,
+        "golsPro": 0,
+        "golsContra": 10
       }
     },
     "Vitoria-Guimaraes": {
@@ -2384,7 +2703,14 @@
           "j": 1,
           "gpg": 2.0,
           "gsg": 3.0
-        }
+        },
+        "posicao": 9,
+        "pontos": 3,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 2,
+        "golsPro": 3,
+        "golsContra": 4
       }
     },
     "Arouca": {
@@ -2412,7 +2738,14 @@
           "j": 2,
           "gpg": 0.5,
           "gsg": 1.0
-        }
+        },
+        "posicao": 5,
+        "pontos": 6,
+        "vitorias": 2,
+        "empates": 0,
+        "derrotas": 1,
+        "golsPro": 5,
+        "golsContra": 2
       }
     },
     "Estrela-Amadora": {
@@ -2439,7 +2772,14 @@
           "j": 1,
           "gpg": 2.0,
           "gsg": 2.0
-        }
+        },
+        "posicao": 11,
+        "pontos": 2,
+        "vitorias": 0,
+        "empates": 2,
+        "derrotas": 0,
+        "golsPro": 4,
+        "golsContra": 4
       }
     },
     "Porto": {
@@ -2467,7 +2807,14 @@
           "j": 1,
           "gpg": 2.0,
           "gsg": 0.0
-        }
+        },
+        "posicao": 2,
+        "pontos": 9,
+        "vitorias": 3,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 6,
+        "golsContra": 0
       }
     },
     "Benfica": {
@@ -2494,7 +2841,14 @@
           "j": 1,
           "gpg": 7.0,
           "gsg": 0.0
-        }
+        },
+        "posicao": 7,
+        "pontos": 4,
+        "vitorias": 1,
+        "empates": 1,
+        "derrotas": 0,
+        "golsPro": 9,
+        "golsContra": 2
       }
     },
     "Academico-Viseu": {
@@ -2522,7 +2876,14 @@
           "j": 2,
           "gpg": 2.0,
           "gsg": 2.0
-        }
+        },
+        "posicao": 12,
+        "pontos": 2,
+        "vitorias": 0,
+        "empates": 2,
+        "derrotas": 1,
+        "golsPro": 4,
+        "golsContra": 5
       }
     },
     "Gil-Vicente": {
@@ -2544,7 +2905,14 @@
           "j": 2,
           "gpg": 1.5,
           "gsg": 0.0
-        }
+        },
+        "posicao": 6,
+        "pontos": 6,
+        "vitorias": 2,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 3,
+        "golsContra": 0
       }
     },
     "Rio-Ave": {
@@ -2573,7 +2941,14 @@
           "j": 2,
           "gpg": 1.0,
           "gsg": 0.5
-        }
+        },
+        "posicao": 10,
+        "pontos": 3,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 3,
+        "golsPro": 2,
+        "golsContra": 7
       }
     },
     "Moreirense": {
@@ -2600,7 +2975,14 @@
           "j": 1,
           "gpg": 0.0,
           "gsg": 4.0
-        }
+        },
+        "posicao": 16,
+        "pontos": 1,
+        "vitorias": 0,
+        "empates": 1,
+        "derrotas": 1,
+        "golsPro": 2,
+        "golsContra": 6
       }
     },
     "Braga": {
@@ -2621,7 +3003,14 @@
           "j": 1,
           "gpg": 2.0,
           "gsg": 2.0
-        }
+        },
+        "posicao": 13,
+        "pontos": 1,
+        "vitorias": 0,
+        "empates": 1,
+        "derrotas": 0,
+        "golsPro": 2,
+        "golsContra": 2
       }
     },
     "Santa-Clara": {
@@ -2649,7 +3038,14 @@
           "j": 1,
           "gpg": 1.0,
           "gsg": 0.0
-        }
+        },
+        "posicao": 4,
+        "pontos": 7,
+        "vitorias": 2,
+        "empates": 1,
+        "derrotas": 0,
+        "golsPro": 4,
+        "golsContra": 2
       }
     },
     "Nacional": {
@@ -2677,7 +3073,14 @@
           "j": 2,
           "gpg": 1.0,
           "gsg": 1.5
-        }
+        },
+        "posicao": 8,
+        "pontos": 4,
+        "vitorias": 1,
+        "empates": 1,
+        "derrotas": 1,
+        "golsPro": 4,
+        "golsContra": 3
       }
     },
     "Alaves": {
@@ -2705,7 +3108,14 @@
           "j": 1,
           "gpg": 1.0,
           "gsg": 1.0
-        }
+        },
+        "posicao": 1,
+        "pontos": 7,
+        "vitorias": 2,
+        "empates": 1,
+        "derrotas": 0,
+        "golsPro": 5,
+        "golsContra": 1
       }
     },
     "Getafe": {
@@ -2732,7 +3142,14 @@
           "j": 1,
           "gpg": 0.0,
           "gsg": 3.0
-        }
+        },
+        "posicao": 9,
+        "pontos": 3,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 1,
+        "golsPro": 1,
+        "golsContra": 3
       }
     },
     "Sevilla": {
@@ -2759,7 +3176,14 @@
           "j": 1,
           "gpg": 3.0,
           "gsg": 1.0
-        }
+        },
+        "posicao": 4,
+        "pontos": 6,
+        "vitorias": 2,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 5,
+        "golsContra": 2
       }
     },
     "Rayo-Vallecano": {
@@ -2786,7 +3210,14 @@
           "j": 1,
           "gpg": 1.0,
           "gsg": 2.0
-        }
+        },
+        "posicao": 14,
+        "pontos": 1,
+        "vitorias": 0,
+        "empates": 1,
+        "derrotas": 1,
+        "golsPro": 2,
+        "golsContra": 3
       }
     },
     "Racing": {
@@ -2814,7 +3245,14 @@
           "j": 1,
           "gpg": 0.0,
           "gsg": 1.0
-        }
+        },
+        "posicao": 7,
+        "pontos": 4,
+        "vitorias": 1,
+        "empates": 1,
+        "derrotas": 1,
+        "golsPro": 5,
+        "golsContra": 5
       }
     },
     "Villarreal": {
@@ -2837,7 +3275,14 @@
           "j": 3,
           "gpg": 1.33,
           "gsg": 1.67
-        }
+        },
+        "posicao": 11,
+        "pontos": 2,
+        "vitorias": 0,
+        "empates": 2,
+        "derrotas": 1,
+        "golsPro": 4,
+        "golsContra": 5
       }
     },
     "Espanyol": {
@@ -2859,7 +3304,14 @@
           "j": 2,
           "gpg": 2.0,
           "gsg": 1.0
-        }
+        },
+        "posicao": 8,
+        "pontos": 3,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 1,
+        "golsPro": 4,
+        "golsContra": 2
       }
     },
     "Levante": {
@@ -2881,7 +3333,14 @@
           "j": 2,
           "gpg": 0.0,
           "gsg": 1.5
-        }
+        },
+        "posicao": 17,
+        "pontos": 1,
+        "vitorias": 0,
+        "empates": 1,
+        "derrotas": 1,
+        "golsPro": 0,
+        "golsContra": 3
       }
     },
     "Deportivo": {
@@ -2908,7 +3367,14 @@
           "j": 1,
           "gpg": 1.0,
           "gsg": 1.0
-        }
+        },
+        "posicao": 10,
+        "pontos": 2,
+        "vitorias": 0,
+        "empates": 2,
+        "derrotas": 0,
+        "golsPro": 2,
+        "golsContra": 2
       }
     },
     "Elche": {
@@ -2936,7 +3402,14 @@
           "j": 2,
           "gpg": 1.5,
           "gsg": 2.0
-        }
+        },
+        "posicao": 18,
+        "pontos": 1,
+        "vitorias": 0,
+        "empates": 1,
+        "derrotas": 2,
+        "golsPro": 3,
+        "golsContra": 9
       }
     },
     "Real-Betis": {
@@ -2963,7 +3436,14 @@
           "j": 1,
           "gpg": 1.0,
           "gsg": 0.0
-        }
+        },
+        "posicao": 5,
+        "pontos": 6,
+        "vitorias": 2,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 2,
+        "golsContra": 0
       }
     },
     "Real-Sociedad": {
@@ -2985,7 +3465,14 @@
           "j": 2,
           "gpg": 0.5,
           "gsg": 2.5
-        }
+        },
+        "posicao": 20,
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 2,
+        "golsPro": 1,
+        "golsContra": 5
       }
     },
     "Arsenal": {
@@ -3006,7 +3493,14 @@
           "j": 1,
           "gpg": 3.0,
           "gsg": 0.0
-        }
+        },
+        "posicao": 3,
+        "pontos": 3,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 3,
+        "golsContra": 0
       }
     },
     "Coventry-City": {
@@ -3027,7 +3521,14 @@
           "j": 1,
           "gpg": 0.0,
           "gsg": 3.0
-        }
+        },
+        "posicao": 15,
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 1,
+        "golsPro": 0,
+        "golsContra": 3
       }
     },
     "Everton": {
@@ -3048,7 +3549,14 @@
           "j": 1,
           "gpg": 2.0,
           "gsg": 0.0
-        }
+        },
+        "posicao": 5,
+        "pontos": 3,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 2,
+        "golsContra": 0
       }
     },
     "Ipswich-Town": {
@@ -3069,7 +3577,14 @@
           "j": 1,
           "gpg": 2.0,
           "gsg": 1.0
-        }
+        },
+        "posicao": 7,
+        "pontos": 3,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 2,
+        "golsContra": 1
       }
     },
     "Sunderland": {
@@ -3090,7 +3605,14 @@
           "j": 1,
           "gpg": 1.0,
           "gsg": 2.0
-        }
+        },
+        "posicao": 13,
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 1,
+        "golsPro": 1,
+        "golsContra": 2
       }
     },
     "Nottingham-Forest": {
@@ -3111,7 +3633,14 @@
           "j": 1,
           "gpg": 0.0,
           "gsg": 1.0
-        }
+        },
+        "posicao": 14,
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 1,
+        "golsPro": 0,
+        "golsContra": 1
       }
     },
     "Leeds-United": {
@@ -3132,7 +3661,14 @@
           "j": 1,
           "gpg": 1.0,
           "gsg": 0.0
-        }
+        },
+        "posicao": 8,
+        "pontos": 3,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 1,
+        "golsContra": 0
       }
     },
     "Athletic": {
@@ -3159,7 +3695,14 @@
           "j": 1,
           "gpg": 0.0,
           "gsg": 2.0
-        }
+        },
+        "posicao": 19,
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 2,
+        "golsPro": 1,
+        "golsContra": 5
       }
     },
     "Brentford": {
@@ -3180,7 +3723,14 @@
           "j": 1,
           "gpg": 3.0,
           "gsg": 0.0
-        }
+        },
+        "posicao": 4,
+        "pontos": 3,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 3,
+        "golsContra": 0
       }
     },
     "Tottenham": {
@@ -3201,7 +3751,14 @@
           "j": 1,
           "gpg": 0.0,
           "gsg": 3.0
-        }
+        },
+        "posicao": 16,
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 1,
+        "golsPro": 0,
+        "golsContra": 3
       }
     },
     "Valencia": {
@@ -3223,7 +3780,14 @@
           "j": 2,
           "gpg": 0.0,
           "gsg": 0.5
-        }
+        },
+        "posicao": 16,
+        "pontos": 1,
+        "vitorias": 0,
+        "empates": 1,
+        "derrotas": 1,
+        "golsPro": 0,
+        "golsContra": 1
       }
     },
     "Celta": {
@@ -3250,7 +3814,14 @@
           "j": 1,
           "gpg": 0.0,
           "gsg": 0.0
-        }
+        },
+        "posicao": 15,
+        "pontos": 1,
+        "vitorias": 0,
+        "empates": 1,
+        "derrotas": 1,
+        "golsPro": 1,
+        "golsContra": 2
       }
     },
     "Real-Madrid": {
@@ -3277,7 +3848,14 @@
           "j": 1,
           "gpg": 2.0,
           "gsg": 1.0
-        }
+        },
+        "posicao": 3,
+        "pontos": 6,
+        "vitorias": 2,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 6,
+        "golsContra": 2
       }
     },
     "Brighton": {
@@ -3298,7 +3876,14 @@
           "j": 1,
           "gpg": 4.0,
           "gsg": 0.0
-        }
+        },
+        "posicao": 2,
+        "pontos": 3,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 4,
+        "golsContra": 0
       }
     },
     "Aston-Villa": {
@@ -3319,7 +3904,14 @@
           "j": 1,
           "gpg": 0.0,
           "gsg": 4.0
-        }
+        },
+        "posicao": 17,
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 1,
+        "golsPro": 0,
+        "golsContra": 4
       }
     },
     "Bournemouth": {
@@ -3340,7 +3932,14 @@
           "j": 1,
           "gpg": 1.0,
           "gsg": 2.0
-        }
+        },
+        "posicao": 12,
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 1,
+        "golsPro": 1,
+        "golsContra": 2
       }
     },
     "Atletico-Madrid": {
@@ -3361,7 +3960,14 @@
           "j": 1,
           "gpg": 2.0,
           "gsg": 2.0
-        }
+        },
+        "posicao": 12,
+        "pontos": 1,
+        "vitorias": 0,
+        "empates": 1,
+        "derrotas": 0,
+        "golsPro": 2,
+        "golsContra": 2
       }
     },
     "Newcastle-United": {
@@ -3382,7 +3988,14 @@
           "j": 1,
           "gpg": 2.0,
           "gsg": 2.0
-        }
+        },
+        "posicao": 10,
+        "pontos": 1,
+        "vitorias": 0,
+        "empates": 1,
+        "derrotas": 0,
+        "golsPro": 2,
+        "golsContra": 2
       }
     },
     "Liverpool": {
@@ -3403,7 +4016,14 @@
           "j": 1,
           "gpg": 2.0,
           "gsg": 2.0
-        }
+        },
+        "posicao": 9,
+        "pontos": 1,
+        "vitorias": 0,
+        "empates": 1,
+        "derrotas": 0,
+        "golsPro": 2,
+        "golsContra": 2
       }
     },
     "Barcelona": {
@@ -3430,7 +4050,14 @@
           "j": 1,
           "gpg": 5.0,
           "gsg": 0.0
-        }
+        },
+        "posicao": 2,
+        "pontos": 6,
+        "vitorias": 2,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 7,
+        "golsContra": 0
       }
     },
     "Osasuna": {
@@ -3457,7 +4084,14 @@
           "j": 1,
           "gpg": 2.0,
           "gsg": 1.0
-        }
+        },
+        "posicao": 6,
+        "pontos": 4,
+        "vitorias": 1,
+        "empates": 1,
+        "derrotas": 0,
+        "golsPro": 2,
+        "golsContra": 1
       }
     },
     "Fulham": {
@@ -3478,7 +4112,14 @@
           "j": 1,
           "gpg": 2.0,
           "gsg": 3.0
-        }
+        },
+        "posicao": 11,
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 1,
+        "golsPro": 2,
+        "golsContra": 3
       }
     },
     "Chelsea": {
@@ -3499,7 +4140,14 @@
           "j": 1,
           "gpg": 3.0,
           "gsg": 2.0
-        }
+        },
+        "posicao": 6,
+        "pontos": 3,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 3,
+        "golsContra": 2
       }
     },
     "Malaga": {
@@ -3520,7 +4168,14 @@
           "j": 1,
           "gpg": 1.0,
           "gsg": 1.0
-        }
+        },
+        "posicao": 13,
+        "pontos": 1,
+        "vitorias": 0,
+        "empates": 1,
+        "derrotas": 0,
+        "golsPro": 1,
+        "golsContra": 1
       }
     },
     "Operario-PR": {
@@ -3543,7 +4198,14 @@
           "j": 3,
           "gpg": 0.67,
           "gsg": 1.67
-        }
+        },
+        "posicao": 17,
+        "pontos": 1,
+        "vitorias": 0,
+        "empates": 1,
+        "derrotas": 2,
+        "golsPro": 2,
+        "golsContra": 5
       }
     },
     "Sao-Bernardo": {
@@ -3571,7 +4233,14 @@
           "j": 1,
           "gpg": 3.0,
           "gsg": 1.0
-        }
+        },
+        "posicao": 11,
+        "pontos": 4,
+        "vitorias": 1,
+        "empates": 1,
+        "derrotas": 1,
+        "golsPro": 4,
+        "golsContra": 3
       }
     },
     "Ceara": {
@@ -3594,7 +4263,14 @@
           "j": 3,
           "gpg": 1.67,
           "gsg": 1.33
-        }
+        },
+        "posicao": 5,
+        "pontos": 6,
+        "vitorias": 2,
+        "empates": 0,
+        "derrotas": 1,
+        "golsPro": 5,
+        "golsContra": 4
       }
     },
     "Ponte-Preta": {
@@ -3622,7 +4298,14 @@
           "j": 1,
           "gpg": 0.0,
           "gsg": 2.0
-        }
+        },
+        "posicao": 18,
+        "pontos": 1,
+        "vitorias": 0,
+        "empates": 1,
+        "derrotas": 2,
+        "golsPro": 1,
+        "golsContra": 5
       }
     },
     "Vila-Nova": {
@@ -3650,7 +4333,14 @@
           "j": 2,
           "gpg": 1.0,
           "gsg": 0.0
-        }
+        },
+        "posicao": 13,
+        "pontos": 4,
+        "vitorias": 1,
+        "empates": 1,
+        "derrotas": 1,
+        "golsPro": 2,
+        "golsContra": 1
       }
     },
     "Sport": {
@@ -3678,7 +4368,14 @@
           "j": 1,
           "gpg": 1.0,
           "gsg": 0.0
-        }
+        },
+        "posicao": 1,
+        "pontos": 9,
+        "vitorias": 3,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 6,
+        "golsContra": 1
       }
     },
     "Botafogo-SP": {
@@ -3706,7 +4403,14 @@
           "j": 2,
           "gpg": 0.5,
           "gsg": 1.5
-        }
+        },
+        "posicao": 7,
+        "pontos": 6,
+        "vitorias": 2,
+        "empates": 0,
+        "derrotas": 1,
+        "golsPro": 3,
+        "golsContra": 4
       }
     },
     "America-MG": {
@@ -3735,7 +4439,14 @@
           "j": 3,
           "gpg": 0.33,
           "gsg": 2.67
-        }
+        },
+        "posicao": 20,
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 4,
+        "golsPro": 2,
+        "golsContra": 11
       }
     },
     "Athletic-PR": {
@@ -3764,7 +4475,14 @@
           "j": 1,
           "gpg": 3.0,
           "gsg": 1.0
-        }
+        },
+        "posicao": 6,
+        "pontos": 6,
+        "vitorias": 2,
+        "empates": 0,
+        "derrotas": 2,
+        "golsPro": 6,
+        "golsContra": 7
       }
     },
     "Criciuma": {
@@ -3792,7 +4510,14 @@
           "j": 1,
           "gpg": 0.0,
           "gsg": 2.0
-        }
+        },
+        "posicao": 16,
+        "pontos": 3,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 2,
+        "golsPro": 1,
+        "golsContra": 4
       }
     },
     "Nautico": {
@@ -3820,7 +4545,14 @@
           "j": 2,
           "gpg": 1.0,
           "gsg": 1.0
-        }
+        },
+        "posicao": 15,
+        "pontos": 3,
+        "vitorias": 0,
+        "empates": 3,
+        "derrotas": 0,
+        "golsPro": 3,
+        "golsContra": 3
       }
     },
     "Atletico-GO": {
@@ -3848,7 +4580,14 @@
           "j": 1,
           "gpg": 1.0,
           "gsg": 1.0
-        }
+        },
+        "posicao": 10,
+        "pontos": 4,
+        "vitorias": 1,
+        "empates": 1,
+        "derrotas": 1,
+        "golsPro": 4,
+        "golsContra": 3
       }
     },
     "Novorizontino": {
@@ -3877,7 +4616,14 @@
           "j": 2,
           "gpg": 2.0,
           "gsg": 0.5
-        }
+        },
+        "posicao": 2,
+        "pontos": 7,
+        "vitorias": 2,
+        "empates": 1,
+        "derrotas": 1,
+        "golsPro": 7,
+        "golsContra": 2
       }
     },
     "Juventude": {
@@ -3905,7 +4651,14 @@
           "j": 1,
           "gpg": 1.0,
           "gsg": 0.0
-        }
+        },
+        "posicao": 3,
+        "pontos": 7,
+        "vitorias": 2,
+        "empates": 1,
+        "derrotas": 0,
+        "golsPro": 3,
+        "golsContra": 1
       }
     },
     "Cuiaba": {
@@ -3933,7 +4686,14 @@
           "j": 1,
           "gpg": 3.0,
           "gsg": 1.0
-        }
+        },
+        "posicao": 8,
+        "pontos": 5,
+        "vitorias": 1,
+        "empates": 2,
+        "derrotas": 0,
+        "golsPro": 5,
+        "golsContra": 3
       }
     },
     "Fortaleza": {
@@ -3956,7 +4716,14 @@
           "j": 3,
           "gpg": 1.0,
           "gsg": 0.33
-        }
+        },
+        "posicao": 9,
+        "pontos": 5,
+        "vitorias": 1,
+        "empates": 2,
+        "derrotas": 0,
+        "golsPro": 3,
+        "golsContra": 1
       }
     },
     "Goias": {
@@ -3984,7 +4751,14 @@
           "j": 2,
           "gpg": 0.5,
           "gsg": 1.0
-        }
+        },
+        "posicao": 14,
+        "pontos": 4,
+        "vitorias": 1,
+        "empates": 1,
+        "derrotas": 1,
+        "golsPro": 2,
+        "golsContra": 2
       }
     },
     "Londrina": {
@@ -4007,7 +4781,14 @@
           "j": 3,
           "gpg": 0.67,
           "gsg": 1.67
-        }
+        },
+        "posicao": 19,
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 3,
+        "golsPro": 2,
+        "golsContra": 5
       }
     },
     "Avai": {
@@ -4029,7 +4810,14 @@
           "j": 2,
           "gpg": 2.0,
           "gsg": 0.5
-        }
+        },
+        "posicao": 4,
+        "pontos": 6,
+        "vitorias": 2,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 4,
+        "golsContra": 1
       }
     },
     "CRB": {
@@ -4057,7 +4845,14 @@
           "j": 2,
           "gpg": 1.5,
           "gsg": 1.0
-        }
+        },
+        "posicao": 12,
+        "pontos": 4,
+        "vitorias": 1,
+        "empates": 1,
+        "derrotas": 1,
+        "golsPro": 3,
+        "golsContra": 2
       }
     }
   }
