@@ -16,6 +16,20 @@
     "Sao-Paulo": "S\u00e3o Paulo", Santos: "Santos", Gremio: "Gr\u00eamio",
     Internacional: "Internacional", Mirassol: "Mirassol", Remo: "Remo",
     Vasco: "Vasco", Chapecoense: "Chapecoense",
+    Ceara: "Cear\u00e1", Sport: "Sport", "America-MG": "Am\u00e9rica-MG",
+    Fortaleza: "Fortaleza", Goias: "Goi\u00e1s", Cuiaba: "Cuiab\u00e1",
+    Juventude: "Juventude", Avai: "Ava\u00ed", Criciuma: "Crici\u00fama",
+    CRB: "CRB", Novorizontino: "Novorizontino", "Vila-Nova": "Vila Nova",
+    "Ponte-Preta": "Ponte Preta", "Operario-PR": "Oper\u00e1rio-PR",
+    "Athletic-PR": "Athletic", "Sao-Bernardo": "S\u00e3o Bernardo",
+    "Botafogo-SP": "Botafogo-SP", "Atletico-GO": "Atl\u00e9tico-GO",
+    Nautico: "N\u00e1utico", Londrina: "Londrina",
+    "River-Plate": "River Plate", "Boca-Juniors": "Boca Juniors",
+    Penarol: "Pe\u00f1arol", "Nacional-URU": "Nacional (URU)",
+    "Colo-Colo": "Colo-Colo", "LDU-Quito": "LDU Quito",
+    "Cerro-Porteno": "Cerro Porte\u00f1o", Olimpia: "Ol\u00edmpia",
+    "The-Strongest": "The Strongest", Blooming: "Blooming",
+    Universitario: "Universitario", "Racing-ARG": "Racing (ARG)",
     "Flamengo-Basq": "Flamengo", "Corinthians-Basq": "Corinthians", "Sao-Jose": "S\u00e3o Jos\u00e9",
     Brasilia: "Bras\u00edlia", Franca: "Franca", Minas: "Minas", Paulistano: "Paulistano",
     Bauru: "Bauru", Pinheiros: "Pinheiros", Unifacisa: "Unifacisa",
@@ -47,7 +61,14 @@
     Mirassol: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Mirassol_Futebol_Clube_logo.svg/64px-Mirassol_Futebol_Clube_logo.svg.png",
     Remo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Clube_do_Remo_logo.svg/64px-Clube_do_Remo_logo.svg.png",
     Vasco: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/CR_Vasco_da_Gama_logo.svg/64px-CR_Vasco_da_Gama_logo.svg.png",
-    Chapecoense: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Associa%C3%A7%C3%A3o_Chapecoense_de_Futebol_logo.svg/64px-Associa%C3%A7%C3%A3o_Chapecoense_de_Futebol_logo.svg.png"
+    Chapecoense: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Associa%C3%A7%C3%A3o_Chapecoense_de_Futebol_logo.svg/64px-Associa%C3%A7%C3%A3o_Chapecoense_de_Futebol_logo.svg.png",
+    Ceara: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Cear%C3%A1_Sporting_Club_logo.svg/64px-Cear%C3%A1_Sporting_Club_logo.svg.png",
+    Sport: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Sport_Club_do_Recife_logo.svg/64px-Sport_Club_do_Recife_logo.svg.png",
+    Fortaleza: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Fortaleza_Esporte_Clube_logo.svg/64px-Fortaleza_Esporte_Clube_logo.svg.png",
+    Goias: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Goi%C3%A1s_Esporte_Clube_logo.svg/64px-Goi%C3%A1s_Esporte_Clube_logo.svg.png",
+    Cuiaba: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Cuiaba_Esporte_Clube_logo.svg/64px-Cuiaba_Esporte_Clube_logo.svg.png",
+    "River-Plate": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Club_Atl%C3%A9tico_River_Plate_logo.svg/64px-Club_Atl%C3%A9tico_River_Plate_logo.svg.png",
+    "Boca-Juniors": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/CABJ70.png/64px-CABJ70.png"
   };
 
   var currentView = "painel";
@@ -93,8 +114,35 @@
     return { id: String(key || "???").slice(0, 3).toUpperCase(), cor: "#555" };
   }
 
+  function footCompId(g) {
+    if (g.comp === "copa" || g.comp === "serieb" || g.comp === "libertadores") return g.comp;
+    return "brasileirao";
+  }
+
+  function compDisplayName(comp, g) {
+    if (g && g.torneio) return g.torneio;
+    var map = {
+      brasileirao: "Série A", serieb: "Série B", libertadores: "Libertadores", copa: "Copa do Brasil"
+    };
+    return map[comp] || comp || "";
+  }
+
+  function footCompList() {
+    return ["brasileirao", "serieb", "libertadores", "copa"];
+  }
+
+  function isForeignTeam(key) {
+    var t = FOOT.times[key];
+    return !!(t && t.pais && t.pais !== "BRA");
+  }
+
   function teamCrestHtml(key, sizeClass) {
     if (!key || sport !== "futebol") return "";
+    if (isForeignTeam(key)) {
+      var meta = teamMeta(key);
+      return '<span class="team-crest-fb' + (sizeClass ? " " + sizeClass : "") +
+        '" style="background:' + meta.cor + '">' + (FOOT.times[key].pais || meta.id) + "</span>";
+    }
     sizeClass = sizeClass || "";
     var meta = teamMeta(key);
     var fbCls = "team-crest-fb" + (sizeClass ? " " + sizeClass : "");
@@ -162,7 +210,7 @@
       "</div>";
 
     if (sport === "futebol" && an && !an.insuficientes) {
-      var comp = g.comp === "copa" ? "copa" : "brasileirao";
+      var comp = footCompId(g);
       var statsM = getFootStats(g.mandante, comp);
       var statsV = getFootStats(g.visitante, comp);
       var infoM = getFootTeamInfo(g.mandante);
@@ -224,7 +272,7 @@
       el.innerHTML = "";
       return;
     }
-    var s = getFootStats(selectedEntity, selectedComp === "copa" ? "copa" : "brasileirao");
+    var s = getFootStats(selectedEntity, activeFootComp());
     el.hidden = false;
     el.innerHTML = teamCrestHtml(selectedEntity, "lg") +
       '<div><div class="team-name-lg">' + esc(label(selectedEntity)) + "</div>" +
@@ -407,6 +455,8 @@
       return [
         { id: "todos", nome: "Todos" },
         { id: "brasileirao", nome: "Brasileir\u00e3o S\u00e9rie A" },
+        { id: "serieb", nome: "Brasileir\u00e3o S\u00e9rie B" },
+        { id: "libertadores", nome: "Copa Libertadores" },
         { id: "copa", nome: "Copa do Brasil" }
       ];
     }
@@ -449,14 +499,33 @@
 
   function entitiesForSport() {
     if (sport === "futebol") {
-      var list = selectedComp === "copa"
-        ? FOOT.competicoes.copa.timesAtivos.slice()
-        : FOOT.competicoes.brasileirao.timesAtivos.slice();
-      return list.sort(function (a, b) {
-        var pa = (FOOT.times[a] && FOOT.times[a].brasileirao && FOOT.times[a].brasileirao.posicao) || 99;
-        var pb = (FOOT.times[b] && FOOT.times[b].brasileirao && FOOT.times[b].brasileirao.posicao) || 99;
-        return pa - pb;
+      var compMap = {
+        copa: "copa",
+        brasileirao: "brasileirao",
+        serieb: "serieb",
+        libertadores: "libertadores"
+      };
+      if (selectedComp !== "todos" && compMap[selectedComp]) {
+        var compKey = compMap[selectedComp];
+        var list = (FOOT.competicoes[compKey] && FOOT.competicoes[compKey].timesAtivos) || [];
+        return list.slice().sort(function (a, b) {
+          var sa = getFootStats(a, compKey);
+          var sb = getFootStats(b, compKey);
+          var pa = (sa && (sa.posicao || sa.posicaoGrupo)) || 99;
+          var pb = (sb && (sb.posicao || sb.posicaoGrupo)) || 99;
+          if (compKey === "libertadores") {
+            pa = (sa && sa.coeficiente) ? 100 - sa.coeficiente : 99;
+            pb = (sb && sb.coeficiente) ? 100 - sb.coeficiente : 99;
+          }
+          return pa - pb;
+        });
+      }
+      var all = [];
+      footCompList().forEach(function (c) {
+        var arr = FOOT.competicoes[c] && FOOT.competicoes[c].timesAtivos;
+        if (arr) arr.forEach(function (n) { if (all.indexOf(n) < 0) all.push(n); });
       });
+      return all.sort(function (a, b) { return label(a).localeCompare(label(b), "pt"); });
     }
     if (sport === "tenis") {
       return tenisAtletas().sort(function (a, b) {
@@ -479,8 +548,37 @@
   function getFootStats(key, comp) {
     var t = FOOT.times[key];
     if (!t) return null;
-    if (comp === "copa") return t.copa || t.brasileirao;
-    return t.brasileirao || t.copa;
+    var order = comp === "copa" ? ["copa", "brasileirao", "libertadores", "serieb"]
+      : comp === "serieb" ? ["serieb", "brasileirao"]
+      : comp === "libertadores" ? ["libertadores", "brasileirao", "serieb"]
+      : ["brasileirao", "libertadores", "serieb", "copa"];
+    for (var i = 0; i < order.length; i++) {
+      if (t[order[i]]) return t[order[i]];
+    }
+    return null;
+  }
+
+  function activeFootComp() {
+    if (selectedComp === "copa" || selectedComp === "serieb" || selectedComp === "libertadores") {
+      return selectedComp;
+    }
+    return "brasileirao";
+  }
+
+  function h2hGoalDiff(team, adv) {
+    var diff = 0, n = 0;
+    (FCAL.jogos || []).forEach(function (g) {
+      if (!g.placar) return;
+      var parts = String(g.placar).split("-").map(Number);
+      if (parts.length !== 2 || isNaN(parts[0])) return;
+      var isMatch = (g.mandante === team && g.visitante === adv) ||
+        (g.mandante === adv && g.visitante === team);
+      if (!isMatch) return;
+      n++;
+      if (g.mandante === team) diff += parts[0] - parts[1];
+      else diff += parts[1] - parts[0];
+    });
+    return n ? diff / n : 0;
   }
 
   function getFootTeamInfo(key) {
@@ -493,9 +591,11 @@
     var tStats = getFootStats(team, comp);
     var aStats = getFootStats(adv, comp);
     var isHome = g.mandante === team;
+    var totalTimes = comp === "serieb" ? 20 : comp === "brasileirao" ? 20 : 0;
     return {
       isMandante: isHome,
-      mataMata: g.comp === "copa",
+      competicao: comp,
+      mataMata: g.comp === "copa" || g.comp === "libertadores",
       tipo: String(g.fase || "").indexOf("volta") >= 0 ? "volta" : "ida",
       mandanteLabel: label(g.mandante),
       visitanteLabel: label(g.visitante),
@@ -504,6 +604,9 @@
       advForm: aStats && aStats.ultimos5,
       teamSequencia: tStats && tStats.sequencia,
       advSequencia: aStats && aStats.sequencia,
+      teamPosicao: tStats && (tStats.posicao || tStats.posicaoGrupo),
+      advPosicao: aStats && (aStats.posicao || aStats.posicaoGrupo),
+      totalTimes: totalTimes,
       teamDesfalques: tInfo.desfalques || [],
       advDesfalques: aInfo.desfalques || [],
       teamRetornando: tInfo.retornando || [],
@@ -512,8 +615,10 @@
       teamFora: tInfo.fora,
       advCasa: aInfo.casa,
       advFora: aInfo.fora,
+      advPais: aInfo.pais || "BRA",
       mandanteCasa: getFootTeamInfo(g.mandante).casa,
-      visitanteFora: getFootTeamInfo(g.visitante).fora
+      visitanteFora: getFootTeamInfo(g.visitante).fora,
+      h2hGoalDiff: h2hGoalDiff(team, adv)
     };
   }
 
@@ -521,13 +626,14 @@
     var team = focusTeam || g.mandante;
     var isHome = g.mandante === team;
     var adv = isHome ? g.visitante : g.mandante;
-    var comp = g.comp === "copa" ? "copa" : "brasileirao";
+    var comp = footCompId(g);
     var t = getFootStats(team, comp);
     var a = getFootStats(adv, comp) || {
       golsPorJogo: 1.1, golsSofridosPorJogo: 1.1, over25Pct: 40, bttsPct: 42,
       escanteiosPorJogo: 5, cartoesPorJogo: 2.2
     };
     if (!t) return { insuficientes: true, nota: "Sem informa\u00e7\u00f5es suficientes para este confronto." };
+    if (!FOOT.competicoes[comp]) return { insuficientes: true, nota: "Competi\u00e7\u00e3o n\u00e3o configurada." };
     var liga = FOOT.competicoes[comp].liga;
     return M.football(t, a, liga, buildFootballContext(g, team, adv, comp));
   }
@@ -617,7 +723,9 @@
         var allDone = dayGames.every(function (g) { return g.placar != null || (!g.mandante && !g.jogador1); });
         if (allDone && dayGames.some(function (g) { return g.placar; })) classes.push("is-past");
         else if (iso > todayISO) classes.push("is-future");
-        if (dayGames.some(function (g) { return g.comp === "copa" || g.comp === "usopen" || g.comp === "ppv" || g.comp === "noche"; })) classes.push("has-copa");
+        if (dayGames.some(function (g) {
+          return g.comp === "copa" || g.comp === "libertadores" || g.comp === "usopen" || g.comp === "ppv" || g.comp === "noche";
+        })) classes.push("has-copa");
       }
       html += '<button type="button" class="' + classes.join(" ") + '" data-date="' + iso + '">' +
         '<span class="cal-day-num">' + day + "</span>" +
@@ -660,7 +768,7 @@
     body.innerHTML = games.map(function (g) {
       var sides = sideNames(g);
       var badgeClass = sport === "tenis" ? (g.genero === "F" ? "wta" : "atp") : g.comp;
-      var badgeLabel = sport === "tenis" ? (g.genero === "F" ? "WTA" : "ATP") : (g.torneio || g.liga || g.comp);
+      var badgeLabel = sport === "tenis" ? (g.genero === "F" ? "WTA" : "ATP") : compDisplayName(g.comp, g);
       if (!sides.a || !sides.b) {
         return '<div class="day-game day-game-tbd"><div class="day-game-meta"><span class="comp-badge comp-' + badgeClass + '">' +
           badgeLabel + "</span> " + (g.fase || "") + (g.superficie ? " \u00b7 " + g.superficie : "") + "</div>" +
@@ -769,7 +877,7 @@
       var crestB = sport === "futebol" ? '<div class="crest-wrap">' + teamCrestHtml(sides.b, "lg") + "</div>" : "";
       return '<article class="fixture-card">' +
         '<div class="fixture-head"><span class="comp-badge comp-' + circuitoBadge + '">' +
-        (sport === "tenis" ? (g.genero === "F" ? "WTA" : "ATP") : (g.torneio || g.liga || g.comp)) +
+        (sport === "tenis" ? (g.genero === "F" ? "WTA" : "ATP") : compDisplayName(g.comp, g)) +
         '</span><span class="fixture-rotulo">' + (g.fase || "") +
         (g.weightClass ? " \u00b7 " + g.weightClass : "") +
         (g.superficie ? " \u00b7 " + g.superficie : "") + "</span></div>" +
@@ -791,12 +899,18 @@
   function renderKpis() {
     var items = [];
     if (sport === "futebol") {
-      var liga = FOOT.competicoes.brasileirao.liga;
-      var t = selectedEntity ? getFootStats(selectedEntity, selectedComp === "copa" ? "copa" : "brasileirao") : null;
+      var compKey = activeFootComp();
+      var ligaComp = FOOT.competicoes[compKey] || FOOT.competicoes.brasileirao;
+      var liga = ligaComp.liga;
+      var t = selectedEntity ? getFootStats(selectedEntity, compKey) : null;
       var tInfo = selectedEntity ? getFootTeamInfo(selectedEntity) : null;
       items = t ? [
-        { label: "Posição", value: "#" + (t.posicao || "\u2014"), hl: true },
-        { label: "Pontos", value: t.pontos || "\u2014" },
+        { label: compKey === "libertadores" ? "Grupo/Coef." : "Posição",
+          value: compKey === "libertadores"
+            ? ("#" + (t.posicaoGrupo || "\u2014") + " \u00b7 " + (t.coeficiente || "\u2014"))
+            : ("#" + (t.posicao || "\u2014")), hl: true },
+        { label: compKey === "libertadores" ? "Coeficiente" : "Pontos",
+          value: compKey === "libertadores" ? (t.coeficiente || "\u2014") : (t.pontos || "\u2014") },
         { label: "Sequ\u00eancia", value: t.sequencia || "\u2014" },
         { label: "\u00daltimos 5", value: renderFormBadges(t.ultimos5), html: true, formKpi: true },
         { label: "Desfalques", value: (tInfo.desfalques || []).length || "0" },
@@ -805,7 +919,7 @@
         { label: "M\u00e9dia gols", value: liga.mediaGols, hl: true },
         { label: "Over 2.5", value: pct(liga.over25) },
         { label: "BTTS", value: pct(liga.btts) },
-        { label: "Rodada", value: FOOT.competicoes.brasileirao.fase || "\u2014" }
+        { label: "Fase", value: ligaComp.fase || "\u2014" }
       ];
     } else if (sport === "tenis") {
       var p = selectedEntity ? TENIS.atletas[selectedEntity] : null;
@@ -859,20 +973,43 @@
     var head = document.getElementById("teamsTableHead");
     var body = document.getElementById("teamsTableBody");
     if (sport === "futebol") {
-      document.getElementById("tableTitle").textContent = "Classificação";
-      document.getElementById("tableSub").textContent = "Brasileir\u00e3o atualizado \u00b7 clique para filtrar";
-      head.innerHTML = "<tr><th>Pos</th><th>Time</th><th>Pts</th><th>Seq</th><th>\u00daltimos 5</th><th>Desf</th></tr>";
-      body.innerHTML = entitiesForSport().map(function (name) {
-        var s = getFootStats(name, selectedComp === "copa" ? "copa" : "brasileirao");
-        var info = getFootTeamInfo(name);
-        if (!s) return "";
-        return '<tr data-ent="' + name + '" class="' + (selectedEntity === name ? "selected-row" : "") + '">' +
-          '<td class="num">' + (s.posicao || "\u2014") + "</td><td>" + teamCellHtml(name) +
-          '</td><td class="num">' + (s.pontos || "\u2014") +
-          '</td><td class="num">' + (s.sequencia || "\u2014") +
-          '</td><td class="table-form-col">' + renderFormBadges(s.ultimos5) +
-          '</td><td class="num">' + ((info.desfalques || []).length) + "</td></tr>";
-      }).join("");
+      var compKey = activeFootComp();
+      var compInfo = FOOT.competicoes[compKey] || FOOT.competicoes.brasileirao;
+      var titles = {
+        brasileirao: "Classificação — Série A",
+        serieb: "Classificação — Série B",
+        libertadores: "Libertadores — Times",
+        copa: "Copa do Brasil — Participantes"
+      };
+      document.getElementById("tableTitle").textContent = titles[compKey] || "Classificação";
+      document.getElementById("tableSub").textContent = (compInfo.nome || "") + " \u00b7 clique para filtrar";
+      if (compKey === "libertadores") {
+        head.innerHTML = "<tr><th>Coef</th><th>Time</th><th>Grp</th><th>Seq</th><th>\u00daltimos 5</th><th>G/J</th></tr>";
+        body.innerHTML = entitiesForSport().map(function (name) {
+          var s = getFootStats(name, compKey);
+          var info = getFootTeamInfo(name);
+          if (!s) return "";
+          return '<tr data-ent="' + name + '" class="' + (selectedEntity === name ? "selected-row" : "") + '">' +
+            '<td class="num">' + (s.coeficiente || "\u2014") + "</td><td>" + teamCellHtml(name) +
+            '</td><td class="num">' + (s.posicaoGrupo || "\u2014") +
+            '</td><td class="num">' + (s.sequencia || "\u2014") +
+            '</td><td class="table-form-col">' + renderFormBadges(s.ultimos5) +
+            '</td><td class="num">' + (s.jogos || "\u2014") + "</td></tr>";
+        }).join("");
+      } else {
+        head.innerHTML = "<tr><th>Pos</th><th>Time</th><th>Pts</th><th>Seq</th><th>\u00daltimos 5</th><th>Desf</th></tr>";
+        body.innerHTML = entitiesForSport().map(function (name) {
+          var s = getFootStats(name, compKey);
+          var info = getFootTeamInfo(name);
+          if (!s) return "";
+          return '<tr data-ent="' + name + '" class="' + (selectedEntity === name ? "selected-row" : "") + '">' +
+            '<td class="num">' + (s.posicao || "\u2014") + "</td><td>" + teamCellHtml(name) +
+            '</td><td class="num">' + (s.pontos || "\u2014") +
+            '</td><td class="num">' + (s.sequencia || "\u2014") +
+            '</td><td class="table-form-col">' + renderFormBadges(s.ultimos5) +
+            '</td><td class="num">' + ((info.desfalques || []).length) + "</td></tr>";
+        }).join("");
+      }
     } else if (sport === "tenis") {
       document.getElementById("tableTitle").textContent = tenisGenero === "M" ? "Ranking ATP" : "Ranking WTA";
       document.getElementById("tableSub").textContent = "Classificação atual \u00b7 clique para filtrar";
