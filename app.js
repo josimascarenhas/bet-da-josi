@@ -1735,10 +1735,30 @@
     "Jogador", "1o Tempo", "Classificacao"
   ];
 
+  function dedupeCombiPicks(picks) {
+    var seen = {};
+    return picks.filter(function (p) {
+      var key = p.game.id + "\0" + p.market.grupo + "\0" + p.market.mercado;
+      if (seen[key]) return false;
+      seen[key] = true;
+      return true;
+    });
+  }
+
+  function bestPickPerGame(picks) {
+    var byGame = {};
+    picks.forEach(function (p) {
+      var id = p.game.id;
+      if (!byGame[id] || p.market.prob > byGame[id].market.prob) byGame[id] = p;
+    });
+    return Object.keys(byGame).map(function (id) { return byGame[id]; })
+      .sort(function (a, b) { return b.market.prob - a.market.prob; });
+  }
+
   function groupCombiPicksByGrupo(picks) {
     var map = {};
-    picks.forEach(function (p) {
-      var g = p.market.grupo || "Outros";
+    dedupeCombiPicks(picks).forEach(function (p) {
+      var g = (p.market.grupo || "Outros").trim();
       if (!map[g]) map[g] = [];
       map[g].push(p);
     });
@@ -1764,16 +1784,17 @@
     var byGrupo = groupCombiPicksByGrupo(picks);
     var grupos = orderedCombiGrupos(byGrupo);
     if (!diaCombiGrupo || !byGrupo[diaCombiGrupo]) diaCombiGrupo = grupos[0] || "";
-    var filtered = byGrupo[diaCombiGrupo] || picks;
+    var filtered = bestPickPerGame(byGrupo[diaCombiGrupo] || []);
     var combi = buildCombinada(filtered);
     var combiStatus = diaSelectedDate === todayISO ? combinadaSettlement(combi.legs) : null;
 
     var buttonsHtml = '<div class="dia-combi-grupos" role="tablist" aria-label="Grupos de mercado">' +
       grupos.map(function (g) {
+        var legCount = bestPickPerGame(byGrupo[g] || []).length;
         return '<button type="button" class="dia-combi-grupo-btn' +
           (g === diaCombiGrupo ? " active" : "") + '" data-grupo="' + g.replace(/"/g, "") + '" role="tab"' +
           (g === diaCombiGrupo ? ' aria-selected="true"' : "") + ">" +
-          esc(g) + '<span class="dia-combi-grupo-count">' + byGrupo[g].length + "</span></button>";
+          esc(g) + '<span class="dia-combi-grupo-count">' + legCount + "</span></button>";
       }).join("") + "</div>";
 
     el.innerHTML = '<h3>Combinada inteligente</h3>' +
