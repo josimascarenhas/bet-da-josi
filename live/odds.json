@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "atualizadoEm": "2026-08-28T14:33:03.474080-03:00",
+    "fonte": "referência consolidada (casas EU)",
+    "jogosHoje": 7
+  },
+  "jogos": {
+    "eu-bundesliga-2026-08-28-Bayern-Munich-VfB-Stuttgart": {
+      "Bayern Munich (1)": 1.42,
+      "Empate (X)": 4.8,
+      "Stuttgart (2)": 6.5,
+      "Over 2.5": 1.55,
+      "Under 2.5": 2.35,
+      "Sim (BTTS)": 1.72,
+      "Nao": 2.05
+    },
+    "eu-la-liga-2026-08-28-Racing-Elche": {
+      "Racing (1)": 1.95,
+      "Empate (X)": 3.4,
+      "Elche (2)": 3.8,
+      "Over 2.5": 2.1,
+      "Under 2.5": 1.68,
+      "Sim (BTTS)": 1.85,
+      "Nao": 1.9
+    },
+    "eu-la-liga-2026-08-28-Alaves-Villarreal": {
+      "Alavés (1)": 2.75,
+      "Empate (X)": 3.3,
+      "Villarreal (2)": 2.5,
+      "Over 2.5": 1.95,
+      "Under 2.5": 1.8,
+      "Sim (BTTS)": 1.7,
+      "Nao": 2.05
+    },
+    "eu-primeira-liga-2026-08-28-Rio-Ave-Sporting-CP": {
+      "Rio Ave (1)": 5.5,
+      "Empate (X)": 4.0,
+      "Sporting CP (2)": 1.55,
+      "Over 2.5": 1.65,
+      "Under 2.5": 2.15,
+      "Sim (BTTS)": 1.8,
+      "Nao": 1.95
+    },
+    "s2-2026-08-28-Goias-Sao-Bernardo": {
+      "Goiás (1)": 2.05,
+      "Empate (X)": 3.1,
+      "São Bernardo (2)": 3.6,
+      "Over 2.5": 2.2,
+      "Under 2.5": 1.62,
+      "Sim (BTTS)": 1.95,
+      "Nao": 1.78
+    },
+    "s2-2026-08-28-Novorizontino-Sport": {
+      "Novorizontino (1)": 2.3,
+      "Empate (X)": 3.0,
+      "Sport (2)": 3.1,
+      "Over 2.5": 2.05,
+      "Under 2.5": 1.72,
+      "Sim (BTTS)": 1.82,
+      "Nao": 1.92
+    },
+    "s2-2026-08-28-Nautico-Athletic-PR": {
+      "Náutico (1)": 2.15,
+      "Empate (X)": 3.05,
+      "Athletic (2)": 3.4,
+      "Over 2.5": 2.15,
+      "Under 2.5": 1.65,
+      "Sim (BTTS)": 1.88,
+      "Nao": 1.86
+    }
+  }
+}

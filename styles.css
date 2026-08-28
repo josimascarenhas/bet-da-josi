@@ -410,6 +410,12 @@ tr.selected-row td { background: #d9f0e4; font-weight: 600; }
 
 /* Jogos do Dia */
 .dia-panel .panel-head { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 1rem; }
+.dia-controls { display: flex; flex-direction: column; align-items: flex-end; gap: 0.55rem; }
+.dia-value-toggle {
+  display: flex; align-items: center; gap: 0.4rem; font-size: 0.78rem; color: var(--muted);
+  cursor: pointer; user-select: none;
+}
+.dia-value-toggle input { accent-color: var(--accent); }
 .dia-thresholds { display: flex; gap: 0.4rem; flex-wrap: wrap; }
 .dia-thresh {
   padding: 0.45rem 0.85rem; border-radius: 8px; border: 2px solid var(--border);
@@ -442,6 +448,7 @@ tr.selected-row td { background: #d9f0e4; font-weight: 600; }
   padding: 0.65rem 0.85rem; background: var(--surface2); border-bottom: 1px solid var(--border);
 }
 .dia-game-head .teams { font-weight: 800; font-size: 0.92rem; flex: 1; min-width: 180px; }
+.dia-intel { font-size: 0.72rem; color: var(--muted); padding: 0.35rem 0.65rem 0; }
 .dia-picks { padding: 0.5rem 0.65rem; }
 .dia-pick-row {
   display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem;
@@ -451,6 +458,14 @@ tr.selected-row td { background: #d9f0e4; font-weight: 600; }
 .dia-pick-row .mercado { flex: 1; min-width: 140px; font-weight: 600; }
 .dia-pick-row .prob { font-family: var(--mono); font-weight: 800; min-width: 3rem; text-align: right; }
 .dia-pick-row .odd { font-family: var(--mono); color: var(--blue); font-weight: 700; min-width: 3rem; text-align: right; }
+.dia-pick-row .book { font-family: var(--mono); color: var(--muted); font-size: 0.78rem; min-width: 3rem; text-align: right; }
+.dia-pick-row .edge { font-family: var(--mono); font-weight: 700; min-width: 3.2rem; text-align: right; font-size: 0.78rem; }
+.dia-pick-row .edge.positive { color: var(--accent); }
+.dia-pick-row.has-value { background: rgba(46, 160, 67, 0.08); }
+.dia-value-badge {
+  font-size: 0.62rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.04em;
+  color: var(--accent); background: var(--accent-soft); padding: 0.12rem 0.35rem; border-radius: 4px;
+}
 .dia-pick-row.prob-alta .prob { color: var(--accent); }
 .dia-pick-row.prob-media .prob { color: #c77800; }
 .dia-warn { font-size: 0.75rem; color: var(--muted); margin-top: 0.75rem; padding: 0.65rem; background: var(--surface2); border-radius: 8px; }
