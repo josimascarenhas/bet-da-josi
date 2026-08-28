@@ -53,6 +53,7 @@
 
     <nav class="view-tabs" aria-label="Visualização">
       <button type="button" class="view-tab active" data-view="painel">📋 Painel</button>
+      <button type="button" class="view-tab" data-view="dia">🎯 Jogos do Dia</button>
       <button type="button" class="view-tab" data-view="noticias">📰 Notícias</button>
       <button type="button" class="view-tab" data-view="modelo">📊 Modelo Matemático</button>
     </nav>
@@ -130,6 +131,26 @@
     </div>
     </div>
 
+    <div id="viewDia" class="view-panel" hidden>
+      <article class="panel panel-field dia-panel">
+        <div class="panel-head">
+          <div>
+            <h2>Jogos do Dia — Apostas de Alta Probabilidade</h2>
+            <p id="diaSub">Modelo Poisson · probabilidades estimadas · filtre por confiança mínima</p>
+          </div>
+          <div class="dia-thresholds" id="diaThresholds">
+            <button type="button" class="dia-thresh" data-min="60">+60%</button>
+            <button type="button" class="dia-thresh active" data-min="70">+70%</button>
+            <button type="button" class="dia-thresh" data-min="80">+80%</button>
+          </div>
+        </div>
+        <div class="panel-body">
+          <div id="diaCombinada" class="dia-combinada"></div>
+          <div id="diaPicksBody"></div>
+        </div>
+      </article>
+    </div>
+
     <div id="viewModelo" class="view-panel" hidden>
       <article class="panel panel-field modelo-panel">
         <div class="panel-head">
@@ -164,6 +185,7 @@
   <script src="data.js"></script>
   <script src="serie-b-data.js"></script>
   <script src="libertadores-data.js"></script>
+  <script src="europe-data.js"></script>
   <script src="football-merge.js"></script>
   <script src="calendario.js"></script>
   <script src="tenis-data.js"></script>

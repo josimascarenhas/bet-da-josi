@@ -38,7 +38,15 @@
     Mavs: "Mavericks", Heat: "Heat", Spurs: "Spurs", Pistons: "Pistons",
     Timberwolves: "Timberwolves", Cavaliers: "Cavaliers", Suns: "Suns", Magic: "Magic",
     "Real Madrid": "Real Madrid", Panathinaikos: "Panathinaikos", Fenerbahce: "Fenerbah\u00e7e",
-    Olympiacos: "Olympiacos", Barcelona: "Barcelona", Maccabi: "Maccabi"
+    Olympiacos: "Olympiacos", Barcelona: "Barcelona", Maccabi: "Maccabi",
+    "Bayern-Munich": "Bayern Munich", "Borussia-Dortmund": "Borussia Dortmund",
+    "Manchester-City": "Man City", "Manchester-United": "Man United",
+    "Arsenal": "Arsenal", "Liverpool": "Liverpool", "Chelsea": "Chelsea",
+    "Tottenham": "Tottenham", "Newcastle-United": "Newcastle",
+    "Brighton": "Brighton", "Aston-Villa": "Aston Villa", "Brentford": "Brentford",
+    "Atletico-Madrid": "Atl\u00e9tico Madrid", "Sevilla": "Sevilla", "Real-Betis": "Betis",
+    "Villarreal": "Villarreal", Alaves: "Alav\u00e9s", Benfica: "Benfica", Porto: "Porto",
+    "Sporting-CP": "Sporting CP", Braga: "Braga", "VfB-Stuttgart": "Stuttgart"
   };
 
   var TEAM_LOGOS = {
@@ -72,6 +80,7 @@
   };
 
   var currentView = "painel";
+  var diaProbMin = 70;
 
   var MONTHS = [
     "Janeiro", "Fevereiro", "Mar\u00e7o", "Abril", "Maio", "Junho",
@@ -115,20 +124,22 @@
   }
 
   function footCompId(g) {
-    if (g.comp === "copa" || g.comp === "serieb" || g.comp === "libertadores") return g.comp;
-    return "brasileirao";
+    return g.comp || "brasileirao";
   }
 
   function compDisplayName(comp, g) {
     if (g && g.torneio) return g.torneio;
     var map = {
-      brasileirao: "Série A", serieb: "Série B", libertadores: "Libertadores", copa: "Copa do Brasil"
+      brasileirao: "Série A", serieb: "Série B", libertadores: "Libertadores", copa: "Copa do Brasil",
+      "premier-league": "Premier League", "la-liga": "La Liga", bundesliga: "Bundesliga",
+      "primeira-liga": "Primeira Liga"
     };
     return map[comp] || comp || "";
   }
 
   function footCompList() {
-    return ["brasileirao", "serieb", "libertadores", "copa"];
+    return ["brasileirao", "serieb", "libertadores", "copa",
+      "premier-league", "la-liga", "bundesliga", "primeira-liga"];
   }
 
   function isForeignTeam(key) {
@@ -286,12 +297,14 @@
       tab.classList.toggle("active", tab.getAttribute("data-view") === view);
     });
     document.getElementById("viewPainel").hidden = view !== "painel";
+    document.getElementById("viewDia").hidden = view !== "dia";
     document.getElementById("viewModelo").hidden = view !== "modelo";
     document.getElementById("viewNoticias").hidden = view !== "noticias";
     var search = document.getElementById("searchInput");
     if (search) {
       search.placeholder = view === "noticias" ? "Buscar not\u00edcias\u2026" : "Filtrar tabela\u2026";
       if (view === "noticias") renderNews();
+      if (view === "dia") renderDia();
     }
   }
 
@@ -457,7 +470,11 @@
         { id: "brasileirao", nome: "Brasileir\u00e3o S\u00e9rie A" },
         { id: "serieb", nome: "Brasileir\u00e3o S\u00e9rie B" },
         { id: "libertadores", nome: "Copa Libertadores" },
-        { id: "copa", nome: "Copa do Brasil" }
+        { id: "copa", nome: "Copa do Brasil" },
+        { id: "premier-league", nome: "Premier League" },
+        { id: "la-liga", nome: "La Liga" },
+        { id: "bundesliga", nome: "Bundesliga" },
+        { id: "primeira-liga", nome: "Primeira Liga" }
       ];
     }
     if (sport === "tenis") {
@@ -503,7 +520,11 @@
         copa: "copa",
         brasileirao: "brasileirao",
         serieb: "serieb",
-        libertadores: "libertadores"
+        libertadores: "libertadores",
+        "premier-league": "premier-league",
+        "la-liga": "la-liga",
+        bundesliga: "bundesliga",
+        "primeira-liga": "primeira-liga"
       };
       if (selectedComp !== "todos" && compMap[selectedComp]) {
         var compKey = compMap[selectedComp];
@@ -548,9 +569,14 @@
   function getFootStats(key, comp) {
     var t = FOOT.times[key];
     if (!t) return null;
+    if (comp && t[comp]) return t[comp];
     var order = comp === "copa" ? ["copa", "brasileirao", "libertadores", "serieb"]
       : comp === "serieb" ? ["serieb", "brasileirao"]
       : comp === "libertadores" ? ["libertadores", "brasileirao", "serieb"]
+      : comp === "premier-league" ? ["premier-league"]
+      : comp === "la-liga" ? ["la-liga"]
+      : comp === "bundesliga" ? ["bundesliga"]
+      : comp === "primeira-liga" ? ["primeira-liga"]
       : ["brasileirao", "libertadores", "serieb", "copa"];
     for (var i = 0; i < order.length; i++) {
       if (t[order[i]]) return t[order[i]];
@@ -559,9 +585,8 @@
   }
 
   function activeFootComp() {
-    if (selectedComp === "copa" || selectedComp === "serieb" || selectedComp === "libertadores") {
-      return selectedComp;
-    }
+    var known = ["copa", "serieb", "libertadores", "premier-league", "la-liga", "bundesliga", "primeira-liga"];
+    if (known.indexOf(selectedComp) >= 0) return selectedComp;
     return "brasileirao";
   }
 
@@ -591,7 +616,11 @@
     var tStats = getFootStats(team, comp);
     var aStats = getFootStats(adv, comp);
     var isHome = g.mandante === team;
-    var totalTimes = comp === "serieb" ? 20 : comp === "brasileirao" ? 20 : 0;
+    var totalMap = {
+      serieb: 20, brasileirao: 20, "premier-league": 20, "la-liga": 20,
+      bundesliga: 18, "primeira-liga": 18
+    };
+    var totalTimes = totalMap[comp] || 0;
     return {
       isMandante: isHome,
       competicao: comp,
@@ -615,7 +644,7 @@
       teamFora: tInfo.fora,
       advCasa: aInfo.casa,
       advFora: aInfo.fora,
-      advPais: aInfo.pais || "BRA",
+      advPais: aInfo.pais || (comp.indexOf("premier") >= 0 ? "ENG" : comp.indexOf("la-liga") >= 0 ? "ESP" : comp.indexOf("bundesliga") >= 0 ? "GER" : comp.indexOf("primeira") >= 0 ? "POR" : "BRA"),
       mandanteCasa: getFootTeamInfo(g.mandante).casa,
       visitanteFora: getFootTeamInfo(g.visitante).fora,
       h2hGoalDiff: h2hGoalDiff(team, adv)
@@ -979,7 +1008,11 @@
         brasileirao: "Classificação — Série A",
         serieb: "Classificação — Série B",
         libertadores: "Libertadores — Times",
-        copa: "Copa do Brasil — Participantes"
+        copa: "Copa do Brasil — Participantes",
+        "premier-league": "Premier League",
+        "la-liga": "La Liga",
+        "bundesliga": "Bundesliga",
+        "primeira-liga": "Primeira Liga"
       };
       document.getElementById("tableTitle").textContent = titles[compKey] || "Classificação";
       document.getElementById("tableSub").textContent = (compInfo.nome || "") + " \u00b7 clique para filtrar";
@@ -1137,6 +1170,124 @@
     return " \u00b7 Atualizado " + pad2(d.getHours()) + ":" + pad2(d.getMinutes());
   }
 
+  function gamesTodayFootball() {
+    return (FCAL.jogos || []).filter(function (g) {
+      if (g.data !== todayISO || !g.mandante || !g.visitante || g.placar) return false;
+      if (selectedComp !== "todos" && g.comp !== selectedComp) return false;
+      return true;
+    }).sort(function (a, b) {
+      return (a.horario || "").localeCompare(b.horario || "");
+    });
+  }
+
+  function collectDayPicks(minProb) {
+    var picks = [];
+    var skipGroups = ["Placar Exato", "Contexto"];
+    gamesTodayFootball().forEach(function (g) {
+      var an = analyzeFootballGame(g, g.mandante);
+      if (an.insuficientes) return;
+      (an.markets || []).forEach(function (m) {
+        if (m.prob < minProb || skipGroups.indexOf(m.grupo) >= 0) return;
+        if (/Over 0\.5|Under 0\.5/.test(m.mercado)) return;
+        picks.push({ game: g, market: m });
+      });
+    });
+    return picks.sort(function (a, b) { return b.market.prob - a.market.prob; });
+  }
+
+  function buildCombinada(picks, maxLegs) {
+    maxLegs = maxLegs || 4;
+    var byGame = {};
+    picks.forEach(function (p) {
+      var id = p.game.id;
+      if (!byGame[id] || p.market.prob > byGame[id].market.prob) byGame[id] = p;
+    });
+    var legs = Object.keys(byGame).map(function (k) { return byGame[k]; })
+      .sort(function (a, b) { return b.market.prob - a.market.prob; })
+      .slice(0, maxLegs);
+    if (!legs.length) return null;
+    var combinedProb = legs.reduce(function (acc, leg) {
+      return acc * (leg.market.prob / 100);
+    }, 1) * 100;
+    var combinedOdd = M.toOdd(combinedProb);
+    return { legs: legs, combinedProb: Math.round(combinedProb * 10) / 10, combinedOdd: combinedOdd };
+  }
+
+  function renderDia() {
+    var sub = document.getElementById("diaSub");
+    var combEl = document.getElementById("diaCombinada");
+    var body = document.getElementById("diaPicksBody");
+    if (!body) return;
+
+    document.querySelectorAll(".dia-thresh").forEach(function (btn) {
+      btn.classList.toggle("active", Number(btn.getAttribute("data-min")) === diaProbMin);
+    });
+
+    if (sport !== "futebol") {
+      sub.textContent = "Selecione Futebol para ver os jogos do dia.";
+      combEl.innerHTML = "";
+      body.innerHTML = '<div class="empty">Aba dispon\u00edvel apenas para futebol.</div>';
+      return;
+    }
+
+    var games = gamesTodayFootball();
+    sub.textContent = fmtData(todayISO) + " \u00b7 " + games.length + " jogos \u00b7 filtro \u2265" + diaProbMin + "%";
+    var picks = collectDayPicks(diaProbMin);
+    var combi = buildCombinada(picks, diaProbMin >= 80 ? 3 : diaProbMin >= 70 ? 4 : 5);
+
+    if (combi && combi.legs.length >= 2) {
+      combEl.innerHTML = '<h3>Combinada sugerida (' + combi.legs.length + " pernas)</h3>" +
+        '<div class="dia-combi-legs">' + combi.legs.map(function (leg) {
+          var g = leg.game;
+          return '<div class="dia-combi-leg"><span class="comp-badge comp-' + g.comp + '">' +
+            compDisplayName(g.comp, g) + '</span><span>' + label(g.mandante) + " x " + label(g.visitante) +
+            '</span><span>' + esc(leg.market.mercado) + '</span><span class="prob">' + leg.market.prob + "%</span></div>";
+        }).join("") + "</div>" +
+        '<div class="dia-combi-summary"><span>Prob. combinada: <strong>' + combi.combinedProb +
+        "%</strong></span><span>Odd estimada: <strong>" + combi.combinedOdd.toFixed(2) + "</strong></span></div>";
+    } else if (combi && combi.legs.length === 1) {
+      combEl.innerHTML = '<h3>Melhor aposta do dia</h3><div class="dia-combi-legs">' +
+        combi.legs.map(function (leg) {
+          var g = leg.game;
+          return '<div class="dia-combi-leg"><span>' + label(g.mandante) + " x " + label(g.visitante) +
+            '</span><span>' + esc(leg.market.mercado) + '</span><span class="prob">' + leg.market.prob + "%</span></div>";
+        }).join("") + "</div>";
+    } else {
+      combEl.innerHTML = '<div class="dia-warn">Nenhuma combinada com 2+ jogos acima de ' + diaProbMin +
+        "%. Tente um filtro menor ou aguarde mais jogos.</div>";
+    }
+
+    if (!games.length) {
+      body.innerHTML = '<div class="empty">Nenhum jogo futuro para hoje no filtro atual.</div>';
+      return;
+    }
+
+    var byGame = {};
+    picks.forEach(function (p) {
+      if (!byGame[p.game.id]) byGame[p.game.id] = { game: p.game, markets: [] };
+      byGame[p.game.id].markets.push(p.market);
+    });
+
+    body.innerHTML = games.map(function (g) {
+      var entry = byGame[g.id];
+      var an = analyzeFootballGame(g, g.mandante);
+      var head = '<div class="dia-game-head"><span class="comp-badge comp-' + g.comp + '">' +
+        compDisplayName(g.comp, g) + '</span><span class="dia-game-head teams">' +
+        teamCellHtml(g.mandante) + " vs " + teamCellHtml(g.visitante) +
+        '</span><span class="day-kick">' + (g.horario || "") + "</span></div>";
+      if (!entry || !entry.markets.length) {
+        var note = an.insuficientes ? an.nota : "Nenhum mercado acima de " + diaProbMin + "%.";
+        return '<div class="dia-game-block">' + head + '<div class="dia-picks"><div class="empty">' + esc(note) + "</div></div></div>";
+      }
+      var rows = entry.markets.slice(0, 8).map(function (m) {
+        return '<div class="dia-pick-row ' + probClass(m.prob) + '"><span class="mercado">' + esc(m.mercado) +
+          '</span><span class="grupo">' + esc(m.grupo) + '</span><span class="prob">' + m.prob +
+          '%</span><span class="odd">' + (m.odd || M.toOdd(m.prob)).toFixed(2) + "</span></div>";
+      }).join("");
+      return '<div class="dia-game-block">' + head + '<div class="dia-picks">' + rows + "</div></div>";
+    }).join("") + '<p class="dia-warn">Probabilidades estimadas pelo modelo Poisson (Dixon-Coles). N\u00e3o s\u00e3o cota\u00e7\u00f5es oficiais. Combine apenas mercados de jogos diferentes para reduzir correla\u00e7\u00e3o.</p>';
+  }
+
   function renderAll(resetTarget) {
     if (resetTarget) analyzeTarget = null;
     var titles = {
@@ -1162,6 +1313,7 @@
     renderTable();
     renderMatches();
     if (currentView === "noticias") renderNews();
+    if (currentView === "dia") renderDia();
   }
 
   function init() {
@@ -1224,6 +1376,12 @@
     document.querySelectorAll(".view-tab").forEach(function (tab) {
       tab.onclick = function () {
         switchView(tab.getAttribute("data-view"));
+      };
+    });
+    document.querySelectorAll(".dia-thresh").forEach(function (btn) {
+      btn.onclick = function () {
+        diaProbMin = Number(btn.getAttribute("data-min")) || 70;
+        renderDia();
       };
     });
     switchView(currentView);

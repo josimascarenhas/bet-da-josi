@@ -1,4 +1,4 @@
-/* Mescla Serie B e Libertadores em BET_DATA */
+/* Mescla Serie B, Libertadores e ligas europeias em BET_DATA */
 (function (global) {
   "use strict";
 
@@ -47,6 +47,17 @@
         } else {
           mergeDeep(base.times[key].libertadores, brLib[key]);
         }
+      });
+    }
+
+    if (global.EUROPE_DATA) {
+      Object.keys(global.EUROPE_DATA.competicoes || {}).forEach(function (compKey) {
+        if (!base.competicoes[compKey]) base.competicoes[compKey] = {};
+        mergeDeep(base.competicoes[compKey], global.EUROPE_DATA.competicoes[compKey]);
+      });
+      Object.keys(global.EUROPE_DATA.times || {}).forEach(function (key) {
+        if (!base.times[key]) base.times[key] = {};
+        mergeDeep(base.times[key], global.EUROPE_DATA.times[key]);
       });
     }
   }

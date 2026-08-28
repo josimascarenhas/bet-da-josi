@@ -43,6 +43,38 @@ window.BET_DATA = {
         mediaChutesNoGol: 8.0, vitoriaMandante: 50, vitoriaVisitante: 27, empate: 23
       }
     },
+
+    "premier-league": {
+      id: "premier-league",
+      nome: "Premier League",
+      fase: "2ª rodada",
+      timesAtivos: [],
+      liga: {"jogos": 380, "mediaGols": 2.85, "over25": 52, "btts": 54, "mediaEscanteios": 10.2, "over85Escanteios": 62, "over95Escanteios": 54, "mediaCartoesAmarelos": 4.2, "over35Cartoes": 68, "over45Cartoes": 52, "mediaChutesNoGol": 8.5, "vitoriaMandante": 46, "vitoriaVisitante": 28, "empate": 26}
+    },
+
+    "la-liga": {
+      id: "la-liga",
+      nome: "La Liga",
+      fase: "3ª jornada",
+      timesAtivos: [],
+      liga: {"jogos": 380, "mediaGols": 2.55, "over25": 48, "btts": 50, "mediaEscanteios": 9.8, "over85Escanteios": 60, "over95Escanteios": 52, "mediaCartoesAmarelos": 4.8, "over35Cartoes": 70, "over45Cartoes": 55, "mediaChutesNoGol": 8.0, "vitoriaMandante": 48, "vitoriaVisitante": 26, "empate": 26}
+    },
+
+    bundesliga: {
+      id: "bundesliga",
+      nome: "Bundesliga",
+      fase: "1ª rodada",
+      timesAtivos: [],
+      liga: {"jogos": 306, "mediaGols": 3.05, "over25": 58, "btts": 56, "mediaEscanteios": 9.5, "over85Escanteios": 58, "over95Escanteios": 50, "mediaCartoesAmarelos": 3.8, "over35Cartoes": 65, "over45Cartoes": 50, "mediaChutesNoGol": 8.8, "vitoriaMandante": 44, "vitoriaVisitante": 30, "empate": 26}
+    },
+
+    "primeira-liga": {
+      id: "primeira-liga",
+      nome: "Primeira Liga",
+      fase: "4ª jornada",
+      timesAtivos: [],
+      liga: {"jogos": 306, "mediaGols": 2.45, "over25": 46, "btts": 48, "mediaEscanteios": 9.0, "over85Escanteios": 55, "over95Escanteios": 48, "mediaCartoesAmarelos": 5.2, "over35Cartoes": 72, "over45Cartoes": 58, "mediaChutesNoGol": 7.8, "vitoriaMandante": 47, "vitoriaVisitante": 27, "empate": 26}
+    },
     brasileirao: {
       id: "brasileirao",
       nome: "Brasileir\u00e3o S\u00e9rie A",
