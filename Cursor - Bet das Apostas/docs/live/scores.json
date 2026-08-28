@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-28T18:50:17.337747-03:00",
-    "fonte": "calendário",
-    "jogos": 249,
-    "finalizadosTotal": 249
+    "atualizadoEm": "2026-08-28T19:17:51.631880-03:00",
+    "fonte": "calendário + openligadb.de",
+    "jogos": 336,
+    "finalizadosTotal": 336
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -1638,6 +1638,46 @@
       "data": "2026-07-30",
       "comp": "brasileirao"
     },
+    "eu-primeira-liga-2026-08-07-Estoril-Famalicao": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-08-07",
+      "comp": "primeira-liga"
+    },
+    "s2-2026-08-07-Operario-PR-Sao-Bernardo": {
+      "status": "finished",
+      "placar": "1-3",
+      "golsCasa": 1,
+      "golsFora": 3,
+      "data": "2026-08-07",
+      "comp": "serieb"
+    },
+    "s2-2026-08-07-Ceara-Ponte-Preta": {
+      "status": "finished",
+      "placar": "2-0",
+      "golsCasa": 2,
+      "golsFora": 0,
+      "data": "2026-08-07",
+      "comp": "serieb"
+    },
+    "eu-primeira-liga-2026-08-08-Maritimo-Casa-Pia": {
+      "status": "finished",
+      "placar": "1-0",
+      "golsCasa": 1,
+      "golsFora": 0,
+      "data": "2026-08-08",
+      "comp": "primeira-liga"
+    },
+    "eu-primeira-liga-2026-08-08-Vitoria-Guimaraes-Arouca": {
+      "status": "finished",
+      "placar": "0-1",
+      "golsCasa": 0,
+      "golsFora": 1,
+      "data": "2026-08-08",
+      "comp": "primeira-liga"
+    },
     "br-22-Gremio-Sao-Paulo": {
       "status": "finished",
       "placar": "2-1",
@@ -1646,6 +1686,22 @@
       "data": "2026-08-08",
       "comp": "brasileirao"
     },
+    "s2-2026-08-08-Vila-Nova-Sport": {
+      "status": "finished",
+      "placar": "0-1",
+      "golsCasa": 0,
+      "golsFora": 1,
+      "data": "2026-08-08",
+      "comp": "serieb"
+    },
+    "eu-primeira-liga-2026-08-08-Estrela-Amadora-Sporting-CP": {
+      "status": "finished",
+      "placar": "2-2",
+      "golsCasa": 2,
+      "golsFora": 2,
+      "data": "2026-08-08",
+      "comp": "primeira-liga"
+    },
     "br-22-Remo-Atletico-MG": {
       "status": "finished",
       "placar": "2-2",
@@ -1653,6 +1709,14 @@
       "golsFora": 2,
       "data": "2026-08-08",
       "comp": "brasileirao"
+    },
+    "s2-2026-08-08-Botafogo-SP-America-MG": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-08-08",
+      "comp": "serieb"
     },
     "br-22-Coritiba-Chapecoense": {
       "status": "finished",
@@ -1678,6 +1742,22 @@
       "data": "2026-08-09",
       "comp": "brasileirao"
     },
+    "s2-2026-08-09-Athletic-PR-Criciuma": {
+      "status": "finished",
+      "placar": "2-0",
+      "golsCasa": 2,
+      "golsFora": 0,
+      "data": "2026-08-09",
+      "comp": "serieb"
+    },
+    "eu-primeira-liga-2026-08-09-Porto-Alverca": {
+      "status": "finished",
+      "placar": "2-0",
+      "golsCasa": 2,
+      "golsFora": 0,
+      "data": "2026-08-09",
+      "comp": "primeira-liga"
+    },
     "br-22-Bahia-Vasco": {
       "status": "finished",
       "placar": "0-0",
@@ -1693,6 +1773,54 @@
       "golsFora": 0,
       "data": "2026-08-09",
       "comp": "brasileirao"
+    },
+    "s2-2026-08-09-Nautico-Atletico-GO": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-08-09",
+      "comp": "serieb"
+    },
+    "s2-2026-08-09-Novorizontino-Juventude": {
+      "status": "finished",
+      "placar": "0-1",
+      "golsCasa": 0,
+      "golsFora": 1,
+      "data": "2026-08-09",
+      "comp": "serieb"
+    },
+    "eu-primeira-liga-2026-08-09-Benfica-Academico-Viseu": {
+      "status": "finished",
+      "placar": "2-2",
+      "golsCasa": 2,
+      "golsFora": 2,
+      "data": "2026-08-09",
+      "comp": "primeira-liga"
+    },
+    "eu-primeira-liga-2026-08-09-Gil-Vicente-Rio-Ave": {
+      "status": "finished",
+      "placar": "1-0",
+      "golsCasa": 1,
+      "golsFora": 0,
+      "data": "2026-08-09",
+      "comp": "primeira-liga"
+    },
+    "eu-primeira-liga-2026-08-09-Moreirense-Braga": {
+      "status": "finished",
+      "placar": "2-2",
+      "golsCasa": 2,
+      "golsFora": 2,
+      "data": "2026-08-09",
+      "comp": "primeira-liga"
+    },
+    "s2-2026-08-09-Cuiaba-Fortaleza": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-08-09",
+      "comp": "serieb"
     },
     "br-22-Bragantino-Corinthians": {
       "status": "finished",
@@ -1717,6 +1845,22 @@
       "golsFora": 0,
       "data": "2026-08-09",
       "comp": "brasileirao"
+    },
+    "eu-primeira-liga-2026-08-10-Santa-Clara-Nacional": {
+      "status": "finished",
+      "placar": "2-2",
+      "golsCasa": 2,
+      "golsFora": 2,
+      "data": "2026-08-10",
+      "comp": "primeira-liga"
+    },
+    "s2-2026-08-10-Goias-Londrina": {
+      "status": "finished",
+      "placar": "1-0",
+      "golsCasa": 1,
+      "golsFora": 0,
+      "data": "2026-08-10",
+      "comp": "serieb"
     },
     "lib-2026-08-12-Flamengo-Cruzeiro": {
       "status": "finished",
@@ -1750,6 +1894,86 @@
       "data": "2026-08-13",
       "comp": "libertadores"
     },
+    "eu-primeira-liga-2026-08-14-Sporting-CP-Vitoria-Guimaraes": {
+      "status": "finished",
+      "placar": "3-2",
+      "golsCasa": 3,
+      "golsFora": 2,
+      "data": "2026-08-14",
+      "comp": "primeira-liga"
+    },
+    "s2-2026-08-14-Ponte-Preta-Nautico": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-08-14",
+      "comp": "serieb"
+    },
+    "s2-2026-08-14-Sao-Bernardo-Botafogo-SP": {
+      "status": "finished",
+      "placar": "0-1",
+      "golsCasa": 0,
+      "golsFora": 1,
+      "data": "2026-08-14",
+      "comp": "serieb"
+    },
+    "s2-2026-08-14-Sport-Londrina": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-08-14",
+      "comp": "serieb"
+    },
+    "eu-primeira-liga-2026-08-15-Alverca-Estrela-Amadora": {
+      "status": "finished",
+      "placar": "2-2",
+      "golsCasa": 2,
+      "golsFora": 2,
+      "data": "2026-08-15",
+      "comp": "primeira-liga"
+    },
+    "eu-primeira-liga-2026-08-15-Academico-Viseu-Santa-Clara": {
+      "status": "finished",
+      "placar": "0-1",
+      "golsCasa": 0,
+      "golsFora": 1,
+      "data": "2026-08-15",
+      "comp": "primeira-liga"
+    },
+    "eu-la-liga-2026-08-15-Alaves-Getafe": {
+      "status": "finished",
+      "placar": "3-0",
+      "golsCasa": 3,
+      "golsFora": 0,
+      "data": "2026-08-15",
+      "comp": "la-liga"
+    },
+    "s2-2026-08-15-Atletico-GO-Vila-Nova": {
+      "status": "finished",
+      "placar": "0-2",
+      "golsCasa": 0,
+      "golsFora": 2,
+      "data": "2026-08-15",
+      "comp": "serieb"
+    },
+    "s2-2026-08-15-Ceara-Cuiaba": {
+      "status": "finished",
+      "placar": "1-3",
+      "golsCasa": 1,
+      "golsFora": 3,
+      "data": "2026-08-15",
+      "comp": "serieb"
+    },
+    "s2-2026-08-15-Criciuma-Goias": {
+      "status": "finished",
+      "placar": "1-0",
+      "golsCasa": 1,
+      "golsFora": 0,
+      "data": "2026-08-15",
+      "comp": "serieb"
+    },
     "br-23-Fluminense-Palmeiras": {
       "status": "finished",
       "placar": "3-2",
@@ -1758,6 +1982,22 @@
       "data": "2026-08-15",
       "comp": "brasileirao"
     },
+    "eu-la-liga-2026-08-15-Sevilla-Rayo-Vallecano": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-08-15",
+      "comp": "la-liga"
+    },
+    "eu-primeira-liga-2026-08-15-Rio-Ave-Porto": {
+      "status": "finished",
+      "placar": "0-2",
+      "golsCasa": 0,
+      "golsFora": 2,
+      "data": "2026-08-15",
+      "comp": "primeira-liga"
+    },
     "br-23-Athletico-PR-Bragantino": {
       "status": "finished",
       "placar": "1-1",
@@ -1765,6 +2005,14 @@
       "golsFora": 1,
       "data": "2026-08-15",
       "comp": "brasileirao"
+    },
+    "s2-2026-08-15-Juventude-Fortaleza": {
+      "status": "finished",
+      "placar": "0-0",
+      "golsCasa": 0,
+      "golsFora": 0,
+      "data": "2026-08-15",
+      "comp": "serieb"
     },
     "br-23-Sao-Paulo-Coritiba": {
       "status": "finished",
@@ -1782,6 +2030,46 @@
       "data": "2026-08-16",
       "comp": "brasileirao"
     },
+    "s2-2026-08-16-Operario-PR-Avai": {
+      "status": "finished",
+      "placar": "1-2",
+      "golsCasa": 1,
+      "golsFora": 2,
+      "data": "2026-08-16",
+      "comp": "serieb"
+    },
+    "eu-primeira-liga-2026-08-16-Nacional-Estoril": {
+      "status": "finished",
+      "placar": "2-0",
+      "golsCasa": 2,
+      "golsFora": 0,
+      "data": "2026-08-16",
+      "comp": "primeira-liga"
+    },
+    "eu-la-liga-2026-08-16-Racing-Villarreal": {
+      "status": "finished",
+      "placar": "2-2",
+      "golsCasa": 2,
+      "golsFora": 2,
+      "data": "2026-08-16",
+      "comp": "la-liga"
+    },
+    "eu-la-liga-2026-08-16-Espanyol-Levante": {
+      "status": "finished",
+      "placar": "3-0",
+      "golsCasa": 3,
+      "golsFora": 0,
+      "data": "2026-08-16",
+      "comp": "la-liga"
+    },
+    "eu-primeira-liga-2026-08-16-Arouca-Moreirense": {
+      "status": "finished",
+      "placar": "4-0",
+      "golsCasa": 4,
+      "golsFora": 0,
+      "data": "2026-08-16",
+      "comp": "primeira-liga"
+    },
     "br-23-Atletico-MG-Gremio": {
       "status": "finished",
       "placar": "3-0",
@@ -1797,6 +2085,14 @@
       "golsFora": 3,
       "data": "2026-08-16",
       "comp": "brasileirao"
+    },
+    "eu-primeira-liga-2026-08-16-Famalicao-Maritimo": {
+      "status": "finished",
+      "placar": "1-2",
+      "golsCasa": 1,
+      "golsFora": 2,
+      "data": "2026-08-16",
+      "comp": "primeira-liga"
     },
     "br-23-Mirassol-Flamengo": {
       "status": "finished",
@@ -1814,6 +2110,22 @@
       "data": "2026-08-16",
       "comp": "brasileirao"
     },
+    "s2-2026-08-16-America-MG-Athletic-PR": {
+      "status": "finished",
+      "placar": "1-3",
+      "golsCasa": 1,
+      "golsFora": 3,
+      "data": "2026-08-16",
+      "comp": "serieb"
+    },
+    "s2-2026-08-16-CRB-Novorizontino": {
+      "status": "finished",
+      "placar": "0-0",
+      "golsCasa": 0,
+      "golsFora": 0,
+      "data": "2026-08-16",
+      "comp": "serieb"
+    },
     "br-23-Corinthians-Cruzeiro": {
       "status": "finished",
       "placar": "1-2",
@@ -1821,6 +2133,22 @@
       "golsFora": 2,
       "data": "2026-08-16",
       "comp": "brasileirao"
+    },
+    "eu-la-liga-2026-08-17-Deportivo-Elche": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-08-17",
+      "comp": "la-liga"
+    },
+    "eu-primeira-liga-2026-08-17-Casa-Pia-Benfica": {
+      "status": "finished",
+      "placar": "0-7",
+      "golsCasa": 0,
+      "golsFora": 7,
+      "data": "2026-08-17",
+      "comp": "primeira-liga"
     },
     "br-23-Internacional-Remo": {
       "status": "finished",
@@ -1846,6 +2174,14 @@
       "data": "2026-08-19",
       "comp": "libertadores"
     },
+    "eu-la-liga-2026-08-20-Rayo-Vallecano-Alaves": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-08-20",
+      "comp": "la-liga"
+    },
     "lib-2026-08-20-Independiente-Rivadavia-Fluminense": {
       "status": "finished",
       "placar": "0-0",
@@ -1862,6 +2198,22 @@
       "data": "2026-08-20",
       "comp": "libertadores"
     },
+    "s2-2026-08-20-Athletic-PR-CRB": {
+      "status": "finished",
+      "placar": "0-2",
+      "golsCasa": 0,
+      "golsFora": 2,
+      "data": "2026-08-20",
+      "comp": "serieb"
+    },
+    "s2-2026-08-20-Novorizontino-America-MG": {
+      "status": "finished",
+      "placar": "3-0",
+      "golsCasa": 3,
+      "golsFora": 0,
+      "data": "2026-08-20",
+      "comp": "serieb"
+    },
     "lib-2026-08-20-Corinthians-Rosario-Central": {
       "status": "finished",
       "placar": "1-0",
@@ -1869,6 +2221,86 @@
       "golsFora": 0,
       "data": "2026-08-20",
       "comp": "libertadores"
+    },
+    "eu-la-liga-2026-08-21-Real-Betis-Real-Sociedad": {
+      "status": "finished",
+      "placar": "1-0",
+      "golsCasa": 1,
+      "golsFora": 0,
+      "data": "2026-08-21",
+      "comp": "la-liga"
+    },
+    "eu-premier-league-2026-08-21-Arsenal-Coventry-City": {
+      "status": "finished",
+      "placar": "3-0",
+      "golsCasa": 3,
+      "golsFora": 0,
+      "data": "2026-08-21",
+      "comp": "premier-league"
+    },
+    "eu-premier-league-2026-08-22-Everton-Crystal-Palace": {
+      "status": "finished",
+      "placar": "2-0",
+      "golsCasa": 2,
+      "golsFora": 0,
+      "data": "2026-08-22",
+      "comp": "premier-league"
+    },
+    "eu-premier-league-2026-08-22-Ipswich-Town-Sunderland": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-08-22",
+      "comp": "premier-league"
+    },
+    "eu-premier-league-2026-08-22-Nottingham-Forest-Leeds-United": {
+      "status": "finished",
+      "placar": "0-1",
+      "golsCasa": 0,
+      "golsFora": 1,
+      "data": "2026-08-22",
+      "comp": "premier-league"
+    },
+    "eu-primeira-liga-2026-08-22-Maritimo-Academico-Viseu": {
+      "status": "finished",
+      "placar": "2-2",
+      "golsCasa": 2,
+      "golsFora": 2,
+      "data": "2026-08-22",
+      "comp": "primeira-liga"
+    },
+    "eu-la-liga-2026-08-22-Athletic-Sevilla": {
+      "status": "finished",
+      "placar": "1-3",
+      "golsCasa": 1,
+      "golsFora": 3,
+      "data": "2026-08-22",
+      "comp": "la-liga"
+    },
+    "eu-premier-league-2026-08-22-Brentford-Tottenham": {
+      "status": "finished",
+      "placar": "3-0",
+      "golsCasa": 3,
+      "golsFora": 0,
+      "data": "2026-08-22",
+      "comp": "premier-league"
+    },
+    "eu-primeira-liga-2026-08-22-Estoril-Rio-Ave": {
+      "status": "finished",
+      "placar": "0-2",
+      "golsCasa": 0,
+      "golsFora": 2,
+      "data": "2026-08-22",
+      "comp": "primeira-liga"
+    },
+    "eu-la-liga-2026-08-22-Valencia-Celta": {
+      "status": "finished",
+      "placar": "0-0",
+      "golsCasa": 0,
+      "golsFora": 0,
+      "data": "2026-08-22",
+      "comp": "la-liga"
     },
     "br-24-Fluminense-Remo": {
       "status": "finished",
@@ -1878,6 +2310,30 @@
       "data": "2026-08-22",
       "comp": "brasileirao"
     },
+    "eu-la-liga-2026-08-22-Espanyol-Real-Madrid": {
+      "status": "finished",
+      "placar": "1-2",
+      "golsCasa": 1,
+      "golsFora": 2,
+      "data": "2026-08-22",
+      "comp": "la-liga"
+    },
+    "eu-primeira-liga-2026-08-22-Sporting-CP-Alverca": {
+      "status": "finished",
+      "placar": "3-1",
+      "golsCasa": 3,
+      "golsFora": 1,
+      "data": "2026-08-22",
+      "comp": "primeira-liga"
+    },
+    "s2-2026-08-22-Ceara-Londrina": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-08-22",
+      "comp": "serieb"
+    },
     "br-24-Internacional-Atletico-MG": {
       "status": "finished",
       "placar": "0-0",
@@ -1886,6 +2342,14 @@
       "data": "2026-08-22",
       "comp": "brasileirao"
     },
+    "s2-2026-08-22-Cuiaba-Goias": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-08-22",
+      "comp": "serieb"
+    },
     "br-24-Cruzeiro-Flamengo": {
       "status": "finished",
       "placar": "2-1",
@@ -1893,6 +2357,62 @@
       "golsFora": 1,
       "data": "2026-08-22",
       "comp": "brasileirao"
+    },
+    "eu-premier-league-2026-08-23-Brighton-Aston-Villa": {
+      "status": "finished",
+      "placar": "4-0",
+      "golsCasa": 4,
+      "golsFora": 0,
+      "data": "2026-08-23",
+      "comp": "premier-league"
+    },
+    "eu-premier-league-2026-08-23-Manchester-City-Bournemouth": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-08-23",
+      "comp": "premier-league"
+    },
+    "eu-primeira-liga-2026-08-23-Vitoria-Guimaraes-Nacional": {
+      "status": "finished",
+      "placar": "1-0",
+      "golsCasa": 1,
+      "golsFora": 0,
+      "data": "2026-08-23",
+      "comp": "primeira-liga"
+    },
+    "eu-la-liga-2026-08-23-Atletico-Madrid-Villarreal": {
+      "status": "finished",
+      "placar": "2-2",
+      "golsCasa": 2,
+      "golsFora": 2,
+      "data": "2026-08-23",
+      "comp": "la-liga"
+    },
+    "eu-premier-league-2026-08-23-Newcastle-United-Liverpool": {
+      "status": "finished",
+      "placar": "2-2",
+      "golsCasa": 2,
+      "golsFora": 2,
+      "data": "2026-08-23",
+      "comp": "premier-league"
+    },
+    "eu-primeira-liga-2026-08-23-Santa-Clara-Famalicao": {
+      "status": "finished",
+      "placar": "1-0",
+      "golsCasa": 1,
+      "golsFora": 0,
+      "data": "2026-08-23",
+      "comp": "primeira-liga"
+    },
+    "eu-la-liga-2026-08-23-Getafe-Racing": {
+      "status": "finished",
+      "placar": "1-0",
+      "golsCasa": 1,
+      "golsFora": 0,
+      "data": "2026-08-23",
+      "comp": "la-liga"
     },
     "br-24-Bragantino-Gremio": {
       "status": "finished",
@@ -1918,6 +2438,46 @@
       "data": "2026-08-23",
       "comp": "brasileirao"
     },
+    "s2-2026-08-23-Ponte-Preta-Avai": {
+      "status": "finished",
+      "placar": "0-2",
+      "golsCasa": 0,
+      "golsFora": 2,
+      "data": "2026-08-23",
+      "comp": "serieb"
+    },
+    "s2-2026-08-23-Sao-Bernardo-Nautico": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-08-23",
+      "comp": "serieb"
+    },
+    "eu-la-liga-2026-08-23-Elche-Barcelona": {
+      "status": "finished",
+      "placar": "0-5",
+      "golsCasa": 0,
+      "golsFora": 5,
+      "data": "2026-08-23",
+      "comp": "la-liga"
+    },
+    "eu-primeira-liga-2026-08-23-Porto-Arouca": {
+      "status": "finished",
+      "placar": "2-0",
+      "golsCasa": 2,
+      "golsFora": 0,
+      "data": "2026-08-23",
+      "comp": "primeira-liga"
+    },
+    "s2-2026-08-23-Operario-PR-Vila-Nova": {
+      "status": "finished",
+      "placar": "0-0",
+      "golsCasa": 0,
+      "golsFora": 0,
+      "data": "2026-08-23",
+      "comp": "serieb"
+    },
     "br-24-Chapecoense-Sao-Paulo": {
       "status": "finished",
       "placar": "1-0",
@@ -1934,6 +2494,14 @@
       "data": "2026-08-23",
       "comp": "brasileirao"
     },
+    "s2-2026-08-23-Criciuma-Fortaleza": {
+      "status": "finished",
+      "placar": "0-2",
+      "golsCasa": 0,
+      "golsFora": 2,
+      "data": "2026-08-23",
+      "comp": "serieb"
+    },
     "br-24-Coritiba-Corinthians": {
       "status": "finished",
       "placar": "2-1",
@@ -1942,6 +2510,54 @@
       "data": "2026-08-23",
       "comp": "brasileirao"
     },
+    "eu-la-liga-2026-08-24-Osasuna-Levante": {
+      "status": "finished",
+      "placar": "0-0",
+      "golsCasa": 0,
+      "golsFora": 0,
+      "data": "2026-08-24",
+      "comp": "la-liga"
+    },
+    "eu-premier-league-2026-08-24-Fulham-Chelsea": {
+      "status": "finished",
+      "placar": "2-3",
+      "golsCasa": 2,
+      "golsFora": 3,
+      "data": "2026-08-24",
+      "comp": "premier-league"
+    },
+    "eu-primeira-liga-2026-08-24-Gil-Vicente-Casa-Pia": {
+      "status": "finished",
+      "placar": "2-0",
+      "golsCasa": 2,
+      "golsFora": 0,
+      "data": "2026-08-24",
+      "comp": "primeira-liga"
+    },
+    "eu-la-liga-2026-08-24-Malaga-Deportivo": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-08-24",
+      "comp": "la-liga"
+    },
+    "s2-2026-08-24-Athletic-PR-Novorizontino": {
+      "status": "finished",
+      "placar": "1-4",
+      "golsCasa": 1,
+      "golsFora": 4,
+      "data": "2026-08-24",
+      "comp": "serieb"
+    },
+    "s2-2026-08-24-Sport-America-MG": {
+      "status": "finished",
+      "placar": "3-0",
+      "golsCasa": 3,
+      "golsFora": 0,
+      "data": "2026-08-24",
+      "comp": "serieb"
+    },
     "br-24-Botafogo-Athletico-PR": {
       "status": "finished",
       "placar": "2-3",
@@ -1949,6 +2565,30 @@
       "golsFora": 3,
       "data": "2026-08-24",
       "comp": "brasileirao"
+    },
+    "eu-la-liga-2026-08-25-Valencia-Real-Betis": {
+      "status": "finished",
+      "placar": "0-1",
+      "golsCasa": 0,
+      "golsFora": 1,
+      "data": "2026-08-25",
+      "comp": "la-liga"
+    },
+    "s2-2026-08-25-Atletico-GO-Botafogo-SP": {
+      "status": "finished",
+      "placar": "3-0",
+      "golsCasa": 3,
+      "golsFora": 0,
+      "data": "2026-08-25",
+      "comp": "serieb"
+    },
+    "s2-2026-08-25-Juventude-CRB": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-08-25",
+      "comp": "serieb"
     },
     "copa-q-cru-cam-ida": {
       "status": "finished",
@@ -1966,6 +2606,14 @@
       "data": "2026-08-25",
       "comp": "libertadores"
     },
+    "eu-la-liga-2026-08-26-Real-Madrid-Real-Sociedad": {
+      "status": "finished",
+      "placar": "4-1",
+      "golsCasa": 4,
+      "golsFora": 1,
+      "data": "2026-08-26",
+      "comp": "la-liga"
+    },
     "copa-q-pal-san-ida": {
       "status": "finished",
       "placar": "3-0",
@@ -1982,6 +2630,22 @@
       "data": "2026-08-26",
       "comp": "copa"
     },
+    "eu-la-liga-2026-08-27-Celta-Osasuna": {
+      "status": "finished",
+      "placar": "1-2",
+      "golsCasa": 1,
+      "golsFora": 2,
+      "data": "2026-08-27",
+      "comp": "la-liga"
+    },
+    "eu-la-liga-2026-08-27-Barcelona-Athletic": {
+      "status": "finished",
+      "placar": "2-0",
+      "golsCasa": 2,
+      "golsFora": 0,
+      "data": "2026-08-27",
+      "comp": "la-liga"
+    },
     "copa-q-int-gre-ida": {
       "status": "finished",
       "placar": "0-0",
@@ -1990,6 +2654,14 @@
       "data": "2026-08-27",
       "comp": "copa"
     },
+    "eu-la-liga-2026-08-28-Racing-Elche": {
+      "status": "finished",
+      "placar": "3-2",
+      "golsCasa": 3,
+      "golsFora": 2,
+      "data": "2026-08-28",
+      "comp": "la-liga"
+    },
     "eu-bundesliga-2026-08-28-Bayern-Munich-VfB-Stuttgart": {
       "status": "finished",
       "placar": "5-1",
@@ -1997,6 +2669,30 @@
       "golsFora": 1,
       "data": "2026-08-28",
       "comp": "bundesliga"
+    },
+    "eu-premier-league-2026-08-28-Crystal-Palace-Manchester-City": {
+      "status": "finished",
+      "placar": "1-4",
+      "golsCasa": 1,
+      "golsFora": 4,
+      "data": "2026-08-28",
+      "comp": "premier-league"
+    },
+    "eu-primeira-liga-2026-08-28-Rio-Ave-Sporting-CP": {
+      "status": "finished",
+      "placar": "0-4",
+      "golsCasa": 0,
+      "golsFora": 4,
+      "data": "2026-08-28",
+      "comp": "primeira-liga"
+    },
+    "eu-la-liga-2026-08-28-Alaves-Villarreal": {
+      "status": "finished",
+      "placar": "1-0",
+      "golsCasa": 1,
+      "golsFora": 0,
+      "data": "2026-08-28",
+      "comp": "la-liga"
     }
   }
 }

@@ -61,14 +61,122 @@ TEAM_ALIASES: dict[str, list[str]] = {
     "novorizontino": ["novorizontino"],
     "athletic-pr": ["athletic", "athletico"],
     "sao-bernardo": ["saobernardo", "sãobernardo"],
-    "bayern-munich": ["bayern", "bayernmunich"],
     "vfb-stuttgart": ["stuttgart"],
-    "racing": ["racing"],
     "elche": ["elche"],
     "alaves": ["alaves", "alavés"],
     "villarreal": ["villarreal"],
     "rio-ave": ["rioave"],
     "sporting-cp": ["sporting", "sportingcp"],
+    "crystal-palace": ["crystalpalace", "palace"],
+    "manchester-united": ["manutd", "manchesterunited"],
+    "manchester-city": ["mancity", "manchestercity"],
+    "tottenham": ["tottenham", "spurs"],
+    "nottingham-forest": ["nottingham", "forest"],
+    "real-madrid": ["realmadrid", "real"],
+    "atletico-madrid": ["atleticomadrid", "atletico", "atléticodemadrid"],
+    "barcelona": ["barcelona", "barça", "barca", "fcbarcelona"],
+    "eintracht-frankfurt": ["frankfurt", "eintracht"],
+    "bayer-leverkusen": ["leverkusen", "bayer"],
+    "borussia-dortmund": ["dortmund", "bvb"],
+    "sc-freiburg": ["freiburg"],
+    "hamburger-sv": ["hamburg", "hsv", "hamburgersv"],
+    "schalke-04": ["schalke"],
+    "sc-paderborn": ["paderborn", "scpaderborn"],
+    "sv-elversberg": ["elversberg", "sv07elversberg"],
+    "bayern-munich": ["bayern", "bayernmunich", "bayernmunique"],
+    "coventry-city": ["coventry"],
+    "hull-city": ["hullcity", "hull"],
+    "ipswich-town": ["ipswich"],
+    "leeds-united": ["leeds"],
+    "aston-villa": ["astonvilla", "villa"],
+    "newcastle-united": ["newcastle"],
+    "rayo-vallecano": ["rayovallecano", "rayo"],
+    "real-betis": ["realbetis", "betis"],
+    "real-sociedad": ["realsociedad"],
+    "athletic": ["athleticbilbao", "athletic"],
+    "celta": ["celtavigo", "celta"],
+    "deportivo": ["deportivo", "deportivoacoruna"],
+    "malaga": ["malaga", "málaga"],
+    "racing": ["racingsantander", "racing"],
+    "levante": ["levante"],
+    "getafe": ["getafe"],
+    "sevilla": ["sevilla"],
+    "valencia": ["valencia"],
+    "espanyol": ["espanyol"],
+    "osasuna": ["osasuna"],
+    "werder-bremen": ["werderbremen", "werder"],
+    "hoffenheim": ["hoffenheim"],
+    "mainz": ["mainz"],
+    "koln": ["koln", "köln", "cologne", "1fckoln"],
+    "union-berlin": ["unionberlin", "union"],
+    "rb-leipzig": ["rbleipzig", "leipzig"],
+    "borussia-mgladbach": ["monchengladbach", "mgladbach", "gladbach"],
+    "augsburg": ["augsburg", "fcaugsburg"],
+    "estoril": ["estoril"],
+    "famalicao": ["famalicao", "famalicão"],
+    "maritimo": ["maritimo", "marítimo", "csmaritimo"],
+    "casa-pia": ["casapia", "casapiaac"],
+    "vitoria-guimaraes": ["vitoriaguimaraes", "guimaraes"],
+    "arouca": ["arouca"],
+    "estrela-amadora": ["estrela", "estreladaamadora"],
+    "porto": ["porto", "fcporto"],
+    "alverca": ["alverca"],
+    "gil-vicente": ["gilvicente"],
+    "moreirense": ["moreirense"],
+    "braga": ["braga", "scbraga"],
+    "benfica": ["benfica"],
+    "academico-viseu": ["viseu", "academicoviseu"],
+    "santa-clara": ["santaclara"],
+    "nacional": ["nacional", "cdnacional"],
+    "athletic-pr": ["athleticclub", "athletic", "athletico"],
+    "atletico-go": ["atleticogo"],
+    "botafogo-sp": ["botafogosp"],
+    "america-mg": ["americamig"],
+    "operario-pr": ["operario", "operário"],
+    "vila-nova": ["vilanova"],
+    "ponte-preta": ["pontepreta"],
+    "avai": ["avai", "avaí"],
+    "criciuma": ["criciuma", "criciúma"],
+    "londrina": ["londrina"],
+    "cuiaba": ["cuiaba", "cuiabá"],
+    "fortaleza": ["fortaleza"],
+    "ceara": ["ceara", "ceará"],
+    "crb": ["crb"],
+    "juventude": ["juventude"],
+}
+
+# Competition IDs on webws.365scores.com (futebol).
+SCORES365_COMPS = {
+    7: "premier-league",
+    11: "la-liga",
+    25: "bundesliga",
+    73: "primeira-liga",
+    113: "brasileirao",
+    116: "serieb",
+    102: "libertadores",
+    115: "copa",
+}
+
+OPENLIGA_TEAM_MAP = {
+    "fc bayern munchen": "Bayern-Munich",
+    "fc bayern münchen": "Bayern-Munich",
+    "vfb stuttgart": "VfB-Stuttgart",
+    "rb leipzig": "RB-Leipzig",
+    "borussia monchengladbach": "Borussia-Mgladbach",
+    "borussia mönchengladbach": "Borussia-Mgladbach",
+    "1 fsv mainz 05": "Mainz",
+    "1 fc koln": "Koln",
+    "1 fc köln": "Koln",
+    "1 fc union berlin": "Union-Berlin",
+    "eintracht frankfurt": "Eintracht-Frankfurt",
+    "bayer 04 leverkusen": "Bayer-Leverkusen",
+    "borussia dortmund": "Borussia-Dortmund",
+    "hamburger sv": "Hamburger-SV",
+    "sc freiburg": "SC-Freiburg",
+    "fc augsburg": "Augsburg",
+    "fc schalke 04": "Schalke-04",
+    "sc paderborn 07": "SC-Paderborn",
+    "sv 07 elversberg": "SV-Elversberg",
 }
 
 
@@ -87,7 +195,7 @@ def save_calendario(updates: dict[str, str]) -> None:
     changed = False
     for g in data.get("jogos", []):
         gid = g.get("id")
-        if gid in updates and not g.get("placar"):
+        if gid in updates and updates[gid] and g.get("placar") != updates[gid]:
             g["placar"] = updates[gid]
             changed = True
     if not changed:
@@ -95,6 +203,180 @@ def save_calendario(updates: dict[str, str]) -> None:
     data.setdefault("meta", {})["atualizadoEm"] = datetime.now(timezone(timedelta(hours=-3))).strftime("%Y-%m-%d")
     text = "window.CALENDARIO_2026 = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\n"
     (DOCS / "calendario.js").write_text(text, encoding="utf-8")
+
+
+def openliga_team_key(name: str) -> str:
+    norm = normalize_team(name.replace("ü", "u").replace("ö", "o").replace("ä", "a").replace("ß", "ss"))
+    for key, val in OPENLIGA_TEAM_MAP.items():
+        if normalize_team(key) == norm or norm in normalize_team(key) or normalize_team(key) in norm:
+            return val
+    return name.replace(" ", "-")
+
+
+def fetch_scores_openligadb(jogos: list, now: datetime) -> dict[str, dict]:
+    url = "https://api.openligadb.de/getmatchdata/bl1/2026"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=25) as resp:
+            events = json.loads(resp.read().decode("utf-8"))
+    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
+        print(f"OpenLigaDB skip: {exc}")
+        return {}
+
+    by_key: dict[str, dict] = {}
+    for g in jogos:
+        if g.get("comp") != "bundesliga" or not g.get("mandante"):
+            continue
+        key = normalize_team(g["mandante"]) + "|" + normalize_team(g["visitante"]) + "|" + g.get("data", "")
+        by_key[key] = g
+
+    out: dict[str, dict] = {}
+    for ev in events:
+        if not ev.get("matchIsFinished"):
+            continue
+        t1 = openliga_team_key(ev.get("team1", {}).get("teamName", ""))
+        t2 = openliga_team_key(ev.get("team2", {}).get("teamName", ""))
+        dt_raw = ev.get("matchDateTime") or ev.get("matchDateTimeUTC") or ""
+        try:
+            dt = datetime.fromisoformat(dt_raw.replace("Z", "+00:00"))
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            local = dt.astimezone(timezone(timedelta(hours=-3)))
+            gdate = local.strftime("%Y-%m-%d")
+        except ValueError:
+            continue
+        results = ev.get("matchResults") or []
+        final = next((r for r in results if r.get("resultTypeKind") == "After90Minutes"), None)
+        if not final:
+            continue
+        hc = int(final.get("pointsTeam1", 0))
+        ac = int(final.get("pointsTeam2", 0))
+        placar = f"{hc}-{ac}"
+        for home, away in ((t1, t2), (t2, t1)):
+            key = normalize_team(home) + "|" + normalize_team(away) + "|" + gdate
+            g = by_key.get(key)
+            if not g:
+                continue
+            if home == t2:
+                placar = f"{ac}-{hc}"
+            out[g["id"]] = {
+                "status": "finished",
+                "placar": placar,
+                "golsCasa": int(placar.split("-")[0]),
+                "golsFora": int(placar.split("-")[1]),
+                "data": gdate,
+                "comp": "bundesliga",
+                "fonte": "openligadb",
+            }
+            print(f"OpenLigaDB: {g['mandante']} x {g['visitante']} ({gdate}) = {placar}")
+            break
+    return out
+
+
+def fetch_json_url(url: str, timeout: int = 30) -> dict:
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": UA,
+            "Accept": "application/json",
+            "Origin": "https://www.365scores.com",
+            "Referer": "https://www.365scores.com/pt-br",
+        },
+    )
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        return json.loads(resp.read().decode("utf-8"))
+
+
+def scores365_date(d: datetime) -> str:
+    return d.strftime("%d/%m/%Y")
+
+
+def fetch_scores365_day(day: datetime) -> list[dict]:
+    ds = scores365_date(day)
+    url = (
+        "https://webws.365scores.com/web/games/"
+        f"?langId=31&timezoneName=America/Sao_Paulo&userCountryId=21"
+        f"&appTypeId=5&sports=1&startDate={ds}&endDate={ds}"
+    )
+    try:
+        data = fetch_json_url(url)
+    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
+        print(f"365scores skip {ds}: {exc}")
+        return []
+    return data.get("games") or []
+
+
+def match_scores365_game(game: dict, events: list[dict]) -> dict | None:
+    gdate = game.get("data") or ""
+    home, away = game.get("mandante") or "", game.get("visitante") or ""
+    if not home or not away:
+        return None
+    for ev in events:
+        start = ev.get("startTime") or ""
+        if not start.startswith(gdate):
+            continue
+        h = (ev.get("homeCompetitor") or {}).get("name") or ""
+        a = (ev.get("awayCompetitor") or {}).get("name") or ""
+        if text_has_team(h, home) and text_has_team(a, away):
+            return ev
+        if text_has_team(h, away) and text_has_team(a, home):
+            return {**ev, "_swapped": True}
+    return None
+
+
+def fetch_scores_from_365scores(jogos: list, now: datetime, days_back: int = 14) -> dict[str, dict]:
+    """Placares via API pública do 365scores.com (webws)."""
+    by_date: dict[str, list] = defaultdict(list)
+    window_start = (now - timedelta(days=days_back)).date()
+    for g in jogos:
+        if not g.get("id") or not g.get("mandante"):
+            continue
+        try:
+            gd = datetime.strptime(g["data"], "%Y-%m-%d").date()
+        except (ValueError, TypeError):
+            continue
+        if gd < window_start or gd > now.date():
+            continue
+        if g.get("placar"):
+            continue
+        by_date[g["data"]].append(g)
+
+    out: dict[str, dict] = {}
+    for gdate, games in sorted(by_date.items()):
+        try:
+            day = datetime.strptime(gdate, "%Y-%m-%d")
+        except ValueError:
+            continue
+        events = [
+            e for e in fetch_scores365_day(day)
+            if e.get("competitionId") in SCORES365_COMPS and e.get("statusGroup") == 4
+        ]
+        if not events:
+            continue
+        for g in games:
+            ev = match_scores365_game(g, events)
+            if not ev:
+                continue
+            home_c = ev.get("homeCompetitor") or {}
+            away_c = ev.get("awayCompetitor") or {}
+            hs, as_ = home_c.get("score"), away_c.get("score")
+            if hs is None or as_ is None or hs < 0 or as_ < 0:
+                continue
+            hc, ac = int(hs), int(as_)
+            if ev.get("_swapped"):
+                hc, ac = ac, hc
+            placar = f"{hc}-{ac}"
+            out[g["id"]] = {
+                "status": "finished",
+                "placar": placar,
+                "golsCasa": hc,
+                "golsFora": ac,
+                "data": gdate,
+                "comp": g.get("comp"),
+                "fonte": "365scores",
+            }
+            print(f"365scores: {g['mandante']} x {g['visitante']} ({gdate}) = {placar}")
+    return out
 
 
 def load_json(path: Path) -> dict:
@@ -440,16 +722,25 @@ def build_scores_map(jogos: list, api_key: str, now: datetime) -> tuple[dict, st
         }
 
     ge_scores = fetch_scores_from_ge(jogos, now)
-    for gid, entry in ge_scores.items():
-        if gid not in out:
-            out[gid] = entry
-            # patch in-memory jogos for stats recalculation
-            for g in jogos:
-                if g.get("id") == gid:
-                    g["placar"] = entry["placar"]
-                    break
-    if ge_scores:
-        fonte = "calendário + ge.globo.com"
+    odb_scores = fetch_scores_openligadb(jogos, now)
+    s365_scores = fetch_scores_from_365scores(jogos, now)
+    for src in (ge_scores, odb_scores, s365_scores):
+        for gid, entry in src.items():
+            if gid not in out:
+                out[gid] = entry
+                for g in jogos:
+                    if g.get("id") == gid:
+                        g["placar"] = entry["placar"]
+                        break
+    if ge_scores or odb_scores or s365_scores:
+        parts = ["calendário"]
+        if ge_scores:
+            parts.append("ge.globo.com")
+        if odb_scores:
+            parts.append("openligadb.de")
+        if s365_scores:
+            parts.append("365scores.com")
+        fonte = " + ".join(parts)
 
     if api_key:
         by_comp: dict[str, list] = defaultdict(list)
@@ -492,9 +783,21 @@ def build_scores_map(jogos: list, api_key: str, now: datetime) -> tuple[dict, st
                     "comp": g.get("comp"),
                     "fonte": "api",
                 }
+                for jg in jogos:
+                    if jg.get("id") == g["id"]:
+                        jg["placar"] = placar
+                        break
                 fetched += 1
         if fetched:
-            fonte = "calendário + ge.globo.com + the-odds-api.com" if ge_scores else "calendário + the-odds-api.com"
+            extra = []
+            if ge_scores:
+                extra.append("ge.globo.com")
+            if odb_scores:
+                extra.append("openligadb.de")
+            if s365_scores:
+                extra.append("365scores.com")
+            extra.append("the-odds-api.com")
+            fonte = "calendário + " + " + ".join(extra)
 
     return out, fonte
 
@@ -558,10 +861,114 @@ def build_team_stats(finished: list[dict]) -> dict[str, dict]:
     return times_patch
 
 
-def merge_football(existing: dict, times_patch: dict, meta: dict) -> dict:
+LEAGUE_COMPS = frozenset({
+    "brasileirao", "serieb", "premier-league", "la-liga", "bundesliga", "primeira-liga",
+})
+
+
+def compute_comp_fases(jogos: list) -> dict[str, str]:
+    by_comp: dict[str, list] = defaultdict(list)
+    for g in jogos:
+        comp = g.get("comp")
+        if comp and g.get("fase"):
+            by_comp[comp].append(g)
+    out: dict[str, str] = {}
+    for comp, games in by_comp.items():
+        upcoming = sorted(
+            [g for g in games if not g.get("placar") and g.get("data")],
+            key=lambda x: (x.get("data") or "", x.get("horario") or ""),
+        )
+        finished = sorted(
+            [g for g in games if g.get("placar")],
+            key=lambda x: (x.get("data") or "", x.get("horario") or ""),
+            reverse=True,
+        )
+        if upcoming:
+            out[comp] = upcoming[0]["fase"]
+        elif finished:
+            out[comp] = finished[0]["fase"]
+    return out
+
+
+def teams_from_calendario(jogos: list) -> dict[str, list[str]]:
+    by_comp: dict[str, set[str]] = defaultdict(set)
+    for g in jogos:
+        comp = g.get("comp")
+        if not comp:
+            continue
+        if g.get("mandante"):
+            by_comp[comp].add(g["mandante"])
+        if g.get("visitante"):
+            by_comp[comp].add(g["visitante"])
+    return {comp: sorted(names) for comp, names in by_comp.items()}
+
+
+def build_standings(finished: list[dict], jogos: list | None = None) -> tuple[dict[str, dict], dict[str, dict]]:
+    table: dict[str, dict[str, dict]] = defaultdict(
+        lambda: defaultdict(lambda: {"j": 0, "v": 0, "e": 0, "d": 0, "gf": 0, "ga": 0, "pts": 0})
+    )
+    for g in finished:
+        comp = g.get("comp")
+        if comp not in LEAGUE_COMPS:
+            continue
+        home, away = g["mandante"], g["visitante"]
+        hc, ac = g["golsCasa"], g["golsFora"]
+        for team, gf, ga in ((home, hc, ac), (away, ac, hc)):
+            row = table[comp][team]
+            row["j"] += 1
+            row["gf"] += gf
+            row["ga"] += ga
+            if gf > ga:
+                row["v"] += 1
+                row["pts"] += 3
+            elif gf == ga:
+                row["e"] += 1
+                row["pts"] += 1
+            else:
+                row["d"] += 1
+
+    team_patch: dict[str, dict] = {}
+    comp_patch: dict[str, dict] = {}
+    for comp, teams in table.items():
+        ranked = sorted(
+            teams.items(),
+            key=lambda x: (-x[1]["pts"], -(x[1]["gf"] - x[1]["ga"]), -x[1]["gf"], x[0]),
+        )
+        times_ativos = []
+        for pos, (team, row) in enumerate(ranked, 1):
+            times_ativos.append(team)
+            team_patch.setdefault(team, {})[comp] = {
+                "posicao": pos,
+                "pontos": row["pts"],
+                "vitorias": row["v"],
+                "empates": row["e"],
+                "derrotas": row["d"],
+                "golsPro": row["gf"],
+                "golsContra": row["ga"],
+            }
+        comp_patch[comp] = {"timesAtivos": times_ativos}
+
+    if jogos:
+        roster = teams_from_calendario(jogos)
+        for comp, names in roster.items():
+            if comp not in LEAGUE_COMPS:
+                continue
+            ranked = comp_patch.get(comp, {}).get("timesAtivos") or []
+            extras = [n for n in names if n not in ranked]
+            comp_patch.setdefault(comp, {})["timesAtivos"] = ranked + extras
+
+    return team_patch, comp_patch
+
+
+def merge_football(existing: dict, times_patch: dict, meta: dict, comp_patch: dict | None = None) -> dict:
     base = existing if existing else {"meta": {}, "times": {}}
     base.setdefault("meta", {})
     base.setdefault("times", {})
+    base.setdefault("competicoes", {})
+    if comp_patch:
+        for comp, patch in comp_patch.items():
+            base["competicoes"].setdefault(comp, {})
+            base["competicoes"][comp].update(patch)
     for team, patch in times_patch.items():
         if team not in base["times"]:
             base["times"][team] = {}
@@ -587,21 +994,34 @@ def main():
 
     scores, fonte_scores = build_scores_map(jogos, api_key, now)
 
-    ge_updates = {gid: e["placar"] for gid, e in scores.items() if e.get("fonte") == "ge"}
-    if ge_updates:
-        save_calendario(ge_updates)
+    cal_updates = {
+        gid: e["placar"]
+        for gid, e in scores.items()
+        if e.get("placar") and e.get("fonte") in ("ge", "api", "openligadb", "365scores")
+    }
+    if cal_updates:
+        save_calendario(cal_updates)
+        jogos = load_calendario()
     finished = collect_finished_games(jogos, scores)
     times_patch = build_team_stats(finished)
+    standings_patch, standings_comp = build_standings(finished, jogos)
+    for team, comps in standings_patch.items():
+        times_patch.setdefault(team, {}).update(comps)
+
+    fases = compute_comp_fases(jogos)
+    comp_meta_patch = dict(standings_comp)
+    for comp, fase in fases.items():
+        comp_meta_patch.setdefault(comp, {})["fase"] = fase
 
     existing_foot = load_json(LIVE / "football.json")
     meta = {
         "atualizadoEm": now.strftime("%Y-%m-%dT%H:%M:%S-03:00"),
-        "fonte": "resultados + recálculo estatístico",
+        "fonte": "resultados + recálculo estatístico + classificação",
         "jogosFinalizados": len(finished),
         "timesAtualizados": len(times_patch),
         "placaresFonte": fonte_scores,
     }
-    football = merge_football(existing_foot, times_patch, meta)
+    football = merge_football(existing_foot, times_patch, meta, comp_meta_patch)
 
     scores_payload = {
         "meta": {

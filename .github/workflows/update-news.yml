@@ -17,6 +17,9 @@ jobs:
       - name: Buscar notícias do ge.globo.com
         run: python3 "Cursor - Bet das Apostas/scripts/fetch-ge-news.py"
 
+      - name: Sincronizar calendários europeus
+        run: python3 "Cursor - Bet das Apostas/scripts/sync-league-calendars.py"
+
       - name: Atualizar placares e estatísticas dos jogos finalizados
         run: python3 "Cursor - Bet das Apostas/scripts/update-from-results.py"
 
@@ -30,7 +33,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add "Cursor - Bet das Apostas/docs/live/news.json" \
+          git add "Cursor - Bet das Apostas/docs/calendario.js" \
+                  "Cursor - Bet das Apostas/docs/live/news.json" \
                   "Cursor - Bet das Apostas/docs/live/intel.json" \
                   "Cursor - Bet das Apostas/docs/live/odds.json" \
                   "Cursor - Bet das Apostas/docs/live/scores.json" \
@@ -47,6 +51,7 @@ jobs:
 
       - name: Publicar em gh-pages
         run: |
+          cp "Cursor - Bet das Apostas/docs/calendario.js" calendario.js.tmp
           cp "Cursor - Bet das Apostas/docs/live/news.json" news.json.tmp
           cp "Cursor - Bet das Apostas/docs/live/intel.json" intel.json.tmp
           cp "Cursor - Bet das Apostas/docs/live/odds.json" odds.json.tmp
@@ -55,6 +60,7 @@ jobs:
           cp "Cursor - Bet das Apostas/docs/live/football.json" football.json.tmp
           git fetch origin gh-pages
           git checkout gh-pages
+          mv calendario.js.tmp calendario.js
           mkdir -p live
           mv news.json.tmp live/news.json
           mv intel.json.tmp live/intel.json
@@ -62,6 +68,6 @@ jobs:
           mv scores.json.tmp live/scores.json
           mv results.json.tmp live/results.json
           mv football.json.tmp live/football.json
-          git add live/news.json live/intel.json live/odds.json live/scores.json live/results.json live/football.json
+          git add calendario.js live/news.json live/intel.json live/odds.json live/scores.json live/results.json live/football.json
           git diff --staged --quiet || git commit -m "chore: atualizar resultados, estatísticas e dados ao vivo"
           git push origin gh-pages
