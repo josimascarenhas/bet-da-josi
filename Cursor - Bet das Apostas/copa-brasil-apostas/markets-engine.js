@@ -210,6 +210,7 @@
     }
 
     var pHome = 0, pDraw = 0, pAway = 0, pBtts = 0, pOver25 = 0, pOver15 = 0, pOver35 = 0, pOver05 = 0;
+    var pHomeWin2Plus = 0, pAwayWin2Plus = 0, pHomeEhPlus1 = 0, pAwayEhPlus1 = 0;
     var maxG = 8;
     var i, j, p, totalProb = 0;
     var csMap = {};
@@ -226,6 +227,11 @@
         if (tg >= 2) pOver15 += p;
         if (tg >= 3) pOver25 += p;
         if (tg >= 4) pOver35 += p;
+        var diff = i - j;
+        if (diff >= 2) pHomeWin2Plus += p;
+        if (diff <= -2) pAwayWin2Plus += p;
+        if (diff >= -1) pHomeEhPlus1 += p;
+        if (diff <= 1) pAwayEhPlus1 += p;
         if (i <= 3 && j <= 3) {
           var key = i + "-" + j;
           csMap[key] = (csMap[key] || 0) + p;
@@ -272,6 +278,49 @@
     var over45Cart = poissonOver(cartTotal, 4.5);
     var over35Cart = poissonOver(cartTotal, 3.5);
 
+    var sotHome = (t.chutesNoGolPorJogo || (liga.mediaChutesNoGol || 8.5) / 2);
+    var sotAway = (a.chutesNoGolPorJogo || (liga.mediaChutesNoGol || 8.5) / 2);
+    var sotTotal = sotHome + sotAway;
+    var finTotal = sotTotal * 2.55;
+    var teamSot = home ? sotHome : sotAway;
+    var advSot = home ? sotAway : sotHome;
+    var over75Sot = poissonOver(sotTotal, 7.5);
+    var over85Sot = poissonOver(sotTotal, 8.5);
+    var over95Sot = poissonOver(sotTotal, 9.5);
+    var over225Fin = poissonOver(finTotal, 22.5);
+    var over245Fin = poissonOver(finTotal, 24.5);
+    var over265Fin = poissonOver(finTotal, 26.5);
+    var over35TeamSot = poissonOver(teamSot, 3.5);
+    var over45TeamSot = poissonOver(teamSot, 4.5);
+    var over25AdvSot = poissonOver(advSot, 2.5);
+
+    var ehHomeM1 = clamp(round0(pHomeWin2Plus / totalProb * 100), 10, 58);
+    var ehAwayM1 = clamp(round0(pAwayWin2Plus / totalProb * 100), 10, 58);
+    var ehHomeP1 = clamp(round0(pHomeEhPlus1 / totalProb * 100), 42, 90);
+    var ehAwayP1 = clamp(round0(pAwayEhPlus1 / totalProb * 100), 42, 90);
+    var ehTeamM1 = home ? ehHomeM1 : ehAwayM1;
+    var ehTeamP1 = home ? ehHomeP1 : ehAwayP1;
+    var ehAdvM1 = home ? ehAwayM1 : ehHomeM1;
+    var ehAdvP1 = home ? ehAwayP1 : ehHomeP1;
+
+    function scorerLambda(stats, expG, desfalques) {
+      var share = clamp((stats.golsPorJogo || stats.xGporJogo || 1.1) * 0.34, 0.2, 0.5);
+      var pen = 0;
+      (desfalques || []).forEach(function (d) {
+        if (d.impacto === "alto") pen += 0.28;
+        else if (d.impacto === "medio") pen += 0.12;
+      });
+      return Math.max(0.12, expG * share * (1 - Math.min(pen, 0.45)));
+    }
+    function playerSotLambda(sot) { return clamp(sot * 0.38, 0.8, 4.2); }
+    var lamScorerTeam = scorerLambda(home ? t : a, expTeam, home ? ctx.teamDesfalques : ctx.advDesfalques);
+    var lamScorerAdv = scorerLambda(home ? a : t, expAdv, home ? ctx.advDesfalques : ctx.teamDesfalques);
+    var pScorerTeam = clamp(round0((1 - Math.exp(-lamScorerTeam)) * 100), 14, 68);
+    var pScorerAdv = clamp(round0((1 - Math.exp(-lamScorerAdv)) * 100), 14, 68);
+    var pSot1Team = poissonOver(playerSotLambda(teamSot), 0.5);
+    var pSot2Team = poissonOver(playerSotLambda(teamSot), 1.5);
+    var pSot1Adv = poissonOver(playerSotLambda(advSot), 0.5);
+
     var ahFav = teamWin >= teamLose;
     var ahProb = clamp(teamWin + (ahFav ? -3 : 5), 30, 74);
     var ahMinus1 = clamp(teamWin - 16, 14, 55);
@@ -308,9 +357,30 @@
     add("Gols", "Over 2.5", over25, "Linha principal O/U");
     add("Gols", "Under 2.5", under25, "P(total<=2)");
     add("Gols", "Over 3.5", over35, "P(total>=4)");
-    add("Handicap Asiatico", ctx.teamLabel + " " + (ahFav ? "-0.5" : "+0.5"), ahProb, "Derivado do 1X2");
-    add("Handicap Asiatico", ctx.teamLabel + " " + (ahFav ? "-1.0" : "+1.0"), ahMinus1, "AH alternativo");
+    add("Handicap Asiatico", ctx.teamLabel + " " + (ahFav ? "-0.5" : "+0.5"), ahProb, "Derivado do 1X2 · lambda " + expTeam.toFixed(2));
+    add("Handicap Asiatico", ctx.teamLabel + " " + (ahFav ? "-1.0" : "+1.0"), ahMinus1, "AH alternativo · margem esperada");
+    add("Handicap Asiatico", ctx.teamLabel + " " + (ahFav ? "-1.5" : "+1.5"), clamp(ahMinus1 - 8, 10, 48), "Linha agressiva para favorito");
+    add("Handicap Europeu", ctx.mandanteLabel + " -1", ehHomeM1, "Vence por 2+ gols (matriz Poisson)");
+    add("Handicap Europeu", ctx.mandanteLabel + " +1", ehHomeP1, "Nao perde por 2+ gols");
+    add("Handicap Europeu", ctx.visitanteLabel + " -1", ehAwayM1, "Visitante vence por 2+ gols");
+    add("Handicap Europeu", ctx.visitanteLabel + " +1", ehAwayP1, "Visitante nao perde por 2+");
+    add("Handicap Europeu", ctx.teamLabel + " -1", ehTeamM1, "Foco do time analisado · EH -1");
+    add("Handicap Europeu", ctx.teamLabel + " +1", ehTeamP1, "Foco do time analisado · EH +1");
     add("Empate Anula", "DNB " + ctx.teamLabel, dnbWin, "Condicional sem empate");
+    add("Chutes ao Gol", "Over 7.5", over75Sot, "Poisson SOT total=" + sotTotal.toFixed(1));
+    add("Chutes ao Gol", "Over 8.5", over85Sot, "Media " + sotHome.toFixed(1) + " + " + sotAway.toFixed(1));
+    add("Chutes ao Gol", "Over 9.5", over95Sot, "Linha alta de chutes no gol");
+    add("Chutes ao Gol", ctx.teamLabel + " Over 3.5", over35TeamSot, "SOT do time=" + teamSot.toFixed(1));
+    add("Chutes ao Gol", ctx.teamLabel + " Over 4.5", over45TeamSot, "Pressao ofensiva do foco");
+    add("Chutes ao Gol", (home ? ctx.visitanteLabel : ctx.mandanteLabel) + " Over 2.5", over25AdvSot, "SOT adversario=" + advSot.toFixed(1));
+    add("Finalizacoes", "Over 22.5", over225Fin, "Estimativa finalizacoes=" + finTotal.toFixed(1));
+    add("Finalizacoes", "Over 24.5", over245Fin, "Ratio SOT x2.55 + volume ofensivo");
+    add("Finalizacoes", "Over 26.5", over265Fin, "Linha alta de chutes totais");
+    add("Jogador", ctx.teamLabel + " artilheiro marca", pScorerTeam, "lambda atacante=" + lamScorerTeam.toFixed(2) + " · xG/time");
+    add("Jogador", ctx.teamLabel + " artilheiro 1+ chute no gol", pSot1Team, "SOT esperado atacante=" + playerSotLambda(teamSot).toFixed(1));
+    add("Jogador", ctx.teamLabel + " artilheiro 2+ chutes no gol", pSot2Team, "Volume ofensivo do principal finalizador");
+    add("Jogador", (home ? ctx.visitanteLabel : ctx.mandanteLabel) + " artilheiro marca", pScorerAdv, "lambda atacante=" + lamScorerAdv.toFixed(2));
+    add("Jogador", (home ? ctx.visitanteLabel : ctx.mandanteLabel) + " artilheiro 1+ chute no gol", pSot1Adv, "SOT adversario principal");
     add("Escanteios", "Over 8.5", over85Esc, "Poisson esc. lambda=" + escExp.toFixed(1));
     add("Escanteios", "Over 9.5", over95Esc, "Linha classica");
     add("Escanteios", "Over 10.5", over105Esc, "Pressao ofensiva");
@@ -337,7 +407,9 @@
       return true;
     }
     var top = markets.filter(isUseful).filter(function (m) {
-      return ["Resultado Final", "Ambas Marcam", "Gols", "Handicap Asiatico", "Empate Anula", "Escanteios", "Cartoes", "Classificacao"].indexOf(m.grupo) >= 0;
+      return ["Resultado Final", "Ambas Marcam", "Gols", "Handicap Asiatico", "Handicap Europeu",
+        "Empate Anula", "Escanteios", "Cartoes", "Chutes ao Gol", "Finalizacoes", "Jogador",
+        "Classificacao"].indexOf(m.grupo) >= 0;
     }).slice(0, 6);
     if (top.length < 3) top = markets.filter(function (m) { return m.prob >= 52 && m.prob <= 74; }).slice(0, 5);
 

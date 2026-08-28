@@ -867,13 +867,15 @@
     if (/Empate|\(1\)|\(2\)|\(X\)/.test(mercado)) return "resultado";
     if (/Escanteio|Corner/i.test(mercado)) return "escanteios";
     if (/Cart/i.test(mercado)) return "cartoes";
+    if (/chute no gol|Chutes ao Gol|Finalizac/i.test(mercado)) return "chutes";
+    if (/artilheiro|Jogador/i.test(mercado)) return "jogador";
+    if (/Handicap|DNB/.test(mercado)) return "handicap";
     if (/Over|Under|BTTS|Sim|Nao/.test(mercado)) return "gols";
     return "outros";
   }
 
   function pickScore(p) {
-    var edge = p.market.valueEdge || 0;
-    return p.market.prob + (p.market.hasValue ? 8 : 0) + edge * 0.6;
+    return p.market.prob;
   }
 
   function buildFootballContext(g, team, adv, comp) {
@@ -1507,7 +1509,7 @@
         picks.push({ game: g, market: m, groupKey: marketGroupKey(m.mercado) });
       });
     });
-    return picks.sort(function (a, b) { return pickScore(b) - pickScore(a); });
+    return picks.sort(function (a, b) { return b.market.prob - a.market.prob; });
   }
 
   function buildCombinada(picks) {
@@ -1515,12 +1517,7 @@
     var legs = picks.map(function (p) {
       if (!p.groupKey) p.groupKey = marketGroupKey(p.market.mercado);
       return p;
-    }).sort(function (a, b) {
-      var ta = (a.game.horario || "") + a.game.id;
-      var tb = (b.game.horario || "") + b.game.id;
-      if (ta !== tb) return ta.localeCompare(tb);
-      return pickScore(b) - pickScore(a);
-    });
+    }).sort(function (a, b) { return b.market.prob - a.market.prob; });
 
     var combinedProb = legs.reduce(function (acc, leg) {
       return acc * (leg.market.prob / 100);
@@ -1688,7 +1685,7 @@
 
     if (combi && combi.legs.length) {
       combEl.innerHTML = '<h3>Combinada inteligente \u2014 ' + combi.legs.length +
-        " mercados \u2265" + diaProbMin + "% (todos os mercados do filtro)</h3>" +
+        " mercados \u2265" + diaProbMin + "% (ordenados da maior para menor prob.)</h3>" +
         (combiStatus
           ? '<div class="dia-combi-status-bar ' + combiStatus.cls + '">' + esc(combiStatus.text) + "</div>"
           : "") +
@@ -1744,7 +1741,8 @@
         return '<div class="dia-game-block" data-game-id="' + g.id + '">' + head +
           '<div class="dia-picks"><div class="empty">' + esc(note) + "</div></div></div>";
       }
-      var rows = entry.markets.slice(0, 8).map(formatMarketRow).join("");
+      var rows = entry.markets.sort(function (a, b) { return b.prob - a.prob; })
+        .slice(0, 12).map(formatMarketRow).join("");
       return '<div class="dia-game-block" data-game-id="' + g.id + '">' + head +
         '<div class="dia-picks">' + rows + "</div></div>";
     }).join("") +
