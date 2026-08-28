@@ -409,6 +409,16 @@ tr.selected-row td { background: #d9f0e4; font-weight: 600; }
 .empty { text-align: center; padding: 2rem 1rem; color: var(--muted); font-size: 0.875rem; }
 
 /* Jogos do Dia */
+.dia-top-combinada {
+  background: linear-gradient(135deg, #1a237e 0%, #0b7a4b 55%, #f9a825 100%);
+  color: #fff; border-radius: var(--radius); padding: 1.1rem 1.2rem; margin-bottom: 1rem;
+  box-shadow: 0 8px 28px rgba(26, 35, 126, 0.22);
+}
+.dia-top-combinada h3 { font-size: 0.95rem; margin-bottom: 0.7rem; font-weight: 800; letter-spacing: 0.01em; }
+.dia-top-empty {
+  text-align: center; padding: 0.85rem; font-size: 0.82rem; opacity: 0.92;
+  background: rgba(255,255,255,0.1); border-radius: 8px;
+}
 .dia-panel .panel-head { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 1rem; }
 .dia-date-strip {
   display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 1rem;

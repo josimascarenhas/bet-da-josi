@@ -1,8 +1,8 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-28T17:41:00-03:00",
-    "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 247,
+    "atualizadoEm": "2026-08-28T18:14:02-03:00",
+    "fonte": "resultados + recálculo estatístico",
+    "jogosFinalizados": 248,
     "timesAtualizados": 26,
     "placaresFonte": "calendário"
   },
@@ -1449,8 +1449,23 @@
         "xGSporJogo": 1.18
       },
       "copa": {
-        "xGporJogo": 1.07,
-        "xGSporJogo": 1.07
+        "xGporJogo": 0.3,
+        "xGSporJogo": 0.3,
+        "jogos": 1,
+        "golsPorJogo": 0.0,
+        "golsSofridosPorJogo": 0.0,
+        "over25Pct": 0,
+        "bttsPct": 0,
+        "cleanSheetPct": 100,
+        "ultimos5": [
+          "E 0-0"
+        ],
+        "sequencia": "1E",
+        "fora": {
+          "j": 1,
+          "gpg": 0.0,
+          "gsg": 0.0
+        }
       },
       "premier-league": {
         "xGporJogo": 1.43,
@@ -1544,8 +1559,23 @@
         "xGSporJogo": 1.18
       },
       "copa": {
-        "xGporJogo": 1.07,
-        "xGSporJogo": 1.07
+        "xGporJogo": 0.3,
+        "xGSporJogo": 0.3,
+        "jogos": 1,
+        "golsPorJogo": 0.0,
+        "golsSofridosPorJogo": 0.0,
+        "over25Pct": 0,
+        "bttsPct": 0,
+        "cleanSheetPct": 100,
+        "ultimos5": [
+          "E 0-0 GRE"
+        ],
+        "sequencia": "1E",
+        "casa": {
+          "j": 1,
+          "gpg": 0.0,
+          "gsg": 0.0
+        }
       },
       "premier-league": {
         "xGporJogo": 1.43,
@@ -1618,8 +1648,8 @@
         "xGSporJogo": 1.11
       },
       "libertadores": {
-        "xGporJogo": 1.34,
-        "xGSporJogo": 1.16,
+        "xGporJogo": 0.33,
+        "xGSporJogo": 0.33,
         "escanteiosPorJogo": 5.5,
         "cartoesPorJogo": 2.6,
         "jogos": 1,

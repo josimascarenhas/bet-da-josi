@@ -97,7 +97,7 @@ window.BET_DATA = {
     { id: "pal-san", mandante: "Palmeiras", visitante: "Santos", ida: "2026-08-26", volta: "2026-09-02", horario: "21:30", estadioIda: "Nubank Parque", estadioVolta: "Vila Belmiro", placarIda: "3-0" },
     { id: "vas-vit", mandante: "Vasco", visitante: "Vitoria", ida: "2026-08-26", volta: "2026-09-02", horario: "21:30", estadioIda: "Sao Januario", estadioVolta: "Barradao", placarIda: "1-0" },
     { id: "cru-cam", mandante: "Cruzeiro", visitante: "Atletico-MG", ida: "2026-08-25", volta: "2026-09-01", horario: "21:00", estadioIda: "Mineirao", estadioVolta: "Arena MRV", placarIda: "1-1" },
-    { id: "int-gre", mandante: "Internacional", visitante: "Gremio", ida: "2026-08-27", volta: "2026-09-03", horario: "20:00", estadioIda: "Beira-Rio", estadioVolta: "Arena do Gremio", placarIda: null }
+    { id: "int-gre", mandante: "Internacional", visitante: "Gremio", ida: "2026-08-27", volta: "2026-09-03", horario: "20:00", estadioIda: "Beira-Rio", estadioVolta: "Arena do Gremio", placarIda: "0-0" }
   ],
 
   brasileiraoR25: [

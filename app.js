@@ -305,7 +305,7 @@
   function getDiaDateRange() {
     var dates = [];
     var i;
-    for (i = 0; i <= 7; i++) dates.push(addDaysISO(todayISO, i));
+    for (i = -7; i <= 7; i++) dates.push(addDaysISO(todayISO, i));
     return dates;
   }
 
@@ -1031,8 +1031,10 @@
       if (iso === selectedDate) classes.push("is-selected");
       if (count > 0) {
         classes.push("has-games");
-        var allDone = dayGames.every(function (g) { return g.placar != null || (!g.mandante && !g.jogador1); });
-        if (allDone && dayGames.some(function (g) { return g.placar; })) classes.push("is-past");
+        var allDone = dayGames.every(function (g) {
+          return isGameFinished(g) || (!g.mandante && !g.jogador1);
+        });
+        if (allDone && dayGames.some(function (g) { return isGameFinished(g); })) classes.push("is-past");
         else if (iso > todayISO) classes.push("is-future");
         if (dayGames.some(function (g) {
           return g.comp === "copa" || g.comp === "libertadores" || g.comp === "usopen" || g.comp === "ppv" || g.comp === "noche";
@@ -1085,16 +1087,23 @@
           badgeLabel + "</span> " + (g.fase || "") + (g.superficie ? " \u00b7 " + g.superficie : "") + "</div>" +
           '<div class="day-game-tbd-msg">' + (g.nota || "Chave a definir") + "</div></div>";
       }
-      var status = g.placar
-        ? '<span class="day-score">' + String(g.placar).replace(/-/g, " \u00d7 ") + "</span>"
-        : '<span class="day-kick">' + (g.horario || "") + "</span>";
-      var cls = g.placar ? "played" : (g.data === todayISO ? "live-day" : "upcoming");
+      var finished = isGameFinished(g);
+      var live = getLiveState(g);
+      var scoreTxt = live && (live.golsCasa != null || live.placar)
+        ? String(live.golsCasa != null ? live.golsCasa + "-" + live.golsFora : live.placar).replace(/-/g, " \u00d7 ")
+        : "";
+      var status = finished && scoreTxt
+        ? '<span class="day-score">' + esc(scoreTxt) + "</span>"
+        : (live && live.status === "live" && scoreTxt
+          ? '<span class="day-score live">' + esc(scoreTxt) + "</span>"
+          : '<span class="day-kick">' + (g.horario || "") + "</span>");
+      var cls = finished ? "played" : (live && live.status === "live" ? "live-day" : (g.data === todayISO ? "live-day" : "upcoming"));
       return '<button type="button" class="day-game ' + cls + '" data-id="' + g.id + '">' +
         '<div class="day-game-meta"><span class="comp-badge comp-' + badgeClass + '">' +
         badgeLabel + "</span><span>" + (g.fase || "") + (g.superficie ? " \u00b7 " + g.superficie : "") + "</span></div>" +
         '<div class="day-game-row"><span class="day-team">' + sides.aL + "</span>" + status +
         '<span class="day-team right">' + sides.bL + "</span></div>" +
-        (g.placar ? "" : '<div class="day-game-cta">Abrir an\u00e1lise \u2192</div>') +
+        (finished ? "" : '<div class="day-game-cta">Abrir an\u00e1lise \u2192</div>') +
         "</button>";
     }).join("");
 
@@ -1500,16 +1509,27 @@
     });
   }
 
-  function collectDayPicks(minProb, valueOnly, dateISO) {
-    var picks = [];
+  function filterDayMarket(m, minProb, valueOnly, skipObvious) {
     var skipGroups = ["Placar Exato", "Contexto"];
+    if (m.prob < minProb || skipGroups.indexOf(m.grupo) >= 0) return false;
+    if (skipObvious && /Over 0\.5|Under 0\.5/.test(m.mercado)) return false;
+    if (valueOnly && !m.hasValue) return false;
+    return true;
+  }
+
+  function marketsForGame(g, minProb, valueOnly, skipObvious) {
+    var an = analyzeFootballGame(g, g.mandante);
+    if (an.insuficientes) return [];
+    return (an.markets || []).filter(function (m) {
+      return filterDayMarket(m, minProb, valueOnly, skipObvious);
+    }).sort(function (a, b) { return b.prob - a.prob; });
+  }
+
+  function collectDayPicks(minProb, valueOnly, dateISO, skipObvious) {
+    if (skipObvious == null) skipObvious = true;
+    var picks = [];
     gamesDiaFootballOpen(dateISO || diaSelectedDate || todayISO).forEach(function (g) {
-      var an = analyzeFootballGame(g, g.mandante);
-      if (an.insuficientes) return;
-      (an.markets || []).forEach(function (m) {
-        if (m.prob < minProb || skipGroups.indexOf(m.grupo) >= 0) return;
-        if (/Over 0\.5|Under 0\.5/.test(m.mercado)) return;
-        if (valueOnly && !m.hasValue) return;
+      marketsForGame(g, minProb, valueOnly, skipObvious).forEach(function (m) {
         picks.push({ game: g, market: m, groupKey: marketGroupKey(m.mercado) });
       });
     });
@@ -1537,6 +1557,29 @@
       combinedOdd: combinedOdd,
       combinedBookOdd: combinedBookOdd
     };
+  }
+
+  function buildTop4Combinada(dateISO, minProb, valueOnly) {
+    var thresholds = [minProb, 60];
+    var legs = [];
+    var i;
+    for (i = 0; i < thresholds.length && legs.length < 4; i++) {
+      var th = thresholds[i];
+      var candidates = [];
+      gamesDiaFootballOpen(dateISO).forEach(function (g) {
+        var mkts = marketsForGame(g, th, valueOnly, true);
+        if (mkts.length) {
+          candidates.push({
+            game: g,
+            market: mkts[0],
+            groupKey: marketGroupKey(mkts[0].mercado)
+          });
+        }
+      });
+      candidates.sort(function (a, b) { return b.market.prob - a.market.prob; });
+      legs = candidates.slice(0, 4);
+    }
+    return buildCombinada(legs);
   }
 
   function round2(n) { return Math.round(n * 100) / 100; }
@@ -1573,16 +1616,18 @@
       "</div>";
   }
 
-  function renderCombiLeg(leg, idx, settle) {
+  function renderCombiLeg(leg, idx, settle, detailPrefix) {
+    detailPrefix = detailPrefix || "diaCombiDetail";
     var g = leg.game;
     var val = leg.market.hasValue ? ' <span class="dia-value-badge dia-value-badge-light">Valor</span>' : "";
     var scoreNote = liveScoreLabel(g);
     var settleBadge = settle
       ? '<span class="dia-combi-settle-badge ' + settle.cls + '">' + esc(settle.text) + "</span>"
       : "";
+    var detailId = detailPrefix + idx;
     return '<div class="dia-combi-leg-wrap">' +
       '<button type="button" class="dia-combi-leg' + (settle && settle.cls ? " " + settle.cls : "") +
-      '" data-leg-idx="' + idx + '" aria-expanded="false">' +
+      '" data-leg-idx="' + idx + '" data-detail-id="' + detailId + '" aria-expanded="false">' +
       '<span class="comp-badge comp-' + g.comp + '">' + compDisplayName(g.comp, g) + "</span>" +
       '<span class="dia-combi-match">' + label(g.mandante) + " x " + label(g.visitante) + "</span>" +
       '<span class="dia-combi-market-preview">' + esc(leg.market.mercado) + val + "</span>" +
@@ -1591,7 +1636,7 @@
       '<span class="prob">' + leg.market.prob + "%</span>" +
       '<span class="dia-combi-chevron" aria-hidden="true">\u25b8</span>' +
       "</button>" +
-      '<div class="dia-combi-detail" id="diaCombiDetail' + idx + '" hidden>' +
+      '<div class="dia-combi-detail" id="' + detailId + '" hidden>' +
       formatCombiLegDetail(leg, settle) +
       "</div></div>";
   }
@@ -1600,8 +1645,8 @@
     if (!container) return;
     container.querySelectorAll(".dia-combi-leg").forEach(function (btn) {
       btn.onclick = function () {
-        var idx = Number(btn.getAttribute("data-leg-idx"));
-        var detail = document.getElementById("diaCombiDetail" + idx);
+        var detailId = btn.getAttribute("data-detail-id");
+        var detail = detailId ? document.getElementById(detailId) : null;
         if (!detail) return;
         var isOpen = !detail.hidden;
         container.querySelectorAll(".dia-combi-detail").forEach(function (d) { d.hidden = true; });
@@ -1644,15 +1689,46 @@
       '<span class="book">' + book + "</span>" + edge + "</div>";
   }
 
-  function renderCombiLegWithSettle(leg, idx) {
+  function renderCombiLegWithSettle(leg, idx, detailPrefix) {
     var settle = diaSelectedDate === todayISO
       ? settleMarket(leg.market.mercado, leg.game, leg.market.grupo)
       : null;
-    return renderCombiLeg(leg, idx, settle);
+    return renderCombiLeg(leg, idx, settle, detailPrefix);
+  }
+
+  function renderCombinadaBlock(el, combi, opts) {
+    if (!el) return;
+    opts = opts || {};
+    var detailPrefix = opts.detailPrefix || "diaCombiDetail";
+    var title = opts.title || "Combinada inteligente";
+    var combiStatus = opts.showSettle && combi && diaSelectedDate === todayISO
+      ? combinadaSettlement(combi.legs)
+      : null;
+    if (!combi || !combi.legs.length) {
+      el.innerHTML = opts.emptyHtml || "";
+      return;
+    }
+    el.innerHTML = '<h3>' + title + "</h3>" +
+      (combiStatus
+        ? '<div class="dia-combi-status-bar ' + combiStatus.cls + '">' + esc(combiStatus.text) + "</div>"
+        : "") +
+      '<div class="dia-combi-legs' + (opts.compact ? "" : " dia-combi-legs-all") + '">' +
+      combi.legs.map(function (leg, idx) {
+        return renderCombiLegWithSettle(leg, idx, detailPrefix);
+      }).join("") +
+      "</div>" +
+      '<div class="dia-combi-summary"><span>Jogos: <strong>' + combi.legs.length + "</strong></span>" +
+      '<span>Prob. combinada: <strong>' + combi.combinedProb +
+      "%</strong></span><span>Odd modelo: <strong>" + combi.combinedOdd.toFixed(2) + "</strong></span>" +
+      (combi.combinedBookOdd
+        ? '<span>Odd mercado: <strong>' + combi.combinedBookOdd.toFixed(2) + "</strong></span>"
+        : "") + "</div>";
+    bindCombiLegClicks(el);
   }
 
   function renderDia() {
     var sub = document.getElementById("diaSub");
+    var topCombEl = document.getElementById("diaTopCombinada");
     var combEl = document.getElementById("diaCombinada");
     var body = document.getElementById("diaPicksBody");
     if (!body) return;
@@ -1669,6 +1745,7 @@
 
     if (sport !== "futebol") {
       sub.textContent = "Selecione Futebol para ver os jogos do dia.";
+      if (topCombEl) topCombEl.innerHTML = "";
       combEl.innerHTML = "";
       body.innerHTML = '<div class="empty">Aba dispon\u00edvel apenas para futebol.</div>';
       return;
@@ -1683,26 +1760,26 @@
       " \u00b7 " + allGames.length + " jogos \u00b7 " + openCount + " em aberto \u00b7 filtro \u2265" +
       diaProbMin + "%" + filterNote + liveNote;
 
-    var picks = collectDayPicks(diaProbMin, diaValueOnly, diaSelectedDate);
-    var combi = buildCombinada(picks);
-    var combiStatus = combi && diaSelectedDate === todayISO ? combinadaSettlement(combi.legs) : null;
+    var top4 = buildTop4Combinada(diaSelectedDate, diaProbMin, diaValueOnly);
+    renderCombinadaBlock(topCombEl, top4, {
+      detailPrefix: "diaTopCombiDetail",
+      title: "\u26a1 Combinada Top 4 \u2014 " + fmtData(diaSelectedDate) +
+        " \u00b7 4 jogos com maiores probabilidades",
+      compact: true,
+      showSettle: true,
+      emptyHtml: '<div class="dia-top-empty">Sem 4 jogos em aberto com mercados fortes nesta data.</div>'
+    });
 
+    var combiPicks = collectDayPicks(diaProbMin, diaValueOnly, diaSelectedDate, true);
+    var displayPicks = collectDayPicks(diaProbMin, diaValueOnly, diaSelectedDate, false);
+    var combi = buildCombinada(combiPicks);
     if (combi && combi.legs.length) {
-      combEl.innerHTML = '<h3>Combinada inteligente \u2014 ' + combi.legs.length +
-        " mercados \u2265" + diaProbMin + "% (ordenados da maior para menor prob.)</h3>" +
-        (combiStatus
-          ? '<div class="dia-combi-status-bar ' + combiStatus.cls + '">' + esc(combiStatus.text) + "</div>"
-          : "") +
-        '<div class="dia-combi-legs dia-combi-legs-all">' +
-        combi.legs.map(function (leg, idx) { return renderCombiLegWithSettle(leg, idx); }).join("") +
-        "</div>" +
-        '<div class="dia-combi-summary"><span>Mercados: <strong>' + combi.legs.length + "</strong></span>" +
-        '<span>Prob. combinada: <strong>' + combi.combinedProb +
-        "%</strong></span><span>Odd modelo: <strong>" + combi.combinedOdd.toFixed(2) + "</strong></span>" +
-        (combi.combinedBookOdd
-          ? '<span>Odd mercado: <strong>' + combi.combinedBookOdd.toFixed(2) + "</strong></span>"
-          : "") + "</div>";
-      bindCombiLegClicks(combEl);
+      renderCombinadaBlock(combEl, combi, {
+        detailPrefix: "diaCombiDetail",
+        title: "Combinada inteligente \u2014 " + combi.legs.length +
+          " mercados \u2265" + diaProbMin + "% (ordenados da maior para menor prob.)",
+        showSettle: true
+      });
     } else {
       combEl.innerHTML = '<div class="dia-warn">Nenhum mercado' +
         (diaValueOnly ? " com valor" : "") + " acima de " + diaProbMin +
@@ -1715,7 +1792,7 @@
     }
 
     var byGame = {};
-    picks.forEach(function (p) {
+    displayPicks.forEach(function (p) {
       if (!byGame[p.game.id]) byGame[p.game.id] = { game: p.game, markets: [] };
       byGame[p.game.id].markets.push(p.market);
     });
