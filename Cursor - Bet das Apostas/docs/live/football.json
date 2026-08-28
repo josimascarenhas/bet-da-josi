@@ -1,7 +1,7 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-28T19:17:51-03:00",
-    "fonte": "resultados + recálculo estatístico + classificação",
+    "atualizadoEm": "2026-08-28T20:38:51-03:00",
+    "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 336,
     "timesAtualizados": 104,
     "placaresFonte": "calendário + openligadb.de"
@@ -438,7 +438,13 @@
         "golsPro": 34,
         "golsContra": 22
       },
-      "desfalques": [],
+      "desfalques": [
+        {
+          "jogador": "Athletico tem dÃºvida na defesa e segue ",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        }
+      ],
       "retornando": [
         {
           "jogador": "Fernando",
@@ -529,7 +535,12 @@
       },
       "desfalques": [
         {
-          "jogador": "SuspensÃ£o de HÃ©rcules abre brecha para",
+          "jogador": "Escalação do Fluminense",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Alisson sente incÃ´modo no quadril e vir",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -851,7 +862,13 @@
         "golsPro": 24,
         "golsContra": 21
       },
-      "desfalques": [],
+      "desfalques": [
+        {
+          "jogador": "Escalação do São Paulo",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        }
+      ],
       "retornando": [],
       "casa": {
         "j": 11,
@@ -1135,13 +1152,8 @@
       },
       "desfalques": [
         {
-          "jogador": "Memphis",
-          "motivo": "lesão",
-          "impacto": "alto"
-        },
-        {
-          "jogador": "Garro",
-          "motivo": "suspenso",
+          "jogador": "Treino do Corinthians",
+          "motivo": "notícia GE",
           "impacto": "medio"
         }
       ],
@@ -1443,9 +1455,9 @@
       },
       "desfalques": [
         {
-          "jogador": "Luciano",
-          "motivo": "lesão",
-          "impacto": "alto"
+          "jogador": "Escalação do São Paulo",
+          "motivo": "notícia GE",
+          "impacto": "medio"
         }
       ],
       "retornando": [],
@@ -1882,8 +1894,8 @@
         "xGSporJogo": 1.11
       },
       "libertadores": {
-        "xGporJogo": 0.33,
-        "xGSporJogo": 0.33,
+        "xGporJogo": 1.34,
+        "xGSporJogo": 1.16,
         "escanteiosPorJogo": 5.5,
         "cartoesPorJogo": 2.6,
         "jogos": 1,
@@ -2292,13 +2304,15 @@
           "E 0-0 MIR"
         ],
         "sequencia": "1E",
-        "xGporJogo": 0.33,
-        "xGSporJogo": 0.33,
+        "xGporJogo": 1.35,
+        "xGSporJogo": 1.01,
         "casa": {
           "j": 1,
           "gpg": 0.0,
           "gsg": 0.0
-        }
+        },
+        "escanteiosPorJogo": 5.5,
+        "cartoesPorJogo": 2.6
       }
     },
     "Independiente-del-Valle": {
@@ -2313,13 +2327,15 @@
           "V 3-1 DEPTO"
         ],
         "sequencia": "1V",
-        "xGporJogo": 2.49,
-        "xGSporJogo": 1.05,
+        "xGporJogo": 1.4,
+        "xGSporJogo": 1.06,
         "casa": {
           "j": 1,
           "gpg": 3.0,
           "gsg": 1.0
-        }
+        },
+        "escanteiosPorJogo": 5.5,
+        "cartoesPorJogo": 2.6
       }
     },
     "Deportes-Tolima": {
@@ -2449,8 +2465,8 @@
           "D 1-3"
         ],
         "sequencia": "1D",
-        "xGporJogo": 1.06,
-        "xGSporJogo": 2.02,
+        "xGporJogo": 1.78,
+        "xGSporJogo": 3.22,
         "fora": {
           "j": 2,
           "gpg": 0.5,
@@ -2467,7 +2483,9 @@
         "empates": 1,
         "derrotas": 2,
         "golsPro": 3,
-        "golsContra": 7
+        "golsContra": 7,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Crystal-Palace": {
@@ -2552,8 +2570,8 @@
           "D 0-2 RIOAV"
         ],
         "sequencia": "2D",
-        "xGporJogo": 0.58,
-        "xGSporJogo": 1.55,
+        "xGporJogo": 2.5,
+        "xGSporJogo": 2.5,
         "casa": {
           "j": 2,
           "gpg": 0.5,
@@ -2570,7 +2588,9 @@
         "empates": 1,
         "derrotas": 2,
         "golsPro": 1,
-        "golsContra": 5
+        "golsContra": 5,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Famalicao": {
@@ -2587,8 +2607,8 @@
           "D 0-1"
         ],
         "sequencia": "2D",
-        "xGporJogo": 0.83,
-        "xGSporJogo": 1.3,
+        "xGporJogo": 1.78,
+        "xGSporJogo": 1.78,
         "casa": {
           "j": 1,
           "gpg": 1.0,
@@ -2605,7 +2625,9 @@
         "empates": 1,
         "derrotas": 2,
         "golsPro": 2,
-        "golsContra": 4
+        "golsContra": 4,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Maritimo": {
@@ -2622,7 +2644,7 @@
           "E 2-2 ACAVI"
         ],
         "sequencia": "1E",
-        "xGporJogo": 1.55,
+        "xGporJogo": 1.78,
         "xGSporJogo": 1.06,
         "casa": {
           "j": 2,
@@ -2640,7 +2662,9 @@
         "empates": 1,
         "derrotas": 0,
         "golsPro": 5,
-        "golsContra": 3
+        "golsContra": 3,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Casa-Pia": {
@@ -2657,8 +2681,8 @@
           "D 0-2"
         ],
         "sequencia": "3D",
-        "xGporJogo": 0.34,
-        "xGSporJogo": 2.74,
+        "xGporJogo": 1.06,
+        "xGSporJogo": 6.1,
         "casa": {
           "j": 1,
           "gpg": 0.0,
@@ -2675,7 +2699,9 @@
         "empates": 0,
         "derrotas": 3,
         "golsPro": 0,
-        "golsContra": 10
+        "golsContra": 10,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Vitoria-Guimaraes": {
@@ -2692,8 +2718,8 @@
           "V 1-0 NAC"
         ],
         "sequencia": "1V",
-        "xGporJogo": 1.06,
-        "xGSporJogo": 1.3,
+        "xGporJogo": 1.78,
+        "xGSporJogo": 3.94,
         "casa": {
           "j": 2,
           "gpg": 0.5,
@@ -2710,7 +2736,9 @@
         "empates": 0,
         "derrotas": 2,
         "golsPro": 3,
-        "golsContra": 4
+        "golsContra": 4,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Arouca": {
@@ -2727,7 +2755,7 @@
           "D 0-2"
         ],
         "sequencia": "1D",
-        "xGporJogo": 1.55,
+        "xGporJogo": 2.27,
         "xGSporJogo": 0.83,
         "casa": {
           "j": 1,
@@ -2745,7 +2773,9 @@
         "empates": 0,
         "derrotas": 1,
         "golsPro": 5,
-        "golsContra": 2
+        "golsContra": 2,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Estrela-Amadora": {
@@ -2761,8 +2791,8 @@
           "E 2-2"
         ],
         "sequencia": "2E",
-        "xGporJogo": 1.78,
-        "xGSporJogo": 1.78,
+        "xGporJogo": 3.22,
+        "xGSporJogo": 3.94,
         "casa": {
           "j": 1,
           "gpg": 2.0,
@@ -2779,7 +2809,9 @@
         "empates": 2,
         "derrotas": 0,
         "golsPro": 4,
-        "golsContra": 4
+        "golsContra": 4,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Porto": {
@@ -2797,7 +2829,7 @@
         ],
         "sequencia": "3V",
         "xGporJogo": 1.78,
-        "xGSporJogo": 0.34,
+        "xGSporJogo": 0.58,
         "casa": {
           "j": 2,
           "gpg": 2.0,
@@ -2814,7 +2846,9 @@
         "empates": 0,
         "derrotas": 0,
         "golsPro": 6,
-        "golsContra": 0
+        "golsContra": 0,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Benfica": {
@@ -2831,7 +2865,7 @@
         ],
         "sequencia": "1V",
         "xGporJogo": 3.58,
-        "xGSporJogo": 1.06,
+        "xGSporJogo": 1.78,
         "casa": {
           "j": 1,
           "gpg": 2.0,
@@ -2848,7 +2882,9 @@
         "empates": 1,
         "derrotas": 0,
         "golsPro": 9,
-        "golsContra": 2
+        "golsContra": 2,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Academico-Viseu": {
@@ -2865,8 +2901,8 @@
           "E 2-2"
         ],
         "sequencia": "1E",
-        "xGporJogo": 1.3,
-        "xGSporJogo": 1.55,
+        "xGporJogo": 2.14,
+        "xGSporJogo": 1.42,
         "casa": {
           "j": 1,
           "gpg": 0.0,
@@ -2883,7 +2919,9 @@
         "empates": 2,
         "derrotas": 1,
         "golsPro": 4,
-        "golsContra": 5
+        "golsContra": 5,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Gil-Vicente": {
@@ -2899,8 +2937,8 @@
           "V 2-0 CASPI"
         ],
         "sequencia": "2V",
-        "xGporJogo": 1.42,
-        "xGSporJogo": 0.34,
+        "xGporJogo": 1.06,
+        "xGSporJogo": 0.58,
         "casa": {
           "j": 2,
           "gpg": 1.5,
@@ -2912,7 +2950,9 @@
         "empates": 0,
         "derrotas": 0,
         "golsPro": 3,
-        "golsContra": 0
+        "golsContra": 0,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Rio-Ave": {
@@ -2964,7 +3004,7 @@
           "D 0-4"
         ],
         "sequencia": "1D",
-        "xGporJogo": 1.06,
+        "xGporJogo": 2.5,
         "xGSporJogo": 2.5,
         "casa": {
           "j": 1,
@@ -2982,7 +3022,9 @@
         "empates": 1,
         "derrotas": 1,
         "golsPro": 2,
-        "golsContra": 6
+        "golsContra": 6,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Braga": {
@@ -2998,7 +3040,7 @@
         ],
         "sequencia": "1E",
         "xGporJogo": 1.78,
-        "xGSporJogo": 1.78,
+        "xGSporJogo": 1.42,
         "fora": {
           "j": 1,
           "gpg": 2.0,
@@ -3010,7 +3052,9 @@
         "empates": 1,
         "derrotas": 0,
         "golsPro": 2,
-        "golsContra": 2
+        "golsContra": 2,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Santa-Clara": {
@@ -3027,8 +3071,8 @@
           "V 1-0 FAM"
         ],
         "sequencia": "2V",
-        "xGporJogo": 1.3,
-        "xGSporJogo": 0.83,
+        "xGporJogo": 3.22,
+        "xGSporJogo": 3.94,
         "casa": {
           "j": 2,
           "gpg": 1.5,
@@ -3045,7 +3089,9 @@
         "empates": 1,
         "derrotas": 0,
         "golsPro": 4,
-        "golsContra": 2
+        "golsContra": 2,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Nacional": {
@@ -3062,8 +3108,8 @@
           "D 0-1"
         ],
         "sequencia": "1D",
-        "xGporJogo": 1.3,
-        "xGSporJogo": 1.06,
+        "xGporJogo": 2.5,
+        "xGSporJogo": 3.22,
         "casa": {
           "j": 1,
           "gpg": 2.0,
@@ -3080,7 +3126,9 @@
         "empates": 1,
         "derrotas": 1,
         "golsPro": 4,
-        "golsContra": 3
+        "golsContra": 3,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Alaves": {
@@ -3131,8 +3179,8 @@
           "V 1-0 RAC"
         ],
         "sequencia": "1V",
-        "xGporJogo": 0.72,
-        "xGSporJogo": 1.44,
+        "xGporJogo": 1.08,
+        "xGSporJogo": 2.52,
         "casa": {
           "j": 1,
           "gpg": 1.0,
@@ -3149,7 +3197,15 @@
         "empates": 0,
         "derrotas": 1,
         "golsPro": 1,
-        "golsContra": 3
+        "golsContra": 3,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "bundesliga": {
+        "xGporJogo": 1.62,
+        "xGSporJogo": 1.26,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Sevilla": {
@@ -3183,7 +3239,9 @@
         "empates": 0,
         "derrotas": 0,
         "golsPro": 5,
-        "golsContra": 2
+        "golsContra": 2,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Rayo-Vallecano": {
@@ -3199,8 +3257,8 @@
           "E 1-1 ALA"
         ],
         "sequencia": "1E",
-        "xGporJogo": 1.08,
-        "xGSporJogo": 1.44,
+        "xGporJogo": 1.8,
+        "xGSporJogo": 2.52,
         "casa": {
           "j": 1,
           "gpg": 1.0,
@@ -3217,7 +3275,15 @@
         "empates": 1,
         "derrotas": 1,
         "golsPro": 2,
-        "golsContra": 3
+        "golsContra": 3,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "bundesliga": {
+        "xGporJogo": 1.62,
+        "xGSporJogo": 1.26,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Racing": {
@@ -3298,8 +3364,8 @@
           "D 1-2 REAMA"
         ],
         "sequencia": "1D",
-        "xGporJogo": 1.8,
-        "xGSporJogo": 1.08,
+        "xGporJogo": 3.24,
+        "xGSporJogo": 1.8,
         "casa": {
           "j": 2,
           "gpg": 2.0,
@@ -3311,7 +3377,15 @@
         "empates": 0,
         "derrotas": 1,
         "golsPro": 4,
-        "golsContra": 2
+        "golsContra": 2,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "bundesliga": {
+        "xGporJogo": 1.62,
+        "xGSporJogo": 1.26,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Levante": {
@@ -3327,8 +3401,8 @@
           "E 0-0"
         ],
         "sequencia": "1E",
-        "xGporJogo": 0.36,
-        "xGSporJogo": 1.44,
+        "xGporJogo": 1.08,
+        "xGSporJogo": 2.52,
         "fora": {
           "j": 2,
           "gpg": 0.0,
@@ -3340,7 +3414,15 @@
         "empates": 1,
         "derrotas": 1,
         "golsPro": 0,
-        "golsContra": 3
+        "golsContra": 3,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "bundesliga": {
+        "xGporJogo": 1.62,
+        "xGSporJogo": 1.26,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Deportivo": {
@@ -3356,8 +3438,8 @@
           "E 1-1"
         ],
         "sequencia": "2E",
-        "xGporJogo": 1.08,
-        "xGSporJogo": 1.08,
+        "xGporJogo": 1.8,
+        "xGSporJogo": 1.8,
         "casa": {
           "j": 1,
           "gpg": 1.0,
@@ -3374,7 +3456,15 @@
         "empates": 2,
         "derrotas": 0,
         "golsPro": 2,
-        "golsContra": 2
+        "golsContra": 2,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "bundesliga": {
+        "xGporJogo": 1.62,
+        "xGSporJogo": 1.26,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Elche": {
@@ -3426,7 +3516,7 @@
         ],
         "sequencia": "2V",
         "xGporJogo": 1.08,
-        "xGSporJogo": 0.36,
+        "xGSporJogo": 0.72,
         "casa": {
           "j": 1,
           "gpg": 1.0,
@@ -3443,7 +3533,9 @@
         "empates": 0,
         "derrotas": 0,
         "golsPro": 2,
-        "golsContra": 0
+        "golsContra": 0,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Real-Sociedad": {
@@ -3459,8 +3551,8 @@
           "D 1-4"
         ],
         "sequencia": "2D",
-        "xGporJogo": 0.72,
-        "xGSporJogo": 2.16,
+        "xGporJogo": 1.08,
+        "xGSporJogo": 1.08,
         "fora": {
           "j": 2,
           "gpg": 0.5,
@@ -3472,7 +3564,15 @@
         "empates": 0,
         "derrotas": 2,
         "golsPro": 1,
-        "golsContra": 5
+        "golsContra": 5,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "bundesliga": {
+        "xGporJogo": 1.62,
+        "xGSporJogo": 1.26,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Arsenal": {
@@ -3488,7 +3588,7 @@
         ],
         "sequencia": "1V",
         "xGporJogo": 2.56,
-        "xGSporJogo": 0.4,
+        "xGSporJogo": 1.12,
         "casa": {
           "j": 1,
           "gpg": 3.0,
@@ -3500,7 +3600,9 @@
         "empates": 0,
         "derrotas": 0,
         "golsPro": 3,
-        "golsContra": 0
+        "golsContra": 0,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Coventry-City": {
@@ -3515,7 +3617,7 @@
           "D 0-3"
         ],
         "sequencia": "1D",
-        "xGporJogo": 0.4,
+        "xGporJogo": 1.12,
         "xGSporJogo": 2.56,
         "fora": {
           "j": 1,
@@ -3528,7 +3630,15 @@
         "empates": 0,
         "derrotas": 1,
         "golsPro": 0,
-        "golsContra": 3
+        "golsContra": 3,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "la-liga": {
+        "xGporJogo": 2.16,
+        "xGSporJogo": 1.08,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Everton": {
@@ -3544,7 +3654,7 @@
         ],
         "sequencia": "1V",
         "xGporJogo": 1.84,
-        "xGSporJogo": 0.4,
+        "xGSporJogo": 1.12,
         "casa": {
           "j": 1,
           "gpg": 2.0,
@@ -3556,7 +3666,15 @@
         "empates": 0,
         "derrotas": 0,
         "golsPro": 2,
-        "golsContra": 0
+        "golsContra": 0,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "la-liga": {
+        "xGporJogo": 2.16,
+        "xGSporJogo": 1.08,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Ipswich-Town": {
@@ -3584,7 +3702,15 @@
         "empates": 0,
         "derrotas": 0,
         "golsPro": 2,
-        "golsContra": 1
+        "golsContra": 1,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "la-liga": {
+        "xGporJogo": 2.16,
+        "xGSporJogo": 1.08,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Sunderland": {
@@ -3612,7 +3738,15 @@
         "empates": 0,
         "derrotas": 1,
         "golsPro": 1,
-        "golsContra": 2
+        "golsContra": 2,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "la-liga": {
+        "xGporJogo": 2.16,
+        "xGSporJogo": 1.08,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Nottingham-Forest": {
@@ -3627,7 +3761,7 @@
           "D 0-1 LEEUN"
         ],
         "sequencia": "1D",
-        "xGporJogo": 0.4,
+        "xGporJogo": 1.12,
         "xGSporJogo": 1.12,
         "casa": {
           "j": 1,
@@ -3640,7 +3774,15 @@
         "empates": 0,
         "derrotas": 1,
         "golsPro": 0,
-        "golsContra": 1
+        "golsContra": 1,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "la-liga": {
+        "xGporJogo": 2.16,
+        "xGSporJogo": 1.08,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Leeds-United": {
@@ -3656,7 +3798,7 @@
         ],
         "sequencia": "1V",
         "xGporJogo": 1.12,
-        "xGSporJogo": 0.4,
+        "xGSporJogo": 1.12,
         "fora": {
           "j": 1,
           "gpg": 1.0,
@@ -3668,7 +3810,15 @@
         "empates": 0,
         "derrotas": 0,
         "golsPro": 1,
-        "golsContra": 0
+        "golsContra": 0,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "la-liga": {
+        "xGporJogo": 2.16,
+        "xGSporJogo": 1.08,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Athletic": {
@@ -3684,8 +3834,8 @@
           "D 0-2"
         ],
         "sequencia": "2D",
-        "xGporJogo": 0.72,
-        "xGSporJogo": 2.16,
+        "xGporJogo": 1.08,
+        "xGSporJogo": 2.52,
         "casa": {
           "j": 1,
           "gpg": 1.0,
@@ -3702,7 +3852,15 @@
         "empates": 0,
         "derrotas": 2,
         "golsPro": 1,
-        "golsContra": 5
+        "golsContra": 5,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "bundesliga": {
+        "xGporJogo": 1.62,
+        "xGSporJogo": 1.26,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Brentford": {
@@ -3718,7 +3876,7 @@
         ],
         "sequencia": "1V",
         "xGporJogo": 2.56,
-        "xGSporJogo": 0.4,
+        "xGSporJogo": 1.12,
         "casa": {
           "j": 1,
           "gpg": 3.0,
@@ -3730,7 +3888,13 @@
         "empates": 0,
         "derrotas": 0,
         "golsPro": 3,
-        "golsContra": 0
+        "golsContra": 0,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "la-liga": {
+        "xGporJogo": 1.8,
+        "xGSporJogo": 1.28
       }
     },
     "Tottenham": {
@@ -3745,7 +3909,7 @@
           "D 0-3"
         ],
         "sequencia": "1D",
-        "xGporJogo": 0.4,
+        "xGporJogo": 1.12,
         "xGSporJogo": 2.56,
         "fora": {
           "j": 1,
@@ -3758,7 +3922,15 @@
         "empates": 0,
         "derrotas": 1,
         "golsPro": 0,
-        "golsContra": 3
+        "golsContra": 3,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "la-liga": {
+        "xGporJogo": 2.16,
+        "xGSporJogo": 1.08,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Valencia": {
@@ -3774,8 +3946,8 @@
           "D 0-1 REABE"
         ],
         "sequencia": "1D",
-        "xGporJogo": 0.36,
-        "xGSporJogo": 0.72,
+        "xGporJogo": 1.08,
+        "xGSporJogo": 1.08,
         "casa": {
           "j": 2,
           "gpg": 0.0,
@@ -3787,7 +3959,15 @@
         "empates": 1,
         "derrotas": 1,
         "golsPro": 0,
-        "golsContra": 1
+        "golsContra": 1,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "bundesliga": {
+        "xGporJogo": 1.62,
+        "xGSporJogo": 1.26,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Celta": {
@@ -3803,8 +3983,8 @@
           "D 1-2 OSA"
         ],
         "sequencia": "1D",
-        "xGporJogo": 0.72,
-        "xGSporJogo": 1.08,
+        "xGporJogo": 1.33,
+        "xGSporJogo": 1.26,
         "casa": {
           "j": 1,
           "gpg": 1.0,
@@ -3821,7 +4001,15 @@
         "empates": 1,
         "derrotas": 1,
         "golsPro": 1,
-        "golsContra": 2
+        "golsContra": 2,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "bundesliga": {
+        "xGporJogo": 1.62,
+        "xGSporJogo": 1.26,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Real-Madrid": {
@@ -3837,7 +4025,7 @@
           "V 4-1 REASO"
         ],
         "sequencia": "2V",
-        "xGporJogo": 2.52,
+        "xGporJogo": 1.8,
         "xGSporJogo": 1.08,
         "casa": {
           "j": 1,
@@ -3855,7 +4043,15 @@
         "empates": 0,
         "derrotas": 0,
         "golsPro": 6,
-        "golsContra": 2
+        "golsContra": 2,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "bundesliga": {
+        "xGporJogo": 1.62,
+        "xGSporJogo": 1.26,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Brighton": {
@@ -3871,7 +4067,7 @@
         ],
         "sequencia": "1V",
         "xGporJogo": 3.28,
-        "xGSporJogo": 0.4,
+        "xGSporJogo": 1.12,
         "casa": {
           "j": 1,
           "gpg": 4.0,
@@ -3883,7 +4079,9 @@
         "empates": 0,
         "derrotas": 0,
         "golsPro": 4,
-        "golsContra": 0
+        "golsContra": 0,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Aston-Villa": {
@@ -3898,7 +4096,7 @@
           "D 0-4"
         ],
         "sequencia": "1D",
-        "xGporJogo": 0.4,
+        "xGporJogo": 1.12,
         "xGSporJogo": 3.28,
         "fora": {
           "j": 1,
@@ -3911,7 +4109,15 @@
         "empates": 0,
         "derrotas": 1,
         "golsPro": 0,
-        "golsContra": 4
+        "golsContra": 4,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "la-liga": {
+        "xGporJogo": 2.16,
+        "xGSporJogo": 1.08,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Bournemouth": {
@@ -3939,7 +4145,15 @@
         "empates": 0,
         "derrotas": 1,
         "golsPro": 1,
-        "golsContra": 2
+        "golsContra": 2,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "la-liga": {
+        "xGporJogo": 2.16,
+        "xGSporJogo": 1.08,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Atletico-Madrid": {
@@ -3955,7 +4169,7 @@
         ],
         "sequencia": "1E",
         "xGporJogo": 1.8,
-        "xGSporJogo": 1.8,
+        "xGSporJogo": 1.08,
         "casa": {
           "j": 1,
           "gpg": 2.0,
@@ -3967,7 +4181,15 @@
         "empates": 1,
         "derrotas": 0,
         "golsPro": 2,
-        "golsContra": 2
+        "golsContra": 2,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "bundesliga": {
+        "xGporJogo": 1.62,
+        "xGSporJogo": 1.26,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Newcastle-United": {
@@ -3995,7 +4217,15 @@
         "empates": 1,
         "derrotas": 0,
         "golsPro": 2,
-        "golsContra": 2
+        "golsContra": 2,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "la-liga": {
+        "xGporJogo": 2.16,
+        "xGSporJogo": 1.08,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Liverpool": {
@@ -4023,7 +4253,15 @@
         "empates": 1,
         "derrotas": 0,
         "golsPro": 2,
-        "golsContra": 2
+        "golsContra": 2,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "la-liga": {
+        "xGporJogo": 2.16,
+        "xGSporJogo": 1.08,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Barcelona": {
@@ -4039,8 +4277,8 @@
           "V 2-0 ATH"
         ],
         "sequencia": "2V",
-        "xGporJogo": 2.88,
-        "xGSporJogo": 0.36,
+        "xGporJogo": 3.96,
+        "xGSporJogo": 1.08,
         "casa": {
           "j": 1,
           "gpg": 2.0,
@@ -4057,7 +4295,15 @@
         "empates": 0,
         "derrotas": 0,
         "golsPro": 7,
-        "golsContra": 0
+        "golsContra": 0,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "bundesliga": {
+        "xGporJogo": 1.62,
+        "xGSporJogo": 1.26,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Osasuna": {
@@ -4073,8 +4319,8 @@
           "V 2-1"
         ],
         "sequencia": "1V",
-        "xGporJogo": 1.08,
-        "xGSporJogo": 0.72,
+        "xGporJogo": 1.33,
+        "xGSporJogo": 1.26,
         "casa": {
           "j": 1,
           "gpg": 0.0,
@@ -4091,7 +4337,15 @@
         "empates": 1,
         "derrotas": 0,
         "golsPro": 2,
-        "golsContra": 1
+        "golsContra": 1,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "bundesliga": {
+        "xGporJogo": 1.62,
+        "xGSporJogo": 1.26,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Fulham": {
@@ -4119,7 +4373,15 @@
         "empates": 0,
         "derrotas": 1,
         "golsPro": 2,
-        "golsContra": 3
+        "golsContra": 3,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "la-liga": {
+        "xGporJogo": 2.16,
+        "xGSporJogo": 1.08,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Chelsea": {
@@ -4147,7 +4409,15 @@
         "empates": 0,
         "derrotas": 0,
         "golsPro": 3,
-        "golsContra": 2
+        "golsContra": 2,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "la-liga": {
+        "xGporJogo": 2.16,
+        "xGSporJogo": 1.08,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Malaga": {
@@ -4163,7 +4433,7 @@
         ],
         "sequencia": "1E",
         "xGporJogo": 1.08,
-        "xGSporJogo": 1.08,
+        "xGSporJogo": 2.52,
         "casa": {
           "j": 1,
           "gpg": 1.0,
@@ -4175,7 +4445,15 @@
         "empates": 1,
         "derrotas": 0,
         "golsPro": 1,
-        "golsContra": 1
+        "golsContra": 1,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "bundesliga": {
+        "xGporJogo": 1.62,
+        "xGSporJogo": 1.26,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
       }
     },
     "Operario-PR": {
@@ -4192,8 +4470,8 @@
           "E 0-0 VILNO"
         ],
         "sequencia": "1E",
-        "xGporJogo": 0.79,
-        "xGSporJogo": 1.51,
+        "xGporJogo": 1.21,
+        "xGSporJogo": 1.24,
         "casa": {
           "j": 3,
           "gpg": 0.67,
@@ -4205,7 +4483,37 @@
         "empates": 1,
         "derrotas": 2,
         "golsPro": 2,
-        "golsContra": 5
+        "golsContra": 5,
+        "escanteiosPorJogo": 5.2,
+        "cartoesPorJogo": 2.4
+      },
+      "brasileirao": {
+        "xGporJogo": 0.83,
+        "xGSporJogo": 1.55
+      },
+      "libertadores": {
+        "xGporJogo": 0.81,
+        "xGSporJogo": 1.53
+      },
+      "copa": {
+        "xGporJogo": 0.78,
+        "xGSporJogo": 1.5
+      },
+      "premier-league": {
+        "xGporJogo": 0.88,
+        "xGSporJogo": 1.6
+      },
+      "la-liga": {
+        "xGporJogo": 0.84,
+        "xGSporJogo": 1.56
+      },
+      "bundesliga": {
+        "xGporJogo": 0.91,
+        "xGSporJogo": 1.63
+      },
+      "primeira-liga": {
+        "xGporJogo": 0.83,
+        "xGSporJogo": 1.55
       }
     },
     "Sao-Bernardo": {
@@ -4222,8 +4530,8 @@
           "E 1-1 NAU"
         ],
         "sequencia": "1E",
-        "xGporJogo": 1.27,
-        "xGSporJogo": 1.03,
+        "xGporJogo": 1.3,
+        "xGSporJogo": 1.12,
         "casa": {
           "j": 2,
           "gpg": 0.5,
@@ -4240,7 +4548,37 @@
         "empates": 1,
         "derrotas": 1,
         "golsPro": 4,
-        "golsContra": 3
+        "golsContra": 3,
+        "escanteiosPorJogo": 5.2,
+        "cartoesPorJogo": 2.4
+      },
+      "brasileirao": {
+        "xGporJogo": 1.3,
+        "xGSporJogo": 1.07
+      },
+      "libertadores": {
+        "xGporJogo": 1.29,
+        "xGSporJogo": 1.05
+      },
+      "copa": {
+        "xGporJogo": 1.26,
+        "xGSporJogo": 1.02
+      },
+      "premier-league": {
+        "xGporJogo": 1.36,
+        "xGSporJogo": 1.12
+      },
+      "la-liga": {
+        "xGporJogo": 1.32,
+        "xGSporJogo": 1.08
+      },
+      "bundesliga": {
+        "xGporJogo": 1.39,
+        "xGSporJogo": 1.15
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.3,
+        "xGSporJogo": 1.06
       }
     },
     "Ceara": {
@@ -4257,8 +4595,8 @@
           "V 2-1 LON"
         ],
         "sequencia": "1V",
-        "xGporJogo": 1.51,
-        "xGSporJogo": 1.27,
+        "xGporJogo": 1.06,
+        "xGSporJogo": 1.21,
         "casa": {
           "j": 3,
           "gpg": 1.67,
@@ -4270,7 +4608,37 @@
         "empates": 0,
         "derrotas": 1,
         "golsPro": 5,
-        "golsContra": 4
+        "golsContra": 4,
+        "escanteiosPorJogo": 5.2,
+        "cartoesPorJogo": 2.4
+      },
+      "brasileirao": {
+        "xGporJogo": 1.55,
+        "xGSporJogo": 1.3
+      },
+      "libertadores": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.29
+      },
+      "copa": {
+        "xGporJogo": 1.5,
+        "xGSporJogo": 1.26
+      },
+      "premier-league": {
+        "xGporJogo": 1.6,
+        "xGSporJogo": 1.36
+      },
+      "la-liga": {
+        "xGporJogo": 1.56,
+        "xGSporJogo": 1.32
+      },
+      "bundesliga": {
+        "xGporJogo": 1.63,
+        "xGSporJogo": 1.39
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.55,
+        "xGSporJogo": 1.3
       }
     },
     "Ponte-Preta": {
@@ -4287,8 +4655,8 @@
           "D 0-2 AVA"
         ],
         "sequencia": "1D",
-        "xGporJogo": 0.55,
-        "xGSporJogo": 1.51,
+        "xGporJogo": 0.79,
+        "xGSporJogo": 1.81,
         "casa": {
           "j": 2,
           "gpg": 0.5,
@@ -4305,7 +4673,37 @@
         "empates": 1,
         "derrotas": 2,
         "golsPro": 1,
-        "golsContra": 5
+        "golsContra": 5,
+        "escanteiosPorJogo": 5.2,
+        "cartoesPorJogo": 2.4
+      },
+      "brasileirao": {
+        "xGporJogo": 0.58,
+        "xGSporJogo": 1.55
+      },
+      "libertadores": {
+        "xGporJogo": 0.57,
+        "xGSporJogo": 1.53
+      },
+      "copa": {
+        "xGporJogo": 0.54,
+        "xGSporJogo": 1.5
+      },
+      "premier-league": {
+        "xGporJogo": 0.64,
+        "xGSporJogo": 1.6
+      },
+      "la-liga": {
+        "xGporJogo": 0.6,
+        "xGSporJogo": 1.56
+      },
+      "bundesliga": {
+        "xGporJogo": 0.67,
+        "xGSporJogo": 1.63
+      },
+      "primeira-liga": {
+        "xGporJogo": 0.58,
+        "xGSporJogo": 1.55
       }
     },
     "Vila-Nova": {
@@ -4322,8 +4720,8 @@
           "E 0-0"
         ],
         "sequencia": "1E",
-        "xGporJogo": 0.79,
-        "xGSporJogo": 0.55,
+        "xGporJogo": 1.36,
+        "xGSporJogo": 1.06,
         "casa": {
           "j": 1,
           "gpg": 0.0,
@@ -4340,7 +4738,37 @@
         "empates": 1,
         "derrotas": 1,
         "golsPro": 2,
-        "golsContra": 1
+        "golsContra": 1,
+        "escanteiosPorJogo": 5.2,
+        "cartoesPorJogo": 2.4
+      },
+      "brasileirao": {
+        "xGporJogo": 0.83,
+        "xGSporJogo": 0.58
+      },
+      "libertadores": {
+        "xGporJogo": 0.81,
+        "xGSporJogo": 0.57
+      },
+      "copa": {
+        "xGporJogo": 0.78,
+        "xGSporJogo": 0.54
+      },
+      "premier-league": {
+        "xGporJogo": 0.88,
+        "xGSporJogo": 0.64
+      },
+      "la-liga": {
+        "xGporJogo": 0.84,
+        "xGSporJogo": 0.6
+      },
+      "bundesliga": {
+        "xGporJogo": 0.91,
+        "xGSporJogo": 0.67
+      },
+      "primeira-liga": {
+        "xGporJogo": 0.83,
+        "xGSporJogo": 0.58
       }
     },
     "Sport": {
@@ -4357,8 +4785,8 @@
           "V 3-0 AMEMG"
         ],
         "sequencia": "3V",
-        "xGporJogo": 1.75,
-        "xGSporJogo": 0.55,
+        "xGporJogo": 1.27,
+        "xGSporJogo": 0.97,
         "casa": {
           "j": 2,
           "gpg": 2.5,
@@ -4375,7 +4803,37 @@
         "empates": 0,
         "derrotas": 0,
         "golsPro": 6,
-        "golsContra": 1
+        "golsContra": 1,
+        "escanteiosPorJogo": 5.2,
+        "cartoesPorJogo": 2.4
+      },
+      "brasileirao": {
+        "xGporJogo": 1.79,
+        "xGSporJogo": 0.58
+      },
+      "libertadores": {
+        "xGporJogo": 1.77,
+        "xGSporJogo": 0.57
+      },
+      "copa": {
+        "xGporJogo": 1.74,
+        "xGSporJogo": 0.54
+      },
+      "premier-league": {
+        "xGporJogo": 1.84,
+        "xGSporJogo": 0.64
+      },
+      "la-liga": {
+        "xGporJogo": 1.8,
+        "xGSporJogo": 0.6
+      },
+      "bundesliga": {
+        "xGporJogo": 1.87,
+        "xGSporJogo": 0.67
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.78,
+        "xGSporJogo": 0.58
       }
     },
     "Botafogo-SP": {
@@ -4392,8 +4850,8 @@
           "D 0-3"
         ],
         "sequencia": "1D",
-        "xGporJogo": 1.03,
-        "xGSporJogo": 1.27,
+        "xGporJogo": 1.15,
+        "xGSporJogo": 1.09,
         "casa": {
           "j": 1,
           "gpg": 2.0,
@@ -4410,7 +4868,37 @@
         "empates": 0,
         "derrotas": 1,
         "golsPro": 3,
-        "golsContra": 4
+        "golsContra": 4,
+        "escanteiosPorJogo": 5.2,
+        "cartoesPorJogo": 2.4
+      },
+      "brasileirao": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.3
+      },
+      "libertadores": {
+        "xGporJogo": 1.05,
+        "xGSporJogo": 1.29
+      },
+      "copa": {
+        "xGporJogo": 1.02,
+        "xGSporJogo": 1.26
+      },
+      "premier-league": {
+        "xGporJogo": 1.12,
+        "xGSporJogo": 1.36
+      },
+      "la-liga": {
+        "xGporJogo": 1.08,
+        "xGSporJogo": 1.32
+      },
+      "bundesliga": {
+        "xGporJogo": 1.15,
+        "xGSporJogo": 1.39
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.06,
+        "xGSporJogo": 1.3
       }
     },
     "America-MG": {
@@ -4428,8 +4916,8 @@
           "D 0-3"
         ],
         "sequencia": "4D",
-        "xGporJogo": 0.67,
-        "xGSporJogo": 2.29,
+        "xGporJogo": 0.79,
+        "xGSporJogo": 1.57,
         "casa": {
           "j": 1,
           "gpg": 1.0,
@@ -4446,7 +4934,37 @@
         "empates": 0,
         "derrotas": 4,
         "golsPro": 2,
-        "golsContra": 11
+        "golsContra": 11,
+        "escanteiosPorJogo": 5.2,
+        "cartoesPorJogo": 2.4
+      },
+      "brasileirao": {
+        "xGporJogo": 0.71,
+        "xGSporJogo": 2.33
+      },
+      "libertadores": {
+        "xGporJogo": 0.69,
+        "xGSporJogo": 2.31
+      },
+      "copa": {
+        "xGporJogo": 0.66,
+        "xGSporJogo": 2.28
+      },
+      "premier-league": {
+        "xGporJogo": 0.76,
+        "xGSporJogo": 2.38
+      },
+      "la-liga": {
+        "xGporJogo": 0.72,
+        "xGSporJogo": 2.34
+      },
+      "bundesliga": {
+        "xGporJogo": 0.79,
+        "xGSporJogo": 2.41
+      },
+      "primeira-liga": {
+        "xGporJogo": 0.7,
+        "xGSporJogo": 2.32
       }
     },
     "Athletic-PR": {
@@ -4464,8 +4982,8 @@
           "D 1-4 NOV"
         ],
         "sequencia": "2D",
-        "xGporJogo": 1.39,
-        "xGSporJogo": 1.57,
+        "xGporJogo": 1.06,
+        "xGSporJogo": 1.06,
         "casa": {
           "j": 3,
           "gpg": 1.0,
@@ -4482,7 +5000,37 @@
         "empates": 0,
         "derrotas": 2,
         "golsPro": 6,
-        "golsContra": 7
+        "golsContra": 7,
+        "escanteiosPorJogo": 5.2,
+        "cartoesPorJogo": 2.4
+      },
+      "brasileirao": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.61
+      },
+      "libertadores": {
+        "xGporJogo": 1.41,
+        "xGSporJogo": 1.59
+      },
+      "copa": {
+        "xGporJogo": 1.38,
+        "xGSporJogo": 1.56
+      },
+      "premier-league": {
+        "xGporJogo": 1.48,
+        "xGSporJogo": 1.66
+      },
+      "la-liga": {
+        "xGporJogo": 1.44,
+        "xGSporJogo": 1.62
+      },
+      "bundesliga": {
+        "xGporJogo": 1.51,
+        "xGSporJogo": 1.69
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.42,
+        "xGSporJogo": 1.6
       }
     },
     "Criciuma": {
@@ -4499,8 +5047,8 @@
           "D 0-2 FOR"
         ],
         "sequencia": "1D",
-        "xGporJogo": 0.55,
-        "xGSporJogo": 1.27,
+        "xGporJogo": 1.06,
+        "xGSporJogo": 0.82,
         "casa": {
           "j": 2,
           "gpg": 0.5,
@@ -4517,7 +5065,37 @@
         "empates": 0,
         "derrotas": 2,
         "golsPro": 1,
-        "golsContra": 4
+        "golsContra": 4,
+        "escanteiosPorJogo": 5.2,
+        "cartoesPorJogo": 2.4
+      },
+      "brasileirao": {
+        "xGporJogo": 0.58,
+        "xGSporJogo": 1.3
+      },
+      "libertadores": {
+        "xGporJogo": 0.57,
+        "xGSporJogo": 1.29
+      },
+      "copa": {
+        "xGporJogo": 0.54,
+        "xGSporJogo": 1.26
+      },
+      "premier-league": {
+        "xGporJogo": 0.64,
+        "xGSporJogo": 1.36
+      },
+      "la-liga": {
+        "xGporJogo": 0.6,
+        "xGSporJogo": 1.32
+      },
+      "bundesliga": {
+        "xGporJogo": 0.67,
+        "xGSporJogo": 1.39
+      },
+      "primeira-liga": {
+        "xGporJogo": 0.58,
+        "xGSporJogo": 1.3
       }
     },
     "Nautico": {
@@ -4534,8 +5112,8 @@
           "E 1-1"
         ],
         "sequencia": "3E",
-        "xGporJogo": 1.03,
-        "xGSporJogo": 1.03,
+        "xGporJogo": 1.15,
+        "xGSporJogo": 1.12,
         "casa": {
           "j": 1,
           "gpg": 1.0,
@@ -4552,7 +5130,37 @@
         "empates": 3,
         "derrotas": 0,
         "golsPro": 3,
-        "golsContra": 3
+        "golsContra": 3,
+        "escanteiosPorJogo": 5.2,
+        "cartoesPorJogo": 2.4
+      },
+      "brasileirao": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.07
+      },
+      "libertadores": {
+        "xGporJogo": 1.05,
+        "xGSporJogo": 1.05
+      },
+      "copa": {
+        "xGporJogo": 1.02,
+        "xGSporJogo": 1.02
+      },
+      "premier-league": {
+        "xGporJogo": 1.12,
+        "xGSporJogo": 1.12
+      },
+      "la-liga": {
+        "xGporJogo": 1.08,
+        "xGSporJogo": 1.08
+      },
+      "bundesliga": {
+        "xGporJogo": 1.15,
+        "xGSporJogo": 1.15
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.06,
+        "xGSporJogo": 1.06
       }
     },
     "Atletico-GO": {
@@ -4569,8 +5177,8 @@
           "V 3-0 BOTSP"
         ],
         "sequencia": "1V",
-        "xGporJogo": 1.27,
-        "xGSporJogo": 1.03,
+        "xGporJogo": 1.12,
+        "xGSporJogo": 1.0,
         "casa": {
           "j": 2,
           "gpg": 1.5,
@@ -4587,7 +5195,37 @@
         "empates": 1,
         "derrotas": 1,
         "golsPro": 4,
-        "golsContra": 3
+        "golsContra": 3,
+        "escanteiosPorJogo": 5.2,
+        "cartoesPorJogo": 2.4
+      },
+      "brasileirao": {
+        "xGporJogo": 1.3,
+        "xGSporJogo": 1.07
+      },
+      "libertadores": {
+        "xGporJogo": 1.29,
+        "xGSporJogo": 1.05
+      },
+      "copa": {
+        "xGporJogo": 1.26,
+        "xGSporJogo": 1.02
+      },
+      "premier-league": {
+        "xGporJogo": 1.36,
+        "xGSporJogo": 1.12
+      },
+      "la-liga": {
+        "xGporJogo": 1.32,
+        "xGSporJogo": 1.08
+      },
+      "bundesliga": {
+        "xGporJogo": 1.39,
+        "xGSporJogo": 1.15
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.3,
+        "xGSporJogo": 1.06
       }
     },
     "Novorizontino": {
@@ -4605,8 +5243,8 @@
           "V 4-1"
         ],
         "sequencia": "2V",
-        "xGporJogo": 1.57,
-        "xGSporJogo": 0.67,
+        "xGporJogo": 1.48,
+        "xGSporJogo": 0.94,
         "casa": {
           "j": 2,
           "gpg": 1.5,
@@ -4623,7 +5261,37 @@
         "empates": 1,
         "derrotas": 1,
         "golsPro": 7,
-        "golsContra": 2
+        "golsContra": 2,
+        "escanteiosPorJogo": 5.2,
+        "cartoesPorJogo": 2.4
+      },
+      "brasileirao": {
+        "xGporJogo": 1.61,
+        "xGSporJogo": 0.71
+      },
+      "libertadores": {
+        "xGporJogo": 1.59,
+        "xGSporJogo": 0.69
+      },
+      "copa": {
+        "xGporJogo": 1.56,
+        "xGSporJogo": 0.66
+      },
+      "premier-league": {
+        "xGporJogo": 1.66,
+        "xGSporJogo": 0.76
+      },
+      "la-liga": {
+        "xGporJogo": 1.62,
+        "xGSporJogo": 0.72
+      },
+      "bundesliga": {
+        "xGporJogo": 1.69,
+        "xGSporJogo": 0.79
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.6,
+        "xGSporJogo": 0.7
       }
     },
     "Juventude": {
@@ -4675,8 +5343,8 @@
           "E 1-1 GOI"
         ],
         "sequencia": "1E",
-        "xGporJogo": 1.51,
-        "xGSporJogo": 1.03,
+        "xGporJogo": 0.94,
+        "xGSporJogo": 0.85,
         "casa": {
           "j": 2,
           "gpg": 1.0,
@@ -4693,7 +5361,37 @@
         "empates": 2,
         "derrotas": 0,
         "golsPro": 5,
-        "golsContra": 3
+        "golsContra": 3,
+        "escanteiosPorJogo": 5.2,
+        "cartoesPorJogo": 2.4
+      },
+      "brasileirao": {
+        "xGporJogo": 1.55,
+        "xGSporJogo": 1.07
+      },
+      "libertadores": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.05
+      },
+      "copa": {
+        "xGporJogo": 1.5,
+        "xGSporJogo": 1.02
+      },
+      "premier-league": {
+        "xGporJogo": 1.6,
+        "xGSporJogo": 1.12
+      },
+      "la-liga": {
+        "xGporJogo": 1.56,
+        "xGSporJogo": 1.08
+      },
+      "bundesliga": {
+        "xGporJogo": 1.63,
+        "xGSporJogo": 1.15
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.55,
+        "xGSporJogo": 1.06
       }
     },
     "Fortaleza": {
@@ -4710,8 +5408,8 @@
           "V 2-0"
         ],
         "sequencia": "1V",
-        "xGporJogo": 1.03,
-        "xGSporJogo": 0.55,
+        "xGporJogo": 1.12,
+        "xGSporJogo": 0.94,
         "fora": {
           "j": 3,
           "gpg": 1.0,
@@ -4723,7 +5421,37 @@
         "empates": 2,
         "derrotas": 0,
         "golsPro": 3,
-        "golsContra": 1
+        "golsContra": 1,
+        "escanteiosPorJogo": 5.2,
+        "cartoesPorJogo": 2.4
+      },
+      "brasileirao": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 0.58
+      },
+      "libertadores": {
+        "xGporJogo": 1.05,
+        "xGSporJogo": 0.57
+      },
+      "copa": {
+        "xGporJogo": 1.02,
+        "xGSporJogo": 0.54
+      },
+      "premier-league": {
+        "xGporJogo": 1.12,
+        "xGSporJogo": 0.64
+      },
+      "la-liga": {
+        "xGporJogo": 1.08,
+        "xGSporJogo": 0.6
+      },
+      "bundesliga": {
+        "xGporJogo": 1.15,
+        "xGSporJogo": 0.67
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.06,
+        "xGSporJogo": 0.58
       }
     },
     "Goias": {
@@ -4740,8 +5468,8 @@
           "E 1-1"
         ],
         "sequencia": "1E",
-        "xGporJogo": 0.79,
-        "xGSporJogo": 0.79,
+        "xGporJogo": 1.0,
+        "xGSporJogo": 1.18,
         "casa": {
           "j": 1,
           "gpg": 1.0,
@@ -4758,7 +5486,37 @@
         "empates": 1,
         "derrotas": 1,
         "golsPro": 2,
-        "golsContra": 2
+        "golsContra": 2,
+        "escanteiosPorJogo": 5.2,
+        "cartoesPorJogo": 2.4
+      },
+      "brasileirao": {
+        "xGporJogo": 0.83,
+        "xGSporJogo": 0.83
+      },
+      "libertadores": {
+        "xGporJogo": 0.81,
+        "xGSporJogo": 0.81
+      },
+      "copa": {
+        "xGporJogo": 0.78,
+        "xGSporJogo": 0.78
+      },
+      "premier-league": {
+        "xGporJogo": 0.88,
+        "xGSporJogo": 0.88
+      },
+      "la-liga": {
+        "xGporJogo": 0.84,
+        "xGSporJogo": 0.84
+      },
+      "bundesliga": {
+        "xGporJogo": 0.91,
+        "xGSporJogo": 0.91
+      },
+      "primeira-liga": {
+        "xGporJogo": 0.83,
+        "xGSporJogo": 0.83
       }
     },
     "Londrina": {
@@ -4804,8 +5562,8 @@
           "V 2-0"
         ],
         "sequencia": "2V",
-        "xGporJogo": 1.75,
-        "xGSporJogo": 0.67,
+        "xGporJogo": 1.12,
+        "xGSporJogo": 1.21,
         "fora": {
           "j": 2,
           "gpg": 2.0,
@@ -4817,7 +5575,37 @@
         "empates": 0,
         "derrotas": 0,
         "golsPro": 4,
-        "golsContra": 1
+        "golsContra": 1,
+        "escanteiosPorJogo": 5.2,
+        "cartoesPorJogo": 2.4
+      },
+      "brasileirao": {
+        "xGporJogo": 1.79,
+        "xGSporJogo": 0.71
+      },
+      "libertadores": {
+        "xGporJogo": 1.77,
+        "xGSporJogo": 0.69
+      },
+      "copa": {
+        "xGporJogo": 1.74,
+        "xGSporJogo": 0.66
+      },
+      "premier-league": {
+        "xGporJogo": 1.84,
+        "xGSporJogo": 0.76
+      },
+      "la-liga": {
+        "xGporJogo": 1.8,
+        "xGSporJogo": 0.72
+      },
+      "bundesliga": {
+        "xGporJogo": 1.87,
+        "xGSporJogo": 0.79
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.78,
+        "xGSporJogo": 0.7
       }
     },
     "CRB": {
@@ -4834,8 +5622,8 @@
           "D 1-2"
         ],
         "sequencia": "1D",
-        "xGporJogo": 1.03,
-        "xGSporJogo": 0.79,
+        "xGporJogo": 1.36,
+        "xGSporJogo": 1.33,
         "casa": {
           "j": 1,
           "gpg": 0.0,
@@ -4852,7 +5640,297 @@
         "empates": 1,
         "derrotas": 1,
         "golsPro": 3,
-        "golsContra": 2
+        "golsContra": 2,
+        "escanteiosPorJogo": 5.2,
+        "cartoesPorJogo": 2.4
+      },
+      "brasileirao": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 0.83
+      },
+      "libertadores": {
+        "xGporJogo": 1.05,
+        "xGSporJogo": 0.81
+      },
+      "copa": {
+        "xGporJogo": 1.02,
+        "xGSporJogo": 0.78
+      },
+      "premier-league": {
+        "xGporJogo": 1.12,
+        "xGSporJogo": 0.88
+      },
+      "la-liga": {
+        "xGporJogo": 1.08,
+        "xGSporJogo": 0.84
+      },
+      "bundesliga": {
+        "xGporJogo": 1.15,
+        "xGSporJogo": 0.91
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.06,
+        "xGSporJogo": 0.83
+      }
+    },
+    "Hoffenheim": {
+      "bundesliga": {
+        "xGporJogo": 1.33,
+        "xGSporJogo": 1.4,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.78,
+        "xGSporJogo": 0.58,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      }
+    },
+    "RB-Leipzig": {
+      "bundesliga": {
+        "xGporJogo": 1.33,
+        "xGSporJogo": 1.4,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.78,
+        "xGSporJogo": 0.58,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      }
+    },
+    "Augsburg": {
+      "bundesliga": {
+        "xGporJogo": 1.33,
+        "xGSporJogo": 1.4,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.78,
+        "xGSporJogo": 0.58,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      }
+    },
+    "SC-Paderborn": {
+      "bundesliga": {
+        "xGporJogo": 1.26,
+        "xGSporJogo": 1.44,
+        "escanteiosPorJogo": 5.0,
+        "cartoesPorJogo": 2.4
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.78,
+        "xGSporJogo": 0.58,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      }
+    },
+    "Bayer-Leverkusen": {
+      "bundesliga": {
+        "xGporJogo": 1.62,
+        "xGSporJogo": 1.26,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.78,
+        "xGSporJogo": 1.23
+      }
+    },
+    "Manchester-United": {
+      "premier-league": {
+        "xGporJogo": 1.12,
+        "xGSporJogo": 1.84,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "la-liga": {
+        "xGporJogo": 2.16,
+        "xGSporJogo": 1.08,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      }
+    },
+    "Hull-City": {
+      "premier-league": {
+        "xGporJogo": 1.84,
+        "xGSporJogo": 1.12,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "la-liga": {
+        "xGporJogo": 2.16,
+        "xGSporJogo": 1.08,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      }
+    },
+    "Werder-Bremen": {
+      "bundesliga": {
+        "xGporJogo": 1.33,
+        "xGSporJogo": 1.4,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.78,
+        "xGSporJogo": 0.58,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      }
+    },
+    "Mainz": {
+      "bundesliga": {
+        "xGporJogo": 1.33,
+        "xGSporJogo": 1.4,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.78,
+        "xGSporJogo": 0.58,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      }
+    },
+    "Borussia-Mgladbach": {
+      "bundesliga": {
+        "xGporJogo": 1.33,
+        "xGSporJogo": 1.4,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.78,
+        "xGSporJogo": 0.58,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      }
+    },
+    "Union-Berlin": {
+      "bundesliga": {
+        "xGporJogo": 1.33,
+        "xGSporJogo": 1.4,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.78,
+        "xGSporJogo": 0.58,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      }
+    },
+    "Platense": {
+      "libertadores": {
+        "xGporJogo": 1.25,
+        "xGSporJogo": 1.09,
+        "escanteiosPorJogo": 5.5,
+        "cartoesPorJogo": 2.6
+      }
+    },
+    "SC-Freiburg": {
+      "bundesliga": {
+        "xGporJogo": 1.33,
+        "xGSporJogo": 1.4,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.78,
+        "xGSporJogo": 0.58,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      }
+    },
+    "Eintracht-Frankfurt": {
+      "bundesliga": {
+        "xGporJogo": 1.33,
+        "xGSporJogo": 1.4,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.78,
+        "xGSporJogo": 0.58,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      }
+    },
+    "Schalke-04": {
+      "bundesliga": {
+        "xGporJogo": 1.29,
+        "xGSporJogo": 1.4,
+        "escanteiosPorJogo": 5.2,
+        "cartoesPorJogo": 2.3
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.78,
+        "xGSporJogo": 0.58,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      }
+    },
+    "Hamburger-SV": {
+      "bundesliga": {
+        "xGporJogo": 1.33,
+        "xGSporJogo": 1.4,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.78,
+        "xGSporJogo": 0.58,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      }
+    },
+    "Koln": {
+      "bundesliga": {
+        "xGporJogo": 1.33,
+        "xGSporJogo": 1.4,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.78,
+        "xGSporJogo": 0.58,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      }
+    },
+    "Borussia-Dortmund": {
+      "bundesliga": {
+        "xGporJogo": 1.62,
+        "xGSporJogo": 1.26,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      }
+    },
+    "SV-Elversberg": {
+      "bundesliga": {
+        "xGporJogo": 1.22,
+        "xGSporJogo": 1.47,
+        "escanteiosPorJogo": 4.8,
+        "cartoesPorJogo": 2.5
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.78,
+        "xGSporJogo": 0.58,
+        "escanteiosPorJogo": 5.4,
+        "cartoesPorJogo": 2.2
+      }
+    },
+    "Estudiantes": {
+      "libertadores": {
+        "xGporJogo": 1.3,
+        "xGSporJogo": 1.01,
+        "escanteiosPorJogo": 5.5,
+        "cartoesPorJogo": 2.6
       }
     }
   }
