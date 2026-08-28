@@ -27,6 +27,31 @@
     Olympiacos: "Olympiacos", Barcelona: "Barcelona", Maccabi: "Maccabi"
   };
 
+  var TEAM_LOGOS = {
+    Palmeiras: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/64px-Palmeiras_logo.svg.png",
+    Flamengo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flamengo_braz_logo.svg/64px-Flamengo_braz_logo.svg.png",
+    "Athletico-PR": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Club_Athletico_Paranaense_logo.svg/64px-Club_Athletico_Paranaense_logo.svg.png",
+    Fluminense: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Fluminense_FC_logo.svg/64px-Fluminense_FC_logo.svg.png",
+    Cruzeiro: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Cruzeiro_Esporte_Clube_logo.svg/64px-Cruzeiro_Esporte_Clube_logo.svg.png",
+    Bahia: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Esporte_Clube_Bahia_logo.svg/64px-Esporte_Clube_Bahia_logo.svg.png",
+    Bragantino: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Red_Bull_Bragantino_logo.svg/64px-Red_Bull_Bragantino_logo.svg.png",
+    Coritiba: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Coritiba_Foot_Ball_Club_logo.svg/64px-Coritiba_Foot_Ball_Club_logo.svg.png",
+    "Atletico-MG": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Clube_Atl%C3%A9tico_Mineiro_logo.svg/64px-Clube_Atl%C3%A9tico_Mineiro_logo.svg.png",
+    Corinthians: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Sport_Club_Corinthians_Paulista_logo.svg/64px-Sport_Club_Corinthians_Paulista_logo.svg.png",
+    Botafogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Botafogo_de_Futebol_e_Regatas_logo.svg/64px-Botafogo_de_Futebol_e_Regatas_logo.svg.png",
+    Vitoria: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Esporte_Clube_Vit%C3%B3ria_logo.svg/64px-Esporte_Clube_Vit%C3%B3ria_logo.svg.png",
+    "Sao-Paulo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/S%C3%A3o_Paulo_Futebol_Clube_logo.svg/64px-S%C3%A3o_Paulo_Futebol_Clube_logo.svg.png",
+    Santos: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Santos_FC_logo.svg/64px-Santos_FC_logo.svg.png",
+    Gremio: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/64px-Gremio_logo.svg.png",
+    Internacional: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Sport_Club_Internacional_logo.svg/64px-Sport_Club_Internacional_logo.svg.png",
+    Mirassol: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Mirassol_Futebol_Clube_logo.svg/64px-Mirassol_Futebol_Clube_logo.svg.png",
+    Remo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Clube_do_Remo_logo.svg/64px-Clube_do_Remo_logo.svg.png",
+    Vasco: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/CR_Vasco_da_Gama_logo.svg/64px-CR_Vasco_da_Gama_logo.svg.png",
+    Chapecoense: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Associa%C3%A7%C3%A3o_Chapecoense_de_Futebol_logo.svg/64px-Associa%C3%A7%C3%A3o_Chapecoense_de_Futebol_logo.svg.png"
+  };
+
+  var currentView = "painel";
+
   var MONTHS = [
     "Janeiro", "Fevereiro", "Mar\u00e7o", "Abril", "Maio", "Junho",
     "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"
@@ -55,6 +80,165 @@
     if (p >= 62) return "alta";
     if (p >= 52) return "media";
     return "baixa";
+  }
+
+  function esc(s) {
+    return String(s == null ? "" : s)
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  }
+
+  function teamMeta(key) {
+    var t = FOOT.times[key];
+    if (t) return { id: t.id, cor: t.cor || "#555" };
+    return { id: String(key || "???").slice(0, 3).toUpperCase(), cor: "#555" };
+  }
+
+  function teamCrestHtml(key, sizeClass) {
+    if (!key || sport !== "futebol") return "";
+    sizeClass = sizeClass || "";
+    var meta = teamMeta(key);
+    var fbCls = "team-crest-fb" + (sizeClass ? " " + sizeClass : "");
+    var imgCls = "team-crest" + (sizeClass ? " " + sizeClass : "");
+    var url = TEAM_LOGOS[key];
+    if (!url) {
+      return '<span class="' + fbCls + '" style="background:' + meta.cor + '">' + meta.id + "</span>";
+    }
+    return '<span class="crest-wrap-inline">' +
+      '<img class="' + imgCls + '" src="' + url + '" alt="" loading="lazy" ' +
+      'onerror="this.style.display=\'none\';var n=this.nextElementSibling;if(n)n.style.display=\'inline-grid\'">' +
+      '<span class="' + fbCls + '" style="display:none;background:' + meta.cor + '">' + meta.id + "</span></span>";
+  }
+
+  function teamCellHtml(key) {
+    var crest = teamCrestHtml(key, "sm");
+    return '<span class="team-cell">' + (crest || "") + "<span>" + esc(label(key)) + "</span></span>";
+  }
+
+  function parseFormItem(s) {
+    var m = String(s).match(/^([VDE])\s*(.*)$/i);
+    if (!m) return { letter: "?", score: s, cls: "form-draw" };
+    var letter = m[1].toUpperCase();
+    var cls = letter === "V" ? "form-win" : letter === "D" ? "form-loss" : "form-draw";
+    return { letter: letter, score: m[2] || "", cls: cls };
+  }
+
+  function renderFormBadges(ultimos5) {
+    if (!ultimos5 || !ultimos5.length) return '<span style="color:var(--muted)">\u2014</span>';
+    return '<div class="form-strip">' + ultimos5.map(function (s) {
+      var p = parseFormItem(s);
+      return '<span class="form-badge ' + p.cls + '" title="' + esc(s) + '">' +
+        '<span class="form-letter">' + p.letter + "</span>" +
+        (p.score ? '<span class="form-score">' + esc(p.score) + "</span>" : "") +
+        "</span>";
+    }).join("") + "</div>";
+  }
+
+  function infoChip(lbl, val, wide) {
+    return '<div class="info-chip' + (wide ? " wide" : "") + '">' +
+      '<span class="chip-label">' + esc(lbl) + '</span><span class="chip-value">' + val + "</span></div>";
+  }
+
+  function renderInjuryHtml(teamKey, desfalques, retornando) {
+    var parts = [];
+    if (desfalques && desfalques.length) {
+      parts.push('<div class="injury-list"><strong>' + esc(label(teamKey)) + ":</strong> " +
+        desfalques.map(function (d) {
+          return '<span class="out">' + esc(d.jogador || d) + "</span>";
+        }).join(", ") + " fora</div>");
+    }
+    if (retornando && retornando.length) {
+      parts.push('<div class="injury-list"><span class="in">Retornam: ' +
+        retornando.map(function (r) { return esc(r.jogador || r); }).join(", ") + "</span></div>");
+    }
+    return parts.join("");
+  }
+
+  function renderFixtureInfo(g, an, sides) {
+    var html = '<div class="fixture-info">';
+    html += '<div class="fixture-info-row">' +
+      infoChip("Data", fmtData(g.data)) +
+      infoChip("Hor\u00e1rio", esc(g.horario || "\u2014")) +
+      infoChip("Local", esc(g.estadio || g.local || g.torneio || "\u2014")) +
+      "</div>";
+
+    if (sport === "futebol" && an && !an.insuficientes) {
+      var comp = g.comp === "copa" ? "copa" : "brasileirao";
+      var statsM = getFootStats(g.mandante, comp);
+      var statsV = getFootStats(g.visitante, comp);
+      var infoM = getFootTeamInfo(g.mandante);
+      var infoV = getFootTeamInfo(g.visitante);
+      var ctx = an.contexto || {};
+
+      html += '<div class="fixture-info-row">' +
+        infoChip("Mando", esc(ctx.local || "\u2014")) +
+        infoChip("Exp. gols", esc(an.expGols || "\u2014")) +
+        (an.modelo ? infoChip("Modelo", esc(an.modelo + (an.lambdaHome ? " (\u03bb " + an.lambdaHome + "/" + an.lambdaAway + ")" : ""))) : "") +
+        "</div>";
+
+      html += '<div class="fixture-info-row">' +
+        '<div class="info-chip wide"><span class="chip-label">Forma ' + teamCellHtml(g.mandante) +
+        " \u00b7 " + (ctx.formT != null ? ctx.formT + "%" : "\u2014") + '</span>' +
+        '<div class="chip-value">' + renderFormBadges(statsM && statsM.ultimos5) + "</div></div>" +
+        '<div class="info-chip wide"><span class="chip-label">Forma ' + teamCellHtml(g.visitante) +
+        " \u00b7 " + (ctx.formA != null ? ctx.formA + "%" : "\u2014") + '</span>' +
+        '<div class="chip-value">' + renderFormBadges(statsV && statsV.ultimos5) + "</div></div>" +
+        "</div>";
+
+      html += '<div class="fixture-info-row">' +
+        infoChip("Seq. " + label(g.mandante), esc((statsM && statsM.sequencia) || "\u2014")) +
+        infoChip("Seq. " + label(g.visitante), esc((statsV && statsV.sequencia) || "\u2014")) +
+        "</div>";
+
+      var inj = renderInjuryHtml(g.mandante, infoM.desfalques, infoM.retornando) +
+        renderInjuryHtml(g.visitante, infoV.desfalques, infoV.retornando);
+      if (inj) html += '<div class="info-chip wide">' + inj + "</div>";
+
+      if (an.implied) {
+        html += '<div class="fixture-info-row"><div class="info-chip wide"><span class="chip-label">Odds 1X2 (impl\u00edcitas)</span>' +
+          '<div class="odds-row">' +
+          '<div class="odd-box"><div class="odd-lbl">1</div><div class="odd-val">' + an.implied.home + "</div></div>" +
+          '<div class="odd-box"><div class="odd-lbl">X</div><div class="odd-val">' + an.implied.draw + "</div></div>" +
+          '<div class="odd-box"><div class="odd-lbl">2</div><div class="odd-val">' + an.implied.away + "</div></div>" +
+          "</div></div></div>";
+      }
+    } else if (sport === "tenis") {
+      var extra = "";
+      if (g.superficie) extra += infoChip("Quadra", esc(g.superficie));
+      if (an.rankP1 && an.rankP2) extra += infoChip("Ranking", "#" + an.rankP1 + " vs #" + an.rankP2);
+      if (extra) html += '<div class="fixture-info-row">' + extra + "</div>";
+    } else if (sport === "ufc" && g.weightClass) {
+      html += '<div class="fixture-info-row">' + infoChip("Categoria", esc(g.weightClass)) + "</div>";
+    } else if (an && an.total) {
+      html += '<div class="fixture-info-row">' + infoChip("Exp. pontos", esc(an.total)) + "</div>";
+    }
+
+    html += "</div>";
+    return html;
+  }
+
+  function renderHeaderSelected() {
+    var el = document.getElementById("headerSelected");
+    if (!el) return;
+    if (!selectedEntity || sport !== "futebol") {
+      el.hidden = true;
+      el.innerHTML = "";
+      return;
+    }
+    var s = getFootStats(selectedEntity, selectedComp === "copa" ? "copa" : "brasileirao");
+    el.hidden = false;
+    el.innerHTML = teamCrestHtml(selectedEntity, "lg") +
+      '<div><div class="team-name-lg">' + esc(label(selectedEntity)) + "</div>" +
+      (s && s.posicao ? '<div class="team-pos">#' + s.posicao + " \u00b7 " + (s.pontos || 0) + " pts</div>" : "") +
+      "</div>";
+  }
+
+  function switchView(view) {
+    currentView = view;
+    document.querySelectorAll(".view-tab").forEach(function (tab) {
+      tab.classList.toggle("active", tab.getAttribute("data-view") === view);
+    });
+    document.getElementById("viewPainel").hidden = view !== "painel";
+    document.getElementById("viewModelo").hidden = view !== "modelo";
   }
 
   function isDuel() { return sport === "tenis" || sport === "ufc"; }
@@ -456,18 +640,8 @@
         : analyzeBasketGame(g);
       var blocks = renderMarketsBlock(an);
       if (typeof blocks === "string") {
-        return '<article class="fixture-card"><div class="proximo-meta">' + blocks + "</div></article>";
+        return '<article class="fixture-card"><div class="fixture-info"><div class="empty">' + blocks + "</div></div></article>";
       }
-      var meta = fmtData(g.data) + " \u00b7 " + (g.horario || "") + " \u00b7 " + (g.estadio || g.local || g.torneio || "");
-      if (sport === "futebol" && an.contexto) {
-        meta += " \u00b7 " + an.contexto.local + " \u00b7 Forma " + an.contexto.formT + "%/" + an.contexto.formA + "%";
-        if (an.contexto.sequencia) meta += " \u00b7 " + an.contexto.sequencia;
-        if (an.contexto.desfalques) meta += " \u00b7 " + an.contexto.desfalques;
-      }
-      if (sport === "tenis" && g.superficie) meta += " \u00b7 Quadra " + g.superficie;
-      if (sport === "tenis" && an.rankP1 && an.rankP2) meta += " \u00b7 Ranking #" + an.rankP1 + " vs #" + an.rankP2;
-      var modelNote = an.modelo ? (" \u00b7 Modelo: " + an.modelo) : "";
-      if (an.lambdaHome) modelNote += " (\u03bb " + an.lambdaHome + "/" + an.lambdaAway + ")";
       var roleA = sport === "tenis"
         ? (TENIS.atletas[sides.a] ? TENIS.atletas[sides.a].idade + " anos" : "Jogador 1")
         : sport === "ufc" ? "Lutador 1" : "Mandante";
@@ -475,23 +649,22 @@
         ? (TENIS.atletas[sides.b] ? TENIS.atletas[sides.b].idade + " anos" : "Jogador 2")
         : sport === "ufc" ? "Lutador 2" : "Visitante";
       var circuitoBadge = sport === "tenis" ? (g.genero === "F" ? "wta" : "atp") : g.comp;
+      var crestA = sport === "futebol" ? '<div class="crest-wrap">' + teamCrestHtml(sides.a, "lg") + "</div>" : "";
+      var crestB = sport === "futebol" ? '<div class="crest-wrap">' + teamCrestHtml(sides.b, "lg") + "</div>" : "";
       return '<article class="fixture-card">' +
         '<div class="fixture-head"><span class="comp-badge comp-' + circuitoBadge + '">' +
         (sport === "tenis" ? (g.genero === "F" ? "WTA" : "ATP") : (g.torneio || g.liga || g.comp)) +
         '</span><span class="fixture-rotulo">' + (g.fase || "") +
         (g.weightClass ? " \u00b7 " + g.weightClass : "") +
         (g.superficie ? " \u00b7 " + g.superficie : "") + "</span></div>" +
-        '<div class="proximo-match"><div class="proximo-team"><div class="name">' + sides.aL +
+        '<div class="proximo-match"><div class="proximo-team">' + crestA +
+        '<div class="name">' + esc(sides.aL) +
         '</div><div class="role">' + roleA +
-        '</div></div><div class="proximo-vs">VS</div><div class="proximo-team"><div class="name">' +
-        sides.bL + '</div><div class="role">' + roleB +
+        '</div></div><div class="proximo-vs">VS</div><div class="proximo-team">' + crestB +
+        '<div class="name">' + esc(sides.bL) +
+        '</div><div class="role">' + roleB +
         "</div></div></div>" +
-        '<div class="proximo-meta">' + meta +
-        (an.expGols ? " \u00b7 Exp. gols " + an.expGols : "") +
-        (an.total ? " \u00b7 Exp. pts " + an.total : "") +
-        (an.implied ? " \u00b7 Odds 1X2 ~ " + an.implied.home + " / " + an.implied.draw + " / " + an.implied.away : "") +
-        modelNote +
-        "</div>" +
+        renderFixtureInfo(g, an, sides) +
         '<div class="fixture-body"><div class="fixture-col"><h3>Melhores entradas</h3>' +
         '<div class="top-picks">' + blocks.topHtml + '</div></div>' +
         '<div class="fixture-col"><h3>Todos os mercados</h3>' + blocks.marketsHtml +
@@ -508,8 +681,8 @@
       items = t ? [
         { label: "Posição", value: "#" + (t.posicao || "\u2014"), hl: true },
         { label: "Pontos", value: t.pontos || "\u2014" },
-        { label: "Sequência", value: t.sequencia || "\u2014" },
-        { label: "Forma (5)", value: (t.ultimos5 || []).join(" ") },
+        { label: "Sequ\u00eancia", value: t.sequencia || "\u2014" },
+        { label: "\u00daltimos 5", value: renderFormBadges(t.ultimos5), html: true, formKpi: true },
         { label: "Desfalques", value: (tInfo.desfalques || []).length || "0" },
         { label: "Retornando", value: (tInfo.retornando || []).length || "0" }
       ] : [
@@ -560,8 +733,9 @@
       ];
     }
     document.getElementById("kpiGrid").innerHTML = items.map(function (i) {
-      return '<div class="kpi' + (i.hl ? " highlight" : "") + '"><div class="label">' + i.label +
-        '</div><div class="value">' + i.value + "</div></div>";
+      return '<div class="kpi' + (i.hl ? " highlight" : "") + (i.formKpi ? " kpi-form" : "") +
+        '"><div class="label">' + i.label + '</div><div class="value">' +
+        (i.html ? i.value : esc(i.value)) + "</div></div>";
     }).join("");
   }
 
@@ -577,10 +751,10 @@
         var info = getFootTeamInfo(name);
         if (!s) return "";
         return '<tr data-ent="' + name + '" class="' + (selectedEntity === name ? "selected-row" : "") + '">' +
-          '<td class="num">' + (s.posicao || "\u2014") + "</td><td>" + label(name) +
+          '<td class="num">' + (s.posicao || "\u2014") + "</td><td>" + teamCellHtml(name) +
           '</td><td class="num">' + (s.pontos || "\u2014") +
           '</td><td class="num">' + (s.sequencia || "\u2014") +
-          '</td><td>' + ((s.ultimos5 || []).join(" ")) +
+          '</td><td class="table-form-col">' + renderFormBadges(s.ultimos5) +
           '</td><td class="num">' + ((info.desfalques || []).length) + "</td></tr>";
       }).join("");
     } else if (sport === "tenis") {
@@ -654,14 +828,39 @@
 
   function updateGlossario() {
     var el = document.getElementById("glossarioText");
+    var sub = document.getElementById("modeloSub");
+    if (!el) return;
     if (sport === "futebol") {
-      el.innerHTML = "<strong>Modelo matem\u00e1tico \u2014 Futebol</strong><p>Poisson + Dixon-Coles com <strong>forma recente</strong> (\u00faltimos 5), <strong>sequ\u00eancia</strong>, <strong>casa/fora</strong>, <strong>desfalques</strong> e <strong>retornos</strong>. Dados atualizados a cada recarga da p\u00e1gina.</p>";
+      if (sub) sub.textContent = "Poisson + Dixon-Coles com contexto de jogo";
+      el.innerHTML = "<h3>Distribui\u00e7\u00e3o de gols (Poisson)</h3>" +
+        "<p>Cada time recebe um <strong>\u03bb</strong> (taxa esperada de gols) a partir de m\u00e9dia de gols marcados/sofridos, ajustada por:</p>" +
+        "<ul><li><strong>Forma recente</strong> \u2014 \u00faltimos 5 jogos (V/D/E com placar)</li>" +
+        "<li><strong>Sequ\u00eancia</strong> \u2014 momento atual (ex.: 1V, 3D)</li>" +
+        "<li><strong>Casa/fora</strong> \u2014 desempenho como mandante ou visitante</li>" +
+        "<li><strong>Desfalques e retornos</strong> \u2014 impacto por jogador fora ou voltando</li></ul>" +
+        "<h3>Corre\u00e7\u00e3o Dixon-Coles</h3>" +
+        "<p>Ajuste na matriz de placares para empates baixos (0\u20130, 1\u20131) mais realistas que Poisson puro.</p>" +
+        "<h3>Mercados derivados</h3>" +
+        "<p>1X2, over/under, BTTS, handicap, escanteios e cart\u00f5es s\u00e3o calculados a partir da massa de probabilidade dos placares.</p>" +
+        "<p><em>Odds exibidas s\u00e3o decimais impl\u00edcitas (1/probabilidade), n\u00e3o cota\u00e7\u00f5es de casa de aposta.</em></p>";
     } else if (sport === "tenis") {
-      el.innerHTML = "<strong>Modelo matem\u00e1tico \u2014 T\u00eanis</strong><p>Bradley-Terry com <strong>ranking ATP/WTA atualizado</strong>, idade e % por superf\u00edcie. Rankings sincronizados a cada recarga.</p>";
+      if (sub) sub.textContent = "Bradley-Terry com ranking, idade e superf\u00edcie";
+      el.innerHTML = "<h3>Modelo Bradley-Terry</h3>" +
+        "<p>Probabilidade de vit\u00f3ria estimada pela diferen\u00e7a de for\u00e7a entre atletas, combinando:</p>" +
+        "<ul><li><strong>Ranking ATP/WTA</strong> (atualizado via live-sync)</li>" +
+        "<li><strong>Idade</strong> \u2014 pico de performance entre 24\u201328 anos</li>" +
+        "<li><strong>Superf\u00edcie</strong> \u2014 % de vit\u00f3rias em hard, saibro ou grama</li>" +
+        "<li><strong>Hold/break</strong> e rating interno</li></ul>" +
+        "<h3>Mercados</h3><p>Vencedor, sets, games totais e handicap derivados da probabilidade base.</p>";
     } else if (sport === "ufc") {
-      el.innerHTML = "<strong>Modelo matem\u00e1tico \u2014 UFC</strong><p>Bradley-Terry com rating, alcance e perfil de finish (KO/SUB/DEC). Mercados de vencedor, m\u00e9todo, dura\u00e7\u00e3o e round betting.</p>";
+      if (sub) sub.textContent = "Bradley-Terry com perfil de finish";
+      el.innerHTML = "<h3>Modelo de luta (MMA)</h3>" +
+        "<p>Rating + alcance + perfil de finaliza\u00e7\u00e3o (KO/SUB/DEC) para estimar vencedor e mercados de m\u00e9todo/dura\u00e7\u00e3o.</p>" +
+        "<h3>Mercados</h3><p>Vencedor, m\u00e9todo, dura\u00e7\u00e3o, round betting e props derivados.</p>";
     } else {
-      el.innerHTML = "<strong>Modelo matem\u00e1tico \u2014 Basquete</strong><p>Distribui\u00e7\u00e3o Normal para margem e total de pontos (PPG, pace, rating e fator casa). Moneyline, spread e team totals derivados da CDF.</p>";
+      if (sub) sub.textContent = "Distribui\u00e7\u00e3o Normal para pontos";
+      el.innerHTML = "<h3>Modelo Normal (basquete)</h3>" +
+        "<p>Margem e total de pontos modelados com PPG, pace, rating e fator casa. Moneyline, spread e team totals via CDF normal.</p>";
     }
   }
 
@@ -701,6 +900,7 @@
 
     populateFilters();
     updateGlossario();
+    renderHeaderSelected();
     renderTodayClock();
     renderCalendar();
     renderDayGames();
@@ -762,6 +962,13 @@
       goToToday();
       renderAll(false);
     };
+
+    document.querySelectorAll(".view-tab").forEach(function (tab) {
+      tab.onclick = function () {
+        switchView(tab.getAttribute("data-view"));
+      };
+    });
+    switchView(currentView);
 
     var boot = function () {
       if (window.LIVE_SYNC) {

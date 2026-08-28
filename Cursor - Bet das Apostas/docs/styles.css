@@ -126,9 +126,87 @@ body.sport-tenis .filter-tenis-only { display: flex !important; }
   border: 1px solid var(--border); border-radius: var(--radius); font-size: 0.85rem; color: var(--muted);
   box-shadow: var(--shadow);
 }
-.glossario-box { display: flex; gap: 0.85rem; border-left: 3px solid var(--blue); }
-.glossario-box strong { color: var(--blue); display: block; margin-bottom: 0.3rem; }
-.glossario-icon { font-size: 1.4rem; }
+
+.view-tabs {
+  display: flex; gap: 0.35rem; margin-bottom: 1rem; padding: 0.3rem;
+  background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+  width: fit-content; max-width: 100%; box-shadow: var(--shadow);
+}
+.view-tab {
+  border: none; background: transparent; color: var(--muted); font-family: inherit;
+  font-weight: 700; font-size: 0.82rem; padding: 0.55rem 1rem; border-radius: 9px; cursor: pointer;
+}
+.view-tab:hover { color: var(--text); background: var(--surface2); }
+.view-tab.active { background: var(--blue); color: #fff; box-shadow: 0 3px 10px rgba(26,111,208,0.25); }
+
+.modelo-panel .panel-body { font-size: 0.88rem; line-height: 1.65; color: var(--text); }
+.modelo-panel .panel-body h3 { font-size: 0.95rem; margin: 1rem 0 0.4rem; color: var(--accent); }
+.modelo-panel .panel-body h3:first-child { margin-top: 0; }
+.modelo-panel .panel-body ul { margin: 0.35rem 0 0.5rem 1.1rem; color: var(--muted); }
+.modelo-panel .panel-body li { margin-bottom: 0.25rem; }
+
+.header-main { flex: 1; min-width: 180px; }
+.header-selected {
+  display: flex; align-items: center; gap: 0.65rem; padding: 0.45rem 0.85rem;
+  background: var(--accent-soft); border: 1px solid rgba(11,122,75,0.2); border-radius: 12px;
+}
+.header-selected .team-name-lg { font-weight: 800; font-size: 0.95rem; }
+.header-selected .team-pos { font-size: 0.72rem; color: var(--muted); font-family: var(--mono); }
+
+.team-crest {
+  width: 28px; height: 28px; object-fit: contain; flex-shrink: 0; vertical-align: middle;
+}
+.team-crest.lg { width: 48px; height: 48px; }
+.team-crest.sm { width: 22px; height: 22px; }
+.team-crest-fb {
+  display: inline-grid; place-items: center; border-radius: 50%; color: #fff;
+  font-weight: 800; font-size: 0.58rem; letter-spacing: -0.02em;
+  border: 1px solid rgba(0,0,0,0.1); flex-shrink: 0;
+}
+.team-crest-fb.lg { width: 48px; height: 48px; font-size: 0.72rem; }
+.team-crest-fb.sm { width: 22px; height: 22px; font-size: 0.5rem; }
+.team-cell { display: inline-flex; align-items: center; gap: 0.45rem; }
+.proximo-team .crest-wrap { margin-bottom: 0.35rem; display: flex; justify-content: center; }
+
+.form-strip { display: flex; gap: 0.28rem; flex-wrap: wrap; align-items: center; }
+.form-badge {
+  display: inline-flex; flex-direction: column; align-items: center; justify-content: center;
+  min-width: 34px; padding: 0.2rem 0.3rem; border-radius: 7px; font-size: 0.62rem; font-weight: 800;
+  border: 1px solid transparent; line-height: 1.1;
+}
+.form-badge .form-letter { font-size: 0.72rem; }
+.form-badge .form-score { font-family: var(--mono); font-size: 0.55rem; font-weight: 600; opacity: 0.9; }
+.form-badge.form-win { background: #e6f6ee; color: #0b7a4b; border-color: #9fd4b8; }
+.form-badge.form-draw { background: #fff8e6; color: #9a6400; border-color: #f0d9a0; }
+.form-badge.form-loss { background: #fdecea; color: #b42318; border-color: #f5b5b0; }
+
+.fixture-info {
+  padding: 0.85rem 1rem; background: var(--surface2); border-bottom: 1px solid var(--border);
+  display: flex; flex-direction: column; gap: 0.65rem;
+}
+.fixture-info-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.5rem; }
+.info-chip {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+  padding: 0.5rem 0.65rem;
+}
+.info-chip .chip-label {
+  display: block; font-size: 0.58rem; text-transform: uppercase; letter-spacing: 0.06em;
+  color: var(--muted); font-weight: 700; margin-bottom: 0.2rem;
+}
+.info-chip .chip-value { font-size: 0.8rem; font-weight: 600; color: var(--text); }
+.info-chip.wide { grid-column: 1 / -1; }
+.odds-row { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+.odd-box {
+  flex: 1; min-width: 70px; text-align: center; padding: 0.4rem 0.5rem;
+  background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+}
+.odd-box .odd-lbl { font-size: 0.58rem; color: var(--muted); font-weight: 700; text-transform: uppercase; }
+.odd-box .odd-val { font-family: var(--mono); font-weight: 800; font-size: 0.95rem; color: var(--accent); }
+.injury-list { font-size: 0.75rem; color: var(--muted); margin-top: 0.15rem; }
+.injury-list .out { color: #b42318; font-weight: 600; }
+.injury-list .in { color: #0b7a4b; font-weight: 600; }
+.kpi-form .value { display: flex; justify-content: center; padding-top: 0.15rem; }
+.table-form-col { min-width: 190px; }
 
 .calendar-section { display: grid; grid-template-columns: minmax(240px, 0.78fr) 1.22fr; gap: 0.85rem; margin-bottom: 1rem; }
 @media (max-width: 980px) { .calendar-section { grid-template-columns: 1fr; } }
@@ -229,16 +307,13 @@ body.sport-tenis .filter-tenis-only { display: flex !important; }
   padding: 1.15rem; background: var(--accent-soft); border-bottom: 1px solid var(--border);
 }
 .proximo-team { text-align: center; min-width: 120px; }
-.proximo-team .name { font-weight: 800; font-size: 1.05rem; }
+.proximo-team .name { display: flex; align-items: center; justify-content: center; gap: 0.35rem; flex-wrap: wrap; font-weight: 800; font-size: 1.05rem; }
 .proximo-team .role { font-size: 0.7rem; color: var(--muted); }
 .proximo-vs {
   font-size: 1.2rem; font-weight: 800; color: var(--accent); font-family: var(--mono);
   padding: 0.35rem 0.7rem; border: 1px solid var(--border); border-radius: 8px; background: #fff;
 }
-.proximo-meta {
-  text-align: center; font-size: 0.78rem; color: var(--muted); padding: 0.65rem 1rem;
-  background: var(--surface2); border-bottom: 1px solid var(--border);
-}
+.proximo-meta { display: none; }
 .fixture-body { display: grid; grid-template-columns: 1fr 1.25fr; gap: 0; }
 @media (max-width: 900px) { .fixture-body { grid-template-columns: 1fr; } }
 .fixture-col { padding: 1.15rem; }
