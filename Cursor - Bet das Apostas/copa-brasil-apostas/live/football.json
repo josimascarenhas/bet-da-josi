@@ -1,7 +1,7 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-29T17:49:05-03:00",
-    "fonte": "resultados + recálculo estatístico + classificação",
+    "atualizadoEm": "2026-08-29T19:25:39-03:00",
+    "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 350,
     "timesAtualizados": 116,
     "placaresFonte": "calendário + openligadb.de + 365scores.com"
@@ -325,6 +325,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.71,
+        "xGSporJogo": 1.02
       }
     },
     "Flamengo": {
@@ -435,6 +439,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.84,
+        "xGSporJogo": 1.08
       }
     },
     "Athletico-PR": {
@@ -530,6 +538,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.45,
+        "xGSporJogo": 1.09
       }
     },
     "Fluminense": {
@@ -571,6 +583,11 @@
       "desfalques": [
         {
           "jogador": "Alisson sente incÃ´modo no quadril e vir",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "EscalaÃ§Ã£o do Fluminense",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -640,6 +657,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.48,
+        "xGSporJogo": 1.27
       }
     },
     "Cruzeiro": {
@@ -765,6 +786,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.45,
+        "xGSporJogo": 1.42
       }
     },
     "Bahia": {
@@ -804,6 +829,11 @@
         "golsContra": 28
       },
       "desfalques": [
+        {
+          "jogador": "Inter tem três desfalques para enfrentar",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Escalação do Bahia contra o Internaciona",
           "motivo": "notícia GE",
@@ -854,6 +884,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.45,
+        "xGSporJogo": 1.27
       }
     },
     "Bragantino": {
@@ -943,6 +977,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.21,
+        "xGSporJogo": 1.11
       }
     },
     "Coritiba": {
@@ -1032,6 +1070,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.33,
+        "xGSporJogo": 1.35
       }
     },
     "Atletico-MG": {
@@ -1072,9 +1114,9 @@
       },
       "desfalques": [
         {
-          "jogador": "Hulk",
-          "motivo": "desconforto muscular",
-          "impacto": "alto"
+          "jogador": "Relacionados",
+          "motivo": "notícia GE",
+          "impacto": "medio"
         }
       ],
       "retornando": [
@@ -1142,6 +1184,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.36,
+        "xGSporJogo": 1.27
       }
     },
     "Corinthians": {
@@ -1252,6 +1298,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.2,
+        "xGSporJogo": 1.15
       }
     },
     "Botafogo": {
@@ -1341,6 +1391,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.58,
+        "xGSporJogo": 1.58
       }
     },
     "Vitoria": {
@@ -1381,8 +1435,8 @@
       },
       "desfalques": [
         {
-          "jogador": "Osvaldo",
-          "motivo": "lesão",
+          "jogador": "Relacionados",
+          "motivo": "notícia GE",
           "impacto": "medio"
         }
       ],
@@ -1445,6 +1499,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.12,
+        "xGSporJogo": 1.48
       }
     },
     "Sao-Paulo": {
@@ -1534,6 +1592,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.27,
+        "xGSporJogo": 1.27
       }
     },
     "Santos": {
@@ -1644,6 +1706,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.46,
+        "xGSporJogo": 1.56
       }
     },
     "Gremio": {
@@ -1748,6 +1814,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.17,
+        "xGSporJogo": 1.4
       }
     },
     "Internacional": {
@@ -1787,6 +1857,11 @@
         "golsContra": 27
       },
       "desfalques": [
+        {
+          "jogador": "Inter tem três desfalques para enfrentar",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Escalação do Bahia contra o Internaciona",
           "motivo": "notícia GE",
@@ -1858,6 +1933,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.15,
+        "xGSporJogo": 1.23
       }
     },
     "Mirassol": {
@@ -1919,8 +1998,8 @@
         "xGSporJogo": 1.11
       },
       "libertadores": {
-        "xGporJogo": 0.33,
-        "xGSporJogo": 0.33,
+        "xGporJogo": 1.34,
+        "xGSporJogo": 1.16,
         "escanteiosPorJogo": 5.5,
         "cartoesPorJogo": 2.6,
         "jogos": 1,
@@ -1958,6 +2037,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.24,
+        "xGSporJogo": 1.56
       }
     },
     "Remo": {
@@ -2047,6 +2130,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.24,
+        "xGSporJogo": 1.52
       }
     },
     "Vasco": {
@@ -2151,6 +2238,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.17,
+        "xGSporJogo": 1.61
       }
     },
     "Chapecoense": {
@@ -2234,6 +2325,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.15,
+        "xGSporJogo": 1.84
       }
     },
     "Cerro-Porteno": {
@@ -2329,8 +2424,8 @@
           "E 0-0 MIR"
         ],
         "sequencia": "1E",
-        "xGporJogo": 0.33,
-        "xGSporJogo": 0.33,
+        "xGporJogo": 1.35,
+        "xGSporJogo": 1.01,
         "casa": {
           "j": 1,
           "gpg": 0.0,
@@ -2352,8 +2447,8 @@
           "V 3-1 DEPTO"
         ],
         "sequencia": "1V",
-        "xGporJogo": 2.49,
-        "xGSporJogo": 1.05,
+        "xGporJogo": 1.4,
+        "xGSporJogo": 1.06,
         "casa": {
           "j": 1,
           "gpg": 3.0,
@@ -4539,6 +4634,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.52,
+        "xGSporJogo": 1.52
       }
     },
     "Sao-Bernardo": {
@@ -4664,6 +4763,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.52,
+        "xGSporJogo": 1.52
       }
     },
     "Ponte-Preta": {
@@ -4729,6 +4832,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.52,
+        "xGSporJogo": 1.52
       }
     },
     "Vila-Nova": {
@@ -4794,6 +4901,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.52,
+        "xGSporJogo": 1.52
       }
     },
     "Sport": {
@@ -4924,6 +5035,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.52,
+        "xGSporJogo": 1.52
       }
     },
     "America-MG": {
@@ -4990,6 +5105,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.52,
+        "xGSporJogo": 1.52
       }
     },
     "Athletic-PR": {
@@ -5121,6 +5240,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.52,
+        "xGSporJogo": 1.52
       }
     },
     "Nautico": {
@@ -5251,6 +5374,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.52,
+        "xGSporJogo": 1.52
       }
     },
     "Novorizontino": {
@@ -5417,6 +5544,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.52,
+        "xGSporJogo": 1.52
       }
     },
     "Fortaleza": {
@@ -5477,6 +5608,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.52,
+        "xGSporJogo": 1.52
       }
     },
     "Goias": {
@@ -5631,6 +5766,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.52,
+        "xGSporJogo": 1.52
       }
     },
     "CRB": {
@@ -5696,6 +5835,10 @@
       "primeira-liga": {
         "xGporJogo": 1.23,
         "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.52,
+        "xGSporJogo": 1.52
       }
     },
     "Hoffenheim": {
