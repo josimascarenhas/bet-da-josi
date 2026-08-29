@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-29T09:24:19.223540-03:00",
-    "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
-    "jogos": 337,
-    "finalizadosTotal": 337
+    "atualizadoEm": "2026-08-29T13:51:24.758793-03:00",
+    "fonte": "calendário + openligadb.de + 365scores.com",
+    "jogos": 346,
+    "finalizadosTotal": 346
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -2694,6 +2694,42 @@
       "data": "2026-08-28",
       "comp": "la-liga"
     },
+    "eu-bundesliga-2026-08-29-RB-Leipzig-Borussia-Mgladbach": {
+      "status": "finished",
+      "placar": "3-0",
+      "golsCasa": 3,
+      "golsFora": 0,
+      "data": "2026-08-29",
+      "comp": "bundesliga",
+      "fonte": "openligadb"
+    },
+    "eu-bundesliga-2026-08-29-Mainz-SC-Paderborn": {
+      "status": "finished",
+      "placar": "0-0",
+      "golsCasa": 0,
+      "golsFora": 0,
+      "data": "2026-08-29",
+      "comp": "bundesliga",
+      "fonte": "openligadb"
+    },
+    "eu-bundesliga-2026-08-29-Union-Berlin-Eintracht-Frankfurt": {
+      "status": "finished",
+      "placar": "3-3",
+      "golsCasa": 3,
+      "golsFora": 3,
+      "data": "2026-08-29",
+      "comp": "bundesliga",
+      "fonte": "openligadb"
+    },
+    "eu-bundesliga-2026-08-29-SV-Elversberg-Bayer-Leverkusen": {
+      "status": "finished",
+      "placar": "3-2",
+      "golsCasa": 3,
+      "golsFora": 2,
+      "data": "2026-08-29",
+      "comp": "bundesliga",
+      "fonte": "openligadb"
+    },
     "s2-2026-08-28-Novorizontino-Sport": {
       "status": "finished",
       "placar": "2-1",
@@ -2701,7 +2737,52 @@
       "golsFora": 1,
       "data": "2026-08-28",
       "comp": "serieb",
-      "fonte": "ge"
+      "fonte": "365scores"
+    },
+    "eu-premier-league-2026-08-29-Liverpool-Nottingham-Forest": {
+      "status": "finished",
+      "placar": "2-2",
+      "golsCasa": 2,
+      "golsFora": 2,
+      "data": "2026-08-29",
+      "comp": "premier-league",
+      "fonte": "365scores"
+    },
+    "eu-bundesliga-2026-08-29-Koln-Hoffenheim": {
+      "status": "finished",
+      "placar": "3-2",
+      "golsCasa": 3,
+      "golsFora": 2,
+      "data": "2026-08-29",
+      "comp": "bundesliga",
+      "fonte": "365scores"
+    },
+    "eu-premier-league-2026-08-29-Bournemouth-Everton": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-08-29",
+      "comp": "premier-league",
+      "fonte": "365scores"
+    },
+    "eu-primeira-liga-2026-08-29-Alverca-Santa-Clara": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-08-29",
+      "comp": "primeira-liga",
+      "fonte": "365scores"
+    },
+    "eu-primeira-liga-2026-08-29-Arouca-Maritimo": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-08-29",
+      "comp": "primeira-liga",
+      "fonte": "365scores"
     }
   }
 }
