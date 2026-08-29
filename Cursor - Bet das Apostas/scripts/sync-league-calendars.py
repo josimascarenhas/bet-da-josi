@@ -123,6 +123,23 @@ FIXTURES: dict[str, list[dict]] = {
         {"data": "2026-08-30", "horario": "10:30", "mandante": "SC-Freiburg", "visitante": "Werder-Bremen", "fase": "1ª rodada"},
         {"data": "2026-08-30", "horario": "12:30", "mandante": "Augsburg", "visitante": "Schalke-04", "fase": "1ª rodada"},
     ],
+    "mls": [
+        {"data": "2026-08-29", "horario": "17:30", "mandante": "Seattle-Sounders", "visitante": "Chicago-Fire", "fase": "Rodada 28"},
+        {"data": "2026-08-29", "horario": "20:30", "mandante": "Toronto-FC", "visitante": "New-York-City-FC", "fase": "Rodada 28"},
+        {"data": "2026-08-29", "horario": "20:30", "mandante": "New-York-Red-Bulls", "visitante": "Philadelphia-Union", "fase": "Rodada 28"},
+        {"data": "2026-08-29", "horario": "20:30", "mandante": "Inter-Miami", "visitante": "CF-Montreal", "fase": "Rodada 28"},
+        {"data": "2026-08-29", "horario": "20:30", "mandante": "DC-United", "visitante": "Los-Angeles-FC", "fase": "Rodada 28"},
+        {"data": "2026-08-29", "horario": "20:30", "mandante": "Atlanta-United", "visitante": "Charlotte-FC", "fase": "Rodada 28"},
+        {"data": "2026-08-29", "horario": "21:30", "mandante": "Nashville-SC", "visitante": "FC-Cincinnati", "fase": "Rodada 28"},
+        {"data": "2026-08-29", "horario": "21:30", "mandante": "Minnesota-United", "visitante": "Orlando-City", "fase": "Rodada 28"},
+        {"data": "2026-08-29", "horario": "21:30", "mandante": "Sporting-KC", "visitante": "Vancouver-Whitecaps", "fase": "Rodada 28"},
+        {"data": "2026-08-29", "horario": "21:30", "mandante": "Houston-Dynamo", "visitante": "San-Jose-Earthquakes", "fase": "Rodada 28"},
+        {"data": "2026-08-29", "horario": "22:30", "mandante": "Colorado-Rapids", "visitante": "Real-Salt-Lake", "fase": "Rodada 28"},
+        {"data": "2026-08-29", "horario": "23:30", "mandante": "San-Diego-FC", "visitante": "LA-Galaxy", "fase": "Rodada 28"},
+        {"data": "2026-08-29", "horario": "23:30", "mandante": "Portland-Timbers", "visitante": "Austin-FC", "fase": "Rodada 28"},
+        {"data": "2026-08-30", "horario": "20:00", "mandante": "New-England-Revolution", "visitante": "Columbus-Crew", "fase": "Rodada 28"},
+        {"data": "2026-08-30", "horario": "20:00", "mandante": "FC-Dallas", "visitante": "St-Louis-City", "fase": "Rodada 28"},
+    ],
     "serieb": [
         {"data": "2026-08-07", "horario": "19:30", "mandante": "Operario-PR", "visitante": "Sao-Bernardo", "fase": "rodada", "placar": "1-3"},
         {"data": "2026-08-07", "horario": "20:30", "mandante": "Ceara", "visitante": "Ponte-Preta", "fase": "rodada", "placar": "2-0"},
@@ -175,7 +192,12 @@ def load_calendario() -> dict:
 
 
 def make_id(comp: str, fx: dict) -> str:
-    prefix = "s2" if comp == "serieb" else f"eu-{comp}"
+    if comp == "serieb":
+        prefix = "s2"
+    elif comp == "mls":
+        prefix = "us-mls"
+    else:
+        prefix = f"eu-{comp}"
     return f"{prefix}-{fx['data']}-{fx['mandante']}-{fx['visitante']}"
 
 
@@ -183,7 +205,7 @@ def build_game(comp: str, fx: dict) -> dict:
     return {
         "id": make_id(comp, fx),
         "comp": comp,
-        "torneio": comp.replace("-", " ").title(),
+        "torneio": "MLS" if comp == "mls" else comp.replace("-", " ").title(),
         "rodada": None,
         "fase": fx["fase"],
         "data": fx["data"],

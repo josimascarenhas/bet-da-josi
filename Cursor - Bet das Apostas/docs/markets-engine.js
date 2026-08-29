@@ -132,6 +132,7 @@
     if (comp === "la-liga") return 1.05;
     if (comp === "bundesliga") return 1.04;
     if (comp === "primeira-liga") return 1.05;
+    if (comp === "mls") return 1.07;
     return 1.05;
   }
 

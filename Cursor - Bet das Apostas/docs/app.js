@@ -47,7 +47,20 @@
     "Atletico-Madrid": "Atl\u00e9tico Madrid", "Sevilla": "Sevilla", "Real-Betis": "Betis",
     "Villarreal": "Villarreal", Alaves: "Alav\u00e9s", Benfica: "Benfica", Porto: "Porto",
     "Sporting-CP": "Sporting CP", Braga: "Braga", "VfB-Stuttgart": "Stuttgart",
-    "Schalke-04": "Schalke", "SC-Paderborn": "Paderborn", "SV-Elversberg": "Elversberg"
+    "Schalke-04": "Schalke", "SC-Paderborn": "Paderborn", "SV-Elversberg": "Elversberg",
+    "Nashville-SC": "Nashville SC", "Inter-Miami": "Inter Miami", "Seattle-Sounders": "Seattle Sounders",
+    "Chicago-Fire": "Chicago Fire", "Los-Angeles-FC": "LAFC", "LA-Galaxy": "LA Galaxy",
+    "Sporting-KC": "Sporting KC", "Vancouver-Whitecaps": "Vancouver Whitecaps",
+    "New-York-City-FC": "NYC FC", "New-York-Red-Bulls": "NY Red Bulls",
+    "Philadelphia-Union": "Philadelphia Union", "CF-Montreal": "CF Montréal",
+    "DC-United": "D.C. United", "Atlanta-United": "Atlanta United", "Charlotte-FC": "Charlotte FC",
+    "FC-Cincinnati": "FC Cincinnati", "Minnesota-United": "Minnesota United",
+    "Orlando-City": "Orlando City", "Houston-Dynamo": "Houston Dynamo",
+    "San-Jose-Earthquakes": "San Jose Earthquakes", "Colorado-Rapids": "Colorado Rapids",
+    "Real-Salt-Lake": "Real Salt Lake", "San-Diego-FC": "San Diego FC",
+    "Portland-Timbers": "Portland Timbers", "Austin-FC": "Austin FC",
+    "New-England-Revolution": "New England", "Columbus-Crew": "Columbus Crew",
+    "FC-Dallas": "FC Dallas", "St-Louis-City": "St. Louis CITY", "Toronto-FC": "Toronto FC"
   };
 
   var TEAM_LOGOS = {
@@ -140,14 +153,14 @@
     var map = {
       brasileirao: "Série A", serieb: "Série B", libertadores: "Libertadores", copa: "Copa do Brasil",
       "premier-league": "Premier League", "la-liga": "La Liga", bundesliga: "Bundesliga",
-      "primeira-liga": "Primeira Liga"
+      "primeira-liga": "Primeira Liga", mls: "MLS"
     };
     return map[comp] || comp || "";
   }
 
   function footCompList() {
     return ["brasileirao", "serieb", "libertadores", "copa",
-      "premier-league", "la-liga", "bundesliga", "primeira-liga"];
+      "premier-league", "la-liga", "bundesliga", "primeira-liga", "mls"];
   }
 
   function footStandingsTitles() {
@@ -159,7 +172,8 @@
       "premier-league": "Premier League",
       "la-liga": "La Liga",
       bundesliga: "Bundesliga",
-      "primeira-liga": "Primeira Liga"
+      "primeira-liga": "Primeira Liga",
+      mls: "MLS"
     };
   }
 
@@ -769,7 +783,8 @@
         { id: "premier-league", nome: "Premier League" },
         { id: "la-liga", nome: "La Liga" },
         { id: "bundesliga", nome: "Bundesliga" },
-        { id: "primeira-liga", nome: "Primeira Liga" }
+        { id: "primeira-liga", nome: "Primeira Liga" },
+        { id: "mls", nome: "MLS" }
       ];
     }
     if (sport === "tenis") {
@@ -819,7 +834,8 @@
         "premier-league": "premier-league",
         "la-liga": "la-liga",
         bundesliga: "bundesliga",
-        "primeira-liga": "primeira-liga"
+        "primeira-liga": "primeira-liga",
+        mls: "mls"
       };
       var compKey = "";
       if (selectedComp !== "todos" && compMap[selectedComp]) {
@@ -882,6 +898,7 @@
       : comp === "la-liga" ? ["la-liga"]
       : comp === "bundesliga" ? ["bundesliga"]
       : comp === "primeira-liga" ? ["primeira-liga"]
+      : comp === "mls" ? ["mls"]
       : ["brasileirao", "libertadores", "serieb", "copa"];
     for (var i = 0; i < order.length; i++) {
       if (t[order[i]]) return t[order[i]];
@@ -890,7 +907,7 @@
   }
 
   function activeFootComp() {
-    var known = ["copa", "serieb", "libertadores", "premier-league", "la-liga", "bundesliga", "primeira-liga"];
+    var known = ["copa", "serieb", "libertadores", "premier-league", "la-liga", "bundesliga", "primeira-liga", "mls"];
     if (known.indexOf(selectedComp) >= 0) return selectedComp;
     return "brasileirao";
   }
@@ -950,7 +967,7 @@
     var isHome = g.mandante === team;
     var totalMap = {
       serieb: 20, brasileirao: 20, "premier-league": 20, "la-liga": 20,
-      bundesliga: 18, "primeira-liga": 18
+      bundesliga: 18, "primeira-liga": 18, mls: 30
     };
     var totalTimes = totalMap[comp] || 0;
     var ctx = {
@@ -976,7 +993,7 @@
       teamFora: tInfo.fora,
       advCasa: aInfo.casa,
       advFora: aInfo.fora,
-      advPais: aInfo.pais || (comp.indexOf("premier") >= 0 ? "ENG" : comp.indexOf("la-liga") >= 0 ? "ESP" : comp.indexOf("bundesliga") >= 0 ? "GER" : comp.indexOf("primeira") >= 0 ? "POR" : "BRA"),
+      advPais: aInfo.pais || (comp.indexOf("premier") >= 0 ? "ENG" : comp.indexOf("la-liga") >= 0 ? "ESP" : comp.indexOf("bundesliga") >= 0 ? "GER" : comp.indexOf("primeira") >= 0 ? "POR" : comp === "mls" ? "USA" : "BRA"),
       mandanteCasa: getFootTeamInfo(g.mandante).casa,
       visitanteFora: getFootTeamInfo(g.visitante).fora,
       h2hGoalDiff: h2hGoalDiff(team, adv)

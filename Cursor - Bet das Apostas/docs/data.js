@@ -75,6 +75,14 @@ window.BET_DATA = {
       timesAtivos: [],
       liga: {"jogos": 306, "mediaGols": 2.45, "over25": 46, "btts": 48, "mediaEscanteios": 9.0, "over85Escanteios": 55, "over95Escanteios": 48, "mediaCartoesAmarelos": 5.2, "over35Cartoes": 72, "over45Cartoes": 58, "mediaChutesNoGol": 7.8, "vitoriaMandante": 47, "vitoriaVisitante": 27, "empate": 26}
     },
+
+    mls: {
+      id: "mls",
+      nome: "MLS",
+      fase: "Rodada 28",
+      timesAtivos: [],
+      liga: {"jogos": 510, "mediaGols": 3.05, "over25": 58, "btts": 54, "mediaEscanteios": 10.4, "over85Escanteios": 64, "over95Escanteios": 56, "mediaCartoesAmarelos": 4.6, "over35Cartoes": 70, "over45Cartoes": 55, "mediaChutesNoGol": 8.6, "vitoriaMandante": 52, "vitoriaVisitante": 24, "empate": 24}
+    },
     brasileirao: {
       id: "brasileirao",
       nome: "Brasileir\u00e3o S\u00e9rie A",

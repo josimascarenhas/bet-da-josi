@@ -332,6 +332,7 @@ body.sport-tenis .filter-tenis-only { display: flex !important; }
 .comp-badge.comp-la-liga { background: #fce4ec; color: #ad1457; }
 .comp-badge.comp-bundesliga { background: #fff8e1; color: #f57f17; }
 .comp-badge.comp-primeira-liga { background: #e0f2f1; color: #00695c; }
+.comp-badge.comp-mls { background: #e3f2fd; color: #0d47a1; }
 .comp-badge.comp-nbb { background: var(--accent-soft); color: var(--accent); }
 .comp-badge.comp-euroleague, .comp-badge.comp-atp1000, .comp-badge.comp-grandslam { background: #efe8ff; color: #5b3db8; }
 .comp-badge.comp-atp { background: #e5f0fc; color: #1859a8; }

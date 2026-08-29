@@ -1,7 +1,7 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-29T16:38:08-03:00",
-    "fonte": "CBF / GE / modelo xG / calendário",
+    "atualizadoEm": "2026-08-29T17:49:05-03:00",
+    "fonte": "resultados + recálculo estatístico + classificação",
     "jogosFinalizados": 350,
     "timesAtualizados": 116,
     "placaresFonte": "calendário + openligadb.de + 365scores.com"
@@ -158,6 +158,41 @@
     },
     "copa": {
       "fase": "Quartas — volta"
+    },
+    "mls": {
+      "timesAtivos": [
+        "Atlanta-United",
+        "Austin-FC",
+        "CF-Montreal",
+        "Charlotte-FC",
+        "Chicago-Fire",
+        "Colorado-Rapids",
+        "Columbus-Crew",
+        "DC-United",
+        "FC-Cincinnati",
+        "FC-Dallas",
+        "Houston-Dynamo",
+        "Inter-Miami",
+        "LA-Galaxy",
+        "Los-Angeles-FC",
+        "Minnesota-United",
+        "Nashville-SC",
+        "New-England-Revolution",
+        "New-York-City-FC",
+        "New-York-Red-Bulls",
+        "Orlando-City",
+        "Philadelphia-Union",
+        "Portland-Timbers",
+        "Real-Salt-Lake",
+        "San-Diego-FC",
+        "San-Jose-Earthquakes",
+        "Seattle-Sounders",
+        "Sporting-KC",
+        "St-Louis-City",
+        "Toronto-FC",
+        "Vancouver-Whitecaps"
+      ],
+      "fase": "Rodada 28"
     }
   },
   "times": {
@@ -1884,8 +1919,8 @@
         "xGSporJogo": 1.11
       },
       "libertadores": {
-        "xGporJogo": 1.34,
-        "xGSporJogo": 1.16,
+        "xGporJogo": 0.33,
+        "xGSporJogo": 0.33,
         "escanteiosPorJogo": 5.5,
         "cartoesPorJogo": 2.6,
         "jogos": 1,
@@ -2294,8 +2329,8 @@
           "E 0-0 MIR"
         ],
         "sequencia": "1E",
-        "xGporJogo": 1.35,
-        "xGSporJogo": 1.01,
+        "xGporJogo": 0.33,
+        "xGSporJogo": 0.33,
         "casa": {
           "j": 1,
           "gpg": 0.0,
@@ -2317,8 +2352,8 @@
           "V 3-1 DEPTO"
         ],
         "sequencia": "1V",
-        "xGporJogo": 1.4,
-        "xGSporJogo": 1.06,
+        "xGporJogo": 2.49,
+        "xGSporJogo": 1.05,
         "casa": {
           "j": 1,
           "gpg": 3.0,

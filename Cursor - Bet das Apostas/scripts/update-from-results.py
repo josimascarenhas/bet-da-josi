@@ -22,12 +22,12 @@ UA = "Mozilla/5.0 (compatible; BetDaJosi/1.0; +https://josimascarenhas.github.io
 
 COMPS = (
     "brasileirao", "serieb", "libertadores", "copa",
-    "premier-league", "la-liga", "bundesliga", "primeira-liga",
+    "premier-league", "la-liga", "bundesliga", "primeira-liga", "mls",
 )
 
 LEAGUE_AVG = {
     "brasileirao": 1.24, "serieb": 1.11, "libertadores": 1.18, "copa": 1.07,
-    "premier-league": 1.43, "la-liga": 1.28, "bundesliga": 1.53, "primeira-liga": 1.23,
+    "premier-league": 1.43, "la-liga": 1.28, "bundesliga": 1.53, "primeira-liga": 1.23, "mls": 1.52,
 }
 
 SPORT_MAP = {
@@ -35,6 +35,7 @@ SPORT_MAP = {
     "la-liga": "soccer_spain_la_liga",
     "bundesliga": "soccer_germany_bundesliga",
     "primeira-liga": "soccer_portugal_primeira_liga",
+    "mls": "soccer_usa_mls",
     "serieb": "soccer_brazil_serie_b",
     "brasileirao": "soccer_brazil_campeonato",
     "libertadores": "soccer_conmebol_copa_libertadores",
@@ -143,6 +144,36 @@ TEAM_ALIASES: dict[str, list[str]] = {
     "ceara": ["ceara", "ceará"],
     "crb": ["crb"],
     "juventude": ["juventude"],
+    "nashville-sc": ["nashville"],
+    "inter-miami": ["intermiami", "miami"],
+    "seattle-sounders": ["seattle", "sounders"],
+    "chicago-fire": ["chicagofire", "fire"],
+    "los-angeles-fc": ["lafc", "losangelesfc"],
+    "la-galaxy": ["lagalaxy", "galaxy", "losangelesgalaxy"],
+    "sporting-kc": ["sportingkc", "kansas"],
+    "vancouver-whitecaps": ["vancouver", "whitecaps"],
+    "new-york-city-fc": ["nycfc", "newyorkcity"],
+    "new-york-red-bulls": ["redbulls", "nyredbulls"],
+    "philadelphia-union": ["philadelphia", "union"],
+    "cf-montreal": ["montreal", "cfmontreal"],
+    "dc-united": ["dcunited"],
+    "atlanta-united": ["atlantaunited"],
+    "charlotte-fc": ["charlotte"],
+    "fc-cincinnati": ["cincinnati", "fccincinnati"],
+    "minnesota-united": ["minnesota"],
+    "orlando-city": ["orlandocity", "orlando"],
+    "houston-dynamo": ["houston", "dynamo"],
+    "san-jose-earthquakes": ["sanjose", "earthquakes"],
+    "colorado-rapids": ["colorado", "rapids"],
+    "real-salt-lake": ["realsaltlake", "saltlake", "rsl"],
+    "san-diego-fc": ["sandiego"],
+    "portland-timbers": ["portland", "timbers"],
+    "austin-fc": ["austin"],
+    "new-england-revolution": ["newengland", "revolution"],
+    "columbus-crew": ["columbus", "crew"],
+    "fc-dallas": ["fcdallas", "dallas"],
+    "st-louis-city": ["stlouis", "louis"],
+    "toronto-fc": ["toronto"],
 }
 
 # Competition IDs on webws.365scores.com (futebol).
@@ -155,6 +186,7 @@ SCORES365_COMPS = {
     116: "serieb",
     102: "libertadores",
     115: "copa",
+    104: "mls",
 }
 
 OPENLIGA_TEAM_MAP = {
@@ -862,7 +894,7 @@ def build_team_stats(finished: list[dict]) -> dict[str, dict]:
 
 
 LEAGUE_COMPS = frozenset({
-    "brasileirao", "serieb", "premier-league", "la-liga", "bundesliga", "primeira-liga",
+    "brasileirao", "serieb", "premier-league", "la-liga", "bundesliga", "primeira-liga", "mls",
 })
 
 

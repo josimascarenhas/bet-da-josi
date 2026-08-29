@@ -21,7 +21,7 @@ IMPACT_MED = ("suspenso", "suspens", "desfalque")
 
 LEAGUE_AVG = {
     "brasileirao": 1.24, "serieb": 1.11, "libertadores": 1.18, "copa": 1.07,
-    "premier-league": 1.43, "la-liga": 1.28, "bundesliga": 1.53, "primeira-liga": 1.23,
+    "premier-league": 1.43, "la-liga": 1.28, "bundesliga": 1.53, "primeira-liga": 1.23, "mls": 1.52,
 }
 
 # Média histórica cartões/jogo por árbitro (CBF / fontes públicas — amostra)

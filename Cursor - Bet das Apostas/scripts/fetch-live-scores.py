@@ -28,6 +28,7 @@ SPORT_MAP = {
     "la-liga": "soccer_spain_la_liga",
     "bundesliga": "soccer_germany_bundesliga",
     "primeira-liga": "soccer_portugal_primeira_liga",
+    "mls": "soccer_usa_mls",
     "serieb": "soccer_brazil_serie_b",
     "brasileirao": "soccer_brazil_campeonato",
     "libertadores": "soccer_conmebol_copa_libertadores",

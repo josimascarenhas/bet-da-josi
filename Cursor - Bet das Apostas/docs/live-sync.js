@@ -41,7 +41,7 @@
       if (patch.libertadores && global.BET_DATA.times[team].libertadores) {
         mergeDeep(global.BET_DATA.times[team].libertadores, patch.libertadores);
       }
-      ["premier-league", "la-liga", "bundesliga", "primeira-liga"].forEach(function (ck) {
+      ["premier-league", "la-liga", "bundesliga", "primeira-liga", "mls"].forEach(function (ck) {
         if (patch[ck] && global.BET_DATA.times[team][ck]) {
           mergeDeep(global.BET_DATA.times[team][ck], patch[ck]);
         }

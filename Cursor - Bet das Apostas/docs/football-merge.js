@@ -60,6 +60,17 @@
         mergeDeep(base.times[key], global.EUROPE_DATA.times[key]);
       });
     }
+
+    if (global.MLS_DATA) {
+      if (global.MLS_DATA.competicao) {
+        if (!base.competicoes.mls) base.competicoes.mls = {};
+        mergeDeep(base.competicoes.mls, global.MLS_DATA.competicao);
+      }
+      Object.keys(global.MLS_DATA.times || {}).forEach(function (key) {
+        if (!base.times[key]) base.times[key] = {};
+        mergeDeep(base.times[key], global.MLS_DATA.times[key]);
+      });
+    }
   }
 
   global.mergeFootballExtensions = mergeFootballExtensions;
