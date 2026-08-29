@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-29T13:51:24.758793-03:00",
+    "atualizadoEm": "2026-08-29T16:38:03.274564-03:00",
     "fonte": "calendário + openligadb.de + 365scores.com",
-    "jogos": 346,
-    "finalizadosTotal": 346
+    "jogos": 350,
+    "finalizadosTotal": 350
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -2730,6 +2730,15 @@
       "comp": "bundesliga",
       "fonte": "openligadb"
     },
+    "eu-bundesliga-2026-08-29-Borussia-Dortmund-Hamburger-SV": {
+      "status": "finished",
+      "placar": "2-0",
+      "golsCasa": 2,
+      "golsFora": 0,
+      "data": "2026-08-29",
+      "comp": "bundesliga",
+      "fonte": "openligadb"
+    },
     "s2-2026-08-28-Novorizontino-Sport": {
       "status": "finished",
       "placar": "2-1",
@@ -2782,6 +2791,33 @@
       "golsFora": 1,
       "data": "2026-08-29",
       "comp": "primeira-liga",
+      "fonte": "365scores"
+    },
+    "eu-la-liga-2026-08-29-Levante-Real-Betis": {
+      "status": "finished",
+      "placar": "5-2",
+      "golsCasa": 5,
+      "golsFora": 2,
+      "data": "2026-08-29",
+      "comp": "la-liga",
+      "fonte": "365scores"
+    },
+    "eu-premier-league-2026-08-29-Tottenham-Newcastle-United": {
+      "status": "finished",
+      "placar": "0-2",
+      "golsCasa": 0,
+      "golsFora": 2,
+      "data": "2026-08-29",
+      "comp": "premier-league",
+      "fonte": "365scores"
+    },
+    "eu-la-liga-2026-08-29-Real-Sociedad-Espanyol": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-08-29",
+      "comp": "la-liga",
       "fonte": "365scores"
     }
   }

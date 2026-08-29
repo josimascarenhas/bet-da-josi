@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-29T13:51:24.758793-03:00",
+    "atualizadoEm": "2026-08-29T16:38:03.274564-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
@@ -75,6 +75,38 @@
       "comp": "primeira-liga",
       "mandante": "Arouca",
       "visitante": "Maritimo",
+      "placar": "2-1"
+    },
+    {
+      "id": "eu-la-liga-2026-08-29-Levante-Real-Betis",
+      "data": "2026-08-29",
+      "comp": "la-liga",
+      "mandante": "Levante",
+      "visitante": "Real-Betis",
+      "placar": "5-2"
+    },
+    {
+      "id": "eu-bundesliga-2026-08-29-Borussia-Dortmund-Hamburger-SV",
+      "data": "2026-08-29",
+      "comp": "bundesliga",
+      "mandante": "Borussia-Dortmund",
+      "visitante": "Hamburger-SV",
+      "placar": "2-0"
+    },
+    {
+      "id": "eu-premier-league-2026-08-29-Tottenham-Newcastle-United",
+      "data": "2026-08-29",
+      "comp": "premier-league",
+      "mandante": "Tottenham",
+      "visitante": "Newcastle-United",
+      "placar": "0-2"
+    },
+    {
+      "id": "eu-la-liga-2026-08-29-Real-Sociedad-Espanyol",
+      "data": "2026-08-29",
+      "comp": "la-liga",
+      "mandante": "Real-Sociedad",
+      "visitante": "Espanyol",
       "placar": "2-1"
     },
     {
@@ -212,38 +244,6 @@
       "mandante": "Independiente-del-Valle",
       "visitante": "Deportes-Tolima",
       "placar": "3-1"
-    },
-    {
-      "id": "eu-la-liga-2026-08-24-Osasuna-Levante",
-      "data": "2026-08-24",
-      "comp": "la-liga",
-      "mandante": "Osasuna",
-      "visitante": "Levante",
-      "placar": "0-0"
-    },
-    {
-      "id": "eu-premier-league-2026-08-24-Fulham-Chelsea",
-      "data": "2026-08-24",
-      "comp": "premier-league",
-      "mandante": "Fulham",
-      "visitante": "Chelsea",
-      "placar": "2-3"
-    },
-    {
-      "id": "eu-primeira-liga-2026-08-24-Gil-Vicente-Casa-Pia",
-      "data": "2026-08-24",
-      "comp": "primeira-liga",
-      "mandante": "Gil-Vicente",
-      "visitante": "Casa-Pia",
-      "placar": "2-0"
-    },
-    {
-      "id": "eu-la-liga-2026-08-24-Malaga-Deportivo",
-      "data": "2026-08-24",
-      "comp": "la-liga",
-      "mandante": "Malaga",
-      "visitante": "Deportivo",
-      "placar": "1-1"
     }
   ]
 }
