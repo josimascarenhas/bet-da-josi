@@ -307,13 +307,32 @@
         "</div>";
 
       html += '<div class="fixture-info-row">' +
+        infoChip("Classificacao", esc(
+          (statsM && statsM.posicao ? "#" + statsM.posicao + " (" + (statsM.pontos || 0) + " pts)" : "\u2014") +
+          " vs " +
+          (statsV && statsV.posicao ? "#" + statsV.posicao + " (" + (statsV.pontos || 0) + " pts)" : "\u2014")
+        ), true) +
+        "</div>";
+
+      html += '<div class="fixture-info-row">' +
         '<div class="info-chip wide"><span class="chip-label">Forma ' + teamCellHtml(g.mandante) +
-        " \u00b7 " + (ctx.formT != null ? ctx.formT + "%" : "\u2014") + '</span>' +
+        " \u00b7 " + (ctx.formT != null ? ctx.formT + "%" : "\u2014") +
+        (ctx.formVenueT != null ? " \u00b7 casa " + ctx.formVenueT + "%" : "") + '</span>' +
         '<div class="chip-value">' + renderFormBadges(statsM && statsM.ultimos5) + "</div></div>" +
         '<div class="info-chip wide"><span class="chip-label">Forma ' + teamCellHtml(g.visitante) +
-        " \u00b7 " + (ctx.formA != null ? ctx.formA + "%" : "\u2014") + '</span>' +
+        " \u00b7 " + (ctx.formA != null ? ctx.formA + "%" : "\u2014") +
+        (ctx.formVenueA != null ? " \u00b7 fora " + ctx.formVenueA + "%" : "") + '</span>' +
         '<div class="chip-value">' + renderFormBadges(statsV && statsV.ultimos5) + "</div></div>" +
         "</div>";
+
+      if (infoM.casa || infoV.fora) {
+        html += '<div class="fixture-info-row">' +
+          infoChip("Casa " + label(g.mandante),
+            esc((infoM.casa && infoM.casa.gpg != null ? infoM.casa.gpg + " gpg / " + infoM.casa.gsg + " gsg" : "\u2014"))) +
+          infoChip("Fora " + label(g.visitante),
+            esc((infoV.fora && infoV.fora.gpg != null ? infoV.fora.gpg + " gpg / " + infoV.fora.gsg + " gsg" : "\u2014"))) +
+          "</div>";
+      }
 
       html += '<div class="fixture-info-row">' +
         infoChip("Seq. " + label(g.mandante), esc((statsM && statsM.sequencia) || "\u2014")) +
@@ -928,6 +947,42 @@
     return n ? diff / n : 0;
   }
 
+  /** Ultimos N jogos do time em casa ou fora (retrocesso real do calendario). */
+  function recentVenueForm(team, comp, venue, beforeDate, limit) {
+    limit = limit || 5;
+    var results = [];
+    var jogos = (FCAL.jogos || []).filter(function (g) {
+      if (comp && g.comp !== comp) return false;
+      if (!g.placar) return false;
+      if (beforeDate && g.data >= beforeDate) return false;
+      if (venue === "casa") return g.mandante === team;
+      if (venue === "fora") return g.visitante === team;
+      return g.mandante === team || g.visitante === team;
+    });
+    jogos.sort(function (a, b) {
+      return (b.data || "").localeCompare(a.data || "") ||
+        (b.horario || "").localeCompare(a.horario || "");
+    });
+    for (var i = 0; i < jogos.length && results.length < limit; i++) {
+      var g = jogos[i];
+      var parts = String(g.placar).split("-").map(Number);
+      if (parts.length !== 2 || isNaN(parts[0])) continue;
+      var gf, ga, letter;
+      if (g.mandante === team) {
+        gf = parts[0];
+        ga = parts[1];
+      } else {
+        gf = parts[1];
+        ga = parts[0];
+      }
+      if (gf > ga) letter = "V";
+      else if (gf < ga) letter = "D";
+      else letter = "E";
+      results.push(letter + " " + gf + "-" + ga);
+    }
+    return results;
+  }
+
   function getFootTeamInfo(key) {
     return FOOT.times[key] || {};
   }
@@ -960,8 +1015,12 @@
   }
 
   function buildFootballContext(g, team, adv, comp) {
+    var mInfo = getFootTeamInfo(g.mandante);
+    var vInfo = getFootTeamInfo(g.visitante);
     var tInfo = getFootTeamInfo(team);
     var aInfo = getFootTeamInfo(adv);
+    var mStats = getFootStats(g.mandante, comp);
+    var vStats = getFootStats(g.visitante, comp);
     var tStats = getFootStats(team, comp);
     var aStats = getFootStats(adv, comp);
     var isHome = g.mandante === team;
@@ -972,30 +1031,49 @@
     var totalTimes = totalMap[comp] || 0;
     var ctx = {
       isMandante: isHome,
+      focusTeam: team,
       competicao: comp,
       mataMata: g.comp === "copa" || g.comp === "libertadores",
       tipo: String(g.fase || "").indexOf("volta") >= 0 ? "volta" : "ida",
       mandanteLabel: label(g.mandante),
       visitanteLabel: label(g.visitante),
       teamLabel: label(team),
+      mandanteStats: mStats,
+      visitanteStats: vStats,
+      mandanteForm: mStats && mStats.ultimos5,
+      visitanteForm: vStats && vStats.ultimos5,
+      mandanteFormVenue: recentVenueForm(g.mandante, comp, "casa", g.data, 5),
+      visitanteFormVenue: recentVenueForm(g.visitante, comp, "fora", g.data, 5),
+      mandanteSequencia: mStats && mStats.sequencia,
+      visitanteSequencia: vStats && vStats.sequencia,
+      mandantePosicao: mStats && (mStats.posicao || mStats.posicaoGrupo),
+      visitantePosicao: vStats && (vStats.posicao || vStats.posicaoGrupo),
+      mandantePontos: mStats && mStats.pontos,
+      visitantePontos: vStats && vStats.pontos,
+      totalTimes: totalTimes,
       teamForm: tStats && tStats.ultimos5,
       advForm: aStats && aStats.ultimos5,
       teamSequencia: tStats && tStats.sequencia,
       advSequencia: aStats && aStats.sequencia,
       teamPosicao: tStats && (tStats.posicao || tStats.posicaoGrupo),
       advPosicao: aStats && (aStats.posicao || aStats.posicaoGrupo),
-      totalTimes: totalTimes,
+      mandanteDesfalques: mInfo.desfalques || [],
+      visitanteDesfalques: vInfo.desfalques || [],
+      mandanteRetornando: mInfo.retornando || [],
+      visitanteRetornando: vInfo.retornando || [],
       teamDesfalques: tInfo.desfalques || [],
       advDesfalques: aInfo.desfalques || [],
       teamRetornando: tInfo.retornando || [],
       advRetornando: aInfo.retornando || [],
+      mandanteCasa: mInfo.casa,
+      visitanteFora: vInfo.fora,
+      mandantePais: mInfo.pais || (comp.indexOf("premier") >= 0 ? "ENG" : comp.indexOf("la-liga") >= 0 ? "ESP" : comp.indexOf("bundesliga") >= 0 ? "GER" : comp.indexOf("primeira") >= 0 ? "POR" : comp === "mls" ? "USA" : "BRA"),
+      visitantePais: vInfo.pais || (comp.indexOf("premier") >= 0 ? "ENG" : comp.indexOf("la-liga") >= 0 ? "ESP" : comp.indexOf("bundesliga") >= 0 ? "GER" : comp.indexOf("primeira") >= 0 ? "POR" : comp === "mls" ? "USA" : "BRA"),
       teamCasa: tInfo.casa,
       teamFora: tInfo.fora,
       advCasa: aInfo.casa,
       advFora: aInfo.fora,
       advPais: aInfo.pais || (comp.indexOf("premier") >= 0 ? "ENG" : comp.indexOf("la-liga") >= 0 ? "ESP" : comp.indexOf("bundesliga") >= 0 ? "GER" : comp.indexOf("primeira") >= 0 ? "POR" : comp === "mls" ? "USA" : "BRA"),
-      mandanteCasa: getFootTeamInfo(g.mandante).casa,
-      visitanteFora: getFootTeamInfo(g.visitante).fora,
       h2hGoalDiff: h2hGoalDiff(team, adv)
     };
     var intel = getGameIntel(g);
@@ -1481,9 +1559,10 @@
       if (sub) sub.textContent = "Poisson + Dixon-Coles com contexto de jogo";
       el.innerHTML = "<h3>Distribui\u00e7\u00e3o de gols (Poisson)</h3>" +
         "<p>Cada time recebe um <strong>\u03bb</strong> (taxa esperada de gols) a partir de m\u00e9dia de gols marcados/sofridos, ajustada por:</p>" +
-        "<ul><li><strong>Forma recente</strong> \u2014 \u00faltimos 5 jogos (V/D/E com placar)</li>" +
-        "<li><strong>Sequ\u00eancia</strong> \u2014 momento atual (ex.: 1V, 3D)</li>" +
-        "<li><strong>Casa/fora</strong> \u2014 desempenho como mandante ou visitante</li>" +
+        "<ul><li><strong>Retrocesso \u00faltimos 5</strong> \u2014 V/E/D com placar, peso maior no jogo mais recente e tend\u00eancia de gols</li>" +
+        "<li><strong>Classifica\u00e7\u00e3o</strong> \u2014 posi\u00e7\u00e3o na tabela, pontos e press\u00e3o (G4 / Z4)</li>" +
+        "<li><strong>Casa/fora do mandante</strong> \u2014 hist\u00f3rico em casa do mandante e fora do visitante (gpg/gsg + forma no calend\u00e1rio)</li>" +
+        "<li><strong>Sequ\u00eancia</strong> \u2014 momento atual (ex.: 2V, 3D)</li>" +
         "<li><strong>Desfalques e retornos</strong> \u2014 impacto por jogador fora ou voltando</li></ul>" +
         "<h3>Corre\u00e7\u00e3o Dixon-Coles</h3>" +
         "<p>Ajuste na matriz de placares para empates baixos (0\u20130, 1\u20131) mais realistas que Poisson puro.</p>" +
