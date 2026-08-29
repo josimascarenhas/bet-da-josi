@@ -34,15 +34,64 @@
   }
 
   /* --- Futebol: Poisson + ajuste Dixon-Coles leve --- */
+  function parseFormEntry(s) {
+    var raw = String(s || "").trim();
+    var m = raw.match(/^([VDE])\s*(\d+)\s*[-–x×X]\s*(\d+)/i);
+    if (m) {
+      var gf = parseInt(m[2], 10);
+      var ga = parseInt(m[3], 10);
+      var letter = m[1].toUpperCase();
+      return {
+        letter: letter,
+        gf: gf,
+        ga: ga,
+        pts: letter === "V" ? 3 : letter === "E" ? 1 : 0
+      };
+    }
+    var c = raw.charAt(0).toUpperCase();
+    return { letter: c, gf: null, ga: null, pts: c === "V" ? 3 : c === "E" ? 1 : 0 };
+  }
+
   function formScore(ultimos5) {
-    if (!ultimos5 || !ultimos5.length) return 50;
-    var pts = 0;
-    ultimos5.forEach(function (s) {
-      var c = String(s).charAt(0);
-      if (c === "V") pts += 3;
-      else if (c === "E") pts += 1;
+    return formScoreDetailed(ultimos5).score;
+  }
+
+  /** Retrocesso dos ultimos 5: pontos + gols com peso decrescente (jogo mais recente pesa mais). */
+  function formScoreDetailed(ultimos5, weights) {
+    if (!ultimos5 || !ultimos5.length) {
+      return { score: 50, gpg: 1.2, gsg: 1.2, trend: 0, n: 0 };
+    }
+    weights = weights || [1, 0.88, 0.76, 0.64, 0.52];
+    var ptsSum = 0, wPts = 0, gfSum = 0, gaSum = 0, wGoals = 0;
+    ultimos5.forEach(function (s, idx) {
+      var w = weights[idx] != null ? weights[idx] : 0.4;
+      var e = parseFormEntry(s);
+      ptsSum += e.pts * w;
+      wPts += w * 3;
+      if (e.gf != null && e.ga != null) {
+        gfSum += e.gf * w;
+        gaSum += e.ga * w;
+        wGoals += w;
+      }
     });
-    return pts / (ultimos5.length * 3) * 100;
+    var score = wPts ? (ptsSum / wPts) * 100 : 50;
+    var gpg = wGoals ? gfSum / wGoals : 1.2;
+    var gsg = wGoals ? gaSum / wGoals : 1.2;
+    return { score: score, gpg: gpg, gsg: gsg, trend: gpg - gsg, n: ultimos5.length };
+  }
+
+  function blendForm(general, venue) {
+    if (!venue || !venue.n) return general;
+    if (!general || !general.n) return venue;
+    var vw = venue.n >= 3 ? 0.62 : venue.n >= 2 ? 0.48 : 0.35;
+    var gw = 1 - vw;
+    return {
+      score: general.score * gw + venue.score * vw,
+      gpg: general.gpg * gw + venue.gpg * vw,
+      gsg: general.gsg * gw + venue.gsg * vw,
+      trend: general.trend * gw + venue.trend * vw,
+      n: Math.max(general.n, venue.n)
+    };
   }
 
   function squadImpact(list, type) {
@@ -72,11 +121,37 @@
 
   function tablePressure(posicao, total) {
     if (!posicao || !total) return 0;
-    if (posicao <= 4) return 0.04;
-    if (posicao <= 8) return 0.02;
-    if (posicao >= total - 3) return -0.05;
-    if (posicao >= total - 7) return -0.02;
-    return 0;
+    var norm = (total - posicao + 1) / total;
+    var linear = (norm - 0.5) * 0.08;
+    if (posicao <= 4) return linear + 0.04;
+    if (posicao <= 8) return linear + 0.02;
+    if (posicao >= total - 3) return linear - 0.05;
+    if (posicao >= total - 7) return linear - 0.02;
+    return linear;
+  }
+
+  function tableRankAdjustment(posHome, posAway, total, ptsHome, ptsAway) {
+    if (!posHome || !posAway || !total) return 0;
+    var rankDiff = (posAway - posHome) / total;
+    var adj = rankDiff * 0.14;
+    if (ptsHome != null && ptsAway != null) {
+      adj += ((ptsHome - ptsAway) / Math.max(ptsHome, ptsAway, 12)) * 0.07;
+    }
+    return clamp(adj, -0.1, 0.1);
+  }
+
+  function venueAttackDefense(homeCasa, awayFora, ligaAvg) {
+    var half = Math.max(0.9, ligaAvg / 2);
+    var hAtt = homeCasa && homeCasa.gpg ? homeCasa.gpg / half : 1;
+    var hDef = homeCasa && homeCasa.gsg ? homeCasa.gsg / half : 1;
+    var aAtt = awayFora && awayFora.gpg ? awayFora.gpg / half : 1;
+    var aDef = awayFora && awayFora.gsg ? awayFora.gsg / half : 1;
+    return {
+      hAtt: clamp(hAtt, 0.55, 1.65),
+      hDef: clamp(hDef, 0.55, 1.65),
+      aAtt: clamp(aAtt, 0.55, 1.65),
+      aDef: clamp(aDef, 0.55, 1.65)
+    };
   }
 
   function restFactor(days) {
@@ -137,68 +212,88 @@
   }
 
   function footballAnalyze(teamStats, advStats, liga, ctx) {
-    var t = teamStats || {};
-    var a = advStats || {};
+    ctx = ctx || {};
     liga = liga || {};
-    var home = !!ctx.isMandante;
     var avg = Math.max(0.9, liga.mediaGols || 2.4);
 
-    var attT = attackRate(t, avg);
-    var defT = defenseRate(t, avg);
-    var attA = attackRate(a, avg);
-    var defA = defenseRate(a, avg);
+    var mStats = ctx.mandanteStats || (ctx.isMandante ? teamStats : advStats) || {};
+    var vStats = ctx.visitanteStats || (ctx.isMandante ? advStats : teamStats) || {};
+    var focus = ctx.focusTeam || (ctx.isMandante ? "mandante" : "visitante");
 
-    var formT = formScore(ctx.teamForm || t.ultimos5);
-    var formA = formScore(ctx.advForm || a.ultimos5);
-    var formAdj = (formT - formA) * 0.0035;
+    var formM = blendForm(
+      formScoreDetailed(ctx.mandanteForm || mStats.ultimos5),
+      formScoreDetailed(ctx.mandanteFormVenue)
+    );
+    var formV = blendForm(
+      formScoreDetailed(ctx.visitanteForm || vStats.ultimos5),
+      formScoreDetailed(ctx.visitanteFormVenue)
+    );
+    var formAdj = (formM.score - formV.score) * 0.006 + (formM.trend - formV.trend) * 0.028;
 
-    var seqAdj = seqMomentum(ctx.teamSequencia) - seqMomentum(ctx.advSequencia);
-    var pressT = tablePressure(ctx.teamPosicao, ctx.totalTimes);
-    var pressA = tablePressure(ctx.advPosicao, ctx.totalTimes);
-    var pressAdj = pressT - pressA;
+    var seqAdj = seqMomentum(ctx.mandanteSequencia || mStats.sequencia) -
+      seqMomentum(ctx.visitanteSequencia || vStats.sequencia);
+    var pressM = tablePressure(ctx.mandantePosicao || mStats.posicao || mStats.posicaoGrupo, ctx.totalTimes);
+    var pressV = tablePressure(ctx.visitantePosicao || vStats.posicao || vStats.posicaoGrupo, ctx.totalTimes);
+    var pressAdj = pressM - pressV;
+    var rankAdj = tableRankAdjustment(
+      ctx.mandantePosicao || mStats.posicao || mStats.posicaoGrupo,
+      ctx.visitantePosicao || vStats.posicao || vStats.posicaoGrupo,
+      ctx.totalTimes,
+      ctx.mandantePontos != null ? ctx.mandantePontos : mStats.pontos,
+      ctx.visitantePontos != null ? ctx.visitantePontos : vStats.pontos
+    );
 
     var h2hAdj = ctx.h2hGoalDiff || 0;
-    var altAdj = altitudePenalty(ctx.advPais, home);
     var restHome = ctx.restDaysHome;
     var restAway = ctx.restDaysAway;
-    var restAdj = home
-      ? restFactor(restHome) - restFactor(restAway) + fatigueFactor(ctx.games7Home) - fatigueFactor(ctx.games7Away)
-      : restFactor(restAway) - restFactor(restHome) + fatigueFactor(ctx.games7Away) - fatigueFactor(ctx.games7Home);
+    var restAdj = restFactor(restHome) - restFactor(restAway) +
+      fatigueFactor(ctx.games7Home) - fatigueFactor(ctx.games7Away);
 
-    var injT = squadImpact(ctx.teamDesfalques, "out");
-    var injA = squadImpact(ctx.advDesfalques, "out");
-    var retT = squadImpact(ctx.teamRetornando, "in");
-    var retA = squadImpact(ctx.advRetornando, "in");
+    var injM = squadImpact(ctx.mandanteDesfalques || (ctx.isMandante ? ctx.teamDesfalques : ctx.advDesfalques), "out");
+    var injV = squadImpact(ctx.visitanteDesfalques || (ctx.isMandante ? ctx.advDesfalques : ctx.teamDesfalques), "out");
+    var retM = squadImpact(ctx.mandanteRetornando || (ctx.isMandante ? ctx.teamRetornando : ctx.advRetornando), "in");
+    var retV = squadImpact(ctx.visitanteRetornando || (ctx.isMandante ? ctx.advRetornando : ctx.teamRetornando), "in");
 
-    var homeM = ctx.mandanteCasa || ctx.teamCasa;
-    var awayM = ctx.visitanteFora || ctx.advFora;
-    var homeBoost = home ? splitFactor(homeM, true) : splitFactor(awayM, false);
-    var awayBoost = home ? splitFactor(awayM, false) : splitFactor(homeM, true);
+    var venue = venueAttackDefense(ctx.mandanteCasa, ctx.visitanteFora, avg);
+    var attM = attackRate(mStats, avg) * 0.28 + venue.hAtt * 0.72;
+    var defM = defenseRate(mStats, avg) * 0.28 + venue.hDef * 0.72;
+    var attV = attackRate(vStats, avg) * 0.28 + venue.aAtt * 0.72;
+    var defV = defenseRate(vStats, avg) * 0.28 + venue.aDef * 0.72;
+
+    var formGoalAdjM = clamp((formM.gpg / Math.max(0.8, avg / 2)) - 1, -0.18, 0.18) * 0.35;
+    var formGoalAdjV = clamp((formV.gpg / Math.max(0.8, avg / 2)) - 1, -0.18, 0.18) * 0.35;
+    attM *= (1 + formGoalAdjM);
+    attV *= (1 + formGoalAdjV);
+    defM *= (1 - clamp((formM.gsg / Math.max(0.8, avg / 2)) - 1, -0.15, 0.15) * 0.25);
+    defV *= (1 - clamp((formV.gsg / Math.max(0.8, avg / 2)) - 1, -0.15, 0.15) * 0.25);
+
     var compBoost = compHomeFactor(ctx.competicao || "brasileirao");
-    var totalAdj = formAdj + seqAdj + pressAdj + (h2hAdj * 0.015) + altAdj + restAdj;
+    var altAdj = altitudePenalty(ctx.mandantePais, false);
+    var totalAdj = formAdj + seqAdj + pressAdj + rankAdj + (h2hAdj * 0.015) + restAdj + altAdj;
 
-    var lambdaHome = clamp(attT * defA * (avg / 2) * compBoost * homeBoost * (1 + totalAdj - injT + retT), 0.35, 3.4);
-    var lambdaAway = clamp(attA * defT * (avg / 2) * 0.95 * awayBoost * (1 - totalAdj - injA + retA), 0.3, 3.2);
-    if (!home) {
-      lambdaHome = clamp(attA * defT * (avg / 2) * compBoost * homeBoost * (1 - totalAdj - injA + retA), 0.35, 3.4);
-      lambdaAway = clamp(attT * defA * (avg / 2) * 0.95 * awayBoost * (1 + totalAdj - injT + retT), 0.3, 3.2);
-    }
+    var lambdaHome = clamp(attM * defV * (avg / 2) * compBoost * (1 + totalAdj - injM + retM), 0.35, 3.4);
+    var lambdaAway = clamp(attV * defM * (avg / 2) * 0.95 * (1 - totalAdj - injV + retV), 0.3, 3.2);
 
-    var seqNote = (ctx.teamSequencia ? "Seq " + ctx.teamSequencia : "") +
-      (ctx.advSequencia ? " vs " + ctx.advSequencia : "");
-    var injNote = (ctx.teamDesfalques && ctx.teamDesfalques.length
-      ? "Desfalques " + ctx.teamLabel + ": " + ctx.teamDesfalques.map(function (d) { return d.jogador; }).join(", ")
+    var seqNote = (ctx.mandanteSequencia || mStats.sequencia ? "M " + (ctx.mandanteSequencia || mStats.sequencia) : "") +
+      (ctx.visitanteSequencia || vStats.sequencia ? " vs V " + (ctx.visitanteSequencia || vStats.sequencia) : "");
+    var injNote = (ctx.mandanteDesfalques && ctx.mandanteDesfalques.length
+      ? ctx.mandanteLabel + " fora: " + ctx.mandanteDesfalques.map(function (d) { return d.jogador; }).join(", ")
       : "") +
-      (ctx.advDesfalques && ctx.advDesfalques.length
-        ? " | " + ctx.advDesfalques.map(function (d) { return d.jogador; }).join(", ") + " fora"
+      (ctx.visitanteDesfalques && ctx.visitanteDesfalques.length
+        ? " | " + ctx.visitanteLabel + ": " + ctx.visitanteDesfalques.map(function (d) { return d.jogador; }).join(", ")
         : "");
-    var venueNote = home ? "Mandante em casa" : "Visitante fora de casa";
+    var rankNote = (ctx.mandantePosicao || mStats.posicao ? "#" + (ctx.mandantePosicao || mStats.posicao) : "") +
+      (ctx.visitantePosicao || vStats.posicao ? " vs #" + (ctx.visitantePosicao || vStats.posicao) : "");
+    var venueNote = "Mandante em casa (" + (ctx.mandanteCasa && ctx.mandanteCasa.gpg ? ctx.mandanteCasa.gpg.toFixed(2) : "?") +
+      " gpg) vs visitante fora (" + (ctx.visitanteFora && ctx.visitanteFora.gpg ? ctx.visitanteFora.gpg.toFixed(2) : "?") + " gpg)";
     var restNote = (restHome != null && restAway != null)
       ? "Descanso " + restHome + "d vs " + restAway + "d"
       : "";
-    var xgNote = (t.xGporJogo || a.xGporJogo)
-      ? "xG " + (t.xGporJogo || t.golsPorJogo || 0).toFixed(2) + " vs " + (a.xGporJogo || a.golsPorJogo || 0).toFixed(2)
+    var xgNote = (mStats.xGporJogo || vStats.xGporJogo)
+      ? "xG " + (mStats.xGporJogo || mStats.golsPorJogo || 0).toFixed(2) + " vs " + (vStats.xGporJogo || vStats.golsPorJogo || 0).toFixed(2)
       : "";
+    var formNote = "Forma M " + Math.round(formM.score) + "% (" + formM.gpg.toFixed(1) + " gpg) vs V " +
+      Math.round(formV.score) + "% (" + formV.gpg.toFixed(1) + " gpg)";
 
     var rho = -0.08; // Dixon-Coles low-score corr
     function joint(i, j) {
@@ -258,13 +353,14 @@
     var over35 = clamp(round0(pOver35 / totalProb * 100), 10, 70);
     var under25 = 100 - over25;
     var expTotal = lambdaHome + lambdaAway;
-    var expTeam = home ? lambdaHome : lambdaAway;
-    var expAdv = home ? lambdaAway : lambdaHome;
-    var teamWin = home ? pHome : pAway;
-    var teamLose = home ? pAway : pHome;
+    var focusHome = ctx.isMandante !== false;
+    var expTeam = focusHome ? lambdaHome : lambdaAway;
+    var expAdv = focusHome ? lambdaAway : lambdaHome;
+    var teamWin = focusHome ? pHome : pAway;
+    var teamLose = focusHome ? pAway : pHome;
 
     // Escanteios / cartoes como Poisson de medias
-    var escExp = (t.escanteiosPorJogo || 5) + (a.escanteiosPorJogo || 5);
+    var escExp = (mStats.escanteiosPorJogo || 5) + (vStats.escanteiosPorJogo || 5);
     function poissonOver(lambda, line) {
       var cdf = 0, k, lim = Math.floor(line);
       for (k = 0; k <= lim; k++) cdf += poissonPmf(k, lambda);
@@ -273,18 +369,18 @@
     var over85Esc = poissonOver(escExp, 8.5);
     var over95Esc = poissonOver(escExp, 9.5);
     var over105Esc = poissonOver(escExp, 10.5);
-    var cartBase = (liga.mediaCartoesAmarelos || 5.2) * (((t.cartoesPorJogo || 2.2) + (a.cartoesPorJogo || 2.2)) / 4.4);
+    var cartBase = (liga.mediaCartoesAmarelos || 5.2) * (((mStats.cartoesPorJogo || 2.2) + (vStats.cartoesPorJogo || 2.2)) / 4.4);
     var refMult = ctx.refereeCards ? ctx.refereeCards / (liga.mediaCartoesAmarelos || 5.2) : 1;
     var cartTotal = cartBase * clamp(refMult, 0.85, 1.2);
     var over45Cart = poissonOver(cartTotal, 4.5);
     var over35Cart = poissonOver(cartTotal, 3.5);
 
-    var sotHome = (t.chutesNoGolPorJogo || (liga.mediaChutesNoGol || 8.5) / 2);
-    var sotAway = (a.chutesNoGolPorJogo || (liga.mediaChutesNoGol || 8.5) / 2);
+    var sotHome = (mStats.chutesNoGolPorJogo || (liga.mediaChutesNoGol || 8.5) / 2);
+    var sotAway = (vStats.chutesNoGolPorJogo || (liga.mediaChutesNoGol || 8.5) / 2);
     var sotTotal = sotHome + sotAway;
     var finTotal = sotTotal * 2.55;
-    var teamSot = home ? sotHome : sotAway;
-    var advSot = home ? sotAway : sotHome;
+    var teamSot = focusHome ? sotHome : sotAway;
+    var advSot = focusHome ? sotAway : sotHome;
     var over75Sot = poissonOver(sotTotal, 7.5);
     var over85Sot = poissonOver(sotTotal, 8.5);
     var over95Sot = poissonOver(sotTotal, 9.5);
@@ -299,10 +395,10 @@
     var ehAwayM1 = clamp(round0(pAwayWin2Plus / totalProb * 100), 10, 58);
     var ehHomeP1 = clamp(round0(pHomeEhPlus1 / totalProb * 100), 42, 90);
     var ehAwayP1 = clamp(round0(pAwayEhPlus1 / totalProb * 100), 42, 90);
-    var ehTeamM1 = home ? ehHomeM1 : ehAwayM1;
-    var ehTeamP1 = home ? ehHomeP1 : ehAwayP1;
-    var ehAdvM1 = home ? ehAwayM1 : ehHomeM1;
-    var ehAdvP1 = home ? ehAwayP1 : ehHomeP1;
+    var ehTeamM1 = focusHome ? ehHomeM1 : ehAwayM1;
+    var ehTeamP1 = focusHome ? ehHomeP1 : ehAwayP1;
+    var ehAdvM1 = focusHome ? ehAwayM1 : ehHomeM1;
+    var ehAdvP1 = focusHome ? ehAwayP1 : ehHomeP1;
 
     function scorerLambda(stats, expG, desfalques) {
       var share = clamp((stats.golsPorJogo || stats.xGporJogo || 1.1) * 0.34, 0.2, 0.5);
@@ -314,8 +410,10 @@
       return Math.max(0.12, expG * share * (1 - Math.min(pen, 0.45)));
     }
     function playerSotLambda(sot) { return clamp(sot * 0.38, 0.8, 4.2); }
-    var lamScorerTeam = scorerLambda(home ? t : a, expTeam, home ? ctx.teamDesfalques : ctx.advDesfalques);
-    var lamScorerAdv = scorerLambda(home ? a : t, expAdv, home ? ctx.advDesfalques : ctx.teamDesfalques);
+    var lamScorerTeam = scorerLambda(focusHome ? mStats : vStats, expTeam,
+      focusHome ? (ctx.mandanteDesfalques || ctx.teamDesfalques) : (ctx.visitanteDesfalques || ctx.teamDesfalques));
+    var lamScorerAdv = scorerLambda(focusHome ? vStats : mStats, expAdv,
+      focusHome ? (ctx.visitanteDesfalques || ctx.advDesfalques) : (ctx.mandanteDesfalques || ctx.advDesfalques));
     var pScorerTeam = clamp(round0((1 - Math.exp(-lamScorerTeam)) * 100), 14, 68);
     var pScorerAdv = clamp(round0((1 - Math.exp(-lamScorerAdv)) * 100), 14, 68);
     var pSot1Team = poissonOver(playerSotLambda(teamSot), 0.5);
@@ -346,7 +444,7 @@
         conf: confLabel(prob), motivo: motivo
       });
     }
-    add("Resultado Final", ctx.mandanteLabel + " (1)", pHome, venueNote + " · forma " + Math.round(formT) + "% vs " + Math.round(formA) + "%");
+    add("Resultado Final", ctx.mandanteLabel + " (1)", pHome, rankNote + " · " + formNote);
     add("Resultado Final", "Empate (X)", pDraw, "Poisson ajustado · " + seqNote);
     add("Resultado Final", ctx.visitanteLabel + " (2)", pAway, injNote || "Modelo criterioso");
     add("Dupla Chance", ctx.mandanteLabel + " ou Empate (1X)", clamp(pHome + pDraw, 42, 88), "1X = 1 + X");
@@ -375,15 +473,15 @@
     add("Chutes ao Gol", "Over 9.5", over95Sot, "Linha alta de chutes no gol");
     add("Chutes ao Gol", ctx.teamLabel + " Over 3.5", over35TeamSot, "SOT do time=" + teamSot.toFixed(1));
     add("Chutes ao Gol", ctx.teamLabel + " Over 4.5", over45TeamSot, "Pressao ofensiva do foco");
-    add("Chutes ao Gol", (home ? ctx.visitanteLabel : ctx.mandanteLabel) + " Over 2.5", over25AdvSot, "SOT adversario=" + advSot.toFixed(1));
+    add("Chutes ao Gol", (focusHome ? ctx.visitanteLabel : ctx.mandanteLabel) + " Over 2.5", over25AdvSot, "SOT adversario=" + advSot.toFixed(1));
     add("Finalizacoes", "Over 22.5", over225Fin, "Estimativa finalizacoes=" + finTotal.toFixed(1));
     add("Finalizacoes", "Over 24.5", over245Fin, "Ratio SOT x2.55 + volume ofensivo");
     add("Finalizacoes", "Over 26.5", over265Fin, "Linha alta de chutes totais");
     add("Jogador", ctx.teamLabel + " artilheiro marca", pScorerTeam, "lambda atacante=" + lamScorerTeam.toFixed(2) + " · xG/time");
     add("Jogador", ctx.teamLabel + " artilheiro 1+ chute no gol", pSot1Team, "SOT esperado atacante=" + playerSotLambda(teamSot).toFixed(1));
     add("Jogador", ctx.teamLabel + " artilheiro 2+ chutes no gol", pSot2Team, "Volume ofensivo do principal finalizador");
-    add("Jogador", (home ? ctx.visitanteLabel : ctx.mandanteLabel) + " artilheiro marca", pScorerAdv, "lambda atacante=" + lamScorerAdv.toFixed(2));
-    add("Jogador", (home ? ctx.visitanteLabel : ctx.mandanteLabel) + " artilheiro 1+ chute no gol", pSot1Adv, "SOT adversario principal");
+    add("Jogador", (focusHome ? ctx.visitanteLabel : ctx.mandanteLabel) + " artilheiro marca", pScorerAdv, "lambda atacante=" + lamScorerAdv.toFixed(2));
+    add("Jogador", (focusHome ? ctx.visitanteLabel : ctx.mandanteLabel) + " artilheiro 1+ chute no gol", pSot1Adv, "SOT adversario principal");
     add("Escanteios", "Over 8.5", over85Esc, "Poisson esc. lambda=" + escExp.toFixed(1));
     add("Escanteios", "Over 9.5", over95Esc, "Linha classica");
     add("Escanteios", "Over 10.5", over105Esc, "Pressao ofensiva");
@@ -420,11 +518,14 @@
       expGols: expTotal.toFixed(2),
       lambdaHome: lambdaHome.toFixed(2),
       lambdaAway: lambdaAway.toFixed(2),
-      modelo: "Poisson + Dixon-Coles + xG/forma/descanso/casa",
+      modelo: "Poisson + Dixon-Coles + forma/classificacao/casa-fora",
       contexto: {
-        formT: Math.round(formT), formA: Math.round(formA),
+        formT: Math.round(formM.score), formA: Math.round(formV.score),
+        formVenueT: ctx.mandanteFormVenue && ctx.mandanteFormVenue.length ? Math.round(formScoreDetailed(ctx.mandanteFormVenue).score) : null,
+        formVenueA: ctx.visitanteFormVenue && ctx.visitanteFormVenue.length ? Math.round(formScoreDetailed(ctx.visitanteFormVenue).score) : null,
+        rank: rankNote,
         sequencia: seqNote, desfalques: injNote, local: venueNote,
-        descanso: restNote, xg: xgNote
+        descanso: restNote, xg: xgNote, forma: formNote
       },
       x1: { mandante: pHome, empate: pDraw, visitante: pAway, teamWin: teamWin, teamLose: teamLose },
       markets: markets,
