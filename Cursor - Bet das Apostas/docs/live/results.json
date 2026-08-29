@@ -1,10 +1,82 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-29T09:24:19.223540-03:00",
+    "atualizadoEm": "2026-08-29T13:51:24.758793-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "eu-premier-league-2026-08-29-Liverpool-Nottingham-Forest",
+      "data": "2026-08-29",
+      "comp": "premier-league",
+      "mandante": "Liverpool",
+      "visitante": "Nottingham-Forest",
+      "placar": "2-2"
+    },
+    {
+      "id": "eu-bundesliga-2026-08-29-Koln-Hoffenheim",
+      "data": "2026-08-29",
+      "comp": "bundesliga",
+      "mandante": "Koln",
+      "visitante": "Hoffenheim",
+      "placar": "3-2"
+    },
+    {
+      "id": "eu-bundesliga-2026-08-29-Mainz-SC-Paderborn",
+      "data": "2026-08-29",
+      "comp": "bundesliga",
+      "mandante": "Mainz",
+      "visitante": "SC-Paderborn",
+      "placar": "0-0"
+    },
+    {
+      "id": "eu-bundesliga-2026-08-29-RB-Leipzig-Borussia-Mgladbach",
+      "data": "2026-08-29",
+      "comp": "bundesliga",
+      "mandante": "RB-Leipzig",
+      "visitante": "Borussia-Mgladbach",
+      "placar": "3-0"
+    },
+    {
+      "id": "eu-bundesliga-2026-08-29-SV-Elversberg-Bayer-Leverkusen",
+      "data": "2026-08-29",
+      "comp": "bundesliga",
+      "mandante": "SV-Elversberg",
+      "visitante": "Bayer-Leverkusen",
+      "placar": "3-2"
+    },
+    {
+      "id": "eu-bundesliga-2026-08-29-Union-Berlin-Eintracht-Frankfurt",
+      "data": "2026-08-29",
+      "comp": "bundesliga",
+      "mandante": "Union-Berlin",
+      "visitante": "Eintracht-Frankfurt",
+      "placar": "3-3"
+    },
+    {
+      "id": "eu-premier-league-2026-08-29-Bournemouth-Everton",
+      "data": "2026-08-29",
+      "comp": "premier-league",
+      "mandante": "Bournemouth",
+      "visitante": "Everton",
+      "placar": "1-1"
+    },
+    {
+      "id": "eu-primeira-liga-2026-08-29-Alverca-Santa-Clara",
+      "data": "2026-08-29",
+      "comp": "primeira-liga",
+      "mandante": "Alverca",
+      "visitante": "Santa-Clara",
+      "placar": "1-1"
+    },
+    {
+      "id": "eu-primeira-liga-2026-08-29-Arouca-Maritimo",
+      "data": "2026-08-29",
+      "comp": "primeira-liga",
+      "mandante": "Arouca",
+      "visitante": "Maritimo",
+      "placar": "2-1"
+    },
     {
       "id": "eu-la-liga-2026-08-28-Racing-Elche",
       "data": "2026-08-28",
@@ -172,78 +244,6 @@
       "mandante": "Malaga",
       "visitante": "Deportivo",
       "placar": "1-1"
-    },
-    {
-      "id": "s2-2026-08-24-Athletic-PR-Novorizontino",
-      "data": "2026-08-24",
-      "comp": "serieb",
-      "mandante": "Athletic-PR",
-      "visitante": "Novorizontino",
-      "placar": "1-4"
-    },
-    {
-      "id": "s2-2026-08-24-Sport-America-MG",
-      "data": "2026-08-24",
-      "comp": "serieb",
-      "mandante": "Sport",
-      "visitante": "America-MG",
-      "placar": "3-0"
-    },
-    {
-      "id": "br-24-Botafogo-Athletico-PR",
-      "data": "2026-08-24",
-      "comp": "brasileirao",
-      "mandante": "Botafogo",
-      "visitante": "Athletico-PR",
-      "placar": "2-3"
-    },
-    {
-      "id": "eu-premier-league-2026-08-23-Brighton-Aston-Villa",
-      "data": "2026-08-23",
-      "comp": "premier-league",
-      "mandante": "Brighton",
-      "visitante": "Aston-Villa",
-      "placar": "4-0"
-    },
-    {
-      "id": "eu-premier-league-2026-08-23-Manchester-City-Bournemouth",
-      "data": "2026-08-23",
-      "comp": "premier-league",
-      "mandante": "Manchester-City",
-      "visitante": "Bournemouth",
-      "placar": "2-1"
-    },
-    {
-      "id": "eu-primeira-liga-2026-08-23-Vitoria-Guimaraes-Nacional",
-      "data": "2026-08-23",
-      "comp": "primeira-liga",
-      "mandante": "Vitoria-Guimaraes",
-      "visitante": "Nacional",
-      "placar": "1-0"
-    },
-    {
-      "id": "eu-la-liga-2026-08-23-Atletico-Madrid-Villarreal",
-      "data": "2026-08-23",
-      "comp": "la-liga",
-      "mandante": "Atletico-Madrid",
-      "visitante": "Villarreal",
-      "placar": "2-2"
-    },
-    {
-      "id": "eu-premier-league-2026-08-23-Newcastle-United-Liverpool",
-      "data": "2026-08-23",
-      "comp": "premier-league",
-      "mandante": "Newcastle-United",
-      "visitante": "Liverpool",
-      "placar": "2-2"
-    },
-    {
-      "id": "eu-primeira-liga-2026-08-23-Santa-Clara-Famalicao",
-      "data": "2026-08-23",
-      "comp": "primeira-liga",
-      "mandante": "Santa-Clara",
-      "visitante": "Famalicao",
-      "placar": "1-0"
     }
   ]
 }
