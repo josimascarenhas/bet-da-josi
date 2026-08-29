@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-29T02:52:53-03:00",
+    "atualizadoEm": "2026-08-29T09:24:23-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 337,
     "timesAtualizados": 104,
@@ -199,9 +199,9 @@
       },
       "desfalques": [
         {
-          "jogador": "Endrick",
-          "motivo": "lesão muscular",
-          "impacto": "alto"
+          "jogador": "Vendas e nova lesão de Paulinho mudam pl",
+          "motivo": "notícia GE",
+          "impacto": "medio"
         }
       ],
       "retornando": [
@@ -535,11 +535,6 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Fluminense",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
           "jogador": "Alisson sente incÃ´modo no quadril e vir",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -775,8 +770,8 @@
       },
       "desfalques": [
         {
-          "jogador": "Ademir",
-          "motivo": "lesão",
+          "jogador": "Por desfalques, Inter deverá ter nova fo",
+          "motivo": "notícia GE",
           "impacto": "medio"
         }
       ],
@@ -1654,8 +1649,8 @@
       },
       "desfalques": [
         {
-          "jogador": "Cristaldo",
-          "motivo": "lesão",
+          "jogador": "Desfalque para enfrentar a Chape; veja p",
+          "motivo": "notícia GE",
           "impacto": "medio"
         }
       ],
@@ -1758,12 +1753,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Endrick não treina com o grupo do Real M",
-          "motivo": "notícia GE",
-          "impacto": "alto"
-        },
-        {
-          "jogador": "Simeone diz que Julián não jogará contra",
+          "jogador": "Por desfalques, Inter deverá ter nova fo",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
