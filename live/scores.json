@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-28T20:38:47.793444-03:00",
-    "fonte": "calendário + openligadb.de",
-    "jogos": 336,
-    "finalizadosTotal": 336
+    "atualizadoEm": "2026-08-29T02:52:50.231231-03:00",
+    "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
+    "jogos": 337,
+    "finalizadosTotal": 337
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -2693,6 +2693,15 @@
       "golsFora": 0,
       "data": "2026-08-28",
       "comp": "la-liga"
+    },
+    "s2-2026-08-28-Novorizontino-Sport": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-08-28",
+      "comp": "serieb",
+      "fonte": "ge"
     }
   }
 }

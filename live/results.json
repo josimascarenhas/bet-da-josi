@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-28T20:38:47.793444-03:00",
+    "atualizadoEm": "2026-08-29T02:52:50.231231-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
@@ -44,6 +44,14 @@
       "mandante": "Alaves",
       "visitante": "Villarreal",
       "placar": "1-0"
+    },
+    {
+      "id": "s2-2026-08-28-Novorizontino-Sport",
+      "data": "2026-08-28",
+      "comp": "serieb",
+      "mandante": "Novorizontino",
+      "visitante": "Sport",
+      "placar": "2-1"
     },
     {
       "id": "eu-la-liga-2026-08-27-Celta-Osasuna",
@@ -235,14 +243,6 @@
       "comp": "primeira-liga",
       "mandante": "Santa-Clara",
       "visitante": "Famalicao",
-      "placar": "1-0"
-    },
-    {
-      "id": "eu-la-liga-2026-08-23-Getafe-Racing",
-      "data": "2026-08-23",
-      "comp": "la-liga",
-      "mandante": "Getafe",
-      "visitante": "Racing",
       "placar": "1-0"
     }
   ]
