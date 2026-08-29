@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "atualizadoEm": "2026-08-28T10:30:00-03:00",
+    "fonte": "ATP / WTA rankings oficiais"
+  },
+  "atp": {
+    "Sinner": { "ranking": 1, "rating": 98 },
+    "Alcaraz": { "ranking": 2, "rating": 97 },
+    "Djokovic": { "ranking": 3, "rating": 92 },
+    "Zverev": { "ranking": 4, "rating": 88 },
+    "Fritz": { "ranking": 5, "rating": 85 },
+    "Medvedev": { "ranking": 6, "rating": 87 },
+    "Tsitsipas": { "ranking": 7, "rating": 84 },
+    "Rublev": { "ranking": 8, "rating": 83 },
+    "Rune": { "ranking": 9, "rating": 82 },
+    "De Minaur": { "ranking": 10, "rating": 81 },
+    "Paul": { "ranking": 11, "rating": 80 },
+    "Hurkacz": { "ranking": 12, "rating": 79 },
+    "Shelton": { "ranking": 13, "rating": 78 },
+    "Tiafoe": { "ranking": 14, "rating": 77 },
+    "Dimitrov": { "ranking": 15, "rating": 76 },
+    "Khachanov": { "ranking": 16, "rating": 75 }
+  },
+  "wta": {
+    "Sabalenka": { "ranking": 1, "rating": 96 },
+    "Swiatek": { "ranking": 2, "rating": 94 },
+    "Gauff": { "ranking": 3, "rating": 90 },
+    "Pegula": { "ranking": 4, "rating": 88 },
+    "Rybakina": { "ranking": 5, "rating": 87 },
+    "Paolini": { "ranking": 6, "rating": 85 },
+    "Keys": { "ranking": 7, "rating": 84 },
+    "Andreeva": { "ranking": 8, "rating": 83 },
+    "Badosa": { "ranking": 9, "rating": 82 },
+    "Ostapenko": { "ranking": 10, "rating": 81 },
+    "Sakkari": { "ranking": 11, "rating": 80 },
+    "Muchova": { "ranking": 12, "rating": 78 },
+    "Kostyuk": { "ranking": 13, "rating": 77 },
+    "Vondrousova": { "ranking": 14, "rating": 76 },
+    "Zheng": { "ranking": 15, "rating": 75 },
+    "Collins": { "ranking": 16, "rating": 79 }
+  }
+}
