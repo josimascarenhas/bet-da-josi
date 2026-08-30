@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-29T21:34:29-03:00",
+    "atualizadoEm": "2026-08-30T03:16:58-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 352,
-    "timesAtualizados": 118,
+    "jogosFinalizados": 364,
+    "timesAtualizados": 140,
     "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
   "competicoes": {
@@ -26,9 +26,9 @@
         "Santos",
         "Internacional",
         "Gremio",
+        "Vasco",
         "Mirassol",
         "Remo",
-        "Vasco",
         "Chapecoense"
       ]
     },
@@ -161,36 +161,36 @@
     },
     "mls": {
       "timesAtivos": [
+        "Inter-Miami",
+        "Nashville-SC",
+        "Vancouver-Whitecaps",
+        "Philadelphia-Union",
+        "Charlotte-FC",
+        "Austin-FC",
+        "Colorado-Rapids",
+        "Minnesota-United",
+        "Orlando-City",
         "Chicago-Fire",
         "Seattle-Sounders",
-        "Atlanta-United",
-        "Austin-FC",
-        "CF-Montreal",
-        "Charlotte-FC",
-        "Colorado-Rapids",
-        "Columbus-Crew",
-        "DC-United",
-        "FC-Cincinnati",
-        "FC-Dallas",
-        "Houston-Dynamo",
-        "Inter-Miami",
-        "LA-Galaxy",
-        "Los-Angeles-FC",
-        "Minnesota-United",
-        "Nashville-SC",
-        "New-England-Revolution",
         "New-York-City-FC",
-        "New-York-Red-Bulls",
-        "Orlando-City",
-        "Philadelphia-Union",
+        "Toronto-FC",
+        "DC-United",
+        "Houston-Dynamo",
+        "Los-Angeles-FC",
+        "San-Jose-Earthquakes",
         "Portland-Timbers",
         "Real-Salt-Lake",
-        "San-Diego-FC",
-        "San-Jose-Earthquakes",
+        "New-York-Red-Bulls",
+        "Atlanta-United",
         "Sporting-KC",
-        "St-Louis-City",
-        "Toronto-FC",
-        "Vancouver-Whitecaps"
+        "FC-Cincinnati",
+        "CF-Montreal",
+        "Columbus-Crew",
+        "FC-Dallas",
+        "LA-Galaxy",
+        "New-England-Revolution",
+        "San-Diego-FC",
+        "St-Louis-City"
       ],
       "fase": "Rodada 28"
     }
@@ -695,9 +695,9 @@
         },
         "vitorias": 11,
         "empates": 6,
-        "derrotas": 7,
-        "golsPro": 34,
-        "golsContra": 33
+        "derrotas": 8,
+        "golsPro": 35,
+        "golsContra": 36
       },
       "desfalques": [],
       "retornando": [
@@ -835,7 +835,7 @@
           "impacto": "medio"
         },
         {
-          "jogador": "Escalação do Bahia contra o Internaciona",
+          "jogador": "EscalaÃ§Ã£o do Bahia",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1861,11 +1861,6 @@
           "jogador": "Inter tem três desfalques para enfrentar",
           "motivo": "notícia GE",
           "impacto": "medio"
-        },
-        {
-          "jogador": "Escalação do Bahia contra o Internaciona",
-          "motivo": "notícia GE",
-          "impacto": "medio"
         }
       ],
       "retornando": [
@@ -1941,7 +1936,7 @@
     },
     "Mirassol": {
       "brasileirao": {
-        "posicao": 17,
+        "posicao": 18,
         "pontos": 24,
         "ultimos5": [
           "E 1-1",
@@ -2045,7 +2040,7 @@
     },
     "Remo": {
       "brasileirao": {
-        "posicao": 18,
+        "posicao": 19,
         "pontos": 23,
         "ultimos5": [
           "V 2-0 VIT",
@@ -2138,8 +2133,8 @@
     },
     "Vasco": {
       "brasileirao": {
-        "posicao": 19,
-        "pontos": 22,
+        "posicao": 17,
+        "pontos": 25,
         "ultimos5": [
           "D 0-1",
           "E 1-1 MIR",
@@ -2166,11 +2161,11 @@
           "gpg": 1.0,
           "gsg": 1.91
         },
-        "vitorias": 5,
+        "vitorias": 6,
         "empates": 7,
         "derrotas": 11,
-        "golsPro": 24,
-        "golsContra": 38
+        "golsPro": 27,
+        "golsContra": 39
       },
       "desfalques": [
         {
@@ -6187,7 +6182,7 @@
     },
     "Seattle-Sounders": {
       "mls": {
-        "posicao": 2,
+        "posicao": 11,
         "pontos": 1,
         "vitorias": 0,
         "empates": 1,
@@ -6198,13 +6193,255 @@
     },
     "Chicago-Fire": {
       "mls": {
-        "posicao": 1,
+        "posicao": 10,
         "pontos": 1,
         "vitorias": 0,
         "empates": 1,
         "derrotas": 0,
         "golsPro": 2,
         "golsContra": 2
+      }
+    },
+    "Atlanta-United": {
+      "mls": {
+        "posicao": 21,
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 1,
+        "golsPro": 0,
+        "golsContra": 2
+      }
+    },
+    "Charlotte-FC": {
+      "mls": {
+        "posicao": 5,
+        "pontos": 3,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 2,
+        "golsContra": 0
+      }
+    },
+    "DC-United": {
+      "mls": {
+        "posicao": 14,
+        "pontos": 1,
+        "vitorias": 0,
+        "empates": 1,
+        "derrotas": 0,
+        "golsPro": 0,
+        "golsContra": 0
+      }
+    },
+    "Los-Angeles-FC": {
+      "mls": {
+        "posicao": 16,
+        "pontos": 1,
+        "vitorias": 0,
+        "empates": 1,
+        "derrotas": 0,
+        "golsPro": 0,
+        "golsContra": 0
+      }
+    },
+    "Inter-Miami": {
+      "mls": {
+        "posicao": 1,
+        "pontos": 3,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 7,
+        "golsContra": 1
+      }
+    },
+    "CF-Montreal": {
+      "mls": {
+        "posicao": 24,
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 1,
+        "golsPro": 1,
+        "golsContra": 7
+      }
+    },
+    "New-York-Red-Bulls": {
+      "mls": {
+        "posicao": 20,
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 1,
+        "golsPro": 1,
+        "golsContra": 3
+      }
+    },
+    "Philadelphia-Union": {
+      "mls": {
+        "posicao": 4,
+        "pontos": 3,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 3,
+        "golsContra": 1
+      }
+    },
+    "Toronto-FC": {
+      "mls": {
+        "posicao": 13,
+        "pontos": 1,
+        "vitorias": 0,
+        "empates": 1,
+        "derrotas": 0,
+        "golsPro": 1,
+        "golsContra": 1
+      }
+    },
+    "New-York-City-FC": {
+      "mls": {
+        "posicao": 12,
+        "pontos": 1,
+        "vitorias": 0,
+        "empates": 1,
+        "derrotas": 0,
+        "golsPro": 1,
+        "golsContra": 1
+      }
+    },
+    "Houston-Dynamo": {
+      "mls": {
+        "posicao": 15,
+        "pontos": 1,
+        "vitorias": 0,
+        "empates": 1,
+        "derrotas": 0,
+        "golsPro": 0,
+        "golsContra": 0
+      }
+    },
+    "San-Jose-Earthquakes": {
+      "mls": {
+        "posicao": 17,
+        "pontos": 1,
+        "vitorias": 0,
+        "empates": 1,
+        "derrotas": 0,
+        "golsPro": 0,
+        "golsContra": 0
+      }
+    },
+    "Minnesota-United": {
+      "mls": {
+        "posicao": 8,
+        "pontos": 1,
+        "vitorias": 0,
+        "empates": 1,
+        "derrotas": 0,
+        "golsPro": 3,
+        "golsContra": 3
+      }
+    },
+    "Orlando-City": {
+      "mls": {
+        "posicao": 9,
+        "pontos": 1,
+        "vitorias": 0,
+        "empates": 1,
+        "derrotas": 0,
+        "golsPro": 3,
+        "golsContra": 3
+      }
+    },
+    "Nashville-SC": {
+      "mls": {
+        "posicao": 2,
+        "pontos": 3,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 4,
+        "golsContra": 0
+      }
+    },
+    "FC-Cincinnati": {
+      "mls": {
+        "posicao": 23,
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 1,
+        "golsPro": 0,
+        "golsContra": 4
+      }
+    },
+    "Sporting-KC": {
+      "mls": {
+        "posicao": 22,
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 1,
+        "golsPro": 0,
+        "golsContra": 3
+      }
+    },
+    "Vancouver-Whitecaps": {
+      "mls": {
+        "posicao": 3,
+        "pontos": 3,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 3,
+        "golsContra": 0
+      }
+    },
+    "Colorado-Rapids": {
+      "mls": {
+        "posicao": 7,
+        "pontos": 3,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 1,
+        "golsContra": 0
+      }
+    },
+    "Real-Salt-Lake": {
+      "mls": {
+        "posicao": 19,
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 1,
+        "golsPro": 0,
+        "golsContra": 1
+      }
+    },
+    "Portland-Timbers": {
+      "mls": {
+        "posicao": 18,
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 1,
+        "golsPro": 1,
+        "golsContra": 2
+      }
+    },
+    "Austin-FC": {
+      "mls": {
+        "posicao": 6,
+        "pontos": 3,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 2,
+        "golsContra": 1
       }
     }
   }

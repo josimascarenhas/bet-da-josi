@@ -1,174 +1,190 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-30T00:34:26.395418+00:00",
+    "atualizadoEm": "2026-08-30T06:16:55.051984+00:00",
     "fonte": "ge.globo.com",
     "fonteUrl": "https://ge.globo.com/"
   },
   "futebol": {
     "geral": [
       {
-        "titulo": "Vasco x Cruzeiro - Campeonato Brasileiro 2026 - Ao vivo - globoesporte.com",
+        "titulo": "Análise: reservas dão conta do recado, e Atlético-MG aumenta confiança para clássico decisivo",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/08/30/analise-reservas-dao-conta-do-recado-e-atletico-mg-aumenta-confianca-para-classico-decisivo.ghtml",
+        "imagem": "",
+        "data": "2026-08-30T06:00:16+00:00",
+        "dataFmt": "30/08/2026 06:00"
+      },
+      {
+        "titulo": "Análise: Vasco transforma evolução em vitória e respira contra a zona de rebaixamento",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/08/30/analise-vasco-transforma-evolucao-em-vitoria-e-respira-contra-a-zona-de-rebaixamento.ghtml",
+        "imagem": "",
+        "data": "2026-08-30T06:00:15+00:00",
+        "dataFmt": "30/08/2026 06:00"
+      },
+      {
+        "titulo": "Gama x ASA: onde assistir ao vivo, horário e escalações",
+        "resumo": "",
+        "url": "https://ge.globo.com/al/futebol/brasileirao-serie-d/noticia/2026/08/30/gama-x-asa-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
+        "imagem": "",
+        "data": "2026-08-30T05:59:31+00:00",
+        "dataFmt": "30/08/2026 05:59"
+      },
+      {
+        "titulo": "Manchester City tenta a contratação de Gakpo, do Liverpool; veja valores",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/30/manchester-city-tenta-a-contratacao-de-gakpo-do-liverpool-veja-valores.ghtml",
+        "imagem": "",
+        "data": "2026-08-30T05:00:20+00:00",
+        "dataFmt": "30/08/2026 05:00"
+      },
+      {
+        "titulo": "Guga volta ao Fluminense, carrega boas lembranças do Athletico-PR e alerta: \"Estão em grande momento\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/08/30/guga-volta-ao-fluminense-carrega-boas-lembrancas-do-athletico-pr-e-alerta-estao-em-grande-momento.ghtml",
+        "imagem": "",
+        "data": "2026-08-30T05:00:18+00:00",
+        "dataFmt": "30/08/2026 05:00"
+      },
+      {
+        "titulo": "Vasco domina Cruzeiro, vence após oito rodadas e sai do Z-4",
         "resumo": "",
         "url": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/29-08-2026/vasco-cruzeiro.ghtml",
         "imagem": "",
-        "data": "2026-08-30T00:27:20+00:00",
-        "dataFmt": "30/08/2026 00:27"
+        "data": "2026-08-30T03:40:55+00:00",
+        "dataFmt": "30/08/2026 03:40"
       },
       {
-        "titulo": "São Paulo x Bragantino - Campeonato Brasileiro 2026 - Ao vivo - globoesporte.com",
+        "titulo": "CRB x Criciúma: onde assistir ao vivo, horário e escalações",
+        "resumo": "",
+        "url": "https://ge.globo.com/al/futebol/brasileirao-serie-b/noticia/2026/08/30/crb-x-criciuma-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
+        "imagem": "",
+        "data": "2026-08-30T03:31:15+00:00",
+        "dataFmt": "30/08/2026 03:31"
+      },
+      {
+        "titulo": "Artur Jorge faz cobrança no Cruzeiro antes de clássico: \"Temos que ser mais intensos\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/08/30/artur-jorge-faz-cobranca-no-cruzeiro-antes-de-classico-temos-que-ser-mais-intensos.ghtml",
+        "imagem": "",
+        "data": "2026-08-30T03:26:37+00:00",
+        "dataFmt": "30/08/2026 03:26"
+      },
+      {
+        "titulo": "Pedro Emanuel fala em confiança após vitória do Vasco: \"Faltava juntar as boas atuações com o resultado\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/08/30/pedro-emanuel-comemora-vitoria-do-vasco-no-brasileirao.ghtml",
+        "imagem": "",
+        "data": "2026-08-30T03:09:37+00:00",
+        "dataFmt": "30/08/2026 03:09"
+      },
+      {
+        "titulo": "ABC x Uberlândia: onde assistir ao vivo, horário e escalações",
+        "resumo": "",
+        "url": "https://ge.globo.com/rn/futebol/brasileirao-serie-d/noticia/2026/08/30/abc-x-uberlandia-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
+        "imagem": "",
+        "data": "2026-08-30T03:05:19+00:00",
+        "dataFmt": "30/08/2026 03:05"
+      },
+      {
+        "titulo": "América-MG x Ponte Preta: onde assistir ao vivo, horário e escalações",
+        "resumo": "",
+        "url": "https://ge.globo.com/mg/zona-da-mata-centro-oeste/futebol/brasileirao-serie-b/noticia/2026/08/30/america-mg-x-ponte-preta-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
+        "imagem": "",
+        "data": "2026-08-30T03:05:17+00:00",
+        "dataFmt": "30/08/2026 03:05"
+      },
+      {
+        "titulo": "Mirassol x Palmeiras: onde assistir ao vivo, horário e escalações",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/tem-esporte/futebol/brasileirao-serie-a/noticia/2026/08/30/mirassol-x-palmeiras-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
+        "imagem": "",
+        "data": "2026-08-30T03:01:15+00:00",
+        "dataFmt": "30/08/2026 03:01"
+      },
+      {
+        "titulo": "Real Madrid x Málaga pela La Liga: onde assistir ao vivo e horário",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/30/real-madrid-x-malaga-pela-la-liga-onde-assistir-ao-vivo-e-horario.ghtml",
+        "imagem": "",
+        "data": "2026-08-30T03:01:04+00:00",
+        "dataFmt": "30/08/2026 03:01"
+      },
+      {
+        "titulo": "Manchester United x Ipswich Town na Premier League: onde assistir ao vivo e horário",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/noticia/2026/08/30/manchester-united-x-ipswich-town-na-premier-league-onde-assistir-ao-vivo-e-horario.ghtml",
+        "imagem": "",
+        "data": "2026-08-30T03:00:25+00:00",
+        "dataFmt": "30/08/2026 03:00"
+      },
+      {
+        "titulo": "Chelsea x Brighton na Premier League: onde assistir ao vivo e horário",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/noticia/2026/08/30/chelsea-x-brighton-na-premier-league-onde-assistir-ao-vivo-e-horario.ghtml",
+        "imagem": "",
+        "data": "2026-08-30T03:00:20+00:00",
+        "dataFmt": "30/08/2026 03:00"
+      },
+      {
+        "titulo": "São Paulo volta a vencer após dez rodadas, e Bragantino perde chance de encostar no G-5",
         "resumo": "",
         "url": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/29-08-2026/sao-paulo-bragantino.ghtml",
         "imagem": "",
-        "data": "2026-08-30T00:26:19+00:00",
-        "dataFmt": "30/08/2026 00:26"
+        "data": "2026-08-30T02:49:58+00:00",
+        "dataFmt": "30/08/2026 02:49"
       },
       {
-        "titulo": "Atuações do Cuiabá: Vitor Mendes e Kauan Cristtyan brilham; dê suas notas",
+        "titulo": "Dorival fala em alívio após vitória do São Paulo e espera reação: \"Que seja o reinício\"",
         "resumo": "",
-        "url": "https://ge.globo.com/mt/futebol/times/cuiaba/noticia/2026/08/29/atuacoes-do-cuiaba-vitor-mendes-e-kauan-cristtyan-brilham-de-suas-notas.ghtml",
+        "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/08/29/dorival-fala-em-alivio-apos-vitoria-do-sao-paulo-e-espera-reacao-que-seja-o-reinicio.ghtml",
         "imagem": "",
-        "data": "2026-08-30T00:26:07+00:00",
-        "dataFmt": "30/08/2026 00:26"
+        "data": "2026-08-30T02:48:43+00:00",
+        "dataFmt": "30/08/2026 02:48"
       },
       {
-        "titulo": "Figueirense mira Copa SC após queda na Série C: \"Copa do Mundo pra nós\"",
+        "titulo": "\"Pior jogo do campeonato\", diz Mancini após derrota do Bragantino para o São Paulo",
         "resumo": "",
-        "url": "https://ge.globo.com/sc/futebol/times/figueirense/noticia/2026/08/29/figueirense-vira-a-chave-apos-queda-na-serie-c-e-mira-copa-sc-copa-do-mundo-pra-nos.ghtml",
+        "url": "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/times/bragantino/noticia/2026/08/29/pior-jogo-do-campeonato-diz-mancini-apos-derrota-do-bragantino-para-o-sao-paulo.ghtml",
         "imagem": "",
-        "data": "2026-08-30T00:25:25+00:00",
-        "dataFmt": "30/08/2026 00:25"
+        "data": "2026-08-30T02:30:37+00:00",
+        "dataFmt": "30/08/2026 02:30"
       },
       {
-        "titulo": "Casemiro marca o primeiro gol com a camisa do Inter Miami",
+        "titulo": "Atuações do Vasco: Colidio e Thiago Mendes são os melhores em vitória; dê suas notas",
         "resumo": "",
-        "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/29/casemiro-marca-o-primeiro-gol-com-a-camisa-do-inter-miami.ghtml",
+        "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/08/29/atuacoes-do-vasco-colidio-e-thiago-mendes-sao-os-melhores-em-vitoria-de-suas-notas.ghtml",
         "imagem": "",
-        "data": "2026-08-30T00:11:35+00:00",
-        "dataFmt": "30/08/2026 00:11"
+        "data": "2026-08-30T02:28:40+00:00",
+        "dataFmt": "30/08/2026 02:28"
       },
       {
-        "titulo": "Entrou ou não? Lance polêmico poderia valer liderança na Série C; veja vídeo",
+        "titulo": "Flamengo faz gol relâmpago e abre vantagem nas quartas do Brasileiro Feminino",
         "resumo": "",
-        "url": "https://ge.globo.com/sp/campinas-e-regiao/futebol/brasileirao-serie-c/noticia/2026/08/29/entrou-ou-nao-lance-polemico-poderia-valer-lideranca-na-serie-c-veja-video.ghtml",
+        "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/futebol-feminino/brasileiro-feminino/jogo/29-08-2026/flamengo-ferroviaria.ghtml",
         "imagem": "",
-        "data": "2026-08-30T00:00:58+00:00",
-        "dataFmt": "30/08/2026 00:00"
-      },
-      {
-        "titulo": "Cuiabá marca no fim, vence o Botafogo-SP em Ribeirão Preto e cola na briga pelo G-6",
-        "resumo": "",
-        "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/brasileirao-serie-b/jogo/29-08-2026/botafogo-sp-cuiaba.ghtml",
-        "imagem": "",
-        "data": "2026-08-29T23:55:12+00:00",
-        "dataFmt": "29/08/2026 23:55"
-      },
-      {
-        "titulo": "Maringá avança de fase ao bater o Paysandu, que se classifica mesmo com derrota",
-        "resumo": "",
-        "url": "https://ge.globo.com/pa/futebol/brasileirao-serie-c/jogo/29-08-2026/paysandu-maringa.ghtml",
-        "imagem": "",
-        "data": "2026-08-29T23:53:24+00:00",
-        "dataFmt": "29/08/2026 23:53"
-      },
-      {
-        "titulo": "Grupo B do Acreano Feminino Sub-17 tem semifinalistas definidos; Preventório vence e lidera Grupo A",
-        "resumo": "",
-        "url": "https://ge.globo.com/ac/futebol/campeonato-acreano/noticia/2026/08/29/grupo-b-do-acreano-feminino-sub-17-tem-semifinalistas-definidos-preventorio-vence-e-lidera-grupo-a.ghtml",
-        "imagem": "",
-        "data": "2026-08-29T23:47:03+00:00",
-        "dataFmt": "29/08/2026 23:47"
-      },
-      {
-        "titulo": "CEO da SAF do Confiança se pronuncia após rebaixamento: \"Vamos aprender com os erros\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/se/futebol/times/confianca/noticia/2026/08/29/ceo-da-saf-do-confianca-se-pronuncia-apos-rebaixamento-vamos-aprender-com-os-erros.ghtml",
-        "imagem": "",
-        "data": "2026-08-29T23:47:03+00:00",
-        "dataFmt": "29/08/2026 23:47"
-      },
-      {
-        "titulo": "Guerreiros da Onça: Amazonas supera crise, salários atrasados e transfer ban para garantir permanência na Série C",
-        "resumo": "",
-        "url": "https://ge.globo.com/am/futebol/times/amazonas-fc/noticia/2026/08/29/guerreiros-da-onca-amazonas-supera-crise-salarios-atrasados-e-transfer-ban-para-garantir-permanencia-na-serie-c.ghtml",
-        "imagem": "",
-        "data": "2026-08-29T23:47:03+00:00",
-        "dataFmt": "29/08/2026 23:47"
-      },
-      {
-        "titulo": "Atlético-MG derrota Vitória e mantém embalo na temporada",
-        "resumo": "",
-        "url": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/29-08-2026/atletico-mg-vitoria.ghtml",
-        "imagem": "",
-        "data": "2026-08-29T23:45:23+00:00",
-        "dataFmt": "29/08/2026 23:45"
-      },
-      {
-        "titulo": "Atlético-MG 2 x 1 Vitória: assista aos gols e melhores momentos",
-        "resumo": "",
-        "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/08/29/atletico-mg-2-x-1-vitoria-assista-aos-gols-e-melhores-momentos.ghtml",
-        "imagem": "",
-        "data": "2026-08-29T23:44:28+00:00",
-        "dataFmt": "29/08/2026 23:44"
-      },
-      {
-        "titulo": "Atuações do Botafogo-SP: defesa vai mal em derrota dura em casa; dê suas notas",
-        "resumo": "",
-        "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/botafogo-sp/noticia/2026/08/29/atuacoes-do-botafogo-sp-defesa-vai-mal-em-derrota-dura-em-casa-de-suas-notas.ghtml",
-        "imagem": "",
-        "data": "2026-08-29T23:29:15+00:00",
-        "dataFmt": "29/08/2026 23:29"
-      },
-      {
-        "titulo": "Atuações do Vitória: Brítez e Luan Cândido cometem erros cruciais contra o Atlético-MG",
-        "resumo": "",
-        "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/08/29/atuacoes-do-vitoria-britez-e-luan-candido-cometem-erros-cruciais-contra-o-atletico-mg.ghtml",
-        "imagem": "",
-        "data": "2026-08-29T23:25:23+00:00",
-        "dataFmt": "29/08/2026 23:25"
-      },
-      {
-        "titulo": "Flamengo-PI empata com Atlético-PI sub-20 em 2º amistoso da pré-temporada para o Piauiense Série B",
-        "resumo": "",
-        "url": "https://ge.globo.com/pi/futebol/noticia/2026/08/29/flamengo-pi-empata-com-atletico-pi-sub-20-em-2o-amistoso-da-pre-temporada-para-o-piauiense-serie-b.ghtml",
-        "imagem": "",
-        "data": "2026-08-29T23:25:09+00:00",
-        "dataFmt": "29/08/2026 23:25"
-      },
-      {
-        "titulo": "Atuações do Atlético-MG: reservas passam no teste em vitória; dê sua nota",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/08/29/atuacoes-do-atletico-mg-reservas-passam-no-teste-em-vitoria-de-sua-nota.ghtml",
-        "imagem": "",
-        "data": "2026-08-29T23:24:28+00:00",
-        "dataFmt": "29/08/2026 23:24"
-      },
-      {
-        "titulo": "Veja grupo do Paysandu no quadrangular e ordem dos confrontos",
-        "resumo": "",
-        "url": "https://ge.globo.com/pa/futebol/times/paysandu/noticia/2026/08/29/veja-grupo-do-paysandu-no-quadrangular-e-retrospecto-bicolor-contra-esses-adversarios.ghtml",
-        "imagem": "",
-        "data": "2026-08-29T23:13:23+00:00",
-        "dataFmt": "29/08/2026 23:13"
-      },
-      {
-        "titulo": "Executivo do Guarani dispara após eliminação na Série C: \"Dinheiro sempre ficou na frente\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/sp/campinas-e-regiao/futebol/times/guarani/noticia/2026/08/29/executivo-do-guarani-dispara-apos-eliminacao-na-serie-c-dinheiro-sempre-ficou-na-frente.ghtml",
-        "imagem": "",
-        "data": "2026-08-29T23:05:54+00:00",
-        "dataFmt": "29/08/2026 23:05"
-      },
-      {
-        "titulo": "Grêmio vence o Cruzeiro, emplaca segunda vitória seguida e entra no G-8 do Brasileiro Feminino 2026",
-        "resumo": "",
-        "url": "https://ge.globo.com/pi/futebol/futebol-feminino/brasileiro-feminino/jogo/09-08-2026/gremio-cruzeiro.ghtml",
-        "imagem": "",
-        "data": "2026-08-29T23:04:48+00:00",
-        "dataFmt": "29/08/2026 23:04"
+        "data": "2026-08-30T02:28:05+00:00",
+        "dataFmt": "30/08/2026 02:28"
       }
     ],
     "times": {
       "Palmeiras": [
+        {
+          "titulo": "Mirassol x Palmeiras: onde assistir ao vivo, horário e escalações",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/tem-esporte/futebol/brasileirao-serie-a/noticia/2026/08/30/mirassol-x-palmeiras-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T03:01:15+00:00",
+          "dataFmt": "30/08/2026 03:01"
+        },
+        {
+          "titulo": "Empresário revela proposta do Palmeiras por joia do Cruzeiro e desabafa: \"Deixe ir embora\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/08/29/empresario-revela-proposta-do-palmeiras-por-joia-do-cruzeiro-e-desabafa-deixe-ir-embora.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T01:33:26+00:00",
+          "dataFmt": "30/08/2026 01:33"
+        },
         {
           "titulo": "NÃ£o vai poupar ninguÃ©m! Abel deve levar forÃ§a mÃ¡xima para Mirassol",
           "resumo": "",
@@ -244,20 +260,20 @@
       ],
       "Flamengo": [
         {
+          "titulo": "Flamengo faz gol relâmpago e abre vantagem nas quartas do Brasileiro Feminino",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/futebol-feminino/brasileiro-feminino/jogo/29-08-2026/flamengo-ferroviaria.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T02:28:05+00:00",
+          "dataFmt": "30/08/2026 02:28"
+        },
+        {
           "titulo": "Flamengo-PI empata com Atlético-PI sub-20 em 2º amistoso da pré-temporada para o Piauiense Série B",
           "resumo": "",
           "url": "https://ge.globo.com/pi/futebol/noticia/2026/08/29/flamengo-pi-empata-com-atletico-pi-sub-20-em-2o-amistoso-da-pre-temporada-para-o-piauiense-serie-b.ghtml",
           "imagem": "",
           "data": "2026-08-29T23:25:09+00:00",
           "dataFmt": "29/08/2026 23:25"
-        },
-        {
-          "titulo": "Flamengo faz gol relâmpago e abre vantagem nas quartas do Brasileiro Feminino",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/futebol-feminino/brasileiro-feminino/jogo/29-08-2026/flamengo-ferroviaria.ghtml",
-          "imagem": "",
-          "data": "2026-08-29T22:55:57+00:00",
-          "dataFmt": "29/08/2026 22:55"
         },
         {
           "titulo": "Comercial-PI anuncia zagueiro Tonhão, ex-Flamengo-PI e Araguaína, para o Piauiense Série B",
@@ -276,15 +292,15 @@
           "dataFmt": "29/08/2026 20:41"
         },
         {
-          "titulo": "Flamengo tem mercado argentino como prioridade para encontrar reposição para o ataque",
+          "titulo": "Fla mira mercado argentino para repor o ataque",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/08/29/flamengo-tem-mercado-argentino-como-prioridade-para-encontrar-reposicao-para-o-ataque.ghtml",
           "imagem": "",
-          "data": "2026-08-29T17:43:46+00:00",
-          "dataFmt": "29/08/2026 17:43"
+          "data": "",
+          "dataFmt": "29/08/2026"
         },
         {
-          "titulo": "Vja como foi a passagem do atacante",
+          "titulo": "Gol de tÃ­tulo e fama de Bad Boy: como foi a passagem do atacante?",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/08/29/100-jogos-gol-de-titulo-e-fama-de-bad-boy-veja-como-foi-a-passagem-de-plata-pelo-flamengo.ghtml",
           "imagem": "",
@@ -341,6 +357,14 @@
         }
       ],
       "Athletico-PR": [
+        {
+          "titulo": "Guga volta ao Fluminense, carrega boas lembranças do Athletico-PR e alerta: \"Estão em grande momento\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/08/30/guga-volta-ao-fluminense-carrega-boas-lembrancas-do-athletico-pr-e-alerta-estao-em-grande-momento.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T05:00:18+00:00",
+          "dataFmt": "30/08/2026 05:00"
+        },
         {
           "titulo": "FÃ¡bio no Athletico? Registros raros retratam passagem \"fantasma\" do goleiro",
           "resumo": "",
@@ -424,6 +448,14 @@
       ],
       "Fluminense": [
         {
+          "titulo": "Guga volta ao Fluminense, carrega boas lembranças do Athletico-PR e alerta: \"Estão em grande momento\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/08/30/guga-volta-ao-fluminense-carrega-boas-lembrancas-do-athletico-pr-e-alerta-estao-em-grande-momento.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T05:00:18+00:00",
+          "dataFmt": "30/08/2026 05:00"
+        },
+        {
           "titulo": "Athletico x Fluminense: onde assistir ao vivo, horário e escalações",
           "resumo": "",
           "url": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/noticia/2026/08/29/athletico-x-fluminense-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
@@ -432,20 +464,12 @@
           "dataFmt": "29/08/2026 21:00"
         },
         {
-          "titulo": "Papo de setoristas: o que esperar de Athletico x Fluminense, pelo Brasileirão; assista",
-          "resumo": "",
-          "url": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/noticia/2026/08/29/papo-de-setoristas-o-que-esperar-de-athletico-x-fluminense-pelo-brasileirao-assista.ghtml",
-          "imagem": "",
-          "data": "2026-08-29T20:00:15+00:00",
-          "dataFmt": "29/08/2026 20:00"
-        },
-        {
-          "titulo": "Centroavante de 18 anos dá vitória ao Fluminense de Fred contra Thiago Neves e elogia: \"Aprendendo muito com ele\"",
+          "titulo": "Centroavante de 18 anos garante vitÃ³ria e elogia Fred: \"Aprendendo muito com ele\"",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/08/29/centroavante-de-18-anos-da-vitoria-ao-fluminense-de-fred-contra-thiago-neves-e-elogia-aprendendo-muito-com-ele.ghtml",
           "imagem": "",
-          "data": "2026-08-29T18:45:15+00:00",
-          "dataFmt": "29/08/2026 18:45"
+          "data": "",
+          "dataFmt": "29/08/2026"
         },
         {
           "titulo": "Fred vence Thiago Neves no reencontro dos Ã­dolos do Flu como tÃ©cnicos",
@@ -522,12 +546,44 @@
       ],
       "Cruzeiro": [
         {
-          "titulo": "Vasco x Cruzeiro - Campeonato Brasileiro 2026 - Ao vivo - globoesporte.com",
+          "titulo": "Vasco domina Cruzeiro, vence após oito rodadas e sai do Z-4",
           "resumo": "",
           "url": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/29-08-2026/vasco-cruzeiro.ghtml",
           "imagem": "",
-          "data": "2026-08-30T00:27:20+00:00",
-          "dataFmt": "30/08/2026 00:27"
+          "data": "2026-08-30T03:40:55+00:00",
+          "dataFmt": "30/08/2026 03:40"
+        },
+        {
+          "titulo": "Artur Jorge faz cobrança no Cruzeiro antes de clássico: \"Temos que ser mais intensos\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/08/30/artur-jorge-faz-cobranca-no-cruzeiro-antes-de-classico-temos-que-ser-mais-intensos.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T03:26:37+00:00",
+          "dataFmt": "30/08/2026 03:26"
+        },
+        {
+          "titulo": "Atuações do Cruzeiro: Otávio se salva e evita goleada em noite apática de reservas; dê as notas",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/08/29/atuacoes-do-cruzeiro-otavio-se-salva-e-evita-goleada-em-noite-apatica-de-reservas-de-as-notas.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T02:24:25+00:00",
+          "dataFmt": "30/08/2026 02:24"
+        },
+        {
+          "titulo": "Empresário revela proposta do Palmeiras por joia do Cruzeiro e desabafa: \"Deixe ir embora\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/08/29/empresario-revela-proposta-do-palmeiras-por-joia-do-cruzeiro-e-desabafa-deixe-ir-embora.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T01:33:26+00:00",
+          "dataFmt": "30/08/2026 01:33"
+        },
+        {
+          "titulo": "Titular do Atlético-MG, Everson jogará decisão contra o Cruzeiro? Barba responde",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/08/29/titular-do-atletico-mg-everson-jogara-decisao-contra-o-cruzeiro-barba-responde.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T00:37:14+00:00",
+          "dataFmt": "30/08/2026 00:37"
         },
         {
           "titulo": "Grêmio vence o Cruzeiro, emplaca segunda vitória seguida e entra no G-8 do Brasileiro Feminino 2026",
@@ -546,15 +602,7 @@
           "dataFmt": "29/08/2026 22:55"
         },
         {
-          "titulo": "Quem Ã© o destaque da base que pode encarar o Vasco",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/08/27/quem-e-o-jovem-do-cruzeiro-que-pode-ser-acionado-por-risco-de-artur-jorge-ter-so-dois-zagueiros-contra-o-vasco.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "27/08/2026"
-        },
-        {
-          "titulo": "Cruzeiro recusa oferta de R$ 75 milhÃµes por Felipe Morais; detalhes",
+          "titulo": "Cruzeiro recusa proposta de R$ 75 milhÃµes por autor de gol no Rio",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/08/29/cruzeiro-recusa-proposta-de-r-75-milhoes-de-clube-europeu-por-felipe-morais-veja-detalhes.ghtml",
           "imagem": "",
@@ -562,24 +610,8 @@
           "dataFmt": "29/08/2026"
         },
         {
-          "titulo": "O que mudou? Kaio Jorge vÃª mÃ©dia de gols despencar",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/08/28/o-que-mudou-kaio-jorge-ve-media-de-gols-despencar-na-era-artur-jorge-veja-numeros.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "28/08/2026"
-        },
-        {
-          "titulo": "EscalaÃ§Ã£o: CÃ¡ssio e zagueiro titular sÃ£o novidades contra o Vasco",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/08/28/escalacao-do-cruzeiro-cassio-e-zagueiro-titular-ficam-a-disposicao-contra-o-vasco.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "28/08/2026"
-        },
-        {
-          "titulo": "STJD marca para vÃ©spera do clÃ¡ssico julgamento de Kaio Jorge",
-          "resumo": "",
+          "titulo": "Alex relembra 2003 no Cruzeiro, um ano de conto de fadas",
+          "resumo": "Jogador corre o risco de pegar atÃ© seis jogos de puniÃ§Ã£o por disputa que gerou substituiÃ§Ã£o do zagueiro adversÃ¡rio",
           "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/08/28/cruzeiro-x-atletico-mg-stjd-marca-julgamento-de-kaio-jorge-por-falta-em-ruan.ghtml",
           "imagem": "",
           "data": "",
@@ -594,28 +626,20 @@
           "dataFmt": "29/08/2026"
         },
         {
-          "titulo": "Procuradoria do STJD denuncia Kaio Jorge por lance com Ruan; veja pena prevista",
+          "titulo": "EscalaÃ§Ã£o do Cruzeiro: CÃ¡ssio e zagueiro titular ficam Ã  disposiÃ§Ã£o contra o Vasco",
           "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/08/27/procuradoria-denuncia-kaio-jorge-por-lance-com-ruan-e-cruzeiro-e-atletico-mg-por-sinalizadores.ghtml",
+          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/08/28/escalacao-do-cruzeiro-cassio-e-zagueiro-titular-ficam-a-disposicao-contra-o-vasco.ghtml",
           "imagem": "",
           "data": "",
-          "dataFmt": "27/08/2026"
+          "dataFmt": "28/08/2026"
         },
         {
-          "titulo": "Entenda como o Cruzeiro pode levar Matheus Pereira Ã  melhor temporada da carreira",
+          "titulo": "O que mudou? Kaio Jorge vÃª mÃ©dia de gols despencar na era Artur Jorge; veja nÃºmeros",
           "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/08/27/entenda-como-o-cruzeiro-pode-levar-matheus-pereira-a-melhor-temporada-da-carreira.ghtml",
+          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/08/28/o-que-mudou-kaio-jorge-ve-media-de-gols-despencar-na-era-artur-jorge-veja-numeros.ghtml",
           "imagem": "",
           "data": "",
-          "dataFmt": "27/08/2026"
-        },
-        {
-          "titulo": "Atacante do Cruzeiro, Bruno Rodrigues sofre fraturas na costela e face",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/08/26/atacante-do-cruzeiro-bruno-rodrigues-sofre-fratura-na-costela-e-na-face.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "26/08/2026"
+          "dataFmt": "28/08/2026"
         }
       ],
       "Bahia": [
@@ -628,25 +652,17 @@
           "dataFmt": "29/08/2026 22:13"
         },
         {
-          "titulo": "CSA perde para o Bahia e está eliminado da Copa do Nordeste Sub-20",
-          "resumo": "",
-          "url": "https://ge.globo.com/al/futebol/times/csa/noticia/2026/08/29/csa-perde-para-o-bahia-e-esta-eliminado-da-copa-do-nordeste-sub-20.ghtml",
-          "imagem": "",
-          "data": "2026-08-29T20:31:32+00:00",
-          "dataFmt": "29/08/2026 20:31"
-        },
-        {
-          "titulo": "Escalação do Bahia contra o Internacional: veja time provável, dúvidas e desfalques após treino",
-          "resumo": "",
-          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/08/29/escalacao-do-bahia-contra-o-internacional-veja-time-provavel-duvidas-e-desfalques-apos-treino.ghtml",
-          "imagem": "",
-          "data": "2026-08-29T18:53:39+00:00",
-          "dataFmt": "29/08/2026 18:53"
-        },
-        {
           "titulo": "Acevedo vira estrangeiro com mais jogos no Bahia em jornada do ano zero do City ao posto de capitÃ£o",
           "resumo": "",
           "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/08/29/acevedo-vira-estrangeiro-com-mais-jogos-no-bahia-em-jornada-do-ano-zero-do-city-ao-posto-de-capitao.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "29/08/2026"
+        },
+        {
+          "titulo": "EscalaÃ§Ã£o do Bahia: veja time provÃ¡vel, dÃºvidas e desfalques",
+          "resumo": "",
+          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/08/29/escalacao-do-bahia-contra-o-internacional-veja-time-provavel-duvidas-e-desfalques-apos-treino.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "29/08/2026"
@@ -718,12 +734,20 @@
       ],
       "Bragantino": [
         {
-          "titulo": "São Paulo x Bragantino - Campeonato Brasileiro 2026 - Ao vivo - globoesporte.com",
+          "titulo": "São Paulo volta a vencer após dez rodadas, e Bragantino perde chance de encostar no G-5",
           "resumo": "",
           "url": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/29-08-2026/sao-paulo-bragantino.ghtml",
           "imagem": "",
-          "data": "2026-08-30T00:26:19+00:00",
-          "dataFmt": "30/08/2026 00:26"
+          "data": "2026-08-30T02:49:58+00:00",
+          "dataFmt": "30/08/2026 02:49"
+        },
+        {
+          "titulo": "\"Pior jogo do campeonato\", diz Mancini após derrota do Bragantino para o São Paulo",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/times/bragantino/noticia/2026/08/29/pior-jogo-do-campeonato-diz-mancini-apos-derrota-do-bragantino-para-o-sao-paulo.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T02:30:37+00:00",
+          "dataFmt": "30/08/2026 02:30"
         },
         {
           "titulo": "Rodriguinho reencontra SÃ£o Paulo em nova posiÃ§Ã£o e prevÃª jogo difÃ­cil mesmo com mÃ¡ fase do Tricolor",
@@ -772,14 +796,6 @@
           "imagem": "",
           "data": "",
           "dataFmt": "27/08/2026"
-        },
-        {
-          "titulo": "Bragantino se reapresenta e comeÃ§a preparaÃ§Ã£o para enfrentar o SÃ£o Paulo",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/times/bragantino/noticia/2026/08/25/bragantino-se-reapresenta-e-comeca-preparacao-para-enfrentar-o-sao-paulo.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "25/08/2026"
         },
         {
           "titulo": "Braga sofre 3Âª eliminaÃ§Ã£o seguida nas oitavas da Sula; Mancini lamenta resultado contra AtlÃ©tico-MG",
@@ -874,12 +890,28 @@
       ],
       "Atletico-MG": [
         {
+          "titulo": "Análise: reservas dão conta do recado, e Atlético-MG aumenta confiança para clássico decisivo",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/08/30/analise-reservas-dao-conta-do-recado-e-atletico-mg-aumenta-confianca-para-classico-decisivo.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T06:00:16+00:00",
+          "dataFmt": "30/08/2026 06:00"
+        },
+        {
           "titulo": "Atlético-MG derrota Vitória e mantém embalo na temporada",
           "resumo": "",
           "url": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/29-08-2026/atletico-mg-vitoria.ghtml",
           "imagem": "",
-          "data": "2026-08-29T23:45:23+00:00",
-          "dataFmt": "29/08/2026 23:45"
+          "data": "2026-08-30T02:23:18+00:00",
+          "dataFmt": "30/08/2026 02:23"
+        },
+        {
+          "titulo": "Titular do Atlético-MG, Everson jogará decisão contra o Cruzeiro? Barba responde",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/08/29/titular-do-atletico-mg-everson-jogara-decisao-contra-o-cruzeiro-barba-responde.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T00:37:14+00:00",
+          "dataFmt": "30/08/2026 00:37"
         },
         {
           "titulo": "Atlético-MG 2 x 1 Vitória: assista aos gols e melhores momentos",
@@ -914,25 +946,17 @@
           "dataFmt": "29/08/2026 22:12"
         },
         {
-          "titulo": "Atlético-MG encaminha empréstimo de zagueiro para time da Série B",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/08/29/atletico-mg-encaminha-emprestimo-de-zagueiro-para-time-da-serie-b.ghtml",
-          "imagem": "",
-          "data": "2026-08-29T20:19:46+00:00",
-          "dataFmt": "29/08/2026 20:19"
-        },
-        {
-          "titulo": "Relacionados: efeito suspensivo garante Cacá na lista do Vitória contra o Atlético-MG",
-          "resumo": "",
-          "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/08/29/relacionados-efeito-suspensivo-garante-caca-na-lista-do-vitoria-contra-o-atletico-mg.ghtml",
-          "imagem": "",
-          "data": "2026-08-29T19:49:16+00:00",
-          "dataFmt": "29/08/2026 19:49"
-        },
-        {
           "titulo": "Como o Galo auxiliou na adaptaÃ§Ã£o de joia da GuinÃ© no Brasil",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/08/29/tradutor-e-assistencia-24-horas-como-o-atletico-mg-auxiliou-na-adaptacao-de-joia-de-guine-no-brasil.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "29/08/2026"
+        },
+        {
+          "titulo": "AtlÃ©tico encaminha emprÃ©stimo de zagueiro para time da SÃ©rie B",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/08/29/atletico-mg-encaminha-emprestimo-de-zagueiro-para-time-da-serie-b.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "29/08/2026"
@@ -960,17 +984,17 @@
           "imagem": "",
           "data": "",
           "dataFmt": "28/08/2026"
-        },
-        {
-          "titulo": "Substituto de Ruan, VitÃ£o torceu pelo AtlÃ©tico-MG no Marrocos e viu famÃ­lia se emocionar em clÃ¡ssico",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/08/28/substituto-de-ruan-vitao-torceu-pelo-atletico-mg-no-marrocos-e-viu-familia-se-emocionar-em-classico.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "28/08/2026"
         }
       ],
       "Corinthians": [
+        {
+          "titulo": "Ex-Corinthians e Vasco, Castán discute com torcedor após caso de racismo contra goleiro de seu time",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/tem-esporte/futebol/noticia/2026/08/29/ex-corinthians-e-vasco-castan-discute-com-torcedor-apos-caso-de-racismo-contra-goleiro-de-seu-time.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T00:32:48+00:00",
+          "dataFmt": "30/08/2026 00:32"
+        },
         {
           "titulo": "Escalação do Corinthians: Memphis deve ser titular, e Diniz terá que mexer no meio contra o Santos",
           "resumo": "",
@@ -1058,14 +1082,6 @@
           "imagem": "",
           "data": "",
           "dataFmt": "27/08/2026"
-        },
-        {
-          "titulo": "Treino do Corinthians: Bidon sofre trauma, e Carrillo volta a ser desfalque no CT",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/08/27/treino-do-corinthians-bidon-sofre-trauma-e-carrillo-volta-a-ser-desfalque-no-ct.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "27/08/2026"
         }
       ],
       "Botafogo": [
@@ -1074,8 +1090,16 @@
           "resumo": "",
           "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/brasileirao-serie-b/jogo/29-08-2026/botafogo-sp-cuiaba.ghtml",
           "imagem": "",
-          "data": "2026-08-29T23:55:12+00:00",
-          "dataFmt": "29/08/2026 23:55"
+          "data": "2026-08-30T02:27:20+00:00",
+          "dataFmt": "30/08/2026 02:27"
+        },
+        {
+          "titulo": "Fora de casa, Botafogo-PB bate o Itabaiana e garante liderança da Série C",
+          "resumo": "",
+          "url": "https://ge.globo.com/pb/futebol/brasileirao-serie-c/jogo/29-08-2026/itabaiana-botafogo-pb.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T01:14:36+00:00",
+          "dataFmt": "30/08/2026 01:14"
         },
         {
           "titulo": "Atuações do Botafogo-SP: defesa vai mal em derrota dura em casa; dê suas notas",
@@ -1084,14 +1108,6 @@
           "imagem": "",
           "data": "2026-08-29T23:29:15+00:00",
           "dataFmt": "29/08/2026 23:29"
-        },
-        {
-          "titulo": "Fora de casa, Botafogo-PB bate o Itabaiana e garante liderança da Série C",
-          "resumo": "",
-          "url": "https://ge.globo.com/pb/futebol/brasileirao-serie-c/jogo/29-08-2026/itabaiana-botafogo-pb.ghtml",
-          "imagem": "",
-          "data": "2026-08-29T22:35:05+00:00",
-          "dataFmt": "29/08/2026 22:35"
         },
         {
           "titulo": "Botafogo reformula elenco com 11 saídas, reduz folha salarial e sonha com investimento de peso",
@@ -1168,12 +1184,60 @@
       ],
       "Vitoria": [
         {
+          "titulo": "Análise: Vasco transforma evolução em vitória e respira contra a zona de rebaixamento",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/08/30/analise-vasco-transforma-evolucao-em-vitoria-e-respira-contra-a-zona-de-rebaixamento.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T06:00:15+00:00",
+          "dataFmt": "30/08/2026 06:00"
+        },
+        {
+          "titulo": "Pedro Emanuel fala em confiança após vitória do Vasco: \"Faltava juntar as boas atuações com o resultado\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/08/30/pedro-emanuel-comemora-vitoria-do-vasco-no-brasileirao.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T03:09:37+00:00",
+          "dataFmt": "30/08/2026 03:09"
+        },
+        {
+          "titulo": "Raz Hershko derrota Bia Souza pela 1ª vez e conquista vitória no Spaten Fight Night 3",
+          "resumo": "",
+          "url": "https://ge.globo.com/combate/noticia/2026/08/30/raz-hershko-vence-bia-souza-pela-1a-vez-e-consegue-revanche-da-final-olimpica-no-spaten-fight-night-3.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T03:07:28+00:00",
+          "dataFmt": "30/08/2026 03:07"
+        },
+        {
+          "titulo": "Dorival fala em alívio após vitória do São Paulo e espera reação: \"Que seja o reinício\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/08/29/dorival-fala-em-alivio-apos-vitoria-do-sao-paulo-e-espera-reacao-que-seja-o-reinicio.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T02:48:43+00:00",
+          "dataFmt": "30/08/2026 02:48"
+        },
+        {
+          "titulo": "Atuações do Vasco: Colidio e Thiago Mendes são os melhores em vitória; dê suas notas",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/08/29/atuacoes-do-vasco-colidio-e-thiago-mendes-sao-os-melhores-em-vitoria-de-suas-notas.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T02:28:40+00:00",
+          "dataFmt": "30/08/2026 02:28"
+        },
+        {
           "titulo": "Atlético-MG derrota Vitória e mantém embalo na temporada",
           "resumo": "",
           "url": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/29-08-2026/atletico-mg-vitoria.ghtml",
           "imagem": "",
-          "data": "2026-08-29T23:45:23+00:00",
-          "dataFmt": "29/08/2026 23:45"
+          "data": "2026-08-30T02:23:18+00:00",
+          "dataFmt": "30/08/2026 02:23"
+        },
+        {
+          "titulo": "Jair Ventura revela pacto no Vitória por reação e garante: \"Enquanto tiver chance vou reverter\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/08/29/jair-ventura-revela-pacto-no-vitoria-por-reacao-e-garante-enquanto-tiver-chance-vou-reverter.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T00:48:32+00:00",
+          "dataFmt": "30/08/2026 00:48"
         },
         {
           "titulo": "Atlético-MG 2 x 1 Vitória: assista aos gols e melhores momentos",
@@ -1214,64 +1278,48 @@
           "imagem": "",
           "data": "2026-08-29T22:36:37+00:00",
           "dataFmt": "29/08/2026 22:36"
-        },
-        {
-          "titulo": "Capixaba Série B: Rive goleia Pinheiros e encerra primeira fase com vitória",
-          "resumo": "",
-          "url": "https://ge.globo.com/es/futebol/capixaba-serie-b/noticia/2026/08/29/capixaba-serie-b-rive-goleia-pinheiros-e-encerra-primeira-fase-com-vitoria.ghtml",
-          "imagem": "",
-          "data": "2026-08-29T22:05:32+00:00",
-          "dataFmt": "29/08/2026 22:05"
-        },
-        {
-          "titulo": "NFL: Quarterback reserva brilha em vitória dos Lions sobre os Colts na pré-temporada",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol-americano/nfl/noticia/2026/08/29/nfl-quarterback-reserva-brilha-em-vitoria-dos-lions-sobre-os-colts-na-pre-temporada.ghtml",
-          "imagem": "",
-          "data": "2026-08-29T20:26:33+00:00",
-          "dataFmt": "29/08/2026 20:26"
-        },
-        {
-          "titulo": "Relacionados: efeito suspensivo garante Cacá na lista do Vitória contra o Atlético-MG",
-          "resumo": "",
-          "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/08/29/relacionados-efeito-suspensivo-garante-caca-na-lista-do-vitoria-contra-o-atletico-mg.ghtml",
-          "imagem": "",
-          "data": "2026-08-29T19:49:16+00:00",
-          "dataFmt": "29/08/2026 19:49"
-        },
-        {
-          "titulo": "Centroavante de 18 anos dá vitória ao Fluminense de Fred contra Thiago Neves e elogia: \"Aprendendo muito com ele\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/08/29/centroavante-de-18-anos-da-vitoria-ao-fluminense-de-fred-contra-thiago-neves-e-elogia-aprendendo-muito-com-ele.ghtml",
-          "imagem": "",
-          "data": "2026-08-29T18:45:15+00:00",
-          "dataFmt": "29/08/2026 18:45"
-        },
-        {
-          "titulo": "Veja quem chega e quem sai do VitÃ³ria no segundo semestre",
-          "resumo": "",
-          "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/06/21/contratacoes-do-vitoria-para-o-segundo-semestre-de-2026-veja-quem-chega-e-quem-vai-embora.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "21/06/2026"
-        },
-        {
-          "titulo": "Olho no calendÃ¡rio: aproveitamento do VitÃ³ria Ã© pior com semana livre",
-          "resumo": "",
-          "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/08/28/em-meio-a-reclamacoes-sobre-calendario-aproveitamento-do-vitoria-e-pior-com-semana-livre.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "28/08/2026"
         }
       ],
       "Sao-Paulo": [
         {
-          "titulo": "São Paulo x Bragantino - Campeonato Brasileiro 2026 - Ao vivo - globoesporte.com",
+          "titulo": "São Paulo volta a vencer após dez rodadas, e Bragantino perde chance de encostar no G-5",
           "resumo": "",
           "url": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/29-08-2026/sao-paulo-bragantino.ghtml",
           "imagem": "",
-          "data": "2026-08-30T00:26:19+00:00",
-          "dataFmt": "30/08/2026 00:26"
+          "data": "2026-08-30T02:49:58+00:00",
+          "dataFmt": "30/08/2026 02:49"
+        },
+        {
+          "titulo": "Dorival fala em alívio após vitória do São Paulo e espera reação: \"Que seja o reinício\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/08/29/dorival-fala-em-alivio-apos-vitoria-do-sao-paulo-e-espera-reacao-que-seja-o-reinicio.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T02:48:43+00:00",
+          "dataFmt": "30/08/2026 02:48"
+        },
+        {
+          "titulo": "\"Pior jogo do campeonato\", diz Mancini após derrota do Bragantino para o São Paulo",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/times/bragantino/noticia/2026/08/29/pior-jogo-do-campeonato-diz-mancini-apos-derrota-do-bragantino-para-o-sao-paulo.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T02:30:37+00:00",
+          "dataFmt": "30/08/2026 02:30"
+        },
+        {
+          "titulo": "Luciano admite que turbulências fora de campo atrapalham o time do São Paulo: \"Pior fase da história\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/08/29/luciano-admite-que-turbulencias-fora-de-campo-atrapalham-o-time-do-sao-paulo-pior-fase-da-historia.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T01:44:02+00:00",
+          "dataFmt": "30/08/2026 01:44"
+        },
+        {
+          "titulo": "Atuações do São Paulo: Luciano e Gustavo Santana decidem; dê suas notas",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/08/29/atuacoes-do-sao-paulo-luciano-e-gustavo-santana-decidem-de-suas-notas.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T01:11:18+00:00",
+          "dataFmt": "30/08/2026 01:11"
         },
         {
           "titulo": "Newton tem edema na coxa esquerda e vira desfalque no São Paulo",
@@ -1314,41 +1362,9 @@
           "dataFmt": "29/08/2026"
         },
         {
-          "titulo": "Conselho marca data para votar expulsÃ£o de Julio Casares",
+          "titulo": "Conselho do SÃ£o Paulo marca data para votar expulsÃ£o de Julio Casares do clube",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/08/28/conselho-do-sao-paulo-marca-data-para-votar-expulsao-de-julio-casares.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "28/08/2026"
-        },
-        {
-          "titulo": "Veja quantos reforÃ§os desde 2020 chegaram a 100 jogos",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/08/28/longevidade-rara-so-11-reforcos-do-sao-paulo-desde-2020-chegaram-a-100-jogos-pelo-clube.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "28/08/2026"
-        },
-        {
-          "titulo": "SÃ£o Paulo busca alternativas para negociar Enzo DÃ­az",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/08/28/sao-paulo-busca-alternativas-para-negociar-enzo-diaz-que-quer-deixar-america-do-sul.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "28/08/2026"
-        },
-        {
-          "titulo": "ComissÃ£o arquiva representaÃ§Ã£o que pedia afastamento de Massis",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/08/27/comissao-de-etica-do-sao-paulo-arquiva-representacao-que-pedia-afastamento-de-harry-massis.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "27/08/2026"
-        },
-        {
-          "titulo": "Iago se aproxima de marca que nÃ£o alcanÃ§a desde 2024 e acirra disputa no SÃ£o Paulo",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/08/28/iago-se-aproxima-de-marca-que-nao-alcanca-desde-2024-e-acirra-disputa-no-sao-paulo.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "28/08/2026"
@@ -1470,12 +1486,12 @@
           "dataFmt": "29/08/2026 22:01"
         },
         {
-          "titulo": "Willian assina rescisão com o Grêmio e se despede nas redes sociais",
+          "titulo": "Willian assina rescisÃ£o e se despede do GrÃªmio; leia mensagem",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/08/29/willian-assina-rescisao-com-o-gremio-e-se-despede-nas-redes-sociais.ghtml",
           "imagem": "",
-          "data": "2026-08-29T18:24:09+00:00",
-          "dataFmt": "29/08/2026 18:24"
+          "data": "",
+          "dataFmt": "29/08/2026"
         },
         {
           "titulo": "OlÃ­mpico abandonado: por que antigo estÃ¡dio ainda nÃ£o foi demolido",
@@ -1552,7 +1568,47 @@
       ],
       "Internacional": [
         {
-          "titulo": "Casemiro marca o primeiro gol com a camisa do Inter Miami",
+          "titulo": "Manchester City tenta a contratação de Gakpo, do Liverpool; veja valores",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/30/manchester-city-tenta-a-contratacao-de-gakpo-do-liverpool-veja-valores.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T05:00:20+00:00",
+          "dataFmt": "30/08/2026 05:00"
+        },
+        {
+          "titulo": "Luan Medeiros vence argentino e fatura cinturão internacional no Spaten Fight Night 3",
+          "resumo": "",
+          "url": "https://ge.globo.com/combate/noticia/2026/08/30/luan-medeiros-vence-argentino-e-fatura-cinturao-de-boxe-no-spaten-fight-night-3.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T04:09:44+00:00",
+          "dataFmt": "30/08/2026 04:09"
+        },
+        {
+          "titulo": "Real Madrid x Málaga pela La Liga: onde assistir ao vivo e horário",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/30/real-madrid-x-malaga-pela-la-liga-onde-assistir-ao-vivo-e-horario.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T03:01:04+00:00",
+          "dataFmt": "30/08/2026 03:01"
+        },
+        {
+          "titulo": "Manchester United x Ipswich Town na Premier League: onde assistir ao vivo e horário",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/noticia/2026/08/30/manchester-united-x-ipswich-town-na-premier-league-onde-assistir-ao-vivo-e-horario.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T03:00:25+00:00",
+          "dataFmt": "30/08/2026 03:00"
+        },
+        {
+          "titulo": "Chelsea x Brighton na Premier League: onde assistir ao vivo e horário",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/noticia/2026/08/30/chelsea-x-brighton-na-premier-league-onde-assistir-ao-vivo-e-horario.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T03:00:20+00:00",
+          "dataFmt": "30/08/2026 03:00"
+        },
+        {
+          "titulo": "Casemiro marca o primeiro gol com a camisa do Inter Miami, e Messi faz quatro em 7 a 1",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/29/casemiro-marca-o-primeiro-gol-com-a-camisa-do-inter-miami.ghtml",
           "imagem": "",
@@ -1566,46 +1622,6 @@
           "imagem": "",
           "data": "2026-08-29T22:13:39+00:00",
           "dataFmt": "29/08/2026 22:13"
-        },
-        {
-          "titulo": "Técnico diz que Richarlison pediu para sair do Tottenham",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/noticia/2026/08/29/tecnico-diz-que-richarlison-pediu-para-sair-do-tottenham.ghtml",
-          "imagem": "",
-          "data": "2026-08-29T20:06:40+00:00",
-          "dataFmt": "29/08/2026 20:06"
-        },
-        {
-          "titulo": "Liverpool fica atrás duas vezes, mas empata com o Nottingham Forest",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/jogo/29-08-2026/Liverpool-nottingham-forest.ghtml",
-          "imagem": "",
-          "data": "2026-08-29T19:03:20+00:00",
-          "dataFmt": "29/08/2026 19:03"
-        },
-        {
-          "titulo": "Escalação do Bahia contra o Internacional: veja time provável, dúvidas e desfalques após treino",
-          "resumo": "",
-          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/08/29/escalacao-do-bahia-contra-o-internacional-veja-time-provavel-duvidas-e-desfalques-apos-treino.ghtml",
-          "imagem": "",
-          "data": "2026-08-29T18:53:39+00:00",
-          "dataFmt": "29/08/2026 18:53"
-        },
-        {
-          "titulo": "Ex-Cuiabá e Sport, Derik Lacerda marca e dá duas assistências em estreia pelo Kawasaki Frontale",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/08/29/ex-cuiaba-e-sport-derik-lacerda-marca-e-da-duas-assistencias-em-estreia-pelo-kawasaki-frontale.ghtml",
-          "imagem": "",
-          "data": "2026-08-29T18:45:51+00:00",
-          "dataFmt": "29/08/2026 18:45"
-        },
-        {
-          "titulo": "Roma negocia a contratação de Luiz Henrique, do Zenit",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-italiano/noticia/2026/08/29/roma-negocia-a-contratacao-de-luiz-henrique-do-zenit.ghtml",
-          "imagem": "",
-          "data": "2026-08-29T17:40:59+00:00",
-          "dataFmt": "29/08/2026 17:40"
         },
         {
           "titulo": "Time deverÃ¡ ter nova formaÃ§Ã£o defensiva diante do Bahia",
@@ -1649,6 +1665,14 @@
         }
       ],
       "Mirassol": [
+        {
+          "titulo": "Mirassol x Palmeiras: onde assistir ao vivo, horário e escalações",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/tem-esporte/futebol/brasileirao-serie-a/noticia/2026/08/30/mirassol-x-palmeiras-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T03:01:15+00:00",
+          "dataFmt": "30/08/2026 03:01"
+        },
         {
           "titulo": "EscalaÃ§Ã£o do Mirassol: Guanaes ganha retorno de Denilson contra o Palmeiras",
           "resumo": "",
@@ -1790,12 +1814,44 @@
       ],
       "Vasco": [
         {
-          "titulo": "Vasco x Cruzeiro - Campeonato Brasileiro 2026 - Ao vivo - globoesporte.com",
+          "titulo": "Análise: Vasco transforma evolução em vitória e respira contra a zona de rebaixamento",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/08/30/analise-vasco-transforma-evolucao-em-vitoria-e-respira-contra-a-zona-de-rebaixamento.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T06:00:15+00:00",
+          "dataFmt": "30/08/2026 06:00"
+        },
+        {
+          "titulo": "Vasco domina Cruzeiro, vence após oito rodadas e sai do Z-4",
           "resumo": "",
           "url": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/29-08-2026/vasco-cruzeiro.ghtml",
           "imagem": "",
-          "data": "2026-08-30T00:27:20+00:00",
-          "dataFmt": "30/08/2026 00:27"
+          "data": "2026-08-30T03:40:55+00:00",
+          "dataFmt": "30/08/2026 03:40"
+        },
+        {
+          "titulo": "Pedro Emanuel fala em confiança após vitória do Vasco: \"Faltava juntar as boas atuações com o resultado\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/08/30/pedro-emanuel-comemora-vitoria-do-vasco-no-brasileirao.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T03:09:37+00:00",
+          "dataFmt": "30/08/2026 03:09"
+        },
+        {
+          "titulo": "Atuações do Vasco: Colidio e Thiago Mendes são os melhores em vitória; dê suas notas",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/08/29/atuacoes-do-vasco-colidio-e-thiago-mendes-sao-os-melhores-em-vitoria-de-suas-notas.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T02:28:40+00:00",
+          "dataFmt": "30/08/2026 02:28"
+        },
+        {
+          "titulo": "Ex-Corinthians e Vasco, Castán discute com torcedor após caso de racismo contra goleiro de seu time",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/tem-esporte/futebol/noticia/2026/08/29/ex-corinthians-e-vasco-castan-discute-com-torcedor-apos-caso-de-racismo-contra-goleiro-de-seu-time.ghtml",
+          "imagem": "",
+          "data": "2026-08-30T00:32:48+00:00",
+          "dataFmt": "30/08/2026 00:32"
         },
         {
           "titulo": "Marcos Lamacchia vai a São Januário assistir a Vasco x Cruzeiro",
@@ -1804,14 +1860,6 @@
           "imagem": "",
           "data": "2026-08-29T22:55:57+00:00",
           "dataFmt": "29/08/2026 22:55"
-        },
-        {
-          "titulo": "Ex-Vasco deixa clube da Série C sem estrear e acerta com equipe amadora no Pará",
-          "resumo": "",
-          "url": "https://ge.globo.com/am/futebol/times/amazonas-fc/noticia/2026/08/29/ex-vasco-deixa-clube-da-serie-c-sem-estrear-e-acerta-com-equipe-amadora-no-para.ghtml",
-          "imagem": "",
-          "data": "2026-08-29T17:57:29+00:00",
-          "dataFmt": "29/08/2026 17:57"
         },
         {
           "titulo": "Vasco tem interesse em Alan Lescano, do Argentinos Jrs",
@@ -1860,30 +1908,6 @@
           "imagem": "",
           "data": "",
           "dataFmt": "29/08/2026"
-        },
-        {
-          "titulo": "EscalaÃ§Ã£o do Vasco: veja o provÃ¡vel time de Pedro Emanuel contra o Cruzeiro",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/08/28/escalacao-do-vasco-veja-o-provavel-time-de-pedro-emanuel-contra-o-cruzeiro.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "28/08/2026"
-        },
-        {
-          "titulo": "Anunciado pelo Vasco, Bruno Duarte Ã© regularizado e pode estrear contra o Cruzeiro",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/08/28/vasco-anuncia-a-contratacao-de-bruno-duarte.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "28/08/2026"
-        },
-        {
-          "titulo": "Vasco, Felipe, Admar e funcionÃ¡rios sÃ£o denunciados no STJD apÃ³s confusÃ£o com arbitragem",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/08/28/vasco-barros-felipe-admar-e-funcionarios-sao-denunciados-no-stjd-apos-confusao-com-arbitragem.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "28/08/2026"
         }
       ],
       "Chapecoense": [
@@ -2197,20 +2221,84 @@
   "ufc": {
     "geral": [
       {
-        "titulo": "Spaten Fight Night 3",
+        "titulo": "Spaten Fight Night 3: Glover Teixeira vence luta elétrica contra Maurício Shogun em noite especial",
         "resumo": "",
         "url": "https://ge.globo.com/combate/ao-vivo/spaten-fight-night-3.ghtml",
         "imagem": "",
-        "data": "2026-08-29T23:47:02+00:00",
-        "dataFmt": "29/08/2026 23:47"
+        "data": "2026-08-30T05:45:37+00:00",
+        "dataFmt": "30/08/2026 05:45"
       },
       {
-        "titulo": "Glover x Shogun: horÃ¡rio e onde assistir ao card do Spaten Fight Night 3",
+        "titulo": "Glover Teixeira domina duelo contra Maurício Shogun e vence o Spaten Fight Night 3",
         "resumo": "",
-        "url": "https://ge.globo.com/combate/noticia/2026/08/29/glover-x-shogun-horario-e-onde-assistir-ao-card-do-spaten-fight-night-3.ghtml",
+        "url": "https://ge.globo.com/combate/noticia/2026/08/30/spaten-fight-night-3-glover-teixeira-domina-duelo-contra-mauricio-shogun-e-vence-luta-principal.ghtml",
+        "imagem": "",
+        "data": "2026-08-30T04:47:33+00:00",
+        "dataFmt": "30/08/2026 04:47"
+      },
+      {
+        "titulo": "Luan Medeiros vence argentino e fatura cinturão internacional no Spaten Fight Night 3",
+        "resumo": "",
+        "url": "https://ge.globo.com/combate/noticia/2026/08/30/luan-medeiros-vence-argentino-e-fatura-cinturao-de-boxe-no-spaten-fight-night-3.ghtml",
+        "imagem": "",
+        "data": "2026-08-30T04:09:44+00:00",
+        "dataFmt": "30/08/2026 04:09"
+      },
+      {
+        "titulo": "Raz Hershko derrota Bia Souza pela 1ª vez e conquista vitória no Spaten Fight Night 3",
+        "resumo": "",
+        "url": "https://ge.globo.com/combate/noticia/2026/08/30/raz-hershko-vence-bia-souza-pela-1a-vez-e-consegue-revanche-da-final-olimpica-no-spaten-fight-night-3.ghtml",
+        "imagem": "",
+        "data": "2026-08-30T03:07:28+00:00",
+        "dataFmt": "30/08/2026 03:07"
+      },
+      {
+        "titulo": "Rafaela Silva vence Prisca Awiti de forma dominante na estreia do judô no Spaten Fight Night",
+        "resumo": "",
+        "url": "https://ge.globo.com/combate/noticia/2026/08/29/rafaela-silva-vence-prisca-awiti-de-forma-dominante-na-estreia-do-judo-no-spaten-fight-night.ghtml",
+        "imagem": "",
+        "data": "2026-08-30T02:38:25+00:00",
+        "dataFmt": "30/08/2026 02:38"
+      },
+      {
+        "titulo": "Spaten Fight Night 3: Felipe Preguiça vence Nicholas Meregali pela primeira vez",
+        "resumo": "",
+        "url": "https://ge.globo.com/combate/noticia/2026/08/29/spaten-fight-night-3-felipe-preguica-vence-nicholas-meregali-pela-primeira-vez.ghtml",
+        "imagem": "",
+        "data": "2026-08-30T02:12:06+00:00",
+        "dataFmt": "30/08/2026 02:12"
+      },
+      {
+        "titulo": "Hortência, Chay Suede, Kyra Gracie e mais: veja as celebridades no Spaten Fight Night 3",
+        "resumo": "",
+        "url": "https://ge.globo.com/combate/noticia/2026/08/29/hortencia-artistas-e-lutadores-marcam-presenca-no-spaten-fight-night-3.ghtml",
+        "imagem": "",
+        "data": "2026-08-30T00:47:39+00:00",
+        "dataFmt": "30/08/2026 00:47"
+      },
+      {
+        "titulo": "UFC China: Brasileiros brilham, e lutador da casa aplica nocaute na luta principal",
+        "resumo": "",
+        "url": "https://ge.globo.com/combate/noticia/2026/08/29/ufc-china-brasileiros-brilham-e-lutador-da-casa-aplica-nocaute-na-luta-principal.ghtml",
         "imagem": "",
         "data": "",
         "dataFmt": "29/08/2026"
+      },
+      {
+        "titulo": "ProgramaÃ§Ã£o completa do UFC no ano de 2026",
+        "resumo": "",
+        "url": "https://ge.globo.com/combate/noticia/2026/01/01/programacao-completa-e-todos-os-resultados-do-ufc-no-ano-de-2026.ghtml",
+        "imagem": "",
+        "data": "",
+        "dataFmt": "01/01/2026"
+      },
+      {
+        "titulo": "ProgramaÃ§Ã£o do Combate",
+        "resumo": "",
+        "url": "https://ge.globo.com/combate/noticia/2026/01/01/programacao-do-combate.ghtml",
+        "imagem": "",
+        "data": "",
+        "dataFmt": "01/01/2026"
       },
       {
         "titulo": "Spaten Fight Night 3 terÃ¡ cinturÃµes ou medalhas? Entenda",
@@ -2229,23 +2317,23 @@
         "dataFmt": "29/08/2026"
       },
       {
-        "titulo": "Shogun e Glover batem peso e confirmam luta no Spaten FN 3",
+        "titulo": "Glover x Shogun: horÃ¡rio e onde assistir ao card do Spaten Fight Night 3",
         "resumo": "",
-        "url": "https://ge.globo.com/combate/noticia/2026/08/28/mauricio-shogun-e-glover-teixeira-batem-peso-combinado-e-confirmam-luta-no-spaten-fight-night-3.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "28/08/2026"
-      },
-      {
-        "titulo": "UFC China: Brasileiros brilham, e lutador da casa aplica nocaute na luta principal",
-        "resumo": "",
-        "url": "https://ge.globo.com/combate/noticia/2026/08/29/ufc-china-brasileiros-brilham-e-lutador-da-casa-aplica-nocaute-na-luta-principal.ghtml",
+        "url": "https://ge.globo.com/combate/noticia/2026/08/29/glover-x-shogun-horario-e-onde-assistir-ao-card-do-spaten-fight-night-3.ghtml",
         "imagem": "",
         "data": "",
         "dataFmt": "29/08/2026"
       },
       {
-        "titulo": "Acostumadas a vÃ¡rias lutas, Bia e Rafa encaram desafio de duelo Ãºnico",
+        "titulo": "Spaten Fight Night 3: entenda as regras do boxe, judÃ´ e jiu-jÃ­tsu",
+        "resumo": "",
+        "url": "https://ge.globo.com/combate/noticia/2026/08/28/spaten-fight-night-3-entenda-as-regras-do-boxe-judo-e-jiu-jitsu.ghtml",
+        "imagem": "",
+        "data": "",
+        "dataFmt": "28/08/2026"
+      },
+      {
+        "titulo": "Acostumadas a vÃ¡rias lutas, Bia Souza e Rafa Silva encaram desafio de duelo Ãºnico no Spaten; entenda",
         "resumo": "",
         "url": "https://ge.globo.com/combate/noticia/2026/08/28/acostumadas-a-varias-lutas-bia-souza-e-rafa-silva-encaram-desafio-de-duelo-unico-no-spaten-entenda.ghtml",
         "imagem": "",
@@ -2253,76 +2341,12 @@
         "dataFmt": "28/08/2026"
       },
       {
-        "titulo": "Glover promete \"estilo pitbull\" de Tyson contra Shogun",
+        "titulo": "MaurÃ­cio Shogun e Glover Teixeira batem peso e confirmam luta no Spaten Fight Night 3",
         "resumo": "",
-        "url": "https://ge.globo.com/combate/noticia/2026/08/28/glover-promete-estilo-pitbull-de-mike-tyson-contra-shogun-no-spaten-fight-night.ghtml",
+        "url": "https://ge.globo.com/combate/noticia/2026/08/28/mauricio-shogun-e-glover-teixeira-batem-peso-combinado-e-confirmam-luta-no-spaten-fight-night-3.ghtml",
         "imagem": "",
         "data": "",
         "dataFmt": "28/08/2026"
-      },
-      {
-        "titulo": "Mexicana realiza sonho ao enfrentar Rafaela Silva",
-        "resumo": "",
-        "url": "https://ge.globo.com/combate/noticia/2026/08/28/mexicana-realiza-sonho-ao-encarar-rafa-silva-no-spaten-fight-night-e-diz-gostar-de-pressao-da-torcida.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "28/08/2026"
-      },
-      {
-        "titulo": "Judocas ficam sem graÃ§a e jiu-jÃ­tsu esquenta as encaradas",
-        "resumo": "",
-        "url": "https://ge.globo.com/combate/noticia/2026/08/27/judocas-ficam-sem-graca-e-jiu-jitsu-esquenta-clima-nas-encaradas-do-spaten-fight-night-3.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "27/08/2026"
-      },
-      {
-        "titulo": "Glover sugere luta contra Bambam apÃ³s encarar Shogun",
-        "resumo": "",
-        "url": "https://ge.globo.com/combate/noticia/2026/08/27/glover-teixeira-sugere-luta-contra-bambam-apos-encarar-shogun-no-spaten-fight-night.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "27/08/2026"
-      },
-      {
-        "titulo": "Pena e Meregali arrancam risos com troca de farpas na coletiva",
-        "resumo": "",
-        "url": "https://ge.globo.com/combate/noticia/2026/08/27/pena-e-meregali-arrancam-risos-com-troca-de-farpas-na-coletiva-do-spaten-fight-night-3.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "27/08/2026"
-      },
-      {
-        "titulo": "JosÃ© Aldo enfrenta Marlon Vera em luta agarrada em outubro",
-        "resumo": "",
-        "url": "https://ge.globo.com/combate/noticia/2026/08/27/jose-aldo-enfrenta-marlon-vera-em-luta-agarrada-em-outubro.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "27/08/2026"
-      },
-      {
-        "titulo": "Spaten Fight Night: Bia tem 6-0 contra Hershko; confira histÃ³rico",
-        "resumo": "",
-        "url": "https://ge.globo.com/combate/noticia/2026/08/27/com-6-a-0-no-placar-bia-souza-enfrenta-raz-hershko-no-spaten-fight-night-confira-historico.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "27/08/2026"
-      },
-      {
-        "titulo": "Mundo da Luta aponta luta mais tensa do Spaten Fight Night 3",
-        "resumo": "",
-        "url": "https://ge.globo.com/combate/noticia/2026/08/26/mundo-da-luta-aponta-luta-mais-tensa-do-spaten-fight-night-3.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "26/08/2026"
-      },
-      {
-        "titulo": "ProgramaÃ§Ã£o completa do UFC no ano de 2026",
-        "resumo": "",
-        "url": "https://ge.globo.com/combate/noticia/2026/01/01/programacao-completa-e-todos-os-resultados-do-ufc-no-ano-de-2026.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "01/01/2026"
       }
     ]
   }
