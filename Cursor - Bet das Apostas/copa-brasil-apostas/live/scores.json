@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-30T16:39:53.863846-03:00",
+    "atualizadoEm": "2026-08-30T19:26:58.143258-03:00",
     "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
-    "jogos": 371,
-    "finalizadosTotal": 371
+    "jogos": 375,
+    "finalizadosTotal": 375
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -2719,6 +2719,24 @@
       "comp": "la-liga",
       "fonte": "ge"
     },
+    "br-25-Corinthians-Santos": {
+      "status": "finished",
+      "placar": "0-1",
+      "golsCasa": 0,
+      "golsFora": 1,
+      "data": "2026-08-30",
+      "comp": "brasileirao",
+      "fonte": "ge"
+    },
+    "br-25-Flamengo-Botafogo": {
+      "status": "finished",
+      "placar": "3-0",
+      "golsCasa": 3,
+      "golsFora": 0,
+      "data": "2026-08-30",
+      "comp": "brasileirao",
+      "fonte": "ge"
+    },
     "eu-bundesliga-2026-08-29-RB-Leipzig-Borussia-Mgladbach": {
       "status": "finished",
       "placar": "3-0",
@@ -3005,6 +3023,24 @@
       "golsFora": 1,
       "data": "2026-08-30",
       "comp": "la-liga",
+      "fonte": "365scores"
+    },
+    "eu-la-liga-2026-08-30-Celta-Athletic": {
+      "status": "finished",
+      "placar": "0-2",
+      "golsCasa": 0,
+      "golsFora": 2,
+      "data": "2026-08-30",
+      "comp": "la-liga",
+      "fonte": "365scores"
+    },
+    "eu-primeira-liga-2026-08-30-Famalicao-Gil-Vicente": {
+      "status": "finished",
+      "placar": "0-0",
+      "golsCasa": 0,
+      "golsFora": 0,
+      "data": "2026-08-30",
+      "comp": "primeira-liga",
       "fonte": "365scores"
     }
   }
