@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-30T03:16:55.189665-03:00",
+    "atualizadoEm": "2026-08-30T09:09:18.498614-03:00",
     "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
     "jogos": 364,
     "finalizadosTotal": 364
@@ -2694,6 +2694,14 @@
       "data": "2026-08-28",
       "comp": "la-liga"
     },
+    "br-25-Vasco-Cruzeiro": {
+      "status": "finished",
+      "placar": "3-1",
+      "golsCasa": 3,
+      "golsFora": 1,
+      "data": "2026-08-29",
+      "comp": "brasileirao"
+    },
     "s2-2026-08-29-Botafogo-SP-Cuiaba": {
       "status": "finished",
       "placar": "2-1",
@@ -2710,15 +2718,6 @@
       "golsFora": 1,
       "data": "2026-08-29",
       "comp": "mls",
-      "fonte": "ge"
-    },
-    "br-25-Vasco-Cruzeiro": {
-      "status": "finished",
-      "placar": "3-1",
-      "golsCasa": 3,
-      "golsFora": 1,
-      "data": "2026-08-29",
-      "comp": "brasileirao",
       "fonte": "ge"
     },
     "eu-bundesliga-2026-08-29-RB-Leipzig-Borussia-Mgladbach": {
