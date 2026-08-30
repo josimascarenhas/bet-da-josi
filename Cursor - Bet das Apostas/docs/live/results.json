@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-29T21:34:26.540070-03:00",
+    "atualizadoEm": "2026-08-30T03:16:55.189665-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
@@ -126,6 +126,102 @@
       "placar": "2-1"
     },
     {
+      "id": "us-mls-2026-08-29-Atlanta-United-Charlotte-FC",
+      "data": "2026-08-29",
+      "comp": "mls",
+      "mandante": "Atlanta-United",
+      "visitante": "Charlotte-FC",
+      "placar": "0-2"
+    },
+    {
+      "id": "us-mls-2026-08-29-DC-United-Los-Angeles-FC",
+      "data": "2026-08-29",
+      "comp": "mls",
+      "mandante": "DC-United",
+      "visitante": "Los-Angeles-FC",
+      "placar": "0-0"
+    },
+    {
+      "id": "us-mls-2026-08-29-Inter-Miami-CF-Montreal",
+      "data": "2026-08-29",
+      "comp": "mls",
+      "mandante": "Inter-Miami",
+      "visitante": "CF-Montreal",
+      "placar": "7-1"
+    },
+    {
+      "id": "us-mls-2026-08-29-New-York-Red-Bulls-Philadelphia-Union",
+      "data": "2026-08-29",
+      "comp": "mls",
+      "mandante": "New-York-Red-Bulls",
+      "visitante": "Philadelphia-Union",
+      "placar": "1-3"
+    },
+    {
+      "id": "us-mls-2026-08-29-Toronto-FC-New-York-City-FC",
+      "data": "2026-08-29",
+      "comp": "mls",
+      "mandante": "Toronto-FC",
+      "visitante": "New-York-City-FC",
+      "placar": "1-1"
+    },
+    {
+      "id": "br-25-Vasco-Cruzeiro",
+      "data": "2026-08-29",
+      "comp": "brasileirao",
+      "mandante": "Vasco",
+      "visitante": "Cruzeiro",
+      "placar": "3-1"
+    },
+    {
+      "id": "us-mls-2026-08-29-Houston-Dynamo-San-Jose-Earthquakes",
+      "data": "2026-08-29",
+      "comp": "mls",
+      "mandante": "Houston-Dynamo",
+      "visitante": "San-Jose-Earthquakes",
+      "placar": "0-0"
+    },
+    {
+      "id": "us-mls-2026-08-29-Minnesota-United-Orlando-City",
+      "data": "2026-08-29",
+      "comp": "mls",
+      "mandante": "Minnesota-United",
+      "visitante": "Orlando-City",
+      "placar": "3-3"
+    },
+    {
+      "id": "us-mls-2026-08-29-Nashville-SC-FC-Cincinnati",
+      "data": "2026-08-29",
+      "comp": "mls",
+      "mandante": "Nashville-SC",
+      "visitante": "FC-Cincinnati",
+      "placar": "4-0"
+    },
+    {
+      "id": "us-mls-2026-08-29-Sporting-KC-Vancouver-Whitecaps",
+      "data": "2026-08-29",
+      "comp": "mls",
+      "mandante": "Sporting-KC",
+      "visitante": "Vancouver-Whitecaps",
+      "placar": "0-3"
+    },
+    {
+      "id": "us-mls-2026-08-29-Colorado-Rapids-Real-Salt-Lake",
+      "data": "2026-08-29",
+      "comp": "mls",
+      "mandante": "Colorado-Rapids",
+      "visitante": "Real-Salt-Lake",
+      "placar": "1-0"
+    },
+    {
+      "id": "us-mls-2026-08-29-Portland-Timbers-Austin-FC",
+      "data": "2026-08-29",
+      "comp": "mls",
+      "mandante": "Portland-Timbers",
+      "visitante": "Austin-FC",
+      "placar": "1-2"
+    },
+    {
       "id": "eu-la-liga-2026-08-28-Racing-Elche",
       "data": "2026-08-28",
       "comp": "la-liga",
@@ -148,102 +244,6 @@
       "mandante": "Crystal-Palace",
       "visitante": "Manchester-City",
       "placar": "1-4"
-    },
-    {
-      "id": "eu-primeira-liga-2026-08-28-Rio-Ave-Sporting-CP",
-      "data": "2026-08-28",
-      "comp": "primeira-liga",
-      "mandante": "Rio-Ave",
-      "visitante": "Sporting-CP",
-      "placar": "0-4"
-    },
-    {
-      "id": "eu-la-liga-2026-08-28-Alaves-Villarreal",
-      "data": "2026-08-28",
-      "comp": "la-liga",
-      "mandante": "Alaves",
-      "visitante": "Villarreal",
-      "placar": "1-0"
-    },
-    {
-      "id": "s2-2026-08-28-Novorizontino-Sport",
-      "data": "2026-08-28",
-      "comp": "serieb",
-      "mandante": "Novorizontino",
-      "visitante": "Sport",
-      "placar": "2-1"
-    },
-    {
-      "id": "eu-la-liga-2026-08-27-Celta-Osasuna",
-      "data": "2026-08-27",
-      "comp": "la-liga",
-      "mandante": "Celta",
-      "visitante": "Osasuna",
-      "placar": "1-2"
-    },
-    {
-      "id": "eu-la-liga-2026-08-27-Barcelona-Athletic",
-      "data": "2026-08-27",
-      "comp": "la-liga",
-      "mandante": "Barcelona",
-      "visitante": "Athletic",
-      "placar": "2-0"
-    },
-    {
-      "id": "copa-q-int-gre-ida",
-      "data": "2026-08-27",
-      "comp": "copa",
-      "mandante": "Internacional",
-      "visitante": "Gremio",
-      "placar": "0-0"
-    },
-    {
-      "id": "eu-la-liga-2026-08-26-Real-Madrid-Real-Sociedad",
-      "data": "2026-08-26",
-      "comp": "la-liga",
-      "mandante": "Real-Madrid",
-      "visitante": "Real-Sociedad",
-      "placar": "4-1"
-    },
-    {
-      "id": "copa-q-pal-san-ida",
-      "data": "2026-08-26",
-      "comp": "copa",
-      "mandante": "Palmeiras",
-      "visitante": "Santos",
-      "placar": "3-0"
-    },
-    {
-      "id": "copa-q-vas-vit-ida",
-      "data": "2026-08-26",
-      "comp": "copa",
-      "mandante": "Vasco",
-      "visitante": "Vitoria",
-      "placar": "1-0"
-    },
-    {
-      "id": "eu-la-liga-2026-08-25-Valencia-Real-Betis",
-      "data": "2026-08-25",
-      "comp": "la-liga",
-      "mandante": "Valencia",
-      "visitante": "Real-Betis",
-      "placar": "0-1"
-    },
-    {
-      "id": "s2-2026-08-25-Atletico-GO-Botafogo-SP",
-      "data": "2026-08-25",
-      "comp": "serieb",
-      "mandante": "Atletico-GO",
-      "visitante": "Botafogo-SP",
-      "placar": "3-0"
-    },
-    {
-      "id": "s2-2026-08-25-Juventude-CRB",
-      "data": "2026-08-25",
-      "comp": "serieb",
-      "mandante": "Juventude",
-      "visitante": "CRB",
-      "placar": "2-1"
     }
   ]
 }
