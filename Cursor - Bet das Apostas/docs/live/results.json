@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-29T19:25:34.903371-03:00",
+    "atualizadoEm": "2026-08-29T21:34:26.540070-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
@@ -107,6 +107,22 @@
       "comp": "la-liga",
       "mandante": "Real-Sociedad",
       "visitante": "Espanyol",
+      "placar": "2-1"
+    },
+    {
+      "id": "us-mls-2026-08-29-Seattle-Sounders-Chicago-Fire",
+      "data": "2026-08-29",
+      "comp": "mls",
+      "mandante": "Seattle-Sounders",
+      "visitante": "Chicago-Fire",
+      "placar": "2-2"
+    },
+    {
+      "id": "s2-2026-08-29-Botafogo-SP-Cuiaba",
+      "data": "2026-08-29",
+      "comp": "serieb",
+      "mandante": "Botafogo-SP",
+      "visitante": "Cuiaba",
       "placar": "2-1"
     },
     {
@@ -228,22 +244,6 @@
       "mandante": "Juventude",
       "visitante": "CRB",
       "placar": "2-1"
-    },
-    {
-      "id": "copa-q-cru-cam-ida",
-      "data": "2026-08-25",
-      "comp": "copa",
-      "mandante": "Cruzeiro",
-      "visitante": "Atletico-MG",
-      "placar": "1-1"
-    },
-    {
-      "id": "lib-2026-08-25-Independiente-del-Valle-Deportes-Tolima",
-      "data": "2026-08-25",
-      "comp": "libertadores",
-      "mandante": "Independiente-del-Valle",
-      "visitante": "Deportes-Tolima",
-      "placar": "3-1"
     }
   ]
 }
