@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-30T13:55:44.054575-03:00",
+    "atualizadoEm": "2026-08-30T16:39:53.863846-03:00",
     "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
-    "jogos": 368,
-    "finalizadosTotal": 368
+    "jogos": 371,
+    "finalizadosTotal": 371
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -2702,38 +2702,19 @@
       "data": "2026-08-29",
       "comp": "brasileirao"
     },
-    "s2-2026-08-29-Botafogo-SP-Cuiaba": {
-      "status": "finished",
-      "placar": "2-1",
-      "golsCasa": 2,
-      "golsFora": 1,
-      "data": "2026-08-29",
-      "comp": "serieb",
-      "fonte": "ge"
-    },
-    "eu-premier-league-2026-08-30-Chelsea-Brighton": {
-      "status": "finished",
-      "placar": "4-0",
-      "golsCasa": 4,
-      "golsFora": 0,
-      "data": "2026-08-30",
-      "comp": "premier-league",
-      "fonte": "ge"
-    },
     "br-25-Athletico-PR-Fluminense": {
       "status": "finished",
       "placar": "3-3",
       "golsCasa": 3,
       "golsFora": 3,
       "data": "2026-08-30",
-      "comp": "brasileirao",
-      "fonte": "ge"
+      "comp": "brasileirao"
     },
     "eu-la-liga-2026-08-30-Real-Madrid-Malaga": {
       "status": "finished",
-      "placar": "2-2",
-      "golsCasa": 2,
-      "golsFora": 2,
+      "placar": "4-0",
+      "golsCasa": 4,
+      "golsFora": 0,
       "data": "2026-08-30",
       "comp": "la-liga",
       "fonte": "ge"
@@ -2780,6 +2761,15 @@
       "golsCasa": 2,
       "golsFora": 0,
       "data": "2026-08-29",
+      "comp": "bundesliga",
+      "fonte": "openligadb"
+    },
+    "eu-bundesliga-2026-08-30-Augsburg-Schalke-04": {
+      "status": "finished",
+      "placar": "3-0",
+      "golsCasa": 3,
+      "golsFora": 0,
+      "data": "2026-08-30",
       "comp": "bundesliga",
       "fonte": "openligadb"
     },
@@ -2873,6 +2863,15 @@
       "comp": "mls",
       "fonte": "365scores"
     },
+    "s2-2026-08-29-Botafogo-SP-Cuiaba": {
+      "status": "finished",
+      "placar": "1-2",
+      "golsCasa": 1,
+      "golsFora": 2,
+      "data": "2026-08-29",
+      "comp": "serieb",
+      "fonte": "365scores"
+    },
     "us-mls-2026-08-29-Atlanta-United-Charlotte-FC": {
       "status": "finished",
       "placar": "0-2",
@@ -2963,6 +2962,15 @@
       "comp": "mls",
       "fonte": "365scores"
     },
+    "eu-premier-league-2026-08-30-Chelsea-Brighton": {
+      "status": "finished",
+      "placar": "4-3",
+      "golsCasa": 4,
+      "golsFora": 3,
+      "data": "2026-08-30",
+      "comp": "premier-league",
+      "fonte": "365scores"
+    },
     "eu-premier-league-2026-08-30-Leeds-United-Brentford": {
       "status": "finished",
       "placar": "1-1",
@@ -2979,6 +2987,24 @@
       "golsFora": 0,
       "data": "2026-08-30",
       "comp": "premier-league",
+      "fonte": "365scores"
+    },
+    "eu-primeira-liga-2026-08-30-Casa-Pia-Moreirense": {
+      "status": "finished",
+      "placar": "0-1",
+      "golsCasa": 0,
+      "golsFora": 1,
+      "data": "2026-08-30",
+      "comp": "primeira-liga",
+      "fonte": "365scores"
+    },
+    "eu-la-liga-2026-08-30-Deportivo-Valencia": {
+      "status": "finished",
+      "placar": "3-1",
+      "golsCasa": 3,
+      "golsFora": 1,
+      "data": "2026-08-30",
+      "comp": "la-liga",
       "fonte": "365scores"
     }
   }

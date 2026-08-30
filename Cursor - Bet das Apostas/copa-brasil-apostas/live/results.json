@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-30T13:55:44.054575-03:00",
+    "atualizadoEm": "2026-08-30T16:39:53.863846-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
@@ -11,7 +11,7 @@
       "comp": "premier-league",
       "mandante": "Chelsea",
       "visitante": "Brighton",
-      "placar": "4-0"
+      "placar": "4-3"
     },
     {
       "id": "eu-premier-league-2026-08-30-Leeds-United-Brentford",
@@ -43,7 +43,31 @@
       "comp": "la-liga",
       "mandante": "Real-Madrid",
       "visitante": "Malaga",
-      "placar": "2-2"
+      "placar": "4-0"
+    },
+    {
+      "id": "eu-bundesliga-2026-08-30-Augsburg-Schalke-04",
+      "data": "2026-08-30",
+      "comp": "bundesliga",
+      "mandante": "Augsburg",
+      "visitante": "Schalke-04",
+      "placar": "3-0"
+    },
+    {
+      "id": "eu-primeira-liga-2026-08-30-Casa-Pia-Moreirense",
+      "data": "2026-08-30",
+      "comp": "primeira-liga",
+      "mandante": "Casa-Pia",
+      "visitante": "Moreirense",
+      "placar": "0-1"
+    },
+    {
+      "id": "eu-la-liga-2026-08-30-Deportivo-Valencia",
+      "data": "2026-08-30",
+      "comp": "la-liga",
+      "mandante": "Deportivo",
+      "visitante": "Valencia",
+      "placar": "3-1"
     },
     {
       "id": "eu-premier-league-2026-08-29-Liverpool-Nottingham-Forest",
@@ -163,7 +187,7 @@
       "comp": "serieb",
       "mandante": "Botafogo-SP",
       "visitante": "Cuiaba",
-      "placar": "2-1"
+      "placar": "1-2"
     },
     {
       "id": "us-mls-2026-08-29-Atlanta-United-Charlotte-FC",
@@ -220,30 +244,6 @@
       "mandante": "Minnesota-United",
       "visitante": "Orlando-City",
       "placar": "3-3"
-    },
-    {
-      "id": "us-mls-2026-08-29-Nashville-SC-FC-Cincinnati",
-      "data": "2026-08-29",
-      "comp": "mls",
-      "mandante": "Nashville-SC",
-      "visitante": "FC-Cincinnati",
-      "placar": "4-0"
-    },
-    {
-      "id": "us-mls-2026-08-29-Sporting-KC-Vancouver-Whitecaps",
-      "data": "2026-08-29",
-      "comp": "mls",
-      "mandante": "Sporting-KC",
-      "visitante": "Vancouver-Whitecaps",
-      "placar": "0-3"
-    },
-    {
-      "id": "us-mls-2026-08-29-Colorado-Rapids-Real-Salt-Lake",
-      "data": "2026-08-29",
-      "comp": "mls",
-      "mandante": "Colorado-Rapids",
-      "visitante": "Real-Salt-Lake",
-      "placar": "1-0"
     }
   ]
 }
