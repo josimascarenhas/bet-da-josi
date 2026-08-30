@@ -1,10 +1,50 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-30T09:09:18.498614-03:00",
+    "atualizadoEm": "2026-08-30T13:55:44.054575-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "eu-premier-league-2026-08-30-Chelsea-Brighton",
+      "data": "2026-08-30",
+      "comp": "premier-league",
+      "mandante": "Chelsea",
+      "visitante": "Brighton",
+      "placar": "4-0"
+    },
+    {
+      "id": "eu-premier-league-2026-08-30-Leeds-United-Brentford",
+      "data": "2026-08-30",
+      "comp": "premier-league",
+      "mandante": "Leeds-United",
+      "visitante": "Brentford",
+      "placar": "1-1"
+    },
+    {
+      "id": "eu-premier-league-2026-08-30-Sunderland-Fulham",
+      "data": "2026-08-30",
+      "comp": "premier-league",
+      "mandante": "Sunderland",
+      "visitante": "Fulham",
+      "placar": "1-0"
+    },
+    {
+      "id": "br-25-Athletico-PR-Fluminense",
+      "data": "2026-08-30",
+      "comp": "brasileirao",
+      "mandante": "Athletico-PR",
+      "visitante": "Fluminense",
+      "placar": "3-3"
+    },
+    {
+      "id": "eu-la-liga-2026-08-30-Real-Madrid-Malaga",
+      "data": "2026-08-30",
+      "comp": "la-liga",
+      "mandante": "Real-Madrid",
+      "visitante": "Malaga",
+      "placar": "2-2"
+    },
     {
       "id": "eu-premier-league-2026-08-29-Liverpool-Nottingham-Forest",
       "data": "2026-08-29",
@@ -142,14 +182,6 @@
       "placar": "0-0"
     },
     {
-      "id": "us-mls-2026-08-29-Inter-Miami-CF-Montreal",
-      "data": "2026-08-29",
-      "comp": "mls",
-      "mandante": "Inter-Miami",
-      "visitante": "CF-Montreal",
-      "placar": "7-1"
-    },
-    {
       "id": "us-mls-2026-08-29-New-York-Red-Bulls-Philadelphia-Union",
       "data": "2026-08-29",
       "comp": "mls",
@@ -212,38 +244,6 @@
       "mandante": "Colorado-Rapids",
       "visitante": "Real-Salt-Lake",
       "placar": "1-0"
-    },
-    {
-      "id": "us-mls-2026-08-29-Portland-Timbers-Austin-FC",
-      "data": "2026-08-29",
-      "comp": "mls",
-      "mandante": "Portland-Timbers",
-      "visitante": "Austin-FC",
-      "placar": "1-2"
-    },
-    {
-      "id": "eu-la-liga-2026-08-28-Racing-Elche",
-      "data": "2026-08-28",
-      "comp": "la-liga",
-      "mandante": "Racing",
-      "visitante": "Elche",
-      "placar": "3-2"
-    },
-    {
-      "id": "eu-bundesliga-2026-08-28-Bayern-Munich-VfB-Stuttgart",
-      "data": "2026-08-28",
-      "comp": "bundesliga",
-      "mandante": "Bayern-Munich",
-      "visitante": "VfB-Stuttgart",
-      "placar": "5-1"
-    },
-    {
-      "id": "eu-premier-league-2026-08-28-Crystal-Palace-Manchester-City",
-      "data": "2026-08-28",
-      "comp": "premier-league",
-      "mandante": "Crystal-Palace",
-      "visitante": "Manchester-City",
-      "placar": "1-4"
     }
   ]
 }

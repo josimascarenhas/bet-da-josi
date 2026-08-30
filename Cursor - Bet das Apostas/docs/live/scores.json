@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-30T09:09:18.498614-03:00",
+    "atualizadoEm": "2026-08-30T13:55:44.054575-03:00",
     "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
-    "jogos": 364,
-    "finalizadosTotal": 364
+    "jogos": 368,
+    "finalizadosTotal": 368
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -2711,13 +2711,31 @@
       "comp": "serieb",
       "fonte": "ge"
     },
-    "us-mls-2026-08-29-Inter-Miami-CF-Montreal": {
+    "eu-premier-league-2026-08-30-Chelsea-Brighton": {
       "status": "finished",
-      "placar": "7-1",
-      "golsCasa": 7,
-      "golsFora": 1,
-      "data": "2026-08-29",
-      "comp": "mls",
+      "placar": "4-0",
+      "golsCasa": 4,
+      "golsFora": 0,
+      "data": "2026-08-30",
+      "comp": "premier-league",
+      "fonte": "ge"
+    },
+    "br-25-Athletico-PR-Fluminense": {
+      "status": "finished",
+      "placar": "3-3",
+      "golsCasa": 3,
+      "golsFora": 3,
+      "data": "2026-08-30",
+      "comp": "brasileirao",
+      "fonte": "ge"
+    },
+    "eu-la-liga-2026-08-30-Real-Madrid-Malaga": {
+      "status": "finished",
+      "placar": "2-2",
+      "golsCasa": 2,
+      "golsFora": 2,
+      "data": "2026-08-30",
+      "comp": "la-liga",
       "fonte": "ge"
     },
     "eu-bundesliga-2026-08-29-RB-Leipzig-Borussia-Mgladbach": {
@@ -2943,6 +2961,24 @@
       "golsFora": 2,
       "data": "2026-08-29",
       "comp": "mls",
+      "fonte": "365scores"
+    },
+    "eu-premier-league-2026-08-30-Leeds-United-Brentford": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-08-30",
+      "comp": "premier-league",
+      "fonte": "365scores"
+    },
+    "eu-premier-league-2026-08-30-Sunderland-Fulham": {
+      "status": "finished",
+      "placar": "1-0",
+      "golsCasa": 1,
+      "golsFora": 0,
+      "data": "2026-08-30",
+      "comp": "premier-league",
       "fonte": "365scores"
     }
   }
