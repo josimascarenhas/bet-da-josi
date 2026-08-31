@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-31T11:53:40.805030-03:00",
+    "atualizadoEm": "2026-08-31T17:41:11.161053-03:00",
     "fonte": "calendário + openligadb.de + 365scores.com",
-    "jogos": 382,
-    "finalizadosTotal": 382
+    "jogos": 383,
+    "finalizadosTotal": 383
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -3099,6 +3099,15 @@
       "golsFora": 1,
       "data": "2026-08-30",
       "comp": "mls",
+      "fonte": "365scores"
+    },
+    "eu-la-liga-2026-08-31-Osasuna-Getafe": {
+      "status": "finished",
+      "placar": "1-0",
+      "golsCasa": 1,
+      "golsFora": 0,
+      "data": "2026-08-31",
+      "comp": "la-liga",
       "fonte": "365scores"
     }
   }

@@ -1,10 +1,18 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-31T11:53:40.805030-03:00",
+    "atualizadoEm": "2026-08-31T17:41:11.161053-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "eu-la-liga-2026-08-31-Osasuna-Getafe",
+      "data": "2026-08-31",
+      "comp": "la-liga",
+      "mandante": "Osasuna",
+      "visitante": "Getafe",
+      "placar": "1-0"
+    },
     {
       "id": "eu-premier-league-2026-08-30-Chelsea-Brighton",
       "data": "2026-08-30",
@@ -236,14 +244,6 @@
       "mandante": "Levante",
       "visitante": "Real-Betis",
       "placar": "5-2"
-    },
-    {
-      "id": "eu-bundesliga-2026-08-29-Borussia-Dortmund-Hamburger-SV",
-      "data": "2026-08-29",
-      "comp": "bundesliga",
-      "mandante": "Borussia-Dortmund",
-      "visitante": "Hamburger-SV",
-      "placar": "2-0"
     }
   ]
 }
