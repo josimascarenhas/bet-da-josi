@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-30T21:47:20-03:00",
+    "atualizadoEm": "2026-08-31T03:43:24-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 381,
-    "timesAtualizados": 142,
+    "jogosFinalizados": 382,
+    "timesAtualizados": 144,
     "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
   "competicoes": {
@@ -168,8 +168,10 @@
         "Charlotte-FC",
         "Austin-FC",
         "Colorado-Rapids",
+        "FC-Dallas",
         "Minnesota-United",
         "Orlando-City",
+        "St-Louis-City",
         "Chicago-Fire",
         "Seattle-Sounders",
         "New-York-City-FC",
@@ -186,11 +188,9 @@
         "Sporting-KC",
         "FC-Cincinnati",
         "CF-Montreal",
-        "FC-Dallas",
         "Inter-Miami",
         "LA-Galaxy",
-        "San-Diego-FC",
-        "St-Louis-City"
+        "San-Diego-FC"
       ],
       "fase": "Rodada 28"
     }
@@ -1223,7 +1223,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Treino do Corinthians",
+          "jogador": "Corinthians terá desfalques de Hugo Souz",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2270,7 +2270,13 @@
         "golsPro": 24,
         "golsContra": 48
       },
-      "desfalques": [],
+      "desfalques": [
+        {
+          "jogador": "Corinthians terá desfalques de Hugo Souz",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        }
+      ],
       "retornando": [],
       "casa": {
         "j": 11,
@@ -6191,7 +6197,7 @@
     },
     "Seattle-Sounders": {
       "mls": {
-        "posicao": 11,
+        "posicao": 13,
         "pontos": 1,
         "vitorias": 0,
         "empates": 1,
@@ -6202,7 +6208,7 @@
     },
     "Chicago-Fire": {
       "mls": {
-        "posicao": 10,
+        "posicao": 12,
         "pontos": 1,
         "vitorias": 0,
         "empates": 1,
@@ -6213,7 +6219,7 @@
     },
     "Atlanta-United": {
       "mls": {
-        "posicao": 22,
+        "posicao": 24,
         "pontos": 0,
         "vitorias": 0,
         "empates": 0,
@@ -6235,7 +6241,7 @@
     },
     "DC-United": {
       "mls": {
-        "posicao": 14,
+        "posicao": 16,
         "pontos": 1,
         "vitorias": 0,
         "empates": 1,
@@ -6246,7 +6252,7 @@
     },
     "Los-Angeles-FC": {
       "mls": {
-        "posicao": 16,
+        "posicao": 18,
         "pontos": 1,
         "vitorias": 0,
         "empates": 1,
@@ -6279,7 +6285,7 @@
     },
     "New-York-Red-Bulls": {
       "mls": {
-        "posicao": 21,
+        "posicao": 23,
         "pontos": 0,
         "vitorias": 0,
         "empates": 0,
@@ -6301,7 +6307,7 @@
     },
     "Toronto-FC": {
       "mls": {
-        "posicao": 13,
+        "posicao": 15,
         "pontos": 1,
         "vitorias": 0,
         "empates": 1,
@@ -6312,7 +6318,7 @@
     },
     "New-York-City-FC": {
       "mls": {
-        "posicao": 12,
+        "posicao": 14,
         "pontos": 1,
         "vitorias": 0,
         "empates": 1,
@@ -6323,7 +6329,7 @@
     },
     "Houston-Dynamo": {
       "mls": {
-        "posicao": 15,
+        "posicao": 17,
         "pontos": 1,
         "vitorias": 0,
         "empates": 1,
@@ -6334,7 +6340,7 @@
     },
     "San-Jose-Earthquakes": {
       "mls": {
-        "posicao": 17,
+        "posicao": 19,
         "pontos": 1,
         "vitorias": 0,
         "empates": 1,
@@ -6345,7 +6351,7 @@
     },
     "Minnesota-United": {
       "mls": {
-        "posicao": 8,
+        "posicao": 9,
         "pontos": 1,
         "vitorias": 0,
         "empates": 1,
@@ -6356,7 +6362,7 @@
     },
     "Orlando-City": {
       "mls": {
-        "posicao": 9,
+        "posicao": 10,
         "pontos": 1,
         "vitorias": 0,
         "empates": 1,
@@ -6378,7 +6384,7 @@
     },
     "FC-Cincinnati": {
       "mls": {
-        "posicao": 24,
+        "posicao": 26,
         "pontos": 0,
         "vitorias": 0,
         "empates": 0,
@@ -6389,7 +6395,7 @@
     },
     "Sporting-KC": {
       "mls": {
-        "posicao": 23,
+        "posicao": 25,
         "pontos": 0,
         "vitorias": 0,
         "empates": 0,
@@ -6422,7 +6428,7 @@
     },
     "Real-Salt-Lake": {
       "mls": {
-        "posicao": 19,
+        "posicao": 21,
         "pontos": 0,
         "vitorias": 0,
         "empates": 0,
@@ -6433,7 +6439,7 @@
     },
     "Portland-Timbers": {
       "mls": {
-        "posicao": 18,
+        "posicao": 20,
         "pontos": 0,
         "vitorias": 0,
         "empates": 0,
@@ -6466,12 +6472,34 @@
     },
     "Columbus-Crew": {
       "mls": {
-        "posicao": 20,
+        "posicao": 22,
         "pontos": 0,
         "vitorias": 0,
         "empates": 0,
         "derrotas": 1,
         "golsPro": 1,
+        "golsContra": 3
+      }
+    },
+    "FC-Dallas": {
+      "mls": {
+        "posicao": 8,
+        "pontos": 1,
+        "vitorias": 0,
+        "empates": 1,
+        "derrotas": 0,
+        "golsPro": 3,
+        "golsContra": 3
+      }
+    },
+    "St-Louis-City": {
+      "mls": {
+        "posicao": 11,
+        "pontos": 1,
+        "vitorias": 0,
+        "empates": 1,
+        "derrotas": 0,
+        "golsPro": 3,
         "golsContra": 3
       }
     }
