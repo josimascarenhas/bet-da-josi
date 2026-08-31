@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-30T21:47:15.618227-03:00",
+    "atualizadoEm": "2026-08-31T03:43:20.478804-03:00",
     "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
-    "jogos": 381,
-    "finalizadosTotal": 381
+    "jogos": 382,
+    "finalizadosTotal": 382
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -2726,14 +2726,29 @@
       "data": "2026-08-30",
       "comp": "brasileirao"
     },
-    "eu-la-liga-2026-08-30-Real-Madrid-Malaga": {
+    "br-25-Gremio-Chapecoense": {
       "status": "finished",
-      "placar": "4-0",
-      "golsCasa": 4,
-      "golsFora": 0,
+      "placar": "3-1",
+      "golsCasa": 3,
+      "golsFora": 1,
       "data": "2026-08-30",
-      "comp": "la-liga",
-      "fonte": "ge"
+      "comp": "brasileirao"
+    },
+    "br-25-Mirassol-Palmeiras": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-08-30",
+      "comp": "brasileirao"
+    },
+    "br-25-Bahia-Internacional": {
+      "status": "finished",
+      "placar": "3-2",
+      "golsCasa": 3,
+      "golsFora": 2,
+      "data": "2026-08-30",
+      "comp": "brasileirao"
     },
     "s2-2026-08-30-CRB-Criciuma": {
       "status": "finished",
@@ -2744,31 +2759,13 @@
       "comp": "serieb",
       "fonte": "ge"
     },
-    "br-25-Gremio-Chapecoense": {
+    "s2-2026-08-30-Vila-Nova-Ceara": {
       "status": "finished",
-      "placar": "3-1",
-      "golsCasa": 3,
-      "golsFora": 1,
+      "placar": "2-0",
+      "golsCasa": 2,
+      "golsFora": 0,
       "data": "2026-08-30",
-      "comp": "brasileirao",
-      "fonte": "ge"
-    },
-    "br-25-Mirassol-Palmeiras": {
-      "status": "finished",
-      "placar": "1-1",
-      "golsCasa": 1,
-      "golsFora": 1,
-      "data": "2026-08-30",
-      "comp": "brasileirao",
-      "fonte": "ge"
-    },
-    "br-25-Bahia-Internacional": {
-      "status": "finished",
-      "placar": "3-2",
-      "golsCasa": 3,
-      "golsFora": 2,
-      "data": "2026-08-30",
-      "comp": "brasileirao",
+      "comp": "serieb",
       "fonte": "ge"
     },
     "eu-bundesliga-2026-08-29-RB-Leipzig-Borussia-Mgladbach": {
@@ -3041,6 +3038,15 @@
       "comp": "premier-league",
       "fonte": "365scores"
     },
+    "eu-la-liga-2026-08-30-Real-Madrid-Malaga": {
+      "status": "finished",
+      "placar": "4-0",
+      "golsCasa": 4,
+      "golsFora": 0,
+      "data": "2026-08-30",
+      "comp": "la-liga",
+      "fonte": "365scores"
+    },
     "eu-primeira-liga-2026-08-30-Casa-Pia-Moreirense": {
       "status": "finished",
       "placar": "0-1",
@@ -3077,13 +3083,13 @@
       "comp": "primeira-liga",
       "fonte": "365scores"
     },
-    "s2-2026-08-30-Vila-Nova-Ceara": {
+    "us-mls-2026-08-30-FC-Dallas-St-Louis-City": {
       "status": "finished",
-      "placar": "2-0",
-      "golsCasa": 2,
-      "golsFora": 0,
+      "placar": "3-3",
+      "golsCasa": 3,
+      "golsFora": 3,
       "data": "2026-08-30",
-      "comp": "serieb",
+      "comp": "mls",
       "fonte": "365scores"
     },
     "us-mls-2026-08-30-New-England-Revolution-Columbus-Crew": {

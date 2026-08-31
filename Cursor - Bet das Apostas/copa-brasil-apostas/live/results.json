@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-30T21:47:15.618227-03:00",
+    "atualizadoEm": "2026-08-31T03:43:20.478804-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
@@ -142,6 +142,14 @@
       "placar": "3-2"
     },
     {
+      "id": "us-mls-2026-08-30-FC-Dallas-St-Louis-City",
+      "data": "2026-08-30",
+      "comp": "mls",
+      "mandante": "FC-Dallas",
+      "visitante": "St-Louis-City",
+      "placar": "3-3"
+    },
+    {
       "id": "us-mls-2026-08-30-New-England-Revolution-Columbus-Crew",
       "data": "2026-08-30",
       "comp": "mls",
@@ -236,14 +244,6 @@
       "mandante": "Borussia-Dortmund",
       "visitante": "Hamburger-SV",
       "placar": "2-0"
-    },
-    {
-      "id": "eu-premier-league-2026-08-29-Tottenham-Newcastle-United",
-      "data": "2026-08-29",
-      "comp": "premier-league",
-      "mandante": "Tottenham",
-      "visitante": "Newcastle-United",
-      "placar": "0-2"
     }
   ]
 }
