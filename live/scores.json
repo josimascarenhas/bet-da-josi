@@ -1,7 +1,7 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-31T03:43:20.478804-03:00",
-    "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
+    "atualizadoEm": "2026-08-31T11:53:40.805030-03:00",
+    "fonte": "calendário + openligadb.de + 365scores.com",
     "jogos": 382,
     "finalizadosTotal": 382
   },
@@ -2750,24 +2750,6 @@
       "data": "2026-08-30",
       "comp": "brasileirao"
     },
-    "s2-2026-08-30-CRB-Criciuma": {
-      "status": "finished",
-      "placar": "2-1",
-      "golsCasa": 2,
-      "golsFora": 1,
-      "data": "2026-08-30",
-      "comp": "serieb",
-      "fonte": "ge"
-    },
-    "s2-2026-08-30-Vila-Nova-Ceara": {
-      "status": "finished",
-      "placar": "2-0",
-      "golsCasa": 2,
-      "golsFora": 0,
-      "data": "2026-08-30",
-      "comp": "serieb",
-      "fonte": "ge"
-    },
     "eu-bundesliga-2026-08-29-RB-Leipzig-Borussia-Mgladbach": {
       "status": "finished",
       "placar": "3-0",
@@ -3081,6 +3063,24 @@
       "golsFora": 0,
       "data": "2026-08-30",
       "comp": "primeira-liga",
+      "fonte": "365scores"
+    },
+    "s2-2026-08-30-CRB-Criciuma": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-08-30",
+      "comp": "serieb",
+      "fonte": "365scores"
+    },
+    "s2-2026-08-30-Vila-Nova-Ceara": {
+      "status": "finished",
+      "placar": "2-0",
+      "golsCasa": 2,
+      "golsFora": 0,
+      "data": "2026-08-30",
+      "comp": "serieb",
       "fonte": "365scores"
     },
     "us-mls-2026-08-30-FC-Dallas-St-Louis-City": {

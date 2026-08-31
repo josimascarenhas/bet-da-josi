@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-31T03:43:24-03:00",
+    "atualizadoEm": "2026-08-31T11:53:45-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 382,
     "timesAtualizados": 144,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -1745,7 +1745,7 @@
       },
       "desfalques": [
         {
-          "jogador": "GrÃªmio tem desfalque para enfrentar a C",
+          "jogador": "Jovane Cabral sente desconforto antes de",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
