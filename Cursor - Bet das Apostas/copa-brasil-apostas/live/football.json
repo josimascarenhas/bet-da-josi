@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-30T19:27:02-03:00",
+    "atualizadoEm": "2026-08-30T21:47:20-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 375,
-    "timesAtualizados": 140,
+    "jogosFinalizados": 381,
+    "timesAtualizados": 142,
     "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
   "competicoes": {
@@ -14,8 +14,8 @@
         "Flamengo",
         "Athletico-PR",
         "Fluminense",
-        "Cruzeiro",
         "Bahia",
+        "Cruzeiro",
         "Coritiba",
         "Atletico-MG",
         "Bragantino",
@@ -23,11 +23,11 @@
         "Botafogo",
         "Santos",
         "Vitoria",
+        "Gremio",
         "Sao-Paulo",
         "Internacional",
-        "Gremio",
-        "Vasco",
         "Mirassol",
+        "Vasco",
         "Remo",
         "Chapecoense"
       ]
@@ -60,16 +60,16 @@
         "Novorizontino",
         "Sport",
         "Cuiaba",
+        "Vila-Nova",
+        "CRB",
         "Juventude",
         "Avai",
-        "Ceara",
         "Athletic-PR",
+        "Ceara",
         "Botafogo-SP",
         "Fortaleza",
         "Atletico-GO",
         "Sao-Bernardo",
-        "CRB",
-        "Vila-Nova",
         "Goias",
         "Nautico",
         "Criciuma",
@@ -163,6 +163,7 @@
       "timesAtivos": [
         "Nashville-SC",
         "Vancouver-Whitecaps",
+        "New-England-Revolution",
         "Philadelphia-Union",
         "Charlotte-FC",
         "Austin-FC",
@@ -179,16 +180,15 @@
         "San-Jose-Earthquakes",
         "Portland-Timbers",
         "Real-Salt-Lake",
+        "Columbus-Crew",
         "New-York-Red-Bulls",
         "Atlanta-United",
         "Sporting-KC",
         "FC-Cincinnati",
         "CF-Montreal",
-        "Columbus-Crew",
         "FC-Dallas",
         "Inter-Miami",
         "LA-Galaxy",
-        "New-England-Revolution",
         "San-Diego-FC",
         "St-Louis-City"
       ],
@@ -199,7 +199,7 @@
     "Palmeiras": {
       "brasileirao": {
         "posicao": 1,
-        "pontos": 51,
+        "pontos": 52,
         "ultimos5": [
           "D 1-2 ATLMG",
           "V 4-0",
@@ -227,10 +227,10 @@
           "gsg": 0.92
         },
         "vitorias": 15,
-        "empates": 6,
+        "empates": 7,
         "derrotas": 3,
-        "golsPro": 43,
-        "golsContra": 20
+        "golsPro": 44,
+        "golsContra": 21
       },
       "desfalques": [
         {
@@ -483,7 +483,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Athletico tem dÃºvida na defesa e segue ",
+          "jogador": "EscalaÃ§Ã£o",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -665,7 +665,7 @@
     },
     "Cruzeiro": {
       "brasileirao": {
-        "posicao": 5,
+        "posicao": 6,
         "pontos": 39,
         "ultimos5": [
           "D 0-1 BOT",
@@ -794,8 +794,8 @@
     },
     "Bahia": {
       "brasileirao": {
-        "posicao": 6,
-        "pontos": 37,
+        "posicao": 5,
+        "pontos": 40,
         "ultimos5": [
           "E 1-1 COR",
           "E 0-0",
@@ -822,11 +822,11 @@
           "gpg": 1.42,
           "gsg": 1.42
         },
-        "vitorias": 9,
+        "vitorias": 10,
         "empates": 10,
         "derrotas": 5,
-        "golsPro": 34,
-        "golsContra": 28
+        "golsPro": 37,
+        "golsContra": 30
       },
       "desfalques": [
         {
@@ -1502,7 +1502,7 @@
     },
     "Sao-Paulo": {
       "brasileirao": {
-        "posicao": 14,
+        "posicao": 15,
         "pontos": 27,
         "ultimos5": [
           "D 1-2 ATHPR",
@@ -1709,8 +1709,8 @@
     },
     "Gremio": {
       "brasileirao": {
-        "posicao": 16,
-        "pontos": 25,
+        "posicao": 14,
+        "pontos": 28,
         "ultimos5": [
           "D 1-2",
           "E 1-1 FLU",
@@ -1737,11 +1737,11 @@
           "gpg": 0.5,
           "gsg": 1.5
         },
-        "vitorias": 6,
+        "vitorias": 7,
         "empates": 7,
         "derrotas": 10,
-        "golsPro": 24,
-        "golsContra": 31
+        "golsPro": 27,
+        "golsContra": 32
       },
       "desfalques": [
         {
@@ -1817,7 +1817,7 @@
     },
     "Internacional": {
       "brasileirao": {
-        "posicao": 15,
+        "posicao": 16,
         "pontos": 25,
         "ultimos5": [
           "D 0-2",
@@ -1847,9 +1847,9 @@
         },
         "vitorias": 5,
         "empates": 10,
-        "derrotas": 9,
-        "golsPro": 24,
-        "golsContra": 27
+        "derrotas": 10,
+        "golsPro": 26,
+        "golsContra": 30
       },
       "desfalques": [
         {
@@ -1931,8 +1931,8 @@
     },
     "Mirassol": {
       "brasileirao": {
-        "posicao": 18,
-        "pontos": 24,
+        "posicao": 17,
+        "pontos": 25,
         "ultimos5": [
           "E 1-1",
           "V 2-1 REM",
@@ -1960,10 +1960,10 @@
           "gsg": 1.64
         },
         "vitorias": 6,
-        "empates": 6,
+        "empates": 7,
         "derrotas": 11,
-        "golsPro": 26,
-        "golsContra": 36
+        "golsPro": 27,
+        "golsContra": 37
       },
       "desfalques": [],
       "retornando": [],
@@ -2128,7 +2128,7 @@
     },
     "Vasco": {
       "brasileirao": {
-        "posicao": 17,
+        "posicao": 18,
         "pontos": 25,
         "ultimos5": [
           "D 0-1",
@@ -2266,9 +2266,9 @@
         },
         "vitorias": 2,
         "empates": 8,
-        "derrotas": 13,
-        "golsPro": 23,
-        "golsContra": 45
+        "derrotas": 14,
+        "golsPro": 24,
+        "golsContra": 48
       },
       "desfalques": [],
       "retornando": [],
@@ -4656,7 +4656,7 @@
           "gpg": 3.0,
           "gsg": 1.0
         },
-        "posicao": 11,
+        "posicao": 13,
         "pontos": 4,
         "vitorias": 1,
         "empates": 1,
@@ -4716,13 +4716,13 @@
           "gpg": 1.67,
           "gsg": 1.33
         },
-        "posicao": 6,
+        "posicao": 9,
         "pontos": 6,
         "vitorias": 2,
         "empates": 0,
-        "derrotas": 1,
+        "derrotas": 2,
         "golsPro": 5,
-        "golsContra": 4,
+        "golsContra": 6,
         "escanteiosPorJogo": 5.2,
         "cartoesPorJogo": 2.4
       },
@@ -4854,12 +4854,12 @@
           "gpg": 1.0,
           "gsg": 0.0
         },
-        "posicao": 13,
-        "pontos": 4,
-        "vitorias": 1,
+        "posicao": 4,
+        "pontos": 7,
+        "vitorias": 2,
         "empates": 1,
         "derrotas": 1,
-        "golsPro": 2,
+        "golsPro": 4,
         "golsContra": 1,
         "escanteiosPorJogo": 5.2,
         "cartoesPorJogo": 2.4
@@ -4988,7 +4988,7 @@
           "gpg": 0.5,
           "gsg": 1.5
         },
-        "posicao": 8,
+        "posicao": 10,
         "pontos": 6,
         "vitorias": 2,
         "empates": 0,
@@ -5128,7 +5128,7 @@
           "gpg": 3.0,
           "gsg": 1.0
         },
-        "posicao": 7,
+        "posicao": 8,
         "pontos": 6,
         "vitorias": 2,
         "empates": 0,
@@ -5197,9 +5197,9 @@
         "pontos": 3,
         "vitorias": 1,
         "empates": 0,
-        "derrotas": 2,
-        "golsPro": 1,
-        "golsContra": 4,
+        "derrotas": 3,
+        "golsPro": 2,
+        "golsContra": 6,
         "escanteiosPorJogo": 5.2,
         "cartoesPorJogo": 2.4
       },
@@ -5327,7 +5327,7 @@
           "gpg": 1.0,
           "gsg": 1.0
         },
-        "posicao": 10,
+        "posicao": 12,
         "pontos": 4,
         "vitorias": 1,
         "empates": 1,
@@ -5462,7 +5462,7 @@
           "gpg": 1.0,
           "gsg": 0.0
         },
-        "posicao": 4,
+        "posicao": 6,
         "pontos": 7,
         "vitorias": 2,
         "empates": 1,
@@ -5561,7 +5561,7 @@
           "gpg": 1.0,
           "gsg": 0.33
         },
-        "posicao": 9,
+        "posicao": 11,
         "pontos": 5,
         "vitorias": 1,
         "empates": 2,
@@ -5719,7 +5719,7 @@
           "gpg": 2.0,
           "gsg": 0.5
         },
-        "posicao": 5,
+        "posicao": 7,
         "pontos": 6,
         "vitorias": 2,
         "empates": 0,
@@ -5788,13 +5788,13 @@
           "gpg": 1.5,
           "gsg": 1.0
         },
-        "posicao": 12,
-        "pontos": 4,
-        "vitorias": 1,
+        "posicao": 5,
+        "pontos": 7,
+        "vitorias": 2,
         "empates": 1,
         "derrotas": 1,
-        "golsPro": 3,
-        "golsContra": 2,
+        "golsPro": 5,
+        "golsContra": 3,
         "escanteiosPorJogo": 5.2,
         "cartoesPorJogo": 2.4
       },
@@ -6191,7 +6191,7 @@
     },
     "Seattle-Sounders": {
       "mls": {
-        "posicao": 10,
+        "posicao": 11,
         "pontos": 1,
         "vitorias": 0,
         "empates": 1,
@@ -6202,7 +6202,7 @@
     },
     "Chicago-Fire": {
       "mls": {
-        "posicao": 9,
+        "posicao": 10,
         "pontos": 1,
         "vitorias": 0,
         "empates": 1,
@@ -6213,7 +6213,7 @@
     },
     "Atlanta-United": {
       "mls": {
-        "posicao": 20,
+        "posicao": 22,
         "pontos": 0,
         "vitorias": 0,
         "empates": 0,
@@ -6224,7 +6224,7 @@
     },
     "Charlotte-FC": {
       "mls": {
-        "posicao": 4,
+        "posicao": 5,
         "pontos": 3,
         "vitorias": 1,
         "empates": 0,
@@ -6235,7 +6235,7 @@
     },
     "DC-United": {
       "mls": {
-        "posicao": 13,
+        "posicao": 14,
         "pontos": 1,
         "vitorias": 0,
         "empates": 1,
@@ -6246,7 +6246,7 @@
     },
     "Los-Angeles-FC": {
       "mls": {
-        "posicao": 15,
+        "posicao": 16,
         "pontos": 1,
         "vitorias": 0,
         "empates": 1,
@@ -6279,7 +6279,7 @@
     },
     "New-York-Red-Bulls": {
       "mls": {
-        "posicao": 19,
+        "posicao": 21,
         "pontos": 0,
         "vitorias": 0,
         "empates": 0,
@@ -6290,7 +6290,7 @@
     },
     "Philadelphia-Union": {
       "mls": {
-        "posicao": 3,
+        "posicao": 4,
         "pontos": 3,
         "vitorias": 1,
         "empates": 0,
@@ -6301,7 +6301,7 @@
     },
     "Toronto-FC": {
       "mls": {
-        "posicao": 12,
+        "posicao": 13,
         "pontos": 1,
         "vitorias": 0,
         "empates": 1,
@@ -6312,7 +6312,7 @@
     },
     "New-York-City-FC": {
       "mls": {
-        "posicao": 11,
+        "posicao": 12,
         "pontos": 1,
         "vitorias": 0,
         "empates": 1,
@@ -6323,7 +6323,7 @@
     },
     "Houston-Dynamo": {
       "mls": {
-        "posicao": 14,
+        "posicao": 15,
         "pontos": 1,
         "vitorias": 0,
         "empates": 1,
@@ -6334,7 +6334,7 @@
     },
     "San-Jose-Earthquakes": {
       "mls": {
-        "posicao": 16,
+        "posicao": 17,
         "pontos": 1,
         "vitorias": 0,
         "empates": 1,
@@ -6345,7 +6345,7 @@
     },
     "Minnesota-United": {
       "mls": {
-        "posicao": 7,
+        "posicao": 8,
         "pontos": 1,
         "vitorias": 0,
         "empates": 1,
@@ -6356,7 +6356,7 @@
     },
     "Orlando-City": {
       "mls": {
-        "posicao": 8,
+        "posicao": 9,
         "pontos": 1,
         "vitorias": 0,
         "empates": 1,
@@ -6378,7 +6378,7 @@
     },
     "FC-Cincinnati": {
       "mls": {
-        "posicao": 22,
+        "posicao": 24,
         "pontos": 0,
         "vitorias": 0,
         "empates": 0,
@@ -6389,7 +6389,7 @@
     },
     "Sporting-KC": {
       "mls": {
-        "posicao": 21,
+        "posicao": 23,
         "pontos": 0,
         "vitorias": 0,
         "empates": 0,
@@ -6411,7 +6411,7 @@
     },
     "Colorado-Rapids": {
       "mls": {
-        "posicao": 6,
+        "posicao": 7,
         "pontos": 3,
         "vitorias": 1,
         "empates": 0,
@@ -6422,7 +6422,7 @@
     },
     "Real-Salt-Lake": {
       "mls": {
-        "posicao": 18,
+        "posicao": 19,
         "pontos": 0,
         "vitorias": 0,
         "empates": 0,
@@ -6433,7 +6433,7 @@
     },
     "Portland-Timbers": {
       "mls": {
-        "posicao": 17,
+        "posicao": 18,
         "pontos": 0,
         "vitorias": 0,
         "empates": 0,
@@ -6444,13 +6444,35 @@
     },
     "Austin-FC": {
       "mls": {
-        "posicao": 5,
+        "posicao": 6,
         "pontos": 3,
         "vitorias": 1,
         "empates": 0,
         "derrotas": 0,
         "golsPro": 2,
         "golsContra": 1
+      }
+    },
+    "New-England-Revolution": {
+      "mls": {
+        "posicao": 3,
+        "pontos": 3,
+        "vitorias": 1,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 3,
+        "golsContra": 1
+      }
+    },
+    "Columbus-Crew": {
+      "mls": {
+        "posicao": 20,
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 1,
+        "golsPro": 1,
+        "golsContra": 3
       }
     }
   }
