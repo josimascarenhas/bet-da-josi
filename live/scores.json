@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-30T19:26:58.143258-03:00",
+    "atualizadoEm": "2026-08-30T21:47:15.618227-03:00",
     "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
-    "jogos": 375,
-    "finalizadosTotal": 375
+    "jogos": 381,
+    "finalizadosTotal": 381
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -2710,6 +2710,22 @@
       "data": "2026-08-30",
       "comp": "brasileirao"
     },
+    "br-25-Corinthians-Santos": {
+      "status": "finished",
+      "placar": "0-1",
+      "golsCasa": 0,
+      "golsFora": 1,
+      "data": "2026-08-30",
+      "comp": "brasileirao"
+    },
+    "br-25-Flamengo-Botafogo": {
+      "status": "finished",
+      "placar": "3-0",
+      "golsCasa": 3,
+      "golsFora": 0,
+      "data": "2026-08-30",
+      "comp": "brasileirao"
+    },
     "eu-la-liga-2026-08-30-Real-Madrid-Malaga": {
       "status": "finished",
       "placar": "4-0",
@@ -2719,20 +2735,38 @@
       "comp": "la-liga",
       "fonte": "ge"
     },
-    "br-25-Corinthians-Santos": {
+    "s2-2026-08-30-CRB-Criciuma": {
       "status": "finished",
-      "placar": "0-1",
-      "golsCasa": 0,
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-08-30",
+      "comp": "serieb",
+      "fonte": "ge"
+    },
+    "br-25-Gremio-Chapecoense": {
+      "status": "finished",
+      "placar": "3-1",
+      "golsCasa": 3,
       "golsFora": 1,
       "data": "2026-08-30",
       "comp": "brasileirao",
       "fonte": "ge"
     },
-    "br-25-Flamengo-Botafogo": {
+    "br-25-Mirassol-Palmeiras": {
       "status": "finished",
-      "placar": "3-0",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-08-30",
+      "comp": "brasileirao",
+      "fonte": "ge"
+    },
+    "br-25-Bahia-Internacional": {
+      "status": "finished",
+      "placar": "3-2",
       "golsCasa": 3,
-      "golsFora": 0,
+      "golsFora": 2,
       "data": "2026-08-30",
       "comp": "brasileirao",
       "fonte": "ge"
@@ -3041,6 +3075,24 @@
       "golsFora": 0,
       "data": "2026-08-30",
       "comp": "primeira-liga",
+      "fonte": "365scores"
+    },
+    "s2-2026-08-30-Vila-Nova-Ceara": {
+      "status": "finished",
+      "placar": "2-0",
+      "golsCasa": 2,
+      "golsFora": 0,
+      "data": "2026-08-30",
+      "comp": "serieb",
+      "fonte": "365scores"
+    },
+    "us-mls-2026-08-30-New-England-Revolution-Columbus-Crew": {
+      "status": "finished",
+      "placar": "3-1",
+      "golsCasa": 3,
+      "golsFora": 1,
+      "data": "2026-08-30",
+      "comp": "mls",
       "fonte": "365scores"
     }
   }

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-30T19:26:58.143258-03:00",
+    "atualizadoEm": "2026-08-30T21:47:15.618227-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
@@ -102,6 +102,54 @@
       "placar": "0-0"
     },
     {
+      "id": "s2-2026-08-30-CRB-Criciuma",
+      "data": "2026-08-30",
+      "comp": "serieb",
+      "mandante": "CRB",
+      "visitante": "Criciuma",
+      "placar": "2-1"
+    },
+    {
+      "id": "br-25-Gremio-Chapecoense",
+      "data": "2026-08-30",
+      "comp": "brasileirao",
+      "mandante": "Gremio",
+      "visitante": "Chapecoense",
+      "placar": "3-1"
+    },
+    {
+      "id": "br-25-Mirassol-Palmeiras",
+      "data": "2026-08-30",
+      "comp": "brasileirao",
+      "mandante": "Mirassol",
+      "visitante": "Palmeiras",
+      "placar": "1-1"
+    },
+    {
+      "id": "s2-2026-08-30-Vila-Nova-Ceara",
+      "data": "2026-08-30",
+      "comp": "serieb",
+      "mandante": "Vila-Nova",
+      "visitante": "Ceara",
+      "placar": "2-0"
+    },
+    {
+      "id": "br-25-Bahia-Internacional",
+      "data": "2026-08-30",
+      "comp": "brasileirao",
+      "mandante": "Bahia",
+      "visitante": "Internacional",
+      "placar": "3-2"
+    },
+    {
+      "id": "us-mls-2026-08-30-New-England-Revolution-Columbus-Crew",
+      "data": "2026-08-30",
+      "comp": "mls",
+      "mandante": "New-England-Revolution",
+      "visitante": "Columbus-Crew",
+      "placar": "3-1"
+    },
+    {
       "id": "eu-premier-league-2026-08-29-Liverpool-Nottingham-Forest",
       "data": "2026-08-29",
       "comp": "premier-league",
@@ -196,54 +244,6 @@
       "mandante": "Tottenham",
       "visitante": "Newcastle-United",
       "placar": "0-2"
-    },
-    {
-      "id": "eu-la-liga-2026-08-29-Real-Sociedad-Espanyol",
-      "data": "2026-08-29",
-      "comp": "la-liga",
-      "mandante": "Real-Sociedad",
-      "visitante": "Espanyol",
-      "placar": "2-1"
-    },
-    {
-      "id": "us-mls-2026-08-29-Seattle-Sounders-Chicago-Fire",
-      "data": "2026-08-29",
-      "comp": "mls",
-      "mandante": "Seattle-Sounders",
-      "visitante": "Chicago-Fire",
-      "placar": "2-2"
-    },
-    {
-      "id": "s2-2026-08-29-Botafogo-SP-Cuiaba",
-      "data": "2026-08-29",
-      "comp": "serieb",
-      "mandante": "Botafogo-SP",
-      "visitante": "Cuiaba",
-      "placar": "1-2"
-    },
-    {
-      "id": "us-mls-2026-08-29-Atlanta-United-Charlotte-FC",
-      "data": "2026-08-29",
-      "comp": "mls",
-      "mandante": "Atlanta-United",
-      "visitante": "Charlotte-FC",
-      "placar": "0-2"
-    },
-    {
-      "id": "us-mls-2026-08-29-DC-United-Los-Angeles-FC",
-      "data": "2026-08-29",
-      "comp": "mls",
-      "mandante": "DC-United",
-      "visitante": "Los-Angeles-FC",
-      "placar": "0-0"
-    },
-    {
-      "id": "us-mls-2026-08-29-New-York-Red-Bulls-Philadelphia-Union",
-      "data": "2026-08-29",
-      "comp": "mls",
-      "mandante": "New-York-Red-Bulls",
-      "visitante": "Philadelphia-Union",
-      "placar": "1-3"
     }
   ]
 }
