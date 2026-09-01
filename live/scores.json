@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-01T07:23:53.503732-03:00",
+    "atualizadoEm": "2026-09-01T12:06:09.998873-03:00",
     "fonte": "calendário + openligadb.de + 365scores.com",
-    "jogos": 374,
-    "finalizadosTotal": 374
+    "jogos": 387,
+    "finalizadosTotal": 387
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -2848,6 +2848,24 @@
       "comp": "premier-league",
       "fonte": "365scores"
     },
+    "eu-primeira-liga-2026-08-29-Alverca-Santa-Clara": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-08-29",
+      "comp": "primeira-liga",
+      "fonte": "365scores"
+    },
+    "eu-primeira-liga-2026-08-29-Arouca-Maritimo": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-08-29",
+      "comp": "primeira-liga",
+      "fonte": "365scores"
+    },
     "eu-la-liga-2026-08-29-Levante-Real-Betis": {
       "status": "finished",
       "placar": "5-2",
@@ -2875,11 +2893,110 @@
       "comp": "la-liga",
       "fonte": "365scores"
     },
+    "us-mls-2026-08-29-Seattle-Sounders-Chicago-Fire": {
+      "status": "finished",
+      "placar": "2-2",
+      "golsCasa": 2,
+      "golsFora": 2,
+      "data": "2026-08-29",
+      "comp": "mls",
+      "fonte": "365scores"
+    },
+    "s2-2026-08-29-Botafogo-SP-Cuiaba": {
+      "status": "finished",
+      "placar": "1-2",
+      "golsCasa": 1,
+      "golsFora": 2,
+      "data": "2026-08-29",
+      "comp": "serieb",
+      "fonte": "365scores"
+    },
+    "us-mls-2026-08-29-Atlanta-United-Charlotte-FC": {
+      "status": "finished",
+      "placar": "0-2",
+      "golsCasa": 0,
+      "golsFora": 2,
+      "data": "2026-08-29",
+      "comp": "mls",
+      "fonte": "365scores"
+    },
+    "us-mls-2026-08-29-DC-United-Los-Angeles-FC": {
+      "status": "finished",
+      "placar": "0-0",
+      "golsCasa": 0,
+      "golsFora": 0,
+      "data": "2026-08-29",
+      "comp": "mls",
+      "fonte": "365scores"
+    },
+    "us-mls-2026-08-29-New-York-Red-Bulls-Philadelphia-Union": {
+      "status": "finished",
+      "placar": "1-3",
+      "golsCasa": 1,
+      "golsFora": 3,
+      "data": "2026-08-29",
+      "comp": "mls",
+      "fonte": "365scores"
+    },
+    "us-mls-2026-08-29-Toronto-FC-New-York-City-FC": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-08-29",
+      "comp": "mls",
+      "fonte": "365scores"
+    },
+    "us-mls-2026-08-29-Houston-Dynamo-San-Jose-Earthquakes": {
+      "status": "finished",
+      "placar": "0-0",
+      "golsCasa": 0,
+      "golsFora": 0,
+      "data": "2026-08-29",
+      "comp": "mls",
+      "fonte": "365scores"
+    },
     "us-mls-2026-08-29-Minnesota-United-Orlando-City": {
       "status": "finished",
       "placar": "3-3",
       "golsCasa": 3,
       "golsFora": 3,
+      "data": "2026-08-29",
+      "comp": "mls",
+      "fonte": "365scores"
+    },
+    "us-mls-2026-08-29-Nashville-SC-FC-Cincinnati": {
+      "status": "finished",
+      "placar": "4-0",
+      "golsCasa": 4,
+      "golsFora": 0,
+      "data": "2026-08-29",
+      "comp": "mls",
+      "fonte": "365scores"
+    },
+    "us-mls-2026-08-29-Sporting-KC-Vancouver-Whitecaps": {
+      "status": "finished",
+      "placar": "0-3",
+      "golsCasa": 0,
+      "golsFora": 3,
+      "data": "2026-08-29",
+      "comp": "mls",
+      "fonte": "365scores"
+    },
+    "us-mls-2026-08-29-Colorado-Rapids-Real-Salt-Lake": {
+      "status": "finished",
+      "placar": "1-0",
+      "golsCasa": 1,
+      "golsFora": 0,
+      "data": "2026-08-29",
+      "comp": "mls",
+      "fonte": "365scores"
+    },
+    "us-mls-2026-08-29-Portland-Timbers-Austin-FC": {
+      "status": "finished",
+      "placar": "1-2",
+      "golsCasa": 1,
+      "golsFora": 2,
       "data": "2026-08-29",
       "comp": "mls",
       "fonte": "365scores"
