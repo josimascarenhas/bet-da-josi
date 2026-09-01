@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-08-31T17:41:11.161053-03:00",
+    "atualizadoEm": "2026-08-31T21:25:16.081454-03:00",
     "fonte": "calendário + openligadb.de + 365scores.com",
-    "jogos": 383,
-    "finalizadosTotal": 383
+    "jogos": 386,
+    "finalizadosTotal": 386
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -3106,6 +3106,33 @@
       "placar": "1-0",
       "golsCasa": 1,
       "golsFora": 0,
+      "data": "2026-08-31",
+      "comp": "la-liga",
+      "fonte": "365scores"
+    },
+    "eu-premier-league-2026-08-31-Aston-Villa-Arsenal": {
+      "status": "finished",
+      "placar": "0-1",
+      "golsCasa": 0,
+      "golsFora": 1,
+      "data": "2026-08-31",
+      "comp": "premier-league",
+      "fonte": "365scores"
+    },
+    "eu-primeira-liga-2026-08-31-Benfica-Estoril": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-08-31",
+      "comp": "primeira-liga",
+      "fonte": "365scores"
+    },
+    "eu-la-liga-2026-08-31-Barcelona-Rayo-Vallecano": {
+      "status": "finished",
+      "placar": "5-2",
+      "golsCasa": 5,
+      "golsFora": 2,
       "data": "2026-08-31",
       "comp": "la-liga",
       "fonte": "365scores"
