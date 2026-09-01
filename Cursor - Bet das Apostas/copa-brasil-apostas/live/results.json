@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-01T02:29:49.990977-03:00",
+    "atualizadoEm": "2026-09-01T07:23:53.503732-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
@@ -198,6 +198,22 @@
       "placar": "3-1"
     },
     {
+      "id": "eu-premier-league-2026-08-29-Liverpool-Nottingham-Forest",
+      "data": "2026-08-29",
+      "comp": "premier-league",
+      "mandante": "Liverpool",
+      "visitante": "Nottingham-Forest",
+      "placar": "2-2"
+    },
+    {
+      "id": "eu-bundesliga-2026-08-29-Koln-Hoffenheim",
+      "data": "2026-08-29",
+      "comp": "bundesliga",
+      "mandante": "Koln",
+      "visitante": "Hoffenheim",
+      "placar": "3-2"
+    },
+    {
       "id": "eu-bundesliga-2026-08-29-Mainz-SC-Paderborn",
       "data": "2026-08-29",
       "comp": "bundesliga",
@@ -228,22 +244,6 @@
       "mandante": "Union-Berlin",
       "visitante": "Eintracht-Frankfurt",
       "placar": "3-3"
-    },
-    {
-      "id": "eu-bundesliga-2026-08-29-Borussia-Dortmund-Hamburger-SV",
-      "data": "2026-08-29",
-      "comp": "bundesliga",
-      "mandante": "Borussia-Dortmund",
-      "visitante": "Hamburger-SV",
-      "placar": "2-0"
-    },
-    {
-      "id": "br-25-Vasco-Cruzeiro",
-      "data": "2026-08-29",
-      "comp": "brasileirao",
-      "mandante": "Vasco",
-      "visitante": "Cruzeiro",
-      "placar": "3-1"
     }
   ]
 }
