@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-01T02:29:49.990977-03:00",
-    "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
-    "jogos": 367,
-    "finalizadosTotal": 367
+    "atualizadoEm": "2026-09-01T07:23:53.503732-03:00",
+    "fonte": "calendário + openligadb.de + 365scores.com",
+    "jogos": 374,
+    "finalizadosTotal": 374
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -2756,8 +2756,7 @@
       "golsCasa": 2,
       "golsFora": 3,
       "data": "2026-08-31",
-      "comp": "brasileirao",
-      "fonte": "ge"
+      "comp": "brasileirao"
     },
     "eu-bundesliga-2026-08-29-RB-Leipzig-Borussia-Mgladbach": {
       "status": "finished",
@@ -2820,6 +2819,69 @@
       "golsFora": 1,
       "data": "2026-08-28",
       "comp": "serieb",
+      "fonte": "365scores"
+    },
+    "eu-premier-league-2026-08-29-Liverpool-Nottingham-Forest": {
+      "status": "finished",
+      "placar": "2-2",
+      "golsCasa": 2,
+      "golsFora": 2,
+      "data": "2026-08-29",
+      "comp": "premier-league",
+      "fonte": "365scores"
+    },
+    "eu-bundesliga-2026-08-29-Koln-Hoffenheim": {
+      "status": "finished",
+      "placar": "3-2",
+      "golsCasa": 3,
+      "golsFora": 2,
+      "data": "2026-08-29",
+      "comp": "bundesliga",
+      "fonte": "365scores"
+    },
+    "eu-premier-league-2026-08-29-Bournemouth-Everton": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-08-29",
+      "comp": "premier-league",
+      "fonte": "365scores"
+    },
+    "eu-la-liga-2026-08-29-Levante-Real-Betis": {
+      "status": "finished",
+      "placar": "5-2",
+      "golsCasa": 5,
+      "golsFora": 2,
+      "data": "2026-08-29",
+      "comp": "la-liga",
+      "fonte": "365scores"
+    },
+    "eu-premier-league-2026-08-29-Tottenham-Newcastle-United": {
+      "status": "finished",
+      "placar": "0-2",
+      "golsCasa": 0,
+      "golsFora": 2,
+      "data": "2026-08-29",
+      "comp": "premier-league",
+      "fonte": "365scores"
+    },
+    "eu-la-liga-2026-08-29-Real-Sociedad-Espanyol": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-08-29",
+      "comp": "la-liga",
+      "fonte": "365scores"
+    },
+    "us-mls-2026-08-29-Minnesota-United-Orlando-City": {
+      "status": "finished",
+      "placar": "3-3",
+      "golsCasa": 3,
+      "golsFora": 3,
+      "data": "2026-08-29",
+      "comp": "mls",
       "fonte": "365scores"
     },
     "eu-premier-league-2026-08-30-Chelsea-Brighton": {
