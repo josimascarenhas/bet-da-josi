@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-02T05:05:10.254217-03:00",
+    "atualizadoEm": "2026-09-02T09:54:19.350831-03:00",
     "fonte": "calendário + openligadb.de + 365scores.com",
-    "jogos": 387,
-    "finalizadosTotal": 387
+    "jogos": 388,
+    "finalizadosTotal": 388
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -2819,6 +2819,15 @@
       "data": "2026-08-30",
       "comp": "bundesliga",
       "fonte": "openligadb"
+    },
+    "s2-2026-08-28-Novorizontino-Sport": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-08-28",
+      "comp": "serieb",
+      "fonte": "365scores"
     },
     "eu-premier-league-2026-08-29-Liverpool-Nottingham-Forest": {
       "status": "finished",
