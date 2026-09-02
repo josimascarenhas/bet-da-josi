@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-02T09:54:27-03:00",
+    "atualizadoEm": "2026-09-02T14:02:19-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 388,
     "timesAtualizados": 144,
@@ -234,7 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Palmeiras",
+          "jogador": "EscalaÃ§Ã£o",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1866,9 +1866,9 @@
       },
       "desfalques": [
         {
-          "jogador": "Inter tem trÃªs desfalques para enfrenta",
+          "jogador": "Dúvida no Inter, Alan Patrick pode se to",
           "motivo": "notícia GE",
-          "impacto": "medio"
+          "impacto": "alto"
         }
       ],
       "retornando": [
@@ -2183,7 +2183,7 @@
       },
       "desfalques": [
         {
-          "jogador": "David viaja, e Cuiabano Ã© desfalque; ve",
+          "jogador": "David viaja, e Cuiabano vira desfalque; ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
