@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-02T00:09:40-03:00",
+    "atualizadoEm": "2026-09-02T05:05:24-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 387,
     "timesAtualizados": 144,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -582,12 +582,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Alisson sente incÃ´modo no quadril e vir",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "EscalaÃ§Ã£o do Fluminense",
+          "jogador": "Rival do Flu na Liberta deve ter desfalq",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
