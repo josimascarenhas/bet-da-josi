@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-02T14:02:19-03:00",
+    "atualizadoEm": "2026-09-02T17:01:23-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 388,
     "timesAtualizados": 144,
@@ -483,7 +483,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o",
+          "jogador": "Joia do Athletico sofre segunda lesão de",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1023,8 +1023,8 @@
       },
       "desfalques": [
         {
-          "jogador": "Robson",
-          "motivo": "suspenso",
+          "jogador": "Coritiba inicia preparação para enfrenta",
+          "motivo": "notícia GE",
           "impacto": "medio"
         }
       ],
@@ -1979,6 +1979,11 @@
         "golsContra": 37
       },
       "desfalques": [
+        {
+          "jogador": "Coritiba inicia preparação para enfrenta",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "EscalaÃ§Ã£o do Mirassol",
           "motivo": "notícia GE",
