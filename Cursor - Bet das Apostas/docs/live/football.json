@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-03T15:23:08-03:00",
+    "atualizadoEm": "2026-09-03T18:13:51-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 390,
     "timesAtualizados": 144,
@@ -588,6 +588,11 @@
       },
       "desfalques": [
         {
+          "jogador": "Recuperado de lesão, Freytes deve voltar",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
           "jogador": "Rival do Flu na Liberta deve ter desfalq",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -702,7 +707,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Cruzeiro",
+          "jogador": "Zagueiro do Cruzeiro tem lesão confirmad",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1029,7 +1034,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Coritiba inicia preparação para enfrenta",
+          "jogador": "Rodrigo Gelado volta aos treinos com o e",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1241,11 +1246,6 @@
         "golsContra": 25
       },
       "desfalques": [
-        {
-          "jogador": "Treino",
-          "motivo": "notícia GE",
-          "impacto": "alto"
-        },
         {
           "jogador": "Treino do Corinthians",
           "motivo": "notícia GE",
@@ -2212,7 +2212,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Atlético-PI tem baixa de goleira e dúvid",
+          "jogador": "Recuperado de lesão, Freytes deve voltar",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
