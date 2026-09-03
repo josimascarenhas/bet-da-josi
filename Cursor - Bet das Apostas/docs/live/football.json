@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-03T02:38:56-03:00",
+    "atualizadoEm": "2026-09-03T07:46:18-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 390,
     "timesAtualizados": 144,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
