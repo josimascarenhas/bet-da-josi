@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-02T21:58:46.568806-03:00",
-    "fonte": "calendário + openligadb.de + 365scores.com",
-    "jogos": 388,
-    "finalizadosTotal": 388
+    "atualizadoEm": "2026-09-03T02:38:33.148197-03:00",
+    "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
+    "jogos": 390,
+    "finalizadosTotal": 390
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -2765,6 +2765,24 @@
       "golsFora": 1,
       "data": "2026-09-01",
       "comp": "copa"
+    },
+    "copa-q-san-pal-vol": {
+      "status": "finished",
+      "placar": "0-0",
+      "golsCasa": 0,
+      "golsFora": 0,
+      "data": "2026-09-02",
+      "comp": "copa",
+      "fonte": "ge"
+    },
+    "copa-q-vit-vas-vol": {
+      "status": "finished",
+      "placar": "0-2",
+      "golsCasa": 0,
+      "golsFora": 2,
+      "data": "2026-09-02",
+      "comp": "copa",
+      "fonte": "ge"
     },
     "eu-bundesliga-2026-08-29-RB-Leipzig-Borussia-Mgladbach": {
       "status": "finished",

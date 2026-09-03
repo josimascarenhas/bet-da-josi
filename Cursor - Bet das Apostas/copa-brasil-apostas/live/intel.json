@@ -1,9 +1,185 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-02T21:58:49.557043-03:00",
+    "atualizadoEm": "2026-09-03T02:38:56.930395-03:00",
     "fonte": "calendário + GE + modelo xG"
   },
   "times": {
+    "Sao-Paulo": {
+      "brasileirao": {
+        "xGporJogo": 1.19,
+        "xGSporJogo": 1.19
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.18,
+        "xGSporJogo": 1.18
+      },
+      "copa": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.07
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.52,
+        "xGSporJogo": 1.52
+      }
+    },
+    "LDU-Quito": {
+      "libertadores": {
+        "xGporJogo": 1.35,
+        "xGSporJogo": 1.01,
+        "escanteiosPorJogo": 5.5,
+        "cartoesPorJogo": 2.6
+      }
+    },
+    "Mirassol": {
+      "desfalques": [
+        {
+          "jogador": "EscalaÃ§Ã£o do Mirassol",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        }
+      ],
+      "brasileirao": {
+        "xGporJogo": 1.16,
+        "xGSporJogo": 1.48
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.34,
+        "xGSporJogo": 1.16,
+        "escanteiosPorJogo": 5.5,
+        "cartoesPorJogo": 2.6
+      },
+      "copa": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.07
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.52,
+        "xGSporJogo": 1.52
+      }
+    },
+    "Palmeiras": {
+      "desfalques": [
+        {
+          "jogador": "Alex Telles não tem lesão, mas é dúvida ",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        }
+      ],
+      "brasileirao": {
+        "xGporJogo": 1.64,
+        "xGSporJogo": 0.94
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.05,
+        "xGSporJogo": 0.69
+      },
+      "copa": {
+        "xGporJogo": 1.38,
+        "xGSporJogo": 0.3
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.52,
+        "xGSporJogo": 1.52
+      }
+    },
+    "Atletico-MG": {
+      "brasileirao": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.19
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.18,
+        "xGSporJogo": 1.18
+      },
+      "copa": {
+        "xGporJogo": 1.38,
+        "xGSporJogo": 1.02
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.52,
+        "xGSporJogo": 1.52
+      }
+    },
     "Bragantino": {
       "brasileirao": {
         "xGporJogo": 1.13,
@@ -42,10 +218,351 @@
         "xGSporJogo": 1.52
       }
     },
-    "Sao-Paulo": {
+    "Estudiantes": {
+      "libertadores": {
+        "xGporJogo": 1.3,
+        "xGSporJogo": 1.01,
+        "escanteiosPorJogo": 5.5,
+        "cartoesPorJogo": 2.6
+      }
+    },
+    "Santos": {
+      "desfalques": [
+        {
+          "jogador": "Cuca lamenta lesão de Neymar na eliminaç",
+          "motivo": "notícia GE",
+          "impacto": "alto"
+        }
+      ],
       "brasileirao": {
-        "xGporJogo": 1.19,
-        "xGSporJogo": 1.19
+        "xGporJogo": 1.38,
+        "xGSporJogo": 1.48
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.18,
+        "xGSporJogo": 1.18
+      },
+      "copa": {
+        "xGporJogo": 0.3,
+        "xGSporJogo": 1.38
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.52,
+        "xGSporJogo": 1.52
+      }
+    },
+    "Corinthians": {
+      "desfalques": [
+        {
+          "jogador": "Treino",
+          "motivo": "notícia GE",
+          "impacto": "alto"
+        }
+      ],
+      "brasileirao": {
+        "xGporJogo": 1.12,
+        "xGSporJogo": 1.07
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 0.69,
+        "xGSporJogo": 0.33
+      },
+      "copa": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.07
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.52,
+        "xGSporJogo": 1.52
+      }
+    },
+    "Independiente-del-Valle": {
+      "libertadores": {
+        "xGporJogo": 1.4,
+        "xGSporJogo": 1.06,
+        "escanteiosPorJogo": 5.5,
+        "cartoesPorJogo": 2.6
+      }
+    },
+    "Gremio": {
+      "brasileirao": {
+        "xGporJogo": 1.1,
+        "xGSporJogo": 1.32
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.18,
+        "xGSporJogo": 1.18
+      },
+      "copa": {
+        "xGporJogo": 0.3,
+        "xGSporJogo": 0.3
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.52,
+        "xGSporJogo": 1.52
+      }
+    },
+    "Vasco": {
+      "desfalques": [
+        {
+          "jogador": "Atlético-PI tem baixa de goleira e dúvid",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        }
+      ],
+      "brasileirao": {
+        "xGporJogo": 1.1,
+        "xGSporJogo": 1.54
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.18,
+        "xGSporJogo": 1.18
+      },
+      "copa": {
+        "xGporJogo": 1.38,
+        "xGSporJogo": 0.3
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.52,
+        "xGSporJogo": 1.52
+      }
+    },
+    "Vitoria": {
+      "brasileirao": {
+        "xGporJogo": 1.04,
+        "xGSporJogo": 1.4
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.18,
+        "xGSporJogo": 1.18
+      },
+      "copa": {
+        "xGporJogo": 0.3,
+        "xGSporJogo": 1.38
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.52,
+        "xGSporJogo": 1.52
+      }
+    },
+    "Remo": {
+      "brasileirao": {
+        "xGporJogo": 1.16,
+        "xGSporJogo": 1.44
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.18,
+        "xGSporJogo": 1.18
+      },
+      "copa": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.07
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.52,
+        "xGSporJogo": 1.52
+      }
+    },
+    "Cruzeiro": {
+      "brasileirao": {
+        "xGporJogo": 1.37,
+        "xGSporJogo": 1.34
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.05,
+        "xGSporJogo": 1.77
+      },
+      "copa": {
+        "xGporJogo": 1.02,
+        "xGSporJogo": 1.38
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.52,
+        "xGSporJogo": 1.52
+      }
+    },
+    "Coritiba": {
+      "brasileirao": {
+        "xGporJogo": 1.25,
+        "xGSporJogo": 1.28
+      },
+      "serieb": {
+        "xGporJogo": 1.11,
+        "xGSporJogo": 1.11
+      },
+      "libertadores": {
+        "xGporJogo": 1.18,
+        "xGSporJogo": 1.18
+      },
+      "copa": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.07
+      },
+      "premier-league": {
+        "xGporJogo": 1.43,
+        "xGSporJogo": 1.43
+      },
+      "la-liga": {
+        "xGporJogo": 1.28,
+        "xGSporJogo": 1.28
+      },
+      "bundesliga": {
+        "xGporJogo": 1.53,
+        "xGSporJogo": 1.53
+      },
+      "primeira-liga": {
+        "xGporJogo": 1.23,
+        "xGSporJogo": 1.23
+      },
+      "mls": {
+        "xGporJogo": 1.52,
+        "xGSporJogo": 1.52
+      }
+    },
+    "Chapecoense": {
+      "brasileirao": {
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.76
       },
       "serieb": {
         "xGporJogo": 1.11,
@@ -118,17 +635,17 @@
         "xGSporJogo": 1.52
       }
     },
-    "Athletico-PR": {
+    "Botafogo": {
       "desfalques": [
         {
-          "jogador": "Joia do Athletico sofre segunda lesão de",
+          "jogador": "Alex Telles não tem lesão, mas é dúvida ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
       ],
       "brasileirao": {
-        "xGporJogo": 1.37,
-        "xGSporJogo": 1.01
+        "xGporJogo": 1.51,
+        "xGSporJogo": 1.51
       },
       "serieb": {
         "xGporJogo": 1.11,
@@ -163,42 +680,12 @@
         "xGSporJogo": 1.52
       }
     },
-    "Remo": {
-      "brasileirao": {
-        "xGporJogo": 1.16,
-        "xGSporJogo": 1.44
-      },
-      "serieb": {
-        "xGporJogo": 1.11,
-        "xGSporJogo": 1.11
-      },
+    "Platense": {
       "libertadores": {
-        "xGporJogo": 1.18,
-        "xGSporJogo": 1.18
-      },
-      "copa": {
-        "xGporJogo": 1.07,
-        "xGSporJogo": 1.07
-      },
-      "premier-league": {
-        "xGporJogo": 1.43,
-        "xGSporJogo": 1.43
-      },
-      "la-liga": {
-        "xGporJogo": 1.28,
-        "xGSporJogo": 1.28
-      },
-      "bundesliga": {
-        "xGporJogo": 1.53,
-        "xGSporJogo": 1.53
-      },
-      "primeira-liga": {
-        "xGporJogo": 1.23,
-        "xGSporJogo": 1.23
-      },
-      "mls": {
-        "xGporJogo": 1.52,
-        "xGSporJogo": 1.52
+        "xGporJogo": 1.25,
+        "xGSporJogo": 1.09,
+        "escanteiosPorJogo": 5.5,
+        "cartoesPorJogo": 2.6
       }
     },
     "Internacional": {
@@ -239,22 +726,22 @@
         "xGSporJogo": 1.52
       }
     },
-    "Cruzeiro": {
+    "Bahia": {
       "brasileirao": {
         "xGporJogo": 1.37,
-        "xGSporJogo": 1.34
+        "xGSporJogo": 1.19
       },
       "serieb": {
         "xGporJogo": 1.11,
         "xGSporJogo": 1.11
       },
       "libertadores": {
-        "xGporJogo": 1.05,
-        "xGSporJogo": 1.77
+        "xGporJogo": 1.18,
+        "xGSporJogo": 1.18
       },
       "copa": {
-        "xGporJogo": 1.02,
-        "xGSporJogo": 1.38
+        "xGporJogo": 1.07,
+        "xGSporJogo": 1.07
       },
       "premier-league": {
         "xGporJogo": 1.43,
@@ -322,267 +809,10 @@
         "xGSporJogo": 1.52
       }
     },
-    "Chapecoense": {
-      "brasileirao": {
-        "xGporJogo": 1.07,
-        "xGSporJogo": 1.76
-      },
-      "serieb": {
-        "xGporJogo": 1.11,
-        "xGSporJogo": 1.11
-      },
-      "libertadores": {
-        "xGporJogo": 1.18,
-        "xGSporJogo": 1.18
-      },
-      "copa": {
-        "xGporJogo": 1.07,
-        "xGSporJogo": 1.07
-      },
-      "premier-league": {
-        "xGporJogo": 1.43,
-        "xGSporJogo": 1.43
-      },
-      "la-liga": {
-        "xGporJogo": 1.28,
-        "xGSporJogo": 1.28
-      },
-      "bundesliga": {
-        "xGporJogo": 1.53,
-        "xGSporJogo": 1.53
-      },
-      "primeira-liga": {
-        "xGporJogo": 1.23,
-        "xGSporJogo": 1.23
-      },
-      "mls": {
-        "xGporJogo": 1.52,
-        "xGSporJogo": 1.52
-      }
-    },
-    "Atletico-MG": {
-      "brasileirao": {
-        "xGporJogo": 1.28,
-        "xGSporJogo": 1.19
-      },
-      "serieb": {
-        "xGporJogo": 1.11,
-        "xGSporJogo": 1.11
-      },
-      "libertadores": {
-        "xGporJogo": 1.18,
-        "xGSporJogo": 1.18
-      },
-      "copa": {
-        "xGporJogo": 1.38,
-        "xGSporJogo": 1.02
-      },
-      "premier-league": {
-        "xGporJogo": 1.43,
-        "xGSporJogo": 1.43
-      },
-      "la-liga": {
-        "xGporJogo": 1.28,
-        "xGSporJogo": 1.28
-      },
-      "bundesliga": {
-        "xGporJogo": 1.53,
-        "xGSporJogo": 1.53
-      },
-      "primeira-liga": {
-        "xGporJogo": 1.23,
-        "xGSporJogo": 1.23
-      },
-      "mls": {
-        "xGporJogo": 1.52,
-        "xGSporJogo": 1.52
-      }
-    },
-    "Gremio": {
-      "brasileirao": {
-        "xGporJogo": 1.1,
-        "xGSporJogo": 1.32
-      },
-      "serieb": {
-        "xGporJogo": 1.11,
-        "xGSporJogo": 1.11
-      },
-      "libertadores": {
-        "xGporJogo": 1.18,
-        "xGSporJogo": 1.18
-      },
-      "copa": {
-        "xGporJogo": 0.3,
-        "xGSporJogo": 0.3
-      },
-      "premier-league": {
-        "xGporJogo": 1.43,
-        "xGSporJogo": 1.43
-      },
-      "la-liga": {
-        "xGporJogo": 1.28,
-        "xGSporJogo": 1.28
-      },
-      "bundesliga": {
-        "xGporJogo": 1.53,
-        "xGSporJogo": 1.53
-      },
-      "primeira-liga": {
-        "xGporJogo": 1.23,
-        "xGSporJogo": 1.23
-      },
-      "mls": {
-        "xGporJogo": 1.52,
-        "xGSporJogo": 1.52
-      }
-    },
-    "Vasco": {
-      "desfalques": [
-        {
-          "jogador": "Atlético-PI tem baixa de goleira e dúvid",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        }
-      ],
-      "brasileirao": {
-        "xGporJogo": 1.1,
-        "xGSporJogo": 1.54
-      },
-      "serieb": {
-        "xGporJogo": 1.11,
-        "xGSporJogo": 1.11
-      },
-      "libertadores": {
-        "xGporJogo": 1.18,
-        "xGSporJogo": 1.18
-      },
-      "copa": {
-        "xGporJogo": 1.02,
-        "xGSporJogo": 0.3
-      },
-      "premier-league": {
-        "xGporJogo": 1.43,
-        "xGSporJogo": 1.43
-      },
-      "la-liga": {
-        "xGporJogo": 1.28,
-        "xGSporJogo": 1.28
-      },
-      "bundesliga": {
-        "xGporJogo": 1.53,
-        "xGSporJogo": 1.53
-      },
-      "primeira-liga": {
-        "xGporJogo": 1.23,
-        "xGSporJogo": 1.23
-      },
-      "mls": {
-        "xGporJogo": 1.52,
-        "xGSporJogo": 1.52
-      }
-    },
-    "Platense": {
-      "libertadores": {
-        "xGporJogo": 1.25,
-        "xGSporJogo": 1.09,
-        "escanteiosPorJogo": 5.5,
-        "cartoesPorJogo": 2.6
-      }
-    },
-    "Botafogo": {
-      "desfalques": [
-        {
-          "jogador": "Alex Telles não tem lesão, mas é dúvida ",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        }
-      ],
-      "brasileirao": {
-        "xGporJogo": 1.51,
-        "xGSporJogo": 1.51
-      },
-      "serieb": {
-        "xGporJogo": 1.11,
-        "xGSporJogo": 1.11
-      },
-      "libertadores": {
-        "xGporJogo": 1.18,
-        "xGSporJogo": 1.18
-      },
-      "copa": {
-        "xGporJogo": 1.07,
-        "xGSporJogo": 1.07
-      },
-      "premier-league": {
-        "xGporJogo": 1.43,
-        "xGSporJogo": 1.43
-      },
-      "la-liga": {
-        "xGporJogo": 1.28,
-        "xGSporJogo": 1.28
-      },
-      "bundesliga": {
-        "xGporJogo": 1.53,
-        "xGSporJogo": 1.53
-      },
-      "primeira-liga": {
-        "xGporJogo": 1.23,
-        "xGSporJogo": 1.23
-      },
-      "mls": {
-        "xGporJogo": 1.52,
-        "xGSporJogo": 1.52
-      }
-    },
-    "Corinthians": {
-      "desfalques": [
-        {
-          "jogador": "Treino do Corinthians",
-          "motivo": "notícia GE",
-          "impacto": "alto"
-        }
-      ],
-      "brasileirao": {
-        "xGporJogo": 1.12,
-        "xGSporJogo": 1.07
-      },
-      "serieb": {
-        "xGporJogo": 1.11,
-        "xGSporJogo": 1.11
-      },
-      "libertadores": {
-        "xGporJogo": 0.69,
-        "xGSporJogo": 0.33
-      },
-      "copa": {
-        "xGporJogo": 1.07,
-        "xGSporJogo": 1.07
-      },
-      "premier-league": {
-        "xGporJogo": 1.43,
-        "xGSporJogo": 1.43
-      },
-      "la-liga": {
-        "xGporJogo": 1.28,
-        "xGSporJogo": 1.28
-      },
-      "bundesliga": {
-        "xGporJogo": 1.53,
-        "xGSporJogo": 1.53
-      },
-      "primeira-liga": {
-        "xGporJogo": 1.23,
-        "xGSporJogo": 1.23
-      },
-      "mls": {
-        "xGporJogo": 1.52,
-        "xGSporJogo": 1.52
-      }
-    },
-    "Bahia": {
+    "Athletico-PR": {
       "brasileirao": {
         "xGporJogo": 1.37,
-        "xGSporJogo": 1.19
+        "xGSporJogo": 1.01
       },
       "serieb": {
         "xGporJogo": 1.11,
@@ -595,248 +825,6 @@
       "copa": {
         "xGporJogo": 1.07,
         "xGSporJogo": 1.07
-      },
-      "premier-league": {
-        "xGporJogo": 1.43,
-        "xGSporJogo": 1.43
-      },
-      "la-liga": {
-        "xGporJogo": 1.28,
-        "xGSporJogo": 1.28
-      },
-      "bundesliga": {
-        "xGporJogo": 1.53,
-        "xGSporJogo": 1.53
-      },
-      "primeira-liga": {
-        "xGporJogo": 1.23,
-        "xGSporJogo": 1.23
-      },
-      "mls": {
-        "xGporJogo": 1.52,
-        "xGSporJogo": 1.52
-      }
-    },
-    "Mirassol": {
-      "desfalques": [
-        {
-          "jogador": "EscalaÃ§Ã£o do Mirassol",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        }
-      ],
-      "brasileirao": {
-        "xGporJogo": 1.16,
-        "xGSporJogo": 1.48
-      },
-      "serieb": {
-        "xGporJogo": 1.11,
-        "xGSporJogo": 1.11
-      },
-      "libertadores": {
-        "xGporJogo": 1.34,
-        "xGSporJogo": 1.16,
-        "escanteiosPorJogo": 5.5,
-        "cartoesPorJogo": 2.6
-      },
-      "copa": {
-        "xGporJogo": 1.07,
-        "xGSporJogo": 1.07
-      },
-      "premier-league": {
-        "xGporJogo": 1.43,
-        "xGSporJogo": 1.43
-      },
-      "la-liga": {
-        "xGporJogo": 1.28,
-        "xGSporJogo": 1.28
-      },
-      "bundesliga": {
-        "xGporJogo": 1.53,
-        "xGSporJogo": 1.53
-      },
-      "primeira-liga": {
-        "xGporJogo": 1.23,
-        "xGSporJogo": 1.23
-      },
-      "mls": {
-        "xGporJogo": 1.52,
-        "xGSporJogo": 1.52
-      }
-    },
-    "Santos": {
-      "brasileirao": {
-        "xGporJogo": 1.38,
-        "xGSporJogo": 1.48
-      },
-      "serieb": {
-        "xGporJogo": 1.11,
-        "xGSporJogo": 1.11
-      },
-      "libertadores": {
-        "xGporJogo": 1.18,
-        "xGSporJogo": 1.18
-      },
-      "copa": {
-        "xGporJogo": 0.3,
-        "xGSporJogo": 2.46
-      },
-      "premier-league": {
-        "xGporJogo": 1.43,
-        "xGSporJogo": 1.43
-      },
-      "la-liga": {
-        "xGporJogo": 1.28,
-        "xGSporJogo": 1.28
-      },
-      "bundesliga": {
-        "xGporJogo": 1.53,
-        "xGSporJogo": 1.53
-      },
-      "primeira-liga": {
-        "xGporJogo": 1.23,
-        "xGSporJogo": 1.23
-      },
-      "mls": {
-        "xGporJogo": 1.52,
-        "xGSporJogo": 1.52
-      }
-    },
-    "Estudiantes": {
-      "libertadores": {
-        "xGporJogo": 1.3,
-        "xGSporJogo": 1.01,
-        "escanteiosPorJogo": 5.5,
-        "cartoesPorJogo": 2.6
-      }
-    },
-    "Coritiba": {
-      "brasileirao": {
-        "xGporJogo": 1.25,
-        "xGSporJogo": 1.28
-      },
-      "serieb": {
-        "xGporJogo": 1.11,
-        "xGSporJogo": 1.11
-      },
-      "libertadores": {
-        "xGporJogo": 1.18,
-        "xGSporJogo": 1.18
-      },
-      "copa": {
-        "xGporJogo": 1.07,
-        "xGSporJogo": 1.07
-      },
-      "premier-league": {
-        "xGporJogo": 1.43,
-        "xGSporJogo": 1.43
-      },
-      "la-liga": {
-        "xGporJogo": 1.28,
-        "xGSporJogo": 1.28
-      },
-      "bundesliga": {
-        "xGporJogo": 1.53,
-        "xGSporJogo": 1.53
-      },
-      "primeira-liga": {
-        "xGporJogo": 1.23,
-        "xGSporJogo": 1.23
-      },
-      "mls": {
-        "xGporJogo": 1.52,
-        "xGSporJogo": 1.52
-      }
-    },
-    "LDU-Quito": {
-      "libertadores": {
-        "xGporJogo": 1.35,
-        "xGSporJogo": 1.01,
-        "escanteiosPorJogo": 5.5,
-        "cartoesPorJogo": 2.6
-      }
-    },
-    "Independiente-del-Valle": {
-      "libertadores": {
-        "xGporJogo": 1.4,
-        "xGSporJogo": 1.06,
-        "escanteiosPorJogo": 5.5,
-        "cartoesPorJogo": 2.6
-      }
-    },
-    "Palmeiras": {
-      "desfalques": [
-        {
-          "jogador": "Alex Telles não tem lesão, mas é dúvida ",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "EscalaÃ§Ã£o do Palmeiras",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        }
-      ],
-      "brasileirao": {
-        "xGporJogo": 1.64,
-        "xGSporJogo": 0.94
-      },
-      "serieb": {
-        "xGporJogo": 1.11,
-        "xGSporJogo": 1.11
-      },
-      "libertadores": {
-        "xGporJogo": 1.05,
-        "xGSporJogo": 0.69
-      },
-      "copa": {
-        "xGporJogo": 2.46,
-        "xGSporJogo": 0.3
-      },
-      "premier-league": {
-        "xGporJogo": 1.43,
-        "xGSporJogo": 1.43
-      },
-      "la-liga": {
-        "xGporJogo": 1.28,
-        "xGSporJogo": 1.28
-      },
-      "bundesliga": {
-        "xGporJogo": 1.53,
-        "xGSporJogo": 1.53
-      },
-      "primeira-liga": {
-        "xGporJogo": 1.23,
-        "xGSporJogo": 1.23
-      },
-      "mls": {
-        "xGporJogo": 1.52,
-        "xGSporJogo": 1.52
-      }
-    },
-    "Vitoria": {
-      "desfalques": [
-        {
-          "jogador": "EscalaÃ§Ã£o do VitÃ³ria contra o Vasco",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        }
-      ],
-      "brasileirao": {
-        "xGporJogo": 1.04,
-        "xGSporJogo": 1.4
-      },
-      "serieb": {
-        "xGporJogo": 1.11,
-        "xGSporJogo": 1.11
-      },
-      "libertadores": {
-        "xGporJogo": 1.18,
-        "xGSporJogo": 1.18
-      },
-      "copa": {
-        "xGporJogo": 0.3,
-        "xGSporJogo": 1.02
       },
       "premier-league": {
         "xGporJogo": 1.43,
@@ -861,22 +849,6 @@
     }
   },
   "jogos": {
-    "copa-q-san-pal-vol": {
-      "restMandante": 3,
-      "restVisitante": 3,
-      "games7Mandante": 1,
-      "games7Visitante": 1,
-      "arbitro": null,
-      "cartoesArbitro": null
-    },
-    "copa-q-vit-vas-vol": {
-      "restMandante": 7,
-      "restVisitante": 4,
-      "games7Mandante": 1,
-      "games7Visitante": 1,
-      "arbitro": null,
-      "cartoesArbitro": null
-    },
     "copa-q-gre-int-vol": {
       "restMandante": 4,
       "restVisitante": 4,
@@ -911,7 +883,7 @@
     },
     "br-26-Fluminense-Vasco": {
       "restMandante": 6,
-      "restVisitante": 7,
+      "restVisitante": 3,
       "games7Mandante": 1,
       "games7Visitante": 1,
       "arbitro": null,
@@ -927,7 +899,7 @@
     },
     "br-26-Internacional-Santos": {
       "restMandante": 7,
-      "restVisitante": 7,
+      "restVisitante": 4,
       "games7Mandante": 1,
       "games7Visitante": 1,
       "arbitro": null,
@@ -943,7 +915,7 @@
     },
     "br-26-Botafogo-Palmeiras": {
       "restMandante": 7,
-      "restVisitante": 7,
+      "restVisitante": 4,
       "games7Mandante": 0,
       "games7Visitante": 1,
       "arbitro": null,
@@ -958,7 +930,7 @@
       "cartoesArbitro": null
     },
     "br-26-Vitoria-Gremio": {
-      "restMandante": 12,
+      "restMandante": 5,
       "restVisitante": 8,
       "games7Mandante": 1,
       "games7Visitante": 1,
@@ -974,7 +946,7 @@
       "cartoesArbitro": null
     },
     "lib-2026-09-09-Palmeiras-LDU-Quito": {
-      "restMandante": 10,
+      "restMandante": 7,
       "restVisitante": 20,
       "games7Mandante": 1,
       "games7Visitante": 0,
@@ -1014,7 +986,7 @@
       "cartoesArbitro": null
     },
     "br-27-Santos-Cruzeiro": {
-      "restMandante": 13,
+      "restMandante": 10,
       "restVisitante": 11,
       "games7Mandante": 1,
       "games7Visitante": 1,
@@ -1022,7 +994,7 @@
       "cartoesArbitro": null
     },
     "br-27-Palmeiras-Sao-Paulo": {
-      "restMandante": 14,
+      "restMandante": 11,
       "restVisitante": 21,
       "games7Mandante": 1,
       "games7Visitante": 0,
@@ -1031,7 +1003,7 @@
     },
     "br-27-Mirassol-Vitoria": {
       "restMandante": 14,
-      "restVisitante": 18,
+      "restVisitante": 11,
       "games7Mandante": 0,
       "games7Visitante": 1,
       "arbitro": null,
@@ -1063,7 +1035,7 @@
     },
     "br-27-Gremio-Vasco": {
       "restMandante": 15,
-      "restVisitante": 16,
+      "restVisitante": 12,
       "games7Mandante": 0,
       "games7Visitante": 0,
       "arbitro": null,
@@ -1087,7 +1059,7 @@
     },
     "lib-2026-09-16-LDU-Quito-Palmeiras": {
       "restMandante": 27,
-      "restVisitante": 17,
+      "restVisitante": 14,
       "games7Mandante": 0,
       "games7Visitante": 1,
       "arbitro": null,
@@ -1118,7 +1090,7 @@
       "cartoesArbitro": null
     },
     "br-28-Vasco-Coritiba": {
-      "restMandante": 21,
+      "restMandante": 17,
       "restVisitante": 19,
       "games7Mandante": 1,
       "games7Visitante": 1,
@@ -1158,7 +1130,7 @@
       "cartoesArbitro": null
     },
     "br-28-Vitoria-Cruzeiro": {
-      "restMandante": 26,
+      "restMandante": 19,
       "restVisitante": 20,
       "games7Mandante": 0,
       "games7Visitante": 0,
@@ -1167,7 +1139,7 @@
     },
     "br-28-Remo-Santos": {
       "restMandante": 21,
-      "restVisitante": 22,
+      "restVisitante": 19,
       "games7Mandante": 0,
       "games7Visitante": 0,
       "arbitro": null,
@@ -1175,7 +1147,7 @@
     },
     "br-28-Gremio-Palmeiras": {
       "restMandante": 22,
-      "restVisitante": 22,
+      "restVisitante": 19,
       "games7Mandante": 0,
       "games7Visitante": 1,
       "arbitro": null,
@@ -1191,7 +1163,7 @@
     },
     "br-29-Botafogo-Vasco": {
       "restMandante": 38,
-      "restVisitante": 39,
+      "restVisitante": 35,
       "games7Mandante": 0,
       "games7Visitante": 0,
       "arbitro": null,
@@ -1206,7 +1178,7 @@
       "cartoesArbitro": null
     },
     "br-29-Palmeiras-Bahia": {
-      "restMandante": 38,
+      "restMandante": 35,
       "restVisitante": 38,
       "games7Mandante": 0,
       "games7Visitante": 0,
@@ -1214,7 +1186,7 @@
       "cartoesArbitro": null
     },
     "br-29-Santos-Flamengo": {
-      "restMandante": 38,
+      "restMandante": 35,
       "restVisitante": 38,
       "games7Mandante": 0,
       "games7Visitante": 0,
@@ -1230,7 +1202,7 @@
       "cartoesArbitro": null
     },
     "br-29-Vitoria-Chapecoense": {
-      "restMandante": 43,
+      "restMandante": 36,
       "restVisitante": 39,
       "games7Mandante": 0,
       "games7Visitante": 0,
@@ -1278,7 +1250,7 @@
       "cartoesArbitro": null
     },
     "br-30-Vasco-Remo": {
-      "restMandante": 42,
+      "restMandante": 38,
       "restVisitante": 40,
       "games7Mandante": 1,
       "games7Visitante": 1,
@@ -1287,14 +1259,14 @@
     },
     "br-30-Sao-Paulo-Vitoria": {
       "restMandante": 48,
-      "restVisitante": 45,
+      "restVisitante": 38,
       "games7Mandante": 1,
       "games7Visitante": 1,
       "arbitro": null,
       "cartoesArbitro": null
     },
     "br-30-Palmeiras-Corinthians": {
-      "restMandante": 42,
+      "restMandante": 39,
       "restVisitante": 42,
       "games7Mandante": 1,
       "games7Visitante": 1,
@@ -1311,7 +1283,7 @@
     },
     "br-30-Atletico-MG-Santos": {
       "restMandante": 40,
-      "restVisitante": 42,
+      "restVisitante": 39,
       "games7Mandante": 1,
       "games7Visitante": 1,
       "arbitro": null,
@@ -1359,7 +1331,7 @@
     },
     "br-31-Fluminense-Santos": {
       "restMandante": 48,
-      "restVisitante": 48,
+      "restVisitante": 45,
       "games7Mandante": 0,
       "games7Visitante": 1,
       "arbitro": null,
@@ -1367,7 +1339,7 @@
     },
     "br-31-Sao-Paulo-Vasco": {
       "restMandante": 55,
-      "restVisitante": 49,
+      "restVisitante": 45,
       "games7Mandante": 0,
       "games7Visitante": 0,
       "arbitro": null,
@@ -1375,7 +1347,7 @@
     },
     "br-31-Corinthians-Vitoria": {
       "restMandante": 49,
-      "restVisitante": 53,
+      "restVisitante": 46,
       "games7Mandante": 0,
       "games7Visitante": 0,
       "arbitro": null,
@@ -1423,7 +1395,7 @@
     },
     "br-31-Athletico-PR-Palmeiras": {
       "restMandante": 50,
-      "restVisitante": 50,
+      "restVisitante": 47,
       "games7Mandante": 0,
       "games7Visitante": 0,
       "arbitro": null,
@@ -1438,7 +1410,7 @@
       "cartoesArbitro": null
     },
     "br-32-Vasco-Corinthians": {
-      "restMandante": 56,
+      "restMandante": 52,
       "restVisitante": 55,
       "games7Mandante": 0,
       "games7Visitante": 1,
@@ -1446,7 +1418,7 @@
       "cartoesArbitro": null
     },
     "br-32-Santos-Bahia": {
-      "restMandante": 55,
+      "restMandante": 52,
       "restVisitante": 55,
       "games7Mandante": 0,
       "games7Visitante": 1,
@@ -1454,7 +1426,7 @@
       "cartoesArbitro": null
     },
     "br-32-Palmeiras-Bragantino": {
-      "restMandante": 56,
+      "restMandante": 53,
       "restVisitante": 63,
       "games7Mandante": 1,
       "games7Visitante": 1,
@@ -1478,7 +1450,7 @@
       "cartoesArbitro": null
     },
     "br-32-Vitoria-Athletico-PR": {
-      "restMandante": 61,
+      "restMandante": 54,
       "restVisitante": 57,
       "games7Mandante": 0,
       "games7Visitante": 0,
@@ -1518,7 +1490,7 @@
       "cartoesArbitro": null
     },
     "br-33-Vasco-Flamengo": {
-      "restMandante": 60,
+      "restMandante": 56,
       "restVisitante": 59,
       "games7Mandante": 1,
       "games7Visitante": 1,
@@ -1534,8 +1506,8 @@
       "cartoesArbitro": null
     },
     "br-33-Santos-Palmeiras": {
-      "restMandante": 59,
-      "restVisitante": 59,
+      "restMandante": 56,
+      "restVisitante": 56,
       "games7Mandante": 1,
       "games7Visitante": 1,
       "arbitro": null,
@@ -1583,7 +1555,7 @@
     },
     "br-33-Coritiba-Vitoria": {
       "restMandante": 59,
-      "restVisitante": 64,
+      "restVisitante": 57,
       "games7Mandante": 1,
       "games7Visitante": 1,
       "arbitro": null,
@@ -1606,7 +1578,7 @@
       "cartoesArbitro": null
     },
     "br-34-Palmeiras-Remo": {
-      "restMandante": 66,
+      "restMandante": 63,
       "restVisitante": 65,
       "games7Mandante": 0,
       "games7Visitante": 1,
@@ -1623,14 +1595,14 @@
     },
     "br-34-Bragantino-Santos": {
       "restMandante": 73,
-      "restVisitante": 66,
+      "restVisitante": 63,
       "games7Mandante": 0,
       "games7Visitante": 0,
       "arbitro": null,
       "cartoesArbitro": null
     },
     "br-34-Vitoria-Fluminense": {
-      "restMandante": 71,
+      "restMandante": 64,
       "restVisitante": 67,
       "games7Mandante": 0,
       "games7Visitante": 0,
@@ -1663,7 +1635,7 @@
     },
     "br-34-Athletico-PR-Vasco": {
       "restMandante": 67,
-      "restVisitante": 68,
+      "restVisitante": 64,
       "games7Mandante": 0,
       "games7Visitante": 0,
       "arbitro": null,
@@ -1678,7 +1650,7 @@
       "cartoesArbitro": null
     },
     "br-35-Vasco-Internacional": {
-      "restMandante": 81,
+      "restMandante": 77,
       "restVisitante": 80,
       "games7Mandante": 0,
       "games7Visitante": 0,
@@ -1710,7 +1682,7 @@
       "cartoesArbitro": null
     },
     "br-35-Vitoria-Bragantino": {
-      "restMandante": 85,
+      "restMandante": 78,
       "restVisitante": 88,
       "games7Mandante": 0,
       "games7Visitante": 0,
@@ -1727,7 +1699,7 @@
     },
     "br-35-Cruzeiro-Palmeiras": {
       "restMandante": 79,
-      "restVisitante": 81,
+      "restVisitante": 78,
       "games7Mandante": 0,
       "games7Visitante": 0,
       "arbitro": null,
@@ -1743,7 +1715,7 @@
     },
     "br-35-Coritiba-Santos": {
       "restMandante": 80,
-      "restVisitante": 81,
+      "restVisitante": 78,
       "games7Mandante": 0,
       "games7Visitante": 0,
       "arbitro": null,
@@ -1766,7 +1738,7 @@
       "cartoesArbitro": null
     },
     "br-36-Santos-Gremio": {
-      "restMandante": 83,
+      "restMandante": 80,
       "restVisitante": 83,
       "games7Mandante": 1,
       "games7Visitante": 1,
@@ -1774,7 +1746,7 @@
       "cartoesArbitro": null
     },
     "br-36-Palmeiras-Flamengo": {
-      "restMandante": 84,
+      "restMandante": 81,
       "restVisitante": 84,
       "games7Mandante": 1,
       "games7Visitante": 1,
@@ -1783,7 +1755,7 @@
     },
     "br-36-Bragantino-Vasco": {
       "restMandante": 91,
-      "restVisitante": 85,
+      "restVisitante": 81,
       "games7Mandante": 1,
       "games7Visitante": 1,
       "arbitro": null,
@@ -1815,7 +1787,7 @@
     },
     "br-36-Internacional-Vitoria": {
       "restMandante": 85,
-      "restVisitante": 89,
+      "restVisitante": 82,
       "games7Mandante": 1,
       "games7Visitante": 1,
       "arbitro": null,
@@ -1870,8 +1842,8 @@
       "cartoesArbitro": null
     },
     "br-37-Vitoria-Santos": {
-      "restMandante": 95,
-      "restVisitante": 91,
+      "restMandante": 88,
+      "restVisitante": 88,
       "games7Mandante": 1,
       "games7Visitante": 0,
       "arbitro": null,
@@ -1879,7 +1851,7 @@
     },
     "br-37-Chapecoense-Palmeiras": {
       "restMandante": 91,
-      "restVisitante": 91,
+      "restVisitante": 88,
       "games7Mandante": 1,
       "games7Visitante": 0,
       "arbitro": null,
@@ -1887,7 +1859,7 @@
     },
     "br-37-Atletico-MG-Vasco": {
       "restMandante": 89,
-      "restVisitante": 92,
+      "restVisitante": 88,
       "games7Mandante": 0,
       "games7Visitante": 0,
       "arbitro": null,
@@ -1934,15 +1906,15 @@
       "cartoesArbitro": null
     },
     "br-38-Vasco-Vitoria": {
-      "restMandante": 95,
-      "restVisitante": 98,
+      "restMandante": 91,
+      "restVisitante": 91,
       "games7Mandante": 1,
       "games7Visitante": 1,
       "arbitro": null,
       "cartoesArbitro": null
     },
     "br-38-Palmeiras-Coritiba": {
-      "restMandante": 94,
+      "restMandante": 91,
       "restVisitante": 93,
       "games7Mandante": 1,
       "games7Visitante": 1,
@@ -1950,7 +1922,7 @@
       "cartoesArbitro": null
     },
     "br-38-Santos-Botafogo": {
-      "restMandante": 94,
+      "restMandante": 91,
       "restVisitante": 94,
       "games7Mandante": 1,
       "games7Visitante": 1,

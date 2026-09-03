@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-02T21:58:49-03:00",
+    "atualizadoEm": "2026-09-03T02:38:56-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 388,
+    "jogosFinalizados": 390,
     "timesAtualizados": 144,
-    "placaresFonte": "calendário + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -237,11 +237,6 @@
           "jogador": "Alex Telles não tem lesão, mas é dúvida ",
           "motivo": "notícia GE",
           "impacto": "medio"
-        },
-        {
-          "jogador": "EscalaÃ§Ã£o do Palmeiras",
-          "motivo": "notícia GE",
-          "impacto": "medio"
         }
       ],
       "retornando": [
@@ -297,21 +292,27 @@
         }
       },
       "copa": {
-        "xGporJogo": 2.46,
+        "xGporJogo": 1.38,
         "xGSporJogo": 0.3,
-        "jogos": 1,
-        "golsPorJogo": 3.0,
+        "jogos": 2,
+        "golsPorJogo": 1.5,
         "golsSofridosPorJogo": 0.0,
-        "over25Pct": 100,
+        "over25Pct": 50,
         "bttsPct": 0,
         "cleanSheetPct": 100,
         "ultimos5": [
-          "V 3-0 SAN"
+          "V 3-0 SAN",
+          "E 0-0"
         ],
-        "sequencia": "1V",
+        "sequencia": "1E",
         "casa": {
           "j": 1,
           "gpg": 3.0,
+          "gsg": 0.0
+        },
+        "fora": {
+          "j": 1,
+          "gpg": 0.0,
           "gsg": 0.0
         }
       },
@@ -1241,7 +1242,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Treino do Corinthians",
+          "jogador": "Treino",
           "motivo": "notícia GE",
           "impacto": "alto"
         }
@@ -1486,21 +1487,27 @@
       },
       "copa": {
         "xGporJogo": 0.3,
-        "xGSporJogo": 1.02,
-        "jogos": 1,
+        "xGSporJogo": 1.38,
+        "jogos": 2,
         "golsPorJogo": 0.0,
-        "golsSofridosPorJogo": 1.0,
+        "golsSofridosPorJogo": 1.5,
         "over25Pct": 0,
         "bttsPct": 0,
         "cleanSheetPct": 0,
         "ultimos5": [
-          "D 0-1"
+          "D 0-1",
+          "D 0-2 VAS"
         ],
-        "sequencia": "1D",
+        "sequencia": "2D",
         "fora": {
           "j": 1,
           "gpg": 0.0,
           "gsg": 1.0
+        },
+        "casa": {
+          "j": 1,
+          "gpg": 0.0,
+          "gsg": 2.0
         }
       },
       "premier-league": {
@@ -1655,9 +1662,9 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Palmeiras",
+          "jogador": "Cuca lamenta lesão de Neymar na eliminaç",
           "motivo": "notícia GE",
-          "impacto": "medio"
+          "impacto": "alto"
         }
       ],
       "retornando": [
@@ -1693,21 +1700,27 @@
       },
       "copa": {
         "xGporJogo": 0.3,
-        "xGSporJogo": 2.46,
-        "jogos": 1,
+        "xGSporJogo": 1.38,
+        "jogos": 2,
         "golsPorJogo": 0.0,
-        "golsSofridosPorJogo": 3.0,
-        "over25Pct": 100,
+        "golsSofridosPorJogo": 1.5,
+        "over25Pct": 50,
         "bttsPct": 0,
-        "cleanSheetPct": 0,
+        "cleanSheetPct": 50,
         "ultimos5": [
-          "D 0-3"
+          "D 0-3",
+          "E 0-0 PAL"
         ],
-        "sequencia": "1D",
+        "sequencia": "1E",
         "fora": {
           "j": 1,
           "gpg": 0.0,
           "gsg": 3.0
+        },
+        "casa": {
+          "j": 1,
+          "gpg": 0.0,
+          "gsg": 0.0
         }
       },
       "premier-league": {
@@ -2225,21 +2238,27 @@
         "xGSporJogo": 1.18
       },
       "copa": {
-        "xGporJogo": 1.02,
+        "xGporJogo": 1.38,
         "xGSporJogo": 0.3,
-        "jogos": 1,
-        "golsPorJogo": 1.0,
+        "jogos": 2,
+        "golsPorJogo": 1.5,
         "golsSofridosPorJogo": 0.0,
         "over25Pct": 0,
         "bttsPct": 0,
         "cleanSheetPct": 100,
         "ultimos5": [
-          "V 1-0 VIT"
+          "V 1-0 VIT",
+          "V 2-0"
         ],
-        "sequencia": "1V",
+        "sequencia": "2V",
         "casa": {
           "j": 1,
           "gpg": 1.0,
+          "gsg": 0.0
+        },
+        "fora": {
+          "j": 1,
+          "gpg": 2.0,
           "gsg": 0.0
         }
       },

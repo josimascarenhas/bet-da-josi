@@ -1,10 +1,26 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-02T21:58:46.568806-03:00",
+    "atualizadoEm": "2026-09-03T02:38:33.148197-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "copa-q-san-pal-vol",
+      "data": "2026-09-02",
+      "comp": "copa",
+      "mandante": "Santos",
+      "visitante": "Palmeiras",
+      "placar": "0-0"
+    },
+    {
+      "id": "copa-q-vit-vas-vol",
+      "data": "2026-09-02",
+      "comp": "copa",
+      "mandante": "Vitoria",
+      "visitante": "Vasco",
+      "placar": "0-2"
+    },
     {
       "id": "copa-q-cam-cru-vol",
       "data": "2026-09-01",
@@ -228,22 +244,6 @@
       "mandante": "Mainz",
       "visitante": "SC-Paderborn",
       "placar": "0-0"
-    },
-    {
-      "id": "eu-bundesliga-2026-08-29-RB-Leipzig-Borussia-Mgladbach",
-      "data": "2026-08-29",
-      "comp": "bundesliga",
-      "mandante": "RB-Leipzig",
-      "visitante": "Borussia-Mgladbach",
-      "placar": "3-0"
-    },
-    {
-      "id": "eu-bundesliga-2026-08-29-SV-Elversberg-Bayer-Leverkusen",
-      "data": "2026-08-29",
-      "comp": "bundesliga",
-      "mandante": "SV-Elversberg",
-      "visitante": "Bayer-Leverkusen",
-      "placar": "3-2"
     }
   ]
 }
