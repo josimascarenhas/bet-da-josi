@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-03T11:54:05.866079-03:00",
+    "atualizadoEm": "2026-09-03T15:23:04.027565-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
@@ -70,6 +70,30 @@
       "placar": "2-3"
     },
     {
+      "id": "eu-premier-league-2026-08-30-Chelsea-Brighton",
+      "data": "2026-08-30",
+      "comp": "premier-league",
+      "mandante": "Chelsea",
+      "visitante": "Brighton",
+      "placar": "4-3"
+    },
+    {
+      "id": "eu-premier-league-2026-08-30-Leeds-United-Brentford",
+      "data": "2026-08-30",
+      "comp": "premier-league",
+      "mandante": "Leeds-United",
+      "visitante": "Brentford",
+      "placar": "1-1"
+    },
+    {
+      "id": "eu-premier-league-2026-08-30-Sunderland-Fulham",
+      "data": "2026-08-30",
+      "comp": "premier-league",
+      "mandante": "Sunderland",
+      "visitante": "Fulham",
+      "placar": "1-0"
+    },
+    {
       "id": "br-25-Athletico-PR-Fluminense",
       "data": "2026-08-30",
       "comp": "brasileirao",
@@ -78,12 +102,36 @@
       "placar": "3-3"
     },
     {
+      "id": "eu-la-liga-2026-08-30-Real-Madrid-Malaga",
+      "data": "2026-08-30",
+      "comp": "la-liga",
+      "mandante": "Real-Madrid",
+      "visitante": "Malaga",
+      "placar": "4-0"
+    },
+    {
       "id": "eu-bundesliga-2026-08-30-Augsburg-Schalke-04",
       "data": "2026-08-30",
       "comp": "bundesliga",
       "mandante": "Augsburg",
       "visitante": "Schalke-04",
       "placar": "3-0"
+    },
+    {
+      "id": "eu-primeira-liga-2026-08-30-Casa-Pia-Moreirense",
+      "data": "2026-08-30",
+      "comp": "primeira-liga",
+      "mandante": "Casa-Pia",
+      "visitante": "Moreirense",
+      "placar": "0-1"
+    },
+    {
+      "id": "eu-la-liga-2026-08-30-Deportivo-Valencia",
+      "data": "2026-08-30",
+      "comp": "la-liga",
+      "mandante": "Deportivo",
+      "visitante": "Valencia",
+      "placar": "3-1"
     },
     {
       "id": "br-25-Corinthians-Santos",
@@ -102,6 +150,30 @@
       "placar": "3-0"
     },
     {
+      "id": "eu-la-liga-2026-08-30-Celta-Athletic",
+      "data": "2026-08-30",
+      "comp": "la-liga",
+      "mandante": "Celta",
+      "visitante": "Athletic",
+      "placar": "0-2"
+    },
+    {
+      "id": "eu-primeira-liga-2026-08-30-Famalicao-Gil-Vicente",
+      "data": "2026-08-30",
+      "comp": "primeira-liga",
+      "mandante": "Famalicao",
+      "visitante": "Gil-Vicente",
+      "placar": "0-0"
+    },
+    {
+      "id": "s2-2026-08-30-CRB-Criciuma",
+      "data": "2026-08-30",
+      "comp": "serieb",
+      "mandante": "CRB",
+      "visitante": "Criciuma",
+      "placar": "2-1"
+    },
+    {
       "id": "br-25-Gremio-Chapecoense",
       "data": "2026-08-30",
       "comp": "brasileirao",
@@ -118,12 +190,36 @@
       "placar": "1-1"
     },
     {
+      "id": "s2-2026-08-30-Vila-Nova-Ceara",
+      "data": "2026-08-30",
+      "comp": "serieb",
+      "mandante": "Vila-Nova",
+      "visitante": "Ceara",
+      "placar": "2-0"
+    },
+    {
       "id": "br-25-Bahia-Internacional",
       "data": "2026-08-30",
       "comp": "brasileirao",
       "mandante": "Bahia",
       "visitante": "Internacional",
       "placar": "3-2"
+    },
+    {
+      "id": "us-mls-2026-08-30-FC-Dallas-St-Louis-City",
+      "data": "2026-08-30",
+      "comp": "mls",
+      "mandante": "FC-Dallas",
+      "visitante": "St-Louis-City",
+      "placar": "3-3"
+    },
+    {
+      "id": "us-mls-2026-08-30-New-England-Revolution-Columbus-Crew",
+      "data": "2026-08-30",
+      "comp": "mls",
+      "mandante": "New-England-Revolution",
+      "visitante": "Columbus-Crew",
+      "placar": "3-1"
     },
     {
       "id": "eu-premier-league-2026-08-29-Liverpool-Nottingham-Forest",
@@ -148,102 +244,6 @@
       "mandante": "Mainz",
       "visitante": "SC-Paderborn",
       "placar": "0-0"
-    },
-    {
-      "id": "eu-bundesliga-2026-08-29-RB-Leipzig-Borussia-Mgladbach",
-      "data": "2026-08-29",
-      "comp": "bundesliga",
-      "mandante": "RB-Leipzig",
-      "visitante": "Borussia-Mgladbach",
-      "placar": "3-0"
-    },
-    {
-      "id": "eu-bundesliga-2026-08-29-SV-Elversberg-Bayer-Leverkusen",
-      "data": "2026-08-29",
-      "comp": "bundesliga",
-      "mandante": "SV-Elversberg",
-      "visitante": "Bayer-Leverkusen",
-      "placar": "3-2"
-    },
-    {
-      "id": "eu-bundesliga-2026-08-29-Union-Berlin-Eintracht-Frankfurt",
-      "data": "2026-08-29",
-      "comp": "bundesliga",
-      "mandante": "Union-Berlin",
-      "visitante": "Eintracht-Frankfurt",
-      "placar": "3-3"
-    },
-    {
-      "id": "eu-premier-league-2026-08-29-Bournemouth-Everton",
-      "data": "2026-08-29",
-      "comp": "premier-league",
-      "mandante": "Bournemouth",
-      "visitante": "Everton",
-      "placar": "1-1"
-    },
-    {
-      "id": "eu-primeira-liga-2026-08-29-Alverca-Santa-Clara",
-      "data": "2026-08-29",
-      "comp": "primeira-liga",
-      "mandante": "Alverca",
-      "visitante": "Santa-Clara",
-      "placar": "1-1"
-    },
-    {
-      "id": "eu-primeira-liga-2026-08-29-Arouca-Maritimo",
-      "data": "2026-08-29",
-      "comp": "primeira-liga",
-      "mandante": "Arouca",
-      "visitante": "Maritimo",
-      "placar": "2-1"
-    },
-    {
-      "id": "eu-la-liga-2026-08-29-Levante-Real-Betis",
-      "data": "2026-08-29",
-      "comp": "la-liga",
-      "mandante": "Levante",
-      "visitante": "Real-Betis",
-      "placar": "5-2"
-    },
-    {
-      "id": "eu-bundesliga-2026-08-29-Borussia-Dortmund-Hamburger-SV",
-      "data": "2026-08-29",
-      "comp": "bundesliga",
-      "mandante": "Borussia-Dortmund",
-      "visitante": "Hamburger-SV",
-      "placar": "2-0"
-    },
-    {
-      "id": "eu-premier-league-2026-08-29-Tottenham-Newcastle-United",
-      "data": "2026-08-29",
-      "comp": "premier-league",
-      "mandante": "Tottenham",
-      "visitante": "Newcastle-United",
-      "placar": "0-2"
-    },
-    {
-      "id": "eu-la-liga-2026-08-29-Real-Sociedad-Espanyol",
-      "data": "2026-08-29",
-      "comp": "la-liga",
-      "mandante": "Real-Sociedad",
-      "visitante": "Espanyol",
-      "placar": "2-1"
-    },
-    {
-      "id": "us-mls-2026-08-29-Seattle-Sounders-Chicago-Fire",
-      "data": "2026-08-29",
-      "comp": "mls",
-      "mandante": "Seattle-Sounders",
-      "visitante": "Chicago-Fire",
-      "placar": "2-2"
-    },
-    {
-      "id": "s2-2026-08-29-Botafogo-SP-Cuiaba",
-      "data": "2026-08-29",
-      "comp": "serieb",
-      "mandante": "Botafogo-SP",
-      "visitante": "Cuiaba",
-      "placar": "1-2"
     }
   ]
 }
