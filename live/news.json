@@ -1,174 +1,190 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-03T21:13:49.043769+00:00",
+    "atualizadoEm": "2026-09-03T23:26:24.403138+00:00",
     "fonte": "ge.globo.com",
     "fonteUrl": "https://ge.globo.com/"
   },
   "futebol": {
     "geral": [
       {
+        "titulo": "Náutico x Botafogo-SP - Campeonato Brasileiro Série B 2026 - Ao vivo - globoesporte.com",
+        "resumo": "",
+        "url": "https://ge.globo.com/pe/futebol/brasileirao-serie-b/jogo/03-09-2026/nautico-botafogo-sp.ghtml",
+        "imagem": "",
+        "data": "2026-09-03T23:16:55+00:00",
+        "dataFmt": "03/09/2026 23:16"
+      },
+      {
         "titulo": "Grêmio x Internacional - Copa do Brasil 2026 - Ao vivo - globoesporte.com",
         "resumo": "",
         "url": "https://ge.globo.com/rs/futebol/copa-do-brasil/jogo/03-09-2026/gremio-internacional.ghtml",
         "imagem": "",
-        "data": "2026-09-03T21:06:14+00:00",
-        "dataFmt": "03/09/2026 21:06"
+        "data": "2026-09-03T23:16:40+00:00",
+        "dataFmt": "03/09/2026 23:16"
       },
       {
-        "titulo": "Marcinho confirma ter time titular do River-PI e cita pressão antes da estreia: \"Não consigo dormir\"",
+        "titulo": "CSA x Nacional-AM - Campeonato Brasileiro Série D 2026 - Ao vivo - globoesporte.com",
         "resumo": "",
-        "url": "https://ge.globo.com/pi/futebol/times/river-pi/noticia/2026/09/03/marcinho-confirma-ter-time-titular-do-river-pi-e-cita-pressao-antes-da-estreia-nao-consigo-dormir.ghtml",
+        "url": "https://ge.globo.com/al/futebol/brasileirao-serie-d/jogo/03-09-2026/csa-al-nacional.ghtml",
         "imagem": "",
-        "data": "2026-09-03T21:02:42+00:00",
-        "dataFmt": "03/09/2026 21:02"
+        "data": "2026-09-03T23:16:34+00:00",
+        "dataFmt": "03/09/2026 23:16"
       },
       {
-        "titulo": "Palmeiras relata hostilização de organizada do Santos e seguranças impedidos de acessar o campo",
+        "titulo": "Cuiabano ex-Fluminense retorna aos Estados Unidos para defender o Los Angeles Galaxy",
         "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/03/palmeiras-relata-hostilizacao-de-organizada-do-santos-e-segurancas-impedidos-de-acessar-o-campo.ghtml",
+        "url": "https://ge.globo.com/mt/futebol/noticia/2026/09/03/cuiabano-ex-fluminense-retorna-aos-estados-unidos-para-defender-o-los-angeles-galaxy.ghtml",
         "imagem": "",
-        "data": "2026-09-03T20:59:55+00:00",
-        "dataFmt": "03/09/2026 20:59"
+        "data": "2026-09-03T23:15:54+00:00",
+        "dataFmt": "03/09/2026 23:15"
       },
       {
-        "titulo": "Coritiba x Mirassol - Campeonato Brasileiro 2026 - globoesporte.com",
+        "titulo": "Saúl volta a atuar pelo Flamengo depois de 95 dias e amplia opções de Jardim em momento decisivo",
         "resumo": "",
-        "url": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/06-09-2026/coritiba-mirassol.ghtml",
+        "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/03/saul-volta-a-atuar-pelo-flamengo-depois-de-95-dias-e-amplia-opcoes-de-jardim-em-momento-decisivo.ghtml",
         "imagem": "",
-        "data": "2026-09-03T20:53:10+00:00",
-        "dataFmt": "03/09/2026 20:53"
+        "data": "2026-09-03T23:09:51+00:00",
+        "dataFmt": "03/09/2026 23:09"
       },
       {
-        "titulo": "Tetra invicto, mais de 5 gols por jogo e artilheiro do vice-campeão: os números do Acreano Sub-13",
+        "titulo": "Vontade de Gabriel Pereira é determinante, e Vasco avança na contratação do zagueiro",
         "resumo": "",
-        "url": "https://ge.globo.com/ac/futebol/campeonato-acreano/noticia/2026/09/03/tetra-invicto-mais-de-5-gols-por-jogo-e-artilheiro-do-vice-campeao-os-numeros-do-acreano-sub-13.ghtml",
+        "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/03/vontade-de-gabriel-pereira-e-determinante-e-vasco-avanca-na-contratacao-do-zagueiro.ghtml",
         "imagem": "",
-        "data": "2026-09-03T20:47:00+00:00",
-        "dataFmt": "03/09/2026 20:47"
+        "data": "2026-09-03T23:09:17+00:00",
+        "dataFmt": "03/09/2026 23:09"
       },
       {
-        "titulo": "Justiça reconhece rescisão indireta de Lucas Braga com o Vitória, mas nega indenização ao jogador",
+        "titulo": "Prazo de inscrições para as quartas da Libertadores termina nesta sexta; veja a lista final do Fluminense",
         "resumo": "",
-        "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/09/03/justica-reconhece-rescisao-indireta-de-lucas-braga-com-o-vitoria-mas-nega-indenizacao-ao-jogador.ghtml",
+        "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/03/prazo-de-inscricoes-para-as-quartas-da-libertadores-termina-nesta-sexta-veja-a-lista-do-fluminense.ghtml",
         "imagem": "",
-        "data": "2026-09-03T20:45:15+00:00",
-        "dataFmt": "03/09/2026 20:45"
+        "data": "2026-09-03T22:48:56+00:00",
+        "dataFmt": "03/09/2026 22:48"
       },
       {
-        "titulo": "Victor Sá treina sem restrições e deve reforçar o São Paulo contra o Atlético-MG",
+        "titulo": "Conmebol decide árbitro de Estudiantes x Corinthians pelas quartas da Libertadores",
         "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/03/victor-sa-treina-sem-restricoes-e-deve-reforcar-o-sao-paulo-contra-o-atletico-mg.ghtml",
+        "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/03/conmebol-decide-arbitro-de-estudiantes-x-corinthians-pelas-quartas-da-libertadores.ghtml",
         "imagem": "",
-        "data": "2026-09-03T20:44:47+00:00",
-        "dataFmt": "03/09/2026 20:44"
+        "data": "2026-09-03T22:39:10+00:00",
+        "dataFmt": "03/09/2026 22:39"
       },
       {
-        "titulo": "Valendo vaga na Copinha, Série A2 do Campeonato Sergipano Sub-20 começa nesta sexta",
+        "titulo": "Governo e Consórcio Fla-Flu preparam reforma de R$ 2,5 milhões em tribuna do Maracanã para a Copa de 2027",
         "resumo": "",
-        "url": "https://ge.globo.com/se/futebol/noticia/2026/09/03/valendo-vaga-na-copinha-serie-a2-do-campeonato-sergipano-sub-20-comeca-nesta-sexta.ghtml",
+        "url": "https://ge.globo.com/futebol/copa-do-mundo-feminina/noticia/2026/09/03/governo-e-consorcio-fla-flu-preparam-reforma-de-r-25-milhoes-em-tribuna-do-maracana-para-a-copa-de-2027.ghtml",
         "imagem": "",
-        "data": "2026-09-03T20:42:11+00:00",
-        "dataFmt": "03/09/2026 20:42"
+        "data": "2026-09-03T22:36:30+00:00",
+        "dataFmt": "03/09/2026 22:36"
       },
       {
-        "titulo": "Goleiro do Guarani desabafa após eliminação na Série C e rebate acusações",
+        "titulo": "João Paulo Lourenço assume comando do Andirá para reta final da Série B do Acreano",
         "resumo": "",
-        "url": "https://ge.globo.com/sp/campinas-e-regiao/futebol/times/guarani/noticia/2026/09/03/goleiro-do-guarani-desabafa-apos-eliminacao-na-serie-c-e-rebate-acusacoes.ghtml",
+        "url": "https://ge.globo.com/ac/futebol/times/andira/noticia/2026/09/03/joao-paulo-lourenco-assume-comando-do-andira-para-reta-final-da-serie-b-do-acreano.ghtml",
         "imagem": "",
-        "data": "2026-09-03T20:40:48+00:00",
-        "dataFmt": "03/09/2026 20:40"
+        "data": "2026-09-03T22:32:00+00:00",
+        "dataFmt": "03/09/2026 22:32"
       },
       {
-        "titulo": "Criciúma tem mês decisivo na Série B: \"O acesso passa por setembro\"",
+        "titulo": "Chapecoense renova contrato com o centroavante Túlio Eduardo",
         "resumo": "",
-        "url": "https://ge.globo.com/sc/futebol/times/criciuma/noticia/2026/09/03/criciuma-tem-mes-decisivo-na-serie-b-o-acesso-passa-por-setembro.ghtml",
+        "url": "https://ge.globo.com/sc/futebol/times/chapecoense/noticia/2026/09/03/chapecoense-renova-contrato-com-o-centroavante-tulio-eduardo.ghtml",
         "imagem": "",
-        "data": "2026-09-03T20:26:42+00:00",
-        "dataFmt": "03/09/2026 20:26"
+        "data": "2026-09-03T22:21:50+00:00",
+        "dataFmt": "03/09/2026 22:21"
       },
       {
-        "titulo": "No estádio do Rei, o Leão quer reinar: Nacional-AM busca acesso inédito na Série D contra o CSA",
+        "titulo": "Bahia acerta empréstimo de Lautaro López, volante argentino de 21 anos",
         "resumo": "",
-        "url": "https://ge.globo.com/am/futebol/times/nacional-am/noticia/2026/09/03/no-estadio-do-rei-o-leao-quer-reinar-nacional-am-busca-acesso-inedito-na-serie-d-contra-o-csa.ghtml",
+        "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/09/03/bahia-acerta-emprestimo-de-laurato-lopez-volante-argentino-de-21-anos.ghtml",
         "imagem": "",
-        "data": "2026-09-03T20:25:20+00:00",
-        "dataFmt": "03/09/2026 20:25"
+        "data": "2026-09-03T22:09:10+00:00",
+        "dataFmt": "03/09/2026 22:09"
       },
       {
-        "titulo": "Campeão da Libertadores pelo Fluminense faz gol em final europeia e dá primeiro título ao clube",
+        "titulo": "À Justiça dos EUA, Fifa acusa Uefa de promover \"campanha de difamação\" com ações",
         "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/03/campeao-da-libertadores-pelo-fluminense-faz-gol-em-final-europeia-e-da-primeiro-titulo-ao-clube.ghtml",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/03/a-justica-dos-eua-fifa-acusa-uefa-de-promover-campanha-de-difamacao-com-acoes.ghtml",
         "imagem": "",
-        "data": "2026-09-03T20:20:24+00:00",
-        "dataFmt": "03/09/2026 20:20"
+        "data": "2026-09-03T22:01:57+00:00",
+        "dataFmt": "03/09/2026 22:01"
       },
       {
-        "titulo": "Eduardo Barros completa 100 jogos como técnico contra o Criciúma",
+        "titulo": "Vitória empresta atacante da base a clube turco",
         "resumo": "",
-        "url": "https://ge.globo.com/mt/futebol/times/cuiaba/noticia/2026/09/03/eduardo-barros-completa-100-jogos-como-tecnico-contra-o-criciuma.ghtml",
+        "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/09/03/vitoria-empresta-atacante-da-base-a-clube-turco.ghtml",
         "imagem": "",
-        "data": "2026-09-03T20:19:09+00:00",
-        "dataFmt": "03/09/2026 20:19"
+        "data": "2026-09-03T21:59:38+00:00",
+        "dataFmt": "03/09/2026 21:59"
       },
       {
-        "titulo": "Wladimir Mattos lança candidatura à presidência do Santos",
+        "titulo": "Santa Cruz oficializa retorno de Willian Júnior e amplia reforços para quadrangular do acesso",
         "resumo": "",
-        "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/03/wladimir-mattos-lanca-candidatura-a-presidencia-do-santos.ghtml",
+        "url": "https://ge.globo.com/pe/futebol/times/santa-cruz/noticia/2026/09/03/santa-cruz-oficializa-retorno-de-willian-junior-e-amplia-reforcos-para-quadrangular-do-acesso.ghtml",
         "imagem": "",
-        "data": "2026-09-03T20:16:24+00:00",
-        "dataFmt": "03/09/2026 20:16"
+        "data": "2026-09-03T21:49:06+00:00",
+        "dataFmt": "03/09/2026 21:49"
       },
       {
-        "titulo": "Palmeiras segura empate com o Santos e vai às semifinais da Copa do Brasil",
+        "titulo": "Ex-Flamengo e Santos, Geuvânio avança em negociação para renovar com o Amazonas para 2027",
         "resumo": "",
-        "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/copa-do-brasil/jogo/02-09-2026/santos-palmeiras.ghtml",
+        "url": "https://ge.globo.com/am/futebol/times/amazonas-fc/noticia/2026/09/03/ex-flamengo-e-santos-geuvanio-avanca-em-negociacao-para-renovar-com-o-amazonas-para-2027.ghtml",
         "imagem": "",
-        "data": "2026-09-03T20:15:55+00:00",
-        "dataFmt": "03/09/2026 20:15"
+        "data": "2026-09-03T21:38:23+00:00",
+        "dataFmt": "03/09/2026 21:38"
       },
       {
-        "titulo": "Copa Paraíba 2026: torneio terá seis clubes e será iniciado no dia 7 de novembro",
+        "titulo": "Anderson Talisca rescinde com o Fenerbahçe e assina com o Al-Jazira; veja números da passagem",
         "resumo": "",
-        "url": "https://ge.globo.com/pb/futebol/noticia/2026/09/03/copa-paraiba-2026-torneio-tera-seis-clubes-sera-iniciado-dia-7-novembro.ghtml",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/03/anderson-talisca-rescinde-com-o-fenerbahce-e-assina-com-o-al-jazira-veja-numeros-da-passagem.ghtml",
         "imagem": "",
-        "data": "2026-09-03T20:13:50+00:00",
-        "dataFmt": "03/09/2026 20:13"
+        "data": "2026-09-03T21:37:23+00:00",
+        "dataFmt": "03/09/2026 21:37"
       },
       {
-        "titulo": "FTF altera datas e horários de jogos da Segundona; confira",
+        "titulo": "Reunião de arbitragem tem protesto do Fluminense e pedido em vão por lance de Mirassol e Palmeiras",
         "resumo": "",
-        "url": "https://ge.globo.com/to/futebol/noticia/2026/09/03/ftf-altera-datas-e-horarios-de-jogos-da-segundona-confira.ghtml",
+        "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/03/reuniao-de-arbitragem-tem-protesto-do-fluminense-e-pedido-em-vao-por-lance-de-mirassol-e-palmeiras.ghtml",
         "imagem": "",
-        "data": "2026-09-03T20:13:26+00:00",
-        "dataFmt": "03/09/2026 20:13"
+        "data": "2026-09-03T21:31:00+00:00",
+        "dataFmt": "03/09/2026 21:31"
       },
       {
-        "titulo": "Com emoção! Atlético-MG vence Cruzeiro de virada e vai à semi da Copa do Brasil",
+        "titulo": "Campeonato Piauiense Série B 2026: veja a escala de árbitros para a 1ª rodada",
         "resumo": "",
-        "url": "https://ge.globo.com/mg/futebol/copa-do-brasil/jogo/01-09-2026/atletico-mg-cruzeiro.ghtml",
+        "url": "https://ge.globo.com/pi/futebol/piauiense-segunda-divisao/noticia/2026/09/03/campeonato-piauiense-serie-b-2026-veja-a-escala-de-arbitros-para-a-1a-rodada.ghtml",
         "imagem": "",
-        "data": "2026-09-03T20:11:48+00:00",
-        "dataFmt": "03/09/2026 20:11"
+        "data": "2026-09-03T21:25:07+00:00",
+        "dataFmt": "03/09/2026 21:25"
       },
       {
-        "titulo": "Em jogo de poucas chances, Londrina e Juventude ficam no empate pela Série B",
+        "titulo": "River-PI x Picos: assista ao resumo e as entrevistas antes da estreia do Galo na Segundona",
         "resumo": "",
-        "url": "https://ge.globo.com/pr/futebol/brasileirao-serie-b/jogo/01-09-2026/londrina-juventude.ghtml",
+        "url": "https://ge.globo.com/pi/futebol/times/river-pi/playlist/river-pi-x-picos-assista-ao-resumo-e-as-entrevistas-antes-da-estreia-do-galo-na-segundona.ghtml",
         "imagem": "",
-        "data": "2026-09-03T20:09:29+00:00",
-        "dataFmt": "03/09/2026 20:09"
-      },
-      {
-        "titulo": "Athletico atropela o Real Madrid e avança como líder no Mundial de Clubes Juvenil",
-        "resumo": "",
-        "url": "https://ge.globo.com/pr/futebol/jogo/03-09-2026/atletico-pr-real-madrid.ghtml",
-        "imagem": "",
-        "data": "2026-09-03T20:08:52+00:00",
-        "dataFmt": "03/09/2026 20:08"
+        "data": "2026-09-03T21:21:02+00:00",
+        "dataFmt": "03/09/2026 21:21"
       }
     ],
     "times": {
       "Palmeiras": [
+        {
+          "titulo": "Reunião de arbitragem tem protesto do Fluminense e pedido em vão por lance de Mirassol e Palmeiras",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/03/reuniao-de-arbitragem-tem-protesto-do-fluminense-e-pedido-em-vao-por-lance-de-mirassol-e-palmeiras.ghtml",
+          "imagem": "",
+          "data": "2026-09-03T21:31:00+00:00",
+          "dataFmt": "03/09/2026 21:31"
+        },
+        {
+          "titulo": "Botafogo aguarda retorno de Matheus Martins, que deve ser desfalque contra o Palmeiras",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/03/botafogo-aguarda-retorno-de-matheus-martins-que-deve-ser-desfalque-contra-o-palmeiras.ghtml",
+          "imagem": "",
+          "data": "2026-09-03T21:11:57+00:00",
+          "dataFmt": "03/09/2026 21:11"
+        },
         {
           "titulo": "Palmeiras relata hostilização de organizada do Santos e seguranças impedidos de acessar o campo",
           "resumo": "",
@@ -248,17 +264,25 @@
           "imagem": "",
           "data": "",
           "dataFmt": "02/09/2026"
-        },
-        {
-          "titulo": "Marca rara na era Abel e histÃ³rico do rival: o peso da vantagem do Palmeiras sobre o Santos",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/02/marca-rara-na-era-abel-e-historico-do-rival-o-peso-da-vantagem-do-palmeiras-sobre-o-santos.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "02/09/2026"
         }
       ],
       "Flamengo": [
+        {
+          "titulo": "Saúl volta a atuar pelo Flamengo depois de 95 dias e amplia opções de Jardim em momento decisivo",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/03/saul-volta-a-atuar-pelo-flamengo-depois-de-95-dias-e-amplia-opcoes-de-jardim-em-momento-decisivo.ghtml",
+          "imagem": "",
+          "data": "2026-09-03T23:09:51+00:00",
+          "dataFmt": "03/09/2026 23:09"
+        },
+        {
+          "titulo": "Ex-Flamengo e Santos, Geuvânio avança em negociação para renovar com o Amazonas para 2027",
+          "resumo": "",
+          "url": "https://ge.globo.com/am/futebol/times/amazonas-fc/noticia/2026/09/03/ex-flamengo-e-santos-geuvanio-avanca-em-negociacao-para-renovar-com-o-amazonas-para-2027.ghtml",
+          "imagem": "",
+          "data": "2026-09-03T21:38:23+00:00",
+          "dataFmt": "03/09/2026 21:38"
+        },
         {
           "titulo": "Flamengo aguarda chegada de Plata e reavaliará jogador para mata-mata da Libertadores",
           "resumo": "",
@@ -276,14 +300,6 @@
           "dataFmt": "03/09/2026 18:18"
         },
         {
-          "titulo": "Rossi, sobre Freitas no Flamengo: \"Mesmo que esteja acostumado à pressão do River, aqui é diferente\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/03/rossi-sobre-freitas-no-flamengo-mesmo-que-esteja-acostumado-a-pressao-do-river-aqui-e-diferente.ghtml",
-          "imagem": "",
-          "data": "2026-09-03T17:00:00+00:00",
-          "dataFmt": "03/09/2026 17:00"
-        },
-        {
           "titulo": "Jogadores vibram com \"volta inesperada\" de Plata apÃ³s reviravolta",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/03/jogadores-do-flamengo-vibram-com-volta-inesperada-de-plata-depois-da-reviravolta-na-russia.ghtml",
@@ -295,6 +311,14 @@
           "titulo": "Entenda por que Arrascaeta usou Ã³culos especiais antes de jogo",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/03/entenda-por-que-arrascaeta-usou-oculos-especiais-verdes-antes-de-jogo-do-flamengo.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "03/09/2026"
+        },
+        {
+          "titulo": "Rossi pede paciÃªncia com Freitas: \"Mesmo que esteja acostumado Ã  pressÃ£o do River, aqui Ã© diferente\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/03/rossi-sobre-freitas-no-flamengo-mesmo-que-esteja-acostumado-a-pressao-do-river-aqui-e-diferente.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "03/09/2026"
@@ -316,15 +340,15 @@
           "dataFmt": "03/09/2026"
         },
         {
-          "titulo": "Pulgar sofre pancada e preocupa o Flamengo",
+          "titulo": "Flamengo encaminha venda do meia Guilherme para o Gil Vicente, de Portugal",
           "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/02/pulgar-sofre-pancada-e-deixa-jogo-do-flamengo-com-dores-no-primeiro-tempo.ghtml",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/02/flamengo-encaminha-venda-do-meia-guilherme-para-o-gil-vicente-de-portugal.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "02/09/2026"
         },
         {
-          "titulo": "Jardim aprova volta de Plata e projeta reforÃ§os: \"VÃ£o ajudar a mÃ©dio e longo prazo\"",
+          "titulo": "Jardim aprova volta de Plata ao Flamengo e projeta uso de reforÃ§os: \"VÃ£o ajudar a mÃ©dio e longo prazo\"",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/02/jardim-elogia-o-mirassol-e-destaca-vitoria-do-flamengo-ouco-falar-desse-jogo-ha-seis-meses.ghtml",
           "imagem": "",
@@ -332,25 +356,9 @@
           "dataFmt": "02/09/2026"
         },
         {
-          "titulo": "AtuaÃ§Ãµes: veja quem foi o melhor e dÃª suas notas",
+          "titulo": "AtuaÃ§Ãµes do Flamengo: Carrascal Ã© o melhor na vitÃ³ria sobre o Mirassol; dÃª suas notas",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/02/atuacoes-do-flamengo-carrascal-e-o-melhor-na-vitoria-sobre-o-mirassol-de-suas-notas.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "02/09/2026"
-        },
-        {
-          "titulo": "Samuel Lino deixa o campo reclamando com Jardim",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/02/samuel-lino-do-flamengo-deixa-o-campo-reclamando-apos-substituicao-assista.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "02/09/2026"
-        },
-        {
-          "titulo": "Flamengo encaminha venda do meia Guilherme para o Gil Vicente, de Portugal",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/02/flamengo-encaminha-venda-do-meia-guilherme-para-o-gil-vicente-de-portugal.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "02/09/2026"
@@ -358,12 +366,12 @@
       ],
       "Athletico-PR": [
         {
-          "titulo": "Escalação: Mycael treina como titular, e Odair indica mudança no gol do Athletico contra o Cruzeiro",
+          "titulo": "EscalaÃ§Ã£o: Mycael treina como titular, e Odair indica mudanÃ§a no gol",
           "resumo": "",
           "url": "https://ge.globo.com/pr/futebol/times/athletico-pr/noticia/2026/09/03/escalacao-mycael-treina-como-titular-e-odair-indica-mudanca-no-gol-do-athletico-contra-o-cruzeiro.ghtml",
           "imagem": "",
-          "data": "2026-09-03T16:24:05+00:00",
-          "dataFmt": "03/09/2026 16:24"
+          "data": "",
+          "dataFmt": "03/09/2026"
         },
         {
           "titulo": "Joia da base sofre segunda lesÃ£o seguida durante recuperaÃ§Ã£o",
@@ -440,6 +448,30 @@
       ],
       "Fluminense": [
         {
+          "titulo": "Cuiabano ex-Fluminense retorna aos Estados Unidos para defender o Los Angeles Galaxy",
+          "resumo": "",
+          "url": "https://ge.globo.com/mt/futebol/noticia/2026/09/03/cuiabano-ex-fluminense-retorna-aos-estados-unidos-para-defender-o-los-angeles-galaxy.ghtml",
+          "imagem": "",
+          "data": "2026-09-03T23:15:54+00:00",
+          "dataFmt": "03/09/2026 23:15"
+        },
+        {
+          "titulo": "Prazo de inscrições para as quartas da Libertadores termina nesta sexta; veja a lista final do Fluminense",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/03/prazo-de-inscricoes-para-as-quartas-da-libertadores-termina-nesta-sexta-veja-a-lista-do-fluminense.ghtml",
+          "imagem": "",
+          "data": "2026-09-03T22:48:56+00:00",
+          "dataFmt": "03/09/2026 22:48"
+        },
+        {
+          "titulo": "Reunião de arbitragem tem protesto do Fluminense e pedido em vão por lance de Mirassol e Palmeiras",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/03/reuniao-de-arbitragem-tem-protesto-do-fluminense-e-pedido-em-vao-por-lance-de-mirassol-e-palmeiras.ghtml",
+          "imagem": "",
+          "data": "2026-09-03T21:31:00+00:00",
+          "dataFmt": "03/09/2026 21:31"
+        },
+        {
           "titulo": "Campeão da Libertadores pelo Fluminense faz gol em final europeia e dá primeiro título ao clube",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/03/campeao-da-libertadores-pelo-fluminense-faz-gol-em-final-europeia-e-da-primeiro-titulo-ao-clube.ghtml",
@@ -454,14 +486,6 @@
           "imagem": "",
           "data": "2026-09-03T18:35:18+00:00",
           "dataFmt": "03/09/2026 18:35"
-        },
-        {
-          "titulo": "Santos avança na contratação do meio-campista Lima, do Fluminense",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/03/santos-avanca-na-contratacao-do-meio-campista-lima-do-fluminense.ghtml",
-          "imagem": "",
-          "data": "2026-09-03T17:00:34+00:00",
-          "dataFmt": "03/09/2026 17:00"
         },
         {
           "titulo": "ReforÃ§o de R$ 66 milhÃµes, Castillo ainda nÃ£o atuou com MarcÃ£o no Flu",
@@ -518,22 +542,6 @@
           "imagem": "",
           "data": "",
           "dataFmt": "31/08/2026"
-        },
-        {
-          "titulo": "LÃ©o Jance retorna antecipadamente ao Fluminense apÃ³s encerramento do emprÃ©stimo ao NaÃºtico",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/02/leo-jance-retorna-antecipadamente-ao-fluminense-apos-fim-do-emprestimo-ao-nautico.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "02/09/2026"
-        },
-        {
-          "titulo": "Fluminense acerta contrataÃ§Ã£o de zagueiro paraguaio de 19 anos",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/01/fluminense-acerta-contratacao-de-zagueiro-paraguaio-de-19-anos.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "01/09/2026"
         }
       ],
       "Cruzeiro": [
@@ -554,33 +562,17 @@
           "dataFmt": "03/09/2026 18:49"
         },
         {
-          "titulo": "Presidente do Cruzeiro se reúne com elenco e faz cobrança após eliminação para o Atlético-MG",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/03/presidente-do-cruzeiro-se-reune-com-elenco-e-faz-cobranca-apos-eliminacao-para-o-atletico-mg.ghtml",
-          "imagem": "",
-          "data": "2026-09-03T17:09:00+00:00",
-          "dataFmt": "03/09/2026 17:09"
-        },
-        {
-          "titulo": "Gerson fez tratamento com plaquetas para atuar diante do Atlético-MG; entenda situação",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/03/gerson-fez-tratamento-com-plaquetas-para-atuar-diante-do-atletico-mg-entenda-situacao.ghtml",
-          "imagem": "",
-          "data": "2026-09-03T16:29:25+00:00",
-          "dataFmt": "03/09/2026 16:29"
-        },
-        {
-          "titulo": "Escalação: Mycael treina como titular, e Odair indica mudança no gol do Athletico contra o Cruzeiro",
-          "resumo": "",
-          "url": "https://ge.globo.com/pr/futebol/times/athletico-pr/noticia/2026/09/03/escalacao-mycael-treina-como-titular-e-odair-indica-mudanca-no-gol-do-athletico-contra-o-cruzeiro.ghtml",
-          "imagem": "",
-          "data": "2026-09-03T16:24:05+00:00",
-          "dataFmt": "03/09/2026 16:24"
-        },
-        {
           "titulo": "Time, Artur Jorge e Spindel sÃ£o alvos de protesto; veja fotos",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/03/time-do-cruzeiro-artur-jorge-e-spindel-sao-alvos-de-protesto-com-faixas-em-ruas-de-bh-veja-fotos.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "03/09/2026"
+        },
+        {
+          "titulo": "Presidente se reÃºne com elenco e faz cobranÃ§a apÃ³s eliminaÃ§Ã£o",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/03/presidente-do-cruzeiro-se-reune-com-elenco-e-faz-cobranca-apos-eliminacao-para-o-atletico-mg.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "03/09/2026"
@@ -597,6 +589,14 @@
           "titulo": "Cruzeiro nÃ£o atinge metas em copas; veja tamanho do prejuÃ­zo",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/03/cruzeiro-supera-r-300-milhoes-em-reforcos-e-nao-atinge-metas-em-copas-veja-tamanho-do-prejuizo.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "03/09/2026"
+        },
+        {
+          "titulo": "Gerson se tratou com plaquetas para jogar clÃ¡ssico; entenda",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/03/gerson-fez-tratamento-com-plaquetas-para-atuar-diante-do-atletico-mg-entenda-situacao.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "03/09/2026"
@@ -632,9 +632,25 @@
           "imagem": "",
           "data": "",
           "dataFmt": "02/09/2026"
+        },
+        {
+          "titulo": "AnÃ¡lise: Cruzeiro cai com trocas ruins de Artur Jorge e vÃª ano ganhar tom de decepÃ§Ã£o",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/02/analise-cruzeiro-cai-com-trocas-ruins-de-artur-jorge-e-ve-ano-ganhar-tom-de-decepcao.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "02/09/2026"
         }
       ],
       "Bahia": [
+        {
+          "titulo": "Bahia acerta empréstimo de Lautaro López, volante argentino de 21 anos",
+          "resumo": "",
+          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/09/03/bahia-acerta-emprestimo-de-laurato-lopez-volante-argentino-de-21-anos.ghtml",
+          "imagem": "",
+          "data": "2026-09-03T22:09:10+00:00",
+          "dataFmt": "03/09/2026 22:09"
+        },
         {
           "titulo": "Jean Lucas valoriza apoio de Ceni em má fase e destaca trabalho mental por volta por cima no Bahia",
           "resumo": "",
@@ -660,20 +676,20 @@
           "dataFmt": "03/09/2026 17:45"
         },
         {
-          "titulo": "Everton Ribeiro treina normalmente e pode voltar a jogar pelo Bahia contra o Bragantino",
-          "resumo": "",
-          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/09/03/everton-ribeiro-treina-normalmente-e-pode-voltar-a-jogar-pelo-bahia-contra-o-bragantino.ghtml",
-          "imagem": "",
-          "data": "2026-09-03T17:16:15+00:00",
-          "dataFmt": "03/09/2026 17:16"
-        },
-        {
           "titulo": "Veja quem chega e quem sai do Bahia no segundo semestre",
           "resumo": "",
           "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/06/21/contratacoes-do-bahia-para-o-segundo-semestre-de-2026-veja-quem-chega-e-quem-vai-embora.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "21/06/2026"
+        },
+        {
+          "titulo": "Everton Ribeiro treina sem restriÃ§Ã£o e pode voltar ao time",
+          "resumo": "",
+          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/09/03/everton-ribeiro-treina-normalmente-e-pode-voltar-a-jogar-pelo-bahia-contra-o-bragantino.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "03/09/2026"
         },
         {
           "titulo": "Erick supera nÃºmeros de 2025 e assume vice-artilharia do Bahia",
@@ -722,14 +738,6 @@
           "imagem": "https://s2-ge.glbimg.com/TNRdPClEmM-lK-X-9QoJtv4bsds=/243x0:1609x1366/94x94/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/p/V/BZn0tPTbC4DwDRu2PbWg/hlxiqlwxeaa7smz.jpg",
           "data": "",
           "dataFmt": "08/12/2025"
-        },
-        {
-          "titulo": "Veja artilheiros, assistÃªncias, aproveitamento e jogos em 2026",
-          "resumo": "",
-          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/01/28/estatisticas-do-bahia-artilheiros-assistencias-aproveitamento-e-jogos-em-2026.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "28/01/2026"
         }
       ],
       "Bragantino": [
@@ -748,14 +756,6 @@
           "imagem": "",
           "data": "2026-09-03T19:06:45+00:00",
           "dataFmt": "03/09/2026 19:06"
-        },
-        {
-          "titulo": "Everton Ribeiro treina normalmente e pode voltar a jogar pelo Bahia contra o Bragantino",
-          "resumo": "",
-          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/09/03/everton-ribeiro-treina-normalmente-e-pode-voltar-a-jogar-pelo-bahia-contra-o-bragantino.ghtml",
-          "imagem": "",
-          "data": "2026-09-03T17:16:15+00:00",
-          "dataFmt": "03/09/2026 17:16"
         },
         {
           "titulo": "Bragantino anuncia contrataÃ§Ã£o de Wallace Yan, do Flamengo; saiba valor da negociaÃ§Ã£o",
@@ -938,44 +938,20 @@
           "dataFmt": "03/09/2026 20:11"
         },
         {
-          "titulo": "Atlético-MG descarta lesão de Maycon, mas dupla vira desfalque para sequência",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/03/atletico-mg-descarta-lesao-de-maycon-mas-dupla-vira-desfalque-para-sequencia.ghtml",
-          "imagem": "",
-          "data": "2026-09-03T17:22:37+00:00",
-          "dataFmt": "03/09/2026 17:22"
-        },
-        {
-          "titulo": "Presidente do Cruzeiro se reúne com elenco e faz cobrança após eliminação para o Atlético-MG",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/03/presidente-do-cruzeiro-se-reune-com-elenco-e-faz-cobranca-apos-eliminacao-para-o-atletico-mg.ghtml",
-          "imagem": "",
-          "data": "2026-09-03T17:09:00+00:00",
-          "dataFmt": "03/09/2026 17:09"
-        },
-        {
-          "titulo": "São Paulo x Atlético-MG: mais de 20 mil ingressos já foram vendidos; veja preços",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/03/sao-paulo-x-atletico-mg-mais-de-20-mil-ingressos-ja-foram-vendidos-veja-precos.ghtml",
-          "imagem": "",
-          "data": "2026-09-03T16:48:05+00:00",
-          "dataFmt": "03/09/2026 16:48"
-        },
-        {
-          "titulo": "Gerson fez tratamento com plaquetas para atuar diante do Atlético-MG; entenda situação",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/03/gerson-fez-tratamento-com-plaquetas-para-atuar-diante-do-atletico-mg-entenda-situacao.ghtml",
-          "imagem": "",
-          "data": "2026-09-03T16:29:25+00:00",
-          "dataFmt": "03/09/2026 16:29"
-        },
-        {
           "titulo": "AtlÃ©tico apresenta camisa 3 inspirada na \"Rua de Fogo\"; veja fotos",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/02/atletico-mg-apresenta-camisa-3-inspirada-na-rua-de-fogo-veja-fotos.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "02/09/2026"
+        },
+        {
+          "titulo": "AtlÃ©tico descarta lesÃ£o de Maycon, mas dupla vira desfalque",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/03/atletico-mg-descarta-lesao-de-maycon-mas-dupla-vira-desfalque-para-sequencia.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "03/09/2026"
         },
         {
           "titulo": "Como DomÃ­nguez trabalhou para atingir 100 dias invicto no AtlÃ©tico",
@@ -1016,9 +992,41 @@
           "imagem": "",
           "data": "",
           "dataFmt": "02/09/2026"
+        },
+        {
+          "titulo": "Renan Lodi muda versÃ£o sobre comemoraÃ§Ã£o \"1, 2, 3\" em AtlÃ©tico-MG x Cruzeiro: \"SÃ©rie B, nÃ©?\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/02/renan-lodi-abre-o-jogo-sobre-comemoracao-1-2-3-em-atletico-mg-x-cruzeiro-serie-b-ne.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "02/09/2026"
+        },
+        {
+          "titulo": "Ruan explica vÃ¡cuo em Kaio Jorge antes de AtlÃ©tico-MG x Cruzeiro: \"NÃ£o foi leal\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/02/ruan-explica-vacuo-em-kaio-jorge-antes-de-atletico-mg-x-cruzeiro-nao-foi-leal.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "02/09/2026"
+        },
+        {
+          "titulo": "AnÃ¡lise: AtlÃ©tico-MG coloca clÃ¡ssico debaixo do braÃ§o e fica a dois jogos da Libertadores",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/02/analise-atletico-mg-coloca-classico-debaixo-do-braco-e-fica-a-dois-jogos-da-libertadores.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "02/09/2026"
         }
       ],
       "Corinthians": [
+        {
+          "titulo": "Conmebol decide árbitro de Estudiantes x Corinthians pelas quartas da Libertadores",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/03/conmebol-decide-arbitro-de-estudiantes-x-corinthians-pelas-quartas-da-libertadores.ghtml",
+          "imagem": "",
+          "data": "2026-09-03T22:39:10+00:00",
+          "dataFmt": "03/09/2026 22:39"
+        },
         {
           "titulo": "Treino do Corinthians: Memphis vai a campo, e Vitinho inicia transição no CT",
           "resumo": "",
@@ -1106,17 +1114,33 @@
           "imagem": "",
           "data": "",
           "dataFmt": "02/09/2026"
-        },
-        {
-          "titulo": "Besiktas tem interesse na contrataÃ§Ã£o de Breno Bidon, do Corinthians",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/02/besiktas-tem-interesse-na-contratacao-de-breno-bidon-do-corinthians.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "02/09/2026"
         }
       ],
       "Botafogo": [
+        {
+          "titulo": "Náutico x Botafogo-SP - Campeonato Brasileiro Série B 2026 - Ao vivo - globoesporte.com",
+          "resumo": "",
+          "url": "https://ge.globo.com/pe/futebol/brasileirao-serie-b/jogo/03-09-2026/nautico-botafogo-sp.ghtml",
+          "imagem": "",
+          "data": "2026-09-03T23:16:55+00:00",
+          "dataFmt": "03/09/2026 23:16"
+        },
+        {
+          "titulo": "Botafogo aguarda retorno de Matheus Martins, que deve ser desfalque contra o Palmeiras",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/03/botafogo-aguarda-retorno-de-matheus-martins-que-deve-ser-desfalque-contra-o-palmeiras.ghtml",
+          "imagem": "",
+          "data": "2026-09-03T21:11:57+00:00",
+          "dataFmt": "03/09/2026 21:11"
+        },
+        {
+          "titulo": "Jacy Maranhão relembra gol pelo Paysandu contra o Botafogo-PB e gratidão ao clube bicolor",
+          "resumo": "",
+          "url": "https://ge.globo.com/pa/futebol/times/paysandu/noticia/2026/09/03/jacy-maranhao-relembra-gol-pelo-paysandu-contra-o-botafogo-pb-e-gratidao-ao-clube-bicolor.ghtml",
+          "imagem": "",
+          "data": "2026-09-03T21:11:49+00:00",
+          "dataFmt": "03/09/2026 21:11"
+        },
         {
           "titulo": "Botafogo-PB rescinde com meia Gabriel Tota, um dos reforços mais caros da história do clube",
           "resumo": "",
@@ -1132,14 +1156,6 @@
           "imagem": "",
           "data": "2026-09-03T18:56:49+00:00",
           "dataFmt": "03/09/2026 18:56"
-        },
-        {
-          "titulo": "ABC anuncia técnico João Burse, ex-Vitória e Botafogo-PB",
-          "resumo": "",
-          "url": "https://ge.globo.com/rn/futebol/times/abc/noticia/2026/09/03/abc-anuncia-tecnico-joao-burse-ex-vitoria-e-botafogo-pb.ghtml",
-          "imagem": "",
-          "data": "2026-09-03T17:15:52+00:00",
-          "dataFmt": "03/09/2026 17:15"
         },
         {
           "titulo": "JoÃ£o Moreira Salles admite possibilidade de investir na SAF Botafogo",
@@ -1196,25 +1212,17 @@
           "imagem": "",
           "data": "",
           "dataFmt": "02/09/2026"
-        },
-        {
-          "titulo": "Matheus Martins revela surpresa em reprovaÃ§Ã£o no DÃ­namo Moscou",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/02/matheus-martins-do-botafogo-revela-surpresa-em-reprovacao-no-dinamo-moscou-discordo-completamente.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "02/09/2026"
-        },
-        {
-          "titulo": "Clube social dÃ¡ as cartas na transiÃ§Ã£o para GDA e influencia decisÃµes no futebol",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/02/bastidores-clube-social-da-as-cartas-na-transicao-para-gda-e-influencia-decisoes-no-futebol-do-botafogo.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "02/09/2026"
         }
       ],
       "Vitoria": [
+        {
+          "titulo": "Vitória empresta atacante da base a clube turco",
+          "resumo": "",
+          "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/09/03/vitoria-empresta-atacante-da-base-a-clube-turco.ghtml",
+          "imagem": "",
+          "data": "2026-09-03T21:59:38+00:00",
+          "dataFmt": "03/09/2026 21:59"
+        },
         {
           "titulo": "Justiça reconhece rescisão indireta de Lucas Braga com o Vitória, mas nega indenização ao jogador",
           "resumo": "",
@@ -1230,22 +1238,6 @@
           "imagem": "",
           "data": "2026-09-03T17:49:19+00:00",
           "dataFmt": "03/09/2026 17:49"
-        },
-        {
-          "titulo": "ONE Fight Night 47: Gabi Fujimoto busca primeira vitória na Ásia contra argentina",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/mogi-das-cruzes-suzano/noticia/2026/09/03/one-fight-night-47-gabi-fujimoto-busca-primeira-vitoria-na-asia-contra-argentina.ghtml",
-          "imagem": "",
-          "data": "2026-09-03T17:30:00+00:00",
-          "dataFmt": "03/09/2026 17:30"
-        },
-        {
-          "titulo": "ABC anuncia técnico João Burse, ex-Vitória e Botafogo-PB",
-          "resumo": "",
-          "url": "https://ge.globo.com/rn/futebol/times/abc/noticia/2026/09/03/abc-anuncia-tecnico-joao-burse-ex-vitoria-e-botafogo-pb.ghtml",
-          "imagem": "",
-          "data": "2026-09-03T17:15:52+00:00",
-          "dataFmt": "03/09/2026 17:15"
         },
         {
           "titulo": "AnÃ¡lise: BarradÃ£o nÃ£o resiste Ã  pobreza de ideias do VitÃ³ria",
@@ -1310,6 +1302,14 @@
           "imagem": "",
           "data": "",
           "dataFmt": "01/09/2026"
+        },
+        {
+          "titulo": "Relacionados: MartÃ­nez desfalca o VitÃ³ria nas quartas de final da Copa do Brasil",
+          "resumo": "",
+          "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/09/02/relacionados-martinez-desfalca-o-vitoria-nas-quartas-de-final-da-copa-do-brasil.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "02/09/2026"
         }
       ],
       "Sao-Paulo": [
@@ -1330,12 +1330,12 @@
           "dataFmt": "03/09/2026 17:54"
         },
         {
-          "titulo": "São Paulo x Atlético-MG: mais de 20 mil ingressos já foram vendidos; veja preços",
+          "titulo": "Vai lotar? 20 mil vendidos para SÃ£o Paulo x AtlÃ©tico-MG",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/03/sao-paulo-x-atletico-mg-mais-de-20-mil-ingressos-ja-foram-vendidos-veja-precos.ghtml",
           "imagem": "",
-          "data": "2026-09-03T16:48:05+00:00",
-          "dataFmt": "03/09/2026 16:48"
+          "data": "",
+          "dataFmt": "03/09/2026"
         },
         {
           "titulo": "SÃ£o Paulo tem muitos pendurados antes de jogo contra Palmeiras",
@@ -1412,6 +1412,14 @@
       ],
       "Santos": [
         {
+          "titulo": "Ex-Flamengo e Santos, Geuvânio avança em negociação para renovar com o Amazonas para 2027",
+          "resumo": "",
+          "url": "https://ge.globo.com/am/futebol/times/amazonas-fc/noticia/2026/09/03/ex-flamengo-e-santos-geuvanio-avanca-em-negociacao-para-renovar-com-o-amazonas-para-2027.ghtml",
+          "imagem": "",
+          "data": "2026-09-03T21:38:23+00:00",
+          "dataFmt": "03/09/2026 21:38"
+        },
+        {
           "titulo": "Palmeiras relata hostilização de organizada do Santos e seguranças impedidos de acessar o campo",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/03/palmeiras-relata-hostilizacao-de-organizada-do-santos-e-segurancas-impedidos-de-acessar-o-campo.ghtml",
@@ -1452,12 +1460,12 @@
           "dataFmt": "03/09/2026 18:56"
         },
         {
-          "titulo": "Santos avança na contratação do meio-campista Lima, do Fluminense",
+          "titulo": "Santos estÃ¡ perto de contratar Lima, do Flu",
           "resumo": "",
           "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/03/santos-avanca-na-contratacao-do-meio-campista-lima-do-fluminense.ghtml",
           "imagem": "",
-          "data": "2026-09-03T17:00:34+00:00",
-          "dataFmt": "03/09/2026 17:00"
+          "data": "",
+          "dataFmt": "03/09/2026"
         },
         {
           "titulo": "Neymar detona campo do Santos: \"Pior gramado que a Vila jÃ¡ teve\"",
@@ -1498,14 +1506,6 @@
           "imagem": "",
           "data": "",
           "dataFmt": "03/09/2026"
-        },
-        {
-          "titulo": "Como a eliminaÃ§Ã£o na Copa do Brasil impacta as finanÃ§as do Santos",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/03/veja-quanto-o-santos-deixa-de-ganhar-em-premiacao-com-eliminacao-na-copa-do-brasil.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "03/09/2026"
         }
       ],
       "Gremio": [
@@ -1514,8 +1514,8 @@
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/copa-do-brasil/jogo/03-09-2026/gremio-internacional.ghtml",
           "imagem": "",
-          "data": "2026-09-03T21:06:14+00:00",
-          "dataFmt": "03/09/2026 21:06"
+          "data": "2026-09-03T23:16:40+00:00",
+          "dataFmt": "03/09/2026 23:16"
         },
         {
           "titulo": "GrÃªmio tem reforÃ§o Ã s vÃ©speras do Gre-Nal; veja provÃ¡vel time",
@@ -1550,30 +1550,6 @@
           "dataFmt": "03/09/2026"
         },
         {
-          "titulo": "Golpista se passa por LuÃ­s Castro para pedir PIX a jogadores",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/02/golpista-se-passa-por-luis-castro-tecnico-do-gremio-para-pedir-pix-a-jogadores-do-clube.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "02/09/2026"
-        },
-        {
-          "titulo": "EmpresÃ¡rio pede penhora de premiaÃ§Ã£o do GrÃªmio na Copa do Brasil",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/01/empresario-cobra-r-19-milhoes-do-gremio-e-pede-penhora-de-premios-da-copa-do-brasil-e-venda-de-viery.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "01/09/2026"
-        },
-        {
-          "titulo": "Enamorado perdeu R$ 22 mil em golpe do falso LuÃ­s Castro",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/02/enamorado-transferiu-r-22-mil-para-golpista-que-se-passava-por-luis-castro-tecnico-do-gremio.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "02/09/2026"
-        },
-        {
           "titulo": "HerÃ³i em 1994, Nildo indica caminho para o GrÃªmio vencer o Gre-Nal",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/03/heroi-em-1994-ex-atacante-indica-caminho-para-o-gremio-vencer-o-gre-nal-e-pede-espirito-guerreiro.ghtml",
@@ -1582,20 +1558,52 @@
           "dataFmt": "03/09/2026"
         },
         {
-          "titulo": "Por que o GrÃªmio vendeu Mec por menos do que esperava",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/01/expectativa-frustrada-saiba-por-que-o-gremio-vendeu-gabriel-mec-por-menos-do-que-esperava.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "01/09/2026"
-        },
-        {
-          "titulo": "Porto anuncia Gabriel Mec e divulga os valores do negÃ³cio",
+          "titulo": "Porto anuncia Gabriel Mec e detalha negÃ³cio com o GrÃªmio; saiba os valores",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/02/porto-anuncia-gabriel-mec-e-detalha-negocio-com-o-gremio-saiba-mais.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "02/09/2026"
+        },
+        {
+          "titulo": "Enamorado transferiu R$ 22 mil para golpista que se passava por LuÃ­s Castro, tÃ©cnico do GrÃªmio",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/02/enamorado-transferiu-r-22-mil-para-golpista-que-se-passava-por-luis-castro-tecnico-do-gremio.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "02/09/2026"
+        },
+        {
+          "titulo": "Golpista se passa por LuÃ­s Castro, tÃ©cnico do GrÃªmio, para pedir PIX a jogadores do clube",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/02/golpista-se-passa-por-luis-castro-tecnico-do-gremio-para-pedir-pix-a-jogadores-do-clube.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "02/09/2026"
+        },
+        {
+          "titulo": "Viery e Mec tÃªm salto em aproveitamento antes de vendas pelo GrÃªmio; veja nÃºmeros",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/01/viery-e-mec-tem-salto-em-aproveitamento-antes-de-venda-pelo-gremio-veja-numeros.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "01/09/2026"
+        },
+        {
+          "titulo": "EmpresÃ¡rio cobra R$ 19 milhÃµes do GrÃªmio e pede penhora de prÃªmios da Copa do Brasil e venda de Viery",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/01/empresario-cobra-r-19-milhoes-do-gremio-e-pede-penhora-de-premios-da-copa-do-brasil-e-venda-de-viery.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "01/09/2026"
+        },
+        {
+          "titulo": "Expectativa frustrada: saiba por que o GrÃªmio vendeu Gabriel Mec por menos do que esperava",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/01/expectativa-frustrada-saiba-por-que-o-gremio-vendeu-gabriel-mec-por-menos-do-que-esperava.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "01/09/2026"
         }
       ],
       "Internacional": [
@@ -1604,8 +1612,24 @@
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/copa-do-brasil/jogo/03-09-2026/gremio-internacional.ghtml",
           "imagem": "",
-          "data": "2026-09-03T21:06:14+00:00",
-          "dataFmt": "03/09/2026 21:06"
+          "data": "2026-09-03T23:16:40+00:00",
+          "dataFmt": "03/09/2026 23:16"
+        },
+        {
+          "titulo": "À Justiça dos EUA, Fifa acusa Uefa de promover \"campanha de difamação\" com ações",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/03/a-justica-dos-eua-fifa-acusa-uefa-de-promover-campanha-de-difamacao-com-acoes.ghtml",
+          "imagem": "",
+          "data": "2026-09-03T22:01:57+00:00",
+          "dataFmt": "03/09/2026 22:01"
+        },
+        {
+          "titulo": "Anderson Talisca rescinde com o Fenerbahçe e assina com o Al-Jazira; veja números da passagem",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/03/anderson-talisca-rescinde-com-o-fenerbahce-e-assina-com-o-al-jazira-veja-numeros-da-passagem.ghtml",
+          "imagem": "",
+          "data": "2026-09-03T21:37:23+00:00",
+          "dataFmt": "03/09/2026 21:37"
         },
         {
           "titulo": "Entenda por que o Independiente, maior campeão da Libertadores, foi relegado ao ostracismo",
@@ -1616,20 +1640,12 @@
           "dataFmt": "03/09/2026 18:40"
         },
         {
-          "titulo": "Luis Enrique elogia Filipe Luís: \"Gosto de técnicos corajosos\"",
+          "titulo": "HerÃ³i do Inter nos Gre-Nais de 1992 enfrentou HIV e preconceito",
           "resumo": "",
-          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/03/luis-enrique-elogia-filipe-luis-gosto-de-tecnicos-corajosos.ghtml",
+          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/03/destaque-do-inter-nos-gre-nais-de-1992-enfrentou-hiv-e-preconceito-conheca-a-historia-de-gerson.ghtml",
           "imagem": "",
-          "data": "2026-09-03T17:21:06+00:00",
-          "dataFmt": "03/09/2026 17:21"
-        },
-        {
-          "titulo": "Al-Hilal anuncia a contratação de Martinelli, ex-Arsenal",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/03/al-hilal-anuncia-a-contratacao-de-martinelli.ghtml",
-          "imagem": "",
-          "data": "2026-09-03T16:36:18+00:00",
-          "dataFmt": "03/09/2026 16:36"
+          "data": "",
+          "dataFmt": "03/09/2026"
         },
         {
           "titulo": "Inter adianta salÃ¡rio e quita parte de dÃ­vidas com jogadores",
@@ -1648,14 +1664,6 @@
           "dataFmt": "02/09/2026"
         },
         {
-          "titulo": "HerÃ³i do Inter nos Gre-Nais de 1992 enfrentou HIV e preconceito",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/03/destaque-do-inter-nos-gre-nais-de-1992-enfrentou-hiv-e-preconceito-conheca-a-historia-de-gerson.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "03/09/2026"
-        },
-        {
           "titulo": "Cinco pontos para o Inter ajustar antes das quartas de final",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/02/gre-nal-da-copa-do-brasil-cinco-pontos-para-o-inter-ajustar-antes-das-quartas-de-final.ghtml",
@@ -1672,7 +1680,7 @@
           "dataFmt": "03/09/2026"
         },
         {
-          "titulo": "JustiÃ§a manda Inter pagar R$ 16,9 milhÃµes em 15 dias",
+          "titulo": "JustiÃ§a determina que Inter pague R$ 16,9 milhÃµes em 15 dias; empresa pede penhora de valores",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/02/justica-determina-que-inter-pague-r-169-milhoes-em-15-dias-empresa-pede-penhora-de-valores.ghtml",
           "imagem": "",
@@ -1697,6 +1705,14 @@
         }
       ],
       "Mirassol": [
+        {
+          "titulo": "Reunião de arbitragem tem protesto do Fluminense e pedido em vão por lance de Mirassol e Palmeiras",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/03/reuniao-de-arbitragem-tem-protesto-do-fluminense-e-pedido-em-vao-por-lance-de-mirassol-e-palmeiras.ghtml",
+          "imagem": "",
+          "data": "2026-09-03T21:31:00+00:00",
+          "dataFmt": "03/09/2026 21:31"
+        },
         {
           "titulo": "Coritiba x Mirassol - Campeonato Brasileiro 2026 - globoesporte.com",
           "resumo": "",
@@ -1878,6 +1894,14 @@
       ],
       "Vasco": [
         {
+          "titulo": "Vontade de Gabriel Pereira é determinante, e Vasco avança na contratação do zagueiro",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/03/vontade-de-gabriel-pereira-e-determinante-e-vasco-avanca-na-contratacao-do-zagueiro.ghtml",
+          "imagem": "",
+          "data": "2026-09-03T23:09:17+00:00",
+          "dataFmt": "03/09/2026 23:09"
+        },
+        {
           "titulo": "Vasco encaminha a contratação de Alan Lescano, do Argentinos Juniors",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/03/vasco-encaminha-a-contratacao-de-alan-lescano-do-argentinos-juniors.ghtml",
@@ -1964,17 +1988,17 @@
           "imagem": "",
           "data": "",
           "dataFmt": "03/09/2026"
-        },
-        {
-          "titulo": "Veja quanto o Vasco recebe de premiaÃ§Ã£o por avanÃ§ar para a semifinal da Copa do Brasil",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/02/veja-quanto-o-vasco-recebe-de-premiacao-por-avancar-para-a-semifinal-da-copa-do-brasil.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "02/09/2026"
         }
       ],
       "Chapecoense": [
+        {
+          "titulo": "Chapecoense renova contrato com o centroavante Túlio Eduardo",
+          "resumo": "",
+          "url": "https://ge.globo.com/sc/futebol/times/chapecoense/noticia/2026/09/03/chapecoense-renova-contrato-com-o-centroavante-tulio-eduardo.ghtml",
+          "imagem": "",
+          "data": "2026-09-03T22:21:50+00:00",
+          "dataFmt": "03/09/2026 22:21"
+        },
         {
           "titulo": "Sobrinho do Filho do Vento vive primeira experiÃªncia na SÃ©rie A",
           "resumo": "",
@@ -2030,20 +2054,20 @@
           "imagem": "",
           "data": "",
           "dataFmt": "29/08/2026"
-        },
-        {
-          "titulo": "Noivo da Chapecoense: a histÃ³ria por trÃ¡s da despedida de solteiro inusitada em jogo do BrasileirÃ£o",
-          "resumo": "",
-          "url": "https://ge.globo.com/sc/futebol/times/chapecoense/noticia/2026/08/28/noivo-da-chapecoense-a-historia-por-tras-da-despedida-de-solteiro-inusitada-em-jogo-do-brasileirao.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "28/08/2026"
         }
       ]
     }
   },
   "tenis": {
     "geral": [
+      {
+        "titulo": "Peixinho no tênis: australiano faz pontaço e elimina Musetti no US Open; veja vídeo",
+        "resumo": "",
+        "url": "https://ge.globo.com/tenis/noticia/2026/09/03/peixinho-no-tenis-australiano-faz-pontaco-e-elimina-musetti-no-us-open-veja-video.ghtml",
+        "imagem": "",
+        "data": "2026-09-03T22:02:30+00:00",
+        "dataFmt": "03/09/2026 22:02"
+      },
       {
         "titulo": "Segunda melhor dupla do mundo, Luisa Stefani e Gabriela Dabrowski garantem vaga no WTA Finals",
         "resumo": "",
@@ -2101,20 +2125,20 @@
         "dataFmt": "02/09/2026"
       },
       {
-        "titulo": "Coco Gauff vence na estreia do US Open e mantÃ©m sonho de ser nÃºmero 1",
-        "resumo": "",
-        "url": "https://ge.globo.com/tenis/noticia/2026/09/01/gauff-vence-na-estreia-do-us-open-e-mantem-sonho-de-ser-numero-1.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "01/09/2026"
-      },
-      {
         "titulo": "Zverev evita eliminaÃ§Ã£o precoce em partida de quase cinco horas na primeira rodada do US Open",
         "resumo": "",
         "url": "https://ge.globo.com/tenis/noticia/2026/09/02/zverev-evita-eliminacao-precoce-com-partida-de-quase-cinco-horas-na-primeira-rodada-no-us-open.ghtml",
         "imagem": "",
         "data": "",
         "dataFmt": "02/09/2026"
+      },
+      {
+        "titulo": "Coco Gauff vence na estreia do US Open e mantÃ©m sonho de ser nÃºmero 1",
+        "resumo": "",
+        "url": "https://ge.globo.com/tenis/noticia/2026/09/01/gauff-vence-na-estreia-do-us-open-e-mantem-sonho-de-ser-numero-1.ghtml",
+        "imagem": "",
+        "data": "",
+        "dataFmt": "01/09/2026"
       },
       {
         "titulo": "Rybakina vence dublÃª de Serena Williams na estreia do US Open e pode se tornar nova nÂº 1 do mundo",
@@ -2152,14 +2176,6 @@
         "titulo": "Tsitsipas comenta doping de Kyrgios por cocaÃ­na: \"Surpreendido por ter demorado tanto\"",
         "resumo": "",
         "url": "https://ge.globo.com/tenis/noticia/2026/08/31/tsitsipas-comenta-doping-de-kyrgios-por-cocaina-surpreendido-por-ter-demorado-tanto.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "31/08/2026"
-      },
-      {
-        "titulo": "Alcaraz volta a competir apÃ³s quatro meses lesionado e avanÃ§a Ã  segunda rodada do US Open",
-        "resumo": "",
-        "url": "https://ge.globo.com/tenis/noticia/2026/08/31/alcaraz-retorna-apos-lesao-despacha-russo-e-avanca-a-segunda-rodada-do-us-open.ghtml",
         "imagem": "",
         "data": "",
         "dataFmt": "31/08/2026"
