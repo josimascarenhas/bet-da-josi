@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-02T19:33:21-03:00",
+    "atualizadoEm": "2026-09-02T21:58:49-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 388,
     "timesAtualizados": 144,
@@ -234,7 +234,12 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o",
+          "jogador": "Alex Telles não tem lesão, mas é dúvida ",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "EscalaÃ§Ã£o do Palmeiras",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1348,7 +1353,13 @@
         "golsPro": 37,
         "golsContra": 40
       },
-      "desfalques": [],
+      "desfalques": [
+        {
+          "jogador": "Alex Telles não tem lesão, mas é dúvida ",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        }
+      ],
       "retornando": [
         {
           "jogador": "Tiquinho",
@@ -1443,7 +1454,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Vitória contra o Vasco",
+          "jogador": "EscalaÃ§Ã£o do VitÃ³ria contra o Vasco",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1980,11 +1991,6 @@
       },
       "desfalques": [
         {
-          "jogador": "Coritiba inicia preparação para enfrenta",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
           "jogador": "EscalaÃ§Ã£o do Mirassol",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -2188,7 +2194,7 @@
       },
       "desfalques": [
         {
-          "jogador": "David viaja, e Cuiabano vira desfalque; ",
+          "jogador": "Atlético-PI tem baixa de goleira e dúvid",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
