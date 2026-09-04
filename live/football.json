@@ -1,8 +1,8 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-04T08:35:31-03:00",
+    "atualizadoEm": "2026-09-04T12:52:00-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 390,
+    "jogosFinalizados": 391,
     "timesAtualizados": 144,
     "placaresFonte": "calendário + openligadb.de + 365scores.com"
   },
@@ -57,9 +57,9 @@
     },
     "serieb": {
       "timesAtivos": [
+        "Novorizontino",
         "Sport",
         "Cuiaba",
-        "Novorizontino",
         "Vila-Nova",
         "CRB",
         "Juventude",
@@ -234,7 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Botafogo aguarda retorno de Matheus Mart",
+          "jogador": "STJD nega recurso do Palmeiras e mantém ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1242,9 +1242,9 @@
       },
       "desfalques": [
         {
-          "jogador": "Treino do Corinthians",
+          "jogador": "Yuri Alberto regride em recuperação de l",
           "motivo": "notícia GE",
-          "impacto": "alto"
+          "impacto": "medio"
         }
       ],
       "retornando": [],
@@ -1355,6 +1355,11 @@
         "golsContra": 40
       },
       "desfalques": [
+        {
+          "jogador": "STJD nega recurso do Palmeiras e mantém ",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Botafogo aguarda Matheus Martins, que de",
           "motivo": "notícia GE",
@@ -4990,13 +4995,13 @@
           "gpg": 1.0,
           "gsg": 0.0
         },
-        "posicao": 1,
+        "posicao": 2,
         "pontos": 9,
         "vitorias": 3,
         "empates": 0,
-        "derrotas": 0,
-        "golsPro": 6,
-        "golsContra": 1,
+        "derrotas": 1,
+        "golsPro": 7,
+        "golsContra": 3,
         "escanteiosPorJogo": 5.2,
         "cartoesPorJogo": 2.4
       },
@@ -5464,13 +5469,13 @@
           "gpg": 2.0,
           "gsg": 0.5
         },
-        "posicao": 3,
-        "pontos": 7,
-        "vitorias": 2,
+        "posicao": 1,
+        "pontos": 10,
+        "vitorias": 3,
         "empates": 1,
         "derrotas": 1,
-        "golsPro": 7,
-        "golsContra": 2,
+        "golsPro": 9,
+        "golsContra": 3,
         "escanteiosPorJogo": 5.2,
         "cartoesPorJogo": 2.4
       },
@@ -5564,7 +5569,7 @@
           "gpg": 3.0,
           "gsg": 1.0
         },
-        "posicao": 2,
+        "posicao": 3,
         "pontos": 8,
         "vitorias": 2,
         "empates": 2,
