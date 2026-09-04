@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-04T15:51:17-03:00",
+    "atualizadoEm": "2026-09-04T18:16:45-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 391,
     "timesAtualizados": 144,
@@ -234,17 +234,27 @@
       },
       "desfalques": [
         {
+          "jogador": "Escalação do Botafogo",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Palmeiras vai recorrer e pedir efeito su",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
           "jogador": "Palmeiras prepara mudanças na escalação ",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
         {
-          "jogador": "Abel Ferreira é punido com dois jogos de",
+          "jogador": "STJD nega recurso do clube e mantÃ©m sus",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
         {
-          "jogador": "STJD nega recurso do clube e mantÃ©m sus",
+          "jogador": "Abel Ferreira Ã© punido com dois jogos d",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1252,7 +1262,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Yuri Alberto regride em recuperaÃ§Ã£o de",
+          "jogador": "Yuri regride em recuperaÃ§Ã£o de lesÃ£o ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1365,6 +1375,11 @@
         "golsContra": 40
       },
       "desfalques": [
+        {
+          "jogador": "Escalação do Botafogo",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Palmeiras prepara mudanças na escalação ",
           "motivo": "notícia GE",
@@ -1677,7 +1692,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Cuca lamenta lesão de Neymar na eliminaç",
+          "jogador": "Neymar tem lesão na coxa direita e pode ",
           "motivo": "notícia GE",
           "impacto": "alto"
         }
@@ -1911,7 +1926,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Dúvida no Inter, Alan Patrick pode se to",
+          "jogador": "Neymar tem lesão na coxa direita e pode ",
           "motivo": "notícia GE",
           "impacto": "alto"
         }
