@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-04T12:52:00-03:00",
+    "atualizadoEm": "2026-09-04T15:51:17-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 391,
     "timesAtualizados": 144,
@@ -234,7 +234,17 @@
       },
       "desfalques": [
         {
-          "jogador": "STJD nega recurso do Palmeiras e mantém ",
+          "jogador": "Palmeiras prepara mudanças na escalação ",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Abel Ferreira é punido com dois jogos de",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "STJD nega recurso do clube e mantÃ©m sus",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1242,7 +1252,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Yuri Alberto regride em recuperação de l",
+          "jogador": "Yuri Alberto regride em recuperaÃ§Ã£o de",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1356,7 +1366,7 @@
       },
       "desfalques": [
         {
-          "jogador": "STJD nega recurso do Palmeiras e mantém ",
+          "jogador": "Palmeiras prepara mudanças na escalação ",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
