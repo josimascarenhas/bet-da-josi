@@ -1,8 +1,8 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-04T03:19:15-03:00",
+    "atualizadoEm": "2026-09-04T08:35:31-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 391,
+    "jogosFinalizados": 390,
     "timesAtualizados": 144,
     "placaresFonte": "calendário + openligadb.de + 365scores.com"
   },
@@ -57,9 +57,9 @@
     },
     "serieb": {
       "timesAtivos": [
-        "Novorizontino",
         "Sport",
         "Cuiaba",
+        "Novorizontino",
         "Vila-Nova",
         "CRB",
         "Juventude",
@@ -1356,7 +1356,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Botafogo aguarda retorno de Matheus Mart",
+          "jogador": "Botafogo aguarda Matheus Martins, que de",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -4990,13 +4990,13 @@
           "gpg": 1.0,
           "gsg": 0.0
         },
-        "posicao": 2,
+        "posicao": 1,
         "pontos": 9,
         "vitorias": 3,
         "empates": 0,
-        "derrotas": 1,
-        "golsPro": 7,
-        "golsContra": 3,
+        "derrotas": 0,
+        "golsPro": 6,
+        "golsContra": 1,
         "escanteiosPorJogo": 5.2,
         "cartoesPorJogo": 2.4
       },
@@ -5464,13 +5464,13 @@
           "gpg": 2.0,
           "gsg": 0.5
         },
-        "posicao": 1,
-        "pontos": 10,
-        "vitorias": 3,
+        "posicao": 3,
+        "pontos": 7,
+        "vitorias": 2,
         "empates": 1,
         "derrotas": 1,
-        "golsPro": 9,
-        "golsContra": 3,
+        "golsPro": 7,
+        "golsContra": 2,
         "escanteiosPorJogo": 5.2,
         "cartoesPorJogo": 2.4
       },
@@ -5564,7 +5564,7 @@
           "gpg": 3.0,
           "gsg": 1.0
         },
-        "posicao": 3,
+        "posicao": 2,
         "pontos": 8,
         "vitorias": 2,
         "empates": 2,
