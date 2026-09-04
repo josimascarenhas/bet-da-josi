@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-03T20:26:34-03:00",
+    "atualizadoEm": "2026-09-03T22:11:58-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 390,
+    "jogosFinalizados": 391,
     "timesAtualizados": 144,
-    "placaresFonte": "calendário + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -157,7 +157,7 @@
       "fase": "Quartas — ida"
     },
     "copa": {
-      "fase": "Quartas — volta"
+      "fase": "Semifinais — ida (janela)"
     },
     "mls": {
       "timesAtivos": [
@@ -1818,22 +1818,28 @@
         "xGSporJogo": 1.18
       },
       "copa": {
-        "xGporJogo": 0.3,
-        "xGSporJogo": 0.3,
-        "jogos": 1,
-        "golsPorJogo": 0.0,
-        "golsSofridosPorJogo": 0.0,
-        "over25Pct": 0,
-        "bttsPct": 0,
-        "cleanSheetPct": 100,
+        "xGporJogo": 1.02,
+        "xGSporJogo": 0.66,
+        "jogos": 2,
+        "golsPorJogo": 1.0,
+        "golsSofridosPorJogo": 0.5,
+        "over25Pct": 50,
+        "bttsPct": 50,
+        "cleanSheetPct": 50,
         "ultimos5": [
-          "E 0-0"
+          "E 0-0",
+          "V 2-1 INT"
         ],
-        "sequencia": "1E",
+        "sequencia": "1V",
         "fora": {
           "j": 1,
           "gpg": 0.0,
           "gsg": 0.0
+        },
+        "casa": {
+          "j": 1,
+          "gpg": 2.0,
+          "gsg": 1.0
         }
       },
       "premier-league": {
@@ -1932,22 +1938,28 @@
         "xGSporJogo": 1.18
       },
       "copa": {
-        "xGporJogo": 0.3,
-        "xGSporJogo": 0.3,
-        "jogos": 1,
-        "golsPorJogo": 0.0,
-        "golsSofridosPorJogo": 0.0,
-        "over25Pct": 0,
-        "bttsPct": 0,
-        "cleanSheetPct": 100,
+        "xGporJogo": 0.66,
+        "xGSporJogo": 1.02,
+        "jogos": 2,
+        "golsPorJogo": 0.5,
+        "golsSofridosPorJogo": 1.0,
+        "over25Pct": 50,
+        "bttsPct": 50,
+        "cleanSheetPct": 50,
         "ultimos5": [
-          "E 0-0 GRE"
+          "E 0-0 GRE",
+          "D 1-2"
         ],
-        "sequencia": "1E",
+        "sequencia": "1D",
         "casa": {
           "j": 1,
           "gpg": 0.0,
           "gsg": 0.0
+        },
+        "fora": {
+          "j": 1,
+          "gpg": 1.0,
+          "gsg": 2.0
         }
       },
       "premier-league": {
