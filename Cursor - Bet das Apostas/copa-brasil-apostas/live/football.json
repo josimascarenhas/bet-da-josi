@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-03T22:11:58-03:00",
+    "atualizadoEm": "2026-09-04T03:19:15-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 391,
     "timesAtualizados": 144,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -587,11 +587,6 @@
         "golsContra": 31
       },
       "desfalques": [
-        {
-          "jogador": "Recuperado de lesão, Freytes deve voltar",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
         {
           "jogador": "Rival do Flu na Liberta deve ter desfalq",
           "motivo": "notícia GE",
