@@ -1,10 +1,18 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-03T20:26:24.540990-03:00",
+    "atualizadoEm": "2026-09-03T22:11:53.260889-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "copa-q-gre-int-vol",
+      "data": "2026-09-03",
+      "comp": "copa",
+      "mandante": "Gremio",
+      "visitante": "Internacional",
+      "placar": "2-1"
+    },
     {
       "id": "copa-q-san-pal-vol",
       "data": "2026-09-02",
@@ -236,14 +244,6 @@
       "mandante": "Koln",
       "visitante": "Hoffenheim",
       "placar": "3-2"
-    },
-    {
-      "id": "eu-bundesliga-2026-08-29-Mainz-SC-Paderborn",
-      "data": "2026-08-29",
-      "comp": "bundesliga",
-      "mandante": "Mainz",
-      "visitante": "SC-Paderborn",
-      "placar": "0-0"
     }
   ]
 }

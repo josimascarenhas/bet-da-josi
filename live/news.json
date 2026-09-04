@@ -1,34 +1,106 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-03T23:26:24.403138+00:00",
+    "atualizadoEm": "2026-09-04T01:11:53.132767+00:00",
     "fonte": "ge.globo.com",
     "fonteUrl": "https://ge.globo.com/"
   },
   "futebol": {
     "geral": [
       {
-        "titulo": "Náutico x Botafogo-SP - Campeonato Brasileiro Série B 2026 - Ao vivo - globoesporte.com",
-        "resumo": "",
-        "url": "https://ge.globo.com/pe/futebol/brasileirao-serie-b/jogo/03-09-2026/nautico-botafogo-sp.ghtml",
-        "imagem": "",
-        "data": "2026-09-03T23:16:55+00:00",
-        "dataFmt": "03/09/2026 23:16"
-      },
-      {
-        "titulo": "Grêmio x Internacional - Copa do Brasil 2026 - Ao vivo - globoesporte.com",
+        "titulo": "Carlos Vinicius brilha, Grêmio bate o Inter e avança às quartas da Copa do Brasil",
         "resumo": "",
         "url": "https://ge.globo.com/rs/futebol/copa-do-brasil/jogo/03-09-2026/gremio-internacional.ghtml",
         "imagem": "",
-        "data": "2026-09-03T23:16:40+00:00",
-        "dataFmt": "03/09/2026 23:16"
+        "data": "2026-09-04T01:09:09+00:00",
+        "dataFmt": "04/09/2026 01:09"
       },
       {
         "titulo": "CSA x Nacional-AM - Campeonato Brasileiro Série D 2026 - Ao vivo - globoesporte.com",
         "resumo": "",
         "url": "https://ge.globo.com/al/futebol/brasileirao-serie-d/jogo/03-09-2026/csa-al-nacional.ghtml",
         "imagem": "",
-        "data": "2026-09-03T23:16:34+00:00",
-        "dataFmt": "03/09/2026 23:16"
+        "data": "2026-09-04T01:08:40+00:00",
+        "dataFmt": "04/09/2026 01:08"
+      },
+      {
+        "titulo": "Náutico vence o Botafogo-SP nos Aflitos, amplia invencibilidade e se aproxima do G-6",
+        "resumo": "",
+        "url": "https://ge.globo.com/pe/futebol/brasileirao-serie-b/jogo/03-09-2026/nautico-botafogo-sp.ghtml",
+        "imagem": "",
+        "data": "2026-09-04T01:07:43+00:00",
+        "dataFmt": "04/09/2026 01:07"
+      },
+      {
+        "titulo": "CEO do Dínamo Moscou rebate má fé com Flamengo e Botafogo: \"Também nos consideramos vítimas\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/03/ceo-do-dinamo-moscou-rebate-ma-fe-com-flamengo-e-botafogo-tambem-nos-consideramos-vitimas.ghtml",
+        "imagem": "",
+        "data": "2026-09-04T01:07:17+00:00",
+        "dataFmt": "04/09/2026 01:07"
+      },
+      {
+        "titulo": "Atuações do Inter: Pezzolano erra em escalação e é o pior do Gre-Nal; dê suas notas",
+        "resumo": "",
+        "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/03/atuacoes-do-inter-pezzolano-erra-em-escalacao-e-e-o-pior-do-gre-nal-de-suas-notas.ghtml",
+        "imagem": "",
+        "data": "2026-09-04T01:04:46+00:00",
+        "dataFmt": "04/09/2026 01:04"
+      },
+      {
+        "titulo": "Atuações do Grêmio: Carlos Vinicius comanda vitória no Gre-Nal da Copa do Brasil; dê suas notas",
+        "resumo": "",
+        "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/03/atuacoes-do-gremio-carlos-vinicius-comanda-vitoria-no-gre-nal-da-copa-do-brasil-de-suas-notas.ghtml",
+        "imagem": "",
+        "data": "2026-09-04T01:01:51+00:00",
+        "dataFmt": "04/09/2026 01:01"
+      },
+      {
+        "titulo": "Inacreditável FC: atacante do Náutico perde gol sozinho na pequena área; veja vídeo",
+        "resumo": "",
+        "url": "https://ge.globo.com/pe/futebol/times/nautico/noticia/2026/09/03/inacreditavel-fc-atacante-do-nautico-perde-gol-incrivel-na-pequena-area-veja-video.ghtml",
+        "imagem": "",
+        "data": "2026-09-04T01:01:41+00:00",
+        "dataFmt": "04/09/2026 01:01"
+      },
+      {
+        "titulo": "Atuações do Botafogo-SP: time abusa de chances perdidas em derrota nos Aflitos; dê suas notas",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/botafogo-sp/noticia/2026/09/03/atuacoes-do-botafogo-sp-time-abusa-de-chances-perdidas-em-derrota-nos-aflitos-de-suas-notas.ghtml",
+        "imagem": "",
+        "data": "2026-09-04T01:00:15+00:00",
+        "dataFmt": "04/09/2026 01:00"
+      },
+      {
+        "titulo": "Semifinais da Copa do Brasil: veja classificados e datas dos jogos",
+        "resumo": "",
+        "url": "https://ge.globo.com/rs/futebol/copa-do-brasil/noticia/2026/09/03/semifinais-da-copa-do-brasil-veja-classificados-e-datas-dos-jogos.ghtml",
+        "imagem": "",
+        "data": "2026-09-04T00:55:36+00:00",
+        "dataFmt": "04/09/2026 00:55"
+      },
+      {
+        "titulo": "Amuzu dá passe à la Ronaldinho Gaúcho em terceiro gol do Grêmio no Gre-Nal; veja",
+        "resumo": "",
+        "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/03/amuzu-da-passe-a-la-ronaldinho-gaucho-em-terceiro-gol-do-gremio-no-gre-nal-veja.ghtml",
+        "imagem": "",
+        "data": "2026-09-04T00:40:16+00:00",
+        "dataFmt": "04/09/2026 00:40"
+      },
+      {
+        "titulo": "Gre-Nal da Copa do Brasil quebra recorde e vira maior público da história da Arena do Grêmio",
+        "resumo": "",
+        "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/03/gre-nal-da-copa-do-brasil-quebra-recorde-e-vira-maior-publico-da-historia-da-arena-do-gremio.ghtml",
+        "imagem": "",
+        "data": "2026-09-04T00:20:58+00:00",
+        "dataFmt": "04/09/2026 00:20"
+      },
+      {
+        "titulo": "Ancelotti promete renovação na seleção brasileira: \"Tem que começar uma nova geração\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/03/ancelotti-promete-renovacao-na-selecao-brasileira-tem-que-comecar-uma-nova-geracao.ghtml",
+        "imagem": "",
+        "data": "2026-09-03T23:54:25+00:00",
+        "dataFmt": "03/09/2026 23:54"
       },
       {
         "titulo": "Cuiabano ex-Fluminense retorna aos Estados Unidos para defender o Los Angeles Galaxy",
@@ -47,7 +119,7 @@
         "dataFmt": "03/09/2026 23:09"
       },
       {
-        "titulo": "Vontade de Gabriel Pereira é determinante, e Vasco avança na contratação do zagueiro",
+        "titulo": "Vasco avança na contratação do zagueiro Gabriel Pereira",
         "resumo": "",
         "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/03/vontade-de-gabriel-pereira-e-determinante-e-vasco-avanca-na-contratacao-do-zagueiro.ghtml",
         "imagem": "",
@@ -93,78 +165,6 @@
         "imagem": "",
         "data": "2026-09-03T22:21:50+00:00",
         "dataFmt": "03/09/2026 22:21"
-      },
-      {
-        "titulo": "Bahia acerta empréstimo de Lautaro López, volante argentino de 21 anos",
-        "resumo": "",
-        "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/09/03/bahia-acerta-emprestimo-de-laurato-lopez-volante-argentino-de-21-anos.ghtml",
-        "imagem": "",
-        "data": "2026-09-03T22:09:10+00:00",
-        "dataFmt": "03/09/2026 22:09"
-      },
-      {
-        "titulo": "À Justiça dos EUA, Fifa acusa Uefa de promover \"campanha de difamação\" com ações",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/03/a-justica-dos-eua-fifa-acusa-uefa-de-promover-campanha-de-difamacao-com-acoes.ghtml",
-        "imagem": "",
-        "data": "2026-09-03T22:01:57+00:00",
-        "dataFmt": "03/09/2026 22:01"
-      },
-      {
-        "titulo": "Vitória empresta atacante da base a clube turco",
-        "resumo": "",
-        "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/09/03/vitoria-empresta-atacante-da-base-a-clube-turco.ghtml",
-        "imagem": "",
-        "data": "2026-09-03T21:59:38+00:00",
-        "dataFmt": "03/09/2026 21:59"
-      },
-      {
-        "titulo": "Santa Cruz oficializa retorno de Willian Júnior e amplia reforços para quadrangular do acesso",
-        "resumo": "",
-        "url": "https://ge.globo.com/pe/futebol/times/santa-cruz/noticia/2026/09/03/santa-cruz-oficializa-retorno-de-willian-junior-e-amplia-reforcos-para-quadrangular-do-acesso.ghtml",
-        "imagem": "",
-        "data": "2026-09-03T21:49:06+00:00",
-        "dataFmt": "03/09/2026 21:49"
-      },
-      {
-        "titulo": "Ex-Flamengo e Santos, Geuvânio avança em negociação para renovar com o Amazonas para 2027",
-        "resumo": "",
-        "url": "https://ge.globo.com/am/futebol/times/amazonas-fc/noticia/2026/09/03/ex-flamengo-e-santos-geuvanio-avanca-em-negociacao-para-renovar-com-o-amazonas-para-2027.ghtml",
-        "imagem": "",
-        "data": "2026-09-03T21:38:23+00:00",
-        "dataFmt": "03/09/2026 21:38"
-      },
-      {
-        "titulo": "Anderson Talisca rescinde com o Fenerbahçe e assina com o Al-Jazira; veja números da passagem",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/03/anderson-talisca-rescinde-com-o-fenerbahce-e-assina-com-o-al-jazira-veja-numeros-da-passagem.ghtml",
-        "imagem": "",
-        "data": "2026-09-03T21:37:23+00:00",
-        "dataFmt": "03/09/2026 21:37"
-      },
-      {
-        "titulo": "Reunião de arbitragem tem protesto do Fluminense e pedido em vão por lance de Mirassol e Palmeiras",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/03/reuniao-de-arbitragem-tem-protesto-do-fluminense-e-pedido-em-vao-por-lance-de-mirassol-e-palmeiras.ghtml",
-        "imagem": "",
-        "data": "2026-09-03T21:31:00+00:00",
-        "dataFmt": "03/09/2026 21:31"
-      },
-      {
-        "titulo": "Campeonato Piauiense Série B 2026: veja a escala de árbitros para a 1ª rodada",
-        "resumo": "",
-        "url": "https://ge.globo.com/pi/futebol/piauiense-segunda-divisao/noticia/2026/09/03/campeonato-piauiense-serie-b-2026-veja-a-escala-de-arbitros-para-a-1a-rodada.ghtml",
-        "imagem": "",
-        "data": "2026-09-03T21:25:07+00:00",
-        "dataFmt": "03/09/2026 21:25"
-      },
-      {
-        "titulo": "River-PI x Picos: assista ao resumo e as entrevistas antes da estreia do Galo na Segundona",
-        "resumo": "",
-        "url": "https://ge.globo.com/pi/futebol/times/river-pi/playlist/river-pi-x-picos-assista-ao-resumo-e-as-entrevistas-antes-da-estreia-do-galo-na-segundona.ghtml",
-        "imagem": "",
-        "data": "2026-09-03T21:21:02+00:00",
-        "dataFmt": "03/09/2026 21:21"
       }
     ],
     "times": {
@@ -268,6 +268,14 @@
       ],
       "Flamengo": [
         {
+          "titulo": "CEO do Dínamo Moscou rebate má fé com Flamengo e Botafogo: \"Também nos consideramos vítimas\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/03/ceo-do-dinamo-moscou-rebate-ma-fe-com-flamengo-e-botafogo-tambem-nos-consideramos-vitimas.ghtml",
+          "imagem": "",
+          "data": "2026-09-04T01:07:17+00:00",
+          "dataFmt": "04/09/2026 01:07"
+        },
+        {
           "titulo": "Saúl volta a atuar pelo Flamengo depois de 95 dias e amplia opções de Jardim em momento decisivo",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/03/saul-volta-a-atuar-pelo-flamengo-depois-de-95-dias-e-amplia-opcoes-de-jardim-em-momento-decisivo.ghtml",
@@ -290,14 +298,6 @@
           "imagem": "",
           "data": "2026-09-03T19:09:36+00:00",
           "dataFmt": "03/09/2026 19:09"
-        },
-        {
-          "titulo": "Marcelinho projeta jogo muito difícil em Remo x Flamengo e diz: “Pontuar é o mais importante”",
-          "resumo": "",
-          "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/09/03/marcelinho-projeta-jogo-muito-dificil-em-remo-x-flamengo-e-diz-pontuar-e-o-mais-importante.ghtml",
-          "imagem": "",
-          "data": "2026-09-03T18:18:39+00:00",
-          "dataFmt": "03/09/2026 18:18"
         },
         {
           "titulo": "Jogadores vibram com \"volta inesperada\" de Plata apÃ³s reviravolta",
@@ -351,14 +351,6 @@
           "titulo": "Jardim aprova volta de Plata ao Flamengo e projeta uso de reforÃ§os: \"VÃ£o ajudar a mÃ©dio e longo prazo\"",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/02/jardim-elogia-o-mirassol-e-destaca-vitoria-do-flamengo-ouco-falar-desse-jogo-ha-seis-meses.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "02/09/2026"
-        },
-        {
-          "titulo": "AtuaÃ§Ãµes do Flamengo: Carrascal Ã© o melhor na vitÃ³ria sobre o Mirassol; dÃª suas notas",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/02/atuacoes-do-flamengo-carrascal-e-o-melhor-na-vitoria-sobre-o-mirassol-de-suas-notas.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "02/09/2026"
@@ -668,20 +660,20 @@
           "dataFmt": "03/09/2026 19:06"
         },
         {
-          "titulo": "Everton Ribeiro leva filho para competição infantil de futebol",
-          "resumo": "",
-          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/09/03/everton-ribeiro-leva-filho-para-competicao-infantil-de-futebol.ghtml",
-          "imagem": "",
-          "data": "2026-09-03T17:45:59+00:00",
-          "dataFmt": "03/09/2026 17:45"
-        },
-        {
           "titulo": "Veja quem chega e quem sai do Bahia no segundo semestre",
           "resumo": "",
           "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/06/21/contratacoes-do-bahia-para-o-segundo-semestre-de-2026-veja-quem-chega-e-quem-vai-embora.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "21/06/2026"
+        },
+        {
+          "titulo": "Meia leva filho para torneio infantil: \"Importante Ã© se divertir\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/09/03/everton-ribeiro-leva-filho-para-competicao-infantil-de-futebol.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "03/09/2026"
         },
         {
           "titulo": "Everton Ribeiro treina sem restriÃ§Ã£o e pode voltar ao time",
@@ -1118,12 +1110,28 @@
       ],
       "Botafogo": [
         {
-          "titulo": "Náutico x Botafogo-SP - Campeonato Brasileiro Série B 2026 - Ao vivo - globoesporte.com",
+          "titulo": "Náutico vence o Botafogo-SP nos Aflitos, amplia invencibilidade e se aproxima do G-6",
           "resumo": "",
           "url": "https://ge.globo.com/pe/futebol/brasileirao-serie-b/jogo/03-09-2026/nautico-botafogo-sp.ghtml",
           "imagem": "",
-          "data": "2026-09-03T23:16:55+00:00",
-          "dataFmt": "03/09/2026 23:16"
+          "data": "2026-09-04T01:07:43+00:00",
+          "dataFmt": "04/09/2026 01:07"
+        },
+        {
+          "titulo": "CEO do Dínamo Moscou rebate má fé com Flamengo e Botafogo: \"Também nos consideramos vítimas\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/03/ceo-do-dinamo-moscou-rebate-ma-fe-com-flamengo-e-botafogo-tambem-nos-consideramos-vitimas.ghtml",
+          "imagem": "",
+          "data": "2026-09-04T01:07:17+00:00",
+          "dataFmt": "04/09/2026 01:07"
+        },
+        {
+          "titulo": "Atuações do Botafogo-SP: time abusa de chances perdidas em derrota nos Aflitos; dê suas notas",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/botafogo-sp/noticia/2026/09/03/atuacoes-do-botafogo-sp-time-abusa-de-chances-perdidas-em-derrota-nos-aflitos-de-suas-notas.ghtml",
+          "imagem": "",
+          "data": "2026-09-04T01:00:15+00:00",
+          "dataFmt": "04/09/2026 01:00"
         },
         {
           "titulo": "Botafogo aguarda retorno de Matheus Martins, que deve ser desfalque contra o Palmeiras",
@@ -1196,25 +1204,17 @@
           "imagem": "",
           "data": "",
           "dataFmt": "02/09/2026"
-        },
-        {
-          "titulo": "Como fica a dÃ­vida com a MLS? Entenda a venda de Santi",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/02/como-fica-a-divida-do-botafogo-com-a-mls-entenda-a-venda-de-santi-rodriguez.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "02/09/2026"
-        },
-        {
-          "titulo": "Ythallo rescinde com o Botafogo e Ã© anunciado no Santa Clara",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/02/ythallo-rescinde-com-o-botafogo-e-e-anunciado-no-santa-clara-de-portugal.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "02/09/2026"
         }
       ],
       "Vitoria": [
+        {
+          "titulo": "Atuações do Grêmio: Carlos Vinicius comanda vitória no Gre-Nal da Copa do Brasil; dê suas notas",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/03/atuacoes-do-gremio-carlos-vinicius-comanda-vitoria-no-gre-nal-da-copa-do-brasil-de-suas-notas.ghtml",
+          "imagem": "",
+          "data": "2026-09-04T01:01:51+00:00",
+          "dataFmt": "04/09/2026 01:01"
+        },
         {
           "titulo": "Vitória empresta atacante da base a clube turco",
           "resumo": "",
@@ -1230,14 +1230,6 @@
           "imagem": "",
           "data": "2026-09-03T20:45:15+00:00",
           "dataFmt": "03/09/2026 20:45"
-        },
-        {
-          "titulo": "Patric marca e garante vitória do Zweigen Kanazawa no Japão",
-          "resumo": "",
-          "url": "https://ge.globo.com/ap/noticia/2026/09/03/patric-marca-e-garante-vitoria-do-zweigen-kanazawa-no-japao.ghtml",
-          "imagem": "",
-          "data": "2026-09-03T17:49:19+00:00",
-          "dataFmt": "03/09/2026 17:49"
         },
         {
           "titulo": "AnÃ¡lise: BarradÃ£o nÃ£o resiste Ã  pobreza de ideias do VitÃ³ria",
@@ -1322,12 +1314,12 @@
           "dataFmt": "03/09/2026 20:44"
         },
         {
-          "titulo": "São Paulo inscreve Gustavo Santana e mais dois para enfrentar o Boca Juniors na Sul-Americana",
+          "titulo": "SÃ£o Paulo inscreve Gustavo Santana e mais dois para enfrentar o Boca",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/03/sao-paulo-inscreve-gustavo-santana-e-mais-dois-para-enfrentar-o-boca-juniors-na-sul-americana.ghtml",
           "imagem": "",
-          "data": "2026-09-03T17:54:20+00:00",
-          "dataFmt": "03/09/2026 17:54"
+          "data": "",
+          "dataFmt": "03/09/2026"
         },
         {
           "titulo": "Vai lotar? 20 mil vendidos para SÃ£o Paulo x AtlÃ©tico-MG",
@@ -1510,49 +1502,57 @@
       ],
       "Gremio": [
         {
-          "titulo": "Grêmio x Internacional - Copa do Brasil 2026 - Ao vivo - globoesporte.com",
+          "titulo": "Carlos Vinicius brilha, Grêmio bate o Inter e avança às quartas da Copa do Brasil",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/copa-do-brasil/jogo/03-09-2026/gremio-internacional.ghtml",
           "imagem": "",
-          "data": "2026-09-03T23:16:40+00:00",
-          "dataFmt": "03/09/2026 23:16"
+          "data": "2026-09-04T01:09:09+00:00",
+          "dataFmt": "04/09/2026 01:09"
         },
         {
-          "titulo": "GrÃªmio tem reforÃ§o Ã s vÃ©speras do Gre-Nal; veja provÃ¡vel time",
+          "titulo": "Atuações do Grêmio: Carlos Vinicius comanda vitória no Gre-Nal da Copa do Brasil; dê suas notas",
           "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/02/gremio-tem-reforco-as-vesperas-do-gre-nal-decisivo-da-copa-do-brasil-veja-provavel-time.ghtml",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/03/atuacoes-do-gremio-carlos-vinicius-comanda-vitoria-no-gre-nal-da-copa-do-brasil-de-suas-notas.ghtml",
           "imagem": "",
-          "data": "",
-          "dataFmt": "02/09/2026"
+          "data": "2026-09-04T01:01:51+00:00",
+          "dataFmt": "04/09/2026 01:01"
         },
         {
-          "titulo": "Cinco pontos para o GrÃªmio ajustar antes das quartas de final",
+          "titulo": "Grêmio 3 x 1 Internacional tem maior público dos jogos de volta das quartas da Copa do Brasil 2026",
           "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/02/gre-nal-da-copa-do-brasil-cinco-pontos-para-o-gremio-ajustar-antes-das-quartas-de-final.ghtml",
+          "url": "https://ge.globo.com/gato-mestre/noticia/2026/09/03/gremio-3-x-1-internacional-tem-maior-publico-dos-jogos-de-volta-das-quartas-da-copa-do-brasil-2026.ghtml",
           "imagem": "",
-          "data": "",
-          "dataFmt": "02/09/2026"
+          "data": "2026-09-04T00:56:58+00:00",
+          "dataFmt": "04/09/2026 00:56"
         },
         {
-          "titulo": "GrÃªmio espera maior pÃºblico do ano na Arena no Gre-Nal",
+          "titulo": "Amuzu dá passe à la Ronaldinho Gaúcho em terceiro gol do Grêmio no Gre-Nal; veja",
           "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/02/gremio-espera-maior-publico-do-ano-na-arena-no-gre-nal-da-copa-do-brasil.ghtml",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/03/amuzu-da-passe-a-la-ronaldinho-gaucho-em-terceiro-gol-do-gremio-no-gre-nal-veja.ghtml",
           "imagem": "",
-          "data": "",
-          "dataFmt": "02/09/2026"
+          "data": "2026-09-04T00:40:16+00:00",
+          "dataFmt": "04/09/2026 00:40"
         },
         {
-          "titulo": "Pode sair? Saiba como Gre-Nal pesa para o futuro de LuÃ­s Castro",
+          "titulo": "Gre-Nal da Copa do Brasil quebra recorde e vira maior público da história da Arena do Grêmio",
           "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/03/como-gre-nal-da-copa-do-brasil-pesa-para-o-futuro-de-luis-castro-no-gremio.ghtml",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/03/gre-nal-da-copa-do-brasil-quebra-recorde-e-vira-maior-publico-da-historia-da-arena-do-gremio.ghtml",
+          "imagem": "",
+          "data": "2026-09-04T00:20:58+00:00",
+          "dataFmt": "04/09/2026 00:20"
+        },
+        {
+          "titulo": "HerÃ³i em 1994, ex-atacante indica caminho para o GrÃªmio vencer o Gre-Nal e pede espÃ­rito guerreiro",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/03/heroi-em-1994-ex-atacante-indica-caminho-para-o-gremio-vencer-o-gre-nal-e-pede-espirito-guerreiro.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "03/09/2026"
         },
         {
-          "titulo": "HerÃ³i em 1994, Nildo indica caminho para o GrÃªmio vencer o Gre-Nal",
+          "titulo": "Como Gre-Nal da Copa do Brasil pesa para o futuro de LuÃ­s Castro no GrÃªmio",
           "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/03/heroi-em-1994-ex-atacante-indica-caminho-para-o-gremio-vencer-o-gre-nal-e-pede-espirito-guerreiro.ghtml",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/03/como-gre-nal-da-copa-do-brasil-pesa-para-o-futuro-de-luis-castro-no-gremio.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "03/09/2026"
@@ -1561,6 +1561,22 @@
           "titulo": "Porto anuncia Gabriel Mec e detalha negÃ³cio com o GrÃªmio; saiba os valores",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/02/porto-anuncia-gabriel-mec-e-detalha-negocio-com-o-gremio-saiba-mais.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "02/09/2026"
+        },
+        {
+          "titulo": "GrÃªmio espera maior pÃºblico do ano na Arena no Gre-Nal da Copa do Brasil",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/02/gremio-espera-maior-publico-do-ano-na-arena-no-gre-nal-da-copa-do-brasil.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "02/09/2026"
+        },
+        {
+          "titulo": "GrÃªmio tem reforÃ§o Ã s vÃ©speras do Gre-Nal decisivo da Copa do Brasil; veja provÃ¡vel time",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/02/gremio-tem-reforco-as-vesperas-do-gre-nal-decisivo-da-copa-do-brasil-veja-provavel-time.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "02/09/2026"
@@ -1580,40 +1596,40 @@
           "imagem": "",
           "data": "",
           "dataFmt": "02/09/2026"
-        },
-        {
-          "titulo": "Viery e Mec tÃªm salto em aproveitamento antes de vendas pelo GrÃªmio; veja nÃºmeros",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/01/viery-e-mec-tem-salto-em-aproveitamento-antes-de-venda-pelo-gremio-veja-numeros.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "01/09/2026"
-        },
-        {
-          "titulo": "EmpresÃ¡rio cobra R$ 19 milhÃµes do GrÃªmio e pede penhora de prÃªmios da Copa do Brasil e venda de Viery",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/01/empresario-cobra-r-19-milhoes-do-gremio-e-pede-penhora-de-premios-da-copa-do-brasil-e-venda-de-viery.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "01/09/2026"
-        },
-        {
-          "titulo": "Expectativa frustrada: saiba por que o GrÃªmio vendeu Gabriel Mec por menos do que esperava",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/01/expectativa-frustrada-saiba-por-que-o-gremio-vendeu-gabriel-mec-por-menos-do-que-esperava.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "01/09/2026"
         }
       ],
       "Internacional": [
         {
-          "titulo": "Grêmio x Internacional - Copa do Brasil 2026 - Ao vivo - globoesporte.com",
+          "titulo": "Carlos Vinicius brilha, Grêmio bate o Inter e avança às quartas da Copa do Brasil",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/copa-do-brasil/jogo/03-09-2026/gremio-internacional.ghtml",
           "imagem": "",
-          "data": "2026-09-03T23:16:40+00:00",
-          "dataFmt": "03/09/2026 23:16"
+          "data": "2026-09-04T01:09:09+00:00",
+          "dataFmt": "04/09/2026 01:09"
+        },
+        {
+          "titulo": "Atuações do Inter: Pezzolano erra em escalação e é o pior do Gre-Nal; dê suas notas",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/03/atuacoes-do-inter-pezzolano-erra-em-escalacao-e-e-o-pior-do-gre-nal-de-suas-notas.ghtml",
+          "imagem": "",
+          "data": "2026-09-04T01:04:46+00:00",
+          "dataFmt": "04/09/2026 01:04"
+        },
+        {
+          "titulo": "Grêmio 3 x 1 Internacional tem maior público dos jogos de volta das quartas da Copa do Brasil 2026",
+          "resumo": "",
+          "url": "https://ge.globo.com/gato-mestre/noticia/2026/09/03/gremio-3-x-1-internacional-tem-maior-publico-dos-jogos-de-volta-das-quartas-da-copa-do-brasil-2026.ghtml",
+          "imagem": "",
+          "data": "2026-09-04T00:56:58+00:00",
+          "dataFmt": "04/09/2026 00:56"
+        },
+        {
+          "titulo": "Ancelotti promete renovação na seleção brasileira: \"Tem que começar uma nova geração\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/03/ancelotti-promete-renovacao-na-selecao-brasileira-tem-que-comecar-uma-nova-geracao.ghtml",
+          "imagem": "",
+          "data": "2026-09-03T23:54:25+00:00",
+          "dataFmt": "03/09/2026 23:54"
         },
         {
           "titulo": "À Justiça dos EUA, Fifa acusa Uefa de promover \"campanha de difamação\" com ações",
@@ -1648,36 +1664,20 @@
           "dataFmt": "03/09/2026"
         },
         {
-          "titulo": "Inter adianta salÃ¡rio e quita parte de dÃ­vidas com jogadores",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/02/inter-adianta-salario-quita-parte-de-dividas-e-vai-ao-gre-nal-com-volta-de-titulares-veja-provavel-time.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "02/09/2026"
-        },
-        {
-          "titulo": "Alan Patrick pode virar maior artilheiro do Gre-Nal em 60 anos",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/02/duvida-no-inter-alan-patrick-pode-se-tornar-o-maior-artilheiro-do-gre-nal-em-mais-de-60-anos.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "02/09/2026"
-        },
-        {
-          "titulo": "Cinco pontos para o Inter ajustar antes das quartas de final",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/02/gre-nal-da-copa-do-brasil-cinco-pontos-para-o-inter-ajustar-antes-das-quartas-de-final.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "02/09/2026"
-        },
-        {
-          "titulo": "Corre risco? Saiba como Gre-Nal pesa para o futuro de Pezzolano",
+          "titulo": "Como Gre-Nal da Copa do Brasil pesa para o futuro de Pezzolano no Inter",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/03/como-gre-nal-da-copa-do-brasil-pesa-para-o-futuro-de-pezzolano-no-inter.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "03/09/2026"
+        },
+        {
+          "titulo": "Inter adianta salÃ¡rio, quita parte de dÃ­vidas e vai ao Gre-Nal com volta de titulares; veja provÃ¡vel time",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/02/inter-adianta-salario-quita-parte-de-dividas-e-vai-ao-gre-nal-com-volta-de-titulares-veja-provavel-time.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "02/09/2026"
         },
         {
           "titulo": "JustiÃ§a determina que Inter pague R$ 16,9 milhÃµes em 15 dias; empresa pede penhora de valores",
@@ -1688,20 +1688,12 @@
           "dataFmt": "02/09/2026"
         },
         {
-          "titulo": "Estudiantes sonda Villagra, emprestado ao Inter; saiba detalhes",
+          "titulo": "DÃºvida no Inter, Alan Patrick pode se tornar o maior artilheiro do Gre-Nal em mais de 60 anos",
           "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/01/estudiantes-sonda-volante-emprestado-ao-inter-saiba-detalhes.ghtml",
+          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/02/duvida-no-inter-alan-patrick-pode-se-tornar-o-maior-artilheiro-do-gre-nal-em-mais-de-60-anos.ghtml",
           "imagem": "",
           "data": "",
-          "dataFmt": "01/09/2026"
-        },
-        {
-          "titulo": "Inter inaugura estÃ¡tua de Abel Braga no Beira-Rio; veja imagens",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/01/inter-inaugura-estatua-de-abel-braga-no-beira-rio-veja-imagens.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "01/09/2026"
+          "dataFmt": "02/09/2026"
         }
       ],
       "Mirassol": [
@@ -1796,12 +1788,12 @@
       ],
       "Remo": [
         {
-          "titulo": "Marcelinho projeta jogo muito difícil em Remo x Flamengo e diz: “Pontuar é o mais importante”",
+          "titulo": "Remo x Flamengo: Marcelinho destaca foco em pontuar para sair do Z-4",
           "resumo": "",
           "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/09/03/marcelinho-projeta-jogo-muito-dificil-em-remo-x-flamengo-e-diz-pontuar-e-o-mais-importante.ghtml",
           "imagem": "",
-          "data": "2026-09-03T18:18:39+00:00",
-          "dataFmt": "03/09/2026 18:18"
+          "data": "",
+          "dataFmt": "03/09/2026"
         },
         {
           "titulo": "Remo define calendÃ¡rio para eleiÃ§Ãµes gerais; veja",
@@ -1894,7 +1886,7 @@
       ],
       "Vasco": [
         {
-          "titulo": "Vontade de Gabriel Pereira é determinante, e Vasco avança na contratação do zagueiro",
+          "titulo": "Vasco avança na contratação do zagueiro Gabriel Pereira",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/03/vontade-de-gabriel-pereira-e-determinante-e-vasco-avanca-na-contratacao-do-zagueiro.ghtml",
           "imagem": "",
@@ -2061,6 +2053,22 @@
   "tenis": {
     "geral": [
       {
+        "titulo": "Nick Kyrgios é liberado para voltar ao tênis após suspensão por metabólito de cocaína",
+        "resumo": "",
+        "url": "https://ge.globo.com/tenis/noticia/2026/09/03/nick-kyrgios-e-liberado-para-voltar-ao-tenis-apos-suspensao-por-metabolito-de-cocaina.ghtml",
+        "imagem": "",
+        "data": "2026-09-04T00:59:04+00:00",
+        "dataFmt": "04/09/2026 00:59"
+      },
+      {
+        "titulo": "Jogo com acusação de mordida termina em confusão no polo aquático; veja vídeo",
+        "resumo": "",
+        "url": "https://ge.globo.com/tenis/noticia/2026/09/03/jogo-com-acusacao-de-mordida-termina-em-confusao-no-polo-aquatico-veja-video.ghtml",
+        "imagem": "",
+        "data": "2026-09-04T00:25:51+00:00",
+        "dataFmt": "04/09/2026 00:25"
+      },
+      {
         "titulo": "Peixinho no tênis: australiano faz pontaço e elimina Musetti no US Open; veja vídeo",
         "resumo": "",
         "url": "https://ge.globo.com/tenis/noticia/2026/09/03/peixinho-no-tenis-australiano-faz-pontaco-e-elimina-musetti-no-us-open-veja-video.ghtml",
@@ -2171,14 +2179,6 @@
         "imagem": "",
         "data": "",
         "dataFmt": "01/09/2026"
-      },
-      {
-        "titulo": "Tsitsipas comenta doping de Kyrgios por cocaÃ­na: \"Surpreendido por ter demorado tanto\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/tenis/noticia/2026/08/31/tsitsipas-comenta-doping-de-kyrgios-por-cocaina-surpreendido-por-ter-demorado-tanto.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "31/08/2026"
       }
     ]
   },
