@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-04T18:16:45-03:00",
+    "atualizadoEm": "2026-09-04T20:11:30-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 391,
     "timesAtualizados": 144,
@@ -254,7 +254,7 @@
           "impacto": "medio"
         },
         {
-          "jogador": "Abel Ferreira Ã© punido com dois jogos d",
+          "jogador": "Abel Ã© punido com dois jogos de suspens",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1695,6 +1695,11 @@
           "jogador": "Neymar tem lesão na coxa direita e pode ",
           "motivo": "notícia GE",
           "impacto": "alto"
+        },
+        {
+          "jogador": "Escalação",
+          "motivo": "notícia GE",
+          "impacto": "medio"
         }
       ],
       "retornando": [
@@ -1929,6 +1934,11 @@
           "jogador": "Neymar tem lesão na coxa direita e pode ",
           "motivo": "notícia GE",
           "impacto": "alto"
+        },
+        {
+          "jogador": "Escalação",
+          "motivo": "notícia GE",
+          "impacto": "medio"
         }
       ],
       "retornando": [
@@ -2249,7 +2259,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Recuperado de lesão, Freytes deve voltar",
+          "jogador": "Oito credores acionam Justiça e pedem su",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
