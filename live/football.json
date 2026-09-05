@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-05T07:50:41-03:00",
+    "atualizadoEm": "2026-09-05T10:41:56-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 391,
     "timesAtualizados": 144,
@@ -1677,11 +1677,6 @@
       },
       "desfalques": [
         {
-          "jogador": "Neymar deve desfalcar Santos por pelo me",
-          "motivo": "notícia GE",
-          "impacto": "alto"
-        },
-        {
           "jogador": "Barreal e Lucas VerÃ­ssimo tambÃ©m viram",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -2035,11 +2030,6 @@
         "golsContra": 37
       },
       "desfalques": [
-        {
-          "jogador": "Escalação do Mirassol",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
         {
           "jogador": "EscalaÃ§Ã£o do Mirassol",
           "motivo": "notícia GE",
