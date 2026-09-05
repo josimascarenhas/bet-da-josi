@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-04T20:11:30-03:00",
+    "atualizadoEm": "2026-09-04T22:16:59-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 391,
     "timesAtualizados": 144,
@@ -239,12 +239,7 @@
           "impacto": "medio"
         },
         {
-          "jogador": "Palmeiras vai recorrer e pedir efeito su",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Palmeiras prepara mudanças na escalação ",
+          "jogador": "Clube vai pedir efeito suspensivo para t",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
@@ -1381,11 +1376,6 @@
           "impacto": "medio"
         },
         {
-          "jogador": "Palmeiras prepara mudanças na escalação ",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
           "jogador": "Botafogo aguarda Matheus Martins, que de",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -1697,7 +1687,7 @@
           "impacto": "alto"
         },
         {
-          "jogador": "Escalação",
+          "jogador": "Barreal e Lucas VerÃ­ssimo tambÃ©m viram",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1934,11 +1924,6 @@
           "jogador": "Neymar tem lesão na coxa direita e pode ",
           "motivo": "notícia GE",
           "impacto": "alto"
-        },
-        {
-          "jogador": "Escalação",
-          "motivo": "notícia GE",
-          "impacto": "medio"
         }
       ],
       "retornando": [
