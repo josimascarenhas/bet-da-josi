@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-05T17:58:11-03:00",
+    "atualizadoEm": "2026-09-05T19:44:19-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 391,
+    "jogosFinalizados": 392,
     "timesAtualizados": 144,
-    "placaresFonte": "calendário + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -17,8 +17,8 @@
         "Bahia",
         "Cruzeiro",
         "Coritiba",
-        "Atletico-MG",
         "Bragantino",
+        "Atletico-MG",
         "Corinthians",
         "Botafogo",
         "Santos",
@@ -235,11 +235,6 @@
       "desfalques": [
         {
           "jogador": "Abel Ferreira consegue efeito suspensivo",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Palmeiras vai recorrer e pedir efeito su",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -494,9 +489,9 @@
       },
       "desfalques": [
         {
-          "jogador": "Joia do Athletico sofre segunda lesão de",
+          "jogador": "Escalação do Cruzeiro",
           "motivo": "notícia GE",
-          "impacto": "medio"
+          "impacto": "alto"
         }
       ],
       "retornando": [
@@ -707,9 +702,9 @@
       },
       "desfalques": [
         {
-          "jogador": "Gabriel Pec mostra bastidores da recuper",
+          "jogador": "Escalação do Cruzeiro",
           "motivo": "notícia GE",
-          "impacto": "medio"
+          "impacto": "alto"
         }
       ],
       "retornando": [
@@ -842,9 +837,9 @@
         },
         "vitorias": 10,
         "empates": 10,
-        "derrotas": 5,
-        "golsPro": 37,
-        "golsContra": 30
+        "derrotas": 6,
+        "golsPro": 39,
+        "golsContra": 33
       },
       "desfalques": [
         {
@@ -905,8 +900,8 @@
     },
     "Bragantino": {
       "brasileirao": {
-        "posicao": 9,
-        "pontos": 32,
+        "posicao": 8,
+        "pontos": 35,
         "ultimos5": [
           "E 1-1",
           "E 0-0 COR",
@@ -933,11 +928,11 @@
           "gpg": 1.0,
           "gsg": 1.09
         },
-        "vitorias": 9,
+        "vitorias": 10,
         "empates": 5,
         "derrotas": 8,
-        "golsPro": 24,
-        "golsContra": 21
+        "golsPro": 27,
+        "golsContra": 23
       },
       "desfalques": [
         {
@@ -1091,7 +1086,7 @@
     },
     "Atletico-MG": {
       "brasileirao": {
-        "posicao": 8,
+        "posicao": 9,
         "pontos": 33,
         "ultimos5": [
           "E 1-1 BAH",
@@ -1127,7 +1122,7 @@
       },
       "desfalques": [
         {
-          "jogador": "AtlÃ©tico descarta lesÃ£o de Maycon, mas",
+          "jogador": "AtlÃ©tico-MG descarta lesÃ£o de Maycon, ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }

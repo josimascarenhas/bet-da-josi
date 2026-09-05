@@ -1,10 +1,18 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-05T17:58:02.744334-03:00",
+    "atualizadoEm": "2026-09-05T19:44:17.239232-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "br-26-Bragantino-Bahia",
+      "data": "2026-09-05",
+      "comp": "brasileirao",
+      "mandante": "Bragantino",
+      "visitante": "Bahia",
+      "placar": "3-2"
+    },
     {
       "id": "copa-q-gre-int-vol",
       "data": "2026-09-03",
@@ -236,14 +244,6 @@
       "mandante": "Liverpool",
       "visitante": "Nottingham-Forest",
       "placar": "2-2"
-    },
-    {
-      "id": "eu-bundesliga-2026-08-29-Koln-Hoffenheim",
-      "data": "2026-08-29",
-      "comp": "bundesliga",
-      "mandante": "Koln",
-      "visitante": "Hoffenheim",
-      "placar": "3-2"
     }
   ]
 }
