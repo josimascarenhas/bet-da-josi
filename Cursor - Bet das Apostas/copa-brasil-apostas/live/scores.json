@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-05T17:58:02.744334-03:00",
-    "fonte": "calendário + openligadb.de + 365scores.com",
-    "jogos": 391,
-    "finalizadosTotal": 391
+    "atualizadoEm": "2026-09-05T19:44:17.239232-03:00",
+    "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
+    "jogos": 392,
+    "finalizadosTotal": 392
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -2789,6 +2789,15 @@
       "golsFora": 1,
       "data": "2026-09-03",
       "comp": "copa"
+    },
+    "br-26-Bragantino-Bahia": {
+      "status": "finished",
+      "placar": "3-2",
+      "golsCasa": 3,
+      "golsFora": 2,
+      "data": "2026-09-05",
+      "comp": "brasileirao",
+      "fonte": "ge"
     },
     "eu-bundesliga-2026-08-29-RB-Leipzig-Borussia-Mgladbach": {
       "status": "finished",
