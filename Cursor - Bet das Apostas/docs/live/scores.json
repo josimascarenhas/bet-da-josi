@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-06T15:53:08.730132-03:00",
-    "fonte": "calendário + openligadb.de + 365scores.com",
-    "jogos": 394,
-    "finalizadosTotal": 394
+    "atualizadoEm": "2026-09-06T18:05:15.523809-03:00",
+    "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
+    "jogos": 397,
+    "finalizadosTotal": 397
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -2814,6 +2814,24 @@
       "data": "2026-09-05",
       "comp": "brasileirao"
     },
+    "br-26-Internacional-Santos": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-09-06",
+      "comp": "brasileirao",
+      "fonte": "ge"
+    },
+    "br-26-Remo-Flamengo": {
+      "status": "finished",
+      "placar": "5-2",
+      "golsCasa": 5,
+      "golsFora": 2,
+      "data": "2026-09-06",
+      "comp": "brasileirao",
+      "fonte": "ge"
+    },
     "eu-bundesliga-2026-08-29-RB-Leipzig-Borussia-Mgladbach": {
       "status": "finished",
       "placar": "3-0",
@@ -3199,6 +3217,15 @@
       "golsFora": 2,
       "data": "2026-08-31",
       "comp": "la-liga",
+      "fonte": "365scores"
+    },
+    "br-26-Cruzeiro-Athletico-PR": {
+      "status": "finished",
+      "placar": "3-1",
+      "golsCasa": 3,
+      "golsFora": 1,
+      "data": "2026-09-06",
+      "comp": "brasileirao",
       "fonte": "365scores"
     }
   }
