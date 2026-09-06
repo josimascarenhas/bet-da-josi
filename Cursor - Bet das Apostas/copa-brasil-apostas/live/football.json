@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-06T18:05:18-03:00",
+    "atualizadoEm": "2026-09-06T19:59:32-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 397,
     "timesAtualizados": 144,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -234,27 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Abel consegue efeito suspensivo e estarÃ",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Palmeiras vai recorrer e pedir efeito su",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Palmeiras prepara mudanÃ§as na escalaÃ§Ã",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Abel Ferreira Ã© punido com dois jogos d",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "STJD nega recurso do Palmeiras e mantÃ©m",
+          "jogador": "Abel Ferreira consegue efeito suspensivo",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1376,7 +1356,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o",
+          "jogador": "EscalaÃ§Ã£o do Botafogo",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
