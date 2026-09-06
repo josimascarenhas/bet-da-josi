@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-06T15:53:38-03:00",
+    "atualizadoEm": "2026-09-06T18:05:18-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 394,
+    "jogosFinalizados": 397,
     "timesAtualizados": 144,
-    "placaresFonte": "calendário + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -14,8 +14,8 @@
         "Flamengo",
         "Athletico-PR",
         "Fluminense",
-        "Bahia",
         "Cruzeiro",
+        "Bahia",
         "Coritiba",
         "Bragantino",
         "Atletico-MG",
@@ -23,12 +23,12 @@
         "Botafogo",
         "Santos",
         "Vitoria",
+        "Internacional",
         "Gremio",
         "Mirassol",
         "Sao-Paulo",
-        "Internacional",
-        "Vasco",
         "Remo",
+        "Vasco",
         "Chapecoense"
       ]
     },
@@ -242,6 +242,21 @@
           "jogador": "Palmeiras vai recorrer e pedir efeito su",
           "motivo": "notícia GE",
           "impacto": "medio"
+        },
+        {
+          "jogador": "Palmeiras prepara mudanÃ§as na escalaÃ§Ã",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Abel Ferreira Ã© punido com dois jogos d",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "STJD nega recurso do Palmeiras e mantÃ©m",
+          "motivo": "notícia GE",
+          "impacto": "medio"
         }
       ],
       "retornando": [
@@ -374,9 +389,9 @@
         },
         "vitorias": 14,
         "empates": 6,
-        "derrotas": 4,
-        "golsPro": 48,
-        "golsContra": 21
+        "derrotas": 5,
+        "golsPro": 50,
+        "golsContra": 26
       },
       "desfalques": [
         {
@@ -488,9 +503,9 @@
         },
         "vitorias": 13,
         "empates": 6,
-        "derrotas": 6,
-        "golsPro": 37,
-        "golsContra": 25
+        "derrotas": 7,
+        "golsPro": 38,
+        "golsContra": 28
       },
       "desfalques": [
         {
@@ -671,8 +686,8 @@
     },
     "Cruzeiro": {
       "brasileirao": {
-        "posicao": 6,
-        "pontos": 39,
+        "posicao": 5,
+        "pontos": 42,
         "ultimos5": [
           "D 0-1 BOT",
           "V 1-0",
@@ -699,11 +714,11 @@
           "gpg": 1.18,
           "gsg": 1.64
         },
-        "vitorias": 11,
+        "vitorias": 12,
         "empates": 6,
         "derrotas": 8,
-        "golsPro": 35,
-        "golsContra": 36
+        "golsPro": 38,
+        "golsContra": 37
       },
       "desfalques": [
         {
@@ -812,7 +827,7 @@
     },
     "Bahia": {
       "brasileirao": {
-        "posicao": 5,
+        "posicao": 6,
         "pontos": 40,
         "ultimos5": [
           "E 1-1 COR",
@@ -1538,7 +1553,7 @@
     },
     "Sao-Paulo": {
       "brasileirao": {
-        "posicao": 16,
+        "posicao": 17,
         "pontos": 27,
         "ultimos5": [
           "D 1-2 ATHPR",
@@ -1661,9 +1676,9 @@
         },
         "vitorias": 7,
         "empates": 8,
-        "derrotas": 9,
-        "golsPro": 34,
-        "golsContra": 36
+        "derrotas": 10,
+        "golsPro": 35,
+        "golsContra": 38
       },
       "desfalques": [
         {
@@ -1751,7 +1766,7 @@
     },
     "Gremio": {
       "brasileirao": {
-        "posicao": 14,
+        "posicao": 15,
         "pontos": 28,
         "ultimos5": [
           "D 1-2",
@@ -1865,8 +1880,8 @@
     },
     "Internacional": {
       "brasileirao": {
-        "posicao": 17,
-        "pontos": 25,
+        "posicao": 14,
+        "pontos": 28,
         "ultimos5": [
           "D 0-2",
           "E 1-1 FLA",
@@ -1893,11 +1908,11 @@
           "gpg": 0.91,
           "gsg": 1.36
         },
-        "vitorias": 5,
+        "vitorias": 6,
         "empates": 10,
         "derrotas": 10,
-        "golsPro": 26,
-        "golsContra": 30
+        "golsPro": 28,
+        "golsContra": 31
       },
       "desfalques": [
         {
@@ -1985,7 +2000,7 @@
     },
     "Mirassol": {
       "brasileirao": {
-        "posicao": 15,
+        "posicao": 16,
         "pontos": 28,
         "ultimos5": [
           "E 1-1",
@@ -2095,8 +2110,8 @@
     },
     "Remo": {
       "brasileirao": {
-        "posicao": 19,
-        "pontos": 23,
+        "posicao": 18,
+        "pontos": 26,
         "ultimos5": [
           "V 2-0 VIT",
           "D 1-2",
@@ -2123,11 +2138,11 @@
           "gpg": 0.92,
           "gsg": 1.83
         },
-        "vitorias": 5,
+        "vitorias": 6,
         "empates": 8,
         "derrotas": 11,
-        "golsPro": 28,
-        "golsContra": 38
+        "golsPro": 33,
+        "golsContra": 40
       },
       "desfalques": [
         {
@@ -2188,7 +2203,7 @@
     },
     "Vasco": {
       "brasileirao": {
-        "posicao": 18,
+        "posicao": 19,
         "pontos": 25,
         "ultimos5": [
           "D 0-1",
