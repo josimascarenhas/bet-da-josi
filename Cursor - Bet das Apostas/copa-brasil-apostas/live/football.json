@@ -1,8 +1,8 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-05T19:44:19-03:00",
+    "atualizadoEm": "2026-09-05T21:37:50-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 392,
+    "jogosFinalizados": 393,
     "timesAtualizados": 144,
     "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
@@ -24,9 +24,9 @@
         "Santos",
         "Vitoria",
         "Gremio",
+        "Mirassol",
         "Sao-Paulo",
         "Internacional",
-        "Mirassol",
         "Vasco",
         "Remo",
         "Chapecoense"
@@ -235,6 +235,11 @@
       "desfalques": [
         {
           "jogador": "Abel Ferreira consegue efeito suspensivo",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Palmeiras vai recorrer e pedir efeito su",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1023,9 +1028,9 @@
         },
         "vitorias": 10,
         "empates": 7,
-        "derrotas": 8,
-        "golsPro": 33,
-        "golsContra": 33
+        "derrotas": 9,
+        "golsPro": 34,
+        "golsContra": 35
       },
       "desfalques": [
         {
@@ -1242,7 +1247,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Yuri regride em recuperaÃ§Ã£o de lesÃ£o ",
+          "jogador": "Escalação",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1543,7 +1548,7 @@
     },
     "Sao-Paulo": {
       "brasileirao": {
-        "posicao": 15,
+        "posicao": 16,
         "pontos": 27,
         "ultimos5": [
           "D 1-2 ATHPR",
@@ -1870,7 +1875,7 @@
     },
     "Internacional": {
       "brasileirao": {
-        "posicao": 16,
+        "posicao": 17,
         "pontos": 25,
         "ultimos5": [
           "D 0-2",
@@ -1990,8 +1995,8 @@
     },
     "Mirassol": {
       "brasileirao": {
-        "posicao": 17,
-        "pontos": 25,
+        "posicao": 15,
+        "pontos": 28,
         "ultimos5": [
           "E 1-1",
           "V 2-1 REM",
@@ -2018,11 +2023,11 @@
           "gpg": 0.91,
           "gsg": 1.64
         },
-        "vitorias": 6,
+        "vitorias": 7,
         "empates": 7,
         "derrotas": 11,
-        "golsPro": 27,
-        "golsContra": 37
+        "golsPro": 29,
+        "golsContra": 38
       },
       "desfalques": [
         {
