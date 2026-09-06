@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-05T19:44:17.239232-03:00",
+    "atualizadoEm": "2026-09-05T21:37:43.591646-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
@@ -12,6 +12,14 @@
       "mandante": "Bragantino",
       "visitante": "Bahia",
       "placar": "3-2"
+    },
+    {
+      "id": "br-26-Coritiba-Mirassol",
+      "data": "2026-09-05",
+      "comp": "brasileirao",
+      "mandante": "Coritiba",
+      "visitante": "Mirassol",
+      "placar": "1-2"
     },
     {
       "id": "copa-q-gre-int-vol",
@@ -236,14 +244,6 @@
       "mandante": "New-England-Revolution",
       "visitante": "Columbus-Crew",
       "placar": "3-1"
-    },
-    {
-      "id": "eu-premier-league-2026-08-29-Liverpool-Nottingham-Forest",
-      "data": "2026-08-29",
-      "comp": "premier-league",
-      "mandante": "Liverpool",
-      "visitante": "Nottingham-Forest",
-      "placar": "2-2"
     }
   ]
 }

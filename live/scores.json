@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-05T19:44:17.239232-03:00",
+    "atualizadoEm": "2026-09-05T21:37:43.591646-03:00",
     "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
-    "jogos": 392,
-    "finalizadosTotal": 392
+    "jogos": 393,
+    "finalizadosTotal": 393
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -2794,6 +2794,14 @@
       "status": "finished",
       "placar": "3-2",
       "golsCasa": 3,
+      "golsFora": 2,
+      "data": "2026-09-05",
+      "comp": "brasileirao"
+    },
+    "br-26-Coritiba-Mirassol": {
+      "status": "finished",
+      "placar": "1-2",
+      "golsCasa": 1,
       "golsFora": 2,
       "data": "2026-09-05",
       "comp": "brasileirao",
