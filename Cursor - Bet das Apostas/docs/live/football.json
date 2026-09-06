@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-06T07:22:36-03:00",
+    "atualizadoEm": "2026-09-06T10:46:03-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 394,
     "timesAtualizados": 144,
@@ -234,7 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Abel consegue efeito suspensivo e comand",
+          "jogador": "Abel consegue efeito suspensivo e estarÃ",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
@@ -1364,11 +1364,6 @@
           "jogador": "EscalaÃ§Ã£o",
           "motivo": "notícia GE",
           "impacto": "medio"
-        },
-        {
-          "jogador": "Botafogo aguarda Matheus Martins, que de",
-          "motivo": "notícia GE",
-          "impacto": "medio"
         }
       ],
       "retornando": [
@@ -1792,7 +1787,7 @@
       },
       "desfalques": [
         {
-          "jogador": "GrÃªmio tem desfalques e dÃºvidas para p",
+          "jogador": "GrÃªmio tem desfalques e dÃºvidas contra",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
