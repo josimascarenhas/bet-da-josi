@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-05T21:37:43.591646-03:00",
+    "atualizadoEm": "2026-09-06T02:33:38.571582-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
@@ -20,6 +20,14 @@
       "mandante": "Coritiba",
       "visitante": "Mirassol",
       "placar": "1-2"
+    },
+    {
+      "id": "br-26-Fluminense-Vasco",
+      "data": "2026-09-05",
+      "comp": "brasileirao",
+      "mandante": "Fluminense",
+      "visitante": "Vasco",
+      "placar": "1-0"
     },
     {
       "id": "copa-q-gre-int-vol",
@@ -236,14 +244,6 @@
       "mandante": "FC-Dallas",
       "visitante": "St-Louis-City",
       "placar": "3-3"
-    },
-    {
-      "id": "us-mls-2026-08-30-New-England-Revolution-Columbus-Crew",
-      "data": "2026-08-30",
-      "comp": "mls",
-      "mandante": "New-England-Revolution",
-      "visitante": "Columbus-Crew",
-      "placar": "3-1"
     }
   ]
 }

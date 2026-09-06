@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-05T21:37:43.591646-03:00",
+    "atualizadoEm": "2026-09-06T02:33:38.571582-03:00",
     "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
-    "jogos": 393,
-    "finalizadosTotal": 393
+    "jogos": 394,
+    "finalizadosTotal": 394
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -2803,6 +2803,14 @@
       "placar": "1-2",
       "golsCasa": 1,
       "golsFora": 2,
+      "data": "2026-09-05",
+      "comp": "brasileirao"
+    },
+    "br-26-Fluminense-Vasco": {
+      "status": "finished",
+      "placar": "1-0",
+      "golsCasa": 1,
+      "golsFora": 0,
       "data": "2026-09-05",
       "comp": "brasileirao",
       "fonte": "ge"

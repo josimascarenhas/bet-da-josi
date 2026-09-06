@@ -1,8 +1,8 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-05T21:37:50-03:00",
+    "atualizadoEm": "2026-09-06T02:33:56-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 393,
+    "jogosFinalizados": 394,
     "timesAtualizados": 144,
     "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
@@ -234,12 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Abel Ferreira consegue efeito suspensivo",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Palmeiras vai recorrer e pedir efeito su",
+          "jogador": "Abel consegue efeito suspensivo e comand",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -558,7 +553,7 @@
     "Fluminense": {
       "brasileirao": {
         "posicao": 4,
-        "pontos": 42,
+        "pontos": 45,
         "ultimos5": [
           "E 1-1",
           "E 0-0 BAH",
@@ -585,10 +580,10 @@
           "gpg": 1.18,
           "gsg": 1.36
         },
-        "vitorias": 11,
+        "vitorias": 12,
         "empates": 9,
         "derrotas": 5,
-        "golsPro": 38,
+        "golsPro": 39,
         "golsContra": 31
       },
       "desfalques": [
@@ -1361,11 +1356,6 @@
       },
       "desfalques": [
         {
-          "jogador": "Abel Ferreira consegue efeito suspensivo",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
           "jogador": "EscalaÃ§Ã£o",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -1797,7 +1787,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Grêmio tem desfalques e dúvidas para enc",
+          "jogador": "GrÃªmio tem desfalques e dÃºvidas para p",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2228,9 +2218,9 @@
         },
         "vitorias": 6,
         "empates": 7,
-        "derrotas": 11,
+        "derrotas": 12,
         "golsPro": 27,
-        "golsContra": 39
+        "golsContra": 40
       },
       "desfalques": [
         {
