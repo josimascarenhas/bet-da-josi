@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-06T02:33:56-03:00",
+    "atualizadoEm": "2026-09-06T07:22:36-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 394,
     "timesAtualizados": 144,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -235,6 +235,11 @@
       "desfalques": [
         {
           "jogador": "Abel consegue efeito suspensivo e comand",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Palmeiras vai recorrer e pedir efeito su",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
