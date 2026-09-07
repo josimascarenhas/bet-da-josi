@@ -1,7 +1,7 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-06T21:51:37.458444-03:00",
-    "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
+    "atualizadoEm": "2026-09-07T02:44:38.005154-03:00",
+    "fonte": "calendário + openligadb.de + 365scores.com",
     "jogos": 399,
     "finalizadosTotal": 399
   },
@@ -2844,8 +2844,7 @@
       "golsCasa": 0,
       "golsFora": 0,
       "data": "2026-09-06",
-      "comp": "brasileirao",
-      "fonte": "ge"
+      "comp": "brasileirao"
     },
     "br-26-Corinthians-Chapecoense": {
       "status": "finished",
@@ -2853,8 +2852,7 @@
       "golsCasa": 2,
       "golsFora": 1,
       "data": "2026-09-06",
-      "comp": "brasileirao",
-      "fonte": "ge"
+      "comp": "brasileirao"
     },
     "eu-bundesliga-2026-08-29-RB-Leipzig-Borussia-Mgladbach": {
       "status": "finished",

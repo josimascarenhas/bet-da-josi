@@ -1,25 +1,153 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-07T00:51:37.326861+00:00",
+    "atualizadoEm": "2026-09-07T05:44:37.865230+00:00",
     "fonte": "ge.globo.com",
     "fonteUrl": "https://ge.globo.com/"
   },
   "futebol": {
     "geral": [
       {
+        "titulo": "Plata chega a Belém em meio a \"climão\" com o Flamengo, que relaciona atacante na Libertadores",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/plata-chega-a-belem-em-meio-a-climao-com-o-flamengo-que-relaciona-atacante-na-libertadores.ghtml",
+        "imagem": "",
+        "data": "2026-09-07T05:36:37+00:00",
+        "dataFmt": "07/09/2026 05:36"
+      },
+      {
+        "titulo": "CSA completa 113 anos entre a força da história e a necessidade de reconstrução",
+        "resumo": "",
+        "url": "https://ge.globo.com/al/futebol/times/csa/noticia/2026/09/07/csa-completa-113-anos-entre-a-forca-da-historia-e-a-necessidade-de-reconstrucao.ghtml",
+        "imagem": "",
+        "data": "2026-09-07T05:27:23+00:00",
+        "dataFmt": "07/09/2026 05:27"
+      },
+      {
+        "titulo": "Análise: Flamengo vira líder do Brasileirão com futebol vistoso até debaixo de temporal",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/analise-flamengo-vira-lider-do-brasileirao-com-futebol-vistoso-ate-debaixo-de-temporal.ghtml",
+        "imagem": "",
+        "data": "2026-09-07T04:32:55+00:00",
+        "dataFmt": "07/09/2026 04:32"
+      },
+      {
+        "titulo": "Xabi Alonso não gosta de brasileiros? Veja o que o espanhol disse ao ge sobre jogadores do país",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/noticia/2026/09/07/xabi-alonso-nao-gosta-de-brasileiros-veja-o-que-o-espanhol-disse-ao-ge-sobre-jogadores-do-pais.ghtml",
+        "imagem": "",
+        "data": "2026-09-07T04:00:00+00:00",
+        "dataFmt": "07/09/2026 04:00"
+      },
+      {
+        "titulo": "Flamengo faz piada com \"ajuda\" do Botafogo para conseguir liderança: \"Obrigado, amigo\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/flamengo-faz-piada-com-ajuda-do-botafogo-para-conseguir-lideranca-obrigado-amigo.ghtml",
+        "imagem": "",
+        "data": "2026-09-07T03:18:38+00:00",
+        "dataFmt": "07/09/2026 03:18"
+      },
+      {
+        "titulo": "Corinthians x Cruzeiro: onde assistir ao vivo, horário e arbitragem",
+        "resumo": "",
+        "url": "https://ge.globo.com/mg/triangulo-mineiro/futebol/futebol-feminino/brasileiro-feminino/noticia/2026/09/07/corinthians-x-cruzeiro-onde-assistir-ao-vivo-horario-e-arbitragem.ghtml",
+        "imagem": "",
+        "data": "2026-09-07T03:05:00+00:00",
+        "dataFmt": "07/09/2026 03:05"
+      },
+      {
+        "titulo": "Paulista x Grêmio Prudente: veja onde assistir ao vivo e horário",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/tem-esporte/futebol/copa-paulista/noticia/2026/09/07/paulista-x-gremio-prudente-veja-onde-assistir-ao-vivo-e-horario.ghtml",
+        "imagem": "",
+        "data": "2026-09-07T03:01:00+00:00",
+        "dataFmt": "07/09/2026 03:01"
+      },
+      {
+        "titulo": "Chapecoense vence de virada e impõe quarta derrota seguida ao Corinthians",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/06-09-2026/corinthians-chapecoense.ghtml",
+        "imagem": "",
+        "data": "2026-09-07T02:23:34+00:00",
+        "dataFmt": "07/09/2026 02:23"
+      },
+      {
+        "titulo": "Diniz pede desculpa por quarta derrota seguida do Corinthians no Brasileiro: \"Eu fico constrangido\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/06/diniz-pede-desculpa-por-quarta-derrota-seguida-do-corinthians-no-brasileiro-eu-fico-constrangido.ghtml",
+        "imagem": "",
+        "data": "2026-09-07T02:17:37+00:00",
+        "dataFmt": "07/09/2026 02:17"
+      },
+      {
+        "titulo": "Libertadores: rivais dos brasileiros ganham tempo de descanso antes das quartas de final",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/06/libertadores-rivais-dos-brasileiros-ganham-tempo-de-descanso-antes-das-quartas-de-final.ghtml",
+        "imagem": "",
+        "data": "2026-09-07T02:08:59+00:00",
+        "dataFmt": "07/09/2026 02:08"
+      },
+      {
+        "titulo": "Mosaico de comemoração de 116 anos do Corinthians despenca",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/06/mosaico-de-comemoracao-de-116-anos-do-corinthians-despenca.ghtml",
+        "imagem": "",
+        "data": "2026-09-07T02:04:24+00:00",
+        "dataFmt": "07/09/2026 02:04"
+      },
+      {
+        "titulo": "Memphis critica o Corinthians e cobra melhora coletiva: \"Aprender a jogar como time grande\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/06/memphis-critica-o-corinthians-e-cobra-melhora-coletiva-aprender-a-jogar-como-time-grande.ghtml",
+        "imagem": "",
+        "data": "2026-09-07T01:49:04+00:00",
+        "dataFmt": "07/09/2026 01:49"
+      },
+      {
+        "titulo": "Abel critica árbitro e reclama de microfones em empate do Palmeiras: \"É o Big Brother?\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/06/abel-critica-arbitragem-em-empate-do-palmeiras-e-diz-consegui-controlar-os-demonios-que-tenho.ghtml",
+        "imagem": "",
+        "data": "2026-09-07T01:20:41+00:00",
+        "dataFmt": "07/09/2026 01:20"
+      },
+      {
+        "titulo": "Barros diz que Palmeiras precisa evoluir: \"Não podemos cometer os mesmos erros do ano passado\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/06/barros-diz-que-palmeiras-precisa-evoluir-nao-podemos-cometer-os-mesmos-erros-do-ano-passado.ghtml",
+        "imagem": "",
+        "data": "2026-09-07T01:13:19+00:00",
+        "dataFmt": "07/09/2026 01:13"
+      },
+      {
+        "titulo": "Palmeiras empata sem gols com o Botafogo e perde a liderança do Brasileirão",
+        "resumo": "",
+        "url": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/06-09-2026/botafogo-palmeiras.ghtml",
+        "imagem": "",
+        "data": "2026-09-07T00:59:45+00:00",
+        "dataFmt": "07/09/2026 00:59"
+      },
+      {
+        "titulo": "Torcida vaia Corinthians após quarta derrota seguida no Brasileirão e protesta: \"Time sem vergonha\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/06/torcida-vaia-corinthians-apos-quarta-derrota-seguida-no-brasileirao-e-protesta-time-sem-vergonha.ghtml",
+        "imagem": "",
+        "data": "2026-09-07T00:48:38+00:00",
+        "dataFmt": "07/09/2026 00:48"
+      },
+      {
+        "titulo": "Jogadores da Ponte fazem apelo: \"Tem funcionário que não aguenta mais um ou dois dias\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/campinas-e-regiao/futebol/times/ponte-preta/noticia/2026/09/06/jogadores-da-ponte-fazem-apelo-tem-funcionario-que-nao-aguenta-mais-um-ou-dois-dias.ghtml",
+        "imagem": "",
+        "data": "2026-09-07T00:47:17+00:00",
+        "dataFmt": "07/09/2026 00:47"
+      },
+      {
         "titulo": "Flamengo vence o Remo no Mangueirão e assume a liderança do Brasileirão",
         "resumo": "",
         "url": "https://ge.globo.com/pa/futebol/brasileirao-serie-a/jogo/06-09-2026/remo-flamengo.ghtml",
         "imagem": "",
         "data": "2026-09-07T00:44:50+00:00",
-        "dataFmt": "07/09/2026 00:44"
-      },
-      {
-        "titulo": "Corinthians x Chapecoense - Campeonato Brasileiro 2026 - globoesporte.com",
-        "resumo": "",
-        "url": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/06-09-2026/corinthians-chapecoense.ghtml",
-        "imagem": "",
-        "data": "2026-09-07T00:44:07+00:00",
         "dataFmt": "07/09/2026 00:44"
       },
       {
@@ -37,145 +165,41 @@
         "imagem": "",
         "data": "2026-09-07T00:38:36+00:00",
         "dataFmt": "07/09/2026 00:38"
-      },
-      {
-        "titulo": "Atuações do Corinthians: só Bidu se salva em péssimo jogo; dê suas notas",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/06/atuacoes-do-corinthians-so-bidu-se-salva-em-pessimo-jogo-de-suas-notas.ghtml",
-        "imagem": "",
-        "data": "2026-09-07T00:35:33+00:00",
-        "dataFmt": "07/09/2026 00:35"
-      },
-      {
-        "titulo": "Técnico elogia atuação e destaca merecimento em vitória do Santa Cruz contra o Botafogo-PB",
-        "resumo": "",
-        "url": "https://ge.globo.com/pe/futebol/times/santa-cruz/noticia/2026/09/06/tecnico-elogia-atuacao-e-destaca-merecimento-em-vitoria-do-santa-cruz-contra-o-botafogo-pb.ghtml",
-        "imagem": "",
-        "data": "2026-09-07T00:23:03+00:00",
-        "dataFmt": "07/09/2026 00:23"
-      },
-      {
-        "titulo": "Palmeiras empata sem gols com o Botafogo e perde a liderança do Brasileirão",
-        "resumo": "",
-        "url": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/06-09-2026/botafogo-palmeiras.ghtml",
-        "imagem": "",
-        "data": "2026-09-07T00:21:13+00:00",
-        "dataFmt": "07/09/2026 00:21"
-      },
-      {
-        "titulo": "Bellão desconversa sobre efetivação e elogia Botafogo em empate: \"Tivemos chances claras\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/06/bellao-analisa-empate-do-botafogo-com-o-palmeiras.ghtml",
-        "imagem": "",
-        "data": "2026-09-07T00:08:35+00:00",
-        "dataFmt": "07/09/2026 00:08"
-      },
-      {
-        "titulo": "São Bernardo se reabilita e impõe à Ponte 20º jogo seguido sem vitória",
-        "resumo": "",
-        "url": "https://ge.globo.com/sp/campinas-e-regiao/futebol/brasileirao-serie-b/jogo/06-09-2026/ponte-preta-sao-bernardo.ghtml",
-        "imagem": "",
-        "data": "2026-09-07T00:05:45+00:00",
-        "dataFmt": "07/09/2026 00:05"
-      },
-      {
-        "titulo": "Santa Cruz vence o Botafogo-PB na Arena de Pernambuco em abertura do quadrangular da Série C",
-        "resumo": "",
-        "url": "https://ge.globo.com/pe/futebol/brasileirao-serie-c/jogo/06-09-2026/santa-cruz-botafogo-pb.ghtml",
-        "imagem": "",
-        "data": "2026-09-07T00:05:22+00:00",
-        "dataFmt": "07/09/2026 00:05"
-      },
-      {
-        "titulo": "Atuações da Ponte: jogadores são os menos culpados por mais uma derrota; dê suas notas",
-        "resumo": "",
-        "url": "https://ge.globo.com/sp/campinas-e-regiao/futebol/times/ponte-preta/noticia/2026/09/06/atuacoes-da-ponte-jogadores-sao-os-menos-culpados-por-mais-uma-derrota-de-suas-notas.ghtml",
-        "imagem": "",
-        "data": "2026-09-06T23:48:58+00:00",
-        "dataFmt": "06/09/2026 23:48"
-      },
-      {
-        "titulo": "Escalação do Grêmio: Amuzu vira desfalque contra o Vitória",
-        "resumo": "",
-        "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/06/escalacao-do-gremio-amuzu-vira-desfalque-contra-o-vitoria.ghtml",
-        "imagem": "",
-        "data": "2026-09-06T23:43:56+00:00",
-        "dataFmt": "06/09/2026 23:43"
-      },
-      {
-        "titulo": "Atuações do Botafogo: Gabriel Batista e Ferraresi vão bem em empate; dê suas notas",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/06/atuacoes-do-botafogo-gabriel-batista-e-ferraresi-vao-bem-em-empate-de-suas-notas.ghtml",
-        "imagem": "",
-        "data": "2026-09-06T23:41:42+00:00",
-        "dataFmt": "06/09/2026 23:41"
-      },
-      {
-        "titulo": "Palmeiras perde Marlon Freitas e Barboza para o clássico contra o São Paulo",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/06/palmeiras-perde-marlon-freitas-e-barboza-para-o-classico-contra-o-sao-paulo.ghtml",
-        "imagem": "",
-        "data": "2026-09-06T23:31:59+00:00",
-        "dataFmt": "06/09/2026 23:31"
-      },
-      {
-        "titulo": "No reencontro com o Botafogo, Marlon Freitas é xingado de \"judas\" e tem bandeirão rasgado",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/06/no-reencontro-com-o-botafogo-marlon-freitas-e-xingado-de-judas-e-tem-bandeirao-rasgado.ghtml",
-        "imagem": "",
-        "data": "2026-09-06T23:30:28+00:00",
-        "dataFmt": "06/09/2026 23:30"
-      },
-      {
-        "titulo": "Atuações do Palmeiras: Andreas é quem mais arrisca, e Barboza é expulso em empate; dê suas notas",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/06/atuacoes-do-palmeiras-andreas-e-quem-mais-arrisca-e-barboza-e-expulso-em-empate-de-suas-notas.ghtml",
-        "imagem": "",
-        "data": "2026-09-06T23:29:46+00:00",
-        "dataFmt": "06/09/2026 23:29"
-      },
-      {
-        "titulo": "Crise sem fim: Ponte Preta se isola com o pior jejum de vitórias da história da Série B",
-        "resumo": "",
-        "url": "https://ge.globo.com/sp/campinas-e-regiao/futebol/times/ponte-preta/noticia/2026/09/06/crise-sem-fim-ponte-preta-se-isola-com-o-pior-jejum-de-vitorias-da-historia-da-serie-b.ghtml",
-        "imagem": "",
-        "data": "2026-09-06T23:28:55+00:00",
-        "dataFmt": "06/09/2026 23:28"
-      },
-      {
-        "titulo": "Flamengo assume a liderança do Brasileirão 2026 pela primeira vez após empate do Palmeiras",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/06/flamengo-assume-a-lideranca-do-brasileirao-pela-primeira-vez-apos-empate-do-palmeiras.ghtml",
-        "imagem": "",
-        "data": "2026-09-06T23:27:39+00:00",
-        "dataFmt": "06/09/2026 23:27"
-      },
-      {
-        "titulo": "Remo e Flamengo é jogo de maior público do Mangueirão em 2026 e um dos maiores após reforma",
-        "resumo": "",
-        "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/09/06/remo-e-flamengo-e-jogo-de-maior-publico-do-mangueirao-em-2026-e-um-dos-maiores-apos-reforma.ghtml",
-        "imagem": "",
-        "data": "2026-09-06T23:24:07+00:00",
-        "dataFmt": "06/09/2026 23:24"
-      },
-      {
-        "titulo": "River-PI acerta com volante Railson, ex-Maranhão, para sequência do Piauiense Série B",
-        "resumo": "",
-        "url": "https://ge.globo.com/pi/futebol/piauiense-segunda-divisao/noticia/2026/09/06/river-pi-acerta-com-volante-railson-ex-maranhao-para-sequencia-do-piauiense-serie-b-2026.ghtml",
-        "imagem": "",
-        "data": "2026-09-06T23:22:14+00:00",
-        "dataFmt": "06/09/2026 23:22"
       }
     ],
     "times": {
       "Palmeiras": [
         {
+          "titulo": "Chances de título: Flamengo vai a 69% e abre 41 pontos percentuais sobre o potencial do Palmeiras",
+          "resumo": "",
+          "url": "https://ge.globo.com/gato-mestre/noticia/2026/09/07/chances-de-titulo-flamengo-vai-a-69percent-e-abre-41-pontos-percentuais-sobre-o-potencial-do-palmeiras.ghtml",
+          "imagem": "",
+          "data": "2026-09-07T03:03:52+00:00",
+          "dataFmt": "07/09/2026 03:03"
+        },
+        {
+          "titulo": "Abel critica árbitro e reclama de microfones em empate do Palmeiras: \"É o Big Brother?\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/06/abel-critica-arbitragem-em-empate-do-palmeiras-e-diz-consegui-controlar-os-demonios-que-tenho.ghtml",
+          "imagem": "",
+          "data": "2026-09-07T01:20:41+00:00",
+          "dataFmt": "07/09/2026 01:20"
+        },
+        {
+          "titulo": "Barros diz que Palmeiras precisa evoluir: \"Não podemos cometer os mesmos erros do ano passado\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/06/barros-diz-que-palmeiras-precisa-evoluir-nao-podemos-cometer-os-mesmos-erros-do-ano-passado.ghtml",
+          "imagem": "",
+          "data": "2026-09-07T01:13:19+00:00",
+          "dataFmt": "07/09/2026 01:13"
+        },
+        {
           "titulo": "Palmeiras empata sem gols com o Botafogo e perde a liderança do Brasileirão",
           "resumo": "",
           "url": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/06-09-2026/botafogo-palmeiras.ghtml",
           "imagem": "",
-          "data": "2026-09-07T00:21:13+00:00",
-          "dataFmt": "07/09/2026 00:21"
+          "data": "2026-09-07T00:59:45+00:00",
+          "dataFmt": "07/09/2026 00:59"
         },
         {
           "titulo": "Bellão desconversa sobre efetivação e elogia Botafogo em empate: \"Tivemos chances claras\"",
@@ -240,33 +264,41 @@
           "imagem": "",
           "data": "",
           "dataFmt": "05/09/2026"
-        },
-        {
-          "titulo": "Palmeiras abre segundo semestre com dÃ©ficit; veja os valores",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/04/palmeiras-abre-segundo-semestre-com-deficit-de-r-156-milhoes-no-ano-mas-tera-receita-de-vendas.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "04/09/2026"
-        },
-        {
-          "titulo": "Palmeiras provoca Neymar e elogia gramado sintÃ©tico",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/03/palmeiras-cutuca-neymar-com-elogio-ao-gramado-do-nubank-parque-parabens-viu-otimo-trabalho.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "03/09/2026"
-        },
-        {
-          "titulo": "Palmeiras pode entrar em campo vice-lÃ­der e tem missÃ£o de evitar repetir roteiro do ano passado",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/06/palmeiras-pode-entrar-em-campo-vice-lider-e-tem-missao-de-evitar-repetir-roteiro-do-ano-passado.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "06/09/2026"
         }
       ],
       "Flamengo": [
+        {
+          "titulo": "Plata chega a Belém em meio a \"climão\" com o Flamengo, que relaciona atacante na Libertadores",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/plata-chega-a-belem-em-meio-a-climao-com-o-flamengo-que-relaciona-atacante-na-libertadores.ghtml",
+          "imagem": "",
+          "data": "2026-09-07T05:36:37+00:00",
+          "dataFmt": "07/09/2026 05:36"
+        },
+        {
+          "titulo": "Análise: Flamengo vira líder do Brasileirão com futebol vistoso até debaixo de temporal",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/analise-flamengo-vira-lider-do-brasileirao-com-futebol-vistoso-ate-debaixo-de-temporal.ghtml",
+          "imagem": "",
+          "data": "2026-09-07T04:32:55+00:00",
+          "dataFmt": "07/09/2026 04:32"
+        },
+        {
+          "titulo": "Flamengo faz piada com \"ajuda\" do Botafogo para conseguir liderança: \"Obrigado, amigo\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/flamengo-faz-piada-com-ajuda-do-botafogo-para-conseguir-lideranca-obrigado-amigo.ghtml",
+          "imagem": "",
+          "data": "2026-09-07T03:18:38+00:00",
+          "dataFmt": "07/09/2026 03:18"
+        },
+        {
+          "titulo": "Chances de título: Flamengo vai a 69% e abre 41 pontos percentuais sobre o potencial do Palmeiras",
+          "resumo": "",
+          "url": "https://ge.globo.com/gato-mestre/noticia/2026/09/07/chances-de-titulo-flamengo-vai-a-69percent-e-abre-41-pontos-percentuais-sobre-o-potencial-do-palmeiras.ghtml",
+          "imagem": "",
+          "data": "2026-09-07T03:03:52+00:00",
+          "dataFmt": "07/09/2026 03:03"
+        },
         {
           "titulo": "Flamengo vence o Remo no Mangueirão e assume a liderança do Brasileirão",
           "resumo": "",
@@ -330,38 +362,6 @@
           "imagem": "",
           "data": "2026-09-06T21:34:48+00:00",
           "dataFmt": "06/09/2026 21:34"
-        },
-        {
-          "titulo": "Atuações do Flamengo: Lino brilha e é o melhor de novo; dê suas notas",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/06/atuacoes-do-flamengo-lino-brilha-e-e-o-melhor-novamente-de-suas-notas.ghtml",
-          "imagem": "",
-          "data": "2026-09-06T21:24:01+00:00",
-          "dataFmt": "06/09/2026 21:24"
-        },
-        {
-          "titulo": "Atuações: Marcelo Rangel se destaca em derrota do Remo para o Flamengo; dê suas notas",
-          "resumo": "",
-          "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/09/06/atuacoes-marcelo-rangel-se-destaca-em-derrota-do-remo-para-o-flamengo-de-suas-notas.ghtml",
-          "imagem": "",
-          "data": "2026-09-06T21:14:59+00:00",
-          "dataFmt": "06/09/2026 21:14"
-        },
-        {
-          "titulo": "Com ídolos e Nossa Senhora, Remo apresenta três mosaicos antes de jogo com Flamengo",
-          "resumo": "",
-          "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/09/06/com-idolos-e-nossa-senhora-remo-apresenta-tres-mosaicos-antes-de-jogo-com-flamengo.ghtml",
-          "imagem": "",
-          "data": "2026-09-06T19:30:30+00:00",
-          "dataFmt": "06/09/2026 19:30"
-        },
-        {
-          "titulo": "Diretoria se irrita com situaÃ§Ã£o",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/06/flamengo-espera-volta-de-plata-neste-domingo-e-se-irrita-com-demora-em-reapresentacao.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "06/09/2026"
         }
       ],
       "Athletico-PR": [
@@ -388,14 +388,6 @@
           "imagem": "",
           "data": "2026-09-06T21:05:28+00:00",
           "dataFmt": "06/09/2026 21:05"
-        },
-        {
-          "titulo": "São Paulo x Athletico-PR - Mundial de Clubes Juvenil 2026 - globoesporte.com",
-          "resumo": "",
-          "url": "https://ge.globo.com/pr/futebol/jogo/07-09-2026/sao-paulo-atletico-pr.ghtml",
-          "imagem": "",
-          "data": "2026-09-06T19:12:09+00:00",
-          "dataFmt": "06/09/2026 19:12"
         },
         {
           "titulo": "Athletico bate Sporting e garante vaga nas semis do Mundial Juvenil",
@@ -472,14 +464,6 @@
           "dataFmt": "06/09/2026 22:00"
         },
         {
-          "titulo": "Thiago Silva e Hércules treinam e reforçam o Fluminense na Libertadores",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/06/thiago-silva-e-hercules-treinam-e-indicam-retorno-para-jogo-do-fluminense-na-libertadores.ghtml",
-          "imagem": "",
-          "data": "2026-09-06T19:50:20+00:00",
-          "dataFmt": "06/09/2026 19:50"
-        },
-        {
           "titulo": "Entenda ausÃªncia de Thiago Silva nos dois Ãºltimos jogos do Fluminense",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/06/entenda-por-que-thiago-silva-ficou-fora-dos-dois-ultimos-jogos-do-fluminense.ghtml",
@@ -491,6 +475,14 @@
           "titulo": "Guga critica gramado do MaracanÃ£ em Fluminense x Vasco: \"NÃ£o me recordo de um campo tÃ£o ruim no Brasil\"",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/06/guga-critica-gramado-do-maracana-em-fluminense-x-vasco-nao-me-recordo-de-um-campo-tao-ruim-no-brasil.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "06/09/2026"
+        },
+        {
+          "titulo": "Thiago Silva e HÃ©rcules treinam e reforÃ§am o Flu na Libertadores",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/06/thiago-silva-e-hercules-treinam-e-indicam-retorno-para-jogo-do-fluminense-na-libertadores.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "06/09/2026"
@@ -562,6 +554,14 @@
       ],
       "Cruzeiro": [
         {
+          "titulo": "Corinthians x Cruzeiro: onde assistir ao vivo, horário e arbitragem",
+          "resumo": "",
+          "url": "https://ge.globo.com/mg/triangulo-mineiro/futebol/futebol-feminino/brasileiro-feminino/noticia/2026/09/07/corinthians-x-cruzeiro-onde-assistir-ao-vivo-horario-e-arbitragem.ghtml",
+          "imagem": "",
+          "data": "2026-09-07T03:05:00+00:00",
+          "dataFmt": "07/09/2026 03:05"
+        },
+        {
           "titulo": "Cruzeiro afasta ameaça de crise, tira invencibilidade do Athletico e cola no G-5",
           "resumo": "",
           "url": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/06-09-2026/cruzeiro-atletico-pr.ghtml",
@@ -626,12 +626,12 @@
           "dataFmt": "06/09/2026 21:04"
         },
         {
-          "titulo": "Torcedores do Cruzeiro protestam contra elenco e diretoria: \"Resort do Pedrinho\"; veja reação do dono",
+          "titulo": "Torcedores protestam: \"Resort do Pedrinho\"; veja reaÃ§Ã£o do dono",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/06/torcedores-do-cruzeiro-protestam-contra-elenco-e-diretoria-resort-do-pedrinho-veja-reacao-do-dono.ghtml",
           "imagem": "",
-          "data": "2026-09-06T19:03:51+00:00",
-          "dataFmt": "06/09/2026 19:03"
+          "data": "",
+          "dataFmt": "06/09/2026"
         },
         {
           "titulo": "Como o Cruzeiro pode virar lÃ­der do returno do Brasileiro em duelo direto com o Athletico-PR",
@@ -645,14 +645,6 @@
           "titulo": "EscalaÃ§Ã£o do Cruzeiro: Gerson Ã© relacionado, mas vira dÃºvida entre titulares; veja time",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/05/escalacao-do-cruzeiro-artur-jorge-nao-conta-com-gerson-contra-o-athletico-pr-veja-time.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "05/09/2026"
-        },
-        {
-          "titulo": "Gabriel Pec mostra bastidores da recuperaÃ§Ã£o de lesÃ£o grave no Cruzeiro; veja",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/05/gabriel-pec-mostra-bastidores-da-recuperacao-de-lesao-grave-no-cruzeiro-veja.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "05/09/2026"
@@ -840,12 +832,12 @@
           "dataFmt": "06/09/2026 22:44"
         },
         {
-          "titulo": "Seabra aponta desequilíbrio do Coritiba após virada do Mirassol: \"A gente se desestabilizou\"",
+          "titulo": "Seabra aponta desequilÃ­brio do Coritiba apÃ³s virada: \"A gente se desestabilizou\"",
           "resumo": "",
           "url": "https://ge.globo.com/pr/futebol/times/coritiba/noticia/2026/09/06/seabra-aponta-desequilibrio-do-coritiba-apos-virada-do-mirassol-a-gente-se-desestabilizou.ghtml",
           "imagem": "",
-          "data": "2026-09-06T18:35:21+00:00",
-          "dataFmt": "06/09/2026 18:35"
+          "data": "",
+          "dataFmt": "06/09/2026"
         },
         {
           "titulo": "Ãrbitro marca pÃªnalti bizarro e Ã© corrigido pelo VAR; assista ao lance",
@@ -930,14 +922,6 @@
       ],
       "Atletico-MG": [
         {
-          "titulo": "Atlético-MG diminui casos no DM e aguarda retorno de dupla titular contra o Santos",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/06/atletico-mg-diminui-casos-no-dm-e-aguarda-retorno-de-dupla-titular-contra-o-santos.ghtml",
-          "imagem": "",
-          "data": "2026-09-06T18:25:01+00:00",
-          "dataFmt": "06/09/2026 18:25"
-        },
-        {
           "titulo": "DomÃ­nguez cita Flamengo ao elogiar AtlÃ©tico-MG",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/05/dominguez-aponta-peso-de-classico-em-derrota-no-brasileiro-e-cita-flamengo-ao-elogiar-atletico-mg.ghtml",
@@ -952,6 +936,14 @@
           "imagem": "",
           "data": "",
           "dataFmt": "05/09/2026"
+        },
+        {
+          "titulo": "Galo diminui casos no DM e aguarda retorno de dupla titular",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/06/atletico-mg-diminui-casos-no-dm-e-aguarda-retorno-de-dupla-titular-contra-o-santos.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "06/09/2026"
         },
         {
           "titulo": "AnÃ¡lise: AtlÃ©tico tem derrota na \"hora certa\" e com efeito mÃ­nimo",
@@ -1004,12 +996,52 @@
       ],
       "Corinthians": [
         {
-          "titulo": "Corinthians x Chapecoense - Campeonato Brasileiro 2026 - globoesporte.com",
+          "titulo": "Corinthians x Cruzeiro: onde assistir ao vivo, horário e arbitragem",
+          "resumo": "",
+          "url": "https://ge.globo.com/mg/triangulo-mineiro/futebol/futebol-feminino/brasileiro-feminino/noticia/2026/09/07/corinthians-x-cruzeiro-onde-assistir-ao-vivo-horario-e-arbitragem.ghtml",
+          "imagem": "",
+          "data": "2026-09-07T03:05:00+00:00",
+          "dataFmt": "07/09/2026 03:05"
+        },
+        {
+          "titulo": "Chapecoense vence de virada e impõe quarta derrota seguida ao Corinthians",
           "resumo": "",
           "url": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/06-09-2026/corinthians-chapecoense.ghtml",
           "imagem": "",
-          "data": "2026-09-07T00:44:07+00:00",
-          "dataFmt": "07/09/2026 00:44"
+          "data": "2026-09-07T02:23:34+00:00",
+          "dataFmt": "07/09/2026 02:23"
+        },
+        {
+          "titulo": "Diniz pede desculpa por quarta derrota seguida do Corinthians no Brasileiro: \"Eu fico constrangido\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/06/diniz-pede-desculpa-por-quarta-derrota-seguida-do-corinthians-no-brasileiro-eu-fico-constrangido.ghtml",
+          "imagem": "",
+          "data": "2026-09-07T02:17:37+00:00",
+          "dataFmt": "07/09/2026 02:17"
+        },
+        {
+          "titulo": "Mosaico de comemoração de 116 anos do Corinthians despenca",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/06/mosaico-de-comemoracao-de-116-anos-do-corinthians-despenca.ghtml",
+          "imagem": "",
+          "data": "2026-09-07T02:04:24+00:00",
+          "dataFmt": "07/09/2026 02:04"
+        },
+        {
+          "titulo": "Memphis critica o Corinthians e cobra melhora coletiva: \"Aprender a jogar como time grande\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/06/memphis-critica-o-corinthians-e-cobra-melhora-coletiva-aprender-a-jogar-como-time-grande.ghtml",
+          "imagem": "",
+          "data": "2026-09-07T01:49:04+00:00",
+          "dataFmt": "07/09/2026 01:49"
+        },
+        {
+          "titulo": "Torcida vaia Corinthians após quarta derrota seguida no Brasileirão e protesta: \"Time sem vergonha\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/06/torcida-vaia-corinthians-apos-quarta-derrota-seguida-no-brasileirao-e-protesta-time-sem-vergonha.ghtml",
+          "imagem": "",
+          "data": "2026-09-07T00:48:38+00:00",
+          "dataFmt": "07/09/2026 00:48"
         },
         {
           "titulo": "Atuações do Corinthians: só Bidu se salva em péssimo jogo; dê suas notas",
@@ -1058,49 +1090,25 @@
           "imagem": "",
           "data": "",
           "dataFmt": "04/09/2026"
-        },
-        {
-          "titulo": "Bidon e Besiktas encerram conversas, e meia fica no clube",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/03/breno-bidon-e-besiktas-encerram-conversas-e-meia-fica-no-corinthians.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "03/09/2026"
-        },
-        {
-          "titulo": "Torcida vaia Corinthians apÃ³s quarta derrota seguida no BrasileirÃ£o e protesta: \"Time sem vergonha\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/06/torcida-vaia-corinthians-apos-quarta-derrota-seguida-no-brasileirao-e-protesta-time-sem-vergonha.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "06/09/2026"
-        },
-        {
-          "titulo": "Tchoca pode ganhar primeira chance como titular no Corinthians sob o comando de Diniz",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/06/tchoca-pode-ganhar-primeira-chance-como-titular-no-corinthians-sob-o-comando-de-diniz.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "06/09/2026"
-        },
-        {
-          "titulo": "EscalaÃ§Ã£o: Corinthians detalha lesÃ£o de Yuri Alberto e fecha preparaÃ§Ã£o para enfrentar a Chape",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/05/escalacao-corinthians-detalha-lesao-de-yuri-alberto-e-fecha-preparacao-para-enfrentar-a-chape.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "05/09/2026"
-        },
-        {
-          "titulo": "Corinthians fecha parceria com Turma da MÃ´nica e estamparÃ¡ imagens do personagem CascÃ£o",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/05/corinthians-fecha-parceria-com-turma-da-monica-e-estampara-imagens-do-personagem-cascao.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "05/09/2026"
         }
       ],
       "Botafogo": [
+        {
+          "titulo": "Flamengo faz piada com \"ajuda\" do Botafogo para conseguir liderança: \"Obrigado, amigo\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/flamengo-faz-piada-com-ajuda-do-botafogo-para-conseguir-lideranca-obrigado-amigo.ghtml",
+          "imagem": "",
+          "data": "2026-09-07T03:18:38+00:00",
+          "dataFmt": "07/09/2026 03:18"
+        },
+        {
+          "titulo": "Palmeiras empata sem gols com o Botafogo e perde a liderança do Brasileirão",
+          "resumo": "",
+          "url": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/06-09-2026/botafogo-palmeiras.ghtml",
+          "imagem": "",
+          "data": "2026-09-07T00:59:45+00:00",
+          "dataFmt": "07/09/2026 00:59"
+        },
         {
           "titulo": "Técnico elogia atuação e destaca merecimento em vitória do Santa Cruz contra o Botafogo-PB",
           "resumo": "",
@@ -1108,14 +1116,6 @@
           "imagem": "",
           "data": "2026-09-07T00:23:03+00:00",
           "dataFmt": "07/09/2026 00:23"
-        },
-        {
-          "titulo": "Palmeiras empata sem gols com o Botafogo e perde a liderança do Brasileirão",
-          "resumo": "",
-          "url": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/06-09-2026/botafogo-palmeiras.ghtml",
-          "imagem": "",
-          "data": "2026-09-07T00:21:13+00:00",
-          "dataFmt": "07/09/2026 00:21"
         },
         {
           "titulo": "Bellão desconversa sobre efetivação e elogia Botafogo em empate: \"Tivemos chances claras\"",
@@ -1166,12 +1166,12 @@
           "dataFmt": "06/09/2026 21:20"
         },
         {
-          "titulo": "Botafogo chega a acordo verbal com Ziyech e aguarda o jogador no Brasil para fechar contratação",
+          "titulo": "Botafogo chega a acordo verbal com Ziyech e aguarda o jogador no Brasil",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/06/botafogo-tem-acordo-verbal-com-ziyech-e-aguarda-detalhes-para-fechar-contratacao.ghtml",
           "imagem": "",
-          "data": "2026-09-06T17:57:10+00:00",
-          "dataFmt": "06/09/2026 17:57"
+          "data": "",
+          "dataFmt": "06/09/2026"
         },
         {
           "titulo": "Wydad Casablanca se despede de Ziyech; marroquino negocia transferÃªncia para o Botafogo",
@@ -1185,14 +1185,6 @@
           "titulo": "Retirado de bandeirÃ£o de Ã­dolos, Marlon Freitas reencontra torcida do Botafogo apÃ³s saÃ­da polÃªmica",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/06/retirado-de-bandeirao-de-idolos-marlon-freitas-reencontra-torcida-do-botafogo-apos-saida-polemica.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "06/09/2026"
-        },
-        {
-          "titulo": "Botafogo nÃ£o desiste de Ziyech e mantÃ©m confianÃ§a na contrataÃ§Ã£o na reta final de janela",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/06/botafogo-nao-desiste-de-ziyech-e-mantem-confianca-na-contratacao-na-reta-final-de-janela.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "06/09/2026"
@@ -1280,20 +1272,20 @@
           "dataFmt": "06/09/2026 21:02"
         },
         {
-          "titulo": "Boxe: Katie Taylor se aposenta com vitória diante de mais de 80 mil pessoas na Irlanda",
-          "resumo": "",
-          "url": "https://ge.globo.com/combate/noticia/2026/09/06/boxe-katie-taylor-se-aposenta-com-vitoria-diante-de-mais-de-80-mil-pessoas-na-irlanda.ghtml",
-          "imagem": "",
-          "data": "2026-09-06T17:58:55+00:00",
-          "dataFmt": "06/09/2026 17:58"
-        },
-        {
           "titulo": "VitÃ³ria cai de rendimento no 2Âº semestre e vive sua pior sequÃªncia",
           "resumo": "",
           "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/09/06/vitoria-cai-de-rendimento-no-segundo-semestre-e-vive-sua-maior-sequencia-de-derrotas-no-ano.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "06/09/2026"
+        },
+        {
+          "titulo": "FÃ¡bio Mota diz que confia em tÃ©cnico e time: \"NÃ£o tem laranja podre\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/09/04/presidente-do-vitoria-diz-que-nao-tem-laranja-podre-garante-jair-ventura-prestigiado-e-cobra-gremio.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "04/09/2026"
         }
       ],
       "Sao-Paulo": [
@@ -1304,14 +1296,6 @@
           "imagem": "",
           "data": "2026-09-06T23:31:59+00:00",
           "dataFmt": "06/09/2026 23:31"
-        },
-        {
-          "titulo": "São Paulo x Athletico-PR - Mundial de Clubes Juvenil 2026 - globoesporte.com",
-          "resumo": "",
-          "url": "https://ge.globo.com/pr/futebol/jogo/07-09-2026/sao-paulo-atletico-pr.ghtml",
-          "imagem": "",
-          "data": "2026-09-06T19:12:09+00:00",
-          "dataFmt": "06/09/2026 19:12"
         },
         {
           "titulo": "SÃ£o Paulo inicia preparaÃ§Ã£o para enfrentar o Boca com novidades",
@@ -1444,14 +1428,6 @@
           "dataFmt": "06/09/2026 19:51"
         },
         {
-          "titulo": "Atlético-MG diminui casos no DM e aguarda retorno de dupla titular contra o Santos",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/06/atletico-mg-diminui-casos-no-dm-e-aguarda-retorno-de-dupla-titular-contra-o-santos.ghtml",
-          "imagem": "",
-          "data": "2026-09-06T18:25:01+00:00",
-          "dataFmt": "06/09/2026 18:25"
-        },
-        {
           "titulo": "Santos inscreve reforÃ§os na Copa Sul-Americana",
           "resumo": "",
           "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/05/santos-inscreve-arthur-rodinei-e-lima-na-copa-sul-americana.ghtml",
@@ -1490,9 +1466,25 @@
           "imagem": "",
           "data": "",
           "dataFmt": "04/09/2026"
+        },
+        {
+          "titulo": "STJD condena Santos a pagar multa por cusparada em Reinaldo",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/04/stjd-condena-santos-a-pagar-multa-de-r-15-mil-por-cusparada-de-torcedores-em-reinaldo-do-mirassol.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "04/09/2026"
         }
       ],
       "Gremio": [
+        {
+          "titulo": "Paulista x Grêmio Prudente: veja onde assistir ao vivo e horário",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/tem-esporte/futebol/copa-paulista/noticia/2026/09/07/paulista-x-gremio-prudente-veja-onde-assistir-ao-vivo-e-horario.ghtml",
+          "imagem": "",
+          "data": "2026-09-07T03:01:00+00:00",
+          "dataFmt": "07/09/2026 03:01"
+        },
         {
           "titulo": "Escalação do Grêmio: Amuzu vira desfalque contra o Vitória",
           "resumo": "",
@@ -1576,6 +1568,22 @@
       ],
       "Internacional": [
         {
+          "titulo": "Xabi Alonso não gosta de brasileiros? Veja o que o espanhol disse ao ge sobre jogadores do país",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/noticia/2026/09/07/xabi-alonso-nao-gosta-de-brasileiros-veja-o-que-o-espanhol-disse-ao-ge-sobre-jogadores-do-pais.ghtml",
+          "imagem": "",
+          "data": "2026-09-07T04:00:00+00:00",
+          "dataFmt": "07/09/2026 04:00"
+        },
+        {
+          "titulo": "Libertadores: rivais dos brasileiros ganham tempo de descanso antes das quartas de final",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/06/libertadores-rivais-dos-brasileiros-ganham-tempo-de-descanso-antes-das-quartas-de-final.ghtml",
+          "imagem": "",
+          "data": "2026-09-07T02:08:59+00:00",
+          "dataFmt": "07/09/2026 02:08"
+        },
+        {
           "titulo": "Santos atropela no primeiro tempo, abre do Z-4 e amplia crise do Inter",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/06-09-2026/internacional-santos.ghtml",
@@ -1624,20 +1632,12 @@
           "dataFmt": "06/09/2026 19:51"
         },
         {
-          "titulo": "Félix Torres pisa na bola, erra em gol sofrido pelo Inter e é vaiado; veja o lance",
+          "titulo": "FÃ©lix Torres pisa na bola e entrega gol; veja o lance",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/06/felix-torres-pisa-na-bola-erra-em-gol-sofrido-pelo-inter-e-e-vaiado-veja-o-lance.ghtml",
           "imagem": "",
-          "data": "2026-09-06T19:25:33+00:00",
-          "dataFmt": "06/09/2026 19:25"
-        },
-        {
-          "titulo": "Arsenal vence Chelsea e mantém 100% de aproveitamento no Inglês",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/jogo/06-09-2026/Arsenal-Chelsea.ghtml",
-          "imagem": "",
-          "data": "2026-09-06T18:43:35+00:00",
-          "dataFmt": "06/09/2026 18:43"
+          "data": "",
+          "dataFmt": "06/09/2026"
         },
         {
           "titulo": "Com Pezzolano a perigo, Inter tenta conter crise e iniciar reaÃ§Ã£o em luta contra o Z-4",
@@ -1662,14 +1662,6 @@
           "imagem": "",
           "data": "",
           "dataFmt": "05/09/2026"
-        },
-        {
-          "titulo": "No Z-4 e com Pezzolano sob pressÃ£o, Inter serÃ¡ treinado por auxiliar que perdeu todos os jogos",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/05/no-z-4-e-com-pezzolano-sob-pressao-inter-sera-treinado-por-auxiliar-que-perdeu-todos-os-jogos.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "05/09/2026"
         }
       ],
       "Mirassol": [
@@ -1680,14 +1672,6 @@
           "imagem": "",
           "data": "2026-09-06T22:44:32+00:00",
           "dataFmt": "06/09/2026 22:44"
-        },
-        {
-          "titulo": "Seabra aponta desequilíbrio do Coritiba após virada do Mirassol: \"A gente se desestabilizou\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/pr/futebol/times/coritiba/noticia/2026/09/06/seabra-aponta-desequilibrio-do-coritiba-apos-virada-do-mirassol-a-gente-se-desestabilizou.ghtml",
-          "imagem": "",
-          "data": "2026-09-06T18:35:21+00:00",
-          "dataFmt": "06/09/2026 18:35"
         },
         {
           "titulo": "AtuaÃ§Ãµes: Igor Formiga dÃ¡ duas assistÃªncias e comanda virada fundamental; dÃª suas notas",
@@ -1760,14 +1744,6 @@
           "imagem": "",
           "data": "",
           "dataFmt": "01/09/2026"
-        },
-        {
-          "titulo": "Guanaes vÃª Mirassol superior ao Palmeiras e evita falar de arbitragem: âSÃ³ lamentoâ",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/tem-esporte/futebol/times/mirassol/noticia/2026/08/31/guanaes-ve-mirassol-superior-ao-palmeiras-e-evita-falar-de-arbitragem-so-lamento.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "31/08/2026"
         }
       ],
       "Remo": [
@@ -1828,12 +1804,12 @@
           "dataFmt": "06/09/2026 21:14"
         },
         {
-          "titulo": "Com ídolos e Nossa Senhora, Remo apresenta três mosaicos antes de jogo com Flamengo",
+          "titulo": "Remo apresenta trÃªs mosaicos antes de jogo com Flamengo",
           "resumo": "",
           "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/09/06/com-idolos-e-nossa-senhora-remo-apresenta-tres-mosaicos-antes-de-jogo-com-flamengo.ghtml",
           "imagem": "",
-          "data": "2026-09-06T19:30:30+00:00",
-          "dataFmt": "06/09/2026 19:30"
+          "data": "",
+          "dataFmt": "06/09/2026"
         },
         {
           "titulo": "JajÃ¡ treina com bola e Remo terÃ¡ forÃ§a mÃ¡xima contra o Flamengo",
@@ -1878,17 +1854,17 @@
           "dataFmt": "06/09/2026 22:00"
         },
         {
-          "titulo": "Vasco viaja para a Colômbia sem quatro titulares para a Sul-Americana; veja relacionados",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/06/vasco-viaja-para-a-colombia-sem-quatro-titulares-para-a-sul-americana-veja-relacionados.ghtml",
-          "imagem": "",
-          "data": "2026-09-06T18:04:33+00:00",
-          "dataFmt": "06/09/2026 18:04"
-        },
-        {
           "titulo": "SequÃªncia pesa, e Pedro tem elenco no limite fÃ­sico: \"Nem eu estou 100%\"",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/06/sequencia-pesa-e-pedro-emanuel-tem-jogadores-no-limite-fisico-no-vasco-nem-eu-estou-100percent.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "06/09/2026"
+        },
+        {
+          "titulo": "Vasco viaja sem quatro titulares para a Sula; veja relacionados",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/06/vasco-viaja-para-a-colombia-sem-quatro-titulares-para-a-sul-americana-veja-relacionados.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "06/09/2026"
@@ -1960,12 +1936,12 @@
       ],
       "Chapecoense": [
         {
-          "titulo": "Corinthians x Chapecoense - Campeonato Brasileiro 2026 - globoesporte.com",
+          "titulo": "Chapecoense vence de virada e impõe quarta derrota seguida ao Corinthians",
           "resumo": "",
           "url": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/06-09-2026/corinthians-chapecoense.ghtml",
           "imagem": "",
-          "data": "2026-09-07T00:44:07+00:00",
-          "dataFmt": "07/09/2026 00:44"
+          "data": "2026-09-07T02:23:34+00:00",
+          "dataFmt": "07/09/2026 02:23"
         },
         {
           "titulo": "Atuações da Chapecoense: Marcinho decide e Anderson salva; dê suas notas",
@@ -1974,6 +1950,14 @@
           "imagem": "",
           "data": "2026-09-07T00:38:36+00:00",
           "dataFmt": "07/09/2026 00:38"
+        },
+        {
+          "titulo": "Confira as estatÃ­sticas da Chapecoense em 2026",
+          "resumo": "",
+          "url": "https://ge.globo.com/sc/futebol/times/chapecoense/noticia/2026/01/07/estatisticas-da-chapecoense-em-2026-artilheiros-assistencias-resultados-e-videos.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "07/01/2026"
         },
         {
           "titulo": "EscalaÃ§Ã£o da Chapecoense: retorno de Camilo e ausÃªncia de Bruno Pacheco",
@@ -2030,14 +2014,6 @@
           "imagem": "",
           "data": "",
           "dataFmt": "30/08/2026"
-        },
-        {
-          "titulo": "EscalaÃ§Ã£o da Chapecoense: ausÃªncia de volante titular e possÃ­vel retorno de lateral",
-          "resumo": "",
-          "url": "https://ge.globo.com/sc/futebol/times/chapecoense/noticia/2026/08/29/provavel-escalacao-da-chapecoense-ausencia-de-volante-titular-e-possivel-retorno-de-lateral.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "29/08/2026"
         }
       ]
     }
@@ -2169,6 +2145,14 @@
   "basquete": {
     "geral": [
       {
+        "titulo": "Bauru recebe o Paulistano podendo fechar série das quartas do Paulista de basquete",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/tem-esporte/basquete/noticia/2026/09/07/bauru-recebe-o-paulistano-podendo-fechar-serie-das-quartas-do-paulista-de-basquete.ghtml",
+        "imagem": "",
+        "data": "2026-09-07T03:01:00+00:00",
+        "dataFmt": "07/09/2026 03:01"
+      },
+      {
         "titulo": "Franca vence Osasco e larga na frente nas quartas do Paulista",
         "resumo": "",
         "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/09/05/franca-vence-osasco-e-larga-na-frente-nas-quartas-do-paulista.ghtml",
@@ -2279,27 +2263,11 @@
         "imagem": "",
         "data": "",
         "dataFmt": "31/08/2026"
-      },
-      {
-        "titulo": "Jaylen Brown recebe a chave da cidade em festa de despedida de Boston",
-        "resumo": "",
-        "url": "https://ge.globo.com/basquete/nba/noticia/2026/08/31/jaylen-brown-recebe-a-chave-da-cidade-em-festa-de-despedida-de-boston.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "31/08/2026"
       }
     ]
   },
   "ufc": {
     "geral": [
-      {
-        "titulo": "Boxe: Katie Taylor se aposenta com vitória diante de mais de 80 mil pessoas na Irlanda",
-        "resumo": "",
-        "url": "https://ge.globo.com/combate/noticia/2026/09/06/boxe-katie-taylor-se-aposenta-com-vitoria-diante-de-mais-de-80-mil-pessoas-na-irlanda.ghtml",
-        "imagem": "",
-        "data": "2026-09-06T17:58:55+00:00",
-        "dataFmt": "06/09/2026 17:58"
-      },
       {
         "titulo": "Glory 109: Chico Kwasi vence trilogia e mantÃ©m segundo cinturÃ£o",
         "resumo": "",
@@ -2307,6 +2275,14 @@
         "imagem": "",
         "data": "",
         "dataFmt": "05/09/2026"
+      },
+      {
+        "titulo": "Katie Taylor se aposenta com vitÃ³ria diante de mais de 80 mil pessoas",
+        "resumo": "",
+        "url": "https://ge.globo.com/combate/noticia/2026/09/06/boxe-katie-taylor-se-aposenta-com-vitoria-diante-de-mais-de-80-mil-pessoas-na-irlanda.ghtml",
+        "imagem": "",
+        "data": "",
+        "dataFmt": "06/09/2026"
       },
       {
         "titulo": "Valentina perde cinturÃ£o, e NatÃ¡lia Silva disputa tÃ­tulo no UFC 332",
