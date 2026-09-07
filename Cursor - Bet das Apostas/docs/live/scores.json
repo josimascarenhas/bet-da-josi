@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-06T19:59:28.503383-03:00",
-    "fonte": "calendário + openligadb.de + 365scores.com",
-    "jogos": 397,
-    "finalizadosTotal": 397
+    "atualizadoEm": "2026-09-06T21:51:37.458444-03:00",
+    "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
+    "jogos": 399,
+    "finalizadosTotal": 399
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -2837,6 +2837,24 @@
       "golsFora": 2,
       "data": "2026-09-06",
       "comp": "brasileirao"
+    },
+    "br-26-Botafogo-Palmeiras": {
+      "status": "finished",
+      "placar": "0-0",
+      "golsCasa": 0,
+      "golsFora": 0,
+      "data": "2026-09-06",
+      "comp": "brasileirao",
+      "fonte": "ge"
+    },
+    "br-26-Corinthians-Chapecoense": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-09-06",
+      "comp": "brasileirao",
+      "fonte": "ge"
     },
     "eu-bundesliga-2026-08-29-RB-Leipzig-Borussia-Mgladbach": {
       "status": "finished",
