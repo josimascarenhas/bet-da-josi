@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-07T14:21:43-03:00",
+    "atualizadoEm": "2026-09-07T17:43:40-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 399,
     "timesAtualizados": 144,
@@ -234,7 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Abel Ferreira consegue efeito suspensivo",
+          "jogador": "Escalação",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1662,9 +1662,9 @@
       },
       "desfalques": [
         {
-          "jogador": "Barreal e Lucas VerÃ­ssimo tambÃ©m viram",
+          "jogador": "Neymar trabalha na academia do CT do San",
           "motivo": "notícia GE",
-          "impacto": "medio"
+          "impacto": "alto"
         }
       ],
       "retornando": [
@@ -1896,9 +1896,9 @@
       },
       "desfalques": [
         {
-          "jogador": "Neymar tem lesão na coxa direita e pode ",
+          "jogador": "Jogador do PSV causa lesão pulmonar em r",
           "motivo": "notícia GE",
-          "impacto": "alto"
+          "impacto": "medio"
         }
       ],
       "retornando": [
