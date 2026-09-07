@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-06T19:59:32-03:00",
+    "atualizadoEm": "2026-09-06T21:51:40-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 397,
+    "jogosFinalizados": 399,
     "timesAtualizados": 144,
-    "placaresFonte": "calendário + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -18,8 +18,8 @@
         "Bahia",
         "Coritiba",
         "Bragantino",
-        "Atletico-MG",
         "Corinthians",
+        "Atletico-MG",
         "Botafogo",
         "Santos",
         "Vitoria",
@@ -199,7 +199,7 @@
     "Palmeiras": {
       "brasileirao": {
         "posicao": 1,
-        "pontos": 52,
+        "pontos": 53,
         "ultimos5": [
           "D 1-2 ATLMG",
           "V 4-0",
@@ -227,7 +227,7 @@
           "gsg": 0.92
         },
         "vitorias": 15,
-        "empates": 7,
+        "empates": 8,
         "derrotas": 3,
         "golsPro": 44,
         "golsContra": 21
@@ -1086,7 +1086,7 @@
     },
     "Atletico-MG": {
       "brasileirao": {
-        "posicao": 9,
+        "posicao": 10,
         "pontos": 33,
         "ultimos5": [
           "E 1-1 BAH",
@@ -1206,8 +1206,8 @@
     },
     "Corinthians": {
       "brasileirao": {
-        "posicao": 10,
-        "pontos": 32,
+        "posicao": 9,
+        "pontos": 35,
         "ultimos5": [
           "E 1-1",
           "E 0-0 ATHPR",
@@ -1234,11 +1234,11 @@
           "gpg": 1.08,
           "gsg": 1.17
         },
-        "vitorias": 8,
+        "vitorias": 9,
         "empates": 8,
         "derrotas": 9,
-        "golsPro": 26,
-        "golsContra": 25
+        "golsPro": 28,
+        "golsContra": 26
       },
       "desfalques": [
         {
@@ -1321,7 +1321,7 @@
     "Botafogo": {
       "brasileirao": {
         "posicao": 11,
-        "pontos": 30,
+        "pontos": 31,
         "ultimos5": [
           "E 0-0 VIT",
           "V 1-0",
@@ -1349,7 +1349,7 @@
           "gsg": 1.67
         },
         "vitorias": 8,
-        "empates": 6,
+        "empates": 7,
         "derrotas": 10,
         "golsPro": 37,
         "golsContra": 40
@@ -1455,7 +1455,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Grêmio tem desfalques e dúvidas para enc",
+          "jogador": "Escalação do Grêmio",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1782,7 +1782,12 @@
       },
       "desfalques": [
         {
-          "jogador": "GrÃªmio tem desfalques e dÃºvidas contra",
+          "jogador": "Escalação do Grêmio",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "GrÃªmio tem desfalques e dÃºvidas para e",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2327,9 +2332,9 @@
         },
         "vitorias": 2,
         "empates": 8,
-        "derrotas": 14,
-        "golsPro": 24,
-        "golsContra": 48
+        "derrotas": 15,
+        "golsPro": 25,
+        "golsContra": 50
       },
       "desfalques": [
         {
