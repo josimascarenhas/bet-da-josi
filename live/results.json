@@ -1,10 +1,18 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-07T20:18:41.090733-03:00",
+    "atualizadoEm": "2026-09-07T22:19:18.969529-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "br-26-Vitoria-Gremio",
+      "data": "2026-09-07",
+      "comp": "brasileirao",
+      "mandante": "Vitoria",
+      "visitante": "Gremio",
+      "placar": "1-0"
+    },
     {
       "id": "br-26-Cruzeiro-Athletico-PR",
       "data": "2026-09-06",
@@ -236,14 +244,6 @@
       "mandante": "Famalicao",
       "visitante": "Gil-Vicente",
       "placar": "0-0"
-    },
-    {
-      "id": "s2-2026-08-30-CRB-Criciuma",
-      "data": "2026-08-30",
-      "comp": "serieb",
-      "mandante": "CRB",
-      "visitante": "Criciuma",
-      "placar": "2-1"
     }
   ]
 }
