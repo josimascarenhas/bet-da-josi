@@ -1,26 +1,90 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-07T23:18:40.957050+00:00",
+    "atualizadoEm": "2026-09-08T01:19:18.865303+00:00",
     "fonte": "ge.globo.com",
     "fonteUrl": "https://ge.globo.com/"
   },
   "futebol": {
     "geral": [
       {
-        "titulo": "Vitória x Grêmio - Campeonato Brasileiro 2026 - Ao vivo - globoesporte.com",
+        "titulo": "Vitória bate o Grêmio, encerra jejum e ganha fôlego no Brasileiro",
         "resumo": "",
         "url": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/07-09-2026/vitoria-gremio.ghtml",
         "imagem": "",
-        "data": "2026-09-07T23:15:42+00:00",
-        "dataFmt": "07/09/2026 23:15"
+        "data": "2026-09-08T01:13:40+00:00",
+        "dataFmt": "08/09/2026 01:13"
       },
       {
-        "titulo": "Brusque vence o Paysandu e assume liderança do grupo B do quadrangular da Série C",
+        "titulo": "Flamengo desembarca em Quito para jogo das quartas de final da Libertadores",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/flamengo-desembarca-em-quito-para-jogo-das-quartas-de-final-da-libertadores.ghtml",
+        "imagem": "",
+        "data": "2026-09-08T01:11:55+00:00",
+        "dataFmt": "08/09/2026 01:11"
+      },
+      {
+        "titulo": "Vasco x Atlético-PI - Campeonato Brasileiro Feminino Série A2 2026 - Ao vivo - globoesporte.com",
+        "resumo": "",
+        "url": "https://ge.globo.com/pi/futebol/futebol-feminino/brasileiro-feminino-serie-a2/jogo/07-09-2026/vasco-atletico-pi.ghtml",
+        "imagem": "",
+        "data": "2026-09-08T01:10:28+00:00",
+        "dataFmt": "08/09/2026 01:10"
+      },
+      {
+        "titulo": "Atuações: Grêmio perde e mantém jejum fora de casa no Brasileirão; dê suas notas",
+        "resumo": "",
+        "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/07/atuacoes-gremio-perde-e-mantem-jejum-fora-de-casa-no-brasileirao-de-suas-notas.ghtml",
+        "imagem": "",
+        "data": "2026-09-08T01:05:47+00:00",
+        "dataFmt": "08/09/2026 01:05"
+      },
+      {
+        "titulo": "Sem Yuri Alberto, Corinthians chega à Argentina para jogo da Libertadores; veja relacionados",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/07/sem-yuri-alberto-corinthians-chega-a-argentina-para-jogo-da-libertadores-veja-relacionados.ghtml",
+        "imagem": "",
+        "data": "2026-09-08T00:54:34+00:00",
+        "dataFmt": "08/09/2026 00:54"
+      },
+      {
+        "titulo": "Sport encaminha acerto com o técnico Mariano Soso para retorno à Ilha do Retiro",
+        "resumo": "",
+        "url": "https://ge.globo.com/pe/futebol/times/sport/noticia/2026/09/07/sport-encaminha-acerto-com-o-tecnico-mariano-soso-para-retorno-a-ilha-do-retiro.ghtml",
+        "imagem": "",
+        "data": "2026-09-08T00:34:25+00:00",
+        "dataFmt": "08/09/2026 00:34"
+      },
+      {
+        "titulo": "Flamengo entra na trend dos anos 80 e brinca: \"Trabalho mais fácil do chat\"; veja imagens",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/flamengo-entra-na-trend-dos-anos-80-e-brinca-trabalho-mais-facil-do-chat-veja-imagens.ghtml",
+        "imagem": "",
+        "data": "2026-09-08T00:09:35+00:00",
+        "dataFmt": "08/09/2026 00:09"
+      },
+      {
+        "titulo": "Corinthians volta a vencer o Cruzeiro e fica com última vaga na semi do Brasileiro Feminino",
+        "resumo": "",
+        "url": "https://ge.globo.com/mg/triangulo-mineiro/futebol/futebol-feminino/brasileiro-feminino/jogo/07-09-2026/corinthians-cruzeiro.ghtml",
+        "imagem": "",
+        "data": "2026-09-07T23:42:31+00:00",
+        "dataFmt": "07/09/2026 23:42"
+      },
+      {
+        "titulo": "Brusque vence o Paysandu e assume liderança do grupo C do quadrangular da Série C",
         "resumo": "",
         "url": "https://ge.globo.com/pa/futebol/brasileirao-serie-c/jogo/07-09-2026/paysandu-brusque.ghtml",
         "imagem": "",
-        "data": "2026-09-07T23:11:57+00:00",
-        "dataFmt": "07/09/2026 23:11"
+        "data": "2026-09-07T23:19:33+00:00",
+        "dataFmt": "07/09/2026 23:19"
+      },
+      {
+        "titulo": "River-PI acerta retorno de zagueiro para sequência do Piauiense Série B; atleta estava no Nacional-AM",
+        "resumo": "",
+        "url": "https://ge.globo.com/pi/futebol/piauiense-segunda-divisao/noticia/2026/09/07/river-pi-acerta-retorno-de-zagueiro-para-sequencia-do-piauiense-serie-b-atleta-estava-no-nacional-am.ghtml",
+        "imagem": "",
+        "data": "2026-09-07T23:16:57+00:00",
+        "dataFmt": "07/09/2026 23:16"
       },
       {
         "titulo": "Goleiro do Grêmio, Weverton cai no gramado antes do início de jogo contra o Vitória; veja vídeo",
@@ -79,14 +143,6 @@
         "dataFmt": "07/09/2026 22:17"
       },
       {
-        "titulo": "Corinthians volta a vencer o Cruzeiro e fica com última vaga na semi do Brasileiro Feminino",
-        "resumo": "",
-        "url": "https://ge.globo.com/mg/triangulo-mineiro/futebol/futebol-feminino/brasileiro-feminino/jogo/07-09-2026/corinthians-cruzeiro.ghtml",
-        "imagem": "",
-        "data": "2026-09-07T22:03:54+00:00",
-        "dataFmt": "07/09/2026 22:03"
-      },
-      {
         "titulo": "ASA precisa se superar e vencer com diferença de dois gols fora de casa pela 1ª vez na Série D",
         "resumo": "",
         "url": "https://ge.globo.com/al/futebol/times/asa/noticia/2026/09/07/asa-precisa-se-superar-e-vencer-com-diferenca-de-dois-gols-fora-de-casa-pela-1a-vez-na-serie-d.ghtml",
@@ -109,62 +165,6 @@
         "imagem": "",
         "data": "2026-09-07T21:46:07+00:00",
         "dataFmt": "07/09/2026 21:46"
-      },
-      {
-        "titulo": "Operário-PR x CRB - Campeonato Brasileiro Série B 2026 - globoesporte.com",
-        "resumo": "",
-        "url": "https://ge.globo.com/pr/futebol/brasileirao-serie-b/jogo/09-09-2026/operario-pr-crb.ghtml",
-        "imagem": "",
-        "data": "2026-09-07T21:43:03+00:00",
-        "dataFmt": "07/09/2026 21:43"
-      },
-      {
-        "titulo": "Coritiba x Athletico-PR - Campeonato Brasileiro 2026 - globoesporte.com",
-        "resumo": "",
-        "url": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/11-09-2026/coritiba-atletico-pr.ghtml",
-        "imagem": "",
-        "data": "2026-09-07T21:42:20+00:00",
-        "dataFmt": "07/09/2026 21:42"
-      },
-      {
-        "titulo": "Relacionados: Vitória não vai ter Ramon e mais nove jogadores contra o Grêmio",
-        "resumo": "",
-        "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/09/07/relacionados-vitoria-nao-vai-ter-ramon-e-mais-nove-jogadores-contra-o-gremio.ghtml",
-        "imagem": "",
-        "data": "2026-09-07T21:37:58+00:00",
-        "dataFmt": "07/09/2026 21:37"
-      },
-      {
-        "titulo": "Marcílio Dias goleia Metropolitano e assume liderança da Copa SC",
-        "resumo": "",
-        "url": "https://ge.globo.com/sc/futebol/copa-santa-catarina/noticia/2026/09/07/marcilio-dias-goleia-metropolitano-e-assume-lideranca-da-copa-sc.ghtml",
-        "imagem": "",
-        "data": "2026-09-07T21:35:41+00:00",
-        "dataFmt": "07/09/2026 21:35"
-      },
-      {
-        "titulo": "Sport abre conversas para contratar o técnico argentino Mariano Soso",
-        "resumo": "",
-        "url": "https://ge.globo.com/pe/futebol/times/sport/noticia/2026/09/07/sport-abre-conversas-para-repatriar-o-tecnico-argentino-mariano-soso.ghtml",
-        "imagem": "",
-        "data": "2026-09-07T21:27:22+00:00",
-        "dataFmt": "07/09/2026 21:27"
-      },
-      {
-        "titulo": "Fábio fez discurso enérgico antes de Fluminense vencer o Vasco: \"Vão ter que suar sangue\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/07/fabio-deu-discurso-energico-antes-de-fluminense-vencer-o-vasco-vao-ter-que-suar-sangue.ghtml",
-        "imagem": "",
-        "data": "2026-09-07T21:19:14+00:00",
-        "dataFmt": "07/09/2026 21:19"
-      },
-      {
-        "titulo": "Londrina vence o São Joseense em jogo de viradas pela Copa Paraná",
-        "resumo": "",
-        "url": "https://ge.globo.com/pr/futebol/taca-fpf/jogo/07-09-2026/londrina-independente-pr.ghtml",
-        "imagem": "",
-        "data": "2026-09-07T21:14:33+00:00",
-        "dataFmt": "07/09/2026 21:14"
       }
     ],
     "times": {
@@ -178,17 +178,17 @@
           "dataFmt": "07/09/2026 18:11"
         },
         {
-          "titulo": "Não foi só Felipe Melo! Por que frase de Abel irritou também parte da torcida do Palmeiras",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/07/nao-foi-so-felipe-melo-por-que-frase-de-abel-irritou-tambem-parte-da-torcida-do-palmeiras.ghtml",
-          "imagem": "",
-          "data": "2026-09-07T17:23:20+00:00",
-          "dataFmt": "07/09/2026 17:23"
-        },
-        {
           "titulo": "Os nÃºmeros que explicam por que o Palmeiras perdeu a lideranÃ§a",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/07/palmeiras-teve-uma-vitoria-e-metade-do-aproveitamento-do-flamengo-nos-ultimos-cinco-jogos.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "07/09/2026"
+        },
+        {
+          "titulo": "NÃ£o foi sÃ³ Felipe Melo! Por que frase de Abel irritou torcida",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/07/nao-foi-so-felipe-melo-por-que-frase-de-abel-irritou-tambem-parte-da-torcida-do-palmeiras.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "07/09/2026"
@@ -251,6 +251,22 @@
         }
       ],
       "Flamengo": [
+        {
+          "titulo": "Flamengo desembarca em Quito para jogo das quartas de final da Libertadores",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/flamengo-desembarca-em-quito-para-jogo-das-quartas-de-final-da-libertadores.ghtml",
+          "imagem": "",
+          "data": "2026-09-08T01:11:55+00:00",
+          "dataFmt": "08/09/2026 01:11"
+        },
+        {
+          "titulo": "Flamengo entra na trend dos anos 80 e brinca: \"Trabalho mais fácil do chat\"; veja imagens",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/07/flamengo-entra-na-trend-dos-anos-80-e-brinca-trabalho-mais-facil-do-chat-veja-imagens.ghtml",
+          "imagem": "",
+          "data": "2026-09-08T00:09:35+00:00",
+          "dataFmt": "08/09/2026 00:09"
+        },
         {
           "titulo": "Flamengo-PI x 4 de Julho - Campeonato Piauiense Série B 2026 - globoesporte.com",
           "resumo": "",
@@ -330,22 +346,6 @@
           "imagem": "",
           "data": "",
           "dataFmt": "07/09/2026"
-        },
-        {
-          "titulo": "Jardim comenta disputa com Palmeiras: \"Estamos motivados\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/06/leonardo-jardim-analisa-vitoria-do-flamengo-contra-o-remo.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "06/09/2026"
-        },
-        {
-          "titulo": "AtuaÃ§Ãµes: veja quem foi o melhor e dÃª suas notas",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/06/atuacoes-do-flamengo-lino-brilha-e-e-o-melhor-novamente-de-suas-notas.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "06/09/2026"
         }
       ],
       "Athletico-PR": [
@@ -534,8 +534,8 @@
           "resumo": "",
           "url": "https://ge.globo.com/mg/triangulo-mineiro/futebol/futebol-feminino/brasileiro-feminino/jogo/07-09-2026/corinthians-cruzeiro.ghtml",
           "imagem": "",
-          "data": "2026-09-07T22:03:54+00:00",
-          "dataFmt": "07/09/2026 22:03"
+          "data": "2026-09-07T23:42:31+00:00",
+          "dataFmt": "07/09/2026 23:42"
         },
         {
           "titulo": "Leitura labial: veja o que teria sido falado em discussÃ£o",
@@ -882,14 +882,6 @@
           "dataFmt": "07/09/2026 17:51"
         },
         {
-          "titulo": "Santos x Atlético-MG - Copa Sul-Americana 2026 - globoesporte.com",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/copa-sul-americana/jogo/09-09-2026/santos-atletico-mg.ghtml",
-          "imagem": "",
-          "data": "2026-09-07T17:34:19+00:00",
-          "dataFmt": "07/09/2026 17:34"
-        },
-        {
           "titulo": "AtlÃ©tico diminui casos no DM e aguarda retorno de dupla titular",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/06/atletico-mg-diminui-casos-no-dm-e-aguarda-retorno-de-dupla-titular-contra-o-santos.ghtml",
@@ -968,16 +960,48 @@
           "imagem": "",
           "data": "",
           "dataFmt": "04/09/2026"
+        },
+        {
+          "titulo": "Renan Lodi conta como desabafo impactou mudanÃ§a no AtlÃ©tico-MG atÃ© alcanÃ§ar fase invicta",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/04/renan-lodi-conta-como-desabafo-impactou-mudanca-no-atletico-mg-ate-alcancar-fase-invicta.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "04/09/2026"
         }
       ],
       "Corinthians": [
+        {
+          "titulo": "Corinthians mostra dificuldades táticas importantes, que estão impactando o desempenho coletivo da equipe",
+          "resumo": "",
+          "url": "https://ge.globo.com/blogs/completando-a-jogada/post/2026/09/07/corinthians-mostra-dificuldades-taticas-importantes-que-estao-impactando-o-desempenho-coletivo-da-equipe.ghtml",
+          "imagem": "",
+          "data": "2026-09-08T01:05:33+00:00",
+          "dataFmt": "08/09/2026 01:05"
+        },
+        {
+          "titulo": "Sem Yuri Alberto, Corinthians chega à Argentina para jogo da Libertadores; veja relacionados",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/07/sem-yuri-alberto-corinthians-chega-a-argentina-para-jogo-da-libertadores-veja-relacionados.ghtml",
+          "imagem": "",
+          "data": "2026-09-08T00:54:34+00:00",
+          "dataFmt": "08/09/2026 00:54"
+        },
         {
           "titulo": "Corinthians volta a vencer o Cruzeiro e fica com última vaga na semi do Brasileiro Feminino",
           "resumo": "",
           "url": "https://ge.globo.com/mg/triangulo-mineiro/futebol/futebol-feminino/brasileiro-feminino/jogo/07-09-2026/corinthians-cruzeiro.ghtml",
           "imagem": "",
-          "data": "2026-09-07T22:03:54+00:00",
-          "dataFmt": "07/09/2026 22:03"
+          "data": "2026-09-07T23:42:31+00:00",
+          "dataFmt": "07/09/2026 23:42"
+        },
+        {
+          "titulo": "Presta Atenção no Cartola: Dandan fica \"pistola\" com o Corinthians na rodada #26 do Brasileirão",
+          "resumo": "",
+          "url": "https://ge.globo.com/cartola/noticia/2026/09/07/presta-atencao-no-cartola-dandan-fica-pistola-com-o-corinthians-na-rodada-26-do-brasileirao.ghtml",
+          "imagem": "",
+          "data": "2026-09-07T23:18:58+00:00",
+          "dataFmt": "07/09/2026 23:18"
         },
         {
           "titulo": "Cinco pontos que explicam a má fase do Corinthians no Brasileirão",
@@ -996,17 +1020,17 @@
           "dataFmt": "07/09/2026 17:47"
         },
         {
-          "titulo": "Corinthians não perdia quatro seguidas no Brasileirão desde 2007, ano do rebaixamento",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/07/corinthians-nao-perdia-quatro-seguidas-no-brasileirao-desde-2007-ano-do-rebaixamento.ghtml",
-          "imagem": "",
-          "data": "2026-09-07T17:02:29+00:00",
-          "dataFmt": "07/09/2026 17:02"
-        },
-        {
-          "titulo": "Corinthians tem quatro jogadores na prÃ©-lista da SeleÃ§Ã£o para amistosos",
+          "titulo": "Corinthians tem quatro jogadores na prÃ©-lista da SeleÃ§Ã£o",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/07/corinthians-tem-quatro-jogadores-na-pre-lista-de-convocados-da-selecao-para-amistosos.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "07/09/2026"
+        },
+        {
+          "titulo": "Veja desde quando o Corinthians nÃ£o perdia quatro seguidas",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/07/corinthians-nao-perdia-quatro-seguidas-no-brasileirao-desde-2007-ano-do-rebaixamento.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "07/09/2026"
@@ -1042,30 +1066,6 @@
           "imagem": "",
           "data": "",
           "dataFmt": "07/09/2026"
-        },
-        {
-          "titulo": "Torcida vaia e protesta na Arena: \"Time sem vergonha\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/06/torcida-vaia-corinthians-apos-quarta-derrota-seguida-no-brasileirao-e-protesta-time-sem-vergonha.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "06/09/2026"
-        },
-        {
-          "titulo": "Mosaico comemorativo cai e frustra a torcida do TimÃ£o",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/06/mosaico-de-comemoracao-de-116-anos-do-corinthians-despenca.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "06/09/2026"
-        },
-        {
-          "titulo": "Memphis cobra melhora coletiva: \"Aprender a jogar como time grande\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/06/memphis-critica-o-corinthians-e-cobra-melhora-coletiva-aprender-a-jogar-como-time-grande.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "06/09/2026"
         }
       ],
       "Botafogo": [
@@ -1168,12 +1168,12 @@
       ],
       "Vitoria": [
         {
-          "titulo": "Vitória x Grêmio - Campeonato Brasileiro 2026 - Ao vivo - globoesporte.com",
+          "titulo": "Vitória bate o Grêmio, encerra jejum e ganha fôlego no Brasileiro",
           "resumo": "",
           "url": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/07-09-2026/vitoria-gremio.ghtml",
           "imagem": "",
-          "data": "2026-09-07T23:15:42+00:00",
-          "dataFmt": "07/09/2026 23:15"
+          "data": "2026-09-08T01:13:40+00:00",
+          "dataFmt": "08/09/2026 01:13"
         },
         {
           "titulo": "Goleiro do Grêmio, Weverton cai no gramado antes do início de jogo contra o Vitória; veja vídeo",
@@ -1224,6 +1224,14 @@
           "dataFmt": "07/09/2026 18:00"
         },
         {
+          "titulo": "VitÃ³ria 1 x 0 GrÃªmio: assista ao gol e aos melhores momentos do jogo",
+          "resumo": "",
+          "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/09/07/vitoria-1-x-0-gremio-assista-ao-gol-e-aos-melhores-momentos-do-jogo.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "07/09/2026"
+        },
+        {
           "titulo": "Veja quem chega e quem sai do VitÃ³ria no segundo semestre",
           "resumo": "",
           "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/06/21/contratacoes-do-vitoria-para-o-segundo-semestre-de-2026-veja-quem-chega-e-quem-vai-embora.ghtml",
@@ -1254,14 +1262,6 @@
           "imagem": "",
           "data": "",
           "dataFmt": "03/09/2026"
-        },
-        {
-          "titulo": "EscalaÃ§Ã£o: VitÃ³ria pode ter mudanÃ§as em todos os setores contra o GrÃªmio",
-          "resumo": "",
-          "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/09/06/escalacao-vitoria-pode-ter-mudancas-em-todos-os-setores-para-enfrentar-o-gremio.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "06/09/2026"
         }
       ],
       "Sao-Paulo": [
@@ -1282,17 +1282,17 @@
           "dataFmt": "07/09/2026 17:46"
         },
         {
-          "titulo": "São Paulo empresta lateral Maik ao Dukla, da Eslováquia",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/07/sao-paulo-empresta-lateral-maik-ao-dukla-da-eslovaquia.ghtml",
-          "imagem": "",
-          "data": "2026-09-07T17:18:14+00:00",
-          "dataFmt": "07/09/2026 17:18"
-        },
-        {
           "titulo": "Bicho molhado: a forma que o clube encontrou de motivar elenco",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/07/sao-paulo-da-premiacao-extra-e-adota-bicho-molhado-por-vitorias-sobre-bragantino-e-atletico-mg.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "07/09/2026"
+        },
+        {
+          "titulo": "SÃ£o Paulo empresta Maik para time da EslovÃ¡quia",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/07/sao-paulo-empresta-lateral-maik-ao-dukla-da-eslovaquia.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "07/09/2026"
@@ -1372,14 +1372,6 @@
           "dataFmt": "07/09/2026 17:51"
         },
         {
-          "titulo": "Santos x Atlético-MG - Copa Sul-Americana 2026 - globoesporte.com",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/copa-sul-americana/jogo/09-09-2026/santos-atletico-mg.ghtml",
-          "imagem": "",
-          "data": "2026-09-07T17:34:19+00:00",
-          "dataFmt": "07/09/2026 17:34"
-        },
-        {
           "titulo": "Treino: Rodinei participa de primeira atividade com o elenco",
           "resumo": "",
           "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/07/treino-do-santos-rodinei-participa-de-primeira-atividade-com-o-elenco.ghtml",
@@ -1454,12 +1446,20 @@
       ],
       "Gremio": [
         {
-          "titulo": "Vitória x Grêmio - Campeonato Brasileiro 2026 - Ao vivo - globoesporte.com",
+          "titulo": "Vitória bate o Grêmio, encerra jejum e ganha fôlego no Brasileiro",
           "resumo": "",
           "url": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/07-09-2026/vitoria-gremio.ghtml",
           "imagem": "",
-          "data": "2026-09-07T23:15:42+00:00",
-          "dataFmt": "07/09/2026 23:15"
+          "data": "2026-09-08T01:13:40+00:00",
+          "dataFmt": "08/09/2026 01:13"
+        },
+        {
+          "titulo": "Atuações: Grêmio perde e mantém jejum fora de casa no Brasileirão; dê suas notas",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/07/atuacoes-gremio-perde-e-mantem-jejum-fora-de-casa-no-brasileirao-de-suas-notas.ghtml",
+          "imagem": "",
+          "data": "2026-09-08T01:05:47+00:00",
+          "dataFmt": "08/09/2026 01:05"
         },
         {
           "titulo": "Goleiro do Grêmio, Weverton cai no gramado antes do início de jogo contra o Vitória; veja vídeo",
@@ -1486,15 +1486,7 @@
           "dataFmt": "07/09/2026 19:53"
         },
         {
-          "titulo": "Amuzu desfalca o GrÃªmio contra o VitÃ³ria; veja relacionados",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/06/escalacao-do-gremio-amuzu-vira-desfalque-contra-o-vitoria.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "06/09/2026"
-        },
-        {
-          "titulo": "Trio de reforÃ§os de R$ 8 milhÃµes se firma e Ã© decisivo em reaÃ§Ã£o",
+          "titulo": "Trio de reforÃ§os de R$ 8 milhÃµes do GrÃªmio se firma no time titular e Ã© decisivo em reaÃ§Ã£o",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/07/trio-de-reforcos-de-r-8-milhoes-do-gremio-se-firma-no-time-titular-e-e-decisivo-em-reacao.ghtml",
           "imagem": "",
@@ -1502,7 +1494,15 @@
           "dataFmt": "07/09/2026"
         },
         {
-          "titulo": "Carlos Vinicius chega a 20 gols enquanto negocia permanÃªncia",
+          "titulo": "EscalaÃ§Ã£o do GrÃªmio: Amuzu vira desfalque contra o VitÃ³ria",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/06/escalacao-do-gremio-amuzu-vira-desfalque-contra-o-vitoria.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "06/09/2026"
+        },
+        {
+          "titulo": "Carlos Vinicius desencanta e chega a 20 gols pelo GrÃªmio enquanto negocia permanÃªncia",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/06/carlos-vinicius-desencanta-e-chega-a-20-gols-pelo-gremio-enquanto-negocia-permanencia.ghtml",
           "imagem": "",
@@ -1537,14 +1537,6 @@
           "titulo": "Weverton fica impressionado com ritual de Kannemann antes do Gre-Nal: \"Assustador\"",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/04/weverton-fica-impressionado-com-ritual-de-kannemann-antes-do-gre-nal-assustador.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "04/09/2026"
-        },
-        {
-          "titulo": "Bom de Gre-Nal? LuÃ­s Castro garante maior sequÃªncia invicta do GrÃªmio no clÃ¡ssico em seis anos",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/04/bom-de-gre-nal-luis-castro-garante-maior-sequencia-invicta-do-gremio-no-classico-em-seis-anos.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "04/09/2026"
@@ -1794,17 +1786,17 @@
           "imagem": "",
           "data": "",
           "dataFmt": "04/09/2026"
-        },
-        {
-          "titulo": "Marcelinho projeta jogo muito difÃ­cil em Remo x Flamengo e diz: âPontuar Ã© o mais importanteâ",
-          "resumo": "",
-          "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/09/03/marcelinho-projeta-jogo-muito-dificil-em-remo-x-flamengo-e-diz-pontuar-e-o-mais-importante.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "03/09/2026"
         }
       ],
       "Vasco": [
+        {
+          "titulo": "Vasco x Atlético-PI - Campeonato Brasileiro Feminino Série A2 2026 - Ao vivo - globoesporte.com",
+          "resumo": "",
+          "url": "https://ge.globo.com/pi/futebol/futebol-feminino/brasileiro-feminino-serie-a2/jogo/07-09-2026/vasco-atletico-pi.ghtml",
+          "imagem": "",
+          "data": "2026-09-08T01:10:28+00:00",
+          "dataFmt": "08/09/2026 01:10"
+        },
         {
           "titulo": "Fábio fez discurso enérgico antes de Fluminense vencer o Vasco: \"Vão ter que suar sangue\"",
           "resumo": "",
@@ -1889,14 +1881,6 @@
           "titulo": "Pedro Emanuel lamenta chances desperdiÃ§adas pelo Vasco e indica BrasileirÃ£o como prioridade",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/05/pedro-emanuel-analisa-derrota-do-vasco-para-o-fluminense-no-brasileirao.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "05/09/2026"
-        },
-        {
-          "titulo": "AtuaÃ§Ãµes do Vasco: Piton, GÃ³mez, Adson e TchÃª TchÃª sÃ£o os piores em derrota; dÃª suas notas",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/05/atuacoes-do-vasco-piton-gomez-adson-e-tche-tche-sao-os-piores-em-derrota-de-suas-notas.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "05/09/2026"
@@ -2105,6 +2089,14 @@
   "basquete": {
     "geral": [
       {
+        "titulo": "Paulistano vence Bauru fora de casa e força terceiro jogo nas quartas do Paulista",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/tem-esporte/basquete/noticia/2026/09/07/paulistano-vence-bauru-fora-de-casa-e-forca-terceiro-jogo-nas-quartas-do-paulista.ghtml",
+        "imagem": "",
+        "data": "2026-09-07T23:18:00+00:00",
+        "dataFmt": "07/09/2026 23:18"
+      },
+      {
         "titulo": "Helinho destaca intensidade e espaço para jovens em vitória do Franca no mata-mata",
         "resumo": "",
         "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/09/07/helinho-destaca-intensidade-e-espaco-para-jovens-em-vitoria-do-franca-no-mata-mata.ghtml",
@@ -2212,14 +2204,6 @@
         "titulo": "Manny Payton Ã© inscrito no Paulista de Basquete e fica Ã  disposiÃ§Ã£o do SÃ£o JosÃ© para playoffs",
         "resumo": "",
         "url": "https://ge.globo.com/sp/vale-do-paraiba-regiao/basquete/noticia/2026/09/01/manny-payton-e-inscrito-no-paulista-de-basquete-e-fica-a-disposicao-do-sao-jose-para-playoffs.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "01/09/2026"
-      },
-      {
-        "titulo": "Com trÃªs brasileiros, veja grupos da Champions League das AmÃ©ricas de Basquete 2026/27",
-        "resumo": "",
-        "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/09/01/com-tres-brasileiros-veja-grupos-da-champions-league-das-americas-de-basquete-202627.ghtml",
         "imagem": "",
         "data": "",
         "dataFmt": "01/09/2026"

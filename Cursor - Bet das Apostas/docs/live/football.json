@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-07T20:18:44-03:00",
+    "atualizadoEm": "2026-09-07T22:19:31-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 399,
+    "jogosFinalizados": 400,
     "timesAtualizados": 144,
-    "placaresFonte": "calendário + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -20,9 +20,9 @@
         "Bragantino",
         "Corinthians",
         "Atletico-MG",
+        "Vitoria",
         "Botafogo",
         "Santos",
-        "Vitoria",
         "Internacional",
         "Gremio",
         "Mirassol",
@@ -1320,7 +1320,7 @@
     },
     "Botafogo": {
       "brasileirao": {
-        "posicao": 11,
+        "posicao": 12,
         "pontos": 31,
         "ultimos5": [
           "E 0-0 VIT",
@@ -1419,8 +1419,8 @@
     },
     "Vitoria": {
       "brasileirao": {
-        "posicao": 13,
-        "pontos": 29,
+        "posicao": 11,
+        "pontos": 32,
         "ultimos5": [
           "D 0-2",
           "D 0-4 PAL",
@@ -1447,10 +1447,10 @@
           "gpg": 0.58,
           "gsg": 2.17
         },
-        "vitorias": 8,
+        "vitorias": 9,
         "empates": 5,
         "derrotas": 11,
-        "golsPro": 23,
+        "golsPro": 24,
         "golsContra": 35
       },
       "desfalques": [
@@ -1626,7 +1626,7 @@
     },
     "Santos": {
       "brasileirao": {
-        "posicao": 12,
+        "posicao": 13,
         "pontos": 29,
         "ultimos5": [
           "D 1-2",
@@ -1776,11 +1776,16 @@
         },
         "vitorias": 7,
         "empates": 7,
-        "derrotas": 10,
+        "derrotas": 11,
         "golsPro": 27,
-        "golsContra": 32
+        "golsContra": 33
       },
       "desfalques": [
+        {
+          "jogador": "EscalaÃ§Ã£o do GrÃªmio",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "GrÃªmio tem desfalques e dÃºvidas para e",
           "motivo": "notícia GE",
