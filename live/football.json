@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-08T16:30:47-03:00",
+    "atualizadoEm": "2026-09-08T19:00:29-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 400,
     "timesAtualizados": 144,
@@ -702,9 +702,9 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Cruzeiro",
+          "jogador": "Por que Lucas Silva não joga mais no Cru",
           "motivo": "notícia GE",
-          "impacto": "alto"
+          "impacto": "medio"
         }
       ],
       "retornando": [
@@ -1242,7 +1242,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Diniz aposta em manutenção do elenco e r",
+          "jogador": "Escalação",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Diniz aposta em manutenÃ§Ã£o do elenco e",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
