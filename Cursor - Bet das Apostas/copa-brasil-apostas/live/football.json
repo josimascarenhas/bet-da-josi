@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-09T06:36:48-03:00",
+    "atualizadoEm": "2026-09-09T11:13:15-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 401,
     "timesAtualizados": 145,
@@ -234,7 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o",
+          "jogador": "Mais desfalques e menos opções? Como Pal",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1246,11 +1246,6 @@
           "jogador": "EscalaÃ§Ã£o",
           "motivo": "notícia GE",
           "impacto": "medio"
-        },
-        {
-          "jogador": "Diniz aposta em manutenÃ§Ã£o do elenco e",
-          "motivo": "notícia GE",
-          "impacto": "medio"
         }
       ],
       "retornando": [],
@@ -1575,7 +1570,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Calleri treina e reforça o São Paulo con",
+          "jogador": "Calleri vira desfalque para o jogo da vo",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
