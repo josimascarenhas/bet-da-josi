@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-08T19:00:29-03:00",
+    "atualizadoEm": "2026-09-08T21:03:49-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 400,
-    "timesAtualizados": 144,
-    "placaresFonte": "calendário + openligadb.de + 365scores.com"
+    "jogosFinalizados": 401,
+    "timesAtualizados": 145,
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -615,23 +615,24 @@
         "xGSporJogo": 1.11
       },
       "libertadores": {
-        "xGporJogo": 0.69,
-        "xGSporJogo": 0.33,
-        "jogos": 2,
-        "golsPorJogo": 0.5,
-        "golsSofridosPorJogo": 0.0,
+        "xGporJogo": 0.57,
+        "xGSporJogo": 0.81,
+        "jogos": 3,
+        "golsPorJogo": 0.33,
+        "golsSofridosPorJogo": 0.67,
         "over25Pct": 0,
         "bttsPct": 0,
-        "cleanSheetPct": 100,
+        "cleanSheetPct": 67,
         "ultimos5": [
           "V 1-0 INDRI",
-          "E 0-0"
+          "E 0-0",
+          "D 0-2 PLA"
         ],
-        "sequencia": "1E",
+        "sequencia": "1D",
         "casa": {
-          "j": 1,
-          "gpg": 1.0,
-          "gsg": 0.0
+          "j": 2,
+          "gpg": 0.5,
+          "gsg": 1.0
         },
         "fora": {
           "j": 1,
@@ -1788,11 +1789,6 @@
       "desfalques": [
         {
           "jogador": "EscalaÃ§Ã£o do GrÃªmio",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "GrÃªmio tem desfalques e dÃºvidas para e",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -6121,7 +6117,22 @@
         "xGporJogo": 1.25,
         "xGSporJogo": 1.09,
         "escanteiosPorJogo": 5.5,
-        "cartoesPorJogo": 2.6
+        "cartoesPorJogo": 2.6,
+        "jogos": 1,
+        "golsPorJogo": 2.0,
+        "golsSofridosPorJogo": 0.0,
+        "over25Pct": 0,
+        "bttsPct": 0,
+        "cleanSheetPct": 100,
+        "ultimos5": [
+          "V 2-0"
+        ],
+        "sequencia": "1V",
+        "fora": {
+          "j": 1,
+          "gpg": 2.0,
+          "gsg": 0.0
+        }
       }
     },
     "SC-Freiburg": {

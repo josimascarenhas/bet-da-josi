@@ -1,10 +1,18 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-08T19:00:24.117088-03:00",
+    "atualizadoEm": "2026-09-08T21:03:39.113182-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "lib-2026-09-08-Fluminense-Platense",
+      "data": "2026-09-08",
+      "comp": "libertadores",
+      "mandante": "Fluminense",
+      "visitante": "Platense",
+      "placar": "0-2"
+    },
     {
       "id": "br-26-Vitoria-Gremio",
       "data": "2026-09-07",
@@ -236,14 +244,6 @@
       "mandante": "Celta",
       "visitante": "Athletic",
       "placar": "0-2"
-    },
-    {
-      "id": "eu-primeira-liga-2026-08-30-Famalicao-Gil-Vicente",
-      "data": "2026-08-30",
-      "comp": "primeira-liga",
-      "mandante": "Famalicao",
-      "visitante": "Gil-Vicente",
-      "placar": "0-0"
     }
   ]
 }
