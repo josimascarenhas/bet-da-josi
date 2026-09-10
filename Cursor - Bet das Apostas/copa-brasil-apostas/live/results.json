@@ -1,10 +1,18 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-09T21:58:05.653566-03:00",
+    "atualizadoEm": "2026-09-10T02:44:47.219087-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "lib-2026-09-09-Estudiantes-Corinthians",
+      "data": "2026-09-09",
+      "comp": "libertadores",
+      "mandante": "Estudiantes",
+      "visitante": "Corinthians",
+      "placar": "1-1"
+    },
     {
       "id": "lib-2026-09-08-Fluminense-Platense",
       "data": "2026-09-08",
@@ -236,14 +244,6 @@
       "mandante": "Flamengo",
       "visitante": "Botafogo",
       "placar": "3-0"
-    },
-    {
-      "id": "eu-la-liga-2026-08-30-Celta-Athletic",
-      "data": "2026-08-30",
-      "comp": "la-liga",
-      "mandante": "Celta",
-      "visitante": "Athletic",
-      "placar": "0-2"
     }
   ]
 }

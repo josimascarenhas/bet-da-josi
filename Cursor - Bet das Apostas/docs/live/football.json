@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-09T21:58:09-03:00",
+    "atualizadoEm": "2026-09-10T02:45:22-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 401,
-    "timesAtualizados": 145,
-    "placaresFonte": "calendário + openligadb.de + 365scores.com"
+    "jogosFinalizados": 402,
+    "timesAtualizados": 146,
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -1275,28 +1275,29 @@
         "xGSporJogo": 1.11
       },
       "libertadores": {
-        "xGporJogo": 0.69,
-        "xGSporJogo": 0.33,
-        "jogos": 2,
-        "golsPorJogo": 0.5,
-        "golsSofridosPorJogo": 0.0,
+        "xGporJogo": 0.81,
+        "xGSporJogo": 0.57,
+        "jogos": 3,
+        "golsPorJogo": 0.67,
+        "golsSofridosPorJogo": 0.33,
         "over25Pct": 0,
-        "bttsPct": 0,
-        "cleanSheetPct": 100,
+        "bttsPct": 33,
+        "cleanSheetPct": 67,
         "ultimos5": [
           "E 0-0",
-          "V 1-0 ROSCE"
+          "V 1-0 ROSCE",
+          "E 1-1"
         ],
-        "sequencia": "1V",
+        "sequencia": "1E",
         "casa": {
           "j": 1,
           "gpg": 1.0,
           "gsg": 0.0
         },
         "fora": {
-          "j": 1,
-          "gpg": 0.0,
-          "gsg": 0.0
+          "j": 2,
+          "gpg": 0.5,
+          "gsg": 0.5
         }
       },
       "copa": {
@@ -6274,7 +6275,22 @@
         "xGporJogo": 1.3,
         "xGSporJogo": 1.01,
         "escanteiosPorJogo": 5.5,
-        "cartoesPorJogo": 2.6
+        "cartoesPorJogo": 2.6,
+        "jogos": 1,
+        "golsPorJogo": 1.0,
+        "golsSofridosPorJogo": 1.0,
+        "over25Pct": 0,
+        "bttsPct": 100,
+        "cleanSheetPct": 0,
+        "ultimos5": [
+          "E 1-1 COR"
+        ],
+        "sequencia": "1E",
+        "casa": {
+          "j": 1,
+          "gpg": 1.0,
+          "gsg": 1.0
+        }
       }
     },
     "Seattle-Sounders": {
