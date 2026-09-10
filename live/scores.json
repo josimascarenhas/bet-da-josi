@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-09T21:58:05.653566-03:00",
-    "fonte": "calendário + openligadb.de + 365scores.com",
-    "jogos": 401,
-    "finalizadosTotal": 401
+    "atualizadoEm": "2026-09-10T02:44:47.219087-03:00",
+    "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
+    "jogos": 402,
+    "finalizadosTotal": 402
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -2869,6 +2869,15 @@
       "golsFora": 2,
       "data": "2026-09-08",
       "comp": "libertadores"
+    },
+    "lib-2026-09-09-Estudiantes-Corinthians": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-09-09",
+      "comp": "libertadores",
+      "fonte": "ge"
     },
     "eu-bundesliga-2026-08-29-RB-Leipzig-Borussia-Mgladbach": {
       "status": "finished",
