@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-10T18:05:30-03:00",
+    "atualizadoEm": "2026-09-10T20:20:55-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 402,
     "timesAtualizados": 146,
@@ -234,7 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Palmeiras inicia preparação para clássic",
+          "jogador": "Agora Ã© o clÃ¡ssico",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1123,7 +1123,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Atlético-MG x Cruzeiro",
+          "jogador": "Zagueiro que não estreou pelo Atlético-M",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Alexsander Ã© suspenso por ofensas a Kai",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1898,9 +1903,9 @@
       },
       "desfalques": [
         {
-          "jogador": "Endrick é relacionado pelo Real Madrid p",
+          "jogador": "Suspensões no Inter obrigam Pezzolano a ",
           "motivo": "notícia GE",
-          "impacto": "alto"
+          "impacto": "medio"
         }
       ],
       "retornando": [
