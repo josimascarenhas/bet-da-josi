@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-10T15:09:18-03:00",
+    "atualizadoEm": "2026-09-10T18:05:30-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 402,
     "timesAtualizados": 146,
@@ -588,9 +588,9 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do Fluminense",
+          "jogador": "Cano tem suspeita de lesão e vira dúvida",
           "motivo": "notícia GE",
-          "impacto": "medio"
+          "impacto": "alto"
         }
       ],
       "retornando": [],
@@ -937,11 +937,6 @@
       },
       "desfalques": [
         {
-          "jogador": "Rodriguinho segue fora dos treinos do Br",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
           "jogador": "Bragantino tem um suspenso e a volta de ",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -1035,7 +1030,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Rodrigo Gelado volta aos treinos com o e",
+          "jogador": "Escalação",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1248,9 +1243,9 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o",
+          "jogador": "Estudiantes alega ato obsceno e pede sus",
           "motivo": "notícia GE",
-          "impacto": "medio"
+          "impacto": "alto"
         }
       ],
       "retornando": [],
