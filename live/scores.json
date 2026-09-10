@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-10T02:44:47.219087-03:00",
-    "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
-    "jogos": 402,
-    "finalizadosTotal": 402
+    "atualizadoEm": "2026-09-10T07:45:03.815444-03:00",
+    "fonte": "calendário + openligadb.de + 365scores.com",
+    "jogos": 398,
+    "finalizadosTotal": 398
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -2876,8 +2876,7 @@
       "golsCasa": 1,
       "golsFora": 1,
       "data": "2026-09-09",
-      "comp": "libertadores",
-      "fonte": "ge"
+      "comp": "libertadores"
     },
     "eu-bundesliga-2026-08-29-RB-Leipzig-Borussia-Mgladbach": {
       "status": "finished",
@@ -3228,42 +3227,6 @@
       "golsFora": 1,
       "data": "2026-08-30",
       "comp": "mls",
-      "fonte": "365scores"
-    },
-    "eu-la-liga-2026-08-31-Osasuna-Getafe": {
-      "status": "finished",
-      "placar": "1-0",
-      "golsCasa": 1,
-      "golsFora": 0,
-      "data": "2026-08-31",
-      "comp": "la-liga",
-      "fonte": "365scores"
-    },
-    "eu-premier-league-2026-08-31-Aston-Villa-Arsenal": {
-      "status": "finished",
-      "placar": "0-1",
-      "golsCasa": 0,
-      "golsFora": 1,
-      "data": "2026-08-31",
-      "comp": "premier-league",
-      "fonte": "365scores"
-    },
-    "eu-primeira-liga-2026-08-31-Benfica-Estoril": {
-      "status": "finished",
-      "placar": "2-1",
-      "golsCasa": 2,
-      "golsFora": 1,
-      "data": "2026-08-31",
-      "comp": "primeira-liga",
-      "fonte": "365scores"
-    },
-    "eu-la-liga-2026-08-31-Barcelona-Rayo-Vallecano": {
-      "status": "finished",
-      "placar": "5-2",
-      "golsCasa": 5,
-      "golsFora": 2,
-      "data": "2026-08-31",
-      "comp": "la-liga",
       "fonte": "365scores"
     }
   }
