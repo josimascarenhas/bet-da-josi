@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-09T19:59:46-03:00",
+    "atualizadoEm": "2026-09-09T21:58:09-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 401,
     "timesAtualizados": 145,
@@ -1668,9 +1668,9 @@
       },
       "desfalques": [
         {
-          "jogador": "Trio se recupera de lesão, e Atlético-MG",
+          "jogador": "De camarote",
           "motivo": "notícia GE",
-          "impacto": "medio"
+          "impacto": "alto"
         }
       ],
       "retornando": [
