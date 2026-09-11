@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-11T16:05:08-03:00",
+    "atualizadoEm": "2026-09-11T18:51:30-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 403,
     "timesAtualizados": 146,
@@ -234,12 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Pleno do STJD aumenta pena de Abel Ferre",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "EscalaÃ§Ã£o",
+          "jogador": "Agora Ã© o clÃ¡ssico",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1129,12 +1124,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Alexsander será desfalque do Atlético-MG",
+          "jogador": "Alexsander serÃ¡ desfalque no Brasileiro",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
         {
-          "jogador": "Alexsander Ã© suspenso por ofensas a Kai",
+          "jogador": "AtlÃ©tico-MG x Cruzeiro",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1254,7 +1249,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Corinthians não paga multa, e Allan será",
+          "jogador": "Corinthians nÃ£o paga multa, e Allan ser",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
