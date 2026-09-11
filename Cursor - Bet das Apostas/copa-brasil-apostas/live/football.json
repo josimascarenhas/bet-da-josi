@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-10T22:21:29-03:00",
+    "atualizadoEm": "2026-09-11T03:27:36-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 402,
+    "jogosFinalizados": 403,
     "timesAtualizados": 146,
-    "placaresFonte": "calendário + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -403,27 +403,28 @@
       },
       "libertadores": {
         "xGporJogo": 1.77,
-        "xGSporJogo": 1.05,
-        "jogos": 2,
+        "xGSporJogo": 0.81,
+        "jogos": 3,
         "golsPorJogo": 2.0,
-        "golsSofridosPorJogo": 1.0,
-        "over25Pct": 100,
-        "bttsPct": 100,
-        "cleanSheetPct": 0,
+        "golsSofridosPorJogo": 0.67,
+        "over25Pct": 67,
+        "bttsPct": 67,
+        "cleanSheetPct": 33,
         "ultimos5": [
           "V 2-1 CRU",
-          "V 2-1"
+          "V 2-1",
+          "V 2-0"
         ],
-        "sequencia": "2V",
+        "sequencia": "3V",
         "casa": {
           "j": 1,
           "gpg": 2.0,
           "gsg": 1.0
         },
         "fora": {
-          "j": 1,
+          "j": 2,
           "gpg": 2.0,
-          "gsg": 1.0
+          "gsg": 0.5
         }
       },
       "copa": {
@@ -1253,7 +1254,7 @@
           "impacto": "medio"
         },
         {
-          "jogador": "Estudiantes alega ato obsceno e pede sus",
+          "jogador": "Estudiantes pede suspensÃ£o de Memphis; ",
           "motivo": "notícia GE",
           "impacto": "alto"
         }
@@ -2506,22 +2507,23 @@
     },
     "Independiente-del-Valle": {
       "libertadores": {
-        "jogos": 1,
-        "golsPorJogo": 3.0,
-        "golsSofridosPorJogo": 1.0,
-        "over25Pct": 100,
-        "bttsPct": 100,
+        "jogos": 2,
+        "golsPorJogo": 1.5,
+        "golsSofridosPorJogo": 1.5,
+        "over25Pct": 50,
+        "bttsPct": 50,
         "cleanSheetPct": 0,
         "ultimos5": [
-          "V 3-1 DEPTO"
+          "V 3-1 DEPTO",
+          "D 0-2 FLA"
         ],
-        "sequencia": "1V",
+        "sequencia": "1D",
         "xGporJogo": 1.4,
         "xGSporJogo": 1.06,
         "casa": {
-          "j": 1,
-          "gpg": 3.0,
-          "gsg": 1.0
+          "j": 2,
+          "gpg": 1.5,
+          "gsg": 1.5
         },
         "escanteiosPorJogo": 5.5,
         "cartoesPorJogo": 2.6
