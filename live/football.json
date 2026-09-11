@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-10T20:20:55-03:00",
+    "atualizadoEm": "2026-09-10T22:21:29-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 402,
     "timesAtualizados": 146,
@@ -1247,6 +1247,11 @@
         "golsContra": 26
       },
       "desfalques": [
+        {
+          "jogador": "Raniele é punido e não joga contra o Est",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Estudiantes alega ato obsceno e pede sus",
           "motivo": "notícia GE",
