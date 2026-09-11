@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-11T03:27:36-03:00",
+    "atualizadoEm": "2026-09-11T08:42:52-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 403,
     "timesAtualizados": 146,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -234,7 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Agora Ã© o clÃ¡ssico",
+          "jogador": "EscalaÃ§Ã£o",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1124,7 +1124,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Zagueiro que não estreou pelo Atlético-M",
+          "jogador": "Defesas, títulos e idolatria",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
