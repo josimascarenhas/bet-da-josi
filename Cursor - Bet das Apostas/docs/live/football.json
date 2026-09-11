@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-11T18:51:30-03:00",
+    "atualizadoEm": "2026-09-11T20:54:57-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 403,
     "timesAtualizados": 146,
@@ -234,7 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Agora Ã© o clÃ¡ssico",
+          "jogador": "Palmeiras inicia preparaÃ§Ã£o para clÃ¡s",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -589,9 +589,9 @@
       },
       "desfalques": [
         {
-          "jogador": "Cano tem suspeita de lesão e vira dúvida",
+          "jogador": "Escalação do Atlético-MG",
           "motivo": "notícia GE",
-          "impacto": "alto"
+          "impacto": "medio"
         }
       ],
       "retornando": [],
@@ -1123,6 +1123,11 @@
         "golsContra": 27
       },
       "desfalques": [
+        {
+          "jogador": "Escalação do Atlético-MG",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Alexsander serÃ¡ desfalque no Brasileiro",
           "motivo": "notícia GE",
@@ -1795,7 +1800,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Marlon serÃ¡ desfalque por lesÃ£o; confi",
+          "jogador": "Marlon Ã© desfalque por lesÃ£o; confira ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1909,12 +1914,7 @@
       },
       "desfalques": [
         {
-          "jogador": "De volta ao Inter de suspensão, Pezzolan",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Com laterais suspensos, veja provÃ¡vel t",
+          "jogador": "SuspensÃµes no Inter obrigam Pezzolano a",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
