@@ -1,10 +1,18 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-10T22:21:25.974230-03:00",
+    "atualizadoEm": "2026-09-11T03:27:01.631768-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "lib-2026-09-10-Independiente-del-Valle-Flamengo",
+      "data": "2026-09-10",
+      "comp": "libertadores",
+      "mandante": "Independiente-del-Valle",
+      "visitante": "Flamengo",
+      "placar": "0-2"
+    },
     {
       "id": "lib-2026-09-09-Estudiantes-Corinthians",
       "data": "2026-09-09",
@@ -236,14 +244,6 @@
       "mandante": "Corinthians",
       "visitante": "Santos",
       "placar": "0-1"
-    },
-    {
-      "id": "br-25-Flamengo-Botafogo",
-      "data": "2026-08-30",
-      "comp": "brasileirao",
-      "mandante": "Flamengo",
-      "visitante": "Botafogo",
-      "placar": "3-0"
     }
   ]
 }
