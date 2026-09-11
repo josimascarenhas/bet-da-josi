@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-11T08:42:52-03:00",
+    "atualizadoEm": "2026-09-11T12:57:53-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 403,
     "timesAtualizados": 146,
@@ -233,6 +233,11 @@
         "golsContra": 21
       },
       "desfalques": [
+        {
+          "jogador": "Pleno do STJD aumenta pena de Abel Ferre",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "EscalaÃ§Ã£o",
           "motivo": "notícia GE",
@@ -1124,11 +1129,6 @@
       },
       "desfalques": [
         {
-          "jogador": "Defesas, títulos e idolatria",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
           "jogador": "Alexsander Ã© suspenso por ofensas a Kai",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -1248,11 +1248,6 @@
         "golsContra": 26
       },
       "desfalques": [
-        {
-          "jogador": "Raniele é punido e não joga contra o Est",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
         {
           "jogador": "Estudiantes pede suspensÃ£o de Memphis; ",
           "motivo": "notícia GE",
@@ -1468,7 +1463,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Mateus Silva tem 1ª sequência de jogos d",
+          "jogador": "De volta ao Inter de suspensão, Pezzolan",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1795,7 +1790,7 @@
       },
       "desfalques": [
         {
-          "jogador": "GrÃªmio tem dÃºvidas no ataque contra o ",
+          "jogador": "Grêmio perde Marlon por lesão muscular; ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1909,7 +1904,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Suspensões no Inter obrigam Pezzolano a ",
+          "jogador": "De volta ao Inter de suspensão, Pezzolan",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Com laterais suspensos, veja provÃ¡vel t",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2346,7 +2346,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Corinthians terá desfalques de Hugo Souz",
+          "jogador": "Giovanni Augusto e Bolasie não treinam e",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
