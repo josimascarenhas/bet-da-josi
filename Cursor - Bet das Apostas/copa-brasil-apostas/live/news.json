@@ -1,42 +1,130 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-10T23:20:50.655282+00:00",
+    "atualizadoEm": "2026-09-11T01:21:25.826418+00:00",
     "fonte": "ge.globo.com",
     "fonteUrl": "https://ge.globo.com/"
   },
   "futebol": {
     "geral": [
       {
+        "titulo": "Cienciano x Montevideo City Torque - Copa Sul-Americana 2026 - Ao vivo - globoesporte.com",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/copa-sul-americana/jogo/10-09-2026/cienciano-montevideo-city-torque.ghtml",
+        "imagem": "",
+        "data": "2026-09-11T01:11:21+00:00",
+        "dataFmt": "11/09/2026 01:11"
+      },
+      {
+        "titulo": "Sport x Ponte Preta - Campeonato Brasileiro Série B 2026 - Ao vivo - globoesporte.com",
+        "resumo": "",
+        "url": "https://ge.globo.com/pe/futebol/brasileirao-serie-b/jogo/10-09-2026/sport-ponte-preta.ghtml",
+        "imagem": "",
+        "data": "2026-09-11T01:11:04+00:00",
+        "dataFmt": "11/09/2026 01:11"
+      },
+      {
         "titulo": "Independiente del Valle x Flamengo - Taça Conmebol Libertadores 2026 - Ao vivo - globoesporte.com",
         "resumo": "",
         "url": "https://ge.globo.com/futebol/libertadores/jogo/10-09-2026/independiente-del-valle-flamengo.ghtml",
         "imagem": "",
-        "data": "2026-09-10T23:15:51+00:00",
-        "dataFmt": "10/09/2026 23:15"
-      },
-      {
-        "titulo": "Vila Nova x Goiás - Campeonato Brasileiro Série B 2026 - Ao vivo - globoesporte.com",
-        "resumo": "",
-        "url": "https://ge.globo.com/go/futebol/brasileirao-serie-b/jogo/10-09-2026/vila-nova-goias.ghtml",
-        "imagem": "",
-        "data": "2026-09-10T23:15:40+00:00",
-        "dataFmt": "10/09/2026 23:15"
-      },
-      {
-        "titulo": "Galvez x Santa Cruz-AC - Copa do Brasil Sub-20 2026 - Ao vivo - globoesporte.com",
-        "resumo": "",
-        "url": "https://ge.globo.com/ac/futebol/copa-do-brasil/jogo/10-09-2026/galvez-santa-cruz-ac.ghtml",
-        "imagem": "",
-        "data": "2026-09-10T23:14:14+00:00",
-        "dataFmt": "10/09/2026 23:14"
+        "data": "2026-09-11T01:10:15+00:00",
+        "dataFmt": "11/09/2026 01:10"
       },
       {
         "titulo": "São Bernardo x Londrina - Campeonato Brasileiro Série B 2026 - Ao vivo - globoesporte.com",
         "resumo": "",
         "url": "https://ge.globo.com/pr/futebol/brasileirao-serie-b/jogo/10-09-2026/sao-bernardo-londrina.ghtml",
         "imagem": "",
-        "data": "2026-09-10T23:08:35+00:00",
-        "dataFmt": "10/09/2026 23:08"
+        "data": "2026-09-11T01:09:55+00:00",
+        "dataFmt": "11/09/2026 01:09"
+      },
+      {
+        "titulo": "Vila Nova vence clássico contra o Goiás, sobe na tabela e complica rival",
+        "resumo": "",
+        "url": "https://ge.globo.com/go/futebol/brasileirao-serie-b/jogo/10-09-2026/vila-nova-goias.ghtml",
+        "imagem": "",
+        "data": "2026-09-11T00:54:09+00:00",
+        "dataFmt": "11/09/2026 00:54"
+      },
+      {
+        "titulo": "Após acesso, Varão revela recusa à Série B para defender o Nacional na Série D: \"Abraçado pelo estado\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/am/futebol/times/nacional-am/noticia/2026/09/10/apos-acesso-varao-revela-recusa-a-serie-b-para-defender-o-nacional-na-serie-d-abracado-pelo-estado.ghtml",
+        "imagem": "",
+        "data": "2026-09-11T00:27:08+00:00",
+        "dataFmt": "11/09/2026 00:27"
+      },
+      {
+        "titulo": "Gabriel Pereira desembarca no Rio para assinar com o Vasco: \"Chego pronto\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/10/gabriel-pereira-desembarca-no-rio-para-assinar-com-o-vasco.ghtml",
+        "imagem": "",
+        "data": "2026-09-11T00:25:38+00:00",
+        "dataFmt": "11/09/2026 00:25"
+      },
+      {
+        "titulo": "Conmebol multa São Paulo em mais de R$ 117 mil por ocorrências contra o Bolívar",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/10/conmebol-multa-sao-paulo-em-mais-de-r-117-mil-por-ocorrencias-contra-o-bolivar.ghtml",
+        "imagem": "",
+        "data": "2026-09-11T00:16:24+00:00",
+        "dataFmt": "11/09/2026 00:16"
+      },
+      {
+        "titulo": "Raniele é punido e não joga contra o Estudiantes; Conmebol multa Corinthians em R$ 286 mil",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/raniele-e-punido-e-nao-joga-contra-o-estudiantes-conmebol-multa-corinthians-em-r-286-mil.ghtml",
+        "imagem": "",
+        "data": "2026-09-11T00:04:25+00:00",
+        "dataFmt": "11/09/2026 00:04"
+      },
+      {
+        "titulo": "Santa Cruz-AC goleia Galvez e avança à segunda fase da Copa do Brasil Sub-20",
+        "resumo": "",
+        "url": "https://ge.globo.com/ac/futebol/copa-do-brasil/jogo/10-09-2026/galvez-santa-cruz-ac.ghtml",
+        "imagem": "",
+        "data": "2026-09-11T00:03:56+00:00",
+        "dataFmt": "11/09/2026 00:03"
+      },
+      {
+        "titulo": "Flamengo x São Paulo - Campeonato Brasileiro Feminino 2026 - globoesporte.com",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/futebol-feminino/brasileiro-feminino/jogo/12-09-2026/flamengo-sao-paulo.ghtml",
+        "imagem": "",
+        "data": "2026-09-10T23:41:03+00:00",
+        "dataFmt": "10/09/2026 23:41"
+      },
+      {
+        "titulo": "Entregadora registra queixa na polícia contra John Kennedy, do Fluminense, por ameaça",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/10/entregadora-registra-queixa-na-policia-contra-john-kennedy-do-fluminense-por-ameaca.ghtml",
+        "imagem": "",
+        "data": "2026-09-10T23:35:15+00:00",
+        "dataFmt": "10/09/2026 23:35"
+      },
+      {
+        "titulo": "Firmino brilha com dois gols e assistência em goleada do Al-Sadd",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/10/firmino-brilha-com-dois-gols-e-assistencia-em-goleada-do-al-sadd.ghtml",
+        "imagem": "",
+        "data": "2026-09-10T23:33:04+00:00",
+        "dataFmt": "10/09/2026 23:33"
+      },
+      {
+        "titulo": "Coritiba x Athletico: o que esperar do jogo e como chegam os times; assista ao vídeo",
+        "resumo": "",
+        "url": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/noticia/2026/09/10/coritiba-x-athletico-o-que-esperar-do-jogo-e-como-chegam-os-times-assista-ao-video.ghtml",
+        "imagem": "",
+        "data": "2026-09-10T23:20:25+00:00",
+        "dataFmt": "10/09/2026 23:20"
+      },
+      {
+        "titulo": "Botafogo-SP tem problema no meio, mas capitão volta na lateral-esquerda contra Goiás",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/botafogo-sp/noticia/2026/09/10/botafogo-sp-tem-problema-no-meio-mas-capitao-volta-na-lateral-esquerda-contra-goias.ghtml",
+        "imagem": "",
+        "data": "2026-09-10T23:19:23+00:00",
+        "dataFmt": "10/09/2026 23:19"
       },
       {
         "titulo": "Atlético-PI agenda apresentação do elenco, e Testoni alinha detalhes da pré-temporada para 2027",
@@ -77,94 +165,6 @@
         "imagem": "",
         "data": "2026-09-10T22:37:43+00:00",
         "dataFmt": "10/09/2026 22:37"
-      },
-      {
-        "titulo": "São Paulo goleia Santo Antônio-MS por 13 a 1 e avança à 2ª fase da Copa do Brasil Sub-20",
-        "resumo": "",
-        "url": "https://ge.globo.com/ms/futebol/copa-do-brasil-sub-20/jogo/10-09-2026/sao-paulo-santo-antonio-ms.ghtml",
-        "imagem": "",
-        "data": "2026-09-10T22:34:16+00:00",
-        "dataFmt": "10/09/2026 22:34"
-      },
-      {
-        "titulo": "Cano e Ignácio têm lesões e desfalcam o Fluminense nas próximas semanas",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/10/cano-e-ignacio-tem-lesoes-confirmadas-e-desfalcam-o-fluminense-nas-proximas-semanas.ghtml",
-        "imagem": "",
-        "data": "2026-09-10T22:23:27+00:00",
-        "dataFmt": "10/09/2026 22:23"
-      },
-      {
-        "titulo": "Ferroviário vence Esporte de Patos e avança na Copa do Brasil Sub-20",
-        "resumo": "",
-        "url": "https://ge.globo.com/pb/futebol/noticia/2026/09/10/ferroviario-vence-esporte-de-patos-e-avanca-na-copa-do-brasil-sub-20.ghtml",
-        "imagem": "",
-        "data": "2026-09-10T22:03:08+00:00",
-        "dataFmt": "10/09/2026 22:03"
-      },
-      {
-        "titulo": "Suspensões no Inter obrigam Pezzolano a mudar lateral esquerda; veja as opções",
-        "resumo": "",
-        "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/10/suspensoes-no-inter-obrigam-pezzolano-a-mudar-lateral-esquerda-veja-as-opcoes.ghtml",
-        "imagem": "",
-        "data": "2026-09-10T22:01:31+00:00",
-        "dataFmt": "10/09/2026 22:01"
-      },
-      {
-        "titulo": "Amigos de infância e rivais no Athletiba: conheça o elo entre Sebas Gómez e Felipe Aguirre",
-        "resumo": "",
-        "url": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/noticia/2026/09/10/amigos-de-infancia-e-rivais-no-athletiba-conheca-o-elo-entre-sebas-gomez-e-felipe-aguirre.ghtml",
-        "imagem": "",
-        "data": "2026-09-10T21:55:36+00:00",
-        "dataFmt": "10/09/2026 21:55"
-      },
-      {
-        "titulo": "Zagueiro que não estreou pelo Atlético-MG se recupera de lesão e fica disponível",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/10/zagueiro-que-nao-estreou-pelo-atletico-mg-se-recupera-de-lesao-e-fica-disponivel.ghtml",
-        "imagem": "",
-        "data": "2026-09-10T21:50:06+00:00",
-        "dataFmt": "10/09/2026 21:50"
-      },
-      {
-        "titulo": "Vitória do Guaraí entra no top-5 de maiores goleadas da Segunda Divisão Tocantinense; veja histórico",
-        "resumo": "",
-        "url": "https://ge.globo.com/to/futebol/tocantinense-segunda-divisao/noticia/2026/09/10/vitoria-do-guarai-entra-no-top-5-de-maiores-goleadas-da-segunda-divisao-tocantinense-veja-historico.ghtml",
-        "imagem": "",
-        "data": "2026-09-10T21:45:49+00:00",
-        "dataFmt": "10/09/2026 21:45"
-      },
-      {
-        "titulo": "Conselho do CSA convoca assembleia para definir eleição; dois nomes ganham força",
-        "resumo": "",
-        "url": "https://ge.globo.com/al/futebol/times/csa/noticia/2026/09/10/conselho-do-csa-convoca-assembleia-extraordinaria-para-definir-eleicao-bastidores-esquentam.ghtml",
-        "imagem": "",
-        "data": "2026-09-10T21:34:46+00:00",
-        "dataFmt": "10/09/2026 21:34"
-      },
-      {
-        "titulo": "Artilheiro do Nacional na temporada, Rafa Marcos rescinde com o clube após acesso à Série C",
-        "resumo": "",
-        "url": "https://ge.globo.com/am/futebol/times/nacional-am/noticia/2026/09/10/artilheiro-do-nacional-na-temporada-rafa-marcos-rescinde-com-o-clube-apos-acesso-a-serie-c.ghtml",
-        "imagem": "",
-        "data": "2026-09-10T21:29:10+00:00",
-        "dataFmt": "10/09/2026 21:29"
-      },
-      {
-        "titulo": "Campinense contrata atacante com passagens pelas categorias de base de Botafogo e Vasco",
-        "resumo": "",
-        "url": "https://ge.globo.com/pb/futebol/times/campinense/noticia/2026/09/10/campinense-contrata-atacante-com-passagens-pelas-categorias-de-base-de-botafogo-e-vasco.ghtml",
-        "imagem": "",
-        "data": "2026-09-10T21:28:37+00:00",
-        "dataFmt": "10/09/2026 21:28"
-      },
-      {
-        "titulo": "Presidente do Cruzeiro defende trabalho de Artur Jorge: \"Plano de cinco anos, não de um jogo\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/10/presidente-do-cruzeiro-defende-trabalho-de-artur-jorge-plano-de-cinco-anos-nao-de-um-jogo.ghtml",
-        "imagem": "",
-        "data": "2026-09-10T21:27:26+00:00",
-        "dataFmt": "10/09/2026 21:27"
       }
     ],
     "times": {
@@ -256,8 +256,16 @@
           "resumo": "",
           "url": "https://ge.globo.com/futebol/libertadores/jogo/10-09-2026/independiente-del-valle-flamengo.ghtml",
           "imagem": "",
-          "data": "2026-09-10T23:15:51+00:00",
-          "dataFmt": "10/09/2026 23:15"
+          "data": "2026-09-11T01:10:15+00:00",
+          "dataFmt": "11/09/2026 01:10"
+        },
+        {
+          "titulo": "Flamengo x São Paulo - Campeonato Brasileiro Feminino 2026 - globoesporte.com",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/futebol-feminino/brasileiro-feminino/jogo/12-09-2026/flamengo-sao-paulo.ghtml",
+          "imagem": "",
+          "data": "2026-09-10T23:41:03+00:00",
+          "dataFmt": "10/09/2026 23:41"
         },
         {
           "titulo": "Olho neles: Del Valle tem cinco remanescentes de time campeão contra o Flamengo; saiba quem são",
@@ -268,7 +276,7 @@
           "dataFmt": "10/09/2026 18:57"
         },
         {
-          "titulo": "Fla busca sequÃªncia inÃ©dita de vitÃ³rias na altitude",
+          "titulo": "Flamengo busca contra o Independiente del Valle sequÃªncia inÃ©dita de vitÃ³rias na altitude",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/10/flamengo-busca-contra-o-independiente-del-valle-sequencia-inedita-de-vitorias-na-altitude.ghtml",
           "imagem": "",
@@ -276,15 +284,7 @@
           "dataFmt": "10/09/2026"
         },
         {
-          "titulo": "Del Valle x Flamengo: onde assistir ao vivo, horÃ¡rio e escalaÃ§Ãµes",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/10/independiente-del-valle-x-flamengo-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "10/09/2026"
-        },
-        {
-          "titulo": "Lino coroa auge com convocaÃ§Ã£o e estÃ¡ a dois gols de ano artilheiro",
+          "titulo": "Samuel Lino coroa auge pelo Flamengo com convocaÃ§Ã£o e estÃ¡ a dois gols de ano mais artilheiro",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/10/samuel-lino-coroa-auge-pelo-flamengo-com-convocacao-e-esta-a-dois-gols-de-ano-mais-artilheiro.ghtml",
           "imagem": "",
@@ -292,7 +292,15 @@
           "dataFmt": "10/09/2026"
         },
         {
-          "titulo": "EscalaÃ§Ã£o: Jardim avalia desgaste e prepara equipe para encarar o Del Valle na altitude",
+          "titulo": "Independiente del Valle x Flamengo: onde assistir ao vivo, horÃ¡rio e escalaÃ§Ãµes",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/10/independiente-del-valle-x-flamengo-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "10/09/2026"
+        },
+        {
+          "titulo": "EscalaÃ§Ã£o do Flamengo: Jardim avalia desgaste e prepara equipe para encarar o Del Valle na altitude",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/09/escalacao-do-flamengo-jardim-avalia-desgaste-e-prepara-equipe-para-encarar-o-del-valle-na-altitude.ghtml",
           "imagem": "",
@@ -300,15 +308,7 @@
           "dataFmt": "09/09/2026"
         },
         {
-          "titulo": "Gramado ruim serÃ¡ desafio para o Fla contra o Del Valle",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/09/gramado-ruim-e-ultimos-preparativos-veja-como-esta-o-estadio-atahualpa-antes-de-del-valle-x-flamengo.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "09/09/2026"
-        },
-        {
-          "titulo": "Zico elogia convocaÃ§Ã£o de Pedro: \"Corrigiram uma injustiÃ§a\"",
+          "titulo": "Zico opina sobre convocaÃ§Ã£o e elogia Pedro, do Flamengo: \"Melhor centroavante do Brasil\"",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/09/zico-opina-sobre-convocacao-e-elogia-pedro-do-flamengo-melhor-do-brasil.ghtml",
           "imagem": "",
@@ -316,7 +316,7 @@
           "dataFmt": "09/09/2026"
         },
         {
-          "titulo": "Pedro e Lino comemoram convocaÃ§Ã£o: \"Que seja um ciclo de vitÃ³rias\"",
+          "titulo": "Pedro e Samuel Lino, do Flamengo, comemoram convocaÃ§Ã£o para SeleÃ§Ã£o; veja",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/09/pedro-e-samuel-lino-do-flamengo-comemoram-convocacao-para-a-selecao-brasileira.ghtml",
           "imagem": "",
@@ -324,28 +324,28 @@
           "dataFmt": "09/09/2026"
         },
         {
-          "titulo": "Del Valle virou potÃªncia com formaÃ§Ã£o antirracista, foco em base e estrutura",
+          "titulo": "Gramado ruim e Ãºltimos preparativos: veja como estÃ¡ o EstÃ¡dio Atahualpa antes de Del Valle x Flamengo",
           "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/09/del-valle-virou-potencia-com-formacao-antirracista-foco-em-base-e-estrutura-e-tenta-assombrar-novamente-o-flamengo.ghtml",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/09/gramado-ruim-e-ultimos-preparativos-veja-como-esta-o-estadio-atahualpa-antes-de-del-valle-x-flamengo.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "09/09/2026"
         },
         {
-          "titulo": "Plata volta apÃ³s saÃ­da frustrada do Flamengo e reencontra ex-clube",
+          "titulo": "Jorginho, do Flamengo, estÃ¡ na prÃ©-lista da seleÃ§Ã£o italiana",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/09/jorginho-do-flamengo-esta-na-pre-lista-da-selecao-italiana.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "09/09/2026"
+        },
+        {
+          "titulo": "Plata volta apÃ³s saÃ­da frustrada do Flamengo e reencontra ex-clube: \"Sempre foi inquieto\", diz gerente do Del Valle",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/09/plata-volta-apos-saida-frustrada-do-flamengo-e-reencontra-ex-clube-sempre-foi-inquieto-diz-gerente-do-del-valle.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "09/09/2026"
-        },
-        {
-          "titulo": "Boto comenta possÃ­vel ida de Cebolinha ao Santos: \"Ele se excluiu do Flamengo\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/08/boto-comenta-possivel-ida-de-cebolinha-ao-santos-se-excluiu-do-flamengo.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "08/09/2026"
         }
       ],
       "Athletico-PR": [
@@ -412,17 +412,17 @@
           "imagem": "",
           "data": "",
           "dataFmt": "04/09/2026"
-        },
-        {
-          "titulo": "Athletico x Racing pela final do Mundial de Clubes Juvenil: onde assistir e os detalhes do jogo",
-          "resumo": "",
-          "url": "https://ge.globo.com/pr/futebol/times/athletico-pr/noticia/2026/09/09/athletico-x-racing-pela-final-do-mundial-de-clubes-juvenil-onde-assistir-e-os-detalhes-do-jogo.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "09/09/2026"
         }
       ],
       "Fluminense": [
+        {
+          "titulo": "Entregadora registra queixa na polícia contra John Kennedy, do Fluminense, por ameaça",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/10/entregadora-registra-queixa-na-policia-contra-john-kennedy-do-fluminense-por-ameaca.ghtml",
+          "imagem": "",
+          "data": "2026-09-10T23:35:15+00:00",
+          "dataFmt": "10/09/2026 23:35"
+        },
         {
           "titulo": "Cano e Ignácio têm lesões e desfalcam o Fluminense nas próximas semanas",
           "resumo": "",
@@ -507,14 +507,6 @@
           "titulo": "Novo volante? Ganso muda posicionamento no Fluminense e consolida bom momento em decisÃ£o na Libertadores",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/09/novo-volante-ganso-muda-posicionamento-no-fluminense-e-consolida-bom-momento-em-decisao-na-libertadores.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "09/09/2026"
-        },
-        {
-          "titulo": "Martinelli, do Fluminense, nutre expectativa por SeleÃ§Ã£o: \"Trabalhando por esse sonho\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/09/martinelli-do-fluminense-nutre-expectativa-por-selecao-trabalhando-por-esse-sonho.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "09/09/2026"
@@ -800,6 +792,14 @@
       ],
       "Coritiba": [
         {
+          "titulo": "Coritiba x Athletico: o que esperar do jogo e como chegam os times; assista ao vídeo",
+          "resumo": "",
+          "url": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/noticia/2026/09/10/coritiba-x-athletico-o-que-esperar-do-jogo-e-como-chegam-os-times-assista-ao-video.ghtml",
+          "imagem": "",
+          "data": "2026-09-10T23:20:25+00:00",
+          "dataFmt": "10/09/2026 23:20"
+        },
+        {
           "titulo": "Escalação: Coritiba chega ao Athletiba com duas dúvidas",
           "resumo": "",
           "url": "https://ge.globo.com/pr/futebol/times/coritiba/noticia/2026/09/10/escalacao-coritiba-chega-ao-athletiba-com-duas-duvidas.ghtml",
@@ -843,14 +843,6 @@
           "titulo": "EscalaÃ§Ã£o do Coritiba: Tiago CÃ³ser fica Ã  disposiÃ§Ã£o para o Athletiba",
           "resumo": "",
           "url": "https://ge.globo.com/pr/futebol/times/coritiba/noticia/2026/09/08/escalacao-do-coritiba-tiago-coser-fica-a-disposicao-para-o-athletiba.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "08/09/2026"
-        },
-        {
-          "titulo": "Seabra explica desgaste fÃ­sico do Coritiba e atualiza situaÃ§Ã£o de Jacy e JosuÃ© na semana do Athletiba",
-          "resumo": "",
-          "url": "https://ge.globo.com/pr/futebol/times/coritiba/noticia/2026/09/08/seabra-explica-desgaste-fisico-do-coritiba-e-atualiza-situacao-de-jacy-e-josue-na-semana-do-athletiba.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "08/09/2026"
@@ -956,6 +948,14 @@
       ],
       "Corinthians": [
         {
+          "titulo": "Raniele é punido e não joga contra o Estudiantes; Conmebol multa Corinthians em R$ 286 mil",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/raniele-e-punido-e-nao-joga-contra-o-estudiantes-conmebol-multa-corinthians-em-r-286-mil.ghtml",
+          "imagem": "",
+          "data": "2026-09-11T00:04:25+00:00",
+          "dataFmt": "11/09/2026 00:04"
+        },
+        {
           "titulo": "Corinthians aguarda aval da CBF para estrear novo terceiro uniforme",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/corinthians-aguarda-aval-da-cbf-para-estrear-novo-terceiro-uniforme.ghtml",
@@ -972,12 +972,12 @@
           "dataFmt": "10/09/2026 19:42"
         },
         {
-          "titulo": "Kaio César admite incômodo com atrasos no Corinthians, mas diz: \"Não pode pensar em dinheiro\"",
+          "titulo": "\"NÃ£o pode pensar em dinheiro\", diz Kaio CÃ©sar sobre atrasos no TimÃ£o",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/10/kaio-cesar-admite-incomodo-com-atrasos-no-corinthians-mas-diz-nao-pode-pensar-em-dinheiro.ghtml",
           "imagem": "",
-          "data": "2026-09-10T18:43:35+00:00",
-          "dataFmt": "10/09/2026 18:43"
+          "data": "",
+          "dataFmt": "10/09/2026"
         },
         {
           "titulo": "A estatÃ­stica que fez Garro ser exaltado pelo tÃ©cnico",
@@ -1028,7 +1028,7 @@
           "dataFmt": "09/09/2026"
         },
         {
-          "titulo": "Trio do TimÃ£o festeja convocaÃ§Ã£o para SeleÃ§Ã£o: \"Nunca imaginei\"",
+          "titulo": "Matheuzinho, Hugo e Bidon festejam convocaÃ§Ã£o para a SeleÃ§Ã£o: \"Nunca imaginei\"",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/09/matheuzinho-hugo-e-bidon-festejam-convocacao-nunca-imaginei-que-viveria-esse-momento.ghtml",
           "imagem": "",
@@ -1045,6 +1045,14 @@
         }
       ],
       "Botafogo": [
+        {
+          "titulo": "Botafogo-SP tem problema no meio, mas capitão volta na lateral-esquerda contra Goiás",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/botafogo-sp/noticia/2026/09/10/botafogo-sp-tem-problema-no-meio-mas-capitao-volta-na-lateral-esquerda-contra-goias.ghtml",
+          "imagem": "",
+          "data": "2026-09-10T23:19:23+00:00",
+          "dataFmt": "10/09/2026 23:19"
+        },
         {
           "titulo": "Campinense contrata atacante com passagens pelas categorias de base de Botafogo e Vasco",
           "resumo": "",
@@ -1132,14 +1140,6 @@
           "imagem": "",
           "data": "",
           "dataFmt": "08/09/2026"
-        },
-        {
-          "titulo": "Arthur Chaves diz que priorizou o Botafogo e define foco em campo: \"ImposiÃ§Ã£o para roubar bolas\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/08/botafogo-apresenta-arthur-chaves-como-novo-reforco.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "08/09/2026"
         }
       ],
       "Vitoria": [
@@ -1174,14 +1174,6 @@
           "imagem": "",
           "data": "2026-09-10T19:28:40+00:00",
           "dataFmt": "10/09/2026 19:28"
-        },
-        {
-          "titulo": "Roger Silva critica atitude de Netinho na vitória do Atlético-GO diante do Ceará",
-          "resumo": "",
-          "url": "https://ge.globo.com/go/futebol/times/atletico-go/noticia/2026/09/10/roger-silva-critica-atitude-de-netinho-na-vitoria-do-atletico-go-diante-do-ceara.ghtml",
-          "imagem": "",
-          "data": "2026-09-10T18:29:51+00:00",
-          "dataFmt": "10/09/2026 18:29"
         },
         {
           "titulo": "Mateus Silva tem sequÃªncia de jogos e ganha elogios do tÃ©cnico",
@@ -1238,9 +1230,33 @@
           "imagem": "",
           "data": "",
           "dataFmt": "07/09/2026"
+        },
+        {
+          "titulo": "Recomendadas pelo editor",
+          "resumo": "",
+          "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2025/12/08/contratacoes-do-vitoria-para-2026-veja-quem-chega-quem-fica-e-quem-vai-embora.ghtml",
+          "imagem": "https://s2-ge.glbimg.com/B0soB1r6LOk10WwWGd32_Mpp0oA=/0x153:1080x1233/94x94/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/K/r/v5mlpGQHSEzxtD5q8xaA/hl07eykwuaa40vg.jpg",
+          "data": "",
+          "dataFmt": "08/12/2025"
         }
       ],
       "Sao-Paulo": [
+        {
+          "titulo": "Conmebol multa São Paulo em mais de R$ 117 mil por ocorrências contra o Bolívar",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/10/conmebol-multa-sao-paulo-em-mais-de-r-117-mil-por-ocorrencias-contra-o-bolivar.ghtml",
+          "imagem": "",
+          "data": "2026-09-11T00:16:24+00:00",
+          "dataFmt": "11/09/2026 00:16"
+        },
+        {
+          "titulo": "Flamengo x São Paulo - Campeonato Brasileiro Feminino 2026 - globoesporte.com",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/futebol-feminino/brasileiro-feminino/jogo/12-09-2026/flamengo-sao-paulo.ghtml",
+          "imagem": "",
+          "data": "2026-09-10T23:41:03+00:00",
+          "dataFmt": "10/09/2026 23:41"
+        },
         {
           "titulo": "São Paulo goleia Santo Antônio-MS por 13 a 1 e avança à 2ª fase da Copa do Brasil Sub-20",
           "resumo": "",
@@ -1320,22 +1336,6 @@
           "imagem": "",
           "data": "",
           "dataFmt": "09/09/2026"
-        },
-        {
-          "titulo": "AnÃ¡lise: SÃ£o Paulo cai no segundo tempo e sai atrÃ¡s contra Boca",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/09/analise-sao-paulo-perde-chances-cai-no-segundo-tempo-e-sai-atras-contra-o-boca.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "09/09/2026"
-        },
-        {
-          "titulo": "Boca Juniors 1 x 0 SÃ£o Paulo: assista aos melhores momentos",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/08/boca-juniors-1-x-0-sao-paulo-assista-aos-melhores-momentos.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "08/09/2026"
         }
       ],
       "Santos": [
@@ -1462,14 +1462,6 @@
           "dataFmt": "10/09/2026 20:21"
         },
         {
-          "titulo": "Avaí anuncia a contratação de Rildo, ex-Grêmio",
-          "resumo": "",
-          "url": "https://ge.globo.com/sc/futebol/times/avai/noticia/2026/09/10/avai-anuncia-a-contratacao-de-rildo-ex-gremio.ghtml",
-          "imagem": "",
-          "data": "2026-09-10T18:34:57+00:00",
-          "dataFmt": "10/09/2026 18:34"
-        },
-        {
           "titulo": "Jovem do GrÃªmio Ã© chamado para ser quarto goleiro da SeleÃ§Ã£o",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/09/jovem-do-gremio-e-chamado-para-ser-quarto-goleiro-da-selecao-na-data-fifa.ghtml",
@@ -1519,6 +1511,14 @@
         }
       ],
       "Internacional": [
+        {
+          "titulo": "Firmino brilha com dois gols e assistência em goleada do Al-Sadd",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/10/firmino-brilha-com-dois-gols-e-assistencia-em-goleada-do-al-sadd.ghtml",
+          "imagem": "",
+          "data": "2026-09-10T23:33:04+00:00",
+          "dataFmt": "10/09/2026 23:33"
+        },
         {
           "titulo": "Suspensões no Inter obrigam Pezzolano a mudar lateral esquerda; veja as opções",
           "resumo": "",
@@ -1606,14 +1606,6 @@
           "imagem": "",
           "data": "",
           "dataFmt": "09/09/2026"
-        },
-        {
-          "titulo": "O Inter joga o pior futebol do Brasil? Comentaristas opinam",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/08/o-inter-joga-o-pior-futebol-do-brasil-comentaristas-opinam.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "08/09/2026"
         }
       ],
       "Mirassol": [
@@ -1798,6 +1790,14 @@
       ],
       "Vasco": [
         {
+          "titulo": "Gabriel Pereira desembarca no Rio para assinar com o Vasco: \"Chego pronto\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/10/gabriel-pereira-desembarca-no-rio-para-assinar-com-o-vasco.ghtml",
+          "imagem": "",
+          "data": "2026-09-11T00:25:38+00:00",
+          "dataFmt": "11/09/2026 00:25"
+        },
+        {
           "titulo": "Campinense contrata atacante com passagens pelas categorias de base de Botafogo e Vasco",
           "resumo": "",
           "url": "https://ge.globo.com/pb/futebol/times/campinense/noticia/2026/09/10/campinense-contrata-atacante-com-passagens-pelas-categorias-de-base-de-botafogo-e-vasco.ghtml",
@@ -1814,12 +1814,12 @@
           "dataFmt": "10/09/2026 21:14"
         },
         {
-          "titulo": "Justiça autoriza novo empréstimo e determina abertura do leilão da SAF do Vasco",
+          "titulo": "JustiÃ§a autoriza novo emprÃ©stimo e determina abertura do leilÃ£o da SAF",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/10/justica-autoriza-novo-emprestimo-e-processo-de-venda-da-saf-do-vasco-avanca.ghtml",
           "imagem": "",
-          "data": "2026-09-10T18:21:31+00:00",
-          "dataFmt": "10/09/2026 18:21"
+          "data": "",
+          "dataFmt": "10/09/2026"
         },
         {
           "titulo": "Admar mantÃ©m esperanÃ§a: \"Viria mudar o patamar do Vasco\"",
@@ -1881,14 +1881,6 @@
           "titulo": "Vasco passa ileso contra o Santa Fe e supera histÃ³rico ruim na altitude",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/09/vasco-passa-ileso-contra-o-santa-fe-e-supera-historico-ruim-na-altitude.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "09/09/2026"
-        },
-        {
-          "titulo": "Vasco anuncia contrataÃ§Ã£o do meia Lescano",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/09/vasco-anuncia-contratacao-do-meia-alan-lescano.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "09/09/2026"
@@ -1981,6 +1973,14 @@
   "tenis": {
     "geral": [
       {
+        "titulo": "Sabalenka bate Pegula, vai à final do US Open e assegura vice-liderança do ranking",
+        "resumo": "",
+        "url": "https://ge.globo.com/tenis/noticia/2026/09/10/sabalenka-bate-pegula-vai-a-final-do-us-open-e-assegura-vice-lideranca-do-ranking.ghtml",
+        "imagem": "",
+        "data": "2026-09-11T00:45:03+00:00",
+        "dataFmt": "11/09/2026 00:45"
+      },
+      {
         "titulo": "Bia Haddad revela lesão no ombro e aproveitará pausa para fazer cirurgia: \"Sinto dor até para dormir\"",
         "resumo": "",
         "url": "https://ge.globo.com/tenis/noticia/2026/09/10/bia-haddad-revela-lesao-no-ombro-e-aproveitara-pausa-para-cirurgia-sinto-dor-ate-para-dormir.ghtml",
@@ -2037,22 +2037,6 @@
         "dataFmt": "09/09/2026"
       },
       {
-        "titulo": "Pegula vence duelo de R$ 60 bilhÃµes das herdeiras no US Open",
-        "resumo": "",
-        "url": "https://ge.globo.com/tenis/noticia/2026/09/08/pegula-vira-sobre-navarro-e-vence-duelo-de-r-60-bilhoes-das-herdeiras-no-us-open.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "08/09/2026"
-      },
-      {
-        "titulo": "Sabalenka vence Noskova no super tie-break e vai Ã  semifinal do US Open",
-        "resumo": "",
-        "url": "https://ge.globo.com/tenis/noticia/2026/09/08/sabalenka-vence-noskova-no-super-tiebreak-e-avanca-a-semifinal-do-us-open-pela-6a-vez-seguida.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "08/09/2026"
-      },
-      {
         "titulo": "Rybakina vai Ã  semi do US Open, desbanca Sabalenka do topo e assume lideranÃ§a do ranking",
         "resumo": "",
         "url": "https://ge.globo.com/tenis/noticia/2026/09/09/rybakina-avanca-no-us-open-e-se-torna-lider-do-ranking-wta-pela-primeira-vez.ghtml",
@@ -2061,9 +2045,25 @@
         "dataFmt": "09/09/2026"
       },
       {
+        "titulo": "Pegula vira sobre Navarro e vence duelo de R$ 60 bilhÃµes das herdeiras no US Open",
+        "resumo": "",
+        "url": "https://ge.globo.com/tenis/noticia/2026/09/08/pegula-vira-sobre-navarro-e-vence-duelo-de-r-60-bilhoes-das-herdeiras-no-us-open.ghtml",
+        "imagem": "",
+        "data": "",
+        "dataFmt": "08/09/2026"
+      },
+      {
         "titulo": "Luisa Stefani e Gabriela Dabrowski superam chinesas e voltam Ã  semifinal do US Open",
         "resumo": "",
         "url": "https://ge.globo.com/tenis/noticia/2026/09/08/luisa-stefani-e-gabriela-dabrowski-superam-chinesas-e-voltam-a-semifinal-do-us-open.ghtml",
+        "imagem": "",
+        "data": "",
+        "dataFmt": "08/09/2026"
+      },
+      {
+        "titulo": "Sabalenka vence Noskova no super tie-break e avanÃ§a Ã  semifinal do US Open pela 6Âª vez seguida",
+        "resumo": "",
+        "url": "https://ge.globo.com/tenis/noticia/2026/09/08/sabalenka-vence-noskova-no-super-tiebreak-e-avanca-a-semifinal-do-us-open-pela-6a-vez-seguida.ghtml",
         "imagem": "",
         "data": "",
         "dataFmt": "08/09/2026"
@@ -2091,19 +2091,19 @@
         "imagem": "",
         "data": "",
         "dataFmt": "08/09/2026"
-      },
-      {
-        "titulo": "Chinesa volta a virar set com 5 a 0 atrÃ¡s, elimina ex-lÃ­der do ranking e vai Ã s quartas do US Open",
-        "resumo": "",
-        "url": "https://ge.globo.com/tenis/noticia/2026/09/07/chinesa-volta-a-virar-set-com-5-a-0-atras-elimina-ex-lider-do-ranking-e-vai-as-quartas-do-us-open.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "07/09/2026"
       }
     ]
   },
   "basquete": {
     "geral": [
+      {
+        "titulo": "Franca supera Osasco no Pedrocão, fecha série e avança à semifinal do Paulista",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/09/10/franca-supera-osasco-no-pedrocao-fecha-serie-e-avanca-a-semifinal-do-paulista.ghtml",
+        "imagem": "",
+        "data": "2026-09-11T00:58:59+00:00",
+        "dataFmt": "11/09/2026 00:58"
+      },
       {
         "titulo": "ConheÃ§a Dario Schulz, Ãºnico catarinense no Mundial de Basquete em Cadeira de Rodas",
         "resumo": "",
@@ -2215,14 +2215,6 @@
         "imagem": "",
         "data": "",
         "dataFmt": "07/09/2026"
-      },
-      {
-        "titulo": "Franca vence Osasco e larga na frente nas quartas do Paulista",
-        "resumo": "",
-        "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/09/05/franca-vence-osasco-e-larga-na-frente-nas-quartas-do-paulista.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "05/09/2026"
       }
     ]
   },
