@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-12T00:22:43.699850-03:00",
+    "atualizadoEm": "2026-09-12T05:05:22.020516-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
@@ -134,38 +134,6 @@
       "placar": "2-1"
     },
     {
-      "id": "eu-la-liga-2026-08-31-Osasuna-Getafe",
-      "data": "2026-08-31",
-      "comp": "la-liga",
-      "mandante": "Osasuna",
-      "visitante": "Getafe",
-      "placar": "1-0"
-    },
-    {
-      "id": "eu-premier-league-2026-08-31-Aston-Villa-Arsenal",
-      "data": "2026-08-31",
-      "comp": "premier-league",
-      "mandante": "Aston-Villa",
-      "visitante": "Arsenal",
-      "placar": "0-1"
-    },
-    {
-      "id": "eu-primeira-liga-2026-08-31-Benfica-Estoril",
-      "data": "2026-08-31",
-      "comp": "primeira-liga",
-      "mandante": "Benfica",
-      "visitante": "Estoril",
-      "placar": "2-1"
-    },
-    {
-      "id": "eu-la-liga-2026-08-31-Barcelona-Rayo-Vallecano",
-      "data": "2026-08-31",
-      "comp": "la-liga",
-      "mandante": "Barcelona",
-      "visitante": "Rayo-Vallecano",
-      "placar": "5-2"
-    },
-    {
       "id": "br-25-Remo-Coritiba",
       "data": "2026-08-31",
       "comp": "brasileirao",
@@ -244,6 +212,38 @@
       "mandante": "Corinthians",
       "visitante": "Santos",
       "placar": "0-1"
+    },
+    {
+      "id": "br-25-Flamengo-Botafogo",
+      "data": "2026-08-30",
+      "comp": "brasileirao",
+      "mandante": "Flamengo",
+      "visitante": "Botafogo",
+      "placar": "3-0"
+    },
+    {
+      "id": "eu-la-liga-2026-08-30-Celta-Athletic",
+      "data": "2026-08-30",
+      "comp": "la-liga",
+      "mandante": "Celta",
+      "visitante": "Athletic",
+      "placar": "0-2"
+    },
+    {
+      "id": "eu-primeira-liga-2026-08-30-Famalicao-Gil-Vicente",
+      "data": "2026-08-30",
+      "comp": "primeira-liga",
+      "mandante": "Famalicao",
+      "visitante": "Gil-Vicente",
+      "placar": "0-0"
+    },
+    {
+      "id": "s2-2026-08-30-CRB-Criciuma",
+      "data": "2026-08-30",
+      "comp": "serieb",
+      "mandante": "CRB",
+      "visitante": "Criciuma",
+      "placar": "2-1"
     }
   ]
 }
