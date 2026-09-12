@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-12T17:48:45-03:00",
+    "atualizadoEm": "2026-09-12T19:52:52-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 403,
     "timesAtualizados": 146,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -233,6 +233,11 @@
         "golsContra": 21
       },
       "desfalques": [
+        {
+          "jogador": "Pleno do STJD aumenta pena de Abel Ferre",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Palmeiras inicia preparaÃ§Ã£o para clÃ¡s",
           "motivo": "notícia GE",
@@ -1124,12 +1129,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Alexsander serÃ¡ desfalque no Brasileiro",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "AtlÃ©tico-MG x Cruzeiro",
+          "jogador": "Alexsander serÃ¡ desfalque do AtlÃ©tico-",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1468,7 +1468,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Vitória contra o Mirassol",
+          "jogador": "EscalaÃ§Ã£o do VitÃ³ria contra o Mirasso",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
