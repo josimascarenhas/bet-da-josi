@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-12T15:10:00-03:00",
+    "atualizadoEm": "2026-09-12T17:48:45-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 402,
+    "jogosFinalizados": 403,
     "timesAtualizados": 146,
-    "placaresFonte": "calendário + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -340,7 +340,7 @@
     "Flamengo": {
       "brasileirao": {
         "posicao": 2,
-        "pontos": 48,
+        "pontos": 51,
         "ultimos5": [
           "E 1-1 SAOPA",
           "E 1-1",
@@ -367,11 +367,11 @@
           "gpg": 2.0,
           "gsg": 1.0
         },
-        "vitorias": 14,
+        "vitorias": 15,
         "empates": 6,
         "derrotas": 5,
-        "golsPro": 50,
-        "golsContra": 26
+        "golsPro": 55,
+        "golsContra": 28
       },
       "desfalques": [
         {
@@ -1243,9 +1243,9 @@
         },
         "vitorias": 9,
         "empates": 8,
-        "derrotas": 9,
-        "golsPro": 28,
-        "golsContra": 26
+        "derrotas": 10,
+        "golsPro": 30,
+        "golsContra": 31
       },
       "desfalques": [
         {
