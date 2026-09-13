@@ -1,8 +1,8 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-13T18:03:03-03:00",
+    "atualizadoEm": "2026-09-13T20:21:01-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 385,
+    "jogosFinalizados": 386,
     "timesAtualizados": 122,
     "placaresFonte": "calendário + openligadb.de + 365scores.com"
   },
@@ -20,12 +20,12 @@
         "Bragantino",
         "Corinthians",
         "Atletico-MG",
+        "Vitoria",
         "Santos",
         "Botafogo",
-        "Vitoria",
+        "Mirassol",
         "Internacional",
         "Gremio",
-        "Mirassol",
         "Sao-Paulo",
         "Remo",
         "Vasco",
@@ -1252,11 +1252,6 @@
           "jogador": "Léo Pereira é desfalque no Flamengo cont",
           "motivo": "notícia GE",
           "impacto": "medio"
-        },
-        {
-          "jogador": "Corinthians nÃ£o paga multa, e Allan ser",
-          "motivo": "notícia GE",
-          "impacto": "medio"
         }
       ],
       "retornando": [],
@@ -1333,7 +1328,7 @@
     },
     "Botafogo": {
       "brasileirao": {
-        "posicao": 12,
+        "posicao": 13,
         "pontos": 32,
         "ultimos5": [
           "E 0-0 VIT",
@@ -1432,8 +1427,8 @@
     },
     "Vitoria": {
       "brasileirao": {
-        "posicao": 13,
-        "pontos": 32,
+        "posicao": 11,
+        "pontos": 33,
         "ultimos5": [
           "D 0-2",
           "D 0-4 PAL",
@@ -1461,10 +1456,10 @@
           "gsg": 2.17
         },
         "vitorias": 9,
-        "empates": 5,
+        "empates": 6,
         "derrotas": 11,
-        "golsPro": 24,
-        "golsContra": 35
+        "golsPro": 26,
+        "golsContra": 37
       },
       "desfalques": [
         {
@@ -1639,7 +1634,7 @@
     },
     "Santos": {
       "brasileirao": {
-        "posicao": 11,
+        "posicao": 12,
         "pontos": 32,
         "ultimos5": [
           "D 1-2",
@@ -1759,7 +1754,7 @@
     },
     "Gremio": {
       "brasileirao": {
-        "posicao": 15,
+        "posicao": 16,
         "pontos": 28,
         "ultimos5": [
           "D 1-2",
@@ -1873,7 +1868,7 @@
     },
     "Internacional": {
       "brasileirao": {
-        "posicao": 14,
+        "posicao": 15,
         "pontos": 28,
         "ultimos5": [
           "D 0-2",
@@ -1993,8 +1988,8 @@
     },
     "Mirassol": {
       "brasileirao": {
-        "posicao": 16,
-        "pontos": 28,
+        "posicao": 14,
+        "pontos": 29,
         "ultimos5": [
           "E 1-1",
           "V 2-1 REM",
@@ -2022,10 +2017,10 @@
           "gsg": 1.64
         },
         "vitorias": 7,
-        "empates": 7,
+        "empates": 8,
         "derrotas": 11,
-        "golsPro": 29,
-        "golsContra": 38
+        "golsPro": 31,
+        "golsContra": 40
       },
       "desfalques": [
         {

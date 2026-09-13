@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-13T18:02:57.353650-03:00",
+    "atualizadoEm": "2026-09-13T20:20:57.258722-03:00",
     "fonte": "calendário + openligadb.de + 365scores.com",
-    "jogos": 385,
-    "finalizadosTotal": 385
+    "jogos": 386,
+    "finalizadosTotal": 386
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -3106,6 +3106,15 @@
       "golsFora": 2,
       "data": "2026-08-31",
       "comp": "la-liga",
+      "fonte": "365scores"
+    },
+    "br-27-Mirassol-Vitoria": {
+      "status": "finished",
+      "placar": "2-2",
+      "golsCasa": 2,
+      "golsFora": 2,
+      "data": "2026-09-13",
+      "comp": "brasileirao",
       "fonte": "365scores"
     }
   }
