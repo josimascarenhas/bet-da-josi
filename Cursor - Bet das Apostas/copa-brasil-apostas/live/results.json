@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-12T19:52:48.731654-03:00",
+    "atualizadoEm": "2026-09-12T21:39:31.650282-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
@@ -12,6 +12,14 @@
       "mandante": "Flamengo",
       "visitante": "Corinthians",
       "placar": "5-2"
+    },
+    {
+      "id": "br-27-Santos-Cruzeiro",
+      "data": "2026-09-12",
+      "comp": "brasileirao",
+      "mandante": "Santos",
+      "visitante": "Cruzeiro",
+      "placar": "2-0"
     },
     {
       "id": "lib-2026-09-10-Independiente-del-Valle-Flamengo",
@@ -236,14 +244,6 @@
       "mandante": "Casa-Pia",
       "visitante": "Moreirense",
       "placar": "0-1"
-    },
-    {
-      "id": "eu-la-liga-2026-08-30-Deportivo-Valencia",
-      "data": "2026-08-30",
-      "comp": "la-liga",
-      "mandante": "Deportivo",
-      "visitante": "Valencia",
-      "placar": "3-1"
     }
   ]
 }
