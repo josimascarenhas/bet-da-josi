@@ -1,10 +1,18 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-12T21:39:31.650282-03:00",
+    "atualizadoEm": "2026-09-13T02:42:20.979391-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "br-27-Botafogo-Bragantino",
+      "data": "2026-09-12",
+      "comp": "brasileirao",
+      "mandante": "Botafogo",
+      "visitante": "Bragantino",
+      "placar": "1-1"
+    },
     {
       "id": "br-27-Flamengo-Corinthians",
       "data": "2026-09-12",
@@ -236,14 +244,6 @@
       "mandante": "Augsburg",
       "visitante": "Schalke-04",
       "placar": "3-0"
-    },
-    {
-      "id": "eu-primeira-liga-2026-08-30-Casa-Pia-Moreirense",
-      "data": "2026-08-30",
-      "comp": "primeira-liga",
-      "mandante": "Casa-Pia",
-      "visitante": "Moreirense",
-      "placar": "0-1"
     }
   ]
 }

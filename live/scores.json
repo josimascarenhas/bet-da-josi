@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-12T21:39:31.650282-03:00",
+    "atualizadoEm": "2026-09-13T02:42:20.979391-03:00",
     "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
-    "jogos": 384,
-    "finalizadosTotal": 384
+    "jogos": 385,
+    "finalizadosTotal": 385
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -2899,6 +2899,14 @@
       "placar": "2-0",
       "golsCasa": 2,
       "golsFora": 0,
+      "data": "2026-09-12",
+      "comp": "brasileirao"
+    },
+    "br-27-Botafogo-Bragantino": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
       "data": "2026-09-12",
       "comp": "brasileirao",
       "fonte": "ge"
