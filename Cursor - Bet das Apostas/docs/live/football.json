@@ -1,8 +1,8 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-12T21:40:14-03:00",
+    "atualizadoEm": "2026-09-13T02:42:26-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 384,
+    "jogosFinalizados": 385,
     "timesAtualizados": 122,
     "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
@@ -21,8 +21,8 @@
         "Corinthians",
         "Atletico-MG",
         "Santos",
-        "Vitoria",
         "Botafogo",
+        "Vitoria",
         "Internacional",
         "Gremio",
         "Mirassol",
@@ -235,11 +235,6 @@
       "desfalques": [
         {
           "jogador": "Pleno do STJD aumenta pena de Abel Ferre",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Palmeiras inicia preparaÃ§Ã£o para clÃ¡s",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -908,7 +903,7 @@
     "Bragantino": {
       "brasileirao": {
         "posicao": 8,
-        "pontos": 35,
+        "pontos": 36,
         "ultimos5": [
           "E 1-1",
           "E 0-0 COR",
@@ -936,10 +931,10 @@
           "gsg": 1.09
         },
         "vitorias": 10,
-        "empates": 5,
+        "empates": 6,
         "derrotas": 8,
-        "golsPro": 27,
-        "golsContra": 23
+        "golsPro": 28,
+        "golsContra": 24
       },
       "desfalques": [
         {
@@ -1333,8 +1328,8 @@
     },
     "Botafogo": {
       "brasileirao": {
-        "posicao": 13,
-        "pontos": 31,
+        "posicao": 12,
+        "pontos": 32,
         "ultimos5": [
           "E 0-0 VIT",
           "V 1-0",
@@ -1362,10 +1357,10 @@
           "gsg": 1.67
         },
         "vitorias": 8,
-        "empates": 7,
+        "empates": 8,
         "derrotas": 10,
-        "golsPro": 37,
-        "golsContra": 40
+        "golsPro": 38,
+        "golsContra": 41
       },
       "desfalques": [
         {
@@ -1432,7 +1427,7 @@
     },
     "Vitoria": {
       "brasileirao": {
-        "posicao": 12,
+        "posicao": 13,
         "pontos": 32,
         "ultimos5": [
           "D 0-2",
