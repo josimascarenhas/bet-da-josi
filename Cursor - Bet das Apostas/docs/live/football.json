@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-13T15:05:57-03:00",
+    "atualizadoEm": "2026-09-13T18:03:03-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 385,
     "timesAtualizados": 122,
@@ -237,11 +237,6 @@
           "jogador": "Murilo leva terceiro cartÃ£o amarelo e v",
           "motivo": "notícia GE",
           "impacto": "medio"
-        },
-        {
-          "jogador": "Pleno do STJD aumenta pena de Abel Ferre",
-          "motivo": "notícia GE",
-          "impacto": "medio"
         }
       ],
       "retornando": [
@@ -380,7 +375,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Corinthians não paga multa, e Allan será",
+          "jogador": "Léo Pereira é desfalque no Flamengo cont",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -850,6 +845,11 @@
       },
       "desfalques": [
         {
+          "jogador": "Remo encara Bahia sem peça importante e ",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
           "jogador": "Escalação do Bahia contra o Remo",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -1249,14 +1249,14 @@
       },
       "desfalques": [
         {
-          "jogador": "Corinthians nÃ£o paga multa, e Allan ser",
+          "jogador": "Léo Pereira é desfalque no Flamengo cont",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
         {
-          "jogador": "Estudiantes pede suspensÃ£o de Memphis; ",
+          "jogador": "Corinthians nÃ£o paga multa, e Allan ser",
           "motivo": "notícia GE",
-          "impacto": "alto"
+          "impacto": "medio"
         }
       ],
       "retornando": [],
@@ -2138,6 +2138,11 @@
         "golsContra": 40
       },
       "desfalques": [
+        {
+          "jogador": "Remo encara Bahia sem peça importante e ",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Escalação do Bahia contra o Remo",
           "motivo": "notícia GE",
