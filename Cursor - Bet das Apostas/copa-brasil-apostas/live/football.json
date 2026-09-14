@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-14T10:42:00-03:00",
+    "atualizadoEm": "2026-09-14T16:04:57-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 374,
     "timesAtualizados": 118,
@@ -234,7 +234,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Murilo leva terceiro cartÃ£o amarelo e v",
+          "jogador": "Dúvidas no Palmeiras, Piquerez e Maurici",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Escalação",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -375,7 +380,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Léo Pereira é desfalque no Flamengo cont",
+          "jogador": "Emprestado pelo Flamengo, Carlinhos sofr",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "LÃ©o Pereira Ã© desfalque no Flamengo co",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
