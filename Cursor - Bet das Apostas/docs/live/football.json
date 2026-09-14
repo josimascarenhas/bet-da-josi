@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-14T16:04:57-03:00",
+    "atualizadoEm": "2026-09-14T19:39:30-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 374,
+    "jogosFinalizados": 376,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -14,8 +14,8 @@
         "Flamengo",
         "Athletico-PR",
         "Fluminense",
-        "Cruzeiro",
         "Bahia",
+        "Cruzeiro",
         "Coritiba",
         "Bragantino",
         "Corinthians",
@@ -23,8 +23,8 @@
         "Vitoria",
         "Santos",
         "Botafogo",
-        "Mirassol",
         "Internacional",
+        "Mirassol",
         "Gremio",
         "Sao-Paulo",
         "Remo",
@@ -234,12 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Dúvidas no Palmeiras, Piquerez e Maurici",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Escalação",
+          "jogador": "Piquerez e Mauricio sÃ£o relacionados; G",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -380,11 +375,6 @@
       },
       "desfalques": [
         {
-          "jogador": "Emprestado pelo Flamengo, Carlinhos sofr",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
           "jogador": "LÃ©o Pereira Ã© desfalque no Flamengo co",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -500,7 +490,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação",
+          "jogador": "Benavídez tem lesão constatada e desfalc",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -678,7 +668,7 @@
     },
     "Cruzeiro": {
       "brasileirao": {
-        "posicao": 5,
+        "posicao": 6,
         "pontos": 42,
         "ultimos5": [
           "D 0-1 BOT",
@@ -819,8 +809,8 @@
     },
     "Bahia": {
       "brasileirao": {
-        "posicao": 6,
-        "pontos": 40,
+        "posicao": 5,
+        "pontos": 43,
         "ultimos5": [
           "E 1-1 COR",
           "E 0-0",
@@ -847,15 +837,20 @@
           "gpg": 1.42,
           "gsg": 1.42
         },
-        "vitorias": 10,
+        "vitorias": 11,
         "empates": 10,
         "derrotas": 6,
-        "golsPro": 39,
+        "golsPro": 41,
         "golsContra": 33
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do Bahia",
+          "jogador": "Relacionados",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "EscalaÃ§Ã£o do Bahia contra o Remo",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1873,8 +1868,8 @@
     },
     "Internacional": {
       "brasileirao": {
-        "posicao": 15,
-        "pontos": 28,
+        "posicao": 14,
+        "pontos": 29,
         "ultimos5": [
           "D 0-2",
           "E 1-1 FLA",
@@ -1902,14 +1897,14 @@
           "gsg": 1.36
         },
         "vitorias": 6,
-        "empates": 10,
+        "empates": 11,
         "derrotas": 10,
-        "golsPro": 28,
-        "golsContra": 31
+        "golsPro": 30,
+        "golsContra": 33
       },
       "desfalques": [
         {
-          "jogador": "De volta ao Inter de suspensÃ£o, Pezzola",
+          "jogador": "Meia emprestado pelo Inter tem lesão gra",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1993,7 +1988,7 @@
     },
     "Mirassol": {
       "brasileirao": {
-        "posicao": 14,
+        "posicao": 15,
         "pontos": 29,
         "ultimos5": [
           "E 1-1",
@@ -2133,11 +2128,16 @@
         },
         "vitorias": 6,
         "empates": 8,
-        "derrotas": 11,
+        "derrotas": 12,
         "golsPro": 33,
-        "golsContra": 40
+        "golsContra": 42
       },
       "desfalques": [
+        {
+          "jogador": "Relacionados",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Remo encara Bahia sem peÃ§a importante e",
           "motivo": "notícia GE",
@@ -2311,7 +2311,7 @@
     "Chapecoense": {
       "brasileirao": {
         "posicao": 20,
-        "pontos": 14,
+        "pontos": 15,
         "ultimos5": [
           "D 0-4 FLA",
           "E 2-2",
@@ -2339,10 +2339,10 @@
           "gsg": 1.64
         },
         "vitorias": 2,
-        "empates": 8,
+        "empates": 9,
         "derrotas": 15,
-        "golsPro": 25,
-        "golsContra": 50
+        "golsPro": 27,
+        "golsContra": 52
       },
       "desfalques": [
         {
