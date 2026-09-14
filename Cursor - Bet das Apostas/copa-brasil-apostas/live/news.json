@@ -1,11 +1,131 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-14T01:23:47.997780+00:00",
+    "atualizadoEm": "2026-09-14T06:46:58.625203+00:00",
     "fonte": "ge.globo.com",
     "fonteUrl": "https://ge.globo.com/"
   },
   "futebol": {
     "geral": [
+      {
+        "titulo": "Tottenham gasta R$ 2,2 bilhões em reforços e descarta Richarlison, mas vive seca de gols histórica",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/times/tottenham/noticia/2026/09/14/tottenham-gasta-r-22-bilhoes-em-reforcos-e-descarta-richarlison-mas-vive-seca-de-gols-historica.ghtml",
+        "imagem": "",
+        "data": "2026-09-14T06:00:00+00:00",
+        "dataFmt": "14/09/2026 06:00"
+      },
+      {
+        "titulo": "Brusque e Inter de Limeira empatam jogo com quatro gols pela Série C",
+        "resumo": "",
+        "url": "https://ge.globo.com/sc/futebol/brasileirao-serie-c/jogo/13-09-2026/brusque-inter-de-limeira.ghtml",
+        "imagem": "",
+        "data": "2026-09-14T04:07:20+00:00",
+        "dataFmt": "14/09/2026 04:07"
+      },
+      {
+        "titulo": "Ferroviária vence primeira no quadrangular da Série C e mantém Paysandu zerado",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/brasileirao-serie-c/jogo/13-09-2026/ferroviaria-paysandu.ghtml",
+        "imagem": "",
+        "data": "2026-09-14T04:05:41+00:00",
+        "dataFmt": "14/09/2026 04:05"
+      },
+      {
+        "titulo": "Melk marca, Ceará empata com Fortaleza e amplia tabu sem derrotas para maior rival",
+        "resumo": "",
+        "url": "https://ge.globo.com/ce/futebol/brasileirao-serie-b/jogo/13-09-2026/fortaleza-ceara.ghtml",
+        "imagem": "",
+        "data": "2026-09-14T04:05:23+00:00",
+        "dataFmt": "14/09/2026 04:05"
+      },
+      {
+        "titulo": "Com três de Gustavo Coutinho, Atlético-GO atropela o Criciúma e entra no G-6",
+        "resumo": "",
+        "url": "https://ge.globo.com/go/futebol/brasileirao-serie-b/jogo/13-09-2026/atletico-go-criciuma.ghtml",
+        "imagem": "",
+        "data": "2026-09-14T04:05:14+00:00",
+        "dataFmt": "14/09/2026 04:05"
+      },
+      {
+        "titulo": "Flamengo vence os reservas do Corinthians e mantém a liderança do Brasileirão",
+        "resumo": "",
+        "url": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/13-09-2026/flamengo-corinthians.ghtml",
+        "imagem": "",
+        "data": "2026-09-14T04:03:39+00:00",
+        "dataFmt": "14/09/2026 04:03"
+      },
+      {
+        "titulo": "Vitória abre 2 a 0, mas Mirassol vai buscar empate no segundo tempo",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/tem-esporte/futebol/brasileirao-serie-a/jogo/13-09-2026/mirassol-vitoria.ghtml",
+        "imagem": "",
+        "data": "2026-09-14T04:03:25+00:00",
+        "dataFmt": "14/09/2026 04:03"
+      },
+      {
+        "titulo": "América-MG x São Bernardo: onde assistir ao vivo, horário e escalações",
+        "resumo": "",
+        "url": "https://ge.globo.com/mg/zona-da-mata-centro-oeste/futebol/brasileirao-serie-b/noticia/2026/09/14/america-mg-x-sao-bernardo-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
+        "imagem": "",
+        "data": "2026-09-14T03:02:00+00:00",
+        "dataFmt": "14/09/2026 03:02"
+      },
+      {
+        "titulo": "Fluminense desembarca em Buenos Aires para confronto com o Platense, pela Libertadores",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/13/fluminense-desembarca-em-buenos-aires-para-confronto-com-o-platense-pela-libertadores.ghtml",
+        "imagem": "",
+        "data": "2026-09-14T02:55:43+00:00",
+        "dataFmt": "14/09/2026 02:55"
+      },
+      {
+        "titulo": "▶️ Veja todos os jogos da 2ª rodada do Campeonato Piauiense Série B 2026",
+        "resumo": "",
+        "url": "https://ge.globo.com/pi/futebol/piauiense-segunda-divisao/playlist/-veja-todos-os-jogos-da-2-rodada-do-campeonato-piauiense-serie-b-2026.ghtml",
+        "imagem": "",
+        "data": "2026-09-14T02:10:07+00:00",
+        "dataFmt": "14/09/2026 02:10"
+      },
+      {
+        "titulo": "▶️ Veja todos os jogos do Atlético-PI na Taça Brasil de Futsal 2026",
+        "resumo": "",
+        "url": "https://ge.globo.com/pi/futebol/times/atletico-pi/playlist/-veja-todos-os-jogos-do-atletico-pi-na-taca-brasil-de-futsal-2026.ghtml",
+        "imagem": "",
+        "data": "2026-09-14T02:08:13+00:00",
+        "dataFmt": "14/09/2026 02:08"
+      },
+      {
+        "titulo": "Após passagem pelo Anápolis, Vitinho retorna para o Manauara, onde disputará a 5ª temporada",
+        "resumo": "",
+        "url": "https://ge.globo.com/am/futebol/times/manauara/noticia/2026/09/13/apos-passagem-pelo-anapolis-vitinho-retorna-para-o-manauara-onde-disputara-a-5a-temporada.ghtml",
+        "imagem": "",
+        "data": "2026-09-14T01:56:07+00:00",
+        "dataFmt": "14/09/2026 01:56"
+      },
+      {
+        "titulo": "Novorizontino empata com o Cuiabá e dorme na liderança da Série B",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/tem-esporte/futebol/brasileirao-serie-b/jogo/13-09-2026/novorizontino-cuiaba.ghtml",
+        "imagem": "",
+        "data": "2026-09-14T01:49:39+00:00",
+        "dataFmt": "14/09/2026 01:49"
+      },
+      {
+        "titulo": "Emocionado, Marcelo de Lima Henrique encerra carreira após Clássico-Rei: “A vida continua”",
+        "resumo": "",
+        "url": "https://ge.globo.com/ce/futebol/noticia/2026/09/13/emocionado-marcelo-de-lima-henrique-encerra-carreira-apos-classico-rei-a-vida-continua.ghtml",
+        "imagem": "",
+        "data": "2026-09-14T01:45:06+00:00",
+        "dataFmt": "14/09/2026 01:45"
+      },
+      {
+        "titulo": "Uberlândia empata com ASA e conquista título nacional após 42 anos",
+        "resumo": "",
+        "url": "https://ge.globo.com/mg/triangulo-mineiro/futebol/brasileirao-serie-d/jogo/13-09-2026/uberlandia-asa-arapiraca.ghtml",
+        "imagem": "",
+        "data": "2026-09-14T01:24:19+00:00",
+        "dataFmt": "14/09/2026 01:24"
+      },
       {
         "titulo": "Daniel Paulista destaca tabu de 16 jogos do Ceará contra o Fortaleza",
         "resumo": "",
@@ -45,126 +165,6 @@
         "imagem": "",
         "data": "2026-09-14T01:07:41+00:00",
         "dataFmt": "14/09/2026 01:07"
-      },
-      {
-        "titulo": "Uberlândia empata com ASA e conquista título nacional após 42 anos",
-        "resumo": "",
-        "url": "https://ge.globo.com/mg/triangulo-mineiro/futebol/brasileirao-serie-d/jogo/13-09-2026/uberlandia-asa-arapiraca.ghtml",
-        "imagem": "",
-        "data": "2026-09-14T01:06:01+00:00",
-        "dataFmt": "14/09/2026 01:06"
-      },
-      {
-        "titulo": "Copa FMF tem jogo adiado por nevoeiro e vitórias de Cuiabá e Várzea Grande; veja vídeo",
-        "resumo": "",
-        "url": "https://ge.globo.com/mt/futebol/copa-fmf/noticia/2026/09/13/copa-fmf-tem-jogo-adiado-por-nevoeiro-e-vitorias-de-cuiaba-e-varzea-grande.ghtml",
-        "imagem": "",
-        "data": "2026-09-14T00:54:46+00:00",
-        "dataFmt": "14/09/2026 00:54"
-      },
-      {
-        "titulo": "Felipe Melo critica atuação de Pedro na vitória do Flamengo: \"Faltou seriedade\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/13/felipe-melo-critica-atuacao-de-pedro-na-vitoria-do-flamengo-faltou-seriedade.ghtml",
-        "imagem": "",
-        "data": "2026-09-14T00:51:27+00:00",
-        "dataFmt": "14/09/2026 00:51"
-      },
-      {
-        "titulo": "Pedidos de Arão e Cuca e \"bronca\" de Rodinei: os bastidores da vitória do Santos sobre o Cruzeiro",
-        "resumo": "",
-        "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/13/pedidos-de-arao-e-cuca-e-bronca-de-rodinei-os-bastidores-da-vitoria-do-santos-sobre-o-cruzeiro.ghtml",
-        "imagem": "",
-        "data": "2026-09-14T00:27:40+00:00",
-        "dataFmt": "14/09/2026 00:27"
-      },
-      {
-        "titulo": "Diniz admite incômodo com sequência do Corinthians, mas diz: \"Derrotas estão servindo de lição\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/13/diniz-admite-incomodo-com-sequencia-ruim-no-corinthians-derrotas-estao-servindo-de-licao.ghtml",
-        "imagem": "",
-        "data": "2026-09-14T00:04:12+00:00",
-        "dataFmt": "14/09/2026 00:04"
-      },
-      {
-        "titulo": "Atuações do Cuiabá: Vitor Mendes faz gol, mas comete pênalti; dê suas notas",
-        "resumo": "",
-        "url": "https://ge.globo.com/mt/futebol/times/cuiaba/noticia/2026/09/13/atuacoes-do-cuiaba-vitor-mendes-abre-placar-mas-comete-penalti-de-suas-notas.ghtml",
-        "imagem": "",
-        "data": "2026-09-14T00:01:28+00:00",
-        "dataFmt": "14/09/2026 00:01"
-      },
-      {
-        "titulo": "Filha de Renato posta acerto com o Grêmio e apaga: \"Podem fingir surpresa depois?\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/13/filha-de-renato-posta-acerto-com-o-gremio-e-apaga-podem-fingir-surpresa-depois.ghtml",
-        "imagem": "",
-        "data": "2026-09-14T00:00:12+00:00",
-        "dataFmt": "14/09/2026 00:00"
-      },
-      {
-        "titulo": "João Ricardo ironiza Ceará após 1 a 1: \"Estão comemorando empate\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/ce/futebol/times/fortaleza/noticia/2026/09/13/joao-ricardo-ironiza-ceara-apos-1-a-1-estao-comemorando-empate.ghtml",
-        "imagem": "",
-        "data": "2026-09-13T23:57:33+00:00",
-        "dataFmt": "13/09/2026 23:57"
-      },
-      {
-        "titulo": "Fortaleza x Ceará registra maior público da Série B 2026",
-        "resumo": "",
-        "url": "https://ge.globo.com/ce/futebol/brasileirao-serie-b/noticia/2026/09/13/fortaleza-x-ceara-registra-maior-publico-da-serie-b-2026.ghtml",
-        "imagem": "",
-        "data": "2026-09-13T23:44:45+00:00",
-        "dataFmt": "13/09/2026 23:44"
-      },
-      {
-        "titulo": "Melk marca, Ceará empata com Fortaleza e amplia tabu sem derrotas para maior rival",
-        "resumo": "",
-        "url": "https://ge.globo.com/ce/futebol/brasileirao-serie-b/jogo/13-09-2026/fortaleza-ceara.ghtml",
-        "imagem": "",
-        "data": "2026-09-13T23:43:31+00:00",
-        "dataFmt": "13/09/2026 23:43"
-      },
-      {
-        "titulo": "Novorizontino empata com o Cuiabá e dorme na liderança da Série B",
-        "resumo": "",
-        "url": "https://ge.globo.com/sp/tem-esporte/futebol/brasileirao-serie-b/jogo/13-09-2026/novorizontino-cuiaba.ghtml",
-        "imagem": "",
-        "data": "2026-09-13T23:42:23+00:00",
-        "dataFmt": "13/09/2026 23:42"
-      },
-      {
-        "titulo": "Brusque e Inter de Limeira empatam jogo com quatro gols pela Série C",
-        "resumo": "",
-        "url": "https://ge.globo.com/sc/futebol/brasileirao-serie-c/jogo/13-09-2026/brusque-inter-de-limeira.ghtml",
-        "imagem": "",
-        "data": "2026-09-13T23:40:16+00:00",
-        "dataFmt": "13/09/2026 23:40"
-      },
-      {
-        "titulo": "Ex-Botafogo, tocantinense Tomas Bastos conquista título da Série D com o Uberlândia",
-        "resumo": "",
-        "url": "https://ge.globo.com/to/futebol/noticia/2026/09/13/ex-botafogo-tocantinense-tomas-bastos-conquista-titulo-da-serie-d-com-o-uberlandia.ghtml",
-        "imagem": "",
-        "data": "2026-09-13T23:39:22+00:00",
-        "dataFmt": "13/09/2026 23:39"
-      },
-      {
-        "titulo": "Grêmio acerta volta de Renato; técnico faz post e depois apaga",
-        "resumo": "",
-        "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/13/gremio-acerta-volta-de-renato.ghtml",
-        "imagem": "",
-        "data": "2026-09-13T23:30:07+00:00",
-        "dataFmt": "13/09/2026 23:30"
-      },
-      {
-        "titulo": "Leonardo Jardim elogia Bruno Henrique e vitória do Flamengo: \"Se houvesse justiça, seria 10 a 1\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/13/leonardo-jardim-exalta-bruno-henrique-seu-objetivo-nao-e-a-individualidade-e-o-flamengo.ghtml",
-        "imagem": "",
-        "data": "2026-09-13T23:15:46+00:00",
-        "dataFmt": "13/09/2026 23:15"
       }
     ],
     "times": {
@@ -252,6 +252,14 @@
       ],
       "Flamengo": [
         {
+          "titulo": "Flamengo vence os reservas do Corinthians e mantém a liderança do Brasileirão",
+          "resumo": "",
+          "url": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/13-09-2026/flamengo-corinthians.ghtml",
+          "imagem": "",
+          "data": "2026-09-14T04:03:39+00:00",
+          "dataFmt": "14/09/2026 04:03"
+        },
+        {
           "titulo": "Felipe Melo critica atuação de Pedro na vitória do Flamengo: \"Faltou seriedade\"",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/13/felipe-melo-critica-atuacao-de-pedro-na-vitoria-do-flamengo-faltou-seriedade.ghtml",
@@ -266,14 +274,6 @@
           "imagem": "",
           "data": "2026-09-13T23:15:46+00:00",
           "dataFmt": "13/09/2026 23:15"
-        },
-        {
-          "titulo": "Flamengo vence os reservas do Corinthians e mantém a liderança do Brasileirão",
-          "resumo": "",
-          "url": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/13-09-2026/flamengo-corinthians.ghtml",
-          "imagem": "",
-          "data": "2026-09-13T23:10:52+00:00",
-          "dataFmt": "13/09/2026 23:10"
         },
         {
           "titulo": "Bruno Henrique agradece assistência de joia na vitória do Flamengo: \"Promissor\"",
@@ -432,20 +432,20 @@
       ],
       "Fluminense": [
         {
+          "titulo": "Fluminense desembarca em Buenos Aires para confronto com o Platense, pela Libertadores",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/13/fluminense-desembarca-em-buenos-aires-para-confronto-com-o-platense-pela-libertadores.ghtml",
+          "imagem": "",
+          "data": "2026-09-14T02:55:43+00:00",
+          "dataFmt": "14/09/2026 02:55"
+        },
+        {
           "titulo": "Superstição? Fluminense fará treino no CT do Boca Juniors; última visita foi em 2023",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/13/supersticao-fluminense-fara-treino-no-ct-do-boca-juniors-ultima-visita-foi-em-2023.ghtml",
           "imagem": "",
           "data": "2026-09-13T21:27:22+00:00",
           "dataFmt": "13/09/2026 21:27"
-        },
-        {
-          "titulo": "Atlético-MG é fatal no 2º tempo, vence o Fluminense e se recupera no Brasileiro",
-          "resumo": "",
-          "url": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/12-09-2026/atletico-mg-fluminense.ghtml",
-          "imagem": "",
-          "data": "2026-09-13T17:09:40+00:00",
-          "dataFmt": "13/09/2026 17:09"
         },
         {
           "titulo": "MarcÃ£o elogia Riquelme e dÃ¡ recado: âCampo diz muitoâ",
@@ -898,22 +898,6 @@
           "dataFmt": "13/09/2026 19:57"
         },
         {
-          "titulo": "Cuello revela como reagiu à negociação frustrada no Atlético-MG e atualiza situação física",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/13/cuello-revela-como-reagiu-a-negociacao-frustrada-no-atletico-mg-e-atualiza-situacao-fisica.ghtml",
-          "imagem": "",
-          "data": "2026-09-13T17:22:45+00:00",
-          "dataFmt": "13/09/2026 17:22"
-        },
-        {
-          "titulo": "Atlético-MG é fatal no 2º tempo, vence o Fluminense e se recupera no Brasileiro",
-          "resumo": "",
-          "url": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/12-09-2026/atletico-mg-fluminense.ghtml",
-          "imagem": "",
-          "data": "2026-09-13T17:09:40+00:00",
-          "dataFmt": "13/09/2026 17:09"
-        },
-        {
           "titulo": "AnÃ¡lise: AtlÃ©tico mostra poder com \"fator casa\" e espanta preocupaÃ§Ã£o",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/13/analise-atletico-mg-mostra-poder-com-fator-casa-e-espanta-preocupacao-para-jogo-decisivo.ghtml",
@@ -936,6 +920,14 @@
           "imagem": "",
           "data": "",
           "dataFmt": "12/09/2026"
+        },
+        {
+          "titulo": "Cuello revela reaÃ§Ã£o Ã  negociaÃ§Ã£o frustrada e atualiza situaÃ§Ã£o fÃ­sica",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/13/cuello-revela-como-reagiu-a-negociacao-frustrada-no-atletico-mg-e-atualiza-situacao-fisica.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "13/09/2026"
         },
         {
           "titulo": "AtuaÃ§Ãµes do AtlÃ©tico-MG: ataque resolve jogo, e VitÃ£o Ã© destaque na zaga; dÃª notas",
@@ -984,9 +976,25 @@
           "imagem": "",
           "data": "",
           "dataFmt": "11/09/2026"
+        },
+        {
+          "titulo": "Defesas, tÃ­tulos e idolatria: Everson completa seis anos de AtlÃ©tico-MG em meio a lesÃ£o",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/11/defesas-titulos-e-idolatria-everson-completa-seis-anos-de-atletico-mg-em-meio-a-lesao.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "11/09/2026"
         }
       ],
       "Corinthians": [
+        {
+          "titulo": "Flamengo vence os reservas do Corinthians e mantém a liderança do Brasileirão",
+          "resumo": "",
+          "url": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/13-09-2026/flamengo-corinthians.ghtml",
+          "imagem": "",
+          "data": "2026-09-14T04:03:39+00:00",
+          "dataFmt": "14/09/2026 04:03"
+        },
         {
           "titulo": "Diniz admite incômodo com sequência do Corinthians, mas diz: \"Derrotas estão servindo de lição\"",
           "resumo": "",
@@ -994,14 +1002,6 @@
           "imagem": "",
           "data": "2026-09-14T00:04:12+00:00",
           "dataFmt": "14/09/2026 00:04"
-        },
-        {
-          "titulo": "Flamengo vence os reservas do Corinthians e mantém a liderança do Brasileirão",
-          "resumo": "",
-          "url": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/13-09-2026/flamengo-corinthians.ghtml",
-          "imagem": "",
-          "data": "2026-09-13T23:10:52+00:00",
-          "dataFmt": "13/09/2026 23:10"
         },
         {
           "titulo": "Hugo Souza lamenta derrota, mas elogia postura e garotos do Corinthians: \"Levantar a cabeça\"",
@@ -1110,14 +1110,6 @@
           "dataFmt": "13/09/2026 18:42"
         },
         {
-          "titulo": "Marcelo Fernandes lamenta nova derrota, mas vê o Botafogo-PB ainda vivo na luta pelo acesso",
-          "resumo": "",
-          "url": "https://ge.globo.com/pb/futebol/times/botafogo-pb/noticia/2026/09/13/marcelo-fernandes-lamenta-nova-derrota-mas-ve-o-botafogo-pb-ainda-vivo-na-luta-pelo-acesso.ghtml",
-          "imagem": "",
-          "data": "2026-09-13T18:01:32+00:00",
-          "dataFmt": "13/09/2026 18:01"
-        },
-        {
           "titulo": "Vitinho garante empate e reforÃ§a cabeceio como trunfo ofensivo",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/13/vitinho-garante-empate-do-botafogo-e-reforca-cabeceio-como-trunfo-ofensivo-na-carreira.ghtml",
@@ -1180,9 +1172,25 @@
           "imagem": "",
           "data": "",
           "dataFmt": "11/09/2026"
+        },
+        {
+          "titulo": "Artilheiro na China, Jeffinho reencontra a confianÃ§a e admite: \"Poderia ter ajudado mais o Botafogo\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/11/artilheiro-na-china-jeffinho-reencontra-a-confianca-e-admite-poderia-ter-ajudado-mais-o-botafogo.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "11/09/2026"
         }
       ],
       "Vitoria": [
+        {
+          "titulo": "Vitória abre 2 a 0, mas Mirassol vai buscar empate no segundo tempo",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/tem-esporte/futebol/brasileirao-serie-a/jogo/13-09-2026/mirassol-vitoria.ghtml",
+          "imagem": "",
+          "data": "2026-09-14T04:03:25+00:00",
+          "dataFmt": "14/09/2026 04:03"
+        },
         {
           "titulo": "Copa FMF tem jogo adiado por nevoeiro e vitórias de Cuiabá e Várzea Grande; veja vídeo",
           "resumo": "",
@@ -1214,14 +1222,6 @@
           "imagem": "",
           "data": "2026-09-13T23:15:46+00:00",
           "dataFmt": "13/09/2026 23:15"
-        },
-        {
-          "titulo": "Vitória abre 2 a 0, mas Mirassol vai buscar empate no segundo tempo",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/tem-esporte/futebol/brasileirao-serie-a/jogo/13-09-2026/mirassol-vitoria.ghtml",
-          "imagem": "",
-          "data": "2026-09-13T23:12:09+00:00",
-          "dataFmt": "13/09/2026 23:12"
         },
         {
           "titulo": "Ventura avalia \"ponto importante\" do Vitória e queda no segundo tempo: \"Parece coisa mental\"",
@@ -1518,14 +1518,6 @@
           "dataFmt": "13/09/2026 18:34"
         },
         {
-          "titulo": "Grêmio abre conversas para volta de Renato",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/13/gremio-abre-conversas-para-volta-de-renato.ghtml",
-          "imagem": "",
-          "data": "2026-09-13T17:45:29+00:00",
-          "dataFmt": "13/09/2026 17:45"
-        },
-        {
           "titulo": "GrÃªmio demite LuÃ­s Castro",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/13/gremio-demite-luis-castro.ghtml",
@@ -1548,9 +1540,25 @@
           "imagem": "",
           "data": "",
           "dataFmt": "12/09/2026"
+        },
+        {
+          "titulo": "GrÃªmio abre conversas para volta de Renato",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/13/gremio-abre-conversas-para-volta-de-renato.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "13/09/2026"
         }
       ],
       "Internacional": [
+        {
+          "titulo": "Tottenham gasta R$ 2,2 bilhões em reforços e descarta Richarlison, mas vive seca de gols histórica",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/times/tottenham/noticia/2026/09/14/tottenham-gasta-r-22-bilhoes-em-reforcos-e-descarta-richarlison-mas-vive-seca-de-gols-historica.ghtml",
+          "imagem": "",
+          "data": "2026-09-14T06:00:00+00:00",
+          "dataFmt": "14/09/2026 06:00"
+        },
         {
           "titulo": "Copa do Mundo Feminina: Beira-Rio é o primeiro estádio a receber vistoria técnica da Fifa",
           "resumo": "",
@@ -1638,14 +1646,6 @@
           "imagem": "",
           "data": "",
           "dataFmt": "11/09/2026"
-        },
-        {
-          "titulo": "Inter visita Chapecoense para voltar a vencer no BrasileirÃ£o; veja cenÃ¡rios da rodada",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/12/inter-visita-chapecoense-para-voltar-a-vencer-no-brasileirao-veja-cenarios-da-rodada.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "12/09/2026"
         }
       ],
       "Mirassol": [
@@ -1654,8 +1654,8 @@
           "resumo": "",
           "url": "https://ge.globo.com/sp/tem-esporte/futebol/brasileirao-serie-a/jogo/13-09-2026/mirassol-vitoria.ghtml",
           "imagem": "",
-          "data": "2026-09-13T23:12:09+00:00",
-          "dataFmt": "13/09/2026 23:12"
+          "data": "2026-09-14T04:03:25+00:00",
+          "dataFmt": "14/09/2026 04:03"
         },
         {
           "titulo": "Mirassol x Vitória: Edson Carioca revida provocação de Zé Vitor ao marcar gol de empate; entenda",
@@ -1680,14 +1680,6 @@
           "imagem": "",
           "data": "2026-09-13T21:31:59+00:00",
           "dataFmt": "13/09/2026 21:31"
-        },
-        {
-          "titulo": "Relacionados: Cacá, Rúben Ismael e Darlan Dutra são as novidades do Vitória para enfrentar o Mirassol",
-          "resumo": "",
-          "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/09/13/relacionados-caca-ruben-ismael-e-darlan-dutra-sao-as-novidades-do-vitoria-para-enfrentar-o-mirassol.ghtml",
-          "imagem": "",
-          "data": "2026-09-13T17:47:06+00:00",
-          "dataFmt": "13/09/2026 17:47"
         },
         {
           "titulo": "Mirassol oficializa a volta do atacante ZÃ© Roberto",
@@ -1744,6 +1736,14 @@
           "imagem": "",
           "data": "",
           "dataFmt": "08/09/2026"
+        },
+        {
+          "titulo": "Mirassol volta a vencer fora de casa apÃ³s 109 dias e encerra jejum no BrasileirÃ£o",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/tem-esporte/futebol/times/mirassol/noticia/2026/09/08/mirassol-volta-a-vencer-fora-de-casa-apos-109-dias-e-encerra-jejum-no-brasileirao.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "08/09/2026"
         }
       ],
       "Remo": [
@@ -1756,12 +1756,12 @@
           "dataFmt": "13/09/2026 20:15"
         },
         {
-          "titulo": "Com 29 reforços no ano, Remo reduz ritmo e reformula time entre janelas; veja atual elenco",
+          "titulo": "Com 29 reforÃ§os no ano, Remo reduz ritmo e reformula time entre janelas; veja elenco",
           "resumo": "",
           "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/09/13/com-29-reforcos-no-ano-remo-reduz-ritmo-e-reformula-time-entre-janelas-veja-atual-elenco.ghtml",
           "imagem": "",
-          "data": "2026-09-13T18:05:29+00:00",
-          "dataFmt": "13/09/2026 18:05"
+          "data": "",
+          "dataFmt": "13/09/2026"
         },
         {
           "titulo": "Artilheiro do Remo na SÃ©rie A, JajÃ¡ projeta reencontro com Bahia",
@@ -1894,14 +1894,6 @@
           "dataFmt": "12/09/2026"
         },
         {
-          "titulo": "PolÃ­cia investiga ex-jogador e dirigente do Vasco por suposta tentativa de fraude em recuperaÃ§Ã£o judicial",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/12/policia-investiga-ex-jogador-e-dirigente-do-vasco-por-suposta-tentativa-de-fraude-em-recuperacao-judicial.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "12/09/2026"
-        },
-        {
           "titulo": "Sosa, Colidio e Lescano: Vasco ataca mercado na Argentina e muda perfil de investimento",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/12/sosa-colidio-e-lescano-vasco-ataca-mercado-na-argentina-e-muda-perfil-de-investimento.ghtml",
@@ -1918,20 +1910,20 @@
           "dataFmt": "12/09/2026"
         },
         {
+          "titulo": "PolÃ­cia investiga ex-jogador e dirigente do Vasco por suposta tentativa de fraude em recuperaÃ§Ã£o judicial",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/12/policia-investiga-ex-jogador-e-dirigente-do-vasco-por-suposta-tentativa-de-fraude-em-recuperacao-judicial.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "12/09/2026"
+        },
+        {
           "titulo": "Pagamentos futuros e atletas emprestados: Vasco reforÃ§a elenco na janela mesmo sem venda da SAF",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/12/pagamentos-futuros-e-atletas-emprestados-vasco-reforca-elenco-na-janela-mesmo-sem-venda-da-saf.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "12/09/2026"
-        },
-        {
-          "titulo": "Richarlison se pronuncia depois de negociaÃ§Ã£o com Vasco: âEstivemos muito perto\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/11/richarlison-se-pronuncia-depois-de-negociacao-com-vasco-em-breve-estarei-em-sao-januario.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "11/09/2026"
         }
       ],
       "Chapecoense": [
@@ -2285,14 +2277,6 @@
   "ufc": {
     "geral": [
       {
-        "titulo": "Jailton Malhadinho perde na Rússia em sua primeira luta após deixar o UFC",
-        "resumo": "",
-        "url": "https://ge.globo.com/combate/noticia/2026/09/13/jailton-malhadinho-perde-na-russia-em-sua-primeira-luta-apos-deixar-o-ufc.ghtml",
-        "imagem": "",
-        "data": "2026-09-13T18:15:48+00:00",
-        "dataFmt": "13/09/2026 18:15"
-      },
-      {
         "titulo": "UFC Noche: Jean Silva finaliza Jose Miguel Delgado em luta principal",
         "resumo": "",
         "url": "https://ge.globo.com/combate/noticia/2026/09/12/ufc-jean-silva-finaliza-jose-miguel-delgado-em-luta-principal.ghtml",
@@ -2315,6 +2299,14 @@
         "imagem": "",
         "data": "",
         "dataFmt": "12/09/2026"
+      },
+      {
+        "titulo": "Jailton Malhadinho perde na RÃºssia em sua primeira luta apÃ³s deixar o UFC",
+        "resumo": "",
+        "url": "https://ge.globo.com/combate/noticia/2026/09/13/jailton-malhadinho-perde-na-russia-em-sua-primeira-luta-apos-deixar-o-ufc.ghtml",
+        "imagem": "",
+        "data": "",
+        "dataFmt": "13/09/2026"
       },
       {
         "titulo": "Gordon Ryan se envolve em briga generalizada no ADCC; veja vÃ­deo",
