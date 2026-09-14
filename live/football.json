@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-13T20:21:01-03:00",
+    "atualizadoEm": "2026-09-13T22:23:51-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 386,
     "timesAtualizados": 122,
@@ -850,7 +850,7 @@
           "impacto": "medio"
         },
         {
-          "jogador": "Escalação do Bahia contra o Remo",
+          "jogador": "EscalaÃ§Ã£o do Bahia contra o Remo",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2135,11 +2135,6 @@
       "desfalques": [
         {
           "jogador": "Remo encara Bahia sem peça importante e ",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Escalação do Bahia contra o Remo",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
