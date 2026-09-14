@@ -1,10 +1,26 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-14T16:04:04.898976-03:00",
+    "atualizadoEm": "2026-09-14T19:39:26.234661-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "br-27-Bahia-Remo",
+      "data": "2026-09-14",
+      "comp": "brasileirao",
+      "mandante": "Bahia",
+      "visitante": "Remo",
+      "placar": "2-0"
+    },
+    {
+      "id": "br-27-Chapecoense-Internacional",
+      "data": "2026-09-14",
+      "comp": "brasileirao",
+      "mandante": "Chapecoense",
+      "visitante": "Internacional",
+      "placar": "2-2"
+    },
     {
       "id": "br-27-Mirassol-Vitoria",
       "data": "2026-09-13",
@@ -228,22 +244,6 @@
       "mandante": "Corinthians",
       "visitante": "Santos",
       "placar": "0-1"
-    },
-    {
-      "id": "br-25-Flamengo-Botafogo",
-      "data": "2026-08-30",
-      "comp": "brasileirao",
-      "mandante": "Flamengo",
-      "visitante": "Botafogo",
-      "placar": "3-0"
-    },
-    {
-      "id": "br-25-Gremio-Chapecoense",
-      "data": "2026-08-30",
-      "comp": "brasileirao",
-      "mandante": "Gremio",
-      "visitante": "Chapecoense",
-      "placar": "3-1"
     }
   ]
 }
