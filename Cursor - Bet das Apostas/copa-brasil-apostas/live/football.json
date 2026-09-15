@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-15T03:28:49-03:00",
+    "atualizadoEm": "2026-09-15T09:02:10-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 373,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
+    "placaresFonte": "calendário + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -845,7 +845,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Relacionados",
+          "jogador": "EscalaÃ§Ã£o do Bahia contra o Remo",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
