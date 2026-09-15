@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-14T19:39:30-03:00",
+    "atualizadoEm": "2026-09-14T22:12:12-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 376,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -490,7 +490,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Benavídez tem lesão constatada e desfalc",
+          "jogador": "BenavÃ­dez sofre lesÃ£o e vira desfalque",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -846,11 +846,6 @@
       "desfalques": [
         {
           "jogador": "Relacionados",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "EscalaÃ§Ã£o do Bahia contra o Remo",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1905,6 +1900,11 @@
       "desfalques": [
         {
           "jogador": "Meia emprestado pelo Inter tem lesão gra",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "De volta ao Inter de suspensÃ£o, Pezzola",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
