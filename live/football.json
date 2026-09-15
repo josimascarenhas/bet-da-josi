@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-14T22:12:12-03:00",
+    "atualizadoEm": "2026-09-15T03:28:49-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 376,
+    "jogosFinalizados": 373,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -23,9 +23,9 @@
         "Vitoria",
         "Santos",
         "Botafogo",
+        "Gremio",
         "Internacional",
         "Mirassol",
-        "Gremio",
         "Sao-Paulo",
         "Remo",
         "Vasco",
@@ -36,11 +36,11 @@
       "timesAtivos": [
         "Sporting-CP",
         "Porto",
-        "Benfica",
         "Maritimo",
         "Santa-Clara",
         "Arouca",
         "Gil-Vicente",
+        "Benfica",
         "Nacional",
         "Vitoria-Guimaraes",
         "Rio-Ave",
@@ -82,12 +82,12 @@
     },
     "la-liga": {
       "timesAtivos": [
-        "Barcelona",
         "Alaves",
-        "Osasuna",
+        "Barcelona",
         "Real-Madrid",
         "Sevilla",
         "Real-Betis",
+        "Osasuna",
         "Racing",
         "Espanyol",
         "Getafe",
@@ -95,10 +95,10 @@
         "Villarreal",
         "Atletico-Madrid",
         "Malaga",
+        "Rayo-Vallecano",
         "Celta",
         "Valencia",
         "Levante",
-        "Rayo-Vallecano",
         "Elche",
         "Athletic",
         "Real-Sociedad"
@@ -108,8 +108,8 @@
     "premier-league": {
       "timesAtivos": [
         "Manchester-City",
-        "Arsenal",
         "Brighton",
+        "Arsenal",
         "Brentford",
         "Everton",
         "Chelsea",
@@ -123,8 +123,8 @@
         "Nottingham-Forest",
         "Coventry-City",
         "Tottenham",
-        "Crystal-Palace",
         "Aston-Villa",
+        "Crystal-Palace",
         "Hull-City",
         "Manchester-United"
       ],
@@ -234,7 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Piquerez e Mauricio sÃ£o relacionados; G",
+          "jogador": "DÃºvidas no Palmeiras, Piquerez e Mauric",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1749,8 +1749,8 @@
     },
     "Gremio": {
       "brasileirao": {
-        "posicao": 16,
-        "pontos": 28,
+        "posicao": 14,
+        "pontos": 31,
         "ultimos5": [
           "D 1-2",
           "E 1-1 FLU",
@@ -1777,10 +1777,10 @@
           "gpg": 0.5,
           "gsg": 1.5
         },
-        "vitorias": 7,
+        "vitorias": 8,
         "empates": 7,
         "derrotas": 11,
-        "golsPro": 27,
+        "golsPro": 30,
         "golsContra": 33
       },
       "desfalques": [
@@ -1863,7 +1863,7 @@
     },
     "Internacional": {
       "brasileirao": {
-        "posicao": 14,
+        "posicao": 15,
         "pontos": 29,
         "ultimos5": [
           "D 0-2",
@@ -1900,11 +1900,6 @@
       "desfalques": [
         {
           "jogador": "Meia emprestado pelo Inter tem lesão gra",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "De volta ao Inter de suspensÃ£o, Pezzola",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1988,7 +1983,7 @@
     },
     "Mirassol": {
       "brasileirao": {
-        "posicao": 15,
+        "posicao": 16,
         "pontos": 29,
         "ultimos5": [
           "E 1-1",
@@ -2226,9 +2221,9 @@
         },
         "vitorias": 6,
         "empates": 7,
-        "derrotas": 12,
+        "derrotas": 13,
         "golsPro": 27,
-        "golsContra": 40
+        "golsContra": 43
       },
       "desfalques": [
         {
@@ -2704,7 +2699,7 @@
           "gpg": 0.0,
           "gsg": 2.0
         },
-        "posicao": 17,
+        "posicao": 18,
         "pontos": 0,
         "vitorias": 0,
         "empates": 0,
@@ -2777,9 +2772,9 @@
         "pontos": 1,
         "vitorias": 0,
         "empates": 1,
-        "derrotas": 3,
-        "golsPro": 2,
-        "golsContra": 7,
+        "derrotas": 2,
+        "golsPro": 1,
+        "golsContra": 5,
         "escanteiosPorJogo": 5.4,
         "cartoesPorJogo": 2.2
       }
@@ -2847,7 +2842,7 @@
           "gpg": 2.0,
           "gsg": 1.0
         },
-        "posicao": 4,
+        "posicao": 3,
         "pontos": 7,
         "vitorias": 2,
         "empates": 1,
@@ -2958,7 +2953,7 @@
           "gpg": 0.5,
           "gsg": 1.0
         },
-        "posicao": 6,
+        "posicao": 5,
         "pontos": 6,
         "vitorias": 2,
         "empates": 0,
@@ -3067,13 +3062,13 @@
           "gpg": 7.0,
           "gsg": 0.0
         },
-        "posicao": 3,
-        "pontos": 7,
-        "vitorias": 2,
+        "posicao": 7,
+        "pontos": 4,
+        "vitorias": 1,
         "empates": 1,
         "derrotas": 0,
-        "golsPro": 11,
-        "golsContra": 3,
+        "golsPro": 9,
+        "golsContra": 2,
         "escanteiosPorJogo": 5.4,
         "cartoesPorJogo": 2.2
       }
@@ -3135,7 +3130,7 @@
           "gpg": 1.5,
           "gsg": 0.0
         },
-        "posicao": 7,
+        "posicao": 6,
         "pontos": 6,
         "vitorias": 2,
         "empates": 0,
@@ -3274,7 +3269,7 @@
           "gpg": 1.0,
           "gsg": 0.0
         },
-        "posicao": 5,
+        "posicao": 4,
         "pontos": 7,
         "vitorias": 2,
         "empates": 1,
@@ -3348,7 +3343,7 @@
           "gpg": 1.0,
           "gsg": 1.0
         },
-        "posicao": 2,
+        "posicao": 1,
         "pontos": 7,
         "vitorias": 2,
         "empates": 1,
@@ -3386,9 +3381,9 @@
         "pontos": 3,
         "vitorias": 1,
         "empates": 0,
-        "derrotas": 2,
+        "derrotas": 1,
         "golsPro": 1,
-        "golsContra": 4,
+        "golsContra": 3,
         "escanteiosPorJogo": 5.4,
         "cartoesPorJogo": 2.2
       },
@@ -3424,7 +3419,7 @@
           "gpg": 3.0,
           "gsg": 1.0
         },
-        "posicao": 5,
+        "posicao": 4,
         "pontos": 6,
         "vitorias": 2,
         "empates": 0,
@@ -3460,13 +3455,13 @@
           "gpg": 1.0,
           "gsg": 2.0
         },
-        "posicao": 17,
+        "posicao": 14,
         "pontos": 1,
         "vitorias": 0,
         "empates": 1,
-        "derrotas": 2,
-        "golsPro": 4,
-        "golsContra": 8,
+        "derrotas": 1,
+        "golsPro": 2,
+        "golsContra": 3,
         "escanteiosPorJogo": 5.4,
         "cartoesPorJogo": 2.2
       },
@@ -3599,7 +3594,7 @@
           "gpg": 0.0,
           "gsg": 1.5
         },
-        "posicao": 16,
+        "posicao": 17,
         "pontos": 1,
         "vitorias": 0,
         "empates": 1,
@@ -3718,7 +3713,7 @@
           "gpg": 1.0,
           "gsg": 0.0
         },
-        "posicao": 6,
+        "posicao": 5,
         "pontos": 6,
         "vitorias": 2,
         "empates": 0,
@@ -3785,12 +3780,12 @@
           "gpg": 3.0,
           "gsg": 0.0
         },
-        "posicao": 2,
-        "pontos": 6,
-        "vitorias": 2,
+        "posicao": 3,
+        "pontos": 3,
+        "vitorias": 1,
         "empates": 0,
         "derrotas": 0,
-        "golsPro": 4,
+        "golsPro": 3,
         "golsContra": 0,
         "escanteiosPorJogo": 5.4,
         "cartoesPorJogo": 2.2
@@ -4144,7 +4139,7 @@
           "gpg": 0.0,
           "gsg": 0.5
         },
-        "posicao": 15,
+        "posicao": 16,
         "pontos": 1,
         "vitorias": 0,
         "empates": 1,
@@ -4186,7 +4181,7 @@
           "gpg": 0.0,
           "gsg": 0.0
         },
-        "posicao": 14,
+        "posicao": 15,
         "pontos": 1,
         "vitorias": 0,
         "empates": 1,
@@ -4228,7 +4223,7 @@
           "gpg": 2.0,
           "gsg": 1.0
         },
-        "posicao": 4,
+        "posicao": 3,
         "pontos": 6,
         "vitorias": 2,
         "empates": 0,
@@ -4264,7 +4259,7 @@
           "gpg": 4.0,
           "gsg": 0.0
         },
-        "posicao": 3,
+        "posicao": 2,
         "pontos": 3,
         "vitorias": 1,
         "empates": 0,
@@ -4294,13 +4289,13 @@
           "gpg": 0.0,
           "gsg": 4.0
         },
-        "posicao": 18,
+        "posicao": 17,
         "pontos": 0,
         "vitorias": 0,
         "empates": 0,
-        "derrotas": 2,
+        "derrotas": 1,
         "golsPro": 0,
-        "golsContra": 5,
+        "golsContra": 4,
         "escanteiosPorJogo": 5.4,
         "cartoesPorJogo": 2.2
       },
@@ -4480,13 +4475,13 @@
           "gpg": 5.0,
           "gsg": 0.0
         },
-        "posicao": 1,
-        "pontos": 9,
-        "vitorias": 3,
+        "posicao": 2,
+        "pontos": 6,
+        "vitorias": 2,
         "empates": 0,
         "derrotas": 0,
-        "golsPro": 12,
-        "golsContra": 2,
+        "golsPro": 7,
+        "golsContra": 0,
         "escanteiosPorJogo": 5.4,
         "cartoesPorJogo": 2.2
       },
@@ -4522,12 +4517,12 @@
           "gpg": 2.0,
           "gsg": 1.0
         },
-        "posicao": 3,
-        "pontos": 7,
-        "vitorias": 2,
+        "posicao": 6,
+        "pontos": 4,
+        "vitorias": 1,
         "empates": 1,
         "derrotas": 0,
-        "golsPro": 3,
+        "golsPro": 2,
         "golsContra": 1,
         "escanteiosPorJogo": 5.4,
         "cartoesPorJogo": 2.2
