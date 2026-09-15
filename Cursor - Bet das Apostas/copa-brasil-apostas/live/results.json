@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-14T22:12:09.205600-03:00",
+    "atualizadoEm": "2026-09-15T03:28:46.582702-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
@@ -20,6 +20,14 @@
       "mandante": "Chapecoense",
       "visitante": "Internacional",
       "placar": "2-2"
+    },
+    {
+      "id": "br-27-Gremio-Vasco",
+      "data": "2026-09-14",
+      "comp": "brasileirao",
+      "mandante": "Gremio",
+      "visitante": "Vasco",
+      "placar": "3-0"
     },
     {
       "id": "br-27-Mirassol-Vitoria",
@@ -182,38 +190,6 @@
       "placar": "2-1"
     },
     {
-      "id": "eu-la-liga-2026-08-31-Osasuna-Getafe",
-      "data": "2026-08-31",
-      "comp": "la-liga",
-      "mandante": "Osasuna",
-      "visitante": "Getafe",
-      "placar": "1-0"
-    },
-    {
-      "id": "eu-premier-league-2026-08-31-Aston-Villa-Arsenal",
-      "data": "2026-08-31",
-      "comp": "premier-league",
-      "mandante": "Aston-Villa",
-      "visitante": "Arsenal",
-      "placar": "0-1"
-    },
-    {
-      "id": "eu-primeira-liga-2026-08-31-Benfica-Estoril",
-      "data": "2026-08-31",
-      "comp": "primeira-liga",
-      "mandante": "Benfica",
-      "visitante": "Estoril",
-      "placar": "2-1"
-    },
-    {
-      "id": "eu-la-liga-2026-08-31-Barcelona-Rayo-Vallecano",
-      "data": "2026-08-31",
-      "comp": "la-liga",
-      "mandante": "Barcelona",
-      "visitante": "Rayo-Vallecano",
-      "placar": "5-2"
-    },
-    {
       "id": "br-25-Remo-Coritiba",
       "data": "2026-08-31",
       "comp": "brasileirao",
@@ -244,6 +220,30 @@
       "mandante": "Corinthians",
       "visitante": "Santos",
       "placar": "0-1"
+    },
+    {
+      "id": "br-25-Flamengo-Botafogo",
+      "data": "2026-08-30",
+      "comp": "brasileirao",
+      "mandante": "Flamengo",
+      "visitante": "Botafogo",
+      "placar": "3-0"
+    },
+    {
+      "id": "br-25-Gremio-Chapecoense",
+      "data": "2026-08-30",
+      "comp": "brasileirao",
+      "mandante": "Gremio",
+      "visitante": "Chapecoense",
+      "placar": "3-1"
+    },
+    {
+      "id": "br-25-Mirassol-Palmeiras",
+      "data": "2026-08-30",
+      "comp": "brasileirao",
+      "mandante": "Mirassol",
+      "visitante": "Palmeiras",
+      "placar": "1-1"
     }
   ]
 }
