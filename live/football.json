@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-15T22:33:38-03:00",
+    "atualizadoEm": "2026-09-16T04:18:49-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 374,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -1900,7 +1900,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Meia emprestado pelo Inter tem lesão gra",
+          "jogador": "Simeone não hesita ao indicar vencedor d",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
