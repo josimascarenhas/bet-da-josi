@@ -1,10 +1,18 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-15T20:04:26.437920-03:00",
+    "atualizadoEm": "2026-09-15T22:33:31.356877-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "lib-2026-09-15-Platense-Fluminense",
+      "data": "2026-09-15",
+      "comp": "libertadores",
+      "mandante": "Platense",
+      "visitante": "Fluminense",
+      "placar": "2-1"
+    },
     {
       "id": "br-27-Bahia-Remo",
       "data": "2026-09-14",
@@ -236,14 +244,6 @@
       "mandante": "Gremio",
       "visitante": "Chapecoense",
       "placar": "3-1"
-    },
-    {
-      "id": "br-25-Mirassol-Palmeiras",
-      "data": "2026-08-30",
-      "comp": "brasileirao",
-      "mandante": "Mirassol",
-      "visitante": "Palmeiras",
-      "placar": "1-1"
     }
   ]
 }
