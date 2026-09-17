@@ -1,10 +1,18 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-16T22:37:30.888553-03:00",
+    "atualizadoEm": "2026-09-17T04:13:58.426265-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "lib-2026-09-16-Corinthians-Estudiantes",
+      "data": "2026-09-16",
+      "comp": "libertadores",
+      "mandante": "Corinthians",
+      "visitante": "Estudiantes",
+      "placar": "0-1"
+    },
     {
       "id": "lib-2026-09-15-Platense-Fluminense",
       "data": "2026-09-15",
@@ -236,14 +244,6 @@
       "mandante": "Flamengo",
       "visitante": "Botafogo",
       "placar": "3-0"
-    },
-    {
-      "id": "br-25-Gremio-Chapecoense",
-      "data": "2026-08-30",
-      "comp": "brasileirao",
-      "mandante": "Gremio",
-      "visitante": "Chapecoense",
-      "placar": "3-1"
     }
   ]
 }
