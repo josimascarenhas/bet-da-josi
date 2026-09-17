@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-17T04:14:04-03:00",
+    "atualizadoEm": "2026-09-17T09:43:11-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 375,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -2338,7 +2338,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Giovanni Augusto e Bolasie não treinam e",
+          "jogador": "Atlético-PI x Chapecoense",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
