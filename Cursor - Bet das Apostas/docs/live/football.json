@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-16T22:37:42-03:00",
+    "atualizadoEm": "2026-09-17T04:14:04-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 374,
+    "jogosFinalizados": 375,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + openligadb.de"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -1272,24 +1272,25 @@
         "xGSporJogo": 1.11
       },
       "libertadores": {
-        "xGporJogo": 0.81,
-        "xGSporJogo": 0.57,
-        "jogos": 3,
-        "golsPorJogo": 0.67,
-        "golsSofridosPorJogo": 0.33,
+        "xGporJogo": 0.69,
+        "xGSporJogo": 0.69,
+        "jogos": 4,
+        "golsPorJogo": 0.5,
+        "golsSofridosPorJogo": 0.5,
         "over25Pct": 0,
-        "bttsPct": 33,
-        "cleanSheetPct": 67,
+        "bttsPct": 25,
+        "cleanSheetPct": 50,
         "ultimos5": [
           "E 0-0",
           "V 1-0 ROSCE",
-          "E 1-1"
+          "E 1-1",
+          "D 0-1 EST"
         ],
-        "sequencia": "1E",
+        "sequencia": "1D",
         "casa": {
-          "j": 1,
-          "gpg": 1.0,
-          "gsg": 0.0
+          "j": 2,
+          "gpg": 0.5,
+          "gsg": 0.5
         },
         "fora": {
           "j": 2,
@@ -2485,8 +2486,8 @@
           "E 0-0 MIR"
         ],
         "sequencia": "1E",
-        "xGporJogo": 1.35,
-        "xGSporJogo": 1.01,
+        "xGporJogo": 0.33,
+        "xGSporJogo": 0.33,
         "casa": {
           "j": 1,
           "gpg": 0.0,
@@ -6276,24 +6277,30 @@
     },
     "Estudiantes": {
       "libertadores": {
-        "xGporJogo": 1.3,
-        "xGSporJogo": 1.01,
+        "xGporJogo": 1.05,
+        "xGSporJogo": 0.69,
         "escanteiosPorJogo": 5.5,
         "cartoesPorJogo": 2.6,
-        "jogos": 1,
+        "jogos": 2,
         "golsPorJogo": 1.0,
-        "golsSofridosPorJogo": 1.0,
+        "golsSofridosPorJogo": 0.5,
         "over25Pct": 0,
-        "bttsPct": 100,
-        "cleanSheetPct": 0,
+        "bttsPct": 50,
+        "cleanSheetPct": 50,
         "ultimos5": [
-          "E 1-1 COR"
+          "E 1-1 COR",
+          "V 1-0"
         ],
-        "sequencia": "1E",
+        "sequencia": "1V",
         "casa": {
           "j": 1,
           "gpg": 1.0,
           "gsg": 1.0
+        },
+        "fora": {
+          "j": 1,
+          "gpg": 1.0,
+          "gsg": 0.0
         }
       }
     },
