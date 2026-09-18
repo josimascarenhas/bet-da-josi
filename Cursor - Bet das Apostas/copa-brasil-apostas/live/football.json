@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-18T15:55:46-03:00",
+    "atualizadoEm": "2026-09-18T18:27:15-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 376,
     "timesAtualizados": 118,
@@ -374,6 +374,11 @@
         "golsContra": 28
       },
       "desfalques": [
+        {
+          "jogador": "Escalação do Flamengo",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Destaque suspenso e ascensÃ£o",
           "motivo": "notícia GE",
@@ -940,6 +945,11 @@
       },
       "desfalques": [
         {
+          "jogador": "Escalação do Flamengo",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
           "jogador": "Braga tem dois novos desfalques para enf",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -1246,7 +1256,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Léo Pereira é desfalque no Flamengo cont",
+          "jogador": "Justiça determina nova suspensão da Asse",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1667,16 +1677,6 @@
         "golsContra": 38
       },
       "desfalques": [
-        {
-          "jogador": "Lesão de Gabriel Brazão abre disputa no ",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Remo terá cinco desfalques e dois retorn",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
         {
           "jogador": "Goleiro titular vai passar por cirurgia ",
           "motivo": "notícia GE",
@@ -2142,7 +2142,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Remo terá cinco desfalques e dois retorn",
+          "jogador": "Remo terÃ¡ cinco desfalques e dois retor",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
