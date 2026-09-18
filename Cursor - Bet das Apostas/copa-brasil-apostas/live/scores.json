@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-17T22:23:57.865715-03:00",
-    "fonte": "calendário + openligadb.de",
-    "jogos": 375,
-    "finalizadosTotal": 375
+    "atualizadoEm": "2026-09-18T03:22:16.364813-03:00",
+    "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
+    "jogos": 376,
+    "finalizadosTotal": 376
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -2957,6 +2957,15 @@
       "golsFora": 1,
       "data": "2026-09-16",
       "comp": "libertadores"
+    },
+    "lib-2026-09-17-Flamengo-Independiente-del-Valle": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-09-17",
+      "comp": "libertadores",
+      "fonte": "ge"
     },
     "eu-bundesliga-2026-08-29-RB-Leipzig-Borussia-Mgladbach": {
       "status": "finished",

@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-17T22:24:03-03:00",
+    "atualizadoEm": "2026-09-18T03:22:31-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 375,
+    "jogosFinalizados": 376,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + openligadb.de"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -402,23 +402,24 @@
         "xGSporJogo": 1.11
       },
       "libertadores": {
-        "xGporJogo": 1.77,
-        "xGSporJogo": 0.81,
-        "jogos": 3,
-        "golsPorJogo": 2.0,
-        "golsSofridosPorJogo": 0.67,
-        "over25Pct": 67,
-        "bttsPct": 67,
-        "cleanSheetPct": 33,
+        "xGporJogo": 1.59,
+        "xGSporJogo": 0.87,
+        "jogos": 4,
+        "golsPorJogo": 1.75,
+        "golsSofridosPorJogo": 0.75,
+        "over25Pct": 50,
+        "bttsPct": 75,
+        "cleanSheetPct": 25,
         "ultimos5": [
           "V 2-1 CRU",
           "V 2-1",
-          "V 2-0"
+          "V 2-0",
+          "E 1-1 INDDE"
         ],
-        "sequencia": "3V",
+        "sequencia": "1E",
         "casa": {
-          "j": 1,
-          "gpg": 2.0,
+          "j": 2,
+          "gpg": 1.5,
           "gsg": 1.0
         },
         "fora": {
@@ -2499,26 +2500,32 @@
     },
     "Independiente-del-Valle": {
       "libertadores": {
-        "jogos": 2,
-        "golsPorJogo": 1.5,
-        "golsSofridosPorJogo": 1.5,
-        "over25Pct": 50,
-        "bttsPct": 50,
+        "jogos": 3,
+        "golsPorJogo": 1.33,
+        "golsSofridosPorJogo": 1.33,
+        "over25Pct": 33,
+        "bttsPct": 67,
         "cleanSheetPct": 0,
         "ultimos5": [
           "V 3-1 DEPTO",
-          "D 0-2 FLA"
+          "D 0-2 FLA",
+          "E 1-1"
         ],
-        "sequencia": "1D",
-        "xGporJogo": 1.4,
-        "xGSporJogo": 1.06,
+        "sequencia": "1E",
+        "xGporJogo": 1.29,
+        "xGSporJogo": 1.29,
         "casa": {
           "j": 2,
           "gpg": 1.5,
           "gsg": 1.5
         },
         "escanteiosPorJogo": 5.5,
-        "cartoesPorJogo": 2.6
+        "cartoesPorJogo": 2.6,
+        "fora": {
+          "j": 1,
+          "gpg": 1.0,
+          "gsg": 1.0
+        }
       }
     },
     "Deportes-Tolima": {
