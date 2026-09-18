@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-18T08:39:00-03:00",
+    "atualizadoEm": "2026-09-18T12:56:23-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 376,
     "timesAtualizados": 118,
@@ -375,7 +375,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Bragantino tem dois novos desfalques par",
+          "jogador": "Destaque suspenso e ascensão fora de cam",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1362,7 +1362,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Matheus Sales fica fora da viagem do Bot",
+          "jogador": "Escalação do Mirassol",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1668,7 +1668,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Atlético-MG",
+          "jogador": "Remo terá cinco desfalques e dois retorn",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Gabriel BrazÃ£o serÃ¡ operado e vira des",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2022,7 +2027,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Vitória contra o Mirassol",
+          "jogador": "Escalação do Mirassol",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2131,6 +2136,11 @@
         "golsContra": 42
       },
       "desfalques": [
+        {
+          "jogador": "Remo terá cinco desfalques e dois retorn",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Artilheiro do Remo, JajÃ¡ sofre duas les",
           "motivo": "notícia GE",
