@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-18T12:56:23-03:00",
+    "atualizadoEm": "2026-09-18T15:55:46-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 376,
     "timesAtualizados": 118,
@@ -375,7 +375,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Destaque suspenso e ascensão fora de cam",
+          "jogador": "Destaque suspenso e ascensÃ£o",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1668,14 +1668,19 @@
       },
       "desfalques": [
         {
+          "jogador": "Lesão de Gabriel Brazão abre disputa no ",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
           "jogador": "Remo terá cinco desfalques e dois retorn",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
         {
-          "jogador": "Gabriel BrazÃ£o serÃ¡ operado e vira des",
+          "jogador": "Goleiro titular vai passar por cirurgia ",
           "motivo": "notícia GE",
-          "impacto": "medio"
+          "impacto": "alto"
         }
       ],
       "retornando": [
@@ -1907,7 +1912,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Simeone não hesita ao indicar vencedor d",
+          "jogador": "Jorge Jesus diz que Cristiano Ronaldo nã",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2027,7 +2032,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Mirassol",
+          "jogador": "EscalaÃ§Ã£o do Mirassol",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
