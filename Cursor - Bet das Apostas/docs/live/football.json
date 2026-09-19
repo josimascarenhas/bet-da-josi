@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-19T15:27:39-03:00",
+    "atualizadoEm": "2026-09-19T17:56:23-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 376,
     "timesAtualizados": 118,
@@ -381,6 +381,11 @@
         },
         {
           "jogador": "Destaque suspenso e ascensÃ£o",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "EscalaÃ§Ã£o do Flamengo",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
