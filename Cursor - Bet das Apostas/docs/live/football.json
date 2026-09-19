@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-19T09:01:18-03:00",
+    "atualizadoEm": "2026-09-19T12:49:34-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 376,
     "timesAtualizados": 118,
@@ -380,11 +380,6 @@
           "impacto": "medio"
         },
         {
-          "jogador": "EscalaÃ§Ã£o",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
           "jogador": "Destaque suspenso e ascensÃ£o",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -716,7 +711,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Cruzeiro descarta lesão em volante, que ",
+          "jogador": "Escalação do Vitória contra o Cruzeiro",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Fabiano Souza sofre lesão no joelho e de",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1471,7 +1471,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Cruzeiro descarta lesão em volante, que ",
+          "jogador": "Escalação do Vitória contra o Cruzeiro",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Fabiano Souza sofre lesão no joelho e de",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
