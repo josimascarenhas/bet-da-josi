@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-19T04:05:29-03:00",
+    "atualizadoEm": "2026-09-19T09:01:18-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 376,
     "timesAtualizados": 118,
@@ -375,7 +375,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Flamengo",
+          "jogador": "Suspensões fazem Flamengo colocar à prov",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "EscalaÃ§Ã£o",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
@@ -945,11 +950,6 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Flamengo",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
           "jogador": "Braga tem dois novos desfalques para enf",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -1256,7 +1256,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Justiça determina nova suspensão da Asse",
+          "jogador": "JustiÃ§a ordena suspensÃ£o da votaÃ§Ã£o ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
