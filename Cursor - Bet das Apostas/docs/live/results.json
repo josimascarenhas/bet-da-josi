@@ -1,10 +1,18 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-19T21:42:44.295203-03:00",
+    "atualizadoEm": "2026-09-20T02:46:16.389795-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "br-28-Vasco-Coritiba",
+      "data": "2026-09-19",
+      "comp": "brasileirao",
+      "mandante": "Vasco",
+      "visitante": "Coritiba",
+      "placar": "5-0"
+    },
     {
       "id": "lib-2026-09-17-Flamengo-Independiente-del-Valle",
       "data": "2026-09-17",
@@ -236,14 +244,6 @@
       "mandante": "Augsburg",
       "visitante": "Schalke-04",
       "placar": "3-0"
-    },
-    {
-      "id": "br-25-Corinthians-Santos",
-      "data": "2026-08-30",
-      "comp": "brasileirao",
-      "mandante": "Corinthians",
-      "visitante": "Santos",
-      "placar": "0-1"
     }
   ]
 }
