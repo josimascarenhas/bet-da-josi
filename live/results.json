@@ -1,10 +1,18 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-20T17:44:28.209286-03:00",
+    "atualizadoEm": "2026-09-20T20:02:18.429276-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "br-28-Corinthians-Fluminense",
+      "data": "2026-09-20",
+      "comp": "brasileirao",
+      "mandante": "Corinthians",
+      "visitante": "Fluminense",
+      "placar": "1-3"
+    },
     {
       "id": "br-28-Vasco-Coritiba",
       "data": "2026-09-19",
@@ -236,14 +244,6 @@
       "mandante": "Athletico-PR",
       "visitante": "Fluminense",
       "placar": "3-3"
-    },
-    {
-      "id": "eu-bundesliga-2026-08-30-Augsburg-Schalke-04",
-      "data": "2026-08-30",
-      "comp": "bundesliga",
-      "mandante": "Augsburg",
-      "visitante": "Schalke-04",
-      "placar": "3-0"
     }
   ]
 }

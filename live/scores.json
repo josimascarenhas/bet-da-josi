@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-20T17:44:28.209286-03:00",
-    "fonte": "calendário + openligadb.de",
-    "jogos": 377,
-    "finalizadosTotal": 377
+    "atualizadoEm": "2026-09-20T20:02:18.429276-03:00",
+    "fonte": "calendário + openligadb.de + 365scores.com",
+    "jogos": 378,
+    "finalizadosTotal": 378
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -3027,6 +3027,15 @@
       "data": "2026-08-30",
       "comp": "bundesliga",
       "fonte": "openligadb"
+    },
+    "br-28-Corinthians-Fluminense": {
+      "status": "finished",
+      "placar": "1-3",
+      "golsCasa": 1,
+      "golsFora": 3,
+      "data": "2026-09-20",
+      "comp": "brasileirao",
+      "fonte": "365scores"
     }
   }
 }
