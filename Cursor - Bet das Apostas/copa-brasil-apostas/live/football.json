@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-20T02:46:19-03:00",
+    "atualizadoEm": "2026-09-20T07:44:51-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 377,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -381,11 +381,6 @@
         },
         {
           "jogador": "Destaque suspenso e ascensÃ£o",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "EscalaÃ§Ã£o do Flamengo",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1377,7 +1372,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Mirassol",
+          "jogador": "Hygor marca de novo, empata com Morelli ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
