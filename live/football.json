@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-19T19:42:50-03:00",
+    "atualizadoEm": "2026-09-19T21:42:47-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 376,
     "timesAtualizados": 118,
@@ -381,6 +381,11 @@
         },
         {
           "jogador": "Destaque suspenso e ascensÃ£o",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "EscalaÃ§Ã£o do Flamengo",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1590,7 +1595,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Pablo Maia estÃ¡ fora do jogo contra o I",
+          "jogador": "Luan Peres toma o terceiro cartão amarel",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1683,9 +1688,9 @@
       },
       "desfalques": [
         {
-          "jogador": "Goleiro titular vai passar por cirurgia ",
+          "jogador": "Luan Peres toma o terceiro cartão amarel",
           "motivo": "notícia GE",
-          "impacto": "alto"
+          "impacto": "medio"
         }
       ],
       "retornando": [
