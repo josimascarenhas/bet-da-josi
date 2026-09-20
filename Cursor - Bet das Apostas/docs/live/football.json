@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-20T17:44:32-03:00",
+    "atualizadoEm": "2026-09-20T20:02:26-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 377,
+    "jogosFinalizados": 378,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + openligadb.de"
+    "placaresFonte": "calendário + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -12,8 +12,8 @@
       "timesAtivos": [
         "Palmeiras",
         "Flamengo",
-        "Athletico-PR",
         "Fluminense",
+        "Athletico-PR",
         "Bahia",
         "Cruzeiro",
         "Coritiba",
@@ -375,12 +375,7 @@
       },
       "desfalques": [
         {
-          "jogador": "SuspensÃµes fazem Jardim colocar Ã  prov",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Destaque suspenso e ascensÃ£o",
+          "jogador": "SuspensÃµes fazem Flamengo colocar Ã  pr",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -460,7 +455,7 @@
     },
     "Athletico-PR": {
       "brasileirao": {
-        "posicao": 3,
+        "posicao": 4,
         "pontos": 45,
         "ultimos5": [
           "V 2-0 INT",
@@ -559,8 +554,8 @@
     },
     "Fluminense": {
       "brasileirao": {
-        "posicao": 4,
-        "pontos": 45,
+        "posicao": 3,
+        "pontos": 48,
         "ultimos5": [
           "E 1-1",
           "E 0-0 BAH",
@@ -587,11 +582,11 @@
           "gpg": 1.18,
           "gsg": 1.36
         },
-        "vitorias": 12,
+        "vitorias": 13,
         "empates": 9,
         "derrotas": 5,
-        "golsPro": 39,
-        "golsContra": 31
+        "golsPro": 42,
+        "golsContra": 32
       },
       "desfalques": [
         {
@@ -857,7 +852,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Bahia contra o Athletico",
+          "jogador": "EscalaÃ§Ã£o do Bahia contra o Athletico",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1250,9 +1245,9 @@
         },
         "vitorias": 9,
         "empates": 8,
-        "derrotas": 10,
-        "golsPro": 30,
-        "golsContra": 31
+        "derrotas": 11,
+        "golsPro": 31,
+        "golsContra": 34
       },
       "desfalques": [
         {
