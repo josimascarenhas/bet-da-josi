@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-19T21:42:47-03:00",
+    "atualizadoEm": "2026-09-20T02:46:19-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 376,
+    "jogosFinalizados": 377,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + openligadb.de"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -26,9 +26,9 @@
         "Gremio",
         "Internacional",
         "Mirassol",
+        "Vasco",
         "Sao-Paulo",
         "Remo",
-        "Vasco",
         "Chapecoense"
       ]
     },
@@ -1042,9 +1042,9 @@
         },
         "vitorias": 10,
         "empates": 7,
-        "derrotas": 9,
+        "derrotas": 10,
         "golsPro": 34,
-        "golsContra": 35
+        "golsContra": 40
       },
       "desfalques": [
         {
@@ -1559,7 +1559,7 @@
     },
     "Sao-Paulo": {
       "brasileirao": {
-        "posicao": 17,
+        "posicao": 18,
         "pontos": 27,
         "ultimos5": [
           "D 1-2 ATHPR",
@@ -2116,7 +2116,7 @@
     },
     "Remo": {
       "brasileirao": {
-        "posicao": 18,
+        "posicao": 19,
         "pontos": 26,
         "ultimos5": [
           "V 2-0 VIT",
@@ -2214,8 +2214,8 @@
     },
     "Vasco": {
       "brasileirao": {
-        "posicao": 19,
-        "pontos": 25,
+        "posicao": 17,
+        "pontos": 28,
         "ultimos5": [
           "D 0-1",
           "E 1-1 MIR",
@@ -2242,10 +2242,10 @@
           "gpg": 1.0,
           "gsg": 1.91
         },
-        "vitorias": 6,
+        "vitorias": 7,
         "empates": 7,
         "derrotas": 13,
-        "golsPro": 27,
+        "golsPro": 32,
         "golsContra": 43
       },
       "desfalques": [
