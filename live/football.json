@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-20T20:02:26-03:00",
+    "atualizadoEm": "2026-09-20T22:23:25-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 378,
+    "jogosFinalizados": 379,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -23,9 +23,9 @@
         "Vitoria",
         "Santos",
         "Botafogo",
+        "Mirassol",
         "Gremio",
         "Internacional",
-        "Mirassol",
         "Vasco",
         "Sao-Paulo",
         "Remo",
@@ -375,7 +375,7 @@
       },
       "desfalques": [
         {
-          "jogador": "SuspensÃµes fazem Flamengo colocar Ã  pr",
+          "jogador": "Ayrton Lucas e Plata deixam vitória do F",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -945,6 +945,11 @@
       },
       "desfalques": [
         {
+          "jogador": "Ayrton Lucas e Plata deixam vitória do F",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
           "jogador": "Braga tem dois novos desfalques para enf",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -1361,9 +1366,9 @@
         },
         "vitorias": 8,
         "empates": 8,
-        "derrotas": 10,
+        "derrotas": 11,
         "golsPro": 38,
-        "golsContra": 41
+        "golsContra": 43
       },
       "desfalques": [
         {
@@ -1466,7 +1471,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do VitÃ³ria contra o Cruzeir",
+          "jogador": "Ayrton Lucas e Plata deixam vitória do F",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1757,7 +1762,7 @@
     },
     "Gremio": {
       "brasileirao": {
-        "posicao": 14,
+        "posicao": 15,
         "pontos": 31,
         "ultimos5": [
           "D 1-2",
@@ -1871,7 +1876,7 @@
     },
     "Internacional": {
       "brasileirao": {
-        "posicao": 15,
+        "posicao": 16,
         "pontos": 29,
         "ultimos5": [
           "D 0-2",
@@ -1991,8 +1996,8 @@
     },
     "Mirassol": {
       "brasileirao": {
-        "posicao": 16,
-        "pontos": 29,
+        "posicao": 14,
+        "pontos": 32,
         "ultimos5": [
           "E 1-1",
           "V 2-1 REM",
@@ -2019,10 +2024,10 @@
           "gpg": 0.91,
           "gsg": 1.64
         },
-        "vitorias": 7,
+        "vitorias": 8,
         "empates": 8,
         "derrotas": 11,
-        "golsPro": 31,
+        "golsPro": 33,
         "golsContra": 40
       },
       "desfalques": [
