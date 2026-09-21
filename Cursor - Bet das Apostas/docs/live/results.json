@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-20T20:02:18.429276-03:00",
+    "atualizadoEm": "2026-09-20T22:23:20.940268-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
@@ -12,6 +12,14 @@
       "mandante": "Corinthians",
       "visitante": "Fluminense",
       "placar": "1-3"
+    },
+    {
+      "id": "br-28-Mirassol-Botafogo",
+      "data": "2026-09-20",
+      "comp": "brasileirao",
+      "mandante": "Mirassol",
+      "visitante": "Botafogo",
+      "placar": "2-0"
     },
     {
       "id": "br-28-Vasco-Coritiba",
@@ -236,14 +244,6 @@
       "mandante": "Remo",
       "visitante": "Coritiba",
       "placar": "2-3"
-    },
-    {
-      "id": "br-25-Athletico-PR-Fluminense",
-      "data": "2026-08-30",
-      "comp": "brasileirao",
-      "mandante": "Athletico-PR",
-      "visitante": "Fluminense",
-      "placar": "3-3"
     }
   ]
 }
