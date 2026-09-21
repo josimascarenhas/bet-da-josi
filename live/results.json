@@ -1,10 +1,18 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-21T10:41:04.753774-03:00",
+    "atualizadoEm": "2026-09-21T16:06:31.096950-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "br-28-Vitoria-Cruzeiro",
+      "data": "2026-09-21",
+      "comp": "brasileirao",
+      "mandante": "Vitoria",
+      "visitante": "Cruzeiro",
+      "placar": "5-0"
+    },
     {
       "id": "br-28-Corinthians-Fluminense",
       "data": "2026-09-20",
@@ -236,14 +244,6 @@
       "mandante": "Atletico-MG",
       "visitante": "Cruzeiro",
       "placar": "2-1"
-    },
-    {
-      "id": "br-25-Remo-Coritiba",
-      "data": "2026-08-31",
-      "comp": "brasileirao",
-      "mandante": "Remo",
-      "visitante": "Coritiba",
-      "placar": "2-3"
     }
   ]
 }

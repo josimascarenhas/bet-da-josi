@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-21T10:41:09-03:00",
+    "atualizadoEm": "2026-09-21T16:06:35-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 379,
+    "jogosFinalizados": 380,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + openligadb.de"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -18,9 +18,9 @@
         "Cruzeiro",
         "Coritiba",
         "Bragantino",
+        "Vitoria",
         "Corinthians",
         "Atletico-MG",
-        "Vitoria",
         "Santos",
         "Botafogo",
         "Mirassol",
@@ -375,7 +375,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Ayrton Lucas e Plata deixam vitória do F",
+          "jogador": "Exames detectam lesão, e Ayrton Lucas va",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -700,9 +700,9 @@
         },
         "vitorias": 12,
         "empates": 6,
-        "derrotas": 9,
+        "derrotas": 10,
         "golsPro": 38,
-        "golsContra": 39
+        "golsContra": 44
       },
       "desfalques": [
         {
@@ -1095,7 +1095,7 @@
     },
     "Atletico-MG": {
       "brasileirao": {
-        "posicao": 10,
+        "posicao": 11,
         "pontos": 33,
         "ultimos5": [
           "E 1-1 BAH",
@@ -1215,7 +1215,7 @@
     },
     "Corinthians": {
       "brasileirao": {
-        "posicao": 9,
+        "posicao": 10,
         "pontos": 35,
         "ultimos5": [
           "E 1-1",
@@ -1430,8 +1430,8 @@
     },
     "Vitoria": {
       "brasileirao": {
-        "posicao": 11,
-        "pontos": 33,
+        "posicao": 9,
+        "pontos": 36,
         "ultimos5": [
           "D 0-2",
           "D 0-4 PAL",
@@ -1458,10 +1458,10 @@
           "gpg": 0.58,
           "gsg": 2.17
         },
-        "vitorias": 9,
+        "vitorias": 10,
         "empates": 6,
         "derrotas": 11,
-        "golsPro": 26,
+        "golsPro": 31,
         "golsContra": 37
       },
       "desfalques": [
@@ -1580,7 +1580,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Calleri e os cartões",
+          "jogador": "Calleri soma 11 cartÃµes amarelos e susp",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1793,7 +1793,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Renato terá dois desfalques no Grêmio po",
+          "jogador": "Renato terÃ¡ dois desfalques na volta da",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
