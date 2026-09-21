@@ -1,8 +1,8 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-21T16:06:35-03:00",
+    "atualizadoEm": "2026-09-21T19:44:39-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 380,
+    "jogosFinalizados": 381,
     "timesAtualizados": 118,
     "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
@@ -21,14 +21,14 @@
         "Vitoria",
         "Corinthians",
         "Atletico-MG",
-        "Santos",
         "Botafogo",
+        "Santos",
         "Mirassol",
         "Gremio",
         "Internacional",
+        "Remo",
         "Vasco",
         "Sao-Paulo",
-        "Remo",
         "Chapecoense"
       ]
     },
@@ -234,7 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Abel serÃ¡ desfalque na semi contra o Fl",
+          "jogador": "Desfalques? Veja cronograma dos convocad",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -706,12 +706,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Vitória contra o Cruzeiro",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Fabiano Souza sofre lesão no joelho e de",
+          "jogador": "Com Cláudia, Cruzeiro chega a quase um t",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1331,7 +1326,7 @@
     },
     "Botafogo": {
       "brasileirao": {
-        "posicao": 13,
+        "posicao": 12,
         "pontos": 32,
         "ultimos5": [
           "E 0-0 VIT",
@@ -1544,7 +1539,7 @@
     },
     "Sao-Paulo": {
       "brasileirao": {
-        "posicao": 18,
+        "posicao": 19,
         "pontos": 27,
         "ultimos5": [
           "D 1-2 ATHPR",
@@ -1637,7 +1632,7 @@
     },
     "Santos": {
       "brasileirao": {
-        "posicao": 12,
+        "posicao": 13,
         "pontos": 32,
         "ultimos5": [
           "D 1-2",
@@ -1667,9 +1662,9 @@
         },
         "vitorias": 8,
         "empates": 8,
-        "derrotas": 10,
+        "derrotas": 11,
         "golsPro": 37,
-        "golsContra": 38
+        "golsContra": 43
       },
       "desfalques": [
         {
@@ -2101,8 +2096,8 @@
     },
     "Remo": {
       "brasileirao": {
-        "posicao": 19,
-        "pontos": 26,
+        "posicao": 17,
+        "pontos": 29,
         "ultimos5": [
           "V 2-0 VIT",
           "D 1-2",
@@ -2129,10 +2124,10 @@
           "gpg": 0.92,
           "gsg": 1.83
         },
-        "vitorias": 6,
+        "vitorias": 7,
         "empates": 8,
         "derrotas": 12,
-        "golsPro": 33,
+        "golsPro": 38,
         "golsContra": 42
       },
       "desfalques": [
@@ -2199,7 +2194,7 @@
     },
     "Vasco": {
       "brasileirao": {
-        "posicao": 17,
+        "posicao": 18,
         "pontos": 28,
         "ultimos5": [
           "D 0-1",

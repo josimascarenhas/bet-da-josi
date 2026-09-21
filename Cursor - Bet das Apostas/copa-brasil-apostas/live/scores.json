@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-21T16:06:31.096950-03:00",
+    "atualizadoEm": "2026-09-21T19:44:35.302805-03:00",
     "fonte": "calendário + ge.globo.com + openligadb.de",
-    "jogos": 380,
-    "finalizadosTotal": 380
+    "jogos": 381,
+    "finalizadosTotal": 381
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -2991,6 +2991,14 @@
       "comp": "brasileirao"
     },
     "br-28-Vitoria-Cruzeiro": {
+      "status": "finished",
+      "placar": "5-0",
+      "golsCasa": 5,
+      "golsFora": 0,
+      "data": "2026-09-21",
+      "comp": "brasileirao"
+    },
+    "br-28-Remo-Santos": {
       "status": "finished",
       "placar": "5-0",
       "golsCasa": 5,
