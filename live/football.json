@@ -1,8 +1,8 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-21T22:28:24-03:00",
+    "atualizadoEm": "2026-09-22T03:41:32-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 382,
+    "jogosFinalizados": 383,
     "timesAtualizados": 118,
     "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
@@ -12,8 +12,8 @@
       "timesAtivos": [
         "Palmeiras",
         "Flamengo",
-        "Fluminense",
         "Athletico-PR",
+        "Fluminense",
         "Bahia",
         "Cruzeiro",
         "Coritiba",
@@ -455,8 +455,8 @@
     },
     "Athletico-PR": {
       "brasileirao": {
-        "posicao": 4,
-        "pontos": 45,
+        "posicao": 3,
+        "pontos": 48,
         "ultimos5": [
           "V 2-0 INT",
           "E 0-0",
@@ -483,11 +483,11 @@
           "gpg": 1.17,
           "gsg": 1.25
         },
-        "vitorias": 13,
+        "vitorias": 14,
         "empates": 6,
         "derrotas": 7,
-        "golsPro": 38,
-        "golsContra": 28
+        "golsPro": 40,
+        "golsContra": 29
       },
       "desfalques": [
         {
@@ -554,7 +554,7 @@
     },
     "Fluminense": {
       "brasileirao": {
-        "posicao": 3,
+        "posicao": 4,
         "pontos": 48,
         "ultimos5": [
           "E 1-1",
@@ -841,9 +841,9 @@
         },
         "vitorias": 11,
         "empates": 10,
-        "derrotas": 6,
-        "golsPro": 41,
-        "golsContra": 33
+        "derrotas": 7,
+        "golsPro": 42,
+        "golsContra": 35
       },
       "desfalques": [
         {
