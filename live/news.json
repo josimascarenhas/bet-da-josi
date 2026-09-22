@@ -1,18 +1,90 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-21T22:44:35.206356+00:00",
+    "atualizadoEm": "2026-09-22T01:28:20.999163+00:00",
     "fonte": "ge.globo.com",
     "fonteUrl": "https://ge.globo.com/"
   },
   "futebol": {
     "geral": [
       {
-        "titulo": "Londrina x Paraná - Copa Paraná 2026 - Ao vivo - globoesporte.com",
+        "titulo": "Cuiabá x Náutico - Campeonato Brasileiro Série B 2026 - Ao vivo - globoesporte.com",
+        "resumo": "",
+        "url": "https://ge.globo.com/mt/futebol/brasileirao-serie-b/jogo/21-09-2026/cuiaba-nautico.ghtml",
+        "imagem": "",
+        "data": "2026-09-22T01:18:48+00:00",
+        "dataFmt": "22/09/2026 01:18"
+      },
+      {
+        "titulo": "Corinthians x Bahia - Campeonato Brasileiro Feminino 2026 - Ao vivo - globoesporte.com",
+        "resumo": "",
+        "url": "https://ge.globo.com/ba/futebol/futebol-feminino/brasileiro-feminino/jogo/21-09-2026/corinthians-feminino-bahia.ghtml",
+        "imagem": "",
+        "data": "2026-09-22T01:18:39+00:00",
+        "dataFmt": "22/09/2026 01:18"
+      },
+      {
+        "titulo": "Gustavo Guerra renuncia à presidência do Conselho do Comercial por divergências sobre SAF",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/comercial-sp/noticia/2026/09/21/gustavo-guerra-renuncia-a-presidencia-do-conselho-do-comercial-por-divergencias-sobre-saf.ghtml",
+        "imagem": "",
+        "data": "2026-09-22T01:07:22+00:00",
+        "dataFmt": "22/09/2026 01:07"
+      },
+      {
+        "titulo": "Londrina abre vantagem, e Paraná Clube busca empate em jogo pela Copa Paraná",
         "resumo": "",
         "url": "https://ge.globo.com/pr/futebol/taca-fpf/jogo/21-09-2026/londrina-parana.ghtml",
         "imagem": "",
-        "data": "2026-09-21T22:33:21+00:00",
-        "dataFmt": "21/09/2026 22:33"
+        "data": "2026-09-22T00:44:40+00:00",
+        "dataFmt": "22/09/2026 00:44"
+      },
+      {
+        "titulo": "Gabriel Brazão passa por cirurgia no ombro e não joga mais pelo Santos em 2026",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/21/gabriel-brazao-passa-por-cirurgia-no-ombro-e-nao-joga-mais-pelo-santos-em-2026.ghtml",
+        "imagem": "",
+        "data": "2026-09-22T00:31:22+00:00",
+        "dataFmt": "22/09/2026 00:31"
+      },
+      {
+        "titulo": "Tiradentes vence o VF4-PB com direito a pintura e conquista o Campeonato Paraibano Sub-13",
+        "resumo": "",
+        "url": "https://ge.globo.com/pb/futebol/campeonato-paraibano/noticia/2026/09/21/tiradentes-vence-o-vf4-pb-com-direito-a-pintura-e-conquista-o-campeonato-paraibano-sub-13.ghtml",
+        "imagem": "",
+        "data": "2026-09-22T00:26:24+00:00",
+        "dataFmt": "22/09/2026 00:26"
+      },
+      {
+        "titulo": "Fluminense x Palmeiras, pela Libertadores, terá carga máxima de ingressos à venda",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/21/fluminense-tem-pedido-aceito-pelo-bepe-e-jogo-de-ida-da-libertadores-tera-carga-maxima-de-ingressos.ghtml",
+        "imagem": "",
+        "data": "2026-09-21T23:47:35+00:00",
+        "dataFmt": "21/09/2026 23:47"
+      },
+      {
+        "titulo": "Cruzeiro reelege presidente da associação para os próximos três anos",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/21/cruzeiro-reelege-presidente-da-associacao-para-os-proximos-tres-anos.ghtml",
+        "imagem": "",
+        "data": "2026-09-21T23:38:39+00:00",
+        "dataFmt": "21/09/2026 23:38"
+      },
+      {
+        "titulo": "Criciúma x Operário-PR - Campeonato Brasileiro Série B 2026 - globoesporte.com",
+        "resumo": "",
+        "url": "https://ge.globo.com/sc/futebol/brasileirao-serie-b/jogo/22-09-2026/criciuma-operario-pr.ghtml",
+        "imagem": "",
+        "data": "2026-09-21T23:31:31+00:00",
+        "dataFmt": "21/09/2026 23:31"
+      },
+      {
+        "titulo": "\"SAF tem que ser assinada neste ano\", pede presidente do Comercial",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/comercial-sp/noticia/2026/09/21/saf-tem-que-ser-assinada-neste-ano-pede-presidente-do-comercial.ghtml",
+        "imagem": "",
+        "data": "2026-09-21T22:55:28+00:00",
+        "dataFmt": "21/09/2026 22:55"
       },
       {
         "titulo": "Justiça nega pedidos da defesa de Casares em investigações contra o ex-presidente do São Paulo",
@@ -93,82 +165,26 @@
         "imagem": "",
         "data": "2026-09-21T21:21:30+00:00",
         "dataFmt": "21/09/2026 21:21"
-      },
-      {
-        "titulo": "Entenda por que Flamengo foi contra redução do limite de estrangeiros em reunião da CBF",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/21/entenda-por-que-flamengo-foi-contra-reducao-do-limite-de-estrangeiros-em-reuniao-da-cbf.ghtml",
-        "imagem": "",
-        "data": "2026-09-21T21:18:29+00:00",
-        "dataFmt": "21/09/2026 21:18"
-      },
-      {
-        "titulo": "Copa do Brasil Sub-20: Pantanal e União ABC vão representar MS em 2027",
-        "resumo": "",
-        "url": "https://ge.globo.com/ms/futebol/noticia/2026/09/21/copa-do-brasil-sub-20-pantanal-e-uniao-abc-vao-representar-ms-em-2027.ghtml",
-        "imagem": "",
-        "data": "2026-09-21T21:17:21+00:00",
-        "dataFmt": "21/09/2026 21:17"
-      },
-      {
-        "titulo": "Corinthians x Bahia - Campeonato Brasileiro Feminino 2026 - globoesporte.com",
-        "resumo": "",
-        "url": "https://ge.globo.com/ba/futebol/futebol-feminino/brasileiro-feminino/jogo/21-09-2026/corinthians-feminino-bahia.ghtml",
-        "imagem": "",
-        "data": "2026-09-21T21:13:41+00:00",
-        "dataFmt": "21/09/2026 21:13"
-      },
-      {
-        "titulo": "4 de Julho define programação para semana decisiva antes de confronto contra o River-PI",
-        "resumo": "",
-        "url": "https://ge.globo.com/pi/futebol/times/4-de-julho/noticia/2026/09/21/4-de-julho-define-programacao-para-semana-decisiva-antes-de-confronto-contra-o-river-pi.ghtml",
-        "imagem": "",
-        "data": "2026-09-21T21:09:13+00:00",
-        "dataFmt": "21/09/2026 21:09"
-      },
-      {
-        "titulo": "Picos inverte desempenho abaixo de 2025 e chega invicto à última rodada da Série B de 2026",
-        "resumo": "",
-        "url": "https://ge.globo.com/pi/futebol/times/picos/noticia/2026/09/21/picos-inverte-desempenho-abaixo-de-2025-e-chega-invicto-a-ultima-rodada-da-serie-b-de-2026.ghtml",
-        "imagem": "",
-        "data": "2026-09-21T21:09:10+00:00",
-        "dataFmt": "21/09/2026 21:09"
-      },
-      {
-        "titulo": "Caldense anuncia Gustavo Brancão para comandar equipes Sub-20 e profissional",
-        "resumo": "",
-        "url": "https://ge.globo.com/mg/sul-de-minas/futebol/noticia/2026/09/21/caldense-anuncia-gustavo-brancao-para-comandar-equipes-sub-20-e-profissional.ghtml",
-        "imagem": "",
-        "data": "2026-09-21T21:05:15+00:00",
-        "dataFmt": "21/09/2026 21:05"
-      },
-      {
-        "titulo": "Mauro Júnior, novidade na Seleção, previu convocação quando virou lateral: \"Sou muito esforçado\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/21/mauro-junior-novidade-na-selecao-previu-convocacao-quando-virou-lateral-sou-muito-esforcado.ghtml",
-        "imagem": "",
-        "data": "2026-09-21T21:01:12+00:00",
-        "dataFmt": "21/09/2026 21:01"
-      },
-      {
-        "titulo": "Palmeiras não depende só de si para ser campeão brasileiro; compare jogos com o Flamengo",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/21/palmeiras-nao-depende-so-de-si-para-ser-campeao-brasileiro-compare-jogos-com-o-flamengo.ghtml",
-        "imagem": "",
-        "data": "2026-09-21T21:00:00+00:00",
-        "dataFmt": "21/09/2026 21:00"
-      },
-      {
-        "titulo": "Mbappé nega tensão com Dembélé por causa da Bola de Ouro: \"Nenhum problema\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/21/mbappe-nega-tensao-com-dembele-por-causa-da-bola-de-ouro-nenhum-problema.ghtml",
-        "imagem": "",
-        "data": "2026-09-21T20:59:32+00:00",
-        "dataFmt": "21/09/2026 20:59"
       }
     ],
     "times": {
       "Palmeiras": [
+        {
+          "titulo": "Flamengo tem apresentado maior facilidade para enfrentar seus adversários do que o Palmeiras",
+          "resumo": "",
+          "url": "https://ge.globo.com/blogs/completando-a-jogada/post/2026/09/21/flamengo-tem-apresentado-maior-facilidade-para-enfrentar-seus-adversarios-do-que-o-palmeiras.ghtml",
+          "imagem": "",
+          "data": "2026-09-21T23:56:24+00:00",
+          "dataFmt": "21/09/2026 23:56"
+        },
+        {
+          "titulo": "Fluminense x Palmeiras, pela Libertadores, terá carga máxima de ingressos à venda",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/21/fluminense-tem-pedido-aceito-pelo-bepe-e-jogo-de-ida-da-libertadores-tera-carga-maxima-de-ingressos.ghtml",
+          "imagem": "",
+          "data": "2026-09-21T23:47:35+00:00",
+          "dataFmt": "21/09/2026 23:47"
+        },
         {
           "titulo": "Palmeiras pede à Conmebol para ter carga de 10% do Maracanã na semifinal da Libertadores",
           "resumo": "",
@@ -243,6 +259,14 @@
         }
       ],
       "Flamengo": [
+        {
+          "titulo": "Flamengo tem apresentado maior facilidade para enfrentar seus adversários do que o Palmeiras",
+          "resumo": "",
+          "url": "https://ge.globo.com/blogs/completando-a-jogada/post/2026/09/21/flamengo-tem-apresentado-maior-facilidade-para-enfrentar-seus-adversarios-do-que-o-palmeiras.ghtml",
+          "imagem": "",
+          "data": "2026-09-21T23:56:24+00:00",
+          "dataFmt": "21/09/2026 23:56"
+        },
         {
           "titulo": "Entenda por que Flamengo foi contra redução do limite de estrangeiros em reunião da CBF",
           "resumo": "",
@@ -330,14 +354,6 @@
           "imagem": "",
           "data": "",
           "dataFmt": "20/09/2026"
-        },
-        {
-          "titulo": "AtuaÃ§Ãµes: veja quem foi bem, quem foi mal e dÃª suas notas",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/20/atuacoes-do-flamengo-jorginho-saul-e-varela-sao-os-melhores-de-suas-notas.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "20/09/2026"
         }
       ],
       "Athletico-PR": [
@@ -400,6 +416,22 @@
       ],
       "Fluminense": [
         {
+          "titulo": "Fluminense x Palmeiras, pela Libertadores, terá carga máxima de ingressos à venda",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/21/fluminense-tem-pedido-aceito-pelo-bepe-e-jogo-de-ida-da-libertadores-tera-carga-maxima-de-ingressos.ghtml",
+          "imagem": "",
+          "data": "2026-09-21T23:47:35+00:00",
+          "dataFmt": "21/09/2026 23:47"
+        },
+        {
+          "titulo": "Futsal: Fluminense vence São Paulo conquista Taça Brasil Sub-8",
+          "resumo": "",
+          "url": "https://ge.globo.com/ms/futsal/noticia/2026/09/21/futsal-fluminense-vence-sao-paulo-conquista-taca-brasil-sub-8.ghtml",
+          "imagem": "",
+          "data": "2026-09-21T23:09:54+00:00",
+          "dataFmt": "21/09/2026 23:09"
+        },
+        {
           "titulo": "Fluminense reencontra vitória como visitante e reforça bons números de Marcão antes da Data Fifa",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/21/fluminense-reencontra-vitoria-como-visitante-e-reforca-bons-numeros-de-marcao-antes-da-data-fifa.ghtml",
@@ -446,17 +478,17 @@
           "imagem": "",
           "data": "",
           "dataFmt": "21/09/2026"
-        },
-        {
-          "titulo": "MarcÃ£o analisa oscilaÃ§Ãµes e valoriza vitÃ³ria do Fluminense: \"NÃ£o podemos perder a identidade\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/20/marcao-analisa-vitoria-do-fluminense-sobre-o-corinthians-no-brasileirao.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "20/09/2026"
         }
       ],
       "Cruzeiro": [
+        {
+          "titulo": "Cruzeiro reelege presidente da associação para os próximos três anos",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/21/cruzeiro-reelege-presidente-da-associacao-para-os-proximos-tres-anos.ghtml",
+          "imagem": "",
+          "data": "2026-09-21T23:38:39+00:00",
+          "dataFmt": "21/09/2026 23:38"
+        },
         {
           "titulo": "Com Cláudia, Cruzeiro chega a quase um time de desfalques às vésperas da Libertadores; veja lista",
           "resumo": "",
@@ -464,30 +496,6 @@
           "imagem": "",
           "data": "2026-09-21T22:22:41+00:00",
           "dataFmt": "21/09/2026 22:22"
-        },
-        {
-          "titulo": "Cartola 2026: Arroyo participa de todos os gols do Cruzeiro e é o Craque da Rodada #28",
-          "resumo": "",
-          "url": "https://ge.globo.com/cartola/craque-da-rodada/noticia/2026/09/21/cartola-2026-arroyo-participa-de-todos-os-gols-do-cruzeiro-e-e-o-craque-da-rodada-28.ghtml",
-          "imagem": "",
-          "data": "2026-09-21T17:08:47+00:00",
-          "dataFmt": "21/09/2026 17:08"
-        },
-        {
-          "titulo": "URT se garante na Copa do Brasil de 2027 com ajuda do Cruzeiro; entenda",
-          "resumo": "",
-          "url": "https://ge.globo.com/mg/triangulo-mineiro/futebol/times/urt/noticia/2026/09/21/urt-se-garante-na-copa-do-brasil-de-2027-com-ajuda-do-cruzeiro-entenda.ghtml",
-          "imagem": "",
-          "data": "2026-09-21T17:07:39+00:00",
-          "dataFmt": "21/09/2026 17:07"
-        },
-        {
-          "titulo": "Artur Jorge destaca reaÃ§Ã£o do Cruzeiro e mira G-5: \"Objetivo\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/20/artur-jorge-destaca-reacao-do-cruzeiro-apos-eliminacoes-e-mira-g-5-objetivo-nao-uma-obrigacao.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "20/09/2026"
         },
         {
           "titulo": "Trocou a zaga? Artur explica saÃ­da de FabrÃ­cio Bruno do time titular",
@@ -522,6 +530,14 @@
           "dataFmt": "21/09/2026"
         },
         {
+          "titulo": "Artur Jorge destaca reaÃ§Ã£o do Cruzeiro apÃ³s eliminaÃ§Ãµes e mira G-5: \"Objetivo, nÃ£o uma obrigaÃ§Ã£o\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/20/artur-jorge-destaca-reacao-do-cruzeiro-apos-eliminacoes-e-mira-g-5-objetivo-nao-uma-obrigacao.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "20/09/2026"
+        },
+        {
           "titulo": "Jejum de 10 anos Ã© barreira para o Cruzeiro voltar a vencer no Brasileiro",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/20/jejum-de-10-anos-e-barreira-para-o-cruzeiro-voltar-a-vencer-no-brasileiro.ghtml",
@@ -540,12 +556,12 @@
       ],
       "Bahia": [
         {
-          "titulo": "Corinthians x Bahia - Campeonato Brasileiro Feminino 2026 - globoesporte.com",
+          "titulo": "Corinthians x Bahia - Campeonato Brasileiro Feminino 2026 - Ao vivo - globoesporte.com",
           "resumo": "",
           "url": "https://ge.globo.com/ba/futebol/futebol-feminino/brasileiro-feminino/jogo/21-09-2026/corinthians-feminino-bahia.ghtml",
           "imagem": "",
-          "data": "2026-09-21T21:13:41+00:00",
-          "dataFmt": "21/09/2026 21:13"
+          "data": "2026-09-22T01:18:39+00:00",
+          "dataFmt": "22/09/2026 01:18"
         },
         {
           "titulo": "Flamengo, Palmeiras e Bahia têm as melhores campanhas visitantes do Brasileirão; veja ranking",
@@ -852,12 +868,12 @@
       ],
       "Corinthians": [
         {
-          "titulo": "Corinthians x Bahia - Campeonato Brasileiro Feminino 2026 - globoesporte.com",
+          "titulo": "Corinthians x Bahia - Campeonato Brasileiro Feminino 2026 - Ao vivo - globoesporte.com",
           "resumo": "",
           "url": "https://ge.globo.com/ba/futebol/futebol-feminino/brasileiro-feminino/jogo/21-09-2026/corinthians-feminino-bahia.ghtml",
           "imagem": "",
-          "data": "2026-09-21T21:13:41+00:00",
-          "dataFmt": "21/09/2026 21:13"
+          "data": "2026-09-22T01:18:39+00:00",
+          "dataFmt": "22/09/2026 01:18"
         },
         {
           "titulo": "Raio-x da crise: lesÃµes, derrotas e eliminaÃ§Ãµes fazem Corinthians afundar",
@@ -974,12 +990,12 @@
           "dataFmt": "21/09/2026 17:28"
         },
         {
-          "titulo": "Treino na Urca, NFL no Lonier e pendências do DM: veja programação do Botafogo no início da Data Fifa",
+          "titulo": "Treino na Urca, NFL no Lonier e pendÃªncias do DM: a programaÃ§Ã£o na Data Fifa",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/21/treino-na-urca-nfl-no-lonier-e-pendencias-do-dm-veja-programacao-do-botafogo-no-inicio-da-data-fifa.ghtml",
           "imagem": "",
-          "data": "2026-09-21T17:01:39+00:00",
-          "dataFmt": "21/09/2026 17:01"
+          "data": "",
+          "dataFmt": "21/09/2026"
         },
         {
           "titulo": "Veja focos de Tite na Data Fifa para dar nova cara ao Botafogo",
@@ -1130,6 +1146,14 @@
       ],
       "Sao-Paulo": [
         {
+          "titulo": "Futsal: Fluminense vence São Paulo conquista Taça Brasil Sub-8",
+          "resumo": "",
+          "url": "https://ge.globo.com/ms/futsal/noticia/2026/09/21/futsal-fluminense-vence-sao-paulo-conquista-taca-brasil-sub-8.ghtml",
+          "imagem": "",
+          "data": "2026-09-21T23:09:54+00:00",
+          "dataFmt": "21/09/2026 23:09"
+        },
+        {
           "titulo": "Justiça nega pedidos da defesa de Casares em investigações contra o ex-presidente do São Paulo",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/21/justica-nega-pedidos-da-defesa-de-casares-em-investigacoes-contra-o-ex-presidente-do-sao-paulo.ghtml",
@@ -1192,17 +1216,17 @@
           "imagem": "",
           "data": "",
           "dataFmt": "20/09/2026"
-        },
-        {
-          "titulo": "Calleri recebe terceiro amarelo e desfalca o SÃ£o Paulo em clÃ¡ssico contra o Santos",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/19/calleri-recebe-terceiro-amarelo-e-desfalca-o-sao-paulo-em-classico-contra-o-santos.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "19/09/2026"
         }
       ],
       "Santos": [
+        {
+          "titulo": "Gabriel Brazão passa por cirurgia no ombro e não joga mais pelo Santos em 2026",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/21/gabriel-brazao-passa-por-cirurgia-no-ombro-e-nao-joga-mais-pelo-santos-em-2026.ghtml",
+          "imagem": "",
+          "data": "2026-09-22T00:31:22+00:00",
+          "dataFmt": "22/09/2026 00:31"
+        },
         {
           "titulo": "Caio Bonfim destaca momento de Alison dos Santos: \"o Piu é um cometa Halley\"",
           "resumo": "",
@@ -1287,14 +1311,6 @@
           "titulo": "Gabigol esbanja confianÃ§a: \"Eu vou fazer gol. Sempre fiz\"",
           "resumo": "",
           "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/19/gabigol-nega-marra-ou-soberba-mas-esbanja-confianca-apos-vitoria-do-santos.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "19/09/2026"
-        },
-        {
-          "titulo": "Cuca vibra com nova vitÃ³ria do Santos fora de casa: \"Ã digno de aplauso\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/19/cuca-vibra-com-nova-vitoria-do-santos-fora-de-casa-uma-queda-nos-penaltis-nao-tira-o-credito.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "19/09/2026"
@@ -2069,14 +2085,6 @@
         "dataFmt": "20/09/2026"
       },
       {
-        "titulo": "UFC 331: PatrÃ­cio Pitbull vence no boxe; Ruffy Ã© nocauteado por Tsarukyan",
-        "resumo": "",
-        "url": "https://ge.globo.com/combate/noticia/2026/09/20/ufc-331-patricio-pitbull-vence-no-boxe-ruffy-e-nocauteado-por-tsarukyan.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "20/09/2026"
-      },
-      {
         "titulo": "Retorno de Amanda Nunes pelo cinturÃ£o do UFC Ã© marcado para novembro",
         "resumo": "",
         "url": "https://ge.globo.com/combate/noticia/2026/09/20/retorno-de-amanda-nunes-pelo-cinturao-do-ufc-e-marcado-para-novembro.ghtml",
@@ -2091,14 +2099,6 @@
         "imagem": "",
         "data": "",
         "dataFmt": "17/09/2026"
-      },
-      {
-        "titulo": "Topuria anuncia volta e acusa Gaethje: âVerifiquem as luvas\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/combate/noticia/2026/09/18/ilia-topuria-anuncia-retorno-e-acusa-gaethje-verifiquem-as-luvas.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "18/09/2026"
       },
       {
         "titulo": "Ernane Pimenta jura R$ 10 mil \"de consolo\" a Bakai apÃ³s final",
@@ -2125,6 +2125,14 @@
         "dataFmt": "01/01/2026"
       },
       {
+        "titulo": "UFC 331: PatrÃ­cio Pitbull vence coreano, mas Ruffy Ã© nocauteado por Tsarukyan",
+        "resumo": "",
+        "url": "https://ge.globo.com/combate/noticia/2026/09/20/ufc-331-patricio-pitbull-vence-no-boxe-ruffy-e-nocauteado-por-tsarukyan.ghtml",
+        "imagem": "",
+        "data": "",
+        "dataFmt": "20/09/2026"
+      },
+      {
         "titulo": "Mauricio Ruffy se diz confiante no seu estilo contra Tsarukyan no UFC 331: \"Casamento excelente\"",
         "resumo": "",
         "url": "https://ge.globo.com/combate/noticia/2026/09/19/mauricio-ruffy-se-diz-confiante-no-seu-estilo-contra-tsarukyan-no-ufc-331-casamento-excelente.ghtml",
@@ -2136,6 +2144,14 @@
         "titulo": "UFC 331: Clima esquenta nas encaradas das lutas principais",
         "resumo": "",
         "url": "https://ge.globo.com/combate/noticia/2026/09/18/ufc-331-clima-esquenta-nas-encaradas-das-lutas-principais.ghtml",
+        "imagem": "",
+        "data": "",
+        "dataFmt": "18/09/2026"
+      },
+      {
+        "titulo": "Ilia Topuria anuncia retorno e acusa Gaethje: âVerifiquem as luvas\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/combate/noticia/2026/09/18/ilia-topuria-anuncia-retorno-e-acusa-gaethje-verifiquem-as-luvas.ghtml",
         "imagem": "",
         "data": "",
         "dataFmt": "18/09/2026"
