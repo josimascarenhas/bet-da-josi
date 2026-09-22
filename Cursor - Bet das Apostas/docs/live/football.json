@@ -1,8 +1,8 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-21T19:44:39-03:00",
+    "atualizadoEm": "2026-09-21T22:28:24-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 381,
+    "jogosFinalizados": 382,
     "timesAtualizados": 118,
     "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
@@ -21,10 +21,10 @@
         "Vitoria",
         "Corinthians",
         "Atletico-MG",
+        "Gremio",
         "Botafogo",
         "Santos",
         "Mirassol",
-        "Gremio",
         "Internacional",
         "Remo",
         "Vasco",
@@ -199,7 +199,7 @@
     "Palmeiras": {
       "brasileirao": {
         "posicao": 1,
-        "pontos": 53,
+        "pontos": 54,
         "ultimos5": [
           "D 1-2 ATLMG",
           "V 4-0",
@@ -227,10 +227,10 @@
           "gsg": 0.92
         },
         "vitorias": 15,
-        "empates": 8,
+        "empates": 9,
         "derrotas": 3,
-        "golsPro": 44,
-        "golsContra": 21
+        "golsPro": 45,
+        "golsContra": 22
       },
       "desfalques": [
         {
@@ -1326,7 +1326,7 @@
     },
     "Botafogo": {
       "brasileirao": {
-        "posicao": 12,
+        "posicao": 13,
         "pontos": 32,
         "ultimos5": [
           "E 0-0 VIT",
@@ -1632,7 +1632,7 @@
     },
     "Santos": {
       "brasileirao": {
-        "posicao": 13,
+        "posicao": 14,
         "pontos": 32,
         "ultimos5": [
           "D 1-2",
@@ -1668,7 +1668,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Luan Peres Ã© desfalque contra o SÃ£o Pa",
+          "jogador": "Gabriel Brazão passa por cirurgia no omb",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1752,8 +1752,8 @@
     },
     "Gremio": {
       "brasileirao": {
-        "posicao": 15,
-        "pontos": 31,
+        "posicao": 12,
+        "pontos": 32,
         "ultimos5": [
           "D 1-2",
           "E 1-1 FLU",
@@ -1781,10 +1781,10 @@
           "gsg": 1.5
         },
         "vitorias": 8,
-        "empates": 7,
+        "empates": 8,
         "derrotas": 11,
-        "golsPro": 30,
-        "golsContra": 33
+        "golsPro": 31,
+        "golsContra": 34
       },
       "desfalques": [
         {
@@ -1986,7 +1986,7 @@
     },
     "Mirassol": {
       "brasileirao": {
-        "posicao": 14,
+        "posicao": 15,
         "pontos": 32,
         "ultimos5": [
           "E 1-1",
