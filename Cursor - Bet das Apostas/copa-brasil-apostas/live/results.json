@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-21T22:28:21.123164-03:00",
+    "atualizadoEm": "2026-09-22T03:41:27.649647-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
@@ -28,6 +28,14 @@
       "mandante": "Gremio",
       "visitante": "Palmeiras",
       "placar": "1-1"
+    },
+    {
+      "id": "br-28-Athletico-PR-Bahia",
+      "data": "2026-09-21",
+      "comp": "brasileirao",
+      "mandante": "Athletico-PR",
+      "visitante": "Bahia",
+      "placar": "2-1"
     },
     {
       "id": "br-28-Corinthians-Fluminense",
@@ -236,14 +244,6 @@
       "mandante": "Gremio",
       "visitante": "Internacional",
       "placar": "2-1"
-    },
-    {
-      "id": "copa-q-san-pal-vol",
-      "data": "2026-09-02",
-      "comp": "copa",
-      "mandante": "Santos",
-      "visitante": "Palmeiras",
-      "placar": "0-0"
     }
   ]
 }

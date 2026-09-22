@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-21T22:28:21.123164-03:00",
+    "atualizadoEm": "2026-09-22T03:41:27.649647-03:00",
     "fonte": "calendário + ge.globo.com + openligadb.de",
-    "jogos": 382,
-    "finalizadosTotal": 382
+    "jogos": 383,
+    "finalizadosTotal": 383
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -3010,6 +3010,14 @@
       "status": "finished",
       "placar": "1-1",
       "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-09-21",
+      "comp": "brasileirao"
+    },
+    "br-28-Athletico-PR-Bahia": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
       "golsFora": 1,
       "data": "2026-09-21",
       "comp": "brasileirao",
