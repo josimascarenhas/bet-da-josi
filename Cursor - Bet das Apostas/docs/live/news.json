@@ -1,18 +1,42 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-22T23:10:02.922815+00:00",
+    "atualizadoEm": "2026-09-23T01:40:01.808571+00:00",
     "fonte": "ge.globo.com",
     "fonteUrl": "https://ge.globo.com/"
   },
   "futebol": {
     "geral": [
       {
-        "titulo": "Criciúma x Operário-PR - Campeonato Brasileiro Série B 2026 - Ao vivo - globoesporte.com",
+        "titulo": "Operário-PR bate o Criciúma, ultrapassa adversário na tabela e entra no G-6",
         "resumo": "",
         "url": "https://ge.globo.com/sc/futebol/brasileirao-serie-b/jogo/22-09-2026/criciuma-operario-pr.ghtml",
         "imagem": "",
-        "data": "2026-09-22T22:58:50+00:00",
-        "dataFmt": "22/09/2026 22:58"
+        "data": "2026-09-23T01:15:00+00:00",
+        "dataFmt": "23/09/2026 01:15"
+      },
+      {
+        "titulo": "Zagueiro David Cruz, ex-São Raimundo-AM, é o novo reforço do Manaus: \"Conheço a grandeza\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/am/futebol/times/manaus/noticia/2026/09/22/zagueiro-david-cruz-ex-sao-raimundo-am-e-o-novo-reforco-do-manaus-conheco-a-grandeza.ghtml",
+        "imagem": "",
+        "data": "2026-09-23T01:14:51+00:00",
+        "dataFmt": "23/09/2026 01:14"
+      },
+      {
+        "titulo": "Joia de 15 anos do Vasco faz gol de falta à la Ronaldinho no Brasileiro sub-17; veja vídeo",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/22/joia-de-15-anos-do-vasco-faz-gol-de-falta-a-la-ronaldinho-no-brasileiro-sub-17-veja-video.ghtml",
+        "imagem": "",
+        "data": "2026-09-23T00:42:40+00:00",
+        "dataFmt": "23/09/2026 00:42"
+      },
+      {
+        "titulo": "Miguel Moscardo chega a 100 gols em três anos na base do Corinthians",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/22/miguel-moscardo-chega-a-100-gols-em-tres-anos-na-base-do-corinthians.ghtml",
+        "imagem": "",
+        "data": "2026-09-22T23:30:19+00:00",
+        "dataFmt": "22/09/2026 23:30"
       },
       {
         "titulo": "Jair revive infância com Bontempo em reencontro na Seleção: \"Se não fosse ele, eu não estaria aqui\"",
@@ -141,30 +165,6 @@
         "imagem": "",
         "data": "2026-09-22T21:22:48+00:00",
         "dataFmt": "22/09/2026 21:22"
-      },
-      {
-        "titulo": "Robson Rodas se pronuncia sobre bloqueio das contas do CSA: \"Consequência do passado\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/al/futebol/times/csa/noticia/2026/09/22/robson-rodas-se-pronuncia-sobre-bloqueio-das-contas-do-csa-consequencia-do-passado.ghtml",
-        "imagem": "",
-        "data": "2026-09-22T21:22:37+00:00",
-        "dataFmt": "22/09/2026 21:22"
-      },
-      {
-        "titulo": "Piauiense Feminino 2026: confira a tabela completa da primeira fase da competição",
-        "resumo": "",
-        "url": "https://ge.globo.com/pi/futebol/futebol-feminino/noticia/2026/09/22/piauiense-feminino-2026-confira-a-tabela-completa-da-primeira-fase-da-competicao.ghtml",
-        "imagem": "",
-        "data": "2026-09-22T21:16:21+00:00",
-        "dataFmt": "22/09/2026 21:16"
-      },
-      {
-        "titulo": "Domingos Duarte rompe ligamento do joelho e não joga mais pelo São Paulo em 2026",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/22/domingos-duarte-rompe-ligamento-do-joelho-e-nao-joga-mais-pelo-sao-paulo-em-2026.ghtml",
-        "imagem": "",
-        "data": "2026-09-22T21:08:18+00:00",
-        "dataFmt": "22/09/2026 21:08"
       }
     ],
     "times": {
@@ -852,6 +852,14 @@
       ],
       "Corinthians": [
         {
+          "titulo": "Miguel Moscardo chega a 100 gols em três anos na base do Corinthians",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/22/miguel-moscardo-chega-a-100-gols-em-tres-anos-na-base-do-corinthians.ghtml",
+          "imagem": "",
+          "data": "2026-09-22T23:30:19+00:00",
+          "dataFmt": "22/09/2026 23:30"
+        },
+        {
           "titulo": "Giuliano anuncia aposentadoria: \"O futebol foi a melhor coisa que me aconteceu\"",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/22/giuliano-anuncia-aposentadoria-a-melhor-coisa-que-me-aconteceu.ghtml",
@@ -924,7 +932,7 @@
           "dataFmt": "21/09/2026"
         },
         {
-          "titulo": "Gustavo Henrique desabafa: \"DifÃ­cil quando clube nÃ£o estÃ¡ organizado\"",
+          "titulo": "Gustavo Henrique desabafa sobre mÃ¡ fase do Corinthians: \"DifÃ­cil quando clube nÃ£o estÃ¡ organizado\"",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/21/gustavo-henrique-desabafa-sobre-ma-fase-do-corinthians-dificil-quando-clube-nao-esta-organizado.ghtml",
           "imagem": "",
@@ -1146,14 +1154,6 @@
           "dataFmt": "22/09/2026 18:07"
         },
         {
-          "titulo": "Paraense conquista ouro e prata em Paralimpíada Universitária disputada em São Paulo",
-          "resumo": "",
-          "url": "https://ge.globo.com/pa/noticia/2026/09/22/paraense-conquista-ouro-e-prata-em-paralimpiada-universitaria-disputada-em-sao-paulo.ghtml",
-          "imagem": "",
-          "data": "2026-09-22T17:05:57+00:00",
-          "dataFmt": "22/09/2026 17:05"
-        },
-        {
           "titulo": "A diferenÃ§a que Lucas faz no aproveitamento do time no ano",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/22/retorno-de-lucas-pode-elevar-o-aproveitamento-do-sao-paulo-veja-os-numeros.ghtml",
@@ -1276,14 +1276,6 @@
           "dataFmt": "21/09/2026"
         },
         {
-          "titulo": "Como a famÃ­lia de Neymar tem ampliado poder no Santos",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/21/dos-reforcos-a-estrutura-como-a-familia-neymar-amplia-influencia-nos-bastidores-do-santos.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "21/09/2026"
-        },
-        {
           "titulo": "Gabriel BrazÃ£o passa por cirurgia no ombro e nÃ£o joga mais pelo Santos em 2026",
           "resumo": "",
           "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/21/gabriel-brazao-passa-por-cirurgia-no-ombro-e-nao-joga-mais-pelo-santos-em-2026.ghtml",
@@ -1382,14 +1374,6 @@
           "imagem": "",
           "data": "2026-09-22T19:32:14+00:00",
           "dataFmt": "22/09/2026 19:32"
-        },
-        {
-          "titulo": "Federação Argentina encaminha renovação de Scaloni na seleção",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/22/federacao-argentina-encaminha-renovacao-de-scaloni-na-selecao.ghtml",
-          "imagem": "",
-          "data": "2026-09-22T17:16:37+00:00",
-          "dataFmt": "22/09/2026 17:16"
         },
         {
           "titulo": "\"Milagre\": Inter precisa de campanha de G-4 contra queda",
@@ -1573,6 +1557,14 @@
         }
       ],
       "Vasco": [
+        {
+          "titulo": "Joia de 15 anos do Vasco faz gol de falta à la Ronaldinho no Brasileiro sub-17; veja vídeo",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/22/joia-de-15-anos-do-vasco-faz-gol-de-falta-a-la-ronaldinho-no-brasileiro-sub-17-veja-video.ghtml",
+          "imagem": "",
+          "data": "2026-09-23T00:42:40+00:00",
+          "dataFmt": "23/09/2026 00:42"
+        },
         {
           "titulo": "Vasco goleia o Santos e encerra jejum com atuação de destaque no Brasileiro Sub-17",
           "resumo": "",
@@ -1833,6 +1825,14 @@
   "basquete": {
     "geral": [
       {
+        "titulo": "Franca constrói vantagem no 1º quarto, vence Paulistano e faz 1 a 0 na semi estadual",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/09/22/franca-constroi-vantagem-no-1o-quarto-vence-paulistano-e-abre-1-a-0-na-semi-estadual.ghtml",
+        "imagem": "",
+        "data": "2026-09-23T01:21:35+00:00",
+        "dataFmt": "23/09/2026 01:21"
+      },
+      {
         "titulo": "Com time da Venezuela, Copa Fronteira de Basquete inicia nesta terça-feira",
         "resumo": "",
         "url": "https://ge.globo.com/rr/basquete/noticia/2026/09/22/com-time-da-venezuela-copa-fronteira-de-basquete-inicia-nesta-terca-feira.ghtml",
@@ -1948,14 +1948,6 @@
         "titulo": "Paraibano de Basquete 2026: Ãºltima rodada da 1Âª fase define confrontos do mata-mata; confira",
         "resumo": "",
         "url": "https://ge.globo.com/pb/basquete/noticia/2026/09/14/paraibano-de-basquete-2026-ultima-rodada-da-1a-fase-define-confrontos-do-mata-mata-confira.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "14/09/2026"
-      },
-      {
-        "titulo": "Dono dos Clippers se pronuncia sobre fraude no contrato de Kawhi Leonard: \"Me arrependo\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/basquete/nba/noticia/2026/09/14/dono-dos-clippers-se-pronuncia-sobre-fraude-no-contrato-de-kawhi-leonard-me-arrependo.ghtml",
         "imagem": "",
         "data": "",
         "dataFmt": "14/09/2026"
