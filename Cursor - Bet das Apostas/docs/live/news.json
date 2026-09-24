@@ -1,11 +1,83 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-23T23:52:36.018941+00:00",
+    "atualizadoEm": "2026-09-24T03:25:28.147285+00:00",
     "fonte": "ge.globo.com",
     "fonteUrl": "https://ge.globo.com/"
   },
   "futebol": {
     "geral": [
+      {
+        "titulo": "Torcida do Real escolhe Diomande no lugar de Vini Jr. em enquete na Espanha; entenda",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/times/real-madrid/noticia/2026/09/24/torcida-do-real-escolhe-diomande-no-lugar-de-vini-jr-em-enquete-na-espanha-entenda.ghtml",
+        "imagem": "",
+        "data": "2026-09-24T03:09:45+00:00",
+        "dataFmt": "24/09/2026 03:09"
+      },
+      {
+        "titulo": "O que esperar de Portugal com Jorge Jesus? Veja possíveis mudanças no estilo da seleção",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/24/o-que-esperar-de-portugal-com-jorge-jesus-veja-possiveis-mudancas-no-estilo-da-selecao.ghtml",
+        "imagem": "",
+        "data": "2026-09-24T03:00:00+00:00",
+        "dataFmt": "24/09/2026 03:00"
+      },
+      {
+        "titulo": "Escalação da Seleção: Ancelotti monta o Brasil com dois estreantes e sete remanescente da Copa para amistoso",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/selecao-brasileira/noticia/2026/09/23/escalacao-da-selecao-ancelotti-monta-o-brasil-com-dois-estreantes-e-sete-remanescente-da-copa-para-amistoso.ghtml",
+        "imagem": "",
+        "data": "2026-09-24T01:33:21+00:00",
+        "dataFmt": "24/09/2026 01:33"
+      },
+      {
+        "titulo": "Auto Esporte-PB e Cruzeiro-PB empatam sem gols em jogo com pênalti desperdiçado",
+        "resumo": "",
+        "url": "https://ge.globo.com/pb/futebol/paraibano-segunda-divisao/noticia/2026/09/23/auto-esporte-pb-e-cruzeiro-pb-empatam-sem-gols-em-jogo-com-penalti-desperdicado.ghtml",
+        "imagem": "",
+        "data": "2026-09-24T01:15:48+00:00",
+        "dataFmt": "24/09/2026 01:15"
+      },
+      {
+        "titulo": "Copinha F 2026 tem três estreantes e final no Canindé; veja grupos e formato de disputa",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-feminino/noticia/2026/09/23/copinha-f-2026-tem-tres-estreantes-e-final-no-caninde-veja-grupos-e-formato-de-disputa.ghtml",
+        "imagem": "",
+        "data": "2026-09-24T00:29:02+00:00",
+        "dataFmt": "24/09/2026 00:29"
+      },
+      {
+        "titulo": "Justiça mantém Assembleia do Botafogo e multa Textor em processo sobre a SAF",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/23/justica-mantem-assembleia-do-botafogo-e-multa-textor-em-processo-sobre-a-saf.ghtml",
+        "imagem": "",
+        "data": "2026-09-24T00:20:02+00:00",
+        "dataFmt": "24/09/2026 00:20"
+      },
+      {
+        "titulo": "Barra e Nação empatam em partida atrasada pela 1ª rodada da Copa SC",
+        "resumo": "",
+        "url": "https://ge.globo.com/sc/futebol/copa-santa-catarina/noticia/2026/09/23/barra-e-nacao-empatam-em-partida-atrasada-pela-1a-rodada-da-copa-sc.ghtml",
+        "imagem": "",
+        "data": "2026-09-24T00:15:19+00:00",
+        "dataFmt": "24/09/2026 00:15"
+      },
+      {
+        "titulo": "Holanda x Alemanha pela Liga das Nações: onde assistir ao vivo e horário",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/liga-das-nacoes/noticia/2026/09/23/holanda-x-alemanha-pela-liga-das-nacoes-onde-assistir-ao-vivo-e-horario.ghtml",
+        "imagem": "",
+        "data": "2026-09-24T00:10:38+00:00",
+        "dataFmt": "24/09/2026 00:10"
+      },
+      {
+        "titulo": "Presidentes se reúnem na Conmebol para debater reta final da Libertadores e da Sul-Americana",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/libertadores/noticia/2026/09/23/presidentes-se-reunem-na-conmebol-para-debater-reta-final-da-libertadores-e-da-sul-americana.ghtml",
+        "imagem": "",
+        "data": "2026-09-23T23:54:52+00:00",
+        "dataFmt": "23/09/2026 23:54"
+      },
       {
         "titulo": "Domingos Duarte e Aurélio Buta, do São Paulo, passam por cirurgias",
         "resumo": "",
@@ -93,78 +165,6 @@
         "imagem": "",
         "data": "2026-09-23T22:19:51+00:00",
         "dataFmt": "23/09/2026 22:19"
-      },
-      {
-        "titulo": "Indireta? Eder, diretor do Criciúma faz forte desabafo depois de saída de Eduardo Baptista",
-        "resumo": "",
-        "url": "https://ge.globo.com/sc/futebol/times/criciuma/noticia/2026/09/23/indireta-eder-diretor-do-criciuma-desabafa-apos-saida-de-baptista-so-covardes-abandonam-o-barco.ghtml",
-        "imagem": "",
-        "data": "2026-09-23T22:19:19+00:00",
-        "dataFmt": "23/09/2026 22:19"
-      },
-      {
-        "titulo": "Protesto curioso! Goleiro se recusa a participar em cobrança de pênalti bizarro e se escora na trave; veja",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/23/protesto-curioso-goleiro-se-recusa-a-participar-em-cobranca-de-penalti-bizarro-e-se-escora-na-trave-veja.ghtml",
-        "imagem": "",
-        "data": "2026-09-23T22:17:28+00:00",
-        "dataFmt": "23/09/2026 22:17"
-      },
-      {
-        "titulo": "Flamengo e Jardim são multados pela Conmebol por atraso em recomeço de jogo contra o Del Valle em Quito",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/23/flamengo-e-jardim-sao-multados-pela-conmebol-por-atraso-em-recomeco-de-jogo-contra-o-del-valle-em-quito.ghtml",
-        "imagem": "",
-        "data": "2026-09-23T22:12:31+00:00",
-        "dataFmt": "23/09/2026 22:12"
-      },
-      {
-        "titulo": "River-PI avança às semifinais do Piauiense Série B após ampliação da punição ao 4 de Julho",
-        "resumo": "",
-        "url": "https://ge.globo.com/pi/futebol/piauiense-segunda-divisao/noticia/2026/09/23/river-pi-avanca-as-semifinais-do-piauiense-serie-b-apos-ampliacao-da-punicao-ao-4-de-julho.ghtml",
-        "imagem": "",
-        "data": "2026-09-23T22:04:01+00:00",
-        "dataFmt": "23/09/2026 22:04"
-      },
-      {
-        "titulo": "Novo reforço, Lincoln é regularizado e já pode estrear pelo Vila Nova",
-        "resumo": "",
-        "url": "https://ge.globo.com/go/futebol/times/vila-nova/noticia/2026/09/23/novo-reforco-lincoln-e-regularizado-e-ja-pode-estrear-pelo-vila-nova.ghtml",
-        "imagem": "",
-        "data": "2026-09-23T22:03:22+00:00",
-        "dataFmt": "23/09/2026 22:03"
-      },
-      {
-        "titulo": "Joia do Fluminense, Matheus Reis avança em recuperação e se aproxima de retorno",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/23/joia-do-fluminense-matheus-reis-avanca-em-recuperacao-e-se-aproxima-de-retorno.ghtml",
-        "imagem": "",
-        "data": "2026-09-23T21:54:44+00:00",
-        "dataFmt": "23/09/2026 21:54"
-      },
-      {
-        "titulo": "Juventude Samas vence América nos pênaltis e vai à final do Maranhense Sub-17",
-        "resumo": "",
-        "url": "https://ge.globo.com/ma/futebol/campeonato-maranhense/noticia/2026/09/23/juventude-samas-vence-america-nos-penaltis-e-vai-a-final-do-maranhense-sub-17.ghtml",
-        "imagem": "",
-        "data": "2026-09-23T21:51:51+00:00",
-        "dataFmt": "23/09/2026 21:51"
-      },
-      {
-        "titulo": "TJD-PI amplia punição ao 4 de Julho, que passa a ter pontuação negativa; decisão cabe recurso ao STJD",
-        "resumo": "",
-        "url": "https://ge.globo.com/pi/futebol/times/4-de-julho/noticia/2026/09/23/tjd-pi-amplia-punicao-ao-4-de-julho-que-passa-a-ter-pontuacao-negativa-decisao-cabe-recurso-ao-stjd.ghtml",
-        "imagem": "",
-        "data": "2026-09-23T21:42:22+00:00",
-        "dataFmt": "23/09/2026 21:42"
-      },
-      {
-        "titulo": "Rony curte férias no Pará pescando e dançando marcante",
-        "resumo": "",
-        "url": "https://ge.globo.com/pa/futebol/noticia/2026/09/23/rony-curte-ferias-no-para-pescando-e-dancando-marcante.ghtml",
-        "imagem": "",
-        "data": "2026-09-23T21:41:17+00:00",
-        "dataFmt": "23/09/2026 21:41"
       }
     ],
     "times": {
@@ -210,47 +210,31 @@
           "dataFmt": "22/09/2026"
         },
         {
-          "titulo": "Desfalques? Veja cronograma dos convocados na Data Fifa",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/21/palmeiras-tem-sete-convocados-para-amistosos-na-data-fifa-veja-cronograma-de-cada-um.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "21/09/2026"
-        },
-        {
-          "titulo": "Palmeiras nÃ£o depende sÃ³ de si para ser campeÃ£o brasileiro; simule jogos",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/21/palmeiras-nao-depende-so-de-si-para-ser-campeao-brasileiro-compare-jogos-com-o-flamengo.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "21/09/2026"
-        },
-        {
-          "titulo": "AtuaÃ§Ãµes: dÃª suas notas aos jogadores do Palmeiras",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/20/atuacoes-do-palmeiras-carlos-miguel-fecha-o-gol-ataque-produz-mas-nao-faz-gol-de-suas-notas.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "20/09/2026"
-        },
-        {
-          "titulo": "AnÃ¡lise: Palmeiras faz bom jogo, mas volta a perder pontos",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/21/analise-palmeiras-faz-um-de-seus-melhores-jogos-no-ano-mas-volta-a-perder-pontos-para-time-do-z-4.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "21/09/2026"
-        },
-        {
           "titulo": "Palmeiras pede Ã  Conmebol para ter carga de 10% do MaracanÃ£ na semifinal da Libertadores",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/21/palmeiras-pede-a-conmebol-para-ter-carga-de-10percent-do-maracana-na-semifinal-da-libertadores.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "21/09/2026"
+        },
+        {
+          "titulo": "Palmeiras nÃ£o depende sÃ³ de si para ser campeÃ£o brasileiro; compare jogos com o Flamengo",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/21/palmeiras-nao-depende-so-de-si-para-ser-campeao-brasileiro-compare-jogos-com-o-flamengo.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "21/09/2026"
         }
       ],
       "Flamengo": [
+        {
+          "titulo": "Flamengo vence Botafogo e garante vaga na final do Carioca de basquete",
+          "resumo": "",
+          "url": "https://ge.globo.com/basquete/noticia/2026/09/23/flamengo-vence-botafogo-e-garante-vaga-na-final-do-carioca-de-basquete.ghtml",
+          "imagem": "",
+          "data": "2026-09-24T01:47:38+00:00",
+          "dataFmt": "24/09/2026 01:47"
+        },
         {
           "titulo": "Flamengo e Jardim são multados pela Conmebol por atraso em recomeço de jogo contra o Del Valle em Quito",
           "resumo": "",
@@ -482,6 +466,14 @@
       ],
       "Cruzeiro": [
         {
+          "titulo": "Auto Esporte-PB e Cruzeiro-PB empatam sem gols em jogo com pênalti desperdiçado",
+          "resumo": "",
+          "url": "https://ge.globo.com/pb/futebol/paraibano-segunda-divisao/noticia/2026/09/23/auto-esporte-pb-e-cruzeiro-pb-empatam-sem-gols-em-jogo-com-penalti-desperdicado.ghtml",
+          "imagem": "",
+          "data": "2026-09-24T01:15:48+00:00",
+          "dataFmt": "24/09/2026 01:15"
+        },
+        {
           "titulo": "Diretor analisa regra para estrangeiros no futebol brasileiro",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/23/aprovado-diretor-do-cruzeiro-analisa-nova-regra-para-estrangeiros-no-futebol-brasileiro.ghtml",
@@ -548,12 +540,12 @@
       ],
       "Bahia": [
         {
-          "titulo": "Michel Araujo começa transição no último treino do Bahia na semana",
+          "titulo": "Michel Araujo comeÃ§a transiÃ§Ã£o no Ãºltimo treino do Bahia da semana",
           "resumo": "",
           "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/09/23/michel-araujo-comeca-transicao-no-ultimo-treino-do-bahia-na-semana.ghtml",
           "imagem": "",
-          "data": "2026-09-23T18:25:09+00:00",
-          "dataFmt": "23/09/2026 18:25"
+          "data": "",
+          "dataFmt": "23/09/2026"
         },
         {
           "titulo": "Goleira do Bahia se emociona ao ser convocada para SeleÃ§Ã£o; veja reaÃ§Ã£o",
@@ -664,12 +656,12 @@
       ],
       "Coritiba": [
         {
-          "titulo": "Período sem jogos se torna aliado do Coritiba para preparar reforços",
+          "titulo": "PerÃ­odo sem jogos se torna aliado do Coritiba para preparar reforÃ§os",
           "resumo": "",
           "url": "https://ge.globo.com/pr/futebol/times/coritiba/noticia/2026/09/23/periodo-sem-jogos-se-torna-aliado-do-coritiba-para-preparar-reforcos.ghtml",
           "imagem": "",
-          "data": "2026-09-23T18:05:38+00:00",
-          "dataFmt": "23/09/2026 18:05"
+          "data": "",
+          "dataFmt": "23/09/2026"
         },
         {
           "titulo": "Folga maior e preparaÃ§Ã£o: o plano do Coritiba para os dez Ãºltimos jogos",
@@ -764,6 +756,14 @@
       ],
       "Corinthians": [
         {
+          "titulo": "Com triplo-duplo de Georginho, Mogi vence o Corinthians no jogo 2 da semi do Paulista de basquete",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/mogi-das-cruzes-suzano/basquete/noticia/2026/09/23/com-triplo-duplo-de-georginho-mogi-vence-o-corinthians-no-jogo-2-da-semi-do-paulista-de-basquete.ghtml",
+          "imagem": "",
+          "data": "2026-09-24T01:08:01+00:00",
+          "dataFmt": "24/09/2026 01:08"
+        },
+        {
           "titulo": "Em recuperação, quarteto do Corinthians volta aos treinos antes do restante do elenco",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/23/em-recuperacao-quarteto-do-corinthians-se-reapresenta-antes-do-restante-do-elenco.ghtml",
@@ -788,15 +788,15 @@
           "dataFmt": "22/09/2026"
         },
         {
-          "titulo": "Clube nÃ£o paga direitos de imagem no prazo e aumenta dÃ­vida",
+          "titulo": "ClÃ¡ssicos e confrontos diretos: a sequÃªncia do Corinthians para fugir do Z-4 no BrasileirÃ£o",
           "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/22/corinthians-nao-paga-direitos-de-imagem-no-prazo-e-acumula-dois-meses-de-atraso.ghtml",
+          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/23/classicos-e-confrontos-diretos-a-sequencia-do-corinthians-para-fugir-do-z-4-no-brasileirao.ghtml",
           "imagem": "",
           "data": "",
-          "dataFmt": "22/09/2026"
+          "dataFmt": "23/09/2026"
         },
         {
-          "titulo": "Giuliano anuncia aposentadoria: \"A melhor coisa que me aconteceu\"",
+          "titulo": "Giuliano anuncia aposentadoria: \"O futebol foi a melhor coisa que me aconteceu\"",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/22/giuliano-anuncia-aposentadoria-a-melhor-coisa-que-me-aconteceu.ghtml",
           "imagem": "",
@@ -804,12 +804,12 @@
           "dataFmt": "22/09/2026"
         },
         {
-          "titulo": "ClÃ¡ssicos e confrontos diretos: a sequÃªncia do Corinthians para fugir do Z-4 no BrasileirÃ£o",
+          "titulo": "Corinthians nÃ£o paga direitos de imagem no prazo e acumula dois meses de atraso",
           "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/23/classicos-e-confrontos-diretos-a-sequencia-do-corinthians-para-fugir-do-z-4-no-brasileirao.ghtml",
+          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/22/corinthians-nao-paga-direitos-de-imagem-no-prazo-e-acumula-dois-meses-de-atraso.ghtml",
           "imagem": "",
           "data": "",
-          "dataFmt": "23/09/2026"
+          "dataFmt": "22/09/2026"
         },
         {
           "titulo": "DesorganizaÃ§Ã£o e ambiente ruim: os relatos que expÃµem a crise nos bastidores do Corinthians",
@@ -821,6 +821,22 @@
         }
       ],
       "Botafogo": [
+        {
+          "titulo": "Flamengo vence Botafogo e garante vaga na final do Carioca de basquete",
+          "resumo": "",
+          "url": "https://ge.globo.com/basquete/noticia/2026/09/23/flamengo-vence-botafogo-e-garante-vaga-na-final-do-carioca-de-basquete.ghtml",
+          "imagem": "",
+          "data": "2026-09-24T01:47:38+00:00",
+          "dataFmt": "24/09/2026 01:47"
+        },
+        {
+          "titulo": "Justiça mantém Assembleia do Botafogo e multa Textor em processo sobre a SAF",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/23/justica-mantem-assembleia-do-botafogo-e-multa-textor-em-processo-sobre-a-saf.ghtml",
+          "imagem": "",
+          "data": "2026-09-24T00:20:02+00:00",
+          "dataFmt": "24/09/2026 00:20"
+        },
         {
           "titulo": "Em alta no Botafogo, Huguinho é convocado para Seleção sub-20: \"Momento especial da carreira\"",
           "resumo": "",
@@ -838,7 +854,7 @@
           "dataFmt": "23/09/2026 19:02"
         },
         {
-          "titulo": "Entenda a diferenÃ§a entre o acordo assinado com GDA e a transferÃªncia de aÃ§Ãµes",
+          "titulo": "Bota e GDA: entenda a diferenÃ§a entre o acordo jÃ¡ assinado e a transferÃªncia de aÃ§Ãµes",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/23/botafogo-e-gda-entenda-a-diferenca-entre-o-acordo-ja-assinado-e-a-transferencia-de-acoes.ghtml",
           "imagem": "",
@@ -889,14 +905,6 @@
           "titulo": "Treino na Urca, NFL no Lonier e pendÃªncias do DM: veja programaÃ§Ã£o do Botafogo no inÃ­cio da Data Fifa",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/21/treino-na-urca-nfl-no-lonier-e-pendencias-do-dm-veja-programacao-do-botafogo-no-inicio-da-data-fifa.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "21/09/2026"
-        },
-        {
-          "titulo": "Veja focos de Tite na Data Fifa para dar nova cara ao Botafogo",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/21/tite-tera-data-fifa-para-dar-nova-cara-ao-botafogo-veja-alguns-focos-do-periodo-sem-jogos.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "21/09/2026"
@@ -1042,20 +1050,12 @@
           "dataFmt": "23/09/2026"
         },
         {
-          "titulo": "UberlÃ¢ndia desiste de amistoso, e SÃ£o Paulo deve realizar apenas jogos-treino",
+          "titulo": "UberlÃ¢ndia desiste de amistoso com o  SÃ£o Paulo, que deve realizar apenas jogos-treino na Data Fifa",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/23/uberlandia-desiste-de-amistoso-com-o-sao-paulo-que-deve-realizar-apenas-jogos-treino-na-data-fifa.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "23/09/2026"
-        },
-        {
-          "titulo": "A diferenÃ§a que Lucas faz no aproveitamento do time no ano",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/22/retorno-de-lucas-pode-elevar-o-aproveitamento-do-sao-paulo-veja-os-numeros.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "22/09/2026"
         },
         {
           "titulo": "AurÃ©lio Buta passarÃ¡ por cirurgia no joelho e vira desfalque no SÃ£o Paulo",
@@ -1072,9 +1072,25 @@
           "imagem": "",
           "data": "",
           "dataFmt": "22/09/2026"
+        },
+        {
+          "titulo": "Retorno de Lucas pode elevar o aproveitamento do SÃ£o Paulo; veja os nÃºmeros",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/22/retorno-de-lucas-pode-elevar-o-aproveitamento-do-sao-paulo-veja-os-numeros.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "22/09/2026"
         }
       ],
       "Santos": [
+        {
+          "titulo": "Alison dos Santos quebra recorde de novo e fatura o ouro nos Jogos Sul-Americanos",
+          "resumo": "",
+          "url": "https://ge.globo.com/atletismo/noticia/2026/09/23/alison-dos-santos-quebra-recorde-de-novo-e-fatura-o-ouro-nos-jogos-sul-americanos.ghtml",
+          "imagem": "",
+          "data": "2026-09-23T23:56:12+00:00",
+          "dataFmt": "23/09/2026 23:56"
+        },
         {
           "titulo": "Presidente do Cuiabá condena calotes e cita Santos e Vasco: “Vão ficar na Série A por estelionato esportivo”",
           "resumo": "",
@@ -1084,17 +1100,17 @@
           "dataFmt": "23/09/2026 20:55"
         },
         {
-          "titulo": "Santos encaminha venda de JP Chermont a clube dos Emirados Árabes Unidos",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/23/santos-encaminha-venda-de-jp-chermont-a-clube-dos-emirados-arabes-unidos.ghtml",
-          "imagem": "",
-          "data": "2026-09-23T18:41:59+00:00",
-          "dataFmt": "23/09/2026 18:41"
-        },
-        {
           "titulo": "Mattos confirma dÃ­vida e diz que aguarda para negociar permanÃªncia de Gabigol",
           "resumo": "",
           "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/23/mattos-confirma-divida-com-elenco-do-santos-e-diz-que-aguarda-para-negociar-permanencia-de-gabigol.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "23/09/2026"
+        },
+        {
+          "titulo": "Santos encaminha venda de JP Chermont; veja valores",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/23/santos-encaminha-venda-de-jp-chermont-a-clube-dos-emirados-arabes-unidos.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "23/09/2026"
@@ -1124,17 +1140,9 @@
           "dataFmt": "23/09/2026"
         },
         {
-          "titulo": "As contas: desempenho no returno pode levar Santos Ã  Libertadores",
+          "titulo": "DÃ¡ pra sonhar? Aproveitamento no returno pode levar Santos de volta Ã  Libertadores; entenda",
           "resumo": "",
           "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/22/da-pra-sonhar-aproveitamento-do-returno-pode-levar-santos-de-volta-a-libertadores-entenda.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "22/09/2026"
-        },
-        {
-          "titulo": "Gabigol fica? O que o Santos planeja para manter artilheiro",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/22/gabigol-fica-o-que-o-santos-planeja-para-manter-o-artilheiro-no-elenco-em-2027.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "22/09/2026"
@@ -1143,6 +1151,14 @@
           "titulo": "JosÃ© Renato Quaresma lanÃ§a candidatura Ã  presidÃªncia do Santos",
           "resumo": "",
           "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/22/jose-renato-quaresma-lanca-candidatura-a-presidencia-do-santos.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "22/09/2026"
+        },
+        {
+          "titulo": "Gabriel BrazÃ£o, do Santos, posta foto depois de cirurgia no ombro: \"Logo mais estou de volta\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/22/gabriel-brazao-do-santos-posta-foto-depois-de-cirurgia-no-ombro-logo-mais-estou-de-volta.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "22/09/2026"
@@ -1216,6 +1232,30 @@
       ],
       "Internacional": [
         {
+          "titulo": "Torcida do Real escolhe Diomande no lugar de Vini Jr. em enquete na Espanha; entenda",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/times/real-madrid/noticia/2026/09/24/torcida-do-real-escolhe-diomande-no-lugar-de-vini-jr-em-enquete-na-espanha-entenda.ghtml",
+          "imagem": "",
+          "data": "2026-09-24T03:09:45+00:00",
+          "dataFmt": "24/09/2026 03:09"
+        },
+        {
+          "titulo": "O que esperar de Portugal com Jorge Jesus? Veja possíveis mudanças no estilo da seleção",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/24/o-que-esperar-de-portugal-com-jorge-jesus-veja-possiveis-mudancas-no-estilo-da-selecao.ghtml",
+          "imagem": "",
+          "data": "2026-09-24T03:00:00+00:00",
+          "dataFmt": "24/09/2026 03:00"
+        },
+        {
+          "titulo": "Holanda x Alemanha pela Liga das Nações: onde assistir ao vivo e horário",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/liga-das-nacoes/noticia/2026/09/23/holanda-x-alemanha-pela-liga-das-nacoes-onde-assistir-ao-vivo-e-horario.ghtml",
+          "imagem": "",
+          "data": "2026-09-24T00:10:38+00:00",
+          "dataFmt": "24/09/2026 00:10"
+        },
+        {
           "titulo": "Protesto curioso! Goleiro se recusa a participar em cobrança de pênalti bizarro e se escora na trave; veja",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/23/protesto-curioso-goleiro-se-recusa-a-participar-em-cobranca-de-penalti-bizarro-e-se-escora-na-trave-veja.ghtml",
@@ -1230,14 +1270,6 @@
           "imagem": "",
           "data": "2026-09-23T20:49:27+00:00",
           "dataFmt": "23/09/2026 20:49"
-        },
-        {
-          "titulo": "Manchester United registra sétimo prejuízo anual consecutivo e vende tufos de grama por R$ 850",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/times/manchester-united/noticia/2026/09/23/manchester-united-registra-setimo-prejuizo-anual-consecutivo-e-vende-tufos-de-grama-por-r-850.ghtml",
-          "imagem": "",
-          "data": "2026-09-23T17:57:37+00:00",
-          "dataFmt": "23/09/2026 17:57"
         },
         {
           "titulo": "Torcida reage ao anÃºncio de Eduardo Baptista na web; veja",
@@ -1294,22 +1326,6 @@
           "imagem": "",
           "data": "",
           "dataFmt": "22/09/2026"
-        },
-        {
-          "titulo": "Pezzolano divulga mensagem de despedida do Inter; leia a Ã­ntegra",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/21/pezzolano-divulga-mensagem-de-despedida-do-inter-leia-a-integra.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "21/09/2026"
-        },
-        {
-          "titulo": "InformaÃ§Ã£o, opiniÃ£o e anÃ¡lise sobre o Colorado na sua playlist",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/01/12/estatisticas-do-inter-em-2026-veja-campanha-artilheiros-e-videos.ghtml",
-          "imagem": "https://s2-ge.glbimg.com/FsIrssGFaD0CczmAGPZ-cC4X4_Q=/433x0:1798x1365/94x94/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/u/O/lXWPyUScW8cal6Qf2HZA/54294365505-ed8569c86b-k.jpg",
-          "data": "",
-          "dataFmt": "12/01/2026"
         }
       ],
       "Mirassol": [
@@ -1697,6 +1713,22 @@
   "basquete": {
     "geral": [
       {
+        "titulo": "Flamengo vence Botafogo e garante vaga na final do Carioca de basquete",
+        "resumo": "",
+        "url": "https://ge.globo.com/basquete/noticia/2026/09/23/flamengo-vence-botafogo-e-garante-vaga-na-final-do-carioca-de-basquete.ghtml",
+        "imagem": "",
+        "data": "2026-09-24T01:47:38+00:00",
+        "dataFmt": "24/09/2026 01:47"
+      },
+      {
+        "titulo": "Com triplo-duplo de Georginho, Mogi vence o Corinthians no jogo 2 da semi do Paulista de basquete",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/mogi-das-cruzes-suzano/basquete/noticia/2026/09/23/com-triplo-duplo-de-georginho-mogi-vence-o-corinthians-no-jogo-2-da-semi-do-paulista-de-basquete.ghtml",
+        "imagem": "",
+        "data": "2026-09-24T01:08:01+00:00",
+        "dataFmt": "24/09/2026 01:08"
+      },
+      {
         "titulo": "Lei federal torna cidade de Franca a Capital Nacional do Basquete",
         "resumo": "",
         "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/09/23/lei-federal-torna-cidade-de-franca-a-capital-nacional-do-basquete.ghtml",
@@ -1807,14 +1839,6 @@
         "imagem": "",
         "data": "",
         "dataFmt": "15/09/2026"
-      },
-      {
-        "titulo": "Kawhi Leonard acerta retorno aos Raptors apÃ³s fim de bloqueio em troca",
-        "resumo": "",
-        "url": "https://ge.globo.com/basquete/nba/noticia/2026/09/14/kawhi-leonard-acerta-retorno-aos-raptors-apos-fim-de-bloqueio-em-troca.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "14/09/2026"
       }
     ]
   },
