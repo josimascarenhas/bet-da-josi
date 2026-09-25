@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-25T02:17:48-03:00",
+    "atualizadoEm": "2026-09-25T07:26:02-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 383,
     "timesAtualizados": 118,
@@ -491,7 +491,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Odair Hellmann é punido com quatro jogos",
+          "jogador": "Com gancho a cumprir, Odair acumula susp",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Odair Ã© punido com quatro jogos de susp",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1466,6 +1471,11 @@
       },
       "desfalques": [
         {
+          "jogador": "Jair Ventura avalia oscilação do Vitória",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
           "jogador": "Baralhas, Ramon e Mateus Silva ficam no ",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -1793,7 +1803,7 @@
       },
       "desfalques": [
         {
-          "jogador": "CEO do Grêmio é suspenso pelo STJD por c",
+          "jogador": "CEO Ã© suspenso pelo STJD por post com \"",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
