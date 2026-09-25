@@ -1,11 +1,83 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-25T00:29:25.389007+00:00",
+    "atualizadoEm": "2026-09-25T05:17:43.237739+00:00",
     "fonte": "ge.globo.com",
     "fonteUrl": "https://ge.globo.com/"
   },
   "futebol": {
     "geral": [
+      {
+        "titulo": "Mbappé x Dembélé: Zidane tem como primeiro desafio aparar arestas entre astros da França",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/25/mbappe-x-dembele-zidane-tem-como-primeiro-desafio-aparar-arestas-entre-astros-da-franca.ghtml",
+        "imagem": "",
+        "data": "2026-09-25T05:00:00+00:00",
+        "dataFmt": "25/09/2026 05:00"
+      },
+      {
+        "titulo": "Leilão da SAF do Vasco: entenda o que está em jogo nesta sexta e os próximos passos da venda",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/25/leilao-da-saf-do-vasco-entenda-o-que-esta-em-jogo-nesta-sexta-e-os-proximos-passos-da-venda.ghtml",
+        "imagem": "",
+        "data": "2026-09-25T03:01:00+00:00",
+        "dataFmt": "25/09/2026 03:01"
+      },
+      {
+        "titulo": "Novorizontino x São Bernardo: onde assistir ao vivo, horário e escalações",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/tem-esporte/futebol/brasileirao-serie-b/noticia/2026/09/25/novorizontino-x-sao-bernardo-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
+        "imagem": "",
+        "data": "2026-09-25T03:01:00+00:00",
+        "dataFmt": "25/09/2026 03:01"
+      },
+      {
+        "titulo": "Holanda empata com Alemanha no fim nas estreias de Xavi e Klopp",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/liga-das-nacoes/jogo/24-09-2026/holanda-alemanha.ghtml",
+        "imagem": "",
+        "data": "2026-09-25T01:38:32+00:00",
+        "dataFmt": "25/09/2026 01:38"
+      },
+      {
+        "titulo": "Com dois de Haaland, Noruega vence a Dinamarca na estreia da Liga das Nações",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/liga-das-nacoes/jogo/24-09-2026/noruega-dinamarca.ghtml",
+        "imagem": "",
+        "data": "2026-09-25T01:38:26+00:00",
+        "dataFmt": "25/09/2026 01:38"
+      },
+      {
+        "titulo": "Portugal vence com Jorge Jesus, e Cristiano Ronaldo perde chance incrível e tem gol anulado",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/liga-das-nacoes/jogo/24-09-2026/portugal-pais-de-gales.ghtml",
+        "imagem": "",
+        "data": "2026-09-25T01:38:11+00:00",
+        "dataFmt": "25/09/2026 01:38"
+      },
+      {
+        "titulo": "Itália x Bélgica pela Liga das Nações: onde assistir ao vivo e horário",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/liga-das-nacoes/noticia/2026/09/24/italia-x-belgica-pela-liga-das-nacoes-onde-assistir-ao-vivo-e-horario.ghtml",
+        "imagem": "",
+        "data": "2026-09-25T00:50:24+00:00",
+        "dataFmt": "25/09/2026 00:50"
+      },
+      {
+        "titulo": "Comemoração faz jogador de Israel ser expulso contra a Áustria; veja vídeo",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/24/comemoracao-polemica-faz-jogador-de-israel-ser-expulso-contra-a-austria-veja-video.ghtml",
+        "imagem": "",
+        "data": "2026-09-25T00:47:51+00:00",
+        "dataFmt": "25/09/2026 00:47"
+      },
+      {
+        "titulo": "Botafogo anuncia aumento de capital social da SAF após aprovação em Assembleia",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/24/botafogo-anuncia-aumento-de-capital-social-da-saf-apos-aprovacao-em-assembleia.ghtml",
+        "imagem": "",
+        "data": "2026-09-25T00:23:03+00:00",
+        "dataFmt": "25/09/2026 00:23"
+      },
       {
         "titulo": "Coringa do Cuiabá: Calebe ganha versatilidade com Eduardo Barros",
         "resumo": "",
@@ -93,78 +165,6 @@
         "imagem": "",
         "data": "2026-09-24T22:38:52+00:00",
         "dataFmt": "24/09/2026 22:38"
-      },
-      {
-        "titulo": "\"O Neymar chora o tempo todo\": camisa 10 do Santos vira piada em série Ted Lasso",
-        "resumo": "",
-        "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/24/o-neymar-chora-o-tempo-todo-camisa-10-do-santos-vira-piada-em-serie-ted-lasso.ghtml",
-        "imagem": "",
-        "data": "2026-09-24T22:25:51+00:00",
-        "dataFmt": "24/09/2026 22:25"
-      },
-      {
-        "titulo": "Leandro Amorim reforça missão do Flamengo-PI para barrar Picos, que tem melhor ataque da Série B",
-        "resumo": "",
-        "url": "https://ge.globo.com/pi/futebol/times/flamengo-pi/noticia/2026/09/24/leandro-amorim-reforca-missao-do-flamengo-pi-para-barrar-picos-que-tem-melhor-ataque-da-serie-b.ghtml",
-        "imagem": "",
-        "data": "2026-09-24T22:17:30+00:00",
-        "dataFmt": "24/09/2026 22:17"
-      },
-      {
-        "titulo": "Clube do Rio registra MC Chefin para jogar a quarta divisão do Carioca",
-        "resumo": "",
-        "url": "https://ge.globo.com/rj/futebol/noticia/2026/09/24/clube-do-rio-registra-mc-chefin-para-jogar-a-quarta-divisao-do-carioca.ghtml",
-        "imagem": "",
-        "data": "2026-09-24T22:15:14+00:00",
-        "dataFmt": "24/09/2026 22:15"
-      },
-      {
-        "titulo": "Escalação do CRB: Kevin não treina com o grupo e Hereda continua na equipe",
-        "resumo": "",
-        "url": "https://ge.globo.com/al/futebol/times/crb/noticia/2026/09/24/escalacao-do-crb-kevin-nao-treina-com-o-grupo-e-hereda-continua-na-equipe.ghtml",
-        "imagem": "",
-        "data": "2026-09-24T22:13:50+00:00",
-        "dataFmt": "24/09/2026 22:13"
-      },
-      {
-        "titulo": "Copa MS: federação divulga regulamento e tabela do torneio que dá vaga na Copa do Brasil",
-        "resumo": "",
-        "url": "https://ge.globo.com/ms/futebol/noticia/2026/09/24/copa-ms-federacao-divulga-regulamento-e-tabela-do-torneio-que-da-vaga-na-copa-do-brasil.ghtml",
-        "imagem": "",
-        "data": "2026-09-24T22:12:23+00:00",
-        "dataFmt": "24/09/2026 22:12"
-      },
-      {
-        "titulo": "Opinião: Jorginho vira esperança de mudança em uma Portuguesa reativa a correções",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/portuguesa/noticia/2026/09/24/opiniao-jorginho-vira-esperanca-de-mudanca-em-uma-portuguesa-reativa-a-correcoes.ghtml",
-        "imagem": "",
-        "data": "2026-09-24T22:08:21+00:00",
-        "dataFmt": "24/09/2026 22:08"
-      },
-      {
-        "titulo": "Baralhas, Ramon e Mateus Silva ficam no departamento médico em tarde de reapresentação do Vitória",
-        "resumo": "",
-        "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/09/24/baralhas-ramon-e-mateus-silva-ficam-no-departamento-medico-em-tarde-de-reapresentacao-do-vitoria.ghtml",
-        "imagem": "",
-        "data": "2026-09-24T22:03:20+00:00",
-        "dataFmt": "24/09/2026 22:03"
-      },
-      {
-        "titulo": "Saiba quanto o Inter pagará para o Criciúma pelo técnico Eduardo Baptista",
-        "resumo": "",
-        "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/24/saiba-quanto-o-inter-pagara-para-o-criciuma-pelo-tecnico-eduardo-baptista.ghtml",
-        "imagem": "",
-        "data": "2026-09-24T22:01:09+00:00",
-        "dataFmt": "24/09/2026 22:01"
-      },
-      {
-        "titulo": "Seu Ratinho: vô de Bontempo vendia queijo na Vila e ajudou neto e Jair no caminho à Seleção",
-        "resumo": "",
-        "url": "https://ge.globo.com/mg/triangulo-mineiro/futebol/noticia/2026/09/24/conheca-seu-ratinho-o-vovo-que-vendia-queijo-na-vila-e-criou-dupla-de-ancelotti.ghtml",
-        "imagem": "",
-        "data": "2026-09-24T22:00:00+00:00",
-        "dataFmt": "24/09/2026 22:00"
       }
     ],
     "times": {
@@ -252,7 +252,7 @@
           "dataFmt": "24/09/2026 22:17"
         },
         {
-          "titulo": "Apagão em parte de ginásio atrasa início de Fla-Flu na Copa Super Vôlei feminina",
+          "titulo": "Sesc-Flamengo inicia pré-temporada com vitória diante do Fluminense na Copa Super Vôlei",
           "resumo": "",
           "url": "https://ge.globo.com/volei/noticia/2026/09/24/copa-supervolei-feminina-flamengo-fluminense.ghtml",
           "imagem": "",
@@ -282,14 +282,6 @@
           "imagem": "",
           "data": "2026-09-24T19:28:00+00:00",
           "dataFmt": "24/09/2026 19:28"
-        },
-        {
-          "titulo": "Atacante campeão da Libertadores pelo Flamengo é apresentado no Vila Nova",
-          "resumo": "",
-          "url": "https://ge.globo.com/go/futebol/times/vila-nova/noticia/2026/09/24/atacante-campeao-da-libertadores-pelo-flamengo-e-apresentado-no-vila-nova.ghtml",
-          "imagem": "",
-          "data": "2026-09-24T18:37:05+00:00",
-          "dataFmt": "24/09/2026 18:37"
         },
         {
           "titulo": "Estudiantes atende exigÃªncia e confirma estÃ¡dio para semifinal",
@@ -327,6 +319,14 @@
           "titulo": "Pulgar Ã© criticado por recusar seleÃ§Ã£o: \"Mente muito frÃ¡gil\"",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/23/pulgar-do-flamengo-e-criticado-no-chile-por-nao-ir-a-selecao-mente-muito-fragil.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "23/09/2026"
+        },
+        {
+          "titulo": "Danilo brinca sobre reaÃ§Ã£o de filho torcedor do Flu: \"Deixou de falar comigo\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/23/danilo-do-flamengo-brinca-sobre-reacao-de-filho-torcedor-do-fluminense-deixou-de-falar-comigo.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "23/09/2026"
@@ -408,7 +408,7 @@
           "dataFmt": "24/09/2026 22:38"
         },
         {
-          "titulo": "Apagão em parte de ginásio atrasa início de Fla-Flu na Copa Super Vôlei feminina",
+          "titulo": "Sesc-Flamengo inicia pré-temporada com vitória diante do Fluminense na Copa Super Vôlei",
           "resumo": "",
           "url": "https://ge.globo.com/volei/noticia/2026/09/24/copa-supervolei-feminina-flamengo-fluminense.ghtml",
           "imagem": "",
@@ -828,6 +828,14 @@
       ],
       "Corinthians": [
         {
+          "titulo": "Corinthians x Mogi no jogo 3 da semifinal Paulista de basquete: onde assistir ao vivo e horário",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/mogi-das-cruzes-suzano/basquete/noticia/2026/09/25/corinthians-x-mogi-no-jogo-3-da-semifinal-paulista-de-basquete-onde-assistir-ao-vivo-e-horario.ghtml",
+          "imagem": "",
+          "data": "2026-09-25T03:01:00+00:00",
+          "dataFmt": "25/09/2026 03:01"
+        },
+        {
           "titulo": "Checamos: o que a Polícia Federal foi fazer na sede do Corinthians nesta quinta-feira",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/24/checamos-o-que-a-policia-federal-foi-fazer-na-sede-do-corinthians-nesta-quinta-feira.ghtml",
@@ -877,6 +885,14 @@
         }
       ],
       "Botafogo": [
+        {
+          "titulo": "Botafogo anuncia aumento de capital social da SAF após aprovação em Assembleia",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/24/botafogo-anuncia-aumento-de-capital-social-da-saf-apos-aprovacao-em-assembleia.ghtml",
+          "imagem": "",
+          "data": "2026-09-25T00:23:03+00:00",
+          "dataFmt": "25/09/2026 00:23"
+        },
         {
           "titulo": "Botafogo-SP pode ter até três mudanças contra Ponte; veja possível formação",
           "resumo": "",
@@ -956,17 +972,17 @@
           "imagem": "",
           "data": "",
           "dataFmt": "23/09/2026"
-        },
-        {
-          "titulo": "Textor tenta barrar Assembleia que votarÃ¡ aumento de capital da SAF Botafogo",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/22/textor-tenta-barrar-assembleia-que-votara-aumento-de-capital-da-saf-botafogo.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "22/09/2026"
         }
       ],
       "Vitoria": [
+        {
+          "titulo": "Sesc-Flamengo inicia pré-temporada com vitória diante do Fluminense na Copa Super Vôlei",
+          "resumo": "",
+          "url": "https://ge.globo.com/volei/noticia/2026/09/24/copa-supervolei-feminina-flamengo-fluminense.ghtml",
+          "imagem": "",
+          "data": "2026-09-24T22:10:34+00:00",
+          "dataFmt": "24/09/2026 22:10"
+        },
         {
           "titulo": "Baralhas, Ramon e Mateus Silva ficam no departamento médico em tarde de reapresentação do Vitória",
           "resumo": "",
@@ -1278,15 +1294,15 @@
           "dataFmt": "23/09/2026"
         },
         {
-          "titulo": "Renato resgata medalhÃµes; veja quem ganhou espaÃ§o",
+          "titulo": "GrÃªmio encaminha acerto com novo patrocinador mÃ¡ster e mais uma marca para a camisa",
           "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/22/renato-resgata-medalhoes-em-retorno-ao-gremio-veja-quem-ganhou-espaco.ghtml",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/23/gremio-encaminha-acerto-com-novo-patrocinador-master-e-mais-uma-marca-para-a-camisa.ghtml",
           "imagem": "",
           "data": "",
-          "dataFmt": "22/09/2026"
+          "dataFmt": "23/09/2026"
         },
         {
-          "titulo": "Lesionados: a previsÃ£o de volta de Caito, Dodi, Kannemann e Marlon",
+          "titulo": "Lesionados do GrÃªmio: veja a previsÃ£o de volta de Caito, Dodi, Kannemann e Marlon",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/23/lesionados-do-gremio-veja-a-previsao-de-volta-de-caito-dodi-kannemann-e-marlon.ghtml",
           "imagem": "",
@@ -1294,15 +1310,79 @@
           "dataFmt": "23/09/2026"
         },
         {
-          "titulo": "GrÃªmio encaminha acerto com novo patrocinador mÃ¡ster e mais uma marca para a camisa",
+          "titulo": "Torcedora do GrÃªmio na PolÃ´nia ganha camisa de atacante da SeleÃ§Ã£o Feminina; veja",
           "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/23/gremio-encaminha-acerto-com-novo-patrocinador-master-e-mais-uma-marca-para-a-camisa.ghtml",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/22/torcedora-do-gremio-na-polonia-ganha-camisa-de-atacante-da-selecao-feminina-veja.ghtml",
           "imagem": "",
           "data": "",
-          "dataFmt": "23/09/2026"
+          "dataFmt": "22/09/2026"
+        },
+        {
+          "titulo": "GrÃªmio usa futsal para ampliar busca de atletas para a base e farÃ¡ primeira seletiva no ParanÃ¡",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/21/gremio-usa-futsal-para-ampliar-busca-de-atletas-para-a-base-e-fara-primeira-seletiva-no-parana.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "21/09/2026"
+        },
+        {
+          "titulo": "InformaÃ§Ã£o, opiniÃ£o e anÃ¡lise sobre o Tricolor na sua playlist",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/01/12/estatisticas-do-gremio-em-2026-veja-campanha-artilheiros-e-videos.ghtml",
+          "imagem": "https://s2-ge.glbimg.com/UQl969keI8wSCVvx24IcqFf7JtI=/295x0:1949x1654/94x94/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/h/N/Xzq2ChQbefBOzEbBhDeA/gremio-vitoria-caxias.jpg",
+          "data": "",
+          "dataFmt": "12/01/2026"
         }
       ],
       "Internacional": [
+        {
+          "titulo": "Mbappé x Dembélé: Zidane tem como primeiro desafio aparar arestas entre astros da França",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/25/mbappe-x-dembele-zidane-tem-como-primeiro-desafio-aparar-arestas-entre-astros-da-franca.ghtml",
+          "imagem": "",
+          "data": "2026-09-25T05:00:00+00:00",
+          "dataFmt": "25/09/2026 05:00"
+        },
+        {
+          "titulo": "Holanda empata com Alemanha no fim nas estreias de Xavi e Klopp",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/liga-das-nacoes/jogo/24-09-2026/holanda-alemanha.ghtml",
+          "imagem": "",
+          "data": "2026-09-25T01:38:32+00:00",
+          "dataFmt": "25/09/2026 01:38"
+        },
+        {
+          "titulo": "Com dois de Haaland, Noruega vence a Dinamarca na estreia da Liga das Nações",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/liga-das-nacoes/jogo/24-09-2026/noruega-dinamarca.ghtml",
+          "imagem": "",
+          "data": "2026-09-25T01:38:26+00:00",
+          "dataFmt": "25/09/2026 01:38"
+        },
+        {
+          "titulo": "Portugal vence com Jorge Jesus, e Cristiano Ronaldo perde chance incrível e tem gol anulado",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/liga-das-nacoes/jogo/24-09-2026/portugal-pais-de-gales.ghtml",
+          "imagem": "",
+          "data": "2026-09-25T01:38:11+00:00",
+          "dataFmt": "25/09/2026 01:38"
+        },
+        {
+          "titulo": "Itália x Bélgica pela Liga das Nações: onde assistir ao vivo e horário",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/liga-das-nacoes/noticia/2026/09/24/italia-x-belgica-pela-liga-das-nacoes-onde-assistir-ao-vivo-e-horario.ghtml",
+          "imagem": "",
+          "data": "2026-09-25T00:50:24+00:00",
+          "dataFmt": "25/09/2026 00:50"
+        },
+        {
+          "titulo": "Comemoração faz jogador de Israel ser expulso contra a Áustria; veja vídeo",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/24/comemoracao-polemica-faz-jogador-de-israel-ser-expulso-contra-a-austria-veja-video.ghtml",
+          "imagem": "",
+          "data": "2026-09-25T00:47:51+00:00",
+          "dataFmt": "25/09/2026 00:47"
+        },
         {
           "titulo": "Alemanha lança camisa especial para encerrar parceria de 72 anos com fornecedora",
           "resumo": "",
@@ -1344,60 +1424,12 @@
           "dataFmt": "24/09/2026 21:19"
         },
         {
-          "titulo": "Portugal vence com Jorge Jesus, e Cristiano Ronaldo perde chance incrível e tem gol anulado",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/futebol-internacional/liga-das-nacoes/jogo/24-09-2026/portugal-pais-de-gales.ghtml",
-          "imagem": "",
-          "data": "2026-09-24T21:04:51+00:00",
-          "dataFmt": "24/09/2026 21:04"
-        },
-        {
-          "titulo": "Holanda empata com Alemanha no fim nas estreias de Xavi e Klopp",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/futebol-internacional/liga-das-nacoes/jogo/24-09-2026/holanda-alemanha.ghtml",
-          "imagem": "",
-          "data": "2026-09-24T20:55:07+00:00",
-          "dataFmt": "24/09/2026 20:55"
-        },
-        {
-          "titulo": "Com dois de Haaland, Noruega vence a Dinamarca na estreia da Liga das Nações",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/futebol-internacional/liga-das-nacoes/jogo/24-09-2026/noruega-dinamarca.ghtml",
-          "imagem": "",
-          "data": "2026-09-24T20:53:49+00:00",
-          "dataFmt": "24/09/2026 20:53"
-        },
-        {
           "titulo": "Executivo do Inter, Fabinho Soldado é suspenso pelo STJD por desrespeitar arbitragem",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/24/executivo-do-inter-fabinho-soldado-e-suspenso-pelo-stjd-por-desrespeitar-arbitragem.ghtml",
           "imagem": "",
           "data": "2026-09-24T19:54:37+00:00",
           "dataFmt": "24/09/2026 19:54"
-        },
-        {
-          "titulo": "AO VIVO: assista à apresentação de Eduardo Baptista no Inter",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/ao-vivo/ao-vivo-assista-a-apresentacao-de-eduardo-baptista-no-inter.ghtml",
-          "imagem": "",
-          "data": "2026-09-24T19:09:21+00:00",
-          "dataFmt": "24/09/2026 19:09"
-        },
-        {
-          "titulo": "Bastidores: por que o Inter decidiu apostar em Eduardo Baptista",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/24/bastidores-saiba-por-que-o-nome-de-eduardo-baptista-surgiu-como-solucao-no-inter.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "24/09/2026"
-        },
-        {
-          "titulo": "HÃ¡ 30 anos, pai de novo tÃ©cnico trocou Inter por \"clube grande\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/24/ha-30-anos-pai-de-eduardo-baptista-trocava-inter-por-clube-grande-conheca-a-historia.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "24/09/2026"
         }
       ],
       "Mirassol": [
@@ -1534,17 +1566,25 @@
       ],
       "Vasco": [
         {
-          "titulo": "Vasco tem três convocados na Data Fifa; veja cronograma de cada um",
+          "titulo": "Leilão da SAF do Vasco: entenda o que está em jogo nesta sexta e os próximos passos da venda",
           "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/24/vasco-tem-tres-convocados-na-data-fifa-veja-cronograma-de-cada-um.ghtml",
+          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/25/leilao-da-saf-do-vasco-entenda-o-que-esta-em-jogo-nesta-sexta-e-os-proximos-passos-da-venda.ghtml",
           "imagem": "",
-          "data": "2026-09-24T18:30:12+00:00",
-          "dataFmt": "24/09/2026 18:30"
+          "data": "2026-09-25T03:01:00+00:00",
+          "dataFmt": "25/09/2026 03:01"
         },
         {
           "titulo": "Time se reapresenta, e Pedro Emanuel terÃ¡ primeira semana livre no Vasco",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/24/vasco-se-reapresenta-nesta-quinta-e-pedro-emanuel-tera-primeira-semana-livre-desde-que-chegou.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "24/09/2026"
+        },
+        {
+          "titulo": "Vasco tem trÃªs convocados na Data Fifa; veja cronograma de cada um",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/24/vasco-tem-tres-convocados-na-data-fifa-veja-cronograma-de-cada-um.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "24/09/2026"
@@ -1669,14 +1709,6 @@
   "tenis": {
     "geral": [
       {
-        "titulo": "Comemoração? Tenista russa faz flexões em quadra durante jogo e vira sobre sensação filipina; veja",
-        "resumo": "",
-        "url": "https://ge.globo.com/tenis/noticia/2026/09/24/comemoracao-tenista-russa-vira-sobre-sensacao-filipina-e-faz-flexoes-em-quadra-durante-jogo-veja.ghtml",
-        "imagem": "",
-        "data": "2026-09-24T18:34:00+00:00",
-        "dataFmt": "24/09/2026 18:34"
-      },
-      {
         "titulo": "Carlos Alcaraz revela que sente falta de Sinner no circuito: âEle me faz um jogador melhorâ",
         "resumo": "",
         "url": "https://ge.globo.com/tenis/noticia/2026/09/24/carlos-alcaraz-revela-que-sente-falta-de-sinner-no-circuito-ele-me-faz-um-jogador-melhor.ghtml",
@@ -1749,6 +1781,14 @@
         "dataFmt": "20/09/2026"
       },
       {
+        "titulo": "ComemoraÃ§Ã£o? Tenista russa faz flexÃµes em quadra durante jogo e vira sobre sensaÃ§Ã£o filipina; veja",
+        "resumo": "",
+        "url": "https://ge.globo.com/tenis/noticia/2026/09/24/comemoracao-tenista-russa-vira-sobre-sensacao-filipina-e-faz-flexoes-em-quadra-durante-jogo-veja.ghtml",
+        "imagem": "",
+        "data": "",
+        "dataFmt": "24/09/2026"
+      },
+      {
         "titulo": "Ex-top 3 desabafa sobre mudanÃ§as no corpo e nega uso de caneta: \"Me deixem em paz\"",
         "resumo": "",
         "url": "https://ge.globo.com/tenis/noticia/2026/09/23/ex-top-3-desabafa-sobre-mudancas-no-corpo-e-nega-uso-de-medicamentos-me-deixem-em-paz.ghtml",
@@ -1792,6 +1832,14 @@
   },
   "basquete": {
     "geral": [
+      {
+        "titulo": "Corinthians x Mogi no jogo 3 da semifinal Paulista de basquete: onde assistir ao vivo e horário",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/mogi-das-cruzes-suzano/basquete/noticia/2026/09/25/corinthians-x-mogi-no-jogo-3-da-semifinal-paulista-de-basquete-onde-assistir-ao-vivo-e-horario.ghtml",
+        "imagem": "",
+        "data": "2026-09-25T03:01:00+00:00",
+        "dataFmt": "25/09/2026 03:01"
+      },
       {
         "titulo": "Bob Pettit, primeiro MVP da história da NBA, morre aos 93 anos",
         "resumo": "",
@@ -1917,12 +1965,20 @@
   "ufc": {
     "geral": [
       {
+        "titulo": "UFC BJJ: Mikey Musumeci vence Bryce Mitchell na luta principal",
+        "resumo": "",
+        "url": "https://ge.globo.com/combate/noticia/2026/09/25/ufc-bjj-mikey-musumeci-vence-bryce-mitchell-na-luta-principal.ghtml",
+        "imagem": "",
+        "data": "2026-09-25T03:43:53+00:00",
+        "dataFmt": "25/09/2026 03:43"
+      },
+      {
         "titulo": "UFC BJJ 11 - Ao vivo",
         "resumo": "",
         "url": "https://ge.globo.com/combate/ao-vivo/ufc-bjj-11-ao-vivo.ghtml",
         "imagem": "",
-        "data": "2026-09-25T00:00:45+00:00",
-        "dataFmt": "25/09/2026 00:00"
+        "data": "2026-09-25T01:35:34+00:00",
+        "dataFmt": "25/09/2026 01:35"
       },
       {
         "titulo": "Luta entre Tyson Fury e Anthony Joshua é confirmada para dezembro",
@@ -1931,14 +1987,6 @@
         "imagem": "",
         "data": "2026-09-24T20:54:53+00:00",
         "dataFmt": "24/09/2026 20:54"
-      },
-      {
-        "titulo": "UFC BJJ: Mikey Musumeci explica ligaÃ§Ã£o com o Brasil e planos para o MMA",
-        "resumo": "",
-        "url": "https://ge.globo.com/combate/noticia/2026/09/24/ufc-bjj-mikey-musumeci-explica-ligacao-com-o-brasil-e-planos-para-o-mma.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "24/09/2026"
       },
       {
         "titulo": "Jiu-jÃ­tsu, wrestling e empresÃ¡rio: Durinho comenta nova vida apÃ³s se aposentar do MMA",
@@ -1971,6 +2019,14 @@
         "imagem": "",
         "data": "",
         "dataFmt": "01/01/2026"
+      },
+      {
+        "titulo": "UFC BJJ: Mikey Musumeci explica ligaÃ§Ã£o com o Brasil e planos para o MMA",
+        "resumo": "",
+        "url": "https://ge.globo.com/combate/noticia/2026/09/24/ufc-bjj-mikey-musumeci-explica-ligacao-com-o-brasil-e-planos-para-o-mma.ghtml",
+        "imagem": "",
+        "data": "",
+        "dataFmt": "24/09/2026"
       },
       {
         "titulo": "PatrÃ­cio Pitbull comemora primeiro nocaute no UFC: âMe reencontreiâ",
@@ -2032,14 +2088,6 @@
         "titulo": "Ilia Topuria anuncia retorno e acusa Gaethje: âVerifiquem as luvas\"",
         "resumo": "",
         "url": "https://ge.globo.com/combate/noticia/2026/09/18/ilia-topuria-anuncia-retorno-e-acusa-gaethje-verifiquem-as-luvas.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "18/09/2026"
-      },
-      {
-        "titulo": "Power Slap: CampeÃ£o dos meio-pesados vence e anuncia aposentadoria",
-        "resumo": "",
-        "url": "https://ge.globo.com/combate/noticia/2026/09/18/power-slap-campeao-dos-meio-pesados-vence-e-anuncia-aposentadoria.ghtml",
         "imagem": "",
         "data": "",
         "dataFmt": "18/09/2026"
