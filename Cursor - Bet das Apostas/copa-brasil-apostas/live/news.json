@@ -1,18 +1,98 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-27T00:47:27.084765+00:00",
+    "atualizadoEm": "2026-09-27T06:18:27.162179+00:00",
     "fonte": "ge.globo.com",
     "fonteUrl": "https://ge.globo.com/"
   },
   "futebol": {
     "geral": [
       {
-        "titulo": "Inter de Limeira x Paysandu - Campeonato Brasileiro Série C 2026 - Ao vivo - globoesporte.com",
+        "titulo": "Renan Lodi abre o coração no Atlético-MG e conta como terapia o ajudou em \"período pesado\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/27/renan-lodi-abre-o-coracao-no-atletico-mg-e-conta-como-terapia-o-ajudou-em-periodo-pesado.ghtml",
+        "imagem": "",
+        "data": "2026-09-27T06:00:00+00:00",
+        "dataFmt": "27/09/2026 06:00"
+      },
+      {
+        "titulo": "Queridinhos de Jardim, dupla do Cruzeiro vai para fim da fila à espera de nova janela",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/27/queridinhos-de-jardim-dupla-do-cruzeiro-vai-para-fim-da-fila-a-espera-de-nova-janela.ghtml",
+        "imagem": "",
+        "data": "2026-09-27T06:00:00+00:00",
+        "dataFmt": "27/09/2026 06:00"
+      },
+      {
+        "titulo": "Lamacchia faz lobby, e Pedrinho admite concorrer à reeleição no Vasco",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/27/lamacchia-faz-lobby-e-pedrinho-admite-concorrer-a-reeleicao-no-vasco.ghtml",
+        "imagem": "",
+        "data": "2026-09-27T06:00:00+00:00",
+        "dataFmt": "27/09/2026 06:00"
+      },
+      {
+        "titulo": "Espanha amplia invencibilidade iniciada contra o Brasil em 2024; veja números e lista",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/27/espanha-amplia-invencibilidade-iniciada-contra-o-brasil-em-2024-veja-numeros-e-lista.ghtml",
+        "imagem": "",
+        "data": "2026-09-27T03:56:27+00:00",
+        "dataFmt": "27/09/2026 03:56"
+      },
+      {
+        "titulo": "Italiano mais caro da história, Tonali vira alvo de críticas após negócio de R$ 720 milhões",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/27/italiano-mais-caro-da-historia-tonali-vira-alvo-de-criticas-apos-negocio-de-r-720-milhoes.ghtml",
+        "imagem": "",
+        "data": "2026-09-27T03:51:07+00:00",
+        "dataFmt": "27/09/2026 03:51"
+      },
+      {
+        "titulo": "CRB x Cuiabá: onde assistir ao vivo, horário e escalação",
+        "resumo": "",
+        "url": "https://ge.globo.com/al/futebol/brasileirao-serie-b/noticia/2026/09/27/crb-x-cuiaba-onde-assistir-ao-vivo-horario-e-escalacao.ghtml",
+        "imagem": "",
+        "data": "2026-09-27T03:31:01+00:00",
+        "dataFmt": "27/09/2026 03:31"
+      },
+      {
+        "titulo": "Alemanha x Grécia na Liga das Nações: onde assistir ao vivo e horário",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/liga-das-nacoes/noticia/2026/09/27/alemanha-x-grecia-na-liga-das-nacoes-onde-assistir-ao-vivo-e-horario.ghtml",
+        "imagem": "",
+        "data": "2026-09-27T03:00:00+00:00",
+        "dataFmt": "27/09/2026 03:00"
+      },
+      {
+        "titulo": "Mazola detona atuação do Paysandu em derrota para Inter: “Fomos muito incompetentes”",
+        "resumo": "",
+        "url": "https://ge.globo.com/pa/futebol/times/paysandu/noticia/2026/09/26/mazola-detona-atuacao-do-paysandu-em-derrota-para-inter-fomos-muito-incompetentes.ghtml",
+        "imagem": "",
+        "data": "2026-09-27T02:14:59+00:00",
+        "dataFmt": "27/09/2026 02:14"
+      },
+      {
+        "titulo": "Mozart cutuca diretoria do Goiás após derrota no clássico contra o Atlético-GO",
+        "resumo": "",
+        "url": "https://ge.globo.com/go/futebol/times/goias/noticia/2026/09/26/mozart-cutuca-diretoria-do-goias-apos-derrota-no-classico-contra-o-atletico-go.ghtml",
+        "imagem": "",
+        "data": "2026-09-27T02:00:35+00:00",
+        "dataFmt": "27/09/2026 02:00"
+      },
+      {
+        "titulo": "Presidente do Atlético-GO minimiza atrito com goleiro do próprio time e dispara: 'Ele é doido varrido'",
+        "resumo": "",
+        "url": "https://ge.globo.com/go/futebol/times/atletico-go/noticia/2026/09/26/adson-batista-explica-conflito-com-paulo-vitor-apos-vitoria-no-classico.ghtml",
+        "imagem": "",
+        "data": "2026-09-27T01:11:02+00:00",
+        "dataFmt": "27/09/2026 01:11"
+      },
+      {
+        "titulo": "Inter de Limeira vence o Paysandu e dorme vice-líder do quadrangular da Série C",
         "resumo": "",
         "url": "https://ge.globo.com/sp/campinas-e-regiao/futebol/brasileirao-serie-c/jogo/26-09-2026/inter-de-limeira-paysandu.ghtml",
         "imagem": "",
-        "data": "2026-09-27T00:34:03+00:00",
-        "dataFmt": "27/09/2026 00:34"
+        "data": "2026-09-27T01:02:10+00:00",
+        "dataFmt": "27/09/2026 01:02"
       },
       {
         "titulo": "River-PI 3 x 1 4 de Julho: assista aos cortes e as íntegras das entrevistas após jogo pelo Piauiense Série B 2026",
@@ -85,86 +165,6 @@
         "imagem": "",
         "data": "2026-09-26T23:07:20+00:00",
         "dataFmt": "26/09/2026 23:07"
-      },
-      {
-        "titulo": "Criciúma x Avaí: onde assistir ao vivo, horário e escalações",
-        "resumo": "",
-        "url": "https://ge.globo.com/sc/futebol/brasileirao-serie-b/noticia/2026/09/26/criciuma-x-avai-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
-        "imagem": "",
-        "data": "2026-09-26T23:05:32+00:00",
-        "dataFmt": "26/09/2026 23:05"
-      },
-      {
-        "titulo": "Carpini exalta semana de treinos do Remo na Data Fifa: “Muito esperançoso”",
-        "resumo": "",
-        "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/09/26/carpini-exalta-semana-de-treinos-do-remo-na-data-fifa-muito-esperancoso.ghtml",
-        "imagem": "",
-        "data": "2026-09-26T22:57:30+00:00",
-        "dataFmt": "26/09/2026 22:57"
-      },
-      {
-        "titulo": "Mariano Soso admite má atuação do Sport contra o Náutico e lamenta nova derrota fora de casa",
-        "resumo": "",
-        "url": "https://ge.globo.com/pe/futebol/times/sport/noticia/2026/09/26/mariano-soso-admite-ma-atuacao-do-sport-contra-o-nautico-e-lamenta-nova-derrota-fora-de-casa.ghtml",
-        "imagem": "",
-        "data": "2026-09-26T22:57:29+00:00",
-        "dataFmt": "26/09/2026 22:57"
-      },
-      {
-        "titulo": "Santa Cruz arranca empate com Floresta, mas vê sonho do acesso adiado",
-        "resumo": "",
-        "url": "https://ge.globo.com/ce/futebol/brasileirao-serie-c/jogo/26-09-2026/floresta-santa-cruz.ghtml",
-        "imagem": "",
-        "data": "2026-09-26T22:56:26+00:00",
-        "dataFmt": "26/09/2026 22:56"
-      },
-      {
-        "titulo": "Santa Cruz pode garantir acesso à Série B mesmo com derrota na próxima rodada; entenda",
-        "resumo": "",
-        "url": "https://ge.globo.com/pe/futebol/times/santa-cruz/noticia/2026/09/26/santa-cruz-pode-garantir-acesso-a-serie-b-mesmo-com-derrota-na-proxima-rodada-entenda.ghtml",
-        "imagem": "",
-        "data": "2026-09-26T22:52:38+00:00",
-        "dataFmt": "26/09/2026 22:52"
-      },
-      {
-        "titulo": "Picos vence Flamengo-PI, confirma liderança e fecha invicto a 1ª fase do Piauiense Série B",
-        "resumo": "",
-        "url": "https://ge.globo.com/pi/futebol/piauiense-segunda-divisao/jogo/26-09-2026/picos-flamengo-pi.ghtml",
-        "imagem": "",
-        "data": "2026-09-26T22:47:41+00:00",
-        "dataFmt": "26/09/2026 22:47"
-      },
-      {
-        "titulo": "Botafogo-PB empata com Maringá e fica longe do acesso à Série B",
-        "resumo": "",
-        "url": "https://ge.globo.com/pb/futebol/brasileirao-serie-c/jogo/26-09-2026/botafogo-pb-maringa.ghtml",
-        "imagem": "",
-        "data": "2026-09-26T22:47:19+00:00",
-        "dataFmt": "26/09/2026 22:47"
-      },
-      {
-        "titulo": "Náutico vence o Sport na estreia de Pivetti, se afasta do Z-4 e espanta crise",
-        "resumo": "",
-        "url": "https://ge.globo.com/pe/futebol/brasileirao-serie-b/jogo/26-09-2026/nautico-sport.ghtml",
-        "imagem": "",
-        "data": "2026-09-26T22:46:40+00:00",
-        "dataFmt": "26/09/2026 22:46"
-      },
-      {
-        "titulo": "São Paulo vence o Corinthians de virada e larga na frente na final do Brasileirão Feminino",
-        "resumo": "",
-        "url": "https://ge.globo.com/sp/mogi-das-cruzes-suzano/futebol/futebol-feminino/brasileiro-feminino/jogo/26-09-2026/corinthians-sao-paulo.ghtml",
-        "imagem": "",
-        "data": "2026-09-26T22:35:50+00:00",
-        "dataFmt": "26/09/2026 22:35"
-      },
-      {
-        "titulo": "Comercial-PI derrota Caiçara e termina 1ª fase na vice-liderança do Piauiense Série B",
-        "resumo": "",
-        "url": "https://ge.globo.com/pi/futebol/piauiense-segunda-divisao/jogo/26-09-2026/caicara-comercial-pi.ghtml",
-        "imagem": "",
-        "data": "2026-09-26T22:33:26+00:00",
-        "dataFmt": "26/09/2026 22:33"
       }
     ],
     "times": {
@@ -243,6 +243,14 @@
         }
       ],
       "Flamengo": [
+        {
+          "titulo": "Em jogaço de cinco sets, Sesc-Flamengo bate Praia Clube de virada e conquista Copa Super Vôlei",
+          "resumo": "",
+          "url": "https://ge.globo.com/mg/triangulo-mineiro/volei/noticia/2026/09/26/em-jogaco-de-cinco-sets-sesc-flamengo-bate-praia-clube-de-virada-e-conquista-copa-super-volei.ghtml",
+          "imagem": "",
+          "data": "2026-09-27T00:43:34+00:00",
+          "dataFmt": "27/09/2026 00:43"
+        },
         {
           "titulo": "Picos vence Flamengo-PI, confirma liderança e fecha invicto a 1ª fase do Piauiense Série B",
           "resumo": "",
@@ -330,14 +338,6 @@
           "imagem": "",
           "data": "",
           "dataFmt": "24/09/2026"
-        },
-        {
-          "titulo": "Josmar aproveita ausÃªncia de Pedro, treina nos profissionais e tem nova chance no Flamengo",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/25/josmar-aproveita-ausencia-de-pedro-treina-nos-profissionais-e-tem-nova-chance-no-flamengo.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "25/09/2026"
         }
       ],
       "Athletico-PR": [
@@ -530,6 +530,14 @@
       ],
       "Cruzeiro": [
         {
+          "titulo": "Queridinhos de Jardim, dupla do Cruzeiro vai para fim da fila à espera de nova janela",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/27/queridinhos-de-jardim-dupla-do-cruzeiro-vai-para-fim-da-fila-a-espera-de-nova-janela.ghtml",
+          "imagem": "",
+          "data": "2026-09-27T06:00:00+00:00",
+          "dataFmt": "27/09/2026 06:00"
+        },
+        {
           "titulo": "Com goleada do Cruzeiro, 1ª rodada da II Copa Santarém de Futsal é encerrada na Arena Djalma Lima",
           "resumo": "",
           "url": "https://ge.globo.com/pa/santarem-regiao/noticia/2026/09/26/com-goleada-do-cruzeiro-1a-rodada-da-ii-copa-santarem-de-futsal-e-encerrada-na-arena-djalma-lima.ghtml",
@@ -605,14 +613,6 @@
           "titulo": "Quem revelou Ronaldo? SÃ£o CristovÃ£o provoca Cruzeiro em postagem sobre aniversÃ¡rio do FenÃ´meno",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/22/quem-revelou-ronaldo-sao-cristovao-provoca-cruzeiro-em-postagem-sobre-aniversario-do-fenomeno.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "22/09/2026"
-        },
-        {
-          "titulo": "Cruzeiro busca coordenador tÃ©cnico e tem Paulinho, do Mirassol, como plano A",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/09/22/cruzeiro-busca-coordenador-tecnico-e-tem-paulinho-do-mirassol-como-plano-a.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "22/09/2026"
@@ -810,6 +810,14 @@
       ],
       "Atletico-MG": [
         {
+          "titulo": "Renan Lodi abre o coração no Atlético-MG e conta como terapia o ajudou em \"período pesado\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/27/renan-lodi-abre-o-coracao-no-atletico-mg-e-conta-como-terapia-o-ajudou-em-periodo-pesado.ghtml",
+          "imagem": "",
+          "data": "2026-09-27T06:00:00+00:00",
+          "dataFmt": "27/09/2026 06:00"
+        },
+        {
           "titulo": "Bragantino se reapresenta e inicia preparação para enfrentar o Atlético-MG durante a Data Fifa",
           "resumo": "",
           "url": "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/times/bragantino/noticia/2026/09/26/bragantino-se-reapresenta-e-inicia-preparacao-para-enfrentar-o-atletico-mg-durante-a-data-fifa.ghtml",
@@ -896,14 +904,6 @@
           "imagem": "",
           "data": "",
           "dataFmt": "24/09/2026"
-        },
-        {
-          "titulo": "Cuello compra camisa histÃ³rica de Ronaldinho no AtlÃ©tico-MG e revela coleÃ§Ã£o",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/23/cuello-compra-camisa-historica-de-ronaldinho-no-atletico-mg-e-revela-colecao.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "23/09/2026"
         }
       ],
       "Corinthians": [
@@ -1006,14 +1006,6 @@
           "dataFmt": "26/09/2026 19:59"
         },
         {
-          "titulo": "Sem Botafogo-PB e Kashima-PB, Mixto-PB busca manter hegemonia no Paraibano Feminino",
-          "resumo": "",
-          "url": "https://ge.globo.com/pb/futebol/futebol-feminino/noticia/2026/09/26/sem-botafogo-pb-e-kashima-pb-mixto-pb-busca-manter-hegemonia-no-paraibano-feminino.ghtml",
-          "imagem": "",
-          "data": "2026-09-26T18:00:00+00:00",
-          "dataFmt": "26/09/2026 18:00"
-        },
-        {
           "titulo": "Como renovaÃ§Ã£o de BellÃ£o reflete novo momento na comissÃ£o de Tite",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/26/entenda-como-renovacao-de-bellao-com-o-botafogo-reflete-novo-momento-na-comissao-de-tite.ghtml",
@@ -1068,9 +1060,25 @@
           "imagem": "",
           "data": "",
           "dataFmt": "24/09/2026"
+        },
+        {
+          "titulo": "Tite encerra ciclo de tÃ©cnicos ligados a Textor e abre nova fase da SAF do Botafogo",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/25/tite-encerra-ciclo-de-tecnicos-ligados-a-textor-e-abre-nova-fase-da-saf-do-botafogo.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "25/09/2026"
         }
       ],
       "Vitoria": [
+        {
+          "titulo": "Presidente do Atlético-GO minimiza atrito com goleiro do próprio time e dispara: 'Ele é doido varrido'",
+          "resumo": "",
+          "url": "https://ge.globo.com/go/futebol/times/atletico-go/noticia/2026/09/26/adson-batista-explica-conflito-com-paulo-vitor-apos-vitoria-no-classico.ghtml",
+          "imagem": "",
+          "data": "2026-09-27T01:11:02+00:00",
+          "dataFmt": "27/09/2026 01:11"
+        },
         {
           "titulo": "Após vitória em clássico, Náutico provoca Sport com pix de ingressos nas redes sociais",
           "resumo": "",
@@ -1158,14 +1166,6 @@
           "imagem": "https://s2-ge.glbimg.com/B0soB1r6LOk10WwWGd32_Mpp0oA=/0x153:1080x1233/94x94/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/K/r/v5mlpGQHSEzxtD5q8xaA/hl07eykwuaa40vg.jpg",
           "data": "",
           "dataFmt": "08/12/2025"
-        },
-        {
-          "titulo": "Veja artilheiros, assistÃªncias, aproveitamento e jogos em 2026",
-          "resumo": "",
-          "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/01/30/estatisticas-do-vitoria-artilheiros-assistencias-aproveitamento-e-jogos-na-temporada-2026.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "30/01/2026"
         }
       ],
       "Sao-Paulo": [
@@ -1178,12 +1178,12 @@
           "dataFmt": "26/09/2026 22:35"
         },
         {
-          "titulo": "São Paulo treina de olho no clássico e Lucas e Bobadilla avançam na recuperação",
+          "titulo": "Dupla avanÃ§a na recuperaÃ§Ã£o, e SÃ£o Paulo treina de olho no clÃ¡ssico",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/09/26/sao-paulo-treina-de-olho-no-classico-e-lucas-e-bobadilla-avancam-na-recuperacao.ghtml",
           "imagem": "",
-          "data": "2026-09-26T18:12:41+00:00",
-          "dataFmt": "26/09/2026 18:12"
+          "data": "",
+          "dataFmt": "26/09/2026"
         },
         {
           "titulo": "Roger Machado revela ameaÃ§as Ã  famÃ­lia e detalha saÃ­da do SÃ£o Paulo",
@@ -1456,6 +1456,30 @@
       ],
       "Internacional": [
         {
+          "titulo": "Espanha amplia invencibilidade iniciada contra o Brasil em 2024; veja números e lista",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/27/espanha-amplia-invencibilidade-iniciada-contra-o-brasil-em-2024-veja-numeros-e-lista.ghtml",
+          "imagem": "",
+          "data": "2026-09-27T03:56:27+00:00",
+          "dataFmt": "27/09/2026 03:56"
+        },
+        {
+          "titulo": "Italiano mais caro da história, Tonali vira alvo de críticas após negócio de R$ 720 milhões",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/27/italiano-mais-caro-da-historia-tonali-vira-alvo-de-criticas-apos-negocio-de-r-720-milhoes.ghtml",
+          "imagem": "",
+          "data": "2026-09-27T03:51:07+00:00",
+          "dataFmt": "27/09/2026 03:51"
+        },
+        {
+          "titulo": "Alemanha x Grécia na Liga das Nações: onde assistir ao vivo e horário",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/liga-das-nacoes/noticia/2026/09/27/alemanha-x-grecia-na-liga-das-nacoes-onde-assistir-ao-vivo-e-horario.ghtml",
+          "imagem": "",
+          "data": "2026-09-27T03:00:00+00:00",
+          "dataFmt": "27/09/2026 03:00"
+        },
+        {
           "titulo": "Rival do Flamengo na Libertadores, Estudiantes perde final que termina em briga; veja",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-argentino/noticia/2026/09/26/rival-do-flamengo-na-libertadores-estudiantes-perde-final-que-termina-em-briga-veja.ghtml",
@@ -1478,22 +1502,6 @@
           "imagem": "",
           "data": "2026-09-26T20:01:36+00:00",
           "dataFmt": "26/09/2026 20:01"
-        },
-        {
-          "titulo": "Presidente do Manchester City nega irregularidades e fala em sabotagem",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/times/manchester-city/noticia/2026/09/26/presidente-do-manchester-city-nega-irregularidades-e-fala-em-sabotagem.ghtml",
-          "imagem": "",
-          "data": "2026-09-26T18:32:44+00:00",
-          "dataFmt": "26/09/2026 18:32"
-        },
-        {
-          "titulo": "Jorge Jesus critica redução do número de estrangeiros no Brasileirão: \"Problema é a formação\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/26/jorge-jesus-critica-reducao-de-numero-de-estrangeiros-no-brasileirao-problema-e-a-formacao.ghtml",
-          "imagem": "",
-          "data": "2026-09-26T17:57:22+00:00",
-          "dataFmt": "26/09/2026 17:57"
         },
         {
           "titulo": "TrÃªs zagueiros? Saiba como Eduardo Baptista prefere jogar",
@@ -1542,14 +1550,6 @@
           "imagem": "",
           "data": "",
           "dataFmt": "25/09/2026"
-        },
-        {
-          "titulo": "Saiba quanto o Inter pagarÃ¡ para o CriciÃºma pelo tÃ©cnico Eduardo Baptista",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/24/saiba-quanto-o-inter-pagara-para-o-criciuma-pelo-tecnico-eduardo-baptista.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "24/09/2026"
         }
       ],
       "Mirassol": [
@@ -1702,6 +1702,14 @@
       ],
       "Vasco": [
         {
+          "titulo": "Lamacchia faz lobby, e Pedrinho admite concorrer à reeleição no Vasco",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/27/lamacchia-faz-lobby-e-pedrinho-admite-concorrer-a-reeleicao-no-vasco.ghtml",
+          "imagem": "",
+          "data": "2026-09-27T06:00:00+00:00",
+          "dataFmt": "27/09/2026 06:00"
+        },
+        {
           "titulo": "Vasco encaminha oferta de Lamacchia aos conselhos",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/25/vasco-encaminha-proposta-de-lamacchia-aos-conselhos-e-solicita-convocacao.ghtml",
@@ -1788,14 +1796,6 @@
           "imagem": "",
           "data": "",
           "dataFmt": "24/09/2026"
-        },
-        {
-          "titulo": "Lateral da base do Vasco chama atenÃ§Ã£o do Feyenoord antes de assinar contrato profissional",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/23/lateral-da-base-do-vasco-chama-atencao-do-feyernoord-antes-de-assinar-contrato-profissional.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "23/09/2026"
         }
       ],
       "Chapecoense": [
@@ -2133,44 +2133,44 @@
   "ufc": {
     "geral": [
       {
+        "titulo": "Darren Till vence Romero no boxe sem luvas em luta sangrenta de ex-UFCs",
+        "resumo": "",
+        "url": "https://ge.globo.com/combate/noticia/2026/09/27/darren-till-vence-romero-no-boxe-sem-luvas-em-luta-sangrenta-de-ex-ufcs.ghtml",
+        "imagem": "",
+        "data": "2026-09-27T03:43:06+00:00",
+        "dataFmt": "27/09/2026 03:43"
+      },
+      {
+        "titulo": "UFC: Raoni Barcellos sai de maca depois de luta acirrada contra Raul Rosas Jr.",
+        "resumo": "",
+        "url": "https://ge.globo.com/combate/noticia/2026/09/27/ufc-mexicano-vence-guerra-com-raoni-barcelos-e-norma-dumont-perde-e-chuta-argentina.ghtml",
+        "imagem": "",
+        "data": "2026-09-27T03:02:59+00:00",
+        "dataFmt": "27/09/2026 03:02"
+      },
+      {
+        "titulo": "K1-WGP: João Victor Pereira vence Agnaldo \"Cruel\" e se garante no Mundial do Japão",
+        "resumo": "",
+        "url": "https://ge.globo.com/combate/noticia/2026/09/26/k1-wgp-joao-victor-pereira-vence-agnaldo-cruel-e-se-garante-no-mundial-do-japao.ghtml",
+        "imagem": "",
+        "data": "2026-09-27T02:11:57+00:00",
+        "dataFmt": "27/09/2026 02:11"
+      },
+      {
+        "titulo": "UFC: Rodolfo Vieira e Elves Brener vencem, e Tina Black conquista título do TUF",
+        "resumo": "",
+        "url": "https://ge.globo.com/combate/noticia/2026/09/26/ufc-rodolfo-vieira-e-elves-brener-vencem-e-tina-black-conquista-titulo-do-tuf.ghtml",
+        "imagem": "",
+        "data": "2026-09-27T01:13:09+00:00",
+        "dataFmt": "27/09/2026 01:13"
+      },
+      {
         "titulo": "Oktagon 94 tem comemoração precoce, apagão, pedido de casamento, finalizações e nocautes",
         "resumo": "",
         "url": "https://ge.globo.com/combate/noticia/2026/09/26/oktagon-94-tem-comemoracao-precoce-apagao-pedido-de-casamento-e-chuva-de-nocautes.ghtml",
         "imagem": "",
         "data": "2026-09-26T22:58:03+00:00",
         "dataFmt": "26/09/2026 22:58"
-      },
-      {
-        "titulo": "Pugilista mexicano de 26 anos morre com lesão cerebral seis dias após ser nocauteado",
-        "resumo": "",
-        "url": "https://ge.globo.com/combate/noticia/2026/09/26/pugilista-mexicano-de-26-anos-morre-com-lesao-cerebral-seis-dias-apos-ser-nocauteado.ghtml",
-        "imagem": "",
-        "data": "2026-09-26T18:59:01+00:00",
-        "dataFmt": "26/09/2026 18:59"
-      },
-      {
-        "titulo": "Oktagon 94",
-        "resumo": "",
-        "url": "https://ge.globo.com/combate/ao-vivo/oktagon-94.ghtml",
-        "imagem": "",
-        "data": "2026-09-26T18:42:07+00:00",
-        "dataFmt": "26/09/2026 18:42"
-      },
-      {
-        "titulo": "UFC: brasileira provoca argentina com preservativos e dinheiro",
-        "resumo": "",
-        "url": "https://ge.globo.com/combate/noticia/2026/09/26/brasileira-provoca-argentina-com-preservativos-e-notas-de-dinheiro-em-encarada-do-ufc-veja-video.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "26/09/2026"
-      },
-      {
-        "titulo": "UFC BJJ: Mikey Musumeci vence Bryce Mitchell na luta principal",
-        "resumo": "",
-        "url": "https://ge.globo.com/combate/noticia/2026/09/25/ufc-bjj-mikey-musumeci-vence-bryce-mitchell-na-luta-principal.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "25/09/2026"
       },
       {
         "titulo": "ProgramaÃ§Ã£o completa do UFC no ano de 2026",
@@ -2195,6 +2195,30 @@
         "imagem": "",
         "data": "",
         "dataFmt": "23/09/2026"
+      },
+      {
+        "titulo": "Pugilista mexicano de 26 anos morre com lesÃ£o cerebral seis dias apÃ³s ser nocauteado",
+        "resumo": "",
+        "url": "https://ge.globo.com/combate/noticia/2026/09/26/pugilista-mexicano-de-26-anos-morre-com-lesao-cerebral-seis-dias-apos-ser-nocauteado.ghtml",
+        "imagem": "",
+        "data": "",
+        "dataFmt": "26/09/2026"
+      },
+      {
+        "titulo": "Brasileira provoca argentina com preservativos e notas de dinheiro em encarada do UFC; veja vÃ­deo",
+        "resumo": "",
+        "url": "https://ge.globo.com/combate/noticia/2026/09/26/brasileira-provoca-argentina-com-preservativos-e-notas-de-dinheiro-em-encarada-do-ufc-veja-video.ghtml",
+        "imagem": "",
+        "data": "",
+        "dataFmt": "26/09/2026"
+      },
+      {
+        "titulo": "UFC BJJ: Mikey Musumeci vence Bryce Mitchell na luta principal",
+        "resumo": "",
+        "url": "https://ge.globo.com/combate/noticia/2026/09/25/ufc-bjj-mikey-musumeci-vence-bryce-mitchell-na-luta-principal.ghtml",
+        "imagem": "",
+        "data": "",
+        "dataFmt": "25/09/2026"
       },
       {
         "titulo": "Luta entre Tyson Fury e Anthony Joshua Ã© confirmada para dezembro",
@@ -2227,38 +2251,6 @@
         "imagem": "",
         "data": "",
         "dataFmt": "21/09/2026"
-      },
-      {
-        "titulo": "Retorno de Amanda Nunes pelo cinturÃ£o do UFC Ã© marcado para novembro",
-        "resumo": "",
-        "url": "https://ge.globo.com/combate/noticia/2026/09/20/retorno-de-amanda-nunes-pelo-cinturao-do-ufc-e-marcado-para-novembro.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "20/09/2026"
-      },
-      {
-        "titulo": "UFC 331: Lutador vence com fratura exposta no dedo; imagem Ã© forte",
-        "resumo": "",
-        "url": "https://ge.globo.com/combate/noticia/2026/09/20/ufc-331-lutador-vence-com-fratura-exposta-no-dedo-imagem-e-forte.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "20/09/2026"
-      },
-      {
-        "titulo": "UFC 331: Joshua Van vence Pantoja em batalha de 25 minutos",
-        "resumo": "",
-        "url": "https://ge.globo.com/combate/noticia/2026/09/20/ufc-331-joshua-van-vence-pantoja-em-batalha-de-25-minutos.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "20/09/2026"
-      },
-      {
-        "titulo": "UFC 331: PatrÃ­cio Pitbull vence coreano, mas Ruffy Ã© nocauteado por Tsarukyan",
-        "resumo": "",
-        "url": "https://ge.globo.com/combate/noticia/2026/09/20/ufc-331-patricio-pitbull-vence-no-boxe-ruffy-e-nocauteado-por-tsarukyan.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "20/09/2026"
       }
     ]
   }
