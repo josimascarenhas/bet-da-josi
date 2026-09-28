@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-28T13:54:48-03:00",
+    "atualizadoEm": "2026-09-28T19:25:52-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 383,
     "timesAtualizados": 118,
@@ -234,7 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Palmeiras faz treino com 11 desfalques e",
+          "jogador": "Palmeiras faz treino em espaÃ§o reduzido",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -375,7 +375,17 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Flamengo-PI",
+          "jogador": "Arrascaeta sofre quinta lesão com o Urug",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Comercial-PI volta aos treinos, mira o F",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Arrascaeta, do Flamengo, se pronuncia de",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
