@@ -1,26 +1,106 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-27T23:16:56.179838+00:00",
+    "atualizadoEm": "2026-09-28T01:52:56.803960+00:00",
     "fonte": "ge.globo.com",
     "fonteUrl": "https://ge.globo.com/"
   },
   "futebol": {
     "geral": [
       {
-        "titulo": "Brusque x Ferroviária - Campeonato Brasileiro Série C 2026 - Ao vivo - globoesporte.com",
+        "titulo": "Sorriso, Chapada e Santa Cruz goleiam na quarta rodada da Copa FMF",
         "resumo": "",
-        "url": "https://ge.globo.com/sc/futebol/brasileirao-serie-c/jogo/27-09-2026/brusque-ferroviaria.ghtml",
+        "url": "https://ge.globo.com/mt/futebol/copa-fmf/noticia/2026/09/27/sorriso-chapada-e-santa-cruz-goleiam-na-quarta-rodada-da-copa-fmf.ghtml",
         "imagem": "",
-        "data": "2026-09-27T23:09:42+00:00",
-        "dataFmt": "27/09/2026 23:09"
+        "data": "2026-09-28T01:39:25+00:00",
+        "dataFmt": "28/09/2026 01:39"
       },
       {
-        "titulo": "Fortaleza x Athletic Club - Campeonato Brasileiro Série B 2026 - Ao vivo - globoesporte.com",
+        "titulo": "Em jogo com quatro gols, Fortaleza e Athletic-MG ficam no empate em 2 a 2",
         "resumo": "",
         "url": "https://ge.globo.com/ce/futebol/brasileirao-serie-b/jogo/27-09-2026/fortaleza-athletic-club.ghtml",
         "imagem": "",
-        "data": "2026-09-27T23:09:08+00:00",
-        "dataFmt": "27/09/2026 23:09"
+        "data": "2026-09-28T01:24:37+00:00",
+        "dataFmt": "28/09/2026 01:24"
+      },
+      {
+        "titulo": "Messi faz golaço de falta, mas Inter Miami perde na MLS",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/mls/noticia/2026/09/27/messi-faz-golaco-de-falta-mas-inter-miami-perde-na-mls.ghtml",
+        "imagem": "",
+        "data": "2026-09-28T01:21:36+00:00",
+        "dataFmt": "28/09/2026 01:21"
+      },
+      {
+        "titulo": "Técnico do Cuiabá revela gastroenterite viral em 11 jogadores após derrota na Série B",
+        "resumo": "",
+        "url": "https://ge.globo.com/mt/futebol/brasileirao-serie-b/noticia/2026/09/27/tecnico-do-cuiaba-revela-gastroenterite-viral-em-11-jogadores-apos-derrota-na-serie-b.ghtml",
+        "imagem": "",
+        "data": "2026-09-28T01:10:37+00:00",
+        "dataFmt": "28/09/2026 01:10"
+      },
+      {
+        "titulo": "Brusque e Ferroviária empatam pela Série C; time paulista se aproxima do acesso",
+        "resumo": "",
+        "url": "https://ge.globo.com/sc/futebol/brasileirao-serie-c/jogo/27-09-2026/brusque-ferroviaria.ghtml",
+        "imagem": "",
+        "data": "2026-09-28T01:04:04+00:00",
+        "dataFmt": "28/09/2026 01:04"
+      },
+      {
+        "titulo": "Autuori desabafa após empate do Fortaleza com Athletic em casa: \"estou decepcionado\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/ce/futebol/times/fortaleza/noticia/2026/09/27/autuori-desabafa-apos-empate-do-fortaleza-com-athletic-em-casa-estou-decepcionado.ghtml",
+        "imagem": "",
+        "data": "2026-09-28T01:01:32+00:00",
+        "dataFmt": "28/09/2026 01:01"
+      },
+      {
+        "titulo": "Fábio Matias destaca atuação dominante do CRB contra o Cuiabá",
+        "resumo": "",
+        "url": "https://ge.globo.com/al/futebol/times/crb/noticia/2026/09/27/fabio-matias-destaca-atuacao-dominante-do-crb-contra-o-cuiaba.ghtml",
+        "imagem": "",
+        "data": "2026-09-27T23:58:47+00:00",
+        "dataFmt": "27/09/2026 23:58"
+      },
+      {
+        "titulo": "Árbitros e assistentes do Acre passam por capacitação sobre novas diretrizes e regras do futebol",
+        "resumo": "",
+        "url": "https://ge.globo.com/ac/futebol/noticia/2026/09/27/arbitros-e-assistentes-do-acre-passam-por-capacitacao-sobre-novas-diretrizes-e-regras-do-futebol.ghtml",
+        "imagem": "",
+        "data": "2026-09-27T23:56:00+00:00",
+        "dataFmt": "27/09/2026 23:56"
+      },
+      {
+        "titulo": "Análise: derrota pesada freia reação do Cuiabá e complica busca pelo acesso",
+        "resumo": "",
+        "url": "https://ge.globo.com/mt/futebol/brasileirao-serie-b/noticia/2026/09/27/analise-derrota-pesada-freia-reacao-do-cuiaba-e-complica-busca-pelo-acesso.ghtml",
+        "imagem": "",
+        "data": "2026-09-27T23:51:31+00:00",
+        "dataFmt": "27/09/2026 23:51"
+      },
+      {
+        "titulo": "Desafeto de Neymar entrega, e Portugal de Jorge Jesus vence mais uma",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/liga-das-nacoes/jogo/27-09-2026/noruega-portugal.ghtml",
+        "imagem": "",
+        "data": "2026-09-27T23:15:53+00:00",
+        "dataFmt": "27/09/2026 23:15"
+      },
+      {
+        "titulo": "Espanha conquista o título da Copa do Mundo Feminina Sub-20",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/27/espanha-conquista-o-titulo-da-copa-do-mundo-feminina-sub-20.ghtml",
+        "imagem": "",
+        "data": "2026-09-27T23:15:14+00:00",
+        "dataFmt": "27/09/2026 23:15"
+      },
+      {
+        "titulo": "Itabaiana vence Guarany de virada por 2 a 1 e se garante na semifinal do Campeonato Sergipano sub-20",
+        "resumo": "",
+        "url": "https://ge.globo.com/se/futebol/noticia/2026/09/27/itabaiana-vence-guarany-de-virada-por-2-a-1-e-se-garante-na-semifinal-do-campeonato-sergipano-sub-20.ghtml",
+        "imagem": "",
+        "data": "2026-09-27T23:13:58+00:00",
+        "dataFmt": "27/09/2026 23:13"
       },
       {
         "titulo": "Jorge Jesus se declara ao Flamengo, mas vê retorno distante: \"As coisas ficaram mais difíceis\"",
@@ -45,14 +125,6 @@
         "imagem": "",
         "data": "2026-09-27T22:54:04+00:00",
         "dataFmt": "27/09/2026 22:54"
-      },
-      {
-        "titulo": "Desafeto de Neymar entrega, e Portugal de Jorge Jesus vence mais uma",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/futebol-internacional/liga-das-nacoes/jogo/27-09-2026/noruega-portugal.ghtml",
-        "imagem": "",
-        "data": "2026-09-27T22:42:59+00:00",
-        "dataFmt": "27/09/2026 22:42"
       },
       {
         "titulo": "Uberlândia x Mirassol: amistoso tem público tímido, taça no gramado e domínio do Leão",
@@ -93,78 +165,6 @@
         "imagem": "",
         "data": "2026-09-27T21:54:35+00:00",
         "dataFmt": "27/09/2026 21:54"
-      },
-      {
-        "titulo": "CRB cola no grupo do playoff e tem confronto direto com Atlético-GO no próximo mês",
-        "resumo": "",
-        "url": "https://ge.globo.com/al/futebol/times/crb/noticia/2026/09/27/crb-cola-no-grupo-do-playoff-e-tem-confronto-direto-com-atletico-go-no-proximo-mes.ghtml",
-        "imagem": "",
-        "data": "2026-09-27T21:51:54+00:00",
-        "dataFmt": "27/09/2026 21:51"
-      },
-      {
-        "titulo": "Em jogaço de 7 gols, São Raimundo bate o Planalto por 4 a 3 e garante vaga na final do Santareno",
-        "resumo": "",
-        "url": "https://ge.globo.com/pa/santarem-regiao/futebol/noticia/2026/09/27/em-jogaco-de-7-gols-sao-raimundo-bate-o-planalto-por-4-a-3-e-garante-vaga-na-final-do-santareno.ghtml",
-        "imagem": "",
-        "data": "2026-09-27T21:50:38+00:00",
-        "dataFmt": "27/09/2026 21:50"
-      },
-      {
-        "titulo": "Atuações do Cuiabá: João Carlos evita placar ainda mais elástico contra o CRB; dê suas notas",
-        "resumo": "",
-        "url": "https://ge.globo.com/mt/futebol/times/cuiaba/noticia/2026/09/27/atuacoes-do-cuiaba-joao-carlos-evita-placar-ainda-mais-elastico-contra-o-crb-de-suas-notas.ghtml",
-        "imagem": "",
-        "data": "2026-09-27T21:50:08+00:00",
-        "dataFmt": "27/09/2026 21:50"
-      },
-      {
-        "titulo": "Ex-Flamengo estreia pela seleção dos Emirados Árabes com gol em jogada 100% brasileira; veja",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/27/ex-flamengo-estreia-pela-selecao-dos-emirados-arabes-com-gol-em-jogada-100percent-brasileira-veja.ghtml",
-        "imagem": "",
-        "data": "2026-09-27T21:41:38+00:00",
-        "dataFmt": "27/09/2026 21:41"
-      },
-      {
-        "titulo": "Criciúma vence Avaí com autoridade e se recupera na Série B",
-        "resumo": "",
-        "url": "https://ge.globo.com/sc/futebol/brasileirao-serie-b/jogo/27-09-2026/criciuma-avai.ghtml",
-        "imagem": "",
-        "data": "2026-09-27T21:38:32+00:00",
-        "dataFmt": "27/09/2026 21:38"
-      },
-      {
-        "titulo": "Uruguaio Nacho Panzariello tem rescisão publicada no BID e deixa o Amazonas",
-        "resumo": "",
-        "url": "https://ge.globo.com/am/futebol/times/amazonas-fc/noticia/2026/09/27/uruguaio-nacho-panzariello-tem-rescisao-publicada-no-bid-e-deixa-o-amazonas.ghtml",
-        "imagem": "",
-        "data": "2026-09-27T21:31:43+00:00",
-        "dataFmt": "27/09/2026 21:31"
-      },
-      {
-        "titulo": "Figueirense vence o Metropolitano pela Copa Santa Catarina",
-        "resumo": "",
-        "url": "https://ge.globo.com/sc/futebol/copa-santa-catarina/noticia/2026/09/27/figueirense-vence-o-metropolitano-pela-copa-santa-catarina.ghtml",
-        "imagem": "",
-        "data": "2026-09-27T21:09:18+00:00",
-        "dataFmt": "27/09/2026 21:09"
-      },
-      {
-        "titulo": "Alemanha de Jürgen Klopp sofre derrota inédita para a Grécia",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/futebol-internacional/liga-das-nacoes/jogo/27-09-2026/alemanha-grecia.ghtml",
-        "imagem": "",
-        "data": "2026-09-27T21:01:16+00:00",
-        "dataFmt": "27/09/2026 21:01"
-      },
-      {
-        "titulo": "Paraná Clube vence o Paranavaí e se garante no mata-mata da Copa Paraná",
-        "resumo": "",
-        "url": "https://ge.globo.com/pr/futebol/taca-fpf/jogo/27-09-2026/parana-paranavai.ghtml",
-        "imagem": "",
-        "data": "2026-09-27T20:49:25+00:00",
-        "dataFmt": "27/09/2026 20:49"
       }
     ],
     "times": {
@@ -176,14 +176,6 @@
           "imagem": "",
           "data": "2026-09-27T18:01:27+00:00",
           "dataFmt": "27/09/2026 18:01"
-        },
-        {
-          "titulo": "Epitaciolândia goleia Palmeiras-AC e garante liderança do Grupo A do Acreano de Futsal Feminino Série B",
-          "resumo": "",
-          "url": "https://ge.globo.com/ac/noticia/2026/09/27/epitaciolandia-goleia-palmeiras-ac-e-garante-lideranca-do-grupo-a-do-acreano-de-futsal-feminino-serie-b.ghtml",
-          "imagem": "",
-          "data": "2026-09-27T15:45:00+00:00",
-          "dataFmt": "27/09/2026 15:45"
         },
         {
           "titulo": "Nubank Parque bate 19 milhÃµes de pessoas de pÃºblico desde 2014",
@@ -300,17 +292,17 @@
           "dataFmt": "27/09/2026 19:39"
         },
         {
-          "titulo": "Estudiantes ganha problemas de lesões antes do jogo com o Flamengo pela Libertadores",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/27/estudiantes-ganha-problemas-de-lesoes-antes-do-jogo-com-o-flamengo-pela-libertadores.ghtml",
-          "imagem": "",
-          "data": "2026-09-27T15:39:06+00:00",
-          "dataFmt": "27/09/2026 15:39"
-        },
-        {
           "titulo": "Flamengo estreita relaÃ§Ãµes com a NFL e vÃª oportunidade no Brasil",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/27/flamengo-estreita-relacoes-com-a-nfl-e-ve-oportunidade-em-crescimento-no-brasil.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "27/09/2026"
+        },
+        {
+          "titulo": "Estudiantes enfrenta lesÃµes antes do jogo com o Fla",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/27/estudiantes-ganha-problemas-de-lesoes-antes-do-jogo-com-o-flamengo-pela-libertadores.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "27/09/2026"
@@ -560,14 +552,6 @@
           "imagem": "",
           "data": "2026-09-27T17:20:25+00:00",
           "dataFmt": "27/09/2026 17:20"
-        },
-        {
-          "titulo": "Athletic vence Cruzeiro e larga na frente nas semifinais do Mineiro sub-20",
-          "resumo": "",
-          "url": "https://ge.globo.com/mg/zona-da-mata-centro-oeste/futebol/noticia/2026/09/27/athletic-vence-cruzeiro-e-larga-na-frente-nas-semifinais-do-mineiro-sub-20.ghtml",
-          "imagem": "",
-          "data": "2026-09-27T15:19:06+00:00",
-          "dataFmt": "27/09/2026 15:19"
         },
         {
           "titulo": "Cruzeiro projeta mais de R$ 300 milhÃµes em vendas de jovens",
@@ -924,14 +908,6 @@
           "dataFmt": "27/09/2026 17:03"
         },
         {
-          "titulo": "Cartola Feminino: Gabi Zanotti, do Corinthians, é a maior pontuadora do jogo de ida da final; veja o top-5",
-          "resumo": "",
-          "url": "https://ge.globo.com/cartola/noticia/2026/09/27/cartola-feminino-gabi-zanotti-do-corinthians-e-a-maior-pontuadora-do-jogo-de-ida-da-final-veja-o-top-5.ghtml",
-          "imagem": "",
-          "data": "2026-09-27T15:00:00+00:00",
-          "dataFmt": "27/09/2026 15:00"
-        },
-        {
           "titulo": "Corinthians vive ano de pior aproveitamento na Arena",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/27/corinthians-tem-mais-derrotas-em-casa-do-que-fora-e-vive-ano-de-pior-aproveitamento-na-arena.ghtml",
@@ -1030,14 +1006,6 @@
           "dataFmt": "27/09/2026 17:29"
         },
         {
-          "titulo": "Yan Souto relata vandalismo em carro após empate do Botafogo-PB com o Maringá",
-          "resumo": "",
-          "url": "https://ge.globo.com/pb/futebol/times/botafogo-pb/noticia/2026/09/27/yan-souto-relata-vandalismo-em-carro-apos-empate-do-botafogo-pb-com-o-maringa.ghtml",
-          "imagem": "",
-          "data": "2026-09-27T15:34:34+00:00",
-          "dataFmt": "27/09/2026 15:34"
-        },
-        {
           "titulo": "Botafogo celebra alcance internacional em parceria com NFL",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/27/botafogo-celebra-alcance-internacional-em-parceria-com-nfl-esperamos-recebe-los-mais-vezes.ghtml",
@@ -1081,6 +1049,14 @@
           "titulo": "Telles troca camisas com destaque da NFL, e Ravens elogiam CT do Botafogo",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/25/telles-troca-camisas-com-destaque-da-nfl-e-ravens-elogiam-ct-do-botafogo-instalacoes-incriveis.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "25/09/2026"
+        },
+        {
+          "titulo": "O que vai mudar? Entenda prÃ³ximos passos da SAF Botafogo apÃ³s aumento de capital",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/25/o-que-vai-mudar-entenda-proximos-passos-da-saf-botafogo-apos-aumento-de-capital.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "25/09/2026"
@@ -1358,14 +1334,6 @@
       ],
       "Gremio": [
         {
-          "titulo": "Grêmio recusa proposta por Ronald, emprestado ao Fortaleza",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/noticia/2026/09/27/gremio-recusa-proposta-por-ronald-emprestado-ao-fortaleza.ghtml",
-          "imagem": "",
-          "data": "2026-09-27T14:55:08+00:00",
-          "dataFmt": "27/09/2026 14:55"
-        },
-        {
           "titulo": "Renato amplia observaÃ§Ã£o da base; veja jovens chamados para treinos",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/27/renato-amplia-observacao-da-base-do-gremio-veja-jovens-chamados-para-treinos.ghtml",
@@ -1456,20 +1424,36 @@
       ],
       "Internacional": [
         {
-          "titulo": "Jorge Jesus se declara ao Flamengo, mas vê retorno distante: \"As coisas ficaram mais difíceis\"",
+          "titulo": "Messi faz golaço de falta, mas Inter Miami perde na MLS",
           "resumo": "",
-          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/27/jorge-jesus-se-declara-ao-flamengo-apos-vitoria-sobre-a-noruega-sempre-pensei-em-voltar.ghtml",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/mls/noticia/2026/09/27/messi-faz-golaco-de-falta-mas-inter-miami-perde-na-mls.ghtml",
           "imagem": "",
-          "data": "2026-09-27T22:55:25+00:00",
-          "dataFmt": "27/09/2026 22:55"
+          "data": "2026-09-28T01:21:36+00:00",
+          "dataFmt": "28/09/2026 01:21"
         },
         {
           "titulo": "Desafeto de Neymar entrega, e Portugal de Jorge Jesus vence mais uma",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/futebol-internacional/liga-das-nacoes/jogo/27-09-2026/noruega-portugal.ghtml",
           "imagem": "",
-          "data": "2026-09-27T22:42:59+00:00",
-          "dataFmt": "27/09/2026 22:42"
+          "data": "2026-09-27T23:15:53+00:00",
+          "dataFmt": "27/09/2026 23:15"
+        },
+        {
+          "titulo": "Espanha conquista o título da Copa do Mundo Feminina Sub-20",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/27/espanha-conquista-o-titulo-da-copa-do-mundo-feminina-sub-20.ghtml",
+          "imagem": "",
+          "data": "2026-09-27T23:15:14+00:00",
+          "dataFmt": "27/09/2026 23:15"
+        },
+        {
+          "titulo": "Jorge Jesus se declara ao Flamengo, mas vê retorno distante: \"As coisas ficaram mais difíceis\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/27/jorge-jesus-se-declara-ao-flamengo-apos-vitoria-sobre-a-noruega-sempre-pensei-em-voltar.ghtml",
+          "imagem": "",
+          "data": "2026-09-27T22:55:25+00:00",
+          "dataFmt": "27/09/2026 22:55"
         },
         {
           "titulo": "Em jogaço de viradas, Espanha bate a Inglaterra em Wembley",
@@ -1520,14 +1504,6 @@
           "dataFmt": "27/09/2026 17:40"
         },
         {
-          "titulo": "Jorge Jesus avisa antes de enfrentar algoz do Brasil: \"Não vou ter medo nenhum da Noruega. Zero\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/27/jorge-jesus-avisa-antes-de-enfrentar-algoz-do-brasil-nao-vou-ter-medo-nenhum-da-noruega-zero.ghtml",
-          "imagem": "",
-          "data": "2026-09-27T15:09:34+00:00",
-          "dataFmt": "27/09/2026 15:09"
-        },
-        {
           "titulo": "Rochet se aproxima de retorno; veja situaÃ§Ã£o dos lesionados do elenco",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/27/rochet-se-aproxima-de-retorno-ao-inter-veja-a-situacao-dos-lesionados-do-elenco.ghtml",
@@ -1539,14 +1515,6 @@
           "titulo": "Como fazer o Inter melhorar um dos piores ataques do BrasileirÃ£o?",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/26/como-eduardo-baptista-pretende-fazer-o-inter-melhorar-um-dos-piores-ataques-do-brasileirao.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "26/09/2026"
-        },
-        {
-          "titulo": "TrÃªs zagueiros? Saiba como Eduardo Baptista prefere jogar",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/26/tres-zagueiros-saiba-como-eduardo-baptista-novo-tecnico-do-inter-prefere-jogar.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "26/09/2026"
