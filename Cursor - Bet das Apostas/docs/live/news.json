@@ -1,11 +1,83 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-28T22:25:49.087496+00:00",
+    "atualizadoEm": "2026-09-29T02:11:42.738880+00:00",
     "fonte": "ge.globo.com",
     "fonteUrl": "https://ge.globo.com/"
   },
   "futebol": {
     "geral": [
+      {
+        "titulo": "Presidente do Flamengo, Bap critica proibição de bets: \"Como vou pagar o Paquetá em janeiro?\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/28/presidente-do-flamengo-bap-critica-proibicao-de-bets-como-vou-pagar-o-paqueta-em-janeiro.ghtml",
+        "imagem": "",
+        "data": "2026-09-29T01:20:22+00:00",
+        "dataFmt": "29/09/2026 01:20"
+      },
+      {
+        "titulo": "Suspensão por doping de Léo Jabá volta a valer, e São Bernardo afasta o atacante",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/futebol/times/sao-bernardo/noticia/2026/09/28/suspensao-por-doping-de-leo-jaba-volta-a-valer-e-sao-bernardo-afasta-o-atacante.ghtml",
+        "imagem": "",
+        "data": "2026-09-29T00:50:41+00:00",
+        "dataFmt": "29/09/2026 00:50"
+      },
+      {
+        "titulo": "Fim das bets: reunião de clubes com ministros é adiada para depois do primeiro turno das eleições",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/futebol/noticia/2026/09/28/fim-das-bets-reuniao-de-clubes-com-ministros-e-adiada-para-depois-do-primeiro-turno-das-eleicoes.ghtml",
+        "imagem": "",
+        "data": "2026-09-29T00:44:40+00:00",
+        "dataFmt": "29/09/2026 00:44"
+      },
+      {
+        "titulo": "Juventude bate o América-MG fora de casa e reassume a vice-liderança da Série B",
+        "resumo": "",
+        "url": "https://ge.globo.com/mg/zona-da-mata-centro-oeste/futebol/brasileirao-serie-b/jogo/28-09-2026/america-mg-juventude.ghtml",
+        "imagem": "",
+        "data": "2026-09-29T00:41:47+00:00",
+        "dataFmt": "29/09/2026 00:41"
+      },
+      {
+        "titulo": "Inter tem R$ 117 milhões em débitos em transferências e pode sofrer mais cinco transfer bans",
+        "resumo": "",
+        "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/28/inter-acumula-r-117-milhoes-em-debitos-ligados-a-transferencias-desde-2021-veja-detalhes.ghtml",
+        "imagem": "",
+        "data": "2026-09-29T00:05:05+00:00",
+        "dataFmt": "29/09/2026 00:05"
+      },
+      {
+        "titulo": "Técnico do Náutico pede cautela com Paulo Sérgio, mas elogia atacante: \"Vai nos ajudar muito\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/pe/futebol/times/nautico/noticia/2026/09/28/tecnico-do-nautico-pede-cautela-com-paulo-sergio-mas-elogia-atacante-vai-nos-ajudar-muito.ghtml",
+        "imagem": "",
+        "data": "2026-09-29T00:03:39+00:00",
+        "dataFmt": "29/09/2026 00:03"
+      },
+      {
+        "titulo": "Lesionado, Zakaria Labyad tem contrato renovado pelo Corinthians",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/28/lesionado-zakaria-labyad-tem-contrato-renovado-pelo-corinthians.ghtml",
+        "imagem": "",
+        "data": "2026-09-28T23:46:21+00:00",
+        "dataFmt": "28/09/2026 23:46"
+      },
+      {
+        "titulo": "Grêmio inaugura CT para o futebol feminino em parceria com Marcelo Grohe e Galatto",
+        "resumo": "",
+        "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/28/gremio-inaugura-ct-para-o-futebol-feminino-em-parceria-com-marcelo-grohe-e-galatto.ghtml",
+        "imagem": "",
+        "data": "2026-09-28T23:30:43+00:00",
+        "dataFmt": "28/09/2026 23:30"
+      },
+      {
+        "titulo": "Olise sai do banco para decidir, e França vence a segunda com Zidane",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/liga-das-nacoes/jogo/28-09-2026/belgica-franca.ghtml",
+        "imagem": "",
+        "data": "2026-09-28T23:27:56+00:00",
+        "dataFmt": "28/09/2026 23:27"
+      },
       {
         "titulo": "Tocantínia FC vence Nacional EC, é campeão do Copão Tocantins 2026 e garante premiação histórica",
         "resumo": "",
@@ -21,14 +93,6 @@
         "imagem": "",
         "data": "2026-09-28T22:18:23+00:00",
         "dataFmt": "28/09/2026 22:18"
-      },
-      {
-        "titulo": "América-MG x Juventude - Campeonato Brasileiro Série B 2026 - Ao vivo - globoesporte.com",
-        "resumo": "",
-        "url": "https://ge.globo.com/mg/zona-da-mata-centro-oeste/futebol/brasileirao-serie-b/jogo/28-09-2026/america-mg-juventude.ghtml",
-        "imagem": "",
-        "data": "2026-09-28T22:15:55+00:00",
-        "dataFmt": "28/09/2026 22:15"
       },
       {
         "titulo": "Goiás tem série de desfalques para enfrentar o Novorizontino",
@@ -101,70 +165,6 @@
         "imagem": "",
         "data": "2026-09-28T21:06:47+00:00",
         "dataFmt": "28/09/2026 21:06"
-      },
-      {
-        "titulo": "Mr. Olympia da bola? Veja lista de ex-jogadores mundo afora que adotaram \"shape de fisiculturista\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/mg/futebol/noticia/2026/09/28/mr-olympia-da-bola-veja-lista-de-ex-jogadores-mundo-afora-que-adotaram-shape-de-fisiculturista.ghtml",
-        "imagem": "",
-        "data": "2026-09-28T21:04:34+00:00",
-        "dataFmt": "28/09/2026 21:04"
-      },
-      {
-        "titulo": "Flamengo-PI conta com volta de Everton Heleno e mais sete atletas para jogo de ida da semifinal",
-        "resumo": "",
-        "url": "https://ge.globo.com/pi/futebol/times/flamengo-pi/noticia/2026/09/28/flamengo-pi-conta-com-volta-de-everton-heleno-e-mais-sete-atletas-para-jogo-de-ida-da-semifinal.ghtml",
-        "imagem": "",
-        "data": "2026-09-28T21:01:08+00:00",
-        "dataFmt": "28/09/2026 21:01"
-      },
-      {
-        "titulo": "Brasil x Austrália: onde assistir ao vivo, horário e escalações do amistoso da Seleção",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/selecao-brasileira/noticia/2026/09/28/brasil-x-australia-onde-assistir-ao-vivo-horario-e-escalacoes-do-amistoso-da-selecao.ghtml",
-        "imagem": "",
-        "data": "2026-09-28T21:00:00+00:00",
-        "dataFmt": "28/09/2026 21:00"
-      },
-      {
-        "titulo": "Marcelo Soares cobra evolução do Comercial-PI para semifinal: \"Vamos ter que correr mais\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/pi/futebol/times/comercial-pi/noticia/2026/09/28/marcelo-soares-cobra-evolucao-do-comercial-pi-para-semifinal-vamos-ter-que-correr-mais.ghtml",
-        "imagem": "",
-        "data": "2026-09-28T20:59:20+00:00",
-        "dataFmt": "28/09/2026 20:59"
-      },
-      {
-        "titulo": "Juventude tem conversas para renovar com Maurício Barbieri",
-        "resumo": "",
-        "url": "https://ge.globo.com/rs/futebol/times/juventude/noticia/2026/09/28/juventude-tem-conversas-para-renovar-com-mauricio-barbieri.ghtml",
-        "imagem": "",
-        "data": "2026-09-28T20:55:16+00:00",
-        "dataFmt": "28/09/2026 20:55"
-      },
-      {
-        "titulo": "Olise sai do banco para decidir, e França vence a segunda com Zidane",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/futebol-internacional/liga-das-nacoes/jogo/28-09-2026/belgica-franca.ghtml",
-        "imagem": "",
-        "data": "2026-09-28T20:52:00+00:00",
-        "dataFmt": "28/09/2026 20:52"
-      },
-      {
-        "titulo": "\"Acaba o jogo, já pagamos\": por que a várzea atrai cada vez mais jogadores do futebol profissional",
-        "resumo": "",
-        "url": "https://ge.globo.com/sp/futebol/noticia/2026/09/28/acaba-o-jogo-ja-pagamos-por-que-a-varzea-atrai-cada-vez-mais-jogadores-do-futebol-profissional.ghtml",
-        "imagem": "",
-        "data": "2026-09-28T20:51:52+00:00",
-        "dataFmt": "28/09/2026 20:51"
-      },
-      {
-        "titulo": "Torcida do Fluminense elege Fábio como jogador mais importante da temporada até o momento",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/28/torcida-do-fluminense-elege-fabio-como-jogador-mais-importante-da-temporada-ate-o-momento.ghtml",
-        "imagem": "",
-        "data": "2026-09-28T20:46:13+00:00",
-        "dataFmt": "28/09/2026 20:46"
       }
     ],
     "times": {
@@ -178,12 +178,12 @@
           "dataFmt": "28/09/2026 19:45"
         },
         {
-          "titulo": "Palmeiras se reapresenta, e Paulinho participa de atividades em campo",
+          "titulo": "Paulinho participa de treino em campo na reapresentaÃ§Ã£o",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/28/palmeiras-se-reapresenta-e-paulinho-participa-de-atividades-em-campo.ghtml",
           "imagem": "",
-          "data": "2026-09-28T18:11:25+00:00",
-          "dataFmt": "28/09/2026 18:11"
+          "data": "",
+          "dataFmt": "28/09/2026"
         },
         {
           "titulo": "Quem pode deixar o clube no fim do ano e quais os planos para 2027",
@@ -244,6 +244,14 @@
       ],
       "Flamengo": [
         {
+          "titulo": "Presidente do Flamengo, Bap critica proibição de bets: \"Como vou pagar o Paquetá em janeiro?\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/28/presidente-do-flamengo-bap-critica-proibicao-de-bets-como-vou-pagar-o-paqueta-em-janeiro.ghtml",
+          "imagem": "",
+          "data": "2026-09-29T01:20:22+00:00",
+          "dataFmt": "29/09/2026 01:20"
+        },
+        {
           "titulo": "▶️ Entrevistas coletivas do Comercial-PI antes do 1º jogo da semifinal do Piauiense Série B, contra o Flamengo-PI",
           "resumo": "",
           "url": "https://ge.globo.com/pi/futebol/times/comercial-pi/playlist/-entrevistas-coletivas-do-comercial-pi-antes-do-1-jogo-da-semifinal-do-piauiense-serie-b-contra-o-flamengo-pi.ghtml",
@@ -300,22 +308,6 @@
           "dataFmt": "28/09/2026 18:26"
         },
         {
-          "titulo": "Ex-Flamengo, Reinaldo é anunciado como novo técnico do Rio Branco-ES",
-          "resumo": "",
-          "url": "https://ge.globo.com/es/futebol/times/rio-branco-es/noticia/2026/09/28/ex-flamengo-reinaldo-e-anunciado-como-novo-tecnico-do-rio-branco-es.ghtml",
-          "imagem": "",
-          "data": "2026-09-28T18:12:08+00:00",
-          "dataFmt": "28/09/2026 18:12"
-        },
-        {
-          "titulo": "Neymar revela torcida para o Flamengo durante jogo da NFL: \"No Rio, sou Mengão\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/28/neymar-revela-torcida-para-o-flamengo-durante-jogo-da-nfl-no-rio-sou-mengao.ghtml",
-          "imagem": "",
-          "data": "2026-09-28T17:50:39+00:00",
-          "dataFmt": "28/09/2026 17:50"
-        },
-        {
           "titulo": "Camisa 10 sofre fratura no punho com indicaÃ§Ã£o de cirurgia",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/28/flamengo-confirma-lesao-de-arrascaeta.ghtml",
@@ -338,6 +330,14 @@
           "imagem": "",
           "data": "",
           "dataFmt": "27/09/2026"
+        },
+        {
+          "titulo": "Flamengo prega cautela com Valencia e confia em evoluÃ§Ã£o",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/09/26/flamengo-prega-cautela-com-valencia-e-confia-em-evolucao-jardim-revela-planejamento-jogador-que-acredito.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "26/09/2026"
         }
       ],
       "Athletico-PR": [
@@ -818,12 +818,12 @@
           "dataFmt": "28/09/2026"
         },
         {
-          "titulo": "Renan Lodi conta como terapia o ajudou em \"perÃ­odo pesado\"",
+          "titulo": "Lembra dele? Ex-zagueiro recorda quase acerto com Flamengo",
           "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/27/renan-lodi-abre-o-coracao-no-atletico-mg-e-conta-como-terapia-o-ajudou-em-periodo-pesado.ghtml",
+          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/28/lembra-dele-ex-zagueiro-recorda-ano-especial-com-o-atletico-mg-e-quase-acerto-com-flamengo.ghtml",
           "imagem": "",
           "data": "",
-          "dataFmt": "27/09/2026"
+          "dataFmt": "28/09/2026"
         },
         {
           "titulo": "Scarpa revela por que nÃ£o acertou com o SÃ£o Paulo",
@@ -834,12 +834,12 @@
           "dataFmt": "26/09/2026"
         },
         {
-          "titulo": "Lima recorda ano especial com Galo e quase acerto com Flamengo",
+          "titulo": "Como terapia ajudou lateral em \"perÃ­odo pesado\"",
           "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/28/lembra-dele-ex-zagueiro-recorda-ano-especial-com-o-atletico-mg-e-quase-acerto-com-flamengo.ghtml",
+          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/27/renan-lodi-abre-o-coracao-no-atletico-mg-e-conta-como-terapia-o-ajudou-em-periodo-pesado.ghtml",
           "imagem": "",
           "data": "",
-          "dataFmt": "28/09/2026"
+          "dataFmt": "27/09/2026"
         },
         {
           "titulo": "Galeitura: como Scarpa furou a bolha, influenciou clubes do livro de torcidas e virou destaque mundial",
@@ -880,17 +880,17 @@
           "imagem": "",
           "data": "",
           "dataFmt": "24/09/2026"
-        },
-        {
-          "titulo": "TrÃªs \"liÃ§Ãµes de casa\" do AtlÃ©tico-MG para a Data-Fifa",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/24/tres-licoes-de-casa-do-atletico-mg-para-a-data-fifa.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "24/09/2026"
         }
       ],
       "Corinthians": [
+        {
+          "titulo": "Lesionado, Zakaria Labyad tem contrato renovado pelo Corinthians",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/28/lesionado-zakaria-labyad-tem-contrato-renovado-pelo-corinthians.ghtml",
+          "imagem": "",
+          "data": "2026-09-28T23:46:21+00:00",
+          "dataFmt": "28/09/2026 23:46"
+        },
         {
           "titulo": "São Paulo x Corinthians - Campeonato Brasileiro Feminino 2026 - globoesporte.com",
           "resumo": "",
@@ -978,14 +978,6 @@
           "imagem": "",
           "data": "",
           "dataFmt": "26/09/2026"
-        },
-        {
-          "titulo": "Treino do Corinthians: Bidu Ã© desfalque na reapresentaÃ§Ã£o, e Yuri Alberto reinicia transiÃ§Ã£o",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/09/25/treino-do-corinthians-bidu-e-desfalque-na-reapresentacao-e-yuri-alberto-reinicia-transicao.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "25/09/2026"
         }
       ],
       "Botafogo": [
@@ -996,14 +988,6 @@
           "imagem": "",
           "data": "2026-09-28T20:09:35+00:00",
           "dataFmt": "28/09/2026 20:09"
-        },
-        {
-          "titulo": "Escalação do Botafogo-SP: Hygor pode aparecer entre os relacionados",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/botafogo-sp/noticia/2026/09/28/escalacao-do-botafogo-sp-hygor-pode-aparecer-entre-os-relacionados.ghtml",
-          "imagem": "",
-          "data": "2026-09-28T18:10:54+00:00",
-          "dataFmt": "28/09/2026 18:10"
         },
         {
           "titulo": "Emprestado pelo Botafogo, Chris Ramos sofre ruptura de ligamento do joelho direito",
@@ -1081,6 +1065,14 @@
           "titulo": "Telles troca camisas com destaque da NFL, e Ravens elogiam CT do Botafogo: \"InstalaÃ§Ãµes incrÃ­veis\"",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/25/telles-troca-camisas-com-destaque-da-nfl-e-ravens-elogiam-ct-do-botafogo-instalacoes-incriveis.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "25/09/2026"
+        },
+        {
+          "titulo": "O que vai mudar? Entenda prÃ³ximos passos da SAF Botafogo apÃ³s aumento de capital",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/25/o-que-vai-mudar-entenda-proximos-passos-da-saf-botafogo-apos-aumento-de-capital.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "25/09/2026"
@@ -1334,7 +1326,15 @@
       ],
       "Gremio": [
         {
-          "titulo": "Revelado pelo Grêmio, meia de 33 anos tem quadro de melhora após arritmia em treino no Mixto",
+          "titulo": "Grêmio inaugura CT para o futebol feminino em parceria com Marcelo Grohe e Galatto",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/28/gremio-inaugura-ct-para-o-futebol-feminino-em-parceria-com-marcelo-grohe-e-galatto.ghtml",
+          "imagem": "",
+          "data": "2026-09-28T23:30:43+00:00",
+          "dataFmt": "28/09/2026 23:30"
+        },
+        {
+          "titulo": "Revelado pelo Grêmio, meia de 33 anos apresenta melhora após arritmia em treino no Mixto",
           "resumo": "",
           "url": "https://ge.globo.com/mt/futebol/noticia/2026/09/28/revelado-pelo-gremio-meia-de-33-anos-tem-quadro-de-melhora-depois-de-arritmia-em-treino-entenda.ghtml",
           "imagem": "",
@@ -1406,14 +1406,6 @@
           "dataFmt": "25/09/2026"
         },
         {
-          "titulo": "CEO do GrÃªmio Ã© suspenso pelo STJD por chamar Botafogo de \"time de picaretas\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/24/ceo-do-gremio-e-suspenso-pelo-stjd-por-chamar-botafogo-de-time-de-picaretas.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "24/09/2026"
-        },
-        {
           "titulo": "InformaÃ§Ã£o, opiniÃ£o e anÃ¡lise sobre o Tricolor na sua playlist",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/01/12/estatisticas-do-gremio-em-2026-veja-campanha-artilheiros-e-videos.ghtml",
@@ -1423,6 +1415,22 @@
         }
       ],
       "Internacional": [
+        {
+          "titulo": "Inter tem R$ 117 milhões em débitos em transferências e pode sofrer mais cinco transfer bans",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/28/inter-acumula-r-117-milhoes-em-debitos-ligados-a-transferencias-desde-2021-veja-detalhes.ghtml",
+          "imagem": "",
+          "data": "2026-09-29T00:05:05+00:00",
+          "dataFmt": "29/09/2026 00:05"
+        },
+        {
+          "titulo": "Olise sai do banco para decidir, e França vence a segunda com Zidane",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/liga-das-nacoes/jogo/28-09-2026/belgica-franca.ghtml",
+          "imagem": "",
+          "data": "2026-09-28T23:27:56+00:00",
+          "dataFmt": "28/09/2026 23:27"
+        },
         {
           "titulo": "República Tcheca x Inglaterra pela Liga das Nações: onde assistir ao vivo e horário",
           "resumo": "",
@@ -1438,14 +1446,6 @@
           "imagem": "",
           "data": "2026-09-28T21:06:47+00:00",
           "dataFmt": "28/09/2026 21:06"
-        },
-        {
-          "titulo": "Olise sai do banco para decidir, e França vence a segunda com Zidane",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/futebol-internacional/liga-das-nacoes/jogo/28-09-2026/belgica-franca.ghtml",
-          "imagem": "",
-          "data": "2026-09-28T20:52:00+00:00",
-          "dataFmt": "28/09/2026 20:52"
         },
         {
           "titulo": "Itália sobra no primeiro tempo e goleia a Turquia na Liga das Nações",
@@ -1488,15 +1488,7 @@
           "dataFmt": "28/09/2026 18:36"
         },
         {
-          "titulo": "Saiba como estÃ¡ situaÃ§Ã£o de Victor Gabriel e se Inter pode antecipar liberaÃ§Ã£o",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/28/indefinicao-sobre-retorno-de-pec-trava-tentativa-do-inter-de-liberar-victor-gabriel.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "28/09/2026"
-        },
-        {
-          "titulo": "Rochet se aproxima de retorno; veja situaÃ§Ã£o dos lesionados",
+          "titulo": "Rochet se aproxima de retorno: veja a situaÃ§Ã£o dos lesionados",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/27/rochet-se-aproxima-de-retorno-ao-inter-veja-a-situacao-dos-lesionados-do-elenco.ghtml",
           "imagem": "",
@@ -1504,20 +1496,20 @@
           "dataFmt": "27/09/2026"
         },
         {
-          "titulo": "Como Eduardo Baptista pretende melhorar um dos piores ataques do BrasileirÃ£o",
+          "titulo": "A situaÃ§Ã£o de Victor Gabriel para possÃ­vel liberaÃ§Ã£o antecipada",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/28/indefinicao-sobre-retorno-de-pec-trava-tentativa-do-inter-de-liberar-victor-gabriel.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "28/09/2026"
+        },
+        {
+          "titulo": "Como Eduardo Baptista pretende fazer o Inter melhorar um dos piores ataques do BrasileirÃ£o",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/26/como-eduardo-baptista-pretende-fazer-o-inter-melhorar-um-dos-piores-ataques-do-brasileirao.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "26/09/2026"
-        },
-        {
-          "titulo": "Confira o calendÃ¡rio na luta para evitar o rebaixamento",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/01/12/estatisticas-do-inter-em-2026-veja-campanha-artilheiros-e-videos.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "12/01/2026"
         }
       ],
       "Mirassol": [
@@ -1726,33 +1718,17 @@
           "dataFmt": "27/09/2026"
         },
         {
-          "titulo": "Vasco encaminha oferta de Lamacchia aos conselhos",
+          "titulo": "Vasco x Flamengo em SÃ£o JanuÃ¡rio: entenda o pedido de Pedrinho e os vetos recentes do Bepe",
           "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/25/vasco-encaminha-proposta-de-lamacchia-aos-conselhos-e-solicita-convocacao.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "25/09/2026"
-        },
-        {
-          "titulo": "Empresa Lamacchia vence leilÃ£o para assumir a SAF",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/25/empresa-de-marcos-lamacchia-vence-leilao-e-da-passo-decisivo-para-assumir-a-saf-do-vasco.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "25/09/2026"
-        },
-        {
-          "titulo": "Bastidores: leilÃ£o Ã© comemorado, mas petiÃ§Ã£o em audiÃªncia surpreende",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/26/bastidores-leilao-da-saf-e-comemorado-mas-peticao-em-audiencia-surpreende-o-vasco.ghtml",
+          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/26/vasco-x-flamengo-em-sao-januario-entenda-o-pedido-de-pedrinho-e-os-vetos-recentes-do-bepe.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "26/09/2026"
         },
         {
-          "titulo": "Vasco x Flamengo em SÃ£o JanuÃ¡rio: entenda o pedido de Pedrinho e os vetos recentes do Bepe",
+          "titulo": "Bastidores: leilÃ£o da SAF Ã© comemorado, mas petiÃ§Ã£o em audiÃªncia surpreende o Vasco",
           "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/26/vasco-x-flamengo-em-sao-januario-entenda-o-pedido-de-pedrinho-e-os-vetos-recentes-do-bepe.ghtml",
+          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/09/26/bastidores-leilao-da-saf-e-comemorado-mas-peticao-em-audiencia-surpreende-o-vasco.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "26/09/2026"
@@ -2069,12 +2045,20 @@
   "ufc": {
     "geral": [
       {
-        "titulo": "Raoni Barcelos tranquiliza fãs após susto no UFC: “Estou super bem”",
+        "titulo": "Campeã peso-pena da WBO processa empresa de Jake Paul e pede mais de 10 milhões de dólares",
+        "resumo": "",
+        "url": "https://ge.globo.com/combate/noticia/2026/09/28/campea-peso-pena-da-wbo-processa-empresa-de-jake-paul-e-pede-mais-de-10-milhoes-de-dolares.ghtml",
+        "imagem": "",
+        "data": "2026-09-28T22:26:36+00:00",
+        "dataFmt": "28/09/2026 22:26"
+      },
+      {
+        "titulo": "Raoni Barcelos tranquiliza fÃ£s apÃ³s susto no UFC: âEstou super bemâ",
         "resumo": "",
         "url": "https://ge.globo.com/combate/noticia/2026/09/28/raoni-barcelos-tranquiliza-fas-apos-susto-no-ufc-estou-super-bem.ghtml",
         "imagem": "",
-        "data": "2026-09-28T17:43:06+00:00",
-        "dataFmt": "28/09/2026 17:43"
+        "data": "",
+        "dataFmt": "28/09/2026"
       },
       {
         "titulo": "Darren Till vence Romero no boxe sem luvas em luta de ex-UFCs",
@@ -2176,14 +2160,6 @@
         "titulo": "Luta entre Tyson Fury e Anthony Joshua Ã© confirmada para dezembro",
         "resumo": "",
         "url": "https://ge.globo.com/combate/noticia/2026/09/24/luta-entre-tyson-fury-e-anthony-joshua-e-confirmada-para-dezembro.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "24/09/2026"
-      },
-      {
-        "titulo": "UFC BJJ: Mikey Musumeci explica ligaÃ§Ã£o com o Brasil e planos para o MMA",
-        "resumo": "",
-        "url": "https://ge.globo.com/combate/noticia/2026/09/24/ufc-bjj-mikey-musumeci-explica-ligacao-com-o-brasil-e-planos-para-o-mma.ghtml",
         "imagem": "",
         "data": "",
         "dataFmt": "24/09/2026"
