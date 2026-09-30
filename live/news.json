@@ -1,18 +1,98 @@
 {
   "meta": {
-    "atualizadoEm": "2026-09-29T23:53:37.810821+00:00",
+    "atualizadoEm": "2026-09-30T04:15:14.107841+00:00",
     "fonte": "ge.globo.com",
     "fonteUrl": "https://ge.globo.com/"
   },
   "futebol": {
     "geral": [
       {
-        "titulo": "Botafogo-SP x Ponte Preta - Campeonato Brasileiro Série B 2026 - Ao vivo - globoesporte.com",
+        "titulo": "Café e semblante fechado: imagens de CR7 antes de deixar treino viralizam",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/selecoes/portugal/noticia/2026/09/30/cafe-e-semblante-fechado-imagens-de-cr7-antes-de-deixar-treino-viralizam.ghtml",
+        "imagem": "",
+        "data": "2026-09-30T03:56:06+00:00",
+        "dataFmt": "30/09/2026 03:56"
+      },
+      {
+        "titulo": "Bastidores: após irritação por banco, Cristiano Ronaldo se reúne com Jorge Jesus",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/selecoes/portugal/noticia/2026/09/30/bastidores-apos-irritacao-por-banco-cristiano-ronaldo-se-reune-com-jorge-jesus.ghtml",
+        "imagem": "",
+        "data": "2026-09-30T03:33:09+00:00",
+        "dataFmt": "30/09/2026 03:33"
+      },
+      {
+        "titulo": "Raphinha é cortado da Seleção e não viaja para amistoso com a Índia",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/selecao-brasileira/noticia/2026/09/30/raphinha-e-cortado-da-selecao-e-nao-viaja-para-amistoso-com-a-india.ghtml",
+        "imagem": "",
+        "data": "2026-09-30T03:19:24+00:00",
+        "dataFmt": "30/09/2026 03:19"
+      },
+      {
+        "titulo": "Tencati destaca inteligência do Botafogo-SP contra Ponte e alerta: “Sequência pesada”",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/botafogo-sp/noticia/2026/09/29/tencati-destaca-inteligencia-do-botafogo-sp-contra-ponte-e-alerta-sequencia-pesada.ghtml",
+        "imagem": "",
+        "data": "2026-09-30T01:48:03+00:00",
+        "dataFmt": "30/09/2026 01:48"
+      },
+      {
+        "titulo": "Gilson Kleina adota discurso de \"reconstrução\" após nova derrota da Ponte na Série B",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/campinas-e-regiao/futebol/times/ponte-preta/noticia/2026/09/29/gilson-kleina-adota-discurso-de-reconstrucao-apos-nova-derrota-da-ponte-na-serie-b.ghtml",
+        "imagem": "",
+        "data": "2026-09-30T01:29:41+00:00",
+        "dataFmt": "30/09/2026 01:29"
+      },
+      {
+        "titulo": "Botafogo-SP bate lanterna Ponte e volta a vencer após sete rodadas na Série B",
         "resumo": "",
         "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/brasileirao-serie-b/jogo/29-09-2026/botafogo-sp-ponte-preta.ghtml",
         "imagem": "",
-        "data": "2026-09-29T23:50:36+00:00",
-        "dataFmt": "29/09/2026 23:50"
+        "data": "2026-09-30T01:20:07+00:00",
+        "dataFmt": "30/09/2026 01:20"
+      },
+      {
+        "titulo": "Ponte pode ter rebaixamento sacramentado na Série B com sete rodadas de antecedência",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/campinas-e-regiao/futebol/times/ponte-preta/noticia/2026/09/29/ponte-pode-ter-rebaixamento-sacramentado-na-serie-b-com-sete-rodadas-de-antecedencia.ghtml",
+        "imagem": "",
+        "data": "2026-09-30T01:14:38+00:00",
+        "dataFmt": "30/09/2026 01:14"
+      },
+      {
+        "titulo": "Atuações da Ponte: Vinicius evita goleada em Ribeirão Preto; dê suas notas",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/campinas-e-regiao/futebol/times/ponte-preta/noticia/2026/09/29/atuacoes-da-ponte-vinicius-evita-goleada-em-ribeirao-preto-de-suas-notas.ghtml",
+        "imagem": "",
+        "data": "2026-09-30T01:04:42+00:00",
+        "dataFmt": "30/09/2026 01:04"
+      },
+      {
+        "titulo": "Fillipe Soutto passa mal durante jogo do Botafogo-SP e é levado a hospital de ambulância",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/botafogo-sp/noticia/2026/09/29/fillipe-soutto-passa-mal-durante-jogo-do-botafogo-sp-e-e-levado-a-hospital-de-ambulancia.ghtml",
+        "imagem": "",
+        "data": "2026-09-30T01:01:09+00:00",
+        "dataFmt": "30/09/2026 01:01"
+      },
+      {
+        "titulo": "Brasil vira sobre a Austrália em jogo de seis gols e vence amistoso em Brisbane",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/selecao-brasileira/jogo/29-09-2026/australia-brasil.ghtml",
+        "imagem": "",
+        "data": "2026-09-30T00:47:49+00:00",
+        "dataFmt": "30/09/2026 00:47"
+      },
+      {
+        "titulo": "Atuações do Botafogo-SP: Zé Hugo, Brey e Gava comandam vitória; dê suas notas",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/botafogo-sp/noticia/2026/09/29/atuacoes-do-botafogo-sp-ze-hugo-brey-e-gava-comandam-vitoria-de-suas-notas.ghtml",
+        "imagem": "",
+        "data": "2026-09-30T00:28:14+00:00",
+        "dataFmt": "30/09/2026 00:28"
       },
       {
         "titulo": "ASA aguarda definições do mercado antes de buscar um novo centroavante",
@@ -85,86 +165,6 @@
         "imagem": "",
         "data": "2026-09-29T22:17:08+00:00",
         "dataFmt": "29/09/2026 22:17"
-      },
-      {
-        "titulo": "Ramon, Mateus Silva e Edu fazem trabalho de transição em treino do Vitória",
-        "resumo": "",
-        "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/09/29/ramon-mateus-silva-e-edu-fazem-trabalho-de-transicao-em-treino-do-vitoria.ghtml",
-        "imagem": "",
-        "data": "2026-09-29T21:58:30+00:00",
-        "dataFmt": "29/09/2026 21:58"
-      },
-      {
-        "titulo": "Novo chefe da arbitragem no TO, ex-Fifa Fábio Pereira teve polêmica com Atlético-MG e Fluminense na carreira",
-        "resumo": "",
-        "url": "https://ge.globo.com/to/futebol/noticia/2026/09/29/novo-chefe-da-arbitragem-no-to-ex-fifa-fabio-pereira-teve-polemica-com-atletico-mg-e-fluminense-na-carreira.ghtml",
-        "imagem": "",
-        "data": "2026-09-29T21:58:10+00:00",
-        "dataFmt": "29/09/2026 21:58"
-      },
-      {
-        "titulo": "Maringá abre mão de ingressos, e Santa Cruz libera mais um setor na Arena de Pernambuco",
-        "resumo": "",
-        "url": "https://ge.globo.com/pe/futebol/times/santa-cruz/noticia/2026/09/29/maringa-abre-mao-de-ingressos-e-santa-cruz-libera-mais-um-setor-na-arena-de-pernambuco.ghtml",
-        "imagem": "",
-        "data": "2026-09-29T21:50:10+00:00",
-        "dataFmt": "29/09/2026 21:50"
-      },
-      {
-        "titulo": "Escalação: Cuca prepara Santos com mudanças e sem Neymar para o clássico contra o São Paulo",
-        "resumo": "",
-        "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/09/29/escalacao-cuca-prepara-santos-com-mudancas-e-sem-neymar-para-o-classico-contra-o-sao-paulo.ghtml",
-        "imagem": "",
-        "data": "2026-09-29T21:47:49+00:00",
-        "dataFmt": "29/09/2026 21:47"
-      },
-      {
-        "titulo": "Cristiano Ronaldo deixa treino de Portugal, e presidente da federação viaja para aparar arestas",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/09/29/cristiano-ronaldo-deixa-treino-de-portugal-e-presidente-da-federacao-viaja-para-aparar-arestas.ghtml",
-        "imagem": "",
-        "data": "2026-09-29T21:47:33+00:00",
-        "dataFmt": "29/09/2026 21:47"
-      },
-      {
-        "titulo": "Escalação do CRB: Kevin treina, e Matias deve fazer apenas uma mudança contra o São Bernardo",
-        "resumo": "",
-        "url": "https://ge.globo.com/al/futebol/times/crb/noticia/2026/09/29/escalacao-do-crb-kevin-treina-e-matias-deve-fazer-apenas-uma-mudanca-contra-o-sao-bernardo.ghtml",
-        "imagem": "",
-        "data": "2026-09-29T21:43:48+00:00",
-        "dataFmt": "29/09/2026 21:43"
-      },
-      {
-        "titulo": "Diego Hernández desfalca o Sport contra o Athletic-MG",
-        "resumo": "",
-        "url": "https://ge.globo.com/pe/futebol/times/sport/noticia/2026/09/29/diego-hernandez-desfalca-o-sport-contra-o-athletic-mg.ghtml",
-        "imagem": "",
-        "data": "2026-09-29T21:41:56+00:00",
-        "dataFmt": "29/09/2026 21:41"
-      },
-      {
-        "titulo": "Cuiabá estreia camisa em campanha de conscientização do Outubro Rosa na Série B",
-        "resumo": "",
-        "url": "https://ge.globo.com/mt/futebol/brasileirao-serie-b/noticia/2026/09/29/cuiaba-estreia-camisa-em-campanha-de-conscientizacao-do-outubro-rosa-na-serie-b.ghtml",
-        "imagem": "",
-        "data": "2026-09-29T21:31:52+00:00",
-        "dataFmt": "29/09/2026 21:31"
-      },
-      {
-        "titulo": "Técnico do QFC celebra título do Campeonato Potiguar Sub-20: \"Volta por cima\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/rn/futebol/times/qfc/noticia/2026/09/29/tecnico-do-qfc-celebra-titulo-do-campeonato-potiguar-sub-20-volta-por-cima.ghtml",
-        "imagem": "",
-        "data": "2026-09-29T21:17:13+00:00",
-        "dataFmt": "29/09/2026 21:17"
-      },
-      {
-        "titulo": "Análise: meio-campo encorpado dá vida ao Brasil e indica caminhos para Ancelotti neste início de ciclo",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/selecao-brasileira/noticia/2026/09/29/analise-meio-campo-encorpado-da-vida-ao-brasil-e-indica-caminhos-para-ancelotti-neste-inicio-de-ciclo.ghtml",
-        "imagem": "",
-        "data": "2026-09-29T21:10:50+00:00",
-        "dataFmt": "29/09/2026 21:10"
       }
     ],
     "times": {
@@ -178,17 +178,17 @@
           "dataFmt": "29/09/2026 22:38"
         },
         {
-          "titulo": "Treino do Palmeiras: Abel dá sequência à preparação para o jogo contra o Bahia",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/29/treino-do-palmeiras-em-recuperacao-paulinho-faz-exercicios-no-gramado.ghtml",
-          "imagem": "",
-          "data": "2026-09-29T17:24:42+00:00",
-          "dataFmt": "29/09/2026 17:24"
-        },
-        {
           "titulo": "Ainda sem venda de Allan, Palmeiras acumula quase R$ 200 milhÃµes em dÃ©ficit",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/29/ainda-sem-os-valores-da-venda-de-allan-palmeiras-acumula-r-196-milhoes-de-deficit-ate-agosto.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "29/09/2026"
+        },
+        {
+          "titulo": "Treino: Abel dÃ¡ sequÃªncia Ã  preparaÃ§Ã£o para o jogo contra o Bahia",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/29/treino-do-palmeiras-em-recuperacao-paulinho-faz-exercicios-no-gramado.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "29/09/2026"
@@ -480,25 +480,25 @@
           "dataFmt": "29/09/2026 21:58"
         },
         {
-          "titulo": "Veja como foi a estreia de Martinelli, do Fluminense, na Seleção",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/29/veja-como-foi-a-estreia-de-martinelli-do-fluminense-na-selecao.ghtml",
-          "imagem": "",
-          "data": "2026-09-29T17:35:56+00:00",
-          "dataFmt": "29/09/2026 17:35"
-        },
-        {
-          "titulo": "Thiago Silva volta ao Brasil para se reapresentar ao Fluminense e desabafa: \"Nunca é fácil deixar a família\"",
+          "titulo": "Thiago Silva volta ao Brasil para se reapresentar ao Fluminense e desabafa: \"Nunca Ã© fÃ¡cil deixar a famÃ­lia\"",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/29/thiago-silva-volta-ao-brasil-para-se-reapresentar-ao-fluminense-e-desabafa-nunca-e-facil-deixar-a-familia.ghtml",
           "imagem": "",
-          "data": "2026-09-29T17:23:31+00:00",
-          "dataFmt": "29/09/2026 17:23"
+          "data": "",
+          "dataFmt": "29/09/2026"
         },
         {
           "titulo": "Cano parabeniza Martinelli por estreia: \"Muito orgulho de vocÃª\"",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/29/german-cano-parabeniza-martinelli-do-fluminense-por-estreia-na-selecao-muito-orgulho-de-voce.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "29/09/2026"
+        },
+        {
+          "titulo": "Veja como foi a estreia de Martinelli, do Fluminense, na SeleÃ§Ã£o",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/09/29/veja-como-foi-a-estreia-de-martinelli-do-fluminense-na-selecao.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "29/09/2026"
@@ -568,22 +568,6 @@
           "imagem": "",
           "data": "2026-09-29T20:13:43+00:00",
           "dataFmt": "29/09/2026 20:13"
-        },
-        {
-          "titulo": "Governo de Minas anuncia ajuda de R$ 30 milhões a Atlético-MG e Cruzeiro após saída de \"bets\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/mg/futebol/noticia/2026/09/29/governo-de-minas-anuncia-ajuda-de-r-30-milhoes-a-atletico-mg-e-cruzeiro-apos-saida-de-bets.ghtml",
-          "imagem": "",
-          "data": "2026-09-29T16:50:59+00:00",
-          "dataFmt": "29/09/2026 16:50"
-        },
-        {
-          "titulo": "Ingressos a venda para a Supercopa Masculina de Vôlei entre Cruzeiro e Campinas",
-          "resumo": "",
-          "url": "https://ge.globo.com/sc/volei/noticia/2026/09/29/ingressos-a-venda-para-a-supercopa-masculina-de-volei-entre-cruzeiro-e-campinas.ghtml",
-          "imagem": "",
-          "data": "2026-09-29T16:50:13+00:00",
-          "dataFmt": "29/09/2026 16:50"
         },
         {
           "titulo": "Entenda o que pesa para a volta (ou nÃ£o) de Gabigol",
@@ -658,14 +642,6 @@
           "imagem": "",
           "data": "2026-09-29T19:09:23+00:00",
           "dataFmt": "29/09/2026 19:09"
-        },
-        {
-          "titulo": "Treino do Palmeiras: Abel dá sequência à preparação para o jogo contra o Bahia",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/09/29/treino-do-palmeiras-em-recuperacao-paulinho-faz-exercicios-no-gramado.ghtml",
-          "imagem": "",
-          "data": "2026-09-29T17:24:42+00:00",
-          "dataFmt": "29/09/2026 17:24"
         },
         {
           "titulo": "Com Michel Araujo na transiÃ§Ã£o, Bahia treina para pegar o Palmeiras",
@@ -874,14 +850,6 @@
           "dataFmt": "29/09/2026 19:41"
         },
         {
-          "titulo": "Governo de Minas anuncia ajuda de R$ 30 milhões a Atlético-MG e Cruzeiro após saída de \"bets\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/mg/futebol/noticia/2026/09/29/governo-de-minas-anuncia-ajuda-de-r-30-milhoes-a-atletico-mg-e-cruzeiro-apos-saida-de-bets.ghtml",
-          "imagem": "",
-          "data": "2026-09-29T16:50:59+00:00",
-          "dataFmt": "29/09/2026 16:50"
-        },
-        {
           "titulo": "Libertadores via Brasileiro? Galo tem sequÃªncia decisiva em outubro",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/29/libertadores-via-brasileiro-atletico-mg-tem-sequencia-decisiva-em-outubro-veja-contas.ghtml",
@@ -941,6 +909,14 @@
           "titulo": "Galeitura: como Scarpa furou a bolha, influenciou clubes do livro de torcidas e virou destaque mundial",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/25/galeitura-como-scarpa-furou-a-bolha-influenciou-clubes-do-livro-de-torcidas-e-virou-destaque-mundial.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "25/09/2026"
+        },
+        {
+          "titulo": "Zagueiro do AtlÃ©tico-MG comenta relaÃ§Ã£o com DomÃ­nguez, e famÃ­lia celebra gol em FÃ¡bio: \"Ã mais gostoso\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/09/25/zagueiro-do-atletico-mg-comenta-relacao-com-dominguez-e-familia-celebra-gol-em-fabio-e-mais-gostoso.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "25/09/2026"
@@ -1046,12 +1022,36 @@
       ],
       "Botafogo": [
         {
-          "titulo": "Botafogo-SP x Ponte Preta - Campeonato Brasileiro Série B 2026 - Ao vivo - globoesporte.com",
+          "titulo": "Tencati destaca inteligência do Botafogo-SP contra Ponte e alerta: “Sequência pesada”",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/botafogo-sp/noticia/2026/09/29/tencati-destaca-inteligencia-do-botafogo-sp-contra-ponte-e-alerta-sequencia-pesada.ghtml",
+          "imagem": "",
+          "data": "2026-09-30T01:48:03+00:00",
+          "dataFmt": "30/09/2026 01:48"
+        },
+        {
+          "titulo": "Botafogo-SP bate lanterna Ponte e volta a vencer após sete rodadas na Série B",
           "resumo": "",
           "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/brasileirao-serie-b/jogo/29-09-2026/botafogo-sp-ponte-preta.ghtml",
           "imagem": "",
-          "data": "2026-09-29T23:50:36+00:00",
-          "dataFmt": "29/09/2026 23:50"
+          "data": "2026-09-30T01:20:07+00:00",
+          "dataFmt": "30/09/2026 01:20"
+        },
+        {
+          "titulo": "Fillipe Soutto passa mal durante jogo do Botafogo-SP e é levado a hospital de ambulância",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/botafogo-sp/noticia/2026/09/29/fillipe-soutto-passa-mal-durante-jogo-do-botafogo-sp-e-e-levado-a-hospital-de-ambulancia.ghtml",
+          "imagem": "",
+          "data": "2026-09-30T01:01:09+00:00",
+          "dataFmt": "30/09/2026 01:01"
+        },
+        {
+          "titulo": "Atuações do Botafogo-SP: Zé Hugo, Brey e Gava comandam vitória; dê suas notas",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/botafogo-sp/noticia/2026/09/29/atuacoes-do-botafogo-sp-ze-hugo-brey-e-gava-comandam-vitoria-de-suas-notas.ghtml",
+          "imagem": "",
+          "data": "2026-09-30T00:28:14+00:00",
+          "dataFmt": "30/09/2026 00:28"
         },
         {
           "titulo": "Tite ganha tempo, testa peças e prepara novas ideias para o Botafogo na Data Fifa",
@@ -1076,14 +1076,6 @@
           "imagem": "",
           "data": "2026-09-29T18:15:25+00:00",
           "dataFmt": "29/09/2026 18:15"
-        },
-        {
-          "titulo": "Irmã de Alex Telles, do Botafogo, encara desafio como CEO de clube: \"Não basta ter o sobrenome\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/noticia/2026/09/29/irma-de-alex-telles-do-botafogo-encara-desafio-como-ceo-de-clube-nao-basta-ter-o-sobrenome.ghtml",
-          "imagem": "",
-          "data": "2026-09-29T16:47:40+00:00",
-          "dataFmt": "29/09/2026 16:47"
         },
         {
           "titulo": "Paulinho destaca disputa por posiÃ§Ã£o e elogia Telles: \"Cara de carÃ¡ter\"",
@@ -1124,25 +1116,17 @@
           "imagem": "",
           "data": "",
           "dataFmt": "27/09/2026"
-        },
-        {
-          "titulo": "DÃ¡ para sonhar? Veja do que o Botafogo precisa para ir Ã  Liberta",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/27/da-para-sonhar-veja-do-que-o-botafogo-precisa-para-ir-a-libertadores-em-2027.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "27/09/2026"
-        },
-        {
-          "titulo": "Ex-lateral adota perfil sincerÃ£o nas redes: \"Sou hater de mim mesmo\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/27/ex-lateral-lucas-do-botafogo-adota-perfil-sincerao-nas-redes-e-brinca-sobre-videos-sou-hater-de-mim-mesmo.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "27/09/2026"
         }
       ],
       "Vitoria": [
+        {
+          "titulo": "Atuações do Botafogo-SP: Zé Hugo, Brey e Gava comandam vitória; dê suas notas",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/botafogo-sp/noticia/2026/09/29/atuacoes-do-botafogo-sp-ze-hugo-brey-e-gava-comandam-vitoria-de-suas-notas.ghtml",
+          "imagem": "",
+          "data": "2026-09-30T00:28:14+00:00",
+          "dataFmt": "30/09/2026 00:28"
+        },
         {
           "titulo": "Ramon, Mateus Silva e Edu fazem trabalho de transição em treino do Vitória",
           "resumo": "",
@@ -1158,14 +1142,6 @@
           "imagem": "",
           "data": "2026-09-29T21:52:01+00:00",
           "dataFmt": "29/09/2026 21:52"
-        },
-        {
-          "titulo": "Vitória-ES avança em nova etapa das obras no gramado do Salvador Costa",
-          "resumo": "",
-          "url": "https://ge.globo.com/es/futebol/copa-espirito-santo/noticia/2026/09/29/vitoria-es-avanca-em-nova-etapa-das-obras-no-gramado-do-salvador-costa.ghtml",
-          "imagem": "",
-          "data": "2026-09-29T17:00:50+00:00",
-          "dataFmt": "29/09/2026 17:00"
         },
         {
           "titulo": "Tarzia ganha sequÃªncia como titular, mas vive maior jejum de gols",
@@ -1430,14 +1406,6 @@
       ],
       "Gremio": [
         {
-          "titulo": "Cria do Grêmio, mato-grossense Vanderson faz primeiro gol pela seleção brasileira",
-          "resumo": "",
-          "url": "https://ge.globo.com/mt/futebol/noticia/2026/09/29/cria-do-gremio-mato-grossense-vanderson-faz-primeiro-gol-pela-selecao-brasileira.ghtml",
-          "imagem": "",
-          "data": "2026-09-29T16:26:53+00:00",
-          "dataFmt": "29/09/2026 16:26"
-        },
-        {
           "titulo": "Meia vive indefiniÃ§Ã£o com a chegada de Renato; entenda",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/09/29/meia-vive-indefinicao-no-gremio-com-a-chegada-de-renato-entenda.ghtml",
@@ -1576,14 +1544,6 @@
           "dataFmt": "29/09/2026 17:55"
         },
         {
-          "titulo": "Projeto incentiva prática do Kung Fu e busca apoio para disputa de competição internacional",
-          "resumo": "",
-          "url": "https://ge.globo.com/pi/noticia/2026/09/29/projeto-incentiva-pratica-do-kung-fu-e-busca-apoio-para-disputa-de-competicao-internacional.ghtml",
-          "imagem": "",
-          "data": "2026-09-29T17:06:14+00:00",
-          "dataFmt": "29/09/2026 17:06"
-        },
-        {
           "titulo": "Veja como estÃ¡ a situaÃ§Ã£o dos reforÃ§os do Inter do 2Âº semestre",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/29/reforcos-do-inter-no-segundo-semestre-veja-a-situacao-de-cada-um-dos-cinco-reforcos.ghtml",
@@ -1622,6 +1582,14 @@
           "imagem": "",
           "data": "",
           "dataFmt": "28/09/2026"
+        },
+        {
+          "titulo": "Como Eduardo Baptista pretende fazer o Inter melhorar um dos piores ataques do BrasileirÃ£o",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/09/26/como-eduardo-baptista-pretende-fazer-o-inter-melhorar-um-dos-piores-ataques-do-brasileirao.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "26/09/2026"
         }
       ],
       "Mirassol": [
@@ -1949,12 +1917,12 @@
   "tenis": {
     "geral": [
       {
-        "titulo": "João Fonseca é confirmado e vai disputar o Rio Open pela quinta vez",
+        "titulo": "JoÃ£o Fonseca Ã© confirmado e vai disputar o Rio Open pela quinta vez",
         "resumo": "",
         "url": "https://ge.globo.com/tenis/rio-open/noticia/2026/09/29/joao-fonseca-e-confirmado-e-vai-disputar-o-rio-open-pela-quinta-vez.ghtml",
         "imagem": "",
-        "data": "2026-09-29T16:48:33+00:00",
-        "dataFmt": "29/09/2026 16:48"
+        "data": "",
+        "dataFmt": "29/09/2026"
       },
       {
         "titulo": "Alcaraz fatura mais de R$ 10 milhÃµes com participaÃ§Ã£o na Laver Cup; veja valores",
@@ -2072,6 +2040,22 @@
   },
   "basquete": {
     "geral": [
+      {
+        "titulo": "Franca x Mogi na final do Paulista de basquete: veja dias e horários dos jogos",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/09/29/franca-x-mogi-na-final-do-paulista-de-basquete-veja-dias-e-horarios-dos-jogos.ghtml",
+        "imagem": "",
+        "data": "2026-09-30T01:33:01+00:00",
+        "dataFmt": "30/09/2026 01:33"
+      },
+      {
+        "titulo": "Franca segura reação do Paulistano no fim, vence e vai decidir final estadual com Mogi",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/09/29/franca-segura-reacao-do-paulistano-no-fim-vence-e-vai-decidir-final-estadual-com-mogi.ghtml",
+        "imagem": "",
+        "data": "2026-09-30T01:23:12+00:00",
+        "dataFmt": "30/09/2026 01:23"
+      },
       {
         "titulo": "Paraibano de Basquete 2026 sofre mudanÃ§a no regulamento, e a final serÃ¡ em jogo Ãºnico; entenda",
         "resumo": "",
