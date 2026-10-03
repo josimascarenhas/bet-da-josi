@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-03T12:49:39-03:00",
+    "atualizadoEm": "2026-10-03T16:02:10-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 383,
     "timesAtualizados": 118,
@@ -711,7 +711,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Com ClÃ¡udia, Cruzeiro chega a quase um ",
+          "jogador": "Cruzeiro tem desfalque em treino aberto,",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1579,6 +1579,11 @@
         "golsContra": 27
       },
       "desfalques": [
+        {
+          "jogador": "Cruzeiro tem desfalque em treino aberto,",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Alerta no DM",
           "motivo": "notícia GE",
