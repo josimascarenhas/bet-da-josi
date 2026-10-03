@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-03T16:02:10-03:00",
+    "atualizadoEm": "2026-10-03T19:19:57-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 383,
     "timesAtualizados": 118,
@@ -1131,7 +1131,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Meia Ã© liberado, mas DomÃ­nguez tem qua",
+          "jogador": "EscalaÃ§Ã£o do AtlÃ©tico-MG",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1581,11 +1581,6 @@
       "desfalques": [
         {
           "jogador": "Cruzeiro tem desfalque em treino aberto,",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Alerta no DM",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
