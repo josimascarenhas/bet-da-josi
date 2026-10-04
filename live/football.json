@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-04T10:44:33-03:00",
+    "atualizadoEm": "2026-10-04T15:00:04-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 383,
     "timesAtualizados": 118,
@@ -234,7 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Abel é suspenso por expulsão na Libertad",
+          "jogador": "Treino",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -595,9 +595,9 @@
       },
       "desfalques": [
         {
-          "jogador": "Cano evolui em recuperação de lesão e fa",
+          "jogador": "Intensidade, desfalques e gol de Castill",
           "motivo": "notícia GE",
-          "impacto": "alto"
+          "impacto": "medio"
         }
       ],
       "retornando": [],
@@ -852,7 +852,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Odair Hellmann é punido com quatro jogos",
+          "jogador": "Treino",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
