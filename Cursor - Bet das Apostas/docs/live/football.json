@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-05T12:08:06-03:00",
+    "atualizadoEm": "2026-10-05T19:08:12-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 383,
     "timesAtualizados": 118,
@@ -234,7 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Palmeiras se reapresenta com 11 desfalqu",
+          "jogador": "Treino",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -375,12 +375,17 @@
       },
       "desfalques": [
         {
-          "jogador": "Comercial-PI tem desfalque no meio e vol",
+          "jogador": "Comercial-PI segue preparação para decis",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
         {
-          "jogador": "Santos tem dúvidas no time para enfrenta",
+          "jogador": "Arthur tem lesão na coxa direita e desfa",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Varela e Valencia voltam quarta e devem ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -600,7 +605,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Intensidade, desfalques e gol de Castill",
+          "jogador": "Além de Renê, Fluminense terá outros doi",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Intensidade, bola aÃ©rea, desfalques e e",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -715,6 +725,11 @@
         "golsContra": 44
       },
       "desfalques": [
+        {
+          "jogador": "São Paulo retoma preparação para enfrent",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Cruzeiro tem desfalque em treino aberto,",
           "motivo": "notícia GE",
@@ -857,7 +872,7 @@
       },
       "desfalques": [
         {
-          "jogador": "De volta após suspensão, Kike Olivera ga",
+          "jogador": "De volta apÃ³s suspensÃ£o, Kike ganha se",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1043,7 +1058,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Coritiba deixa o Athletiba com dois prob",
+          "jogador": "Além de Renê, Fluminense terá outros doi",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1585,7 +1600,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Até 10 opções",
+          "jogador": "São Paulo retoma preparação para enfrent",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "AtÃ© 10 opÃ§Ãµes",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1678,7 +1698,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Santos tem dúvidas no time para enfrenta",
+          "jogador": "Arthur tem lesão na coxa direita e desfa",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1798,7 +1818,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Jovane Cabral sofre lesão com Cabo Verde",
+          "jogador": "Jovane Cabral sofre lesÃ£o por Cabo Verd",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
