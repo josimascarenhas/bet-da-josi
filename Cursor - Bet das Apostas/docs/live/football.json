@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-06T13:08:54-03:00",
+    "atualizadoEm": "2026-10-06T18:08:01-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 383,
     "timesAtualizados": 118,
@@ -1136,7 +1136,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do AtlÃ©tico-MG",
+          "jogador": "Atacante do Atlético-MG tem lesão diagno",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1588,6 +1588,11 @@
           "jogador": "AtÃ© 10 opÃ§Ãµes",
           "motivo": "notícia GE",
           "impacto": "medio"
+        },
+        {
+          "jogador": "SÃ£o Paulo retoma preparaÃ§Ã£o para enfr",
+          "motivo": "notícia GE",
+          "impacto": "medio"
         }
       ],
       "retornando": [],
@@ -1798,7 +1803,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Jovane Cabral sofre lesÃ£o por Cabo Verd",
+          "jogador": "Grêmio tem retorno e desfalques contra o",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1912,7 +1917,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Caso Cristiano Ronaldo",
+          "jogador": "Pleno do STJD reduz suspensÃ£o de execut",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2142,7 +2147,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Jovane Cabral sofre lesão com Cabo Verde",
+          "jogador": "Grêmio tem retorno e desfalques contra o",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
