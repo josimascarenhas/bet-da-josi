@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-07T11:15:27-03:00",
+    "atualizadoEm": "2026-10-07T17:04:43-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 383,
     "timesAtualizados": 118,
@@ -491,12 +491,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Odair pega quatro jogos de suspensÃ£o po",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Odair acumula suspensÃµes; veja aproveit",
+          "jogador": "Escalação do Atlético-MG",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1130,6 +1125,11 @@
         "golsContra": 27
       },
       "desfalques": [
+        {
+          "jogador": "Escalação do Atlético-MG",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Desfalque",
           "motivo": "notícia GE",
