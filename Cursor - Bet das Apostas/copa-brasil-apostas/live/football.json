@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-07T17:04:43-03:00",
+    "atualizadoEm": "2026-10-07T21:19:45-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 383,
+    "jogosFinalizados": 386,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + openligadb.de"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -12,18 +12,18 @@
       "timesAtivos": [
         "Palmeiras",
         "Flamengo",
-        "Athletico-PR",
         "Fluminense",
+        "Athletico-PR",
         "Bahia",
         "Cruzeiro",
         "Coritiba",
         "Bragantino",
         "Vitoria",
+        "Botafogo",
         "Corinthians",
+        "Santos",
         "Atletico-MG",
         "Gremio",
-        "Botafogo",
-        "Santos",
         "Mirassol",
         "Internacional",
         "Remo",
@@ -369,9 +369,9 @@
         },
         "vitorias": 15,
         "empates": 6,
-        "derrotas": 5,
-        "golsPro": 55,
-        "golsContra": 28
+        "derrotas": 6,
+        "golsPro": 56,
+        "golsContra": 31
       },
       "desfalques": [
         {
@@ -455,7 +455,7 @@
     },
     "Athletico-PR": {
       "brasileirao": {
-        "posicao": 3,
+        "posicao": 4,
         "pontos": 48,
         "ultimos5": [
           "V 2-0 INT",
@@ -490,6 +490,11 @@
         "golsContra": 29
       },
       "desfalques": [
+        {
+          "jogador": "Escalação",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Escalação do Atlético-MG",
           "motivo": "notícia GE",
@@ -554,8 +559,8 @@
     },
     "Fluminense": {
       "brasileirao": {
-        "posicao": 4,
-        "pontos": 48,
+        "posicao": 3,
+        "pontos": 51,
         "ultimos5": [
           "E 1-1",
           "E 0-0 BAH",
@@ -582,11 +587,11 @@
           "gpg": 1.18,
           "gsg": 1.36
         },
-        "vitorias": 13,
+        "vitorias": 14,
         "empates": 9,
         "derrotas": 5,
-        "golsPro": 42,
-        "golsContra": 32
+        "golsPro": 45,
+        "golsContra": 33
       },
       "desfalques": [
         {
@@ -1027,9 +1032,9 @@
         },
         "vitorias": 10,
         "empates": 7,
-        "derrotas": 10,
-        "golsPro": 34,
-        "golsContra": 40
+        "derrotas": 11,
+        "golsPro": 35,
+        "golsContra": 43
       },
       "desfalques": [
         {
@@ -1090,7 +1095,7 @@
     },
     "Atletico-MG": {
       "brasileirao": {
-        "posicao": 11,
+        "posicao": 13,
         "pontos": 33,
         "ultimos5": [
           "E 1-1 BAH",
@@ -1125,6 +1130,11 @@
         "golsContra": 27
       },
       "desfalques": [
+        {
+          "jogador": "Escalação",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Escalação do Atlético-MG",
           "motivo": "notícia GE",
@@ -1215,7 +1225,7 @@
     },
     "Corinthians": {
       "brasileirao": {
-        "posicao": 10,
+        "posicao": 11,
         "pontos": 35,
         "ultimos5": [
           "E 1-1",
@@ -1331,8 +1341,8 @@
     },
     "Botafogo": {
       "brasileirao": {
-        "posicao": 13,
-        "pontos": 32,
+        "posicao": 10,
+        "pontos": 35,
         "ultimos5": [
           "E 0-0 VIT",
           "V 1-0",
@@ -1359,10 +1369,10 @@
           "gpg": 1.42,
           "gsg": 1.67
         },
-        "vitorias": 8,
+        "vitorias": 9,
         "empates": 8,
         "derrotas": 11,
-        "golsPro": 38,
+        "golsPro": 40,
         "golsContra": 43
       },
       "desfalques": [
@@ -1637,8 +1647,8 @@
     },
     "Santos": {
       "brasileirao": {
-        "posicao": 14,
-        "pontos": 32,
+        "posicao": 12,
+        "pontos": 35,
         "ultimos5": [
           "D 1-2",
           "E 2-2 CHA",
@@ -1665,11 +1675,11 @@
           "gpg": 1.5,
           "gsg": 1.9
         },
-        "vitorias": 8,
+        "vitorias": 9,
         "empates": 8,
         "derrotas": 11,
-        "golsPro": 37,
-        "golsContra": 43
+        "golsPro": 40,
+        "golsContra": 44
       },
       "desfalques": [
         {
@@ -1757,7 +1767,7 @@
     },
     "Gremio": {
       "brasileirao": {
-        "posicao": 12,
+        "posicao": 14,
         "pontos": 32,
         "ultimos5": [
           "D 1-2",
@@ -2224,9 +2234,9 @@
         },
         "vitorias": 7,
         "empates": 7,
-        "derrotas": 13,
+        "derrotas": 14,
         "golsPro": 32,
-        "golsContra": 43
+        "golsContra": 45
       },
       "desfalques": [
         {

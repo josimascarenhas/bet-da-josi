@@ -1,10 +1,34 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-07T17:04:40.469985-03:00",
+    "atualizadoEm": "2026-10-07T21:19:42.689904-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "br-29-Botafogo-Vasco",
+      "data": "2026-10-07",
+      "comp": "brasileirao",
+      "mandante": "Botafogo",
+      "visitante": "Vasco",
+      "placar": "2-0"
+    },
+    {
+      "id": "br-29-Fluminense-Coritiba",
+      "data": "2026-10-07",
+      "comp": "brasileirao",
+      "mandante": "Fluminense",
+      "visitante": "Coritiba",
+      "placar": "3-1"
+    },
+    {
+      "id": "br-29-Santos-Flamengo",
+      "data": "2026-10-07",
+      "comp": "brasileirao",
+      "mandante": "Santos",
+      "visitante": "Flamengo",
+      "placar": "3-1"
+    },
     {
       "id": "br-28-Vitoria-Cruzeiro",
       "data": "2026-09-21",
@@ -220,30 +244,6 @@
       "mandante": "Bragantino",
       "visitante": "Bahia",
       "placar": "3-2"
-    },
-    {
-      "id": "br-26-Coritiba-Mirassol",
-      "data": "2026-09-05",
-      "comp": "brasileirao",
-      "mandante": "Coritiba",
-      "visitante": "Mirassol",
-      "placar": "1-2"
-    },
-    {
-      "id": "br-26-Fluminense-Vasco",
-      "data": "2026-09-05",
-      "comp": "brasileirao",
-      "mandante": "Fluminense",
-      "visitante": "Vasco",
-      "placar": "1-0"
-    },
-    {
-      "id": "copa-q-gre-int-vol",
-      "data": "2026-09-03",
-      "comp": "copa",
-      "mandante": "Gremio",
-      "visitante": "Internacional",
-      "placar": "2-1"
     }
   ]
 }
