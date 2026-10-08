@@ -1,10 +1,18 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-08T10:55:51.183870-03:00",
+    "atualizadoEm": "2026-10-08T16:41:20.230295-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "br-29-Vitoria-Chapecoense",
+      "data": "2026-10-08",
+      "comp": "brasileirao",
+      "mandante": "Vitoria",
+      "visitante": "Chapecoense",
+      "placar": "4-0"
+    },
     {
       "id": "br-29-Botafogo-Vasco",
       "data": "2026-10-07",
@@ -236,14 +244,6 @@
       "mandante": "Botafogo",
       "visitante": "Palmeiras",
       "placar": "0-0"
-    },
-    {
-      "id": "br-26-Corinthians-Chapecoense",
-      "data": "2026-09-06",
-      "comp": "brasileirao",
-      "mandante": "Corinthians",
-      "visitante": "Chapecoense",
-      "placar": "2-1"
     }
   ]
 }

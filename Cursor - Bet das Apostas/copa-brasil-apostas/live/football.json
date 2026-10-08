@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-08T10:55:54-03:00",
+    "atualizadoEm": "2026-10-08T16:41:22-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 387,
+    "jogosFinalizados": 388,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + openligadb.de"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -16,9 +16,9 @@
         "Athletico-PR",
         "Bahia",
         "Cruzeiro",
+        "Vitoria",
         "Bragantino",
         "Coritiba",
-        "Vitoria",
         "Botafogo",
         "Corinthians",
         "Santos",
@@ -909,7 +909,7 @@
     },
     "Bragantino": {
       "brasileirao": {
-        "posicao": 7,
+        "posicao": 8,
         "pontos": 37,
         "ultimos5": [
           "E 1-1",
@@ -1002,7 +1002,7 @@
     },
     "Coritiba": {
       "brasileirao": {
-        "posicao": 8,
+        "posicao": 9,
         "pontos": 37,
         "ultimos5": [
           "E 0-0",
@@ -1435,8 +1435,8 @@
     },
     "Vitoria": {
       "brasileirao": {
-        "posicao": 9,
-        "pontos": 36,
+        "posicao": 7,
+        "pontos": 39,
         "ultimos5": [
           "D 0-2",
           "D 0-4 PAL",
@@ -1463,15 +1463,15 @@
           "gpg": 0.58,
           "gsg": 2.17
         },
-        "vitorias": 10,
+        "vitorias": 11,
         "empates": 6,
         "derrotas": 11,
-        "golsPro": 31,
+        "golsPro": 35,
         "golsContra": 37
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Vitória contra a Chapecoens",
+          "jogador": "Escalação do São Paulo",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1585,7 +1585,7 @@
       },
       "desfalques": [
         {
-          "jogador": "AtÃ© 10 opÃ§Ãµes",
+          "jogador": "Escalação do São Paulo",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2343,9 +2343,9 @@
         },
         "vitorias": 2,
         "empates": 9,
-        "derrotas": 15,
+        "derrotas": 16,
         "golsPro": 27,
-        "golsContra": 52
+        "golsContra": 56
       },
       "desfalques": [
         {
