@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-07T21:19:42.689904-03:00",
+    "atualizadoEm": "2026-10-08T03:29:12.167681-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
@@ -28,6 +28,14 @@
       "mandante": "Santos",
       "visitante": "Flamengo",
       "placar": "3-1"
+    },
+    {
+      "id": "br-29-Bragantino-Mirassol",
+      "data": "2026-10-07",
+      "comp": "brasileirao",
+      "mandante": "Bragantino",
+      "visitante": "Mirassol",
+      "placar": "1-1"
     },
     {
       "id": "br-28-Vitoria-Cruzeiro",
@@ -236,14 +244,6 @@
       "mandante": "Corinthians",
       "visitante": "Chapecoense",
       "placar": "2-1"
-    },
-    {
-      "id": "br-26-Bragantino-Bahia",
-      "data": "2026-09-05",
-      "comp": "brasileirao",
-      "mandante": "Bragantino",
-      "visitante": "Bahia",
-      "placar": "3-2"
     }
   ]
 }
