@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-07T21:19:45-03:00",
+    "atualizadoEm": "2026-10-08T03:29:15-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 386,
+    "jogosFinalizados": 387,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -16,15 +16,15 @@
         "Athletico-PR",
         "Bahia",
         "Cruzeiro",
-        "Coritiba",
         "Bragantino",
+        "Coritiba",
         "Vitoria",
         "Botafogo",
         "Corinthians",
         "Santos",
         "Atletico-MG",
-        "Gremio",
         "Mirassol",
+        "Gremio",
         "Internacional",
         "Remo",
         "Vasco",
@@ -909,8 +909,8 @@
     },
     "Bragantino": {
       "brasileirao": {
-        "posicao": 8,
-        "pontos": 36,
+        "posicao": 7,
+        "pontos": 37,
         "ultimos5": [
           "E 1-1",
           "E 0-0 COR",
@@ -938,10 +938,10 @@
           "gsg": 1.09
         },
         "vitorias": 10,
-        "empates": 6,
+        "empates": 7,
         "derrotas": 8,
-        "golsPro": 28,
-        "golsContra": 24
+        "golsPro": 29,
+        "golsContra": 25
       },
       "desfalques": [
         {
@@ -1002,7 +1002,7 @@
     },
     "Coritiba": {
       "brasileirao": {
-        "posicao": 7,
+        "posicao": 8,
         "pontos": 37,
         "ultimos5": [
           "E 0-0",
@@ -1131,12 +1131,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Escalação do Atlético-MG",
+          "jogador": "EscalaÃ§Ã£o do Galo",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
@@ -1377,7 +1372,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Radar do DM",
+          "jogador": "Montoro se lesiona em acidente domÃ©stic",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1683,7 +1678,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Arthur tem lesão na coxa direita e desfa",
+          "jogador": "EscalaÃ§Ã£o",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1767,7 +1762,7 @@
     },
     "Gremio": {
       "brasileirao": {
-        "posicao": 14,
+        "posicao": 15,
         "pontos": 32,
         "ultimos5": [
           "D 1-2",
@@ -1803,7 +1798,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Renato tem retorno e sete desfalques; ve",
+          "jogador": "GrÃªmio tem retorno e desfalques contra ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1917,7 +1912,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Pleno do STJD reduz suspensÃ£o de execut",
+          "jogador": "Prejuízo zero para o Real Madrid",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2001,8 +1996,8 @@
     },
     "Mirassol": {
       "brasileirao": {
-        "posicao": 15,
-        "pontos": 32,
+        "posicao": 14,
+        "pontos": 33,
         "ultimos5": [
           "E 1-1",
           "V 2-1 REM",
@@ -2030,10 +2025,10 @@
           "gsg": 1.64
         },
         "vitorias": 8,
-        "empates": 8,
+        "empates": 9,
         "derrotas": 11,
-        "golsPro": 33,
-        "golsContra": 40
+        "golsPro": 34,
+        "golsContra": 41
       },
       "desfalques": [
         {

@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-07T21:19:42.689904-03:00",
-    "fonte": "calendário + ge.globo.com + openligadb.de",
-    "jogos": 386,
-    "finalizadosTotal": 386
+    "atualizadoEm": "2026-10-08T03:29:12.167681-03:00",
+    "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
+    "jogos": 387,
+    "finalizadosTotal": 387
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -3028,8 +3028,7 @@
       "golsCasa": 2,
       "golsFora": 0,
       "data": "2026-10-07",
-      "comp": "brasileirao",
-      "fonte": "ge"
+      "comp": "brasileirao"
     },
     "br-29-Fluminense-Coritiba": {
       "status": "finished",
@@ -3037,13 +3036,20 @@
       "golsCasa": 3,
       "golsFora": 1,
       "data": "2026-10-07",
-      "comp": "brasileirao",
-      "fonte": "ge"
+      "comp": "brasileirao"
     },
     "br-29-Santos-Flamengo": {
       "status": "finished",
       "placar": "3-1",
       "golsCasa": 3,
+      "golsFora": 1,
+      "data": "2026-10-07",
+      "comp": "brasileirao"
+    },
+    "br-29-Bragantino-Mirassol": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
       "golsFora": 1,
       "data": "2026-10-07",
       "comp": "brasileirao",
