@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-09T10:40:28-03:00",
+    "atualizadoEm": "2026-10-09T16:18:31-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 390,
     "timesAtualizados": 118,
@@ -234,12 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "JeftÃ© testa positivo para substÃ¢ncia p",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Desfalques, recuperaÃ§Ã£o de lesionados ",
+          "jogador": "JeftÃ©, do Palmeiras, testa positivo par",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1466,7 +1461,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Suspensão de Diego Tarzia abre espaço pa",
+          "jogador": "EscalaÃ§Ã£o do VitÃ³ria",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "SuspensÃ£o de Diego Tarzia abre espaÃ§o ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1907,7 +1907,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Prejuízo zero para o Real Madrid",
+          "jogador": "João Pedro se recupera de lesão que o ti",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
