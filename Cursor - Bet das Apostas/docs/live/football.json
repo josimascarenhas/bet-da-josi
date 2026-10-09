@@ -1,8 +1,8 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-08T21:10:20-03:00",
+    "atualizadoEm": "2026-10-09T03:30:40-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 389,
+    "jogosFinalizados": 390,
     "timesAtualizados": 118,
     "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
@@ -20,13 +20,13 @@
         "Bragantino",
         "Coritiba",
         "Botafogo",
-        "Corinthians",
         "Santos",
+        "Corinthians",
         "Atletico-MG",
         "Mirassol",
+        "Internacional",
         "Remo",
         "Gremio",
-        "Internacional",
         "Vasco",
         "Sao-Paulo",
         "Chapecoense"
@@ -235,6 +235,11 @@
       "desfalques": [
         {
           "jogador": "Jefté, do Palmeiras, testa positivo para",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Desfalques, recuperaÃ§Ã£o de lesionados ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -491,12 +496,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Escalação do Atlético-MG",
+          "jogador": "Auxiliar do Athletico cita frustração po",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1134,11 +1134,6 @@
           "jogador": "EscalaÃ§Ã£o do AtlÃ©tico-MG",
           "motivo": "notícia GE",
           "impacto": "medio"
-        },
-        {
-          "jogador": "Atacante do AtlÃ©tico-MG tem lesÃ£o diag",
-          "motivo": "notícia GE",
-          "impacto": "medio"
         }
       ],
       "retornando": [
@@ -1220,7 +1215,7 @@
     },
     "Corinthians": {
       "brasileirao": {
-        "posicao": 11,
+        "posicao": 12,
         "pontos": 35,
         "ultimos5": [
           "E 1-1",
@@ -1250,9 +1245,9 @@
         },
         "vitorias": 9,
         "empates": 8,
-        "derrotas": 11,
-        "golsPro": 31,
-        "golsContra": 34
+        "derrotas": 12,
+        "golsPro": 32,
+        "golsContra": 36
       },
       "desfalques": [
         {
@@ -1642,7 +1637,7 @@
     },
     "Santos": {
       "brasileirao": {
-        "posicao": 12,
+        "posicao": 11,
         "pontos": 35,
         "ultimos5": [
           "D 1-2",
@@ -1762,7 +1757,7 @@
     },
     "Gremio": {
       "brasileirao": {
-        "posicao": 16,
+        "posicao": 17,
         "pontos": 32,
         "ultimos5": [
           "D 1-2",
@@ -1876,8 +1871,8 @@
     },
     "Internacional": {
       "brasileirao": {
-        "posicao": 17,
-        "pontos": 29,
+        "posicao": 15,
+        "pontos": 32,
         "ultimos5": [
           "D 0-2",
           "E 1-1 FLA",
@@ -1904,11 +1899,11 @@
           "gpg": 0.91,
           "gsg": 1.36
         },
-        "vitorias": 6,
+        "vitorias": 7,
         "empates": 11,
         "derrotas": 10,
-        "golsPro": 30,
-        "golsContra": 33
+        "golsPro": 32,
+        "golsContra": 34
       },
       "desfalques": [
         {
@@ -2106,7 +2101,7 @@
     },
     "Remo": {
       "brasileirao": {
-        "posicao": 15,
+        "posicao": 16,
         "pontos": 32,
         "ultimos5": [
           "V 2-0 VIT",
