@@ -1,8 +1,8 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-08T16:41:22-03:00",
+    "atualizadoEm": "2026-10-08T21:10:20-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 388,
+    "jogosFinalizados": 389,
     "timesAtualizados": 118,
     "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
@@ -24,9 +24,9 @@
         "Santos",
         "Atletico-MG",
         "Mirassol",
+        "Remo",
         "Gremio",
         "Internacional",
-        "Remo",
         "Vasco",
         "Sao-Paulo",
         "Chapecoense"
@@ -234,7 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Desfalques, recuperação de lesionados e ",
+          "jogador": "Jefté, do Palmeiras, testa positivo para",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -595,7 +595,7 @@
       },
       "desfalques": [
         {
-          "jogador": "AlÃ©m de RenÃª, Fluminense terÃ¡ outros ",
+          "jogador": "Riquelme sofre lesão muscular na coxa e ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -852,7 +852,7 @@
       },
       "desfalques": [
         {
-          "jogador": "De volta apÃ³s suspensÃ£o, Kike ganha se",
+          "jogador": "De volta apÃ³s suspensÃ£o, Kike Olivera ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1131,7 +1131,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do Galo",
+          "jogador": "EscalaÃ§Ã£o do AtlÃ©tico-MG",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
@@ -1762,7 +1762,7 @@
     },
     "Gremio": {
       "brasileirao": {
-        "posicao": 15,
+        "posicao": 16,
         "pontos": 32,
         "ultimos5": [
           "D 1-2",
@@ -1792,9 +1792,9 @@
         },
         "vitorias": 8,
         "empates": 8,
-        "derrotas": 11,
-        "golsPro": 31,
-        "golsContra": 34
+        "derrotas": 12,
+        "golsPro": 32,
+        "golsContra": 36
       },
       "desfalques": [
         {
@@ -1876,7 +1876,7 @@
     },
     "Internacional": {
       "brasileirao": {
-        "posicao": 16,
+        "posicao": 17,
         "pontos": 29,
         "ultimos5": [
           "D 0-2",
@@ -2106,8 +2106,8 @@
     },
     "Remo": {
       "brasileirao": {
-        "posicao": 17,
-        "pontos": 29,
+        "posicao": 15,
+        "pontos": 32,
         "ultimos5": [
           "V 2-0 VIT",
           "D 1-2",
@@ -2134,11 +2134,11 @@
           "gpg": 0.92,
           "gsg": 1.83
         },
-        "vitorias": 7,
+        "vitorias": 8,
         "empates": 8,
         "derrotas": 12,
-        "golsPro": 38,
-        "golsContra": 42
+        "golsPro": 40,
+        "golsContra": 43
       },
       "desfalques": [
         {

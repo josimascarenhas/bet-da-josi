@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-08T16:41:20.230295-03:00",
+    "atualizadoEm": "2026-10-08T21:10:06.890889-03:00",
     "fonte": "calendário + ge.globo.com + openligadb.de",
-    "jogos": 388,
-    "finalizadosTotal": 388
+    "jogos": 389,
+    "finalizadosTotal": 389
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -3059,6 +3059,14 @@
       "placar": "4-0",
       "golsCasa": 4,
       "golsFora": 0,
+      "data": "2026-10-08",
+      "comp": "brasileirao"
+    },
+    "br-29-Remo-Gremio": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
       "data": "2026-10-08",
       "comp": "brasileirao",
       "fonte": "ge"
