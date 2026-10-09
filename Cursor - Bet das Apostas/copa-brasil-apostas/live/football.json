@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-09T03:30:40-03:00",
+    "atualizadoEm": "2026-10-09T10:40:28-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 390,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
+    "placaresFonte": "calendário + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -234,7 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Jefté, do Palmeiras, testa positivo para",
+          "jogador": "JeftÃ© testa positivo para substÃ¢ncia p",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
@@ -496,7 +496,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Auxiliar do Athletico cita frustração po",
+          "jogador": "Auxiliar opina sobre suspensÃ£o de Odair",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1367,7 +1367,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Montoro se lesiona em acidente domÃ©stic",
+          "jogador": "Caminhos pelo camisa 10",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1466,7 +1466,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do São Paulo",
+          "jogador": "Suspensão de Diego Tarzia abre espaço pa",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1580,7 +1580,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do São Paulo",
+          "jogador": "Suspensão de Diego Tarzia abre espaço pa",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
