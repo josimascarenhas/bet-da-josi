@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-08T16:41:20.230295-03:00",
+    "atualizadoEm": "2026-10-08T21:10:06.890889-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
@@ -12,6 +12,14 @@
       "mandante": "Vitoria",
       "visitante": "Chapecoense",
       "placar": "4-0"
+    },
+    {
+      "id": "br-29-Remo-Gremio",
+      "data": "2026-10-08",
+      "comp": "brasileirao",
+      "mandante": "Remo",
+      "visitante": "Gremio",
+      "placar": "2-1"
     },
     {
       "id": "br-29-Botafogo-Vasco",
@@ -236,14 +244,6 @@
       "mandante": "Remo",
       "visitante": "Flamengo",
       "placar": "5-2"
-    },
-    {
-      "id": "br-26-Botafogo-Palmeiras",
-      "data": "2026-09-06",
-      "comp": "brasileirao",
-      "mandante": "Botafogo",
-      "visitante": "Palmeiras",
-      "placar": "0-0"
     }
   ]
 }
