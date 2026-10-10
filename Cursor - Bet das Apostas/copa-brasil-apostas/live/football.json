@@ -1,17 +1,17 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-10T16:49:44-03:00",
+    "atualizadoEm": "2026-10-10T20:17:54-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 390,
+    "jogosFinalizados": 392,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + openligadb.de"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
       "fase": "4ª rodada",
       "timesAtivos": [
-        "Palmeiras",
         "Flamengo",
+        "Palmeiras",
         "Fluminense",
         "Athletico-PR",
         "Bahia",
@@ -23,9 +23,9 @@
         "Santos",
         "Corinthians",
         "Atletico-MG",
+        "Remo",
         "Mirassol",
         "Internacional",
-        "Remo",
         "Gremio",
         "Vasco",
         "Sao-Paulo",
@@ -198,7 +198,7 @@
   "times": {
     "Palmeiras": {
       "brasileirao": {
-        "posicao": 1,
+        "posicao": 2,
         "pontos": 54,
         "ultimos5": [
           "D 1-2 ATLMG",
@@ -339,8 +339,8 @@
     },
     "Flamengo": {
       "brasileirao": {
-        "posicao": 2,
-        "pontos": 51,
+        "posicao": 1,
+        "pontos": 54,
         "ultimos5": [
           "E 1-1 SAOPA",
           "E 1-1",
@@ -367,11 +367,11 @@
           "gpg": 2.0,
           "gsg": 1.0
         },
-        "vitorias": 15,
+        "vitorias": 16,
         "empates": 6,
         "derrotas": 6,
-        "golsPro": 56,
-        "golsContra": 31
+        "golsPro": 58,
+        "golsContra": 32
       },
       "desfalques": [
         {
@@ -584,9 +584,9 @@
         },
         "vitorias": 14,
         "empates": 9,
-        "derrotas": 5,
-        "golsPro": 45,
-        "golsContra": 33
+        "derrotas": 6,
+        "golsPro": 46,
+        "golsContra": 35
       },
       "desfalques": [
         {
@@ -1126,11 +1126,6 @@
       },
       "desfalques": [
         {
-          "jogador": "Dúvida contra o Atlético-MG, Neymar atuo",
-          "motivo": "notícia GE",
-          "impacto": "alto"
-        },
-        {
           "jogador": "EscalaÃ§Ã£o do AtlÃ©tico-MG",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -1465,11 +1460,6 @@
         "golsContra": 37
       },
       "desfalques": [
-        {
-          "jogador": "EscalaÃ§Ã£o do VitÃ³ria",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
         {
           "jogador": "SuspensÃ£o de Diego Tarzia abre espaÃ§o ",
           "motivo": "notícia GE",
@@ -1876,7 +1866,7 @@
     },
     "Internacional": {
       "brasileirao": {
-        "posicao": 15,
+        "posicao": 16,
         "pontos": 32,
         "ultimos5": [
           "D 0-2",
@@ -2001,7 +1991,7 @@
     },
     "Mirassol": {
       "brasileirao": {
-        "posicao": 14,
+        "posicao": 15,
         "pontos": 33,
         "ultimos5": [
           "E 1-1",
@@ -2116,8 +2106,8 @@
     },
     "Remo": {
       "brasileirao": {
-        "posicao": 16,
-        "pontos": 32,
+        "posicao": 14,
+        "pontos": 33,
         "ultimos5": [
           "V 2-0 VIT",
           "D 1-2",
@@ -2145,7 +2135,7 @@
           "gsg": 1.83
         },
         "vitorias": 8,
-        "empates": 8,
+        "empates": 9,
         "derrotas": 12,
         "golsPro": 40,
         "golsContra": 43
@@ -2210,7 +2200,7 @@
     "Vasco": {
       "brasileirao": {
         "posicao": 18,
-        "pontos": 28,
+        "pontos": 29,
         "ultimos5": [
           "D 0-1",
           "E 1-1 MIR",
@@ -2238,7 +2228,7 @@
           "gsg": 1.91
         },
         "vitorias": 7,
-        "empates": 7,
+        "empates": 8,
         "derrotas": 14,
         "golsPro": 32,
         "golsContra": 45
