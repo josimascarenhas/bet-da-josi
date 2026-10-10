@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-10T06:30:01-03:00",
+    "atualizadoEm": "2026-10-10T12:34:00-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 390,
-    "timesAtualizados": 118,
-    "placaresFonte": "calendário + openligadb.de"
+    "jogosFinalizados": 384,
+    "timesAtualizados": 106,
+    "placaresFonte": "calendário"
   },
   "competicoes": {
     "brasileirao": {
@@ -133,22 +133,22 @@
     "bundesliga": {
       "timesAtivos": [
         "Bayern-Munich",
-        "Augsburg",
-        "RB-Leipzig",
-        "Borussia-Dortmund",
-        "SV-Elversberg",
-        "Eintracht-Frankfurt",
-        "Union-Berlin",
-        "Mainz",
-        "SC-Paderborn",
-        "Bayer-Leverkusen",
-        "Hamburger-SV",
-        "Borussia-Mgladbach",
-        "Schalke-04",
         "VfB-Stuttgart",
+        "Augsburg",
+        "Bayer-Leverkusen",
+        "Borussia-Dortmund",
+        "Borussia-Mgladbach",
+        "Eintracht-Frankfurt",
+        "Hamburger-SV",
         "Hoffenheim",
         "Koln",
+        "Mainz",
+        "RB-Leipzig",
         "SC-Freiburg",
+        "SC-Paderborn",
+        "SV-Elversberg",
+        "Schalke-04",
+        "Union-Berlin",
         "Werder-Bremen"
       ],
       "fase": "1ª rodada"
@@ -1129,6 +1129,11 @@
           "jogador": "Dúvida contra o Atlético-MG, Neymar atuo",
           "motivo": "notícia GE",
           "impacto": "alto"
+        },
+        {
+          "jogador": "EscalaÃ§Ã£o do AtlÃ©tico-MG",
+          "motivo": "notícia GE",
+          "impacto": "medio"
         }
       ],
       "retornando": [
@@ -1907,7 +1912,17 @@
       },
       "desfalques": [
         {
-          "jogador": "João Pedro se recupera de lesão que o ti",
+          "jogador": "Chuva de aviões de papel e outros objeto",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Paredes tem lesão no músculo posterior d",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Cristiano Ronaldo é suspenso pela federa",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2027,7 +2042,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do Mirassol",
+          "jogador": "Escalação do Mirassol",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2230,7 +2245,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Vasco recorre contra suspensão de proces",
+          "jogador": "Paredes tem lesão no músculo posterior d",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2601,7 +2616,7 @@
           "gpg": 1.0,
           "gsg": 5.0
         },
-        "posicao": 14,
+        "posicao": 2,
         "pontos": 0,
         "vitorias": 0,
         "empates": 0,
