@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-09T23:34:53-03:00",
+    "atualizadoEm": "2026-10-10T06:30:01-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 390,
     "timesAtualizados": 118,
@@ -1033,7 +1033,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Pedro Morisco fica fora do jogo apÃ³s vo",
+          "jogador": "Coritiba tem baixa confirmada e dúvida n",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1126,9 +1126,9 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do AtlÃ©tico-MG",
+          "jogador": "Dúvida contra o Atlético-MG, Neymar atuo",
           "motivo": "notícia GE",
-          "impacto": "medio"
+          "impacto": "alto"
         }
       ],
       "retornando": [
@@ -1362,7 +1362,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Caminhos pelo camisa 10",
+          "jogador": "Coritiba tem baixa confirmada e dúvida n",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1673,9 +1673,9 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o",
+          "jogador": "Dúvida contra o Atlético-MG, Neymar atuo",
           "motivo": "notícia GE",
-          "impacto": "medio"
+          "impacto": "alto"
         }
       ],
       "retornando": [
