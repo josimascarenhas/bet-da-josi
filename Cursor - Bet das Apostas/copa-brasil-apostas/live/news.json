@@ -1,18 +1,162 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-09T23:25:16.881542+00:00",
+    "atualizadoEm": "2026-10-10T02:34:50.805369+00:00",
     "fonte": "ge.globo.com",
     "fonteUrl": "https://ge.globo.com/"
   },
   "futebol": {
     "geral": [
       {
-        "titulo": "Palmeiras x Santos - Copa do Brasil Sub-20 2026 - Ao vivo - globoesporte.com",
+        "titulo": "Flamengo e Fluminense questionam decisão da Justiça que deu direito ao Vasco a jogar no Maracanã",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/09/flamengo-e-fluminense-questionam-decisao-da-justica-que-deu-direito-ao-vasco-a-jogar-no-maracana.ghtml",
+        "imagem": "",
+        "data": "2026-10-10T01:56:23+00:00",
+        "dataFmt": "10/10/2026 01:56"
+      },
+      {
+        "titulo": "Palmeiras vira sobre o Santos, sofre empate nos acréscimos, mas avança nos pênaltis na Copa do Brasil Sub-20",
         "resumo": "",
         "url": "https://ge.globo.com/to/futebol/copa-do-brasil-sub-20/jogo/09-10-2026/palmeiras-santos.ghtml",
         "imagem": "",
-        "data": "2026-10-09T23:20:43+00:00",
-        "dataFmt": "09/10/2026 23:20"
+        "data": "2026-10-10T01:42:32+00:00",
+        "dataFmt": "10/10/2026 01:42"
+      },
+      {
+        "titulo": "Bragantino x Cruzeiro - Campeonato Brasileiro 2026 - globoesporte.com",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/brasileirao-serie-a/jogo/12-10-2026/bragantino-cruzeiro.ghtml",
+        "imagem": "",
+        "data": "2026-10-10T01:31:05+00:00",
+        "dataFmt": "10/10/2026 01:31"
+      },
+      {
+        "titulo": "Coritiba x Botafogo - Campeonato Brasileiro 2026 - globoesporte.com",
+        "resumo": "",
+        "url": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/12-10-2026/coritiba-botafogo.ghtml",
+        "imagem": "",
+        "data": "2026-10-10T01:30:39+00:00",
+        "dataFmt": "10/10/2026 01:30"
+      },
+      {
+        "titulo": "São Paulo x Vitória - Campeonato Brasileiro 2026 - globoesporte.com",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/10-10-2026/sao-paulo-vitoria.ghtml",
+        "imagem": "",
+        "data": "2026-10-10T01:30:21+00:00",
+        "dataFmt": "10/10/2026 01:30"
+      },
+      {
+        "titulo": "Vasco x Remo - Campeonato Brasileiro 2026 - globoesporte.com",
+        "resumo": "",
+        "url": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/10-10-2026/vasco-remo.ghtml",
+        "imagem": "",
+        "data": "2026-10-10T01:30:07+00:00",
+        "dataFmt": "10/10/2026 01:30"
+      },
+      {
+        "titulo": "Atlético-MG x Santos - Campeonato Brasileiro 2026 - globoesporte.com",
+        "resumo": "",
+        "url": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/11-10-2026/atletico-mg-santos.ghtml",
+        "imagem": "",
+        "data": "2026-10-10T01:29:49+00:00",
+        "dataFmt": "10/10/2026 01:29"
+      },
+      {
+        "titulo": "Grêmio x Internacional - Campeonato Brasileiro 2026 - globoesporte.com",
+        "resumo": "",
+        "url": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/11-10-2026/gremio-internacional.ghtml",
+        "imagem": "",
+        "data": "2026-10-10T01:29:37+00:00",
+        "dataFmt": "10/10/2026 01:29"
+      },
+      {
+        "titulo": "Palmeiras x Corinthians - Campeonato Brasileiro 2026 - globoesporte.com",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/11-10-2026/palmeiras-corinthians.ghtml",
+        "imagem": "",
+        "data": "2026-10-10T01:29:25+00:00",
+        "dataFmt": "10/10/2026 01:29"
+      },
+      {
+        "titulo": "Flamengo x Fluminense - Campeonato Brasileiro 2026 - globoesporte.com",
+        "resumo": "",
+        "url": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/11-10-2026/flamengo-fluminense.ghtml",
+        "imagem": "",
+        "data": "2026-10-10T01:29:12+00:00",
+        "dataFmt": "10/10/2026 01:29"
+      },
+      {
+        "titulo": "Rodriguinho e Mosquera seguem fora dos treinos e são dúvidas para jogo contra o Cruzeiro",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/times/bragantino/noticia/2026/10/09/rodriguinho-e-mosquera-seguem-fora-dos-treinos-e-sao-duvidas-para-jogo-contra-o-cruzeiro.ghtml",
+        "imagem": "",
+        "data": "2026-10-10T00:53:41+00:00",
+        "dataFmt": "10/10/2026 00:53"
+      },
+      {
+        "titulo": "Chapecoense x Athletico-PR - Campeonato Brasileiro 2026 - globoesporte.com",
+        "resumo": "",
+        "url": "https://ge.globo.com/sc/futebol/brasileirao-serie-a/jogo/12-10-2026/chapecoense-atletico-pr.ghtml",
+        "imagem": "",
+        "data": "2026-10-10T00:42:45+00:00",
+        "dataFmt": "10/10/2026 00:42"
+      },
+      {
+        "titulo": "Bahia x Mirassol - Campeonato Brasileiro 2026 - globoesporte.com",
+        "resumo": "",
+        "url": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/11-10-2026/bahia-mirassol.ghtml",
+        "imagem": "",
+        "data": "2026-10-10T00:29:45+00:00",
+        "dataFmt": "10/10/2026 00:29"
+      },
+      {
+        "titulo": "Paredes sente problema muscular no último jogo do Boca antes de semifinal contra o Vasco na Sul-Americana",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/10/09/paredes-sente-problema-muscular-no-ultimo-jogo-do-boca-antes-de-semifinal-contra-o-vasco-na-sul-americana.ghtml",
+        "imagem": "",
+        "data": "2026-10-10T00:13:34+00:00",
+        "dataFmt": "10/10/2026 00:13"
+      },
+      {
+        "titulo": "João Basso convoca torcida do Cuiabá para duelo contra o Avaí: “Acreditar até o final”",
+        "resumo": "",
+        "url": "https://ge.globo.com/mt/futebol/times/cuiaba/noticia/2026/10/09/joao-basso-convoca-torcida-do-cuiaba-para-duelo-contra-o-avai-acreditar-ate-o-final.ghtml",
+        "imagem": "",
+        "data": "2026-10-10T00:07:22+00:00",
+        "dataFmt": "10/10/2026 00:07"
+      },
+      {
+        "titulo": "Arsenal x Leeds na Premier League: onde assistir ao vivo e horário",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/10/09/arsenal-x-leeds-na-premier-league-onde-assistir-ao-vivo-e-horario.ghtml",
+        "imagem": "",
+        "data": "2026-10-09T23:57:19+00:00",
+        "dataFmt": "09/10/2026 23:57"
+      },
+      {
+        "titulo": "Escalação do São Paulo: Rafael e Iago retornam, e Lucas pode jogar até 20 minutos",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/10/09/escalacao-do-sao-paulo-iago-deve-ser-titular-e-lucas-moura-e-liberado-para-jogar.ghtml",
+        "imagem": "",
+        "data": "2026-10-09T23:47:57+00:00",
+        "dataFmt": "09/10/2026 23:47"
+      },
+      {
+        "titulo": "Conmebol anuncia Vasco x Boca Juniors no Maracanã; clube inicia venda de ingressos",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/09/conmebol-anuncia-vasco-x-boca-juniors-no-maracana.ghtml",
+        "imagem": "",
+        "data": "2026-10-09T23:32:52+00:00",
+        "dataFmt": "09/10/2026 23:32"
+      },
+      {
+        "titulo": "Escalação do Vasco: Andrés Gómez volta ao time contra o Remo",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/09/escalacao-do-vasco-andres-gomez-volta-ao-time-contra-o-remo.ghtml",
+        "imagem": "",
+        "data": "2026-10-09T23:23:04+00:00",
+        "dataFmt": "09/10/2026 23:23"
       },
       {
         "titulo": "Botafogo Academy e Escolinha do Galvez vencem na sequência da 1ª rodada do Acreano Sub-11",
@@ -21,161 +165,25 @@
         "imagem": "",
         "data": "2026-10-09T23:15:55+00:00",
         "dataFmt": "09/10/2026 23:15"
-      },
-      {
-        "titulo": "\"Síndico não é dono\": Vasco x Boca Juniors no Maracanã rende memes entre vascaínos; veja",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/09/sindico-nao-e-dono-vasco-x-boca-juniors-no-maracana-rende-memes-entre-vascainos-veja.ghtml",
-        "imagem": "",
-        "data": "2026-10-09T23:08:37+00:00",
-        "dataFmt": "09/10/2026 23:08"
-      },
-      {
-        "titulo": "Escalação do Flamengo: Varela e Ortiz voltam ao time para o Fla-Flu",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/09/escalacao-do-flamengo-varela-e-ortiz-voltam-ao-time-para-o-fla-flu.ghtml",
-        "imagem": "",
-        "data": "2026-10-09T23:01:21+00:00",
-        "dataFmt": "09/10/2026 23:01"
-      },
-      {
-        "titulo": "Oito partidas movimentam 2ª rodada do Campeonato Acreano Sub-15 Série A neste sábado",
-        "resumo": "",
-        "url": "https://ge.globo.com/ac/futebol/campeonato-acreano/noticia/2026/10/09/oito-partidas-movimentam-2a-rodada-do-campeonato-acreano-sub-15-serie-a-neste-sabado.ghtml",
-        "imagem": "",
-        "data": "2026-10-09T23:00:00+00:00",
-        "dataFmt": "09/10/2026 23:00"
-      },
-      {
-        "titulo": "Bastidores: Corinthians tem dia de sondagens, recusas e indefinição sobre novo técnico",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/10/09/bastidores-corinthians-tem-dia-de-sondagens-recusas-e-indefinicao-sobre-novo-tecnico.ghtml",
-        "imagem": "",
-        "data": "2026-10-09T22:56:57+00:00",
-        "dataFmt": "09/10/2026 22:56"
-      },
-      {
-        "titulo": "Roger Silva cobra um Atlético-GO ofensivo diante do Sport",
-        "resumo": "",
-        "url": "https://ge.globo.com/go/futebol/times/atletico-go/noticia/2026/10/09/roger-silva-cobra-um-atletico-go-ofensivo-diante-do-sport.ghtml",
-        "imagem": "",
-        "data": "2026-10-09T22:49:43+00:00",
-        "dataFmt": "09/10/2026 22:49"
-      },
-      {
-        "titulo": "Ferroviária aposta na torcida e em retrospecto na Fonte para subir à Série B",
-        "resumo": "",
-        "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/ferroviaria/noticia/2026/10/09/ferroviaria-aposta-na-torcida-e-em-retrospecto-na-fonte-para-subir-a-serie-b.ghtml",
-        "imagem": "",
-        "data": "2026-10-09T22:42:54+00:00",
-        "dataFmt": "09/10/2026 22:42"
-      },
-      {
-        "titulo": "Seleção faz mistério, e Bruninha dispara: \"As pessoas têm que estar mais animadas com esse Brasil\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/selecao-brasileira/noticia/2026/10/09/selecao-faz-misterio-na-escalacao-e-bruninha-dispara-tem-que-estar-mais-animados-em-ver-esse-brasil.ghtml",
-        "imagem": "",
-        "data": "2026-10-09T22:39:08+00:00",
-        "dataFmt": "09/10/2026 22:39"
-      },
-      {
-        "titulo": "Marcinho Guerreiro destaca entrosamento no River-PI e confiança em alta para final",
-        "resumo": "",
-        "url": "https://ge.globo.com/pi/futebol/times/river-pi/noticia/2026/10/09/marcinho-guerreiro-destaca-entrosamento-no-river-pi-e-confianca-em-alta-para-final.ghtml",
-        "imagem": "",
-        "data": "2026-10-09T22:28:21+00:00",
-        "dataFmt": "09/10/2026 22:28"
-      },
-      {
-        "titulo": "Nação e Marcílio Dias empatam sem gols pela 6ª rodada da Copa SC",
-        "resumo": "",
-        "url": "https://ge.globo.com/sc/futebol/copa-santa-catarina/noticia/2026/10/09/nacao-e-marcilio-dias-empatam-sem-gols-pela-6a-rodada-da-copa-sc.ghtml",
-        "imagem": "",
-        "data": "2026-10-09T22:20:50+00:00",
-        "dataFmt": "09/10/2026 22:20"
-      },
-      {
-        "titulo": "São Paulo solicita à CBF para enfrentar o Corinthians na Vila Belmiro",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/10/09/sao-paulo-solicita-a-cbf-para-enfrentar-o-corinthians-na-vila-belmiro.ghtml",
-        "imagem": "",
-        "data": "2026-10-09T22:15:39+00:00",
-        "dataFmt": "09/10/2026 22:15"
-      },
-      {
-        "titulo": "Manchester United x Tottenham na Premier League: onde assistir ao vivo e horário",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/noticia/2026/10/09/manchester-united-x-tottenham-na-premier-league-onde-assistir-ao-vivo-e-horario.ghtml",
-        "imagem": "",
-        "data": "2026-10-09T22:14:59+00:00",
-        "dataFmt": "09/10/2026 22:14"
-      },
-      {
-        "titulo": "Escalação do Fluminense: avaliação determinará time para clássico às vésperas de decisão na Libertadores",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/09/escalacao-do-fluminense-avaliacao-determinara-time-para-classico-as-vesperas-de-decisao-na-libertadores.ghtml",
-        "imagem": "",
-        "data": "2026-10-09T22:11:06+00:00",
-        "dataFmt": "09/10/2026 22:11"
-      },
-      {
-        "titulo": "Palmeiras ainda peca em eficácia e precisa de nove chutes para marcar um gol no Brasileirão",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/10/09/palmeiras-ainda-peca-em-eficacia-e-precisa-de-nove-chutes-para-marcar-um-gol-no-brasileirao.ghtml",
-        "imagem": "",
-        "data": "2026-10-09T22:09:05+00:00",
-        "dataFmt": "09/10/2026 22:09"
-      },
-      {
-        "titulo": "Treino do Corinthians: interino tem primeiro contato com elenco e inicia preparação para o Dérbi",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/10/09/treino-do-corinthians-interino-tem-primeiro-contato-com-elenco-e-inicia-preparacao-para-o-derbi.ghtml",
-        "imagem": "",
-        "data": "2026-10-09T22:00:24+00:00",
-        "dataFmt": "09/10/2026 22:00"
-      },
-      {
-        "titulo": "Técnico da Chapecoense projeta reta final de Série A: \"Terminar o ano com dignidade\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/sc/futebol/times/chapecoense/noticia/2026/10/09/tecnico-da-chapecoense-projeta-reta-final-de-serie-a-terminar-o-ano-com-dignidade.ghtml",
-        "imagem": "",
-        "data": "2026-10-09T21:58:28+00:00",
-        "dataFmt": "09/10/2026 21:58"
-      },
-      {
-        "titulo": "Auxiliar técnico do Grêmio tem prisão revogada após pedido da defesa",
-        "resumo": "",
-        "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/10/09/auxiliar-tecnico-do-gremio-tem-prisao-revogada-apos-pedido-da-defesa.ghtml",
-        "imagem": "",
-        "data": "2026-10-09T21:55:45+00:00",
-        "dataFmt": "09/10/2026 21:55"
-      },
-      {
-        "titulo": "Atlético-PB anuncia zagueiro Guilherme Andrade para a Copa Paraíba",
-        "resumo": "",
-        "url": "https://ge.globo.com/pb/futebol/times/atletico-pb/noticia/2026/10/09/atletico-pb-anuncia-zagueiro-guilherme-andrade-para-a-copa-paraiba.ghtml",
-        "imagem": "",
-        "data": "2026-10-09T21:55:25+00:00",
-        "dataFmt": "09/10/2026 21:55"
-      },
-      {
-        "titulo": "Rival do Flamengo, Estudiantes contrata zagueiro que jogou Copa do Mundo pela Argentina",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/10/09/rival-do-flamengo-estudiantes-contrata-zagueiro-que-jogou-copa-do-mundo-pela-argentina.ghtml",
-        "imagem": "",
-        "data": "2026-10-09T21:48:22+00:00",
-        "dataFmt": "09/10/2026 21:48"
       }
     ],
     "times": {
       "Palmeiras": [
         {
-          "titulo": "Palmeiras x Santos - Copa do Brasil Sub-20 2026 - Ao vivo - globoesporte.com",
+          "titulo": "Palmeiras vira sobre o Santos, sofre empate nos acréscimos, mas avança nos pênaltis na Copa do Brasil Sub-20",
           "resumo": "",
           "url": "https://ge.globo.com/to/futebol/copa-do-brasil-sub-20/jogo/09-10-2026/palmeiras-santos.ghtml",
           "imagem": "",
-          "data": "2026-10-09T23:20:43+00:00",
-          "dataFmt": "09/10/2026 23:20"
+          "data": "2026-10-10T01:42:32+00:00",
+          "dataFmt": "10/10/2026 01:42"
+        },
+        {
+          "titulo": "Palmeiras x Corinthians - Campeonato Brasileiro 2026 - globoesporte.com",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/11-10-2026/palmeiras-corinthians.ghtml",
+          "imagem": "",
+          "data": "2026-10-10T01:29:25+00:00",
+          "dataFmt": "10/10/2026 01:29"
         },
         {
           "titulo": "Palpites e dicas para Palmeiras x Corinthians pelo Brasileirão",
@@ -210,20 +218,12 @@
           "dataFmt": "09/10/2026 20:53"
         },
         {
-          "titulo": "Torcida do Fluminense esgota ingressos para volta da semifinal contra o Palmeiras em três minutos",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/09/torcida-do-fluminense-esgota-ingressos-para-volta-da-semifinal-contra-o-palmeiras.ghtml",
-          "imagem": "",
-          "data": "2026-10-09T19:06:20+00:00",
-          "dataFmt": "09/10/2026 19:06"
-        },
-        {
-          "titulo": "Palmeiras repudia crítica do Flamengo à arbitragem do Dérbi: \"Estratégia antiquada\"",
+          "titulo": "Palmeiras repudia crÃ­tica do Flamengo Ã  arbitragem: \"EstratÃ©gia antiquada\"",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/10/09/palmeiras-repudia-critica-de-flamengo-a-arbitragem-do-derbi-estrategia-antiquada.ghtml",
           "imagem": "",
-          "data": "2026-10-09T18:55:37+00:00",
-          "dataFmt": "09/10/2026 18:55"
+          "data": "",
+          "dataFmt": "09/10/2026"
         },
         {
           "titulo": "Treino: Paulinho participa, e GÃ³mez faz exames",
@@ -267,6 +267,22 @@
         }
       ],
       "Flamengo": [
+        {
+          "titulo": "Flamengo e Fluminense questionam decisão da Justiça que deu direito ao Vasco a jogar no Maracanã",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/09/flamengo-e-fluminense-questionam-decisao-da-justica-que-deu-direito-ao-vasco-a-jogar-no-maracana.ghtml",
+          "imagem": "",
+          "data": "2026-10-10T01:56:23+00:00",
+          "dataFmt": "10/10/2026 01:56"
+        },
+        {
+          "titulo": "Flamengo x Fluminense - Campeonato Brasileiro 2026 - globoesporte.com",
+          "resumo": "",
+          "url": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/11-10-2026/flamengo-fluminense.ghtml",
+          "imagem": "",
+          "data": "2026-10-10T01:29:12+00:00",
+          "dataFmt": "10/10/2026 01:29"
+        },
         {
           "titulo": "Palpites e dicas para Flamengo x Fluminense pelo Brasileirão",
           "resumo": "",
@@ -340,31 +356,23 @@
           "dataFmt": "09/10/2026 20:12"
         },
         {
-          "titulo": "Flamengo-PI x River-PI - Campeonato Piauiense Série B 2026 - globoesporte.com",
+          "titulo": "Fla detona arbitragem: \"Erros graves e falta de critÃ©rio\"",
           "resumo": "",
-          "url": "https://ge.globo.com/pi/futebol/piauiense-segunda-divisao/jogo/10-10-2026/flamengo-pi-river-pi.ghtml",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/09/em-nota-oficial-flamengo-critica-arbitragem-contra-o-santos.ghtml",
           "imagem": "",
-          "data": "2026-10-09T19:36:45+00:00",
-          "dataFmt": "09/10/2026 19:36"
-        },
-        {
-          "titulo": "River-PI x Flamengo-PI - Campeonato Piauiense Série B 2026 - globoesporte.com",
-          "resumo": "",
-          "url": "https://ge.globo.com/pi/futebol/piauiense-segunda-divisao/jogo/17-10-2026/river-pi-flamengo-pi.ghtml",
-          "imagem": "",
-          "data": "2026-10-09T19:36:42+00:00",
-          "dataFmt": "09/10/2026 19:36"
-        },
-        {
-          "titulo": "Corinthians x Flamengo - Campeonato Brasileiro sub-17 2026 - globoesporte.com",
-          "resumo": "",
-          "url": "https://ge.globo.com/ma/futebol/brasileirao-sub-17/jogo/13-10-2026/corinthians-flamengo.ghtml",
-          "imagem": "",
-          "data": "2026-10-09T19:02:33+00:00",
-          "dataFmt": "09/10/2026 19:02"
+          "data": "",
+          "dataFmt": "09/10/2026"
         }
       ],
       "Athletico-PR": [
+        {
+          "titulo": "Chapecoense x Athletico-PR - Campeonato Brasileiro 2026 - globoesporte.com",
+          "resumo": "",
+          "url": "https://ge.globo.com/sc/futebol/brasileirao-serie-a/jogo/12-10-2026/chapecoense-atletico-pr.ghtml",
+          "imagem": "",
+          "data": "2026-10-10T00:42:45+00:00",
+          "dataFmt": "10/10/2026 00:42"
+        },
         {
           "titulo": "Palpites e dicas para Chapecoense x Athletico-PR pelo Brasileirão",
           "resumo": "",
@@ -440,6 +448,22 @@
       ],
       "Fluminense": [
         {
+          "titulo": "Flamengo e Fluminense questionam decisão da Justiça que deu direito ao Vasco a jogar no Maracanã",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/09/flamengo-e-fluminense-questionam-decisao-da-justica-que-deu-direito-ao-vasco-a-jogar-no-maracana.ghtml",
+          "imagem": "",
+          "data": "2026-10-10T01:56:23+00:00",
+          "dataFmt": "10/10/2026 01:56"
+        },
+        {
+          "titulo": "Flamengo x Fluminense - Campeonato Brasileiro 2026 - globoesporte.com",
+          "resumo": "",
+          "url": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/11-10-2026/flamengo-fluminense.ghtml",
+          "imagem": "",
+          "data": "2026-10-10T01:29:12+00:00",
+          "dataFmt": "10/10/2026 01:29"
+        },
+        {
           "titulo": "Palpites e dicas para Flamengo x Fluminense pelo Brasileirão",
           "resumo": "",
           "url": "https://ge.globo.com/gato-mestre/dicas/noticia/2026/10/09/palpites-e-dicas-para-flamengo-x-fluminense-pelo-brasileirao.ghtml",
@@ -470,22 +494,6 @@
           "imagem": "",
           "data": "2026-10-09T20:54:28+00:00",
           "dataFmt": "09/10/2026 20:54"
-        },
-        {
-          "titulo": "Cartola: Savarino registra maior pontuação do Fluminense desde 2023",
-          "resumo": "",
-          "url": "https://ge.globo.com/cartola/noticia/2026/10/09/cartola-savarino-registra-maior-pontuacao-do-fluminense-desde-2023.ghtml",
-          "imagem": "",
-          "data": "2026-10-09T19:20:10+00:00",
-          "dataFmt": "09/10/2026 19:20"
-        },
-        {
-          "titulo": "Torcida do Fluminense esgota ingressos para volta da semifinal contra o Palmeiras em três minutos",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/09/torcida-do-fluminense-esgota-ingressos-para-volta-da-semifinal-contra-o-palmeiras.ghtml",
-          "imagem": "",
-          "data": "2026-10-09T19:06:20+00:00",
-          "dataFmt": "09/10/2026 19:06"
         },
         {
           "titulo": "Savarino quebra jejum de trÃªs anos no Flu; veja o Ãºltimo hat-trick",
@@ -520,23 +528,47 @@
           "dataFmt": "09/10/2026"
         },
         {
+          "titulo": "Torcida do Flu esgota ingressos para volta da semifinal contra o Palmeiras em trÃªs minutos",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/09/torcida-do-fluminense-esgota-ingressos-para-volta-da-semifinal-contra-o-palmeiras.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "09/10/2026"
+        },
+        {
           "titulo": "Flu estreia novo gramado do MaracanÃ£, e MarcÃ£o pede melhora",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/09/fluminense-estreia-novo-gramado-do-maracana-com-goleada-mas-marcao-pede-melhora-para-classico.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "09/10/2026"
-        },
-        {
-          "titulo": "MarcÃ£o comemora: \"Colheu tudo o que plantou\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/09/marcao-analisa-goleada-do-fluminense-e-destaca-atuacao-de-savarino-foi-o-grande-jogador-que-a-gente-conhece.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "09/10/2026"
         }
       ],
       "Cruzeiro": [
+        {
+          "titulo": "Bragantino x Cruzeiro - Campeonato Brasileiro 2026 - globoesporte.com",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/brasileirao-serie-a/jogo/12-10-2026/bragantino-cruzeiro.ghtml",
+          "imagem": "",
+          "data": "2026-10-10T01:31:05+00:00",
+          "dataFmt": "10/10/2026 01:31"
+        },
+        {
+          "titulo": "Praia Clube quebra sequência de 16 títulos do Cruzeiro e vai à final do Mineiro de vôlei masculino",
+          "resumo": "",
+          "url": "https://ge.globo.com/mg/triangulo-mineiro/volei/noticia/2026/10/09/praia-clube-quebra-sequencia-de-16-titulos-do-cruzeiro-e-vai-a-final-do-mineiro-de-volei-masculino.ghtml",
+          "imagem": "",
+          "data": "2026-10-10T01:16:57+00:00",
+          "dataFmt": "10/10/2026 01:16"
+        },
+        {
+          "titulo": "Rodriguinho e Mosquera seguem fora dos treinos e são dúvidas para jogo contra o Cruzeiro",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/times/bragantino/noticia/2026/10/09/rodriguinho-e-mosquera-seguem-fora-dos-treinos-e-sao-duvidas-para-jogo-contra-o-cruzeiro.ghtml",
+          "imagem": "",
+          "data": "2026-10-10T00:53:41+00:00",
+          "dataFmt": "10/10/2026 00:53"
+        },
         {
           "titulo": "Palpites e dicas para Bragantino x Cruzeiro pelo Brasileirão",
           "resumo": "",
@@ -546,12 +578,12 @@
           "dataFmt": "09/10/2026 23:15"
         },
         {
-          "titulo": "Sem titular e com reforço, Cruzeiro divulga inscritas para a Libertadores; veja lista",
+          "titulo": "Com novidades, Cruzeiro divulga inscritas para Libertadores; veja lista",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/10/09/sem-titular-e-com-reforco-cruzeiro-divulga-lista-de-jogadoras-inscritas-para-a-libertadores.ghtml",
           "imagem": "",
-          "data": "2026-10-09T19:15:45+00:00",
-          "dataFmt": "09/10/2026 19:15"
+          "data": "",
+          "dataFmt": "09/10/2026"
         },
         {
           "titulo": "ConheÃ§a a joia listada entre as 60 maiores promessas do mundo",
@@ -608,33 +640,17 @@
           "imagem": "",
           "data": "",
           "dataFmt": "07/10/2026"
-        },
-        {
-          "titulo": "AtuaÃ§Ãµes do Cruzeiro: Felipe Morais aproveita chance, e Kaio Jorge tem melhor noite pÃ³s-Copa",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/10/07/atuacoes-do-cruzeiro-felipe-morais-aproveita-chance-e-kaio-jorge-tem-melhor-noite-pos-copa.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "07/10/2026"
-        },
-        {
-          "titulo": "Desafios, briga por tÃ­tulos e Gabigol: Artur Jorge passa a limpo trabalho e projeta Cruzeiro atÃ© 2030",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/10/07/desafios-briga-por-titulos-e-gabigol-artur-jorge-passa-a-limpo-trabalho-e-projeta-cruzeiro-ate-2030.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "07/10/2026"
-        },
-        {
-          "titulo": "Como o Cruzeiro pode conquistar vaga na Libertadores sem confrontos diretos e clÃ¡ssico; entenda",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/10/07/como-o-cruzeiro-pode-conquistar-vaga-na-libertadores-sem-confrontos-diretos-e-classico-entenda.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "07/10/2026"
         }
       ],
       "Bahia": [
+        {
+          "titulo": "Bahia x Mirassol - Campeonato Brasileiro 2026 - globoesporte.com",
+          "resumo": "",
+          "url": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/11-10-2026/bahia-mirassol.ghtml",
+          "imagem": "",
+          "data": "2026-10-10T00:29:45+00:00",
+          "dataFmt": "10/10/2026 00:29"
+        },
         {
           "titulo": "Palpites e dicas para Bahia x Mirassol pelo Brasileirão",
           "resumo": "",
@@ -722,17 +738,25 @@
           "imagem": "",
           "data": "",
           "dataFmt": "08/10/2026"
-        },
-        {
-          "titulo": "Bahia visita o Palmeiras para voltar ao G-4 do Campeonato Brasileiro",
-          "resumo": "",
-          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/10/08/bahia-visita-o-palmeiras-para-voltar-ao-g-4-do-campeonato-brasileiro.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "08/10/2026"
         }
       ],
       "Bragantino": [
+        {
+          "titulo": "Bragantino x Cruzeiro - Campeonato Brasileiro 2026 - globoesporte.com",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/brasileirao-serie-a/jogo/12-10-2026/bragantino-cruzeiro.ghtml",
+          "imagem": "",
+          "data": "2026-10-10T01:31:05+00:00",
+          "dataFmt": "10/10/2026 01:31"
+        },
+        {
+          "titulo": "Rodriguinho e Mosquera seguem fora dos treinos e são dúvidas para jogo contra o Cruzeiro",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/times/bragantino/noticia/2026/10/09/rodriguinho-e-mosquera-seguem-fora-dos-treinos-e-sao-duvidas-para-jogo-contra-o-cruzeiro.ghtml",
+          "imagem": "",
+          "data": "2026-10-10T00:53:41+00:00",
+          "dataFmt": "10/10/2026 00:53"
+        },
         {
           "titulo": "Palpites e dicas para Bragantino x Cruzeiro pelo Brasileirão",
           "resumo": "",
@@ -796,17 +820,17 @@
           "imagem": "",
           "data": "",
           "dataFmt": "01/10/2026"
-        },
-        {
-          "titulo": "Com dores no joelho, Rodriguinho deve desfalcar Bragantino contra o AtlÃ©tico-MG",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/times/bragantino/noticia/2026/10/01/com-dores-no-joelho-rodriguinho-deve-desfalcar-bragantino-contra-o-atletico-mg.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "01/10/2026"
         }
       ],
       "Coritiba": [
+        {
+          "titulo": "Coritiba x Botafogo - Campeonato Brasileiro 2026 - globoesporte.com",
+          "resumo": "",
+          "url": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/12-10-2026/coritiba-botafogo.ghtml",
+          "imagem": "",
+          "data": "2026-10-10T01:30:39+00:00",
+          "dataFmt": "10/10/2026 01:30"
+        },
         {
           "titulo": "Palpites e dicas para Coritiba x Botafogo pelo Brasileirão",
           "resumo": "",
@@ -898,20 +922,20 @@
       ],
       "Atletico-MG": [
         {
+          "titulo": "Atlético-MG x Santos - Campeonato Brasileiro 2026 - globoesporte.com",
+          "resumo": "",
+          "url": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/11-10-2026/atletico-mg-santos.ghtml",
+          "imagem": "",
+          "data": "2026-10-10T01:29:49+00:00",
+          "dataFmt": "10/10/2026 01:29"
+        },
+        {
           "titulo": "Palpites e dicas para Atlético-MG x Santos pelo Brasileirão",
           "resumo": "",
           "url": "https://ge.globo.com/gato-mestre/dicas/noticia/2026/10/09/palpites-e-dicas-para-atletico-mg-x-santos-pelo-brasileirao.ghtml",
           "imagem": "",
           "data": "2026-10-09T23:10:08+00:00",
           "dataFmt": "09/10/2026 23:10"
-        },
-        {
-          "titulo": "Atlético-MG x Montevideo City Torque - Copa Sul-Americana 2026 - globoesporte.com",
-          "resumo": "",
-          "url": "https://ge.globo.com/mg/futebol/copa-sul-americana/jogo/14-10-2026/atletico-mg-montevideo-city-torque.ghtml",
-          "imagem": "",
-          "data": "2026-10-09T19:25:47+00:00",
-          "dataFmt": "09/10/2026 19:25"
         },
         {
           "titulo": "AnÃ¡lise: Galo se recusa a entregar pontos e ganha posto de incansÃ¡vel",
@@ -980,6 +1004,22 @@
       ],
       "Corinthians": [
         {
+          "titulo": "Corinthians e Sorocaba empatam no jogo de ida das quartas da Liga Futsal",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/tem-esporte/futsal/noticia/2026/10/09/corinthians-e-sorocaba-empatam-no-jogo-de-ida-das-quartas-da-liga-futsal.ghtml",
+          "imagem": "",
+          "data": "2026-10-10T01:54:20+00:00",
+          "dataFmt": "10/10/2026 01:54"
+        },
+        {
+          "titulo": "Palmeiras x Corinthians - Campeonato Brasileiro 2026 - globoesporte.com",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/11-10-2026/palmeiras-corinthians.ghtml",
+          "imagem": "",
+          "data": "2026-10-10T01:29:25+00:00",
+          "dataFmt": "10/10/2026 01:29"
+        },
+        {
           "titulo": "Palpites e dicas para Palmeiras x Corinthians pelo Brasileirão",
           "resumo": "",
           "url": "https://ge.globo.com/gato-mestre/dicas/noticia/2026/10/09/palpites-e-dicas-para-palmeiras-x-corinthians-pelo-brasileirao.ghtml",
@@ -1012,20 +1052,12 @@
           "dataFmt": "09/10/2026 22:00"
         },
         {
-          "titulo": "Técnico do sub-20 vai dirigir o Corinthians no Dérbi; diretoria conversa com Carille e Vojvoda",
+          "titulo": "Corinthians conversa com Carille e Vojvoda e terÃ¡ tÃ©cnico do sub-20 no DÃ©rbi",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/10/09/tecnico-do-sub-20-vai-dirigir-o-corinthians-no-derbi-diretoria-conversa-com-carille-e-vojvoda.ghtml",
           "imagem": "",
-          "data": "2026-10-09T19:48:00+00:00",
-          "dataFmt": "09/10/2026 19:48"
-        },
-        {
-          "titulo": "Corinthians x Flamengo - Campeonato Brasileiro sub-17 2026 - globoesporte.com",
-          "resumo": "",
-          "url": "https://ge.globo.com/ma/futebol/brasileirao-sub-17/jogo/13-10-2026/corinthians-flamengo.ghtml",
-          "imagem": "",
-          "data": "2026-10-09T19:02:33+00:00",
-          "dataFmt": "09/10/2026 19:02"
+          "data": "",
+          "dataFmt": "09/10/2026"
         },
         {
           "titulo": "Veja os tÃ©cnicos que jÃ¡ recusaram assumir o Corinthians",
@@ -1066,17 +1098,17 @@
           "imagem": "",
           "data": "",
           "dataFmt": "09/10/2026"
-        },
-        {
-          "titulo": "Julgamento de corintianos por morte de palmeirenses gera alerta para DÃ©rbi",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/10/09/julgamento-de-corintianos-por-morte-de-palmeirenses-gera-alerta-as-vesperas-de-derbi.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "09/10/2026"
         }
       ],
       "Botafogo": [
+        {
+          "titulo": "Coritiba x Botafogo - Campeonato Brasileiro 2026 - globoesporte.com",
+          "resumo": "",
+          "url": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/12-10-2026/coritiba-botafogo.ghtml",
+          "imagem": "",
+          "data": "2026-10-10T01:30:39+00:00",
+          "dataFmt": "10/10/2026 01:30"
+        },
         {
           "titulo": "Botafogo Academy e Escolinha do Galvez vencem na sequência da 1ª rodada do Acreano Sub-11",
           "resumo": "",
@@ -1100,14 +1132,6 @@
           "imagem": "",
           "data": "2026-10-09T20:00:00+00:00",
           "dataFmt": "09/10/2026 20:00"
-        },
-        {
-          "titulo": "Técnico revela preocupação com atmosfera diferente para jogo do Santa Cruz contra o Botafogo-PB",
-          "resumo": "",
-          "url": "https://ge.globo.com/pe/futebol/times/santa-cruz/noticia/2026/10/09/tecnico-revela-preocupacao-com-atmosfera-diferente-para-jogo-do-santa-cruz-contra-o-botafogo-pb.ghtml",
-          "imagem": "",
-          "data": "2026-10-09T18:57:47+00:00",
-          "dataFmt": "09/10/2026 18:57"
         },
         {
           "titulo": "Montoro participa de treino e pode retornar contra o Coritiba",
@@ -1176,20 +1200,20 @@
       ],
       "Vitoria": [
         {
+          "titulo": "São Paulo x Vitória - Campeonato Brasileiro 2026 - globoesporte.com",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/10-10-2026/sao-paulo-vitoria.ghtml",
+          "imagem": "",
+          "data": "2026-10-10T01:30:21+00:00",
+          "dataFmt": "10/10/2026 01:30"
+        },
+        {
           "titulo": "Palpites e dicas para São Paulo x Vitória pelo Brasileirão",
           "resumo": "",
           "url": "https://ge.globo.com/gato-mestre/dicas/noticia/2026/10/09/palpites-e-dicas-para-sao-paulo-x-vitoria-pelo-brasileirao.ghtml",
           "imagem": "",
           "data": "2026-10-09T23:10:06+00:00",
           "dataFmt": "09/10/2026 23:10"
-        },
-        {
-          "titulo": "CRB aumenta chances de chegar ao G-6 depois da vitória sobre o Atlético-GO",
-          "resumo": "",
-          "url": "https://ge.globo.com/al/futebol/times/crb/noticia/2026/10/09/crb-aumenta-chances-de-chegar-ao-g-6-depois-da-vitoria-sobre-o-atletico-go.ghtml",
-          "imagem": "",
-          "data": "2026-10-09T19:07:06+00:00",
-          "dataFmt": "09/10/2026 19:07"
         },
         {
           "titulo": "EscalaÃ§Ã£o do VitÃ³ria: veja time provÃ¡vel, desfalques e quem volta",
@@ -1274,6 +1298,22 @@
       ],
       "Sao-Paulo": [
         {
+          "titulo": "São Paulo x Vitória - Campeonato Brasileiro 2026 - globoesporte.com",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/10-10-2026/sao-paulo-vitoria.ghtml",
+          "imagem": "",
+          "data": "2026-10-10T01:30:21+00:00",
+          "dataFmt": "10/10/2026 01:30"
+        },
+        {
+          "titulo": "Escalação do São Paulo: Rafael e Iago retornam, e Lucas pode jogar até 20 minutos",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/10/09/escalacao-do-sao-paulo-iago-deve-ser-titular-e-lucas-moura-e-liberado-para-jogar.ghtml",
+          "imagem": "",
+          "data": "2026-10-09T23:47:57+00:00",
+          "dataFmt": "09/10/2026 23:47"
+        },
+        {
           "titulo": "Palpites e dicas para São Paulo x Vitória pelo Brasileirão",
           "resumo": "",
           "url": "https://ge.globo.com/gato-mestre/dicas/noticia/2026/10/09/palpites-e-dicas-para-sao-paulo-x-vitoria-pelo-brasileirao.ghtml",
@@ -1346,30 +1386,30 @@
           "dataFmt": "08/10/2026"
         },
         {
-          "titulo": "AnÃ¡lise: SÃ£o Paulo repete erros e estaciona na tabela do BrasileirÃ£o",
+          "titulo": "AnÃ¡lise: SÃ£o Paulo repete erros, estaciona no BrasileirÃ£o e parece torcer pelo fim do ano",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/10/08/analise-sao-paulo-repete-erros-estaciona-no-brasileirao-e-parece-torcer-pelo-fim-do-ano.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "08/10/2026"
-        },
-        {
-          "titulo": "Torcida do SÃ£o Paulo protesta no MineirÃ£o: \"Time sem vergonha\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/10/07/torcida-do-sao-paulo-protesta-no-mineirao-time-sem-vergonha.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "07/10/2026"
         }
       ],
       "Santos": [
         {
-          "titulo": "Palmeiras x Santos - Copa do Brasil Sub-20 2026 - Ao vivo - globoesporte.com",
+          "titulo": "Palmeiras vira sobre o Santos, sofre empate nos acréscimos, mas avança nos pênaltis na Copa do Brasil Sub-20",
           "resumo": "",
           "url": "https://ge.globo.com/to/futebol/copa-do-brasil-sub-20/jogo/09-10-2026/palmeiras-santos.ghtml",
           "imagem": "",
-          "data": "2026-10-09T23:20:43+00:00",
-          "dataFmt": "09/10/2026 23:20"
+          "data": "2026-10-10T01:42:32+00:00",
+          "dataFmt": "10/10/2026 01:42"
+        },
+        {
+          "titulo": "Atlético-MG x Santos - Campeonato Brasileiro 2026 - globoesporte.com",
+          "resumo": "",
+          "url": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/11-10-2026/atletico-mg-santos.ghtml",
+          "imagem": "",
+          "data": "2026-10-10T01:29:49+00:00",
+          "dataFmt": "10/10/2026 01:29"
         },
         {
           "titulo": "Palpites e dicas para Atlético-MG x Santos pelo Brasileirão",
@@ -1450,17 +1490,17 @@
           "imagem": "",
           "data": "",
           "dataFmt": "09/10/2026"
-        },
-        {
-          "titulo": "Cuca exalta Neymar e diz que \"nÃ£o esperava\" arrancada",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/10/08/cuca-exalta-neymar-e-admite-surpresa-com-arrancada-do-santos-no-brasileirao-eu-nao-esperava.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "08/10/2026"
         }
       ],
       "Gremio": [
+        {
+          "titulo": "Grêmio x Internacional - Campeonato Brasileiro 2026 - globoesporte.com",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/11-10-2026/gremio-internacional.ghtml",
+          "imagem": "",
+          "data": "2026-10-10T01:29:37+00:00",
+          "dataFmt": "10/10/2026 01:29"
+        },
         {
           "titulo": "Palpites e dicas para Grêmio x Internacional pelo Brasileirão",
           "resumo": "",
@@ -1548,17 +1588,33 @@
           "imagem": "",
           "data": "",
           "dataFmt": "07/10/2026"
-        },
-        {
-          "titulo": "GrÃªmio tem cinco pendurados antes do Gre-Nal do BrasileirÃ£o; veja lista",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/10/07/gremio-tem-cinco-pendurados-antes-do-gre-nal-do-brasileirao-veja-lista.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "07/10/2026"
         }
       ],
       "Internacional": [
+        {
+          "titulo": "Grêmio x Internacional - Campeonato Brasileiro 2026 - globoesporte.com",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/11-10-2026/gremio-internacional.ghtml",
+          "imagem": "",
+          "data": "2026-10-10T01:29:37+00:00",
+          "dataFmt": "10/10/2026 01:29"
+        },
+        {
+          "titulo": "Paredes sente problema muscular no último jogo do Boca antes de semifinal contra o Vasco na Sul-Americana",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/10/09/paredes-sente-problema-muscular-no-ultimo-jogo-do-boca-antes-de-semifinal-contra-o-vasco-na-sul-americana.ghtml",
+          "imagem": "",
+          "data": "2026-10-10T00:13:34+00:00",
+          "dataFmt": "10/10/2026 00:13"
+        },
+        {
+          "titulo": "Arsenal x Leeds na Premier League: onde assistir ao vivo e horário",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/10/09/arsenal-x-leeds-na-premier-league-onde-assistir-ao-vivo-e-horario.ghtml",
+          "imagem": "",
+          "data": "2026-10-09T23:57:19+00:00",
+          "dataFmt": "09/10/2026 23:57"
+        },
         {
           "titulo": "Palpites e dicas para Grêmio x Internacional pelo Brasileirão",
           "resumo": "",
@@ -1590,14 +1646,6 @@
           "imagem": "",
           "data": "2026-10-09T20:31:33+00:00",
           "dataFmt": "09/10/2026 20:31"
-        },
-        {
-          "titulo": "Campeã da São Silvestre supera atropelamento e vence maratona internacional: \"Sou um milagre\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/am/noticia/2026/10/09/campea-da-sao-silvestre-supera-atropelamento-e-vence-maratona-internacional-sou-um-milagre.ghtml",
-          "imagem": "",
-          "data": "2026-10-09T19:38:50+00:00",
-          "dataFmt": "09/10/2026 19:38"
         },
         {
           "titulo": "STJD libera Victor Gabriel para o Gre-Nal; saiba detalhes",
@@ -1638,25 +1686,17 @@
           "imagem": "",
           "data": "",
           "dataFmt": "08/10/2026"
-        },
-        {
-          "titulo": "Vitinho, do Inter, faz o gol mais rÃ¡pido do BrasileirÃ£o 2026 contra o Corinthians",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/10/08/vitinho-do-inter-faz-o-gol-mais-rapido-do-brasileirao-2026-contra-o-corinthians.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "08/10/2026"
-        },
-        {
-          "titulo": "AnÃ¡lise: Inter derruba Diniz e fecha DVD de terror do Corinthians na temporada",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/10/08/analise-inter-derruba-diniz-e-fecha-dvd-de-terror-do-corinthians-na-temporada.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "08/10/2026"
         }
       ],
       "Mirassol": [
+        {
+          "titulo": "Bahia x Mirassol - Campeonato Brasileiro 2026 - globoesporte.com",
+          "resumo": "",
+          "url": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/11-10-2026/bahia-mirassol.ghtml",
+          "imagem": "",
+          "data": "2026-10-10T00:29:45+00:00",
+          "dataFmt": "10/10/2026 00:29"
+        },
         {
           "titulo": "Palpites e dicas para Bahia x Mirassol pelo Brasileirão",
           "resumo": "",
@@ -1723,6 +1763,22 @@
         }
       ],
       "Remo": [
+        {
+          "titulo": "Vasco x Remo - Campeonato Brasileiro 2026 - globoesporte.com",
+          "resumo": "",
+          "url": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/10-10-2026/vasco-remo.ghtml",
+          "imagem": "",
+          "data": "2026-10-10T01:30:07+00:00",
+          "dataFmt": "10/10/2026 01:30"
+        },
+        {
+          "titulo": "Escalação do Vasco: Andrés Gómez volta ao time contra o Remo",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/09/escalacao-do-vasco-andres-gomez-volta-ao-time-contra-o-remo.ghtml",
+          "imagem": "",
+          "data": "2026-10-09T23:23:04+00:00",
+          "dataFmt": "09/10/2026 23:23"
+        },
         {
           "titulo": "Palpites e dicas para Vasco x Remo pelo Brasileirão",
           "resumo": "",
@@ -1806,6 +1862,46 @@
       ],
       "Vasco": [
         {
+          "titulo": "Flamengo e Fluminense questionam decisão da Justiça que deu direito ao Vasco a jogar no Maracanã",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/09/flamengo-e-fluminense-questionam-decisao-da-justica-que-deu-direito-ao-vasco-a-jogar-no-maracana.ghtml",
+          "imagem": "",
+          "data": "2026-10-10T01:56:23+00:00",
+          "dataFmt": "10/10/2026 01:56"
+        },
+        {
+          "titulo": "Vasco x Remo - Campeonato Brasileiro 2026 - globoesporte.com",
+          "resumo": "",
+          "url": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/10-10-2026/vasco-remo.ghtml",
+          "imagem": "",
+          "data": "2026-10-10T01:30:07+00:00",
+          "dataFmt": "10/10/2026 01:30"
+        },
+        {
+          "titulo": "Paredes sente problema muscular no último jogo do Boca antes de semifinal contra o Vasco na Sul-Americana",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/10/09/paredes-sente-problema-muscular-no-ultimo-jogo-do-boca-antes-de-semifinal-contra-o-vasco-na-sul-americana.ghtml",
+          "imagem": "",
+          "data": "2026-10-10T00:13:34+00:00",
+          "dataFmt": "10/10/2026 00:13"
+        },
+        {
+          "titulo": "Conmebol anuncia Vasco x Boca Juniors no Maracanã; clube inicia venda de ingressos",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/09/conmebol-anuncia-vasco-x-boca-juniors-no-maracana.ghtml",
+          "imagem": "",
+          "data": "2026-10-09T23:32:52+00:00",
+          "dataFmt": "09/10/2026 23:32"
+        },
+        {
+          "titulo": "Escalação do Vasco: Andrés Gómez volta ao time contra o Remo",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/09/escalacao-do-vasco-andres-gomez-volta-ao-time-contra-o-remo.ghtml",
+          "imagem": "",
+          "data": "2026-10-09T23:23:04+00:00",
+          "dataFmt": "09/10/2026 23:23"
+        },
+        {
           "titulo": "Palpites e dicas para Vasco x Remo pelo Brasileirão",
           "resumo": "",
           "url": "https://ge.globo.com/gato-mestre/dicas/noticia/2026/10/09/palpites-e-dicas-para-vasco-x-remo-pelo-brasileirao.ghtml",
@@ -1838,14 +1934,6 @@
           "dataFmt": "09/10/2026 19:59"
         },
         {
-          "titulo": "EscalaÃ§Ã£o: AndrÃ©s GÃ³mez volta ao time contra o Remo",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/09/escalacao-do-vasco-andres-gomez-volta-ao-time-contra-o-remo.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "09/10/2026"
-        },
-        {
           "titulo": "Pedrinho faz queixa contra conselheiro; entenda o caso",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/09/pedrinho-faz-queixa-crime-por-calunia-contra-conselheiro-que-o-acusou-em-venda-da-saf.ghtml",
@@ -1868,41 +1956,17 @@
           "imagem": "",
           "data": "",
           "dataFmt": "09/10/2026"
-        },
-        {
-          "titulo": "Entre o campo e a aula: zagueira concilia Vasco com faculdade",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/09/entre-o-campo-e-a-sala-de-aula-zagueira-concilia-rotina-no-vasco-com-faculdade-de-fisioterapia.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "09/10/2026"
-        },
-        {
-          "titulo": "Vasco entra com novo recurso na JustiÃ§a e pede urgÃªncia para liberaÃ§Ã£o do MaracanÃ£ contra o Boca",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/09/vasco-entra-com-novo-recurso-na-justica-e-pede-liberacao-do-maracana-contra-o-boca.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "09/10/2026"
-        },
-        {
-          "titulo": "Bruno Duarte publica mensagem e tranquiliza torcida do Vasco apÃ³s susto no clÃ¡ssico",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/08/bruno-duarte-publica-mensagem-e-tranquiliza-torcida-do-vasco-apos-susto-no-classico.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "08/10/2026"
-        },
-        {
-          "titulo": "Jogadores do Vasco pedem que jogo contra o Boca nÃ£o seja no Nilton Santos: \"Vamos nos sentir visitantes\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/08/jogadores-do-vasco-pedem-que-jogo-contra-o-boca-nao-seja-no-nilton-santos-vamos-nos-sentir-visitantes.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "08/10/2026"
         }
       ],
       "Chapecoense": [
+        {
+          "titulo": "Chapecoense x Athletico-PR - Campeonato Brasileiro 2026 - globoesporte.com",
+          "resumo": "",
+          "url": "https://ge.globo.com/sc/futebol/brasileirao-serie-a/jogo/12-10-2026/chapecoense-atletico-pr.ghtml",
+          "imagem": "",
+          "data": "2026-10-10T00:42:45+00:00",
+          "dataFmt": "10/10/2026 00:42"
+        },
         {
           "titulo": "Palpites e dicas para Chapecoense x Athletico-PR pelo Brasileirão",
           "resumo": "",
