@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-10T23:04:14-03:00",
+    "atualizadoEm": "2026-10-11T06:12:00-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 392,
     "timesAtualizados": 118,
@@ -847,7 +847,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Bahia contra o Mirassol",
+          "jogador": "EscalaÃ§Ã£o do Bahia contra o Mirassol",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2026,11 +2026,6 @@
         "golsContra": 41
       },
       "desfalques": [
-        {
-          "jogador": "Escalação do Bahia contra o Mirassol",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
         {
           "jogador": "EscalaÃ§Ã£o do Mirassol",
           "motivo": "notícia GE",
