@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-11T12:54:11-03:00",
+    "atualizadoEm": "2026-10-11T16:56:51-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 392,
     "timesAtualizados": 118,
@@ -1126,7 +1126,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do AtlÃ©tico-MG",
+          "jogador": "Escalação",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1668,9 +1668,9 @@
       },
       "desfalques": [
         {
-          "jogador": "Dúvida contra o Atlético-MG, Neymar atuo",
+          "jogador": "Escalação",
           "motivo": "notícia GE",
-          "impacto": "alto"
+          "impacto": "medio"
         }
       ],
       "retornando": [
@@ -2344,7 +2344,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação da Chapecoense",
+          "jogador": "EscalaÃ§Ã£o",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
