@@ -1,10 +1,18 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-11T16:56:48.293981-03:00",
+    "atualizadoEm": "2026-10-11T20:30:07.554309-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "br-30-Palmeiras-Corinthians",
+      "data": "2026-10-11",
+      "comp": "brasileirao",
+      "mandante": "Palmeiras",
+      "visitante": "Corinthians",
+      "placar": "4-1"
+    },
     {
       "id": "br-30-Flamengo-Fluminense",
       "data": "2026-10-10",
@@ -236,14 +244,6 @@
       "mandante": "Fluminense",
       "visitante": "Platense",
       "placar": "0-2"
-    },
-    {
-      "id": "br-26-Vitoria-Gremio",
-      "data": "2026-09-07",
-      "comp": "brasileirao",
-      "mandante": "Vitoria",
-      "visitante": "Gremio",
-      "placar": "1-0"
     }
   ]
 }
