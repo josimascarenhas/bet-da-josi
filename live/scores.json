@@ -1,7 +1,7 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-10T20:17:50.356596-03:00",
-    "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
+    "atualizadoEm": "2026-10-10T23:04:10.784241-03:00",
+    "fonte": "calendário + openligadb.de",
     "jogos": 392,
     "finalizadosTotal": 392
   },
@@ -3084,8 +3084,7 @@
       "golsCasa": 2,
       "golsFora": 1,
       "data": "2026-10-10",
-      "comp": "brasileirao",
-      "fonte": "ge"
+      "comp": "brasileirao"
     },
     "br-30-Vasco-Remo": {
       "status": "finished",
@@ -3093,8 +3092,7 @@
       "golsCasa": 0,
       "golsFora": 0,
       "data": "2026-10-10",
-      "comp": "brasileirao",
-      "fonte": "ge"
+      "comp": "brasileirao"
     },
     "eu-bundesliga-2026-08-29-RB-Leipzig-Borussia-Mgladbach": {
       "status": "finished",
