@@ -1,17 +1,17 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-11T16:56:51-03:00",
+    "atualizadoEm": "2026-10-11T20:30:10-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 392,
+    "jogosFinalizados": 393,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + openligadb.de"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
       "fase": "4ª rodada",
       "timesAtivos": [
-        "Flamengo",
         "Palmeiras",
+        "Flamengo",
         "Fluminense",
         "Athletico-PR",
         "Bahia",
@@ -198,8 +198,8 @@
   "times": {
     "Palmeiras": {
       "brasileirao": {
-        "posicao": 2,
-        "pontos": 54,
+        "posicao": 1,
+        "pontos": 57,
         "ultimos5": [
           "D 1-2 ATLMG",
           "V 4-0",
@@ -226,11 +226,11 @@
           "gpg": 1.83,
           "gsg": 0.92
         },
-        "vitorias": 15,
+        "vitorias": 16,
         "empates": 9,
         "derrotas": 3,
-        "golsPro": 45,
-        "golsContra": 22
+        "golsPro": 49,
+        "golsContra": 23
       },
       "desfalques": [
         {
@@ -339,7 +339,7 @@
     },
     "Flamengo": {
       "brasileirao": {
-        "posicao": 1,
+        "posicao": 2,
         "pontos": 54,
         "ultimos5": [
           "E 1-1 SAOPA",
@@ -847,7 +847,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do Bahia",
+          "jogador": "EscalaÃ§Ã£o do Bahia contra o Mirassol",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1240,9 +1240,9 @@
         },
         "vitorias": 9,
         "empates": 8,
-        "derrotas": 12,
-        "golsPro": 32,
-        "golsContra": 36
+        "derrotas": 13,
+        "golsPro": 33,
+        "golsContra": 40
       },
       "desfalques": [
         {
