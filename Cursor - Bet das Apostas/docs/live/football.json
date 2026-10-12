@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-11T20:30:10-03:00",
+    "atualizadoEm": "2026-10-11T23:37:52-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 393,
+    "jogosFinalizados": 394,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -16,8 +16,8 @@
         "Athletico-PR",
         "Bahia",
         "Cruzeiro",
-        "Vitoria",
         "Bragantino",
+        "Vitoria",
         "Coritiba",
         "Botafogo",
         "Santos",
@@ -700,9 +700,9 @@
         },
         "vitorias": 12,
         "empates": 6,
-        "derrotas": 10,
+        "derrotas": 11,
         "golsPro": 38,
-        "golsContra": 44
+        "golsContra": 45
       },
       "desfalques": [
         {
@@ -904,8 +904,8 @@
     },
     "Bragantino": {
       "brasileirao": {
-        "posicao": 8,
-        "pontos": 37,
+        "posicao": 7,
+        "pontos": 40,
         "ultimos5": [
           "E 1-1",
           "E 0-0 COR",
@@ -932,10 +932,10 @@
           "gpg": 1.0,
           "gsg": 1.09
         },
-        "vitorias": 10,
+        "vitorias": 11,
         "empates": 7,
         "derrotas": 8,
-        "golsPro": 29,
+        "golsPro": 30,
         "golsContra": 25
       },
       "desfalques": [
@@ -1425,7 +1425,7 @@
     },
     "Vitoria": {
       "brasileirao": {
-        "posicao": 7,
+        "posicao": 8,
         "pontos": 39,
         "ultimos5": [
           "D 0-2",
