@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-12T07:19:29-03:00",
+    "atualizadoEm": "2026-10-12T16:57:43-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 394,
+    "jogosFinalizados": 395,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + openligadb.de"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -812,7 +812,7 @@
     "Bahia": {
       "brasileirao": {
         "posicao": 5,
-        "pontos": 43,
+        "pontos": 46,
         "ultimos5": [
           "E 1-1 COR",
           "E 0-0",
@@ -839,10 +839,10 @@
           "gpg": 1.42,
           "gsg": 1.42
         },
-        "vitorias": 11,
+        "vitorias": 12,
         "empates": 10,
         "derrotas": 7,
-        "golsPro": 42,
+        "golsPro": 43,
         "golsContra": 35
       },
       "desfalques": [
@@ -1788,7 +1788,7 @@
       },
       "desfalques": [
         {
-          "jogador": "GrÃªmio tem retorno e desfalques contra ",
+          "jogador": "Suspenso, Wallace passarÃ¡ por cirurgia ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1902,12 +1902,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Chuva de aviões de papel e outros objeto",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Paredes tem lesão no músculo posterior d",
+          "jogador": "Inter confirma lesão de Alan Patrick, qu",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2021,11 +2016,16 @@
         },
         "vitorias": 8,
         "empates": 9,
-        "derrotas": 11,
+        "derrotas": 12,
         "golsPro": 34,
-        "golsContra": 41
+        "golsContra": 42
       },
       "desfalques": [
+        {
+          "jogador": "Inter confirma lesão de Alan Patrick, qu",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "EscalaÃ§Ã£o do Mirassol",
           "motivo": "notícia GE",
