@@ -1,7 +1,7 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-11T23:37:48.639115-03:00",
-    "fonte": "calendário + ge.globo.com + openligadb.de",
+    "atualizadoEm": "2026-10-12T07:19:24.458701-03:00",
+    "fonte": "calendário + openligadb.de",
     "jogos": 394,
     "finalizadosTotal": 394
   },
@@ -3108,8 +3108,7 @@
       "golsCasa": 1,
       "golsFora": 0,
       "data": "2026-10-11",
-      "comp": "brasileirao",
-      "fonte": "ge"
+      "comp": "brasileirao"
     },
     "eu-bundesliga-2026-08-29-RB-Leipzig-Borussia-Mgladbach": {
       "status": "finished",
