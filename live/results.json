@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-11T20:30:07.554309-03:00",
+    "atualizadoEm": "2026-10-11T23:37:48.639115-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
@@ -12,6 +12,14 @@
       "mandante": "Palmeiras",
       "visitante": "Corinthians",
       "placar": "4-1"
+    },
+    {
+      "id": "br-30-Bragantino-Cruzeiro",
+      "data": "2026-10-11",
+      "comp": "brasileirao",
+      "mandante": "Bragantino",
+      "visitante": "Cruzeiro",
+      "placar": "1-0"
     },
     {
       "id": "br-30-Flamengo-Fluminense",
@@ -236,14 +244,6 @@
       "mandante": "Estudiantes",
       "visitante": "Corinthians",
       "placar": "1-1"
-    },
-    {
-      "id": "lib-2026-09-08-Fluminense-Platense",
-      "data": "2026-09-08",
-      "comp": "libertadores",
-      "mandante": "Fluminense",
-      "visitante": "Platense",
-      "placar": "0-2"
     }
   ]
 }
