@@ -1,10 +1,18 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-12T07:19:24.458701-03:00",
+    "atualizadoEm": "2026-10-12T16:57:39.495008-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "br-30-Bahia-Mirassol",
+      "data": "2026-10-12",
+      "comp": "brasileirao",
+      "mandante": "Bahia",
+      "visitante": "Mirassol",
+      "placar": "1-0"
+    },
     {
       "id": "br-30-Palmeiras-Corinthians",
       "data": "2026-10-11",
@@ -236,14 +244,6 @@
       "mandante": "Independiente-del-Valle",
       "visitante": "Flamengo",
       "placar": "0-2"
-    },
-    {
-      "id": "lib-2026-09-09-Estudiantes-Corinthians",
-      "data": "2026-09-09",
-      "comp": "libertadores",
-      "mandante": "Estudiantes",
-      "visitante": "Corinthians",
-      "placar": "1-1"
     }
   ]
 }
