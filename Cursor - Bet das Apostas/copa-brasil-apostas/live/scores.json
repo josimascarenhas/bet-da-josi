@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-12T16:57:39.495008-03:00",
-    "fonte": "calendário + ge.globo.com + openligadb.de",
-    "jogos": 395,
-    "finalizadosTotal": 395
+    "atualizadoEm": "2026-10-12T22:55:33.077176-03:00",
+    "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
+    "jogos": 398,
+    "finalizadosTotal": 398
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -3115,6 +3115,32 @@
       "placar": "1-0",
       "golsCasa": 1,
       "golsFora": 0,
+      "data": "2026-10-12",
+      "comp": "brasileirao"
+    },
+    "br-30-Chapecoense-Athletico-PR": {
+      "status": "finished",
+      "placar": "4-1",
+      "golsCasa": 4,
+      "golsFora": 1,
+      "data": "2026-10-12",
+      "comp": "brasileirao",
+      "fonte": "ge"
+    },
+    "br-30-Gremio-Internacional": {
+      "status": "finished",
+      "placar": "3-0",
+      "golsCasa": 3,
+      "golsFora": 0,
+      "data": "2026-10-12",
+      "comp": "brasileirao",
+      "fonte": "ge"
+    },
+    "br-30-Coritiba-Botafogo": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
       "data": "2026-10-12",
       "comp": "brasileirao",
       "fonte": "ge"

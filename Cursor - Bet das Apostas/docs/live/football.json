@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-12T16:57:43-03:00",
+    "atualizadoEm": "2026-10-12T22:55:37-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 395,
+    "jogosFinalizados": 398,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -20,13 +20,13 @@
         "Vitoria",
         "Coritiba",
         "Botafogo",
+        "Gremio",
         "Santos",
         "Corinthians",
         "Atletico-MG",
         "Remo",
         "Mirassol",
         "Internacional",
-        "Gremio",
         "Vasco",
         "Sao-Paulo",
         "Chapecoense"
@@ -485,9 +485,9 @@
         },
         "vitorias": 14,
         "empates": 6,
-        "derrotas": 7,
-        "golsPro": 40,
-        "golsContra": 29
+        "derrotas": 8,
+        "golsPro": 41,
+        "golsContra": 33
       },
       "desfalques": [
         {
@@ -998,7 +998,7 @@
     "Coritiba": {
       "brasileirao": {
         "posicao": 9,
-        "pontos": 37,
+        "pontos": 38,
         "ultimos5": [
           "E 0-0",
           "D 0-1 CRU",
@@ -1026,10 +1026,10 @@
           "gsg": 1.42
         },
         "vitorias": 10,
-        "empates": 7,
+        "empates": 8,
         "derrotas": 11,
-        "golsPro": 35,
-        "golsContra": 43
+        "golsPro": 36,
+        "golsContra": 44
       },
       "desfalques": [
         {
@@ -1090,7 +1090,7 @@
     },
     "Atletico-MG": {
       "brasileirao": {
-        "posicao": 13,
+        "posicao": 14,
         "pontos": 33,
         "ultimos5": [
           "E 1-1 BAH",
@@ -1210,7 +1210,7 @@
     },
     "Corinthians": {
       "brasileirao": {
-        "posicao": 12,
+        "posicao": 13,
         "pontos": 35,
         "ultimos5": [
           "E 1-1",
@@ -1327,7 +1327,7 @@
     "Botafogo": {
       "brasileirao": {
         "posicao": 10,
-        "pontos": 35,
+        "pontos": 36,
         "ultimos5": [
           "E 0-0 VIT",
           "V 1-0",
@@ -1355,10 +1355,10 @@
           "gsg": 1.67
         },
         "vitorias": 9,
-        "empates": 8,
+        "empates": 9,
         "derrotas": 11,
-        "golsPro": 40,
-        "golsContra": 43
+        "golsPro": 41,
+        "golsContra": 44
       },
       "desfalques": [
         {
@@ -1632,7 +1632,7 @@
     },
     "Santos": {
       "brasileirao": {
-        "posicao": 11,
+        "posicao": 12,
         "pontos": 35,
         "ultimos5": [
           "D 1-2",
@@ -1752,8 +1752,8 @@
     },
     "Gremio": {
       "brasileirao": {
-        "posicao": 17,
-        "pontos": 32,
+        "posicao": 11,
+        "pontos": 35,
         "ultimos5": [
           "D 1-2",
           "E 1-1 FLU",
@@ -1780,10 +1780,10 @@
           "gpg": 0.5,
           "gsg": 1.5
         },
-        "vitorias": 8,
+        "vitorias": 9,
         "empates": 8,
         "derrotas": 12,
-        "golsPro": 32,
+        "golsPro": 35,
         "golsContra": 36
       },
       "desfalques": [
@@ -1866,7 +1866,7 @@
     },
     "Internacional": {
       "brasileirao": {
-        "posicao": 16,
+        "posicao": 17,
         "pontos": 32,
         "ultimos5": [
           "D 0-2",
@@ -1896,9 +1896,9 @@
         },
         "vitorias": 7,
         "empates": 11,
-        "derrotas": 10,
+        "derrotas": 11,
         "golsPro": 32,
-        "golsContra": 34
+        "golsContra": 37
       },
       "desfalques": [
         {
@@ -1986,7 +1986,7 @@
     },
     "Mirassol": {
       "brasileirao": {
-        "posicao": 15,
+        "posicao": 16,
         "pontos": 33,
         "ultimos5": [
           "E 1-1",
@@ -2101,7 +2101,7 @@
     },
     "Remo": {
       "brasileirao": {
-        "posicao": 14,
+        "posicao": 15,
         "pontos": 33,
         "ultimos5": [
           "V 2-0 VIT",
@@ -2309,7 +2309,7 @@
     "Chapecoense": {
       "brasileirao": {
         "posicao": 20,
-        "pontos": 15,
+        "pontos": 18,
         "ultimos5": [
           "D 0-4 FLA",
           "E 2-2",
@@ -2336,15 +2336,15 @@
           "gpg": 0.55,
           "gsg": 1.64
         },
-        "vitorias": 2,
+        "vitorias": 3,
         "empates": 9,
         "derrotas": 16,
-        "golsPro": 27,
-        "golsContra": 56
+        "golsPro": 31,
+        "golsContra": 57
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o",
+          "jogador": "EscalaÃ§Ã£o da Chapecoense",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
