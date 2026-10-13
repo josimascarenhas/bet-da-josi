@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-12T22:55:37-03:00",
+    "atualizadoEm": "2026-10-13T06:01:41-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 398,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -2021,11 +2021,6 @@
         "golsContra": 42
       },
       "desfalques": [
-        {
-          "jogador": "Inter confirma lesão de Alan Patrick, qu",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
         {
           "jogador": "EscalaÃ§Ã£o do Mirassol",
           "motivo": "notícia GE",
