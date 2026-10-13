@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-12T16:57:39.495008-03:00",
+    "atualizadoEm": "2026-10-12T22:55:33.077176-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
@@ -12,6 +12,30 @@
       "mandante": "Bahia",
       "visitante": "Mirassol",
       "placar": "1-0"
+    },
+    {
+      "id": "br-30-Chapecoense-Athletico-PR",
+      "data": "2026-10-12",
+      "comp": "brasileirao",
+      "mandante": "Chapecoense",
+      "visitante": "Athletico-PR",
+      "placar": "4-1"
+    },
+    {
+      "id": "br-30-Gremio-Internacional",
+      "data": "2026-10-12",
+      "comp": "brasileirao",
+      "mandante": "Gremio",
+      "visitante": "Internacional",
+      "placar": "3-0"
+    },
+    {
+      "id": "br-30-Coritiba-Botafogo",
+      "data": "2026-10-12",
+      "comp": "brasileirao",
+      "mandante": "Coritiba",
+      "visitante": "Botafogo",
+      "placar": "1-1"
     },
     {
       "id": "br-30-Palmeiras-Corinthians",
@@ -220,30 +244,6 @@
       "mandante": "Botafogo",
       "visitante": "Bragantino",
       "placar": "1-1"
-    },
-    {
-      "id": "br-27-Flamengo-Corinthians",
-      "data": "2026-09-12",
-      "comp": "brasileirao",
-      "mandante": "Flamengo",
-      "visitante": "Corinthians",
-      "placar": "5-2"
-    },
-    {
-      "id": "br-27-Santos-Cruzeiro",
-      "data": "2026-09-12",
-      "comp": "brasileirao",
-      "mandante": "Santos",
-      "visitante": "Cruzeiro",
-      "placar": "2-0"
-    },
-    {
-      "id": "lib-2026-09-10-Independiente-del-Valle-Flamengo",
-      "data": "2026-09-10",
-      "comp": "libertadores",
-      "mandante": "Independiente-del-Valle",
-      "visitante": "Flamengo",
-      "placar": "0-2"
     }
   ]
 }
