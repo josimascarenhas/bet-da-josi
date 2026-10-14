@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-14T12:55:54-03:00",
+    "atualizadoEm": "2026-10-14T17:00:57-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 398,
     "timesAtualizados": 118,
@@ -1033,7 +1033,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Coritiba tem baixa confirmada e dúvida n",
+          "jogador": "Escalação do Coritiba",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1126,7 +1126,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação",
+          "jogador": "Escalação do Coritiba",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1246,7 +1246,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Raniele sofre lesão no joelho e vira des",
+          "jogador": "Raniele sofre lesÃ£o no joelho e vira de",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1902,7 +1902,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Inter confirma lesão de Alan Patrick, qu",
+          "jogador": "Saiba a projeção do Inter para retorno d",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Vini Jr. é suspenso por quatro jogos em ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
