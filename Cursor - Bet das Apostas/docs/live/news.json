@@ -1,34 +1,138 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-15T01:41:34.340646+00:00",
+    "atualizadoEm": "2026-10-15T07:01:58.359823+00:00",
     "fonte": "ge.globo.com",
     "fonteUrl": "https://ge.globo.com/"
   },
   "futebol": {
     "geral": [
       {
-        "titulo": "Internacional x Atlético-MG - Copa do Brasil Feminina 2026 - Ao vivo - globoesporte.com",
+        "titulo": "Casaca! Como o grito marcante do Vasco voltou a embalar elenco e torcedores em 2026",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/15/casaca-como-o-grito-marcante-do-vasco-voltou-a-embalar-elenco-e-torcedores-em-2026.ghtml",
+        "imagem": "",
+        "data": "2026-10-15T06:00:01+00:00",
+        "dataFmt": "15/10/2026 06:00"
+      },
+      {
+        "titulo": "Elogiado por Mourinho, Endrick só havia jogado 10 minutos na temporada até mudar Roma x Real Madrid",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/10/15/elogiado-por-mourinho-endrick-so-havia-jogado-10-minutos-na-temporada-ate-mudar-roma-x-real-madrid.ghtml",
+        "imagem": "",
+        "data": "2026-10-15T06:00:00+00:00",
+        "dataFmt": "15/10/2026 06:00"
+      },
+      {
+        "titulo": "Estudiantes x Flamengo: onde assistir ao vivo, horário e escalações",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/15/estudiantes-x-flamengo-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
+        "imagem": "",
+        "data": "2026-10-15T06:00:00+00:00",
+        "dataFmt": "15/10/2026 06:00"
+      },
+      {
+        "titulo": "Haaland supera 60 gols na Champions League e pulveriza marca histórica de Messi",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/liga-dos-campeoes/noticia/2026/10/15/haaland-supera-60-gols-na-champions-league-e-pulveriza-marca-historica-de-messi.ghtml",
+        "imagem": "",
+        "data": "2026-10-15T05:00:00+00:00",
+        "dataFmt": "15/10/2026 05:00"
+      },
+      {
+        "titulo": "Após atuar no Gaúcho, Adriano Klein tem permanência oficializada pelo Manauara para 2027",
+        "resumo": "",
+        "url": "https://ge.globo.com/am/futebol/times/manauara/noticia/2026/10/15/apos-atuar-no-gaucho-adriano-klein-tem-permanencia-oficializada-pelo-manauara-para-2027.ghtml",
+        "imagem": "",
+        "data": "2026-10-15T04:39:17+00:00",
+        "dataFmt": "15/10/2026 04:39"
+      },
+      {
+        "titulo": "Anunciado pelo Atlético-PB, Ronan tem rescisão com o Amazonas publicada no BID da CBF",
+        "resumo": "",
+        "url": "https://ge.globo.com/am/futebol/times/amazonas-fc/noticia/2026/10/15/anunciado-pelo-atletico-pb-ronan-tem-rescisao-com-o-amazonas-publicada-no-bid-da-cbf.ghtml",
+        "imagem": "",
+        "data": "2026-10-15T04:14:42+00:00",
+        "dataFmt": "15/10/2026 04:14"
+      },
+      {
+        "titulo": "Castanheira nega falta de atenção do Palmeiras e valoriza bom resultado na semifinal",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/10/15/castanheira-nega-falta-de-concentracao-do-palmeiras-e-valoriza-bom-resultado-na-semifinal.ghtml",
+        "imagem": "",
+        "data": "2026-10-15T03:31:52+00:00",
+        "dataFmt": "15/10/2026 03:31"
+      },
+      {
+        "titulo": "Arias, do Palmeiras, rebate vaias da torcida do Fluminense: \"As pessoas têm amnésia\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/10/15/arias-do-palmeiras-rebate-vaias-da-torcida-do-fluminense-as-pessoas-tem-amnesia.ghtml",
+        "imagem": "",
+        "data": "2026-10-15T03:12:54+00:00",
+        "dataFmt": "15/10/2026 03:12"
+      },
+      {
+        "titulo": "Marcão admite falta de efetividade, mas considera Fluminense vivo por vaga na final: \"Acreditamos ainda mais\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/15/marcao-analisa-derrota-do-fluminense-para-o-palmeiras-pela-libertadores.ghtml",
+        "imagem": "",
+        "data": "2026-10-15T03:11:43+00:00",
+        "dataFmt": "15/10/2026 03:11"
+      },
+      {
+        "titulo": "Palmeiras vence Fluminense e sai em vantagem por vaga na final da Libertadores",
+        "resumo": "",
+        "url": "https://ge.globo.com/rj/futebol/libertadores/jogo/14-10-2026/fluminense-palmeiras.ghtml",
+        "imagem": "",
+        "data": "2026-10-15T03:04:52+00:00",
+        "dataFmt": "15/10/2026 03:04"
+      },
+      {
+        "titulo": "Mourinho elogia Wesley e reclama de suspensão de Vini Jr.: \"Coisa absurda, ridícula\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/liga-dos-campeoes/noticia/2026/10/15/mourinho-elogia-wesley-e-reclama-de-suspensao-de-vini-jr-coisa-absurda-ridicula.ghtml",
+        "imagem": "",
+        "data": "2026-10-15T03:00:01+00:00",
+        "dataFmt": "15/10/2026 03:00"
+      },
+      {
+        "titulo": "Atuações do Fluminense: Arana, Canobbio e Serna são os piores em derrota; dê suas notas",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/14/atuacoes-do-fluminense-arana-canobbio-e-serna-sao-os-piores-em-derrota-de-suas-notas.ghtml",
+        "imagem": "",
+        "data": "2026-10-15T02:46:00+00:00",
+        "dataFmt": "15/10/2026 02:46"
+      },
+      {
+        "titulo": "Atuações do Palmeiras: Carlos Miguel sai mal, e Flaco e Marlon garantem vitória; dê suas notas",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/10/14/atuacoes-do-palmeiras-carlos-miguel-sai-mal-e-flaco-e-marlon-garantem-vitoria-de-suas-notas.ghtml",
+        "imagem": "",
+        "data": "2026-10-15T02:43:56+00:00",
+        "dataFmt": "15/10/2026 02:43"
+      },
+      {
+        "titulo": "Atlético-MG é fatal e fica perto de vaga na final da Sul-Americana",
+        "resumo": "",
+        "url": "https://ge.globo.com/mg/futebol/copa-sul-americana/jogo/14-10-2026/atletico-mg-montevideo-city-torque.ghtml",
+        "imagem": "",
+        "data": "2026-10-15T02:34:44+00:00",
+        "dataFmt": "15/10/2026 02:34"
+      },
+      {
+        "titulo": "Inter e Atlético-MG empatam no jogo de ida quartas de final da Copa do Brasil",
         "resumo": "",
         "url": "https://ge.globo.com/rs/futebol/futebol-feminino/copa-do-brasil-feminina/jogo/14-10-2026/internacional-atletico-mg.ghtml",
         "imagem": "",
-        "data": "2026-10-15T01:31:33+00:00",
-        "dataFmt": "15/10/2026 01:31"
+        "data": "2026-10-15T02:05:38+00:00",
+        "dataFmt": "15/10/2026 02:05"
       },
       {
         "titulo": "Atlético-MG goleia o Amazonas e encaminha vaga na Copa do Brasil Sub-20",
         "resumo": "",
         "url": "https://ge.globo.com/am/futebol/copa-do-brasil-sub-20/jogo/14-10-2026/amazonas-fc-atletico-mg.ghtml",
         "imagem": "",
-        "data": "2026-10-15T01:28:43+00:00",
-        "dataFmt": "15/10/2026 01:28"
-      },
-      {
-        "titulo": "Fluminense x Palmeiras - Taça Conmebol Libertadores 2026 - Ao vivo - globoesporte.com",
-        "resumo": "",
-        "url": "https://ge.globo.com/rj/futebol/libertadores/jogo/14-10-2026/fluminense-palmeiras.ghtml",
-        "imagem": "",
-        "data": "2026-10-15T01:26:49+00:00",
-        "dataFmt": "15/10/2026 01:26"
+        "data": "2026-10-15T02:03:29+00:00",
+        "dataFmt": "15/10/2026 02:03"
       },
       {
         "titulo": "Domínguez enaltece vitória do Atlético-MG em semifinal e responde sobre volta de Fred",
@@ -37,14 +141,6 @@
         "imagem": "",
         "data": "2026-10-15T00:50:57+00:00",
         "dataFmt": "15/10/2026 00:50"
-      },
-      {
-        "titulo": "Atlético-MG é fatal e fica perto de vaga na final da Sul-Americana",
-        "resumo": "",
-        "url": "https://ge.globo.com/mg/futebol/copa-sul-americana/jogo/14-10-2026/atletico-mg-montevideo-city-torque.ghtml",
-        "imagem": "",
-        "data": "2026-10-15T00:29:05+00:00",
-        "dataFmt": "15/10/2026 00:29"
       },
       {
         "titulo": "Mixto-PB vence o Marretinha e é o primeiro campeão do Paraibano Feminino Sub-20",
@@ -69,113 +165,49 @@
         "imagem": "",
         "data": "2026-10-14T23:54:16+00:00",
         "dataFmt": "14/10/2026 23:54"
-      },
-      {
-        "titulo": "Atuações do Atlético-MG: ataque é impecável, e defesa faz jogo confiante; dê notas",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/10/14/atuacoes-do-atletico-mg-ataque-e-impecavel-e-defesa-faz-jogo-confiante-de-notas.ghtml",
-        "imagem": "",
-        "data": "2026-10-14T23:54:04+00:00",
-        "dataFmt": "14/10/2026 23:54"
-      },
-      {
-        "titulo": "Liverpool goleia LASK com show de Barcola em jogo de nove gols na Champions",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/futebol-internacional/liga-dos-campeoes/jogo/14-10-2026/lask-linz-Liverpool.ghtml",
-        "imagem": "",
-        "data": "2026-10-14T23:50:35+00:00",
-        "dataFmt": "14/10/2026 23:50"
-      },
-      {
-        "titulo": "PSG vence Manchester City fora de casa em jogo eletrizante",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/futebol-internacional/liga-dos-campeoes/jogo/14-10-2026/Manchestercity-parissaintgermain.ghtml",
-        "imagem": "",
-        "data": "2026-10-14T23:49:45+00:00",
-        "dataFmt": "14/10/2026 23:49"
-      },
-      {
-        "titulo": "Endrick muda o jogo e comanda Real Madrid em virada histórica contra a Roma",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/futebol-internacional/liga-dos-campeoes/jogo/14-10-2026/roma-realmadrid.ghtml",
-        "imagem": "",
-        "data": "2026-10-14T23:49:43+00:00",
-        "dataFmt": "14/10/2026 23:49"
-      },
-      {
-        "titulo": "Torcedores protestam e atiram rojões contra o CT do Corinthians; um deles estava armado",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/10/14/torcedores-protestam-e-atiram-rojoes-contra-o-ct-do-corinthians-um-deles-estava-armado.ghtml",
-        "imagem": "",
-        "data": "2026-10-14T23:46:38+00:00",
-        "dataFmt": "14/10/2026 23:46"
-      },
-      {
-        "titulo": "Mixto anuncia lateral ex-Náutico, volante ex-São José-RS e atacante ex-Fluminense-PI para 2027",
-        "resumo": "",
-        "url": "https://ge.globo.com/mt/futebol/times/mixto/noticia/2026/10/14/mixto-anuncia-lateral-ex-nautico-volante-ex-sao-jose-rs-e-atacante-ex-fluminense-pi-para-2027.ghtml",
-        "imagem": "",
-        "data": "2026-10-14T23:39:02+00:00",
-        "dataFmt": "14/10/2026 23:39"
-      },
-      {
-        "titulo": "América-RN oficializa Edson Palomares como novo diretor de futebol",
-        "resumo": "",
-        "url": "https://ge.globo.com/rn/futebol/times/america-rn/noticia/2026/10/14/america-rn-oficializa-edson-palomares-como-novo-diretor-de-futebol.ghtml",
-        "imagem": "",
-        "data": "2026-10-14T23:19:31+00:00",
-        "dataFmt": "14/10/2026 23:19"
-      },
-      {
-        "titulo": "Atacante do Atlético-MG dá drible desconcertante de costas em gol pela semifinal da Sula; assista",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/10/14/atacante-do-atletico-mg-da-drible-desconcertante-de-costas-em-gol-pela-semifinal-da-sula-assista.ghtml",
-        "imagem": "",
-        "data": "2026-10-14T23:10:55+00:00",
-        "dataFmt": "14/10/2026 23:10"
-      },
-      {
-        "titulo": "Raniele, do Corinthians, sofre lesão no joelho e passará por cirurgia",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/10/14/raniele-do-corinthians-sofre-lesao-no-joelho-e-passara-por-cirurgia.ghtml",
-        "imagem": "",
-        "data": "2026-10-14T23:08:14+00:00",
-        "dataFmt": "14/10/2026 23:08"
-      },
-      {
-        "titulo": "Luiz Felipe é punido pelo STJD e desfalca o Goiás contra o Náutico",
-        "resumo": "",
-        "url": "https://ge.globo.com/go/futebol/times/goias/noticia/2026/10/14/luiz-felipe-e-punido-pelo-stjd-e-desfalca-o-goias-contra-o-nautico.ghtml",
-        "imagem": "",
-        "data": "2026-10-14T23:05:19+00:00",
-        "dataFmt": "14/10/2026 23:05"
-      },
-      {
-        "titulo": "Estudiantes x Flamengo - Taça Conmebol Libertadores 2026 - globoesporte.com",
-        "resumo": "",
-        "url": "https://ge.globo.com/rj/futebol/libertadores/jogo/15-10-2026/estudiantes-flamengo.ghtml",
-        "imagem": "",
-        "data": "2026-10-14T23:02:49+00:00",
-        "dataFmt": "14/10/2026 23:02"
-      },
-      {
-        "titulo": "Netinho, do Atlético-GO, fica liberado para jogar após julgamento no STJD",
-        "resumo": "",
-        "url": "https://ge.globo.com/go/futebol/times/atletico-go/noticia/2026/10/14/netinho-do-atletico-go-fica-liberado-para-jogar-apos-julgamento-no-stjd.ghtml",
-        "imagem": "",
-        "data": "2026-10-14T22:42:34+00:00",
-        "dataFmt": "14/10/2026 22:42"
       }
     ],
     "times": {
       "Palmeiras": [
         {
-          "titulo": "Fluminense x Palmeiras - Taça Conmebol Libertadores 2026 - Ao vivo - globoesporte.com",
+          "titulo": "Castanheira nega falta de atenção do Palmeiras e valoriza bom resultado na semifinal",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/10/15/castanheira-nega-falta-de-concentracao-do-palmeiras-e-valoriza-bom-resultado-na-semifinal.ghtml",
+          "imagem": "",
+          "data": "2026-10-15T03:31:52+00:00",
+          "dataFmt": "15/10/2026 03:31"
+        },
+        {
+          "titulo": "Arias, do Palmeiras, rebate vaias da torcida do Fluminense: \"As pessoas têm amnésia\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/10/15/arias-do-palmeiras-rebate-vaias-da-torcida-do-fluminense-as-pessoas-tem-amnesia.ghtml",
+          "imagem": "",
+          "data": "2026-10-15T03:12:54+00:00",
+          "dataFmt": "15/10/2026 03:12"
+        },
+        {
+          "titulo": "Marcão admite falta de efetividade, mas considera Fluminense vivo por vaga na final: \"Acreditamos ainda mais\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/15/marcao-analisa-derrota-do-fluminense-para-o-palmeiras-pela-libertadores.ghtml",
+          "imagem": "",
+          "data": "2026-10-15T03:11:43+00:00",
+          "dataFmt": "15/10/2026 03:11"
+        },
+        {
+          "titulo": "Palmeiras vence Fluminense e sai em vantagem por vaga na final da Libertadores",
           "resumo": "",
           "url": "https://ge.globo.com/rj/futebol/libertadores/jogo/14-10-2026/fluminense-palmeiras.ghtml",
           "imagem": "",
-          "data": "2026-10-15T01:26:49+00:00",
-          "dataFmt": "15/10/2026 01:26"
+          "data": "2026-10-15T03:04:52+00:00",
+          "dataFmt": "15/10/2026 03:04"
+        },
+        {
+          "titulo": "Atuações do Palmeiras: Carlos Miguel sai mal, e Flaco e Marlon garantem vitória; dê suas notas",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/10/14/atuacoes-do-palmeiras-carlos-miguel-sai-mal-e-flaco-e-marlon-garantem-vitoria-de-suas-notas.ghtml",
+          "imagem": "",
+          "data": "2026-10-15T02:43:56+00:00",
+          "dataFmt": "15/10/2026 02:43"
         },
         {
           "titulo": "Palmeiras é o 2º time do futebol brasileiro a bater marca de 100 gols no ano; veja ranking",
@@ -192,14 +224,6 @@
           "imagem": "",
           "data": "2026-10-14T19:13:24+00:00",
           "dataFmt": "14/10/2026 19:13"
-        },
-        {
-          "titulo": "Vitórias sobre o Palmeiras pavimentaram caminho para dois dos maiores títulos do Fluminense",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/14/vitorias-sobre-o-palmeiras-pavimentaram-caminho-para-dois-dos-maiores-titulos-do-fluminense.ghtml",
-          "imagem": "",
-          "data": "2026-10-14T19:00:00+00:00",
-          "dataFmt": "14/10/2026 19:00"
         },
         {
           "titulo": "PolÃ­cia realiza operaÃ§Ã£o contra cambismo digital",
@@ -240,33 +264,17 @@
           "imagem": "",
           "data": "",
           "dataFmt": "13/10/2026"
-        },
-        {
-          "titulo": "EscalaÃ§Ã£o: Palmeiras treina com Sosa antes de viagem para o Rio de Janeiro",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/10/13/escalacao-palmeiras-treina-com-sosa-antes-de-viagem-para-o-rio-de-janeiro.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "13/10/2026"
-        },
-        {
-          "titulo": "\"Ã ganhar ou ganhar\": o que esperar do Palmeiras na Libertadores Feminina",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/10/13/e-ganhar-ou-ganhar-o-que-esperar-do-palmeiras-na-libertadores-feminina.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "13/10/2026"
-        },
-        {
-          "titulo": "Palmeiras tenta superar retrospecto negativo contra brasileiros na Libertadores",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/10/13/palmeiras-tenta-superar-retrospecto-negativo-contra-brasileiros-na-libertadores.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "13/10/2026"
         }
       ],
       "Flamengo": [
+        {
+          "titulo": "Estudiantes x Flamengo: onde assistir ao vivo, horário e escalações",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/15/estudiantes-x-flamengo-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml",
+          "imagem": "",
+          "data": "2026-10-15T06:00:00+00:00",
+          "dataFmt": "15/10/2026 06:00"
+        },
         {
           "titulo": "Estudiantes x Flamengo - Taça Conmebol Libertadores 2026 - globoesporte.com",
           "resumo": "",
@@ -351,14 +359,6 @@
           "titulo": "Com cinco desfalques, veja a lista de relacionados para a semifinal",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/13/ainda-sem-evertton-araujo-flamengo-divulga-lista-de-relacionados-contra-o-estudiantes.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "13/10/2026"
-        },
-        {
-          "titulo": "Fla chega Ã  Argentina e alerta por \"agressividade\" do Estudiantes",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/13/flamengo-chega-a-argentina-para-semifinal-da-libertadores-e-alerta-por-agressividade-do-estudiantes.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "13/10/2026"
@@ -464,12 +464,36 @@
       ],
       "Fluminense": [
         {
-          "titulo": "Fluminense x Palmeiras - Taça Conmebol Libertadores 2026 - Ao vivo - globoesporte.com",
+          "titulo": "Arias, do Palmeiras, rebate vaias da torcida do Fluminense: \"As pessoas têm amnésia\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/10/15/arias-do-palmeiras-rebate-vaias-da-torcida-do-fluminense-as-pessoas-tem-amnesia.ghtml",
+          "imagem": "",
+          "data": "2026-10-15T03:12:54+00:00",
+          "dataFmt": "15/10/2026 03:12"
+        },
+        {
+          "titulo": "Marcão admite falta de efetividade, mas considera Fluminense vivo por vaga na final: \"Acreditamos ainda mais\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/15/marcao-analisa-derrota-do-fluminense-para-o-palmeiras-pela-libertadores.ghtml",
+          "imagem": "",
+          "data": "2026-10-15T03:11:43+00:00",
+          "dataFmt": "15/10/2026 03:11"
+        },
+        {
+          "titulo": "Palmeiras vence Fluminense e sai em vantagem por vaga na final da Libertadores",
           "resumo": "",
           "url": "https://ge.globo.com/rj/futebol/libertadores/jogo/14-10-2026/fluminense-palmeiras.ghtml",
           "imagem": "",
-          "data": "2026-10-15T01:26:49+00:00",
-          "dataFmt": "15/10/2026 01:26"
+          "data": "2026-10-15T03:04:52+00:00",
+          "dataFmt": "15/10/2026 03:04"
+        },
+        {
+          "titulo": "Atuações do Fluminense: Arana, Canobbio e Serna são os piores em derrota; dê suas notas",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/14/atuacoes-do-fluminense-arana-canobbio-e-serna-sao-os-piores-em-derrota-de-suas-notas.ghtml",
+          "imagem": "",
+          "data": "2026-10-15T02:46:00+00:00",
+          "dataFmt": "15/10/2026 02:46"
         },
         {
           "titulo": "Mixto anuncia lateral ex-Náutico, volante ex-São José-RS e atacante ex-Fluminense-PI para 2027",
@@ -496,20 +520,20 @@
           "dataFmt": "14/10/2026 19:30"
         },
         {
-          "titulo": "Vitórias sobre o Palmeiras pavimentaram caminho para dois dos maiores títulos do Fluminense",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/14/vitorias-sobre-o-palmeiras-pavimentaram-caminho-para-dois-dos-maiores-titulos-do-fluminense.ghtml",
-          "imagem": "",
-          "data": "2026-10-14T19:00:00+00:00",
-          "dataFmt": "14/10/2026 19:00"
-        },
-        {
           "titulo": "MarcÃ£o se declara ao Flu: \"Trabalho no clube que amo e ganho um bom salÃ¡rio\"",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/13/em-busca-do-bi-da-liberta-marcao-se-declara-ao-fluminense-trabalho-no-clube-que-amo-e-ganho-um-bom-salario.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "13/10/2026"
+        },
+        {
+          "titulo": "VitÃ³rias sobre o Palmeiras pavimentaram caminho para dois dos maiores tÃ­tulos do Fluminense",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/14/vitorias-sobre-o-palmeiras-pavimentaram-caminho-para-dois-dos-maiores-titulos-do-fluminense.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "14/10/2026"
         },
         {
           "titulo": "Fluminense busca terceira final de sua histÃ³ria para coroar melhor era na Libertadores",
@@ -531,30 +555,6 @@
           "titulo": "Estreia, rivalidade e desfecho amargo: Palmeiras foi o primeiro adversÃ¡rio do Fluminense na Libertadores",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/14/estreia-rivalidade-e-desfecho-amargo-palmeiras-foi-o-primeiro-adversario-do-fluminense-na-libertadores.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "14/10/2026"
-        },
-        {
-          "titulo": "Saiba quantos milhÃµes o Fluminense investiu no time semifinalista da Libertadores",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/14/saiba-quantos-milhoes-o-fluminense-investiu-no-time-semifinalista-da-libertadores.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "14/10/2026"
-        },
-        {
-          "titulo": "Fluminense reencontra Arias com MaracanÃ£ lotado e ambiente quente: \"Cada escolha, uma renÃºncia\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/14/fluminense-reencontra-arias-com-maracana-lotado-e-ambiente-quente-cada-escolha-uma-renuncia.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "14/10/2026"
-        },
-        {
-          "titulo": "Torcida do Fluminense prepara festa semelhante Ã  da final da Libertadores de 2023 para jogo contra o Palmeiras",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/14/torcida-do-fluminense-prepara-festa-semelhante-a-da-final-da-libertadores-de-2023-para-jogo-contra-o-palmeiras.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "14/10/2026"
@@ -659,6 +659,14 @@
         }
       ],
       "Bahia": [
+        {
+          "titulo": "Brasiléia/Flu da Bahia busca empate e fica perto das semis da 2ª divisão da Taça Brasil de Futsal",
+          "resumo": "",
+          "url": "https://ge.globo.com/ac/noticia/2026/10/14/brasileiaflu-da-bahia-busca-empate-e-fica-perto-das-semis-da-2a-divisao-da-taca-brasil-de-futsal.ghtml",
+          "imagem": "",
+          "data": "2026-10-15T01:37:22+00:00",
+          "dataFmt": "15/10/2026 01:37"
+        },
         {
           "titulo": "Com somente um jogador no DM, Bahia abre preparaÃ§Ã£o para pegar o Flamengo",
           "resumo": "",
@@ -866,20 +874,28 @@
       ],
       "Atletico-MG": [
         {
-          "titulo": "Internacional x Atlético-MG - Copa do Brasil Feminina 2026 - Ao vivo - globoesporte.com",
+          "titulo": "Atlético-MG é fatal e fica perto de vaga na final da Sul-Americana",
+          "resumo": "",
+          "url": "https://ge.globo.com/mg/futebol/copa-sul-americana/jogo/14-10-2026/atletico-mg-montevideo-city-torque.ghtml",
+          "imagem": "",
+          "data": "2026-10-15T02:34:44+00:00",
+          "dataFmt": "15/10/2026 02:34"
+        },
+        {
+          "titulo": "Inter e Atlético-MG empatam no jogo de ida quartas de final da Copa do Brasil",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/futebol-feminino/copa-do-brasil-feminina/jogo/14-10-2026/internacional-atletico-mg.ghtml",
           "imagem": "",
-          "data": "2026-10-15T01:31:33+00:00",
-          "dataFmt": "15/10/2026 01:31"
+          "data": "2026-10-15T02:05:38+00:00",
+          "dataFmt": "15/10/2026 02:05"
         },
         {
           "titulo": "Atlético-MG goleia o Amazonas e encaminha vaga na Copa do Brasil Sub-20",
           "resumo": "",
           "url": "https://ge.globo.com/am/futebol/copa-do-brasil-sub-20/jogo/14-10-2026/amazonas-fc-atletico-mg.ghtml",
           "imagem": "",
-          "data": "2026-10-15T01:28:43+00:00",
-          "dataFmt": "15/10/2026 01:28"
+          "data": "2026-10-15T02:03:29+00:00",
+          "dataFmt": "15/10/2026 02:03"
         },
         {
           "titulo": "Domínguez enaltece vitória do Atlético-MG em semifinal e responde sobre volta de Fred",
@@ -888,14 +904,6 @@
           "imagem": "",
           "data": "2026-10-15T00:50:57+00:00",
           "dataFmt": "15/10/2026 00:50"
-        },
-        {
-          "titulo": "Atlético-MG é fatal e fica perto de vaga na final da Sul-Americana",
-          "resumo": "",
-          "url": "https://ge.globo.com/mg/futebol/copa-sul-americana/jogo/14-10-2026/atletico-mg-montevideo-city-torque.ghtml",
-          "imagem": "",
-          "data": "2026-10-15T00:29:05+00:00",
-          "dataFmt": "15/10/2026 00:29"
         },
         {
           "titulo": "Atlético-MG x Montevideo City Torque: assista aos melhores momentos e gols do jogo",
@@ -1028,14 +1036,6 @@
           "dataFmt": "14/10/2026 19:18"
         },
         {
-          "titulo": "Corinthians x Colo-Colo - Taça Libertadores Feminina 2026 - globoesporte.com",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/campinas-e-regiao/futebol/futebol-feminino/libertadores-feminina/jogo/15-10-2026/corinthians-colo-colo.ghtml",
-          "imagem": "",
-          "data": "2026-10-14T19:09:53+00:00",
-          "dataFmt": "14/10/2026 19:09"
-        },
-        {
           "titulo": "Seedorf diz o que espera de Memphis Depay no time",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/10/14/seedorf-diz-que-acerto-nao-teve-relacao-com-memphis-conhecia-o-corinthians-antes-dele.ghtml",
@@ -1055,6 +1055,14 @@
           "titulo": "Seedorf confia em recuperaÃ§Ã£o: \"Um leÃ£o ferido Ã© perigoso\"",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/10/14/seedorf-e-apresentado-como-tecnico-do-corinthians-um-dos-maiores-clubes-do-mundo.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "14/10/2026"
+        },
+        {
+          "titulo": "Novo treinador do TimÃ£o evitou a imprensa no aeroporto",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/10/14/novo-tecnico-do-corinthians-seedorf-chega-a-sao-paulo-e-evita-a-imprensa-no-aeroporto.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "14/10/2026"
@@ -1160,6 +1168,14 @@
       ],
       "Vitoria": [
         {
+          "titulo": "Atuações do Palmeiras: Carlos Miguel sai mal, e Flaco e Marlon garantem vitória; dê suas notas",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/10/14/atuacoes-do-palmeiras-carlos-miguel-sai-mal-e-flaco-e-marlon-garantem-vitoria-de-suas-notas.ghtml",
+          "imagem": "",
+          "data": "2026-10-15T02:43:56+00:00",
+          "dataFmt": "15/10/2026 02:43"
+        },
+        {
           "titulo": "Domínguez enaltece vitória do Atlético-MG em semifinal e responde sobre volta de Fred",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/10/14/dominguez-enaltece-vitoria-do-atletico-mg-em-semifinal-e-responde-sobre-volta-de-fred.ghtml",
@@ -1190,14 +1206,6 @@
           "imagem": "",
           "data": "2026-10-14T20:30:52+00:00",
           "dataFmt": "14/10/2026 20:30"
-        },
-        {
-          "titulo": "Vitórias sobre o Palmeiras pavimentaram caminho para dois dos maiores títulos do Fluminense",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/14/vitorias-sobre-o-palmeiras-pavimentaram-caminho-para-dois-dos-maiores-titulos-do-fluminense.ghtml",
-          "imagem": "",
-          "data": "2026-10-14T19:00:00+00:00",
-          "dataFmt": "14/10/2026 19:00"
         },
         {
           "titulo": "Erick reencontra protagonismo e faz SÃ©rie A com melhores nÃºmeros",
@@ -1266,12 +1274,12 @@
           "dataFmt": "14/10/2026 20:45"
         },
         {
-          "titulo": "Calleri e Luciano participam de parte do treino do São Paulo em preparação para jogo contra o Vasco",
+          "titulo": "Calleri e Luciano participam de parte do treino em preparaÃ§Ã£o para o Vasco",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/10/14/calleri-e-luciano-participam-de-parte-do-treino-do-sao-paulo-antes-de-duelo-com-o-vasco.ghtml",
           "imagem": "",
-          "data": "2026-10-14T18:52:13+00:00",
-          "dataFmt": "14/10/2026 18:52"
+          "data": "",
+          "dataFmt": "14/10/2026"
         },
         {
           "titulo": "EleiÃ§Ã£o trava planejamento: veja quem tem futuro indefinido",
@@ -1436,17 +1444,17 @@
           "dataFmt": "12/10/2026"
         },
         {
+          "titulo": "Projeto Libertadores: o que o Santos precisa fazer (e torcer) para voltar ao torneio em 2027",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/10/15/projeto-libertadores-o-que-o-santos-precisa-fazer-e-torcer-para-voltar-ao-torneio-em-2027.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "15/10/2026"
+        },
+        {
           "titulo": "Santos volta aos treinos e terÃ¡ pelo menos duas mudanÃ§as na escalaÃ§Ã£o contra o Fluminense",
           "resumo": "",
           "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/10/13/santos-volta-aos-treinos-e-tera-pelo-menos-duas-mudancas-na-escalacao-contra-o-fluminense.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "13/10/2026"
-        },
-        {
-          "titulo": "Santos sofre mais trÃªs transfer bans e pode ter nova puniÃ§Ã£o por caso Yusupha Njie",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/10/13/santos-sofre-mais-tres-transfer-bans-e-e-pode-ter-nova-sancao-por-caso-yusupha-njie.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "13/10/2026"
@@ -1462,12 +1470,12 @@
           "dataFmt": "14/10/2026 21:33"
         },
         {
-          "titulo": "CBF reconhece erro de arbitragem contra o Grêmio no Gre-Nal; veja o lance",
+          "titulo": "CBF reconhece erro de arbitragem contra o GrÃªmio no Gre-Nal",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/10/14/cbf-reconhece-erro-de-arbitragem-contra-o-gremio-no-gre-nal.ghtml",
           "imagem": "",
-          "data": "2026-10-14T18:48:37+00:00",
-          "dataFmt": "14/10/2026 18:48"
+          "data": "",
+          "dataFmt": "14/10/2026"
         },
         {
           "titulo": "Isolado? Carlos Vinicius tem uma finalizaÃ§Ã£o em trÃªs jogos",
@@ -1552,12 +1560,36 @@
       ],
       "Internacional": [
         {
-          "titulo": "Internacional x Atlético-MG - Copa do Brasil Feminina 2026 - Ao vivo - globoesporte.com",
+          "titulo": "Elogiado por Mourinho, Endrick só havia jogado 10 minutos na temporada até mudar Roma x Real Madrid",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/10/15/elogiado-por-mourinho-endrick-so-havia-jogado-10-minutos-na-temporada-ate-mudar-roma-x-real-madrid.ghtml",
+          "imagem": "",
+          "data": "2026-10-15T06:00:00+00:00",
+          "dataFmt": "15/10/2026 06:00"
+        },
+        {
+          "titulo": "Haaland supera 60 gols na Champions League e pulveriza marca histórica de Messi",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/liga-dos-campeoes/noticia/2026/10/15/haaland-supera-60-gols-na-champions-league-e-pulveriza-marca-historica-de-messi.ghtml",
+          "imagem": "",
+          "data": "2026-10-15T05:00:00+00:00",
+          "dataFmt": "15/10/2026 05:00"
+        },
+        {
+          "titulo": "Mourinho elogia Wesley e reclama de suspensão de Vini Jr.: \"Coisa absurda, ridícula\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/liga-dos-campeoes/noticia/2026/10/15/mourinho-elogia-wesley-e-reclama-de-suspensao-de-vini-jr-coisa-absurda-ridicula.ghtml",
+          "imagem": "",
+          "data": "2026-10-15T03:00:01+00:00",
+          "dataFmt": "15/10/2026 03:00"
+        },
+        {
+          "titulo": "Inter e Atlético-MG empatam no jogo de ida quartas de final da Copa do Brasil",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/futebol-feminino/copa-do-brasil-feminina/jogo/14-10-2026/internacional-atletico-mg.ghtml",
           "imagem": "",
-          "data": "2026-10-15T01:31:33+00:00",
-          "dataFmt": "15/10/2026 01:31"
+          "data": "2026-10-15T02:05:38+00:00",
+          "dataFmt": "15/10/2026 02:05"
         },
         {
           "titulo": "Liverpool goleia LASK com show de Barcola em jogo de nove gols na Champions",
@@ -1600,14 +1632,6 @@
           "dataFmt": "14/10/2026 21:21"
         },
         {
-          "titulo": "Saiba a projeção do Inter para retorno de Alan Patrick após lesão",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/10/14/saiba-a-projecao-do-inter-para-retorno-de-alan-patrick-apos-lesao.ghtml",
-          "imagem": "",
-          "data": "2026-10-14T18:55:35+00:00",
-          "dataFmt": "14/10/2026 18:55"
-        },
-        {
           "titulo": "JÃ¡ Rochet... perdeu mais da metade dos jogos desde que chegou",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/10/14/sem-prazo-para-voltar-ao-inter-rochet-perdeu-mais-da-metade-dos-jogos-desde-que-chegou.ghtml",
@@ -1624,28 +1648,12 @@
           "dataFmt": "13/10/2026"
         },
         {
-          "titulo": "Veja o que mudou no Inter com Eduardo Baptista",
+          "titulo": "Saiba a projeÃ§Ã£o para retorno de Alan Patrick",
           "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/10/14/eduardo-baptista-implementa-ideias-no-inter-em-menos-de-tres-semanas-veja-mudancas.ghtml",
+          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/10/14/saiba-a-projecao-do-inter-para-retorno-de-alan-patrick-apos-lesao.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "14/10/2026"
-        },
-        {
-          "titulo": "Demitido, Pezzolano fala pela primeira vez desde saÃ­da do Inter; confira",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/10/13/pezzolano-comenta-saida-do-inter-e-ser-tecnico-no-brasil-para-o-torcedor-voce-e-deus-ou-o-pior.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "13/10/2026"
-        },
-        {
-          "titulo": "Filho de Kempes, meia do Inter joga pela 1Âª vez na Arena CondÃ¡",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/10/13/filho-de-vitima-da-tragedia-da-chapecoense-meia-do-inter-atua-pela-primeira-vez-na-arena-conda.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "13/10/2026"
         }
       ],
       "Mirassol": [
@@ -1798,6 +1806,14 @@
       ],
       "Vasco": [
         {
+          "titulo": "Casaca! Como o grito marcante do Vasco voltou a embalar elenco e torcedores em 2026",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/15/casaca-como-o-grito-marcante-do-vasco-voltou-a-embalar-elenco-e-torcedores-em-2026.ghtml",
+          "imagem": "",
+          "data": "2026-10-15T06:00:01+00:00",
+          "dataFmt": "15/10/2026 06:00"
+        },
+        {
           "titulo": "Com Gómez expulso, Vasco bate o Boca Juniors em La Bombonera e leva vantagem para duelo no Maracanã",
           "resumo": "",
           "url": "https://ge.globo.com/rj/futebol/copa-sul-americana/jogo/13-10-2026/boca-juniors-vasco.ghtml",
@@ -1806,25 +1822,17 @@
           "dataFmt": "14/10/2026 19:13"
         },
         {
-          "titulo": "Calleri e Luciano participam de parte do treino do São Paulo em preparação para jogo contra o Vasco",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/10/14/calleri-e-luciano-participam-de-parte-do-treino-do-sao-paulo-antes-de-duelo-com-o-vasco.ghtml",
-          "imagem": "",
-          "data": "2026-10-14T18:52:13+00:00",
-          "dataFmt": "14/10/2026 18:52"
-        },
-        {
-          "titulo": "Pedrinho protocola chapa para tentar reeleição como presidente do Vasco",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/14/pedrinho-protocola-chapa-para-tentar-reeleicao-como-presidente-do-vasco.ghtml",
-          "imagem": "",
-          "data": "2026-10-14T18:41:50+00:00",
-          "dataFmt": "14/10/2026 18:41"
-        },
-        {
           "titulo": "Thiago Mendes Ã© alvo de comentÃ¡rios racistas apÃ³s provocar Boca",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/14/thiago-mendes-do-vasco-e-alvo-de-comentarios-racistas-apos-provocar-boca-nas-redes.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "14/10/2026"
+        },
+        {
+          "titulo": "Pedrinho protocola chapa para tentar reeleiÃ§Ã£o como presidente",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/14/pedrinho-protocola-chapa-para-tentar-reeleicao-como-presidente-do-vasco.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "14/10/2026"
@@ -2073,28 +2081,20 @@
   "basquete": {
     "geral": [
       {
+        "titulo": "Sesi Franca oficializa contratação do ala Gui Deodato para NBB e BCLA",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/10/15/sesi-franca-oficializa-contratacao-do-ala-gui-deodato-para-nbb-e-bcla.ghtml",
+        "imagem": "",
+        "data": "2026-10-15T04:15:49+00:00",
+        "dataFmt": "15/10/2026 04:15"
+      },
+      {
         "titulo": "Final do Carioca de basquete: Flamengo x Fluminense",
         "resumo": "",
         "url": "https://ge.globo.com/basquete/ao-vivo/final-do-carioca-de-basquete-flamengo-x-fluminense.ghtml",
         "imagem": "",
         "data": "2026-10-14T19:30:06+00:00",
         "dataFmt": "14/10/2026 19:30"
-      },
-      {
-        "titulo": "Seleção Maranhense de Basquete intensifica preparação para o Campeonato Brasileiro",
-        "resumo": "",
-        "url": "https://ge.globo.com/ma/basquete/noticia/2026/10/14/selecao-maranhense-de-basquete-intensifica-preparacao-para-o-campeonato-brasileiro.ghtml",
-        "imagem": "",
-        "data": "2026-10-14T19:01:04+00:00",
-        "dataFmt": "14/10/2026 19:01"
-      },
-      {
-        "titulo": "Basquete Cearense vende ingressos para jogos contra Osasco e Pinheiros",
-        "resumo": "",
-        "url": "https://ge.globo.com/ce/basquete/nbb/noticia/2026/10/14/basquete-cearense-vende-ingressos-para-jogos-contra-osasco-e-pinheiros.ghtml",
-        "imagem": "",
-        "data": "2026-10-14T18:49:17+00:00",
-        "dataFmt": "14/10/2026 18:49"
       },
       {
         "titulo": "Franca aposta em \"fator casa\" para virar final do Paulista contra Mogi",
@@ -2229,12 +2229,12 @@
         "dataFmt": "14/10/2026 21:02"
       },
       {
-        "titulo": "\"Jungle Fight é para os caras ganharem dinheiro no Brasil\", afirma Wallid Ismail",
+        "titulo": "\"Jungle Fight Ã© para os caras ganharem dinheiro no Brasil\", afirma Wallid Ismail",
         "resumo": "",
         "url": "https://ge.globo.com/combate/noticia/2026/10/14/jungle-fight-e-para-os-caras-ganharem-dinheiro-no-brasil-afirma-wallid-ismail.ghtml",
         "imagem": "",
-        "data": "2026-10-14T19:04:29+00:00",
-        "dataFmt": "14/10/2026 19:04"
+        "data": "",
+        "dataFmt": "14/10/2026"
       },
       {
         "titulo": "Filho de ex-campeÃ£o do UFC sofre nocaute brutal em luta amadora de MMA; assista",
