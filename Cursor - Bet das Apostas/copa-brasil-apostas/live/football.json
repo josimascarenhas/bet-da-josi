@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-15T04:02:01-03:00",
+    "atualizadoEm": "2026-10-15T09:47:23-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 398,
     "timesAtualizados": 118,
@@ -1668,7 +1668,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Santos não terá Lima contra o Fluminense",
+          "jogador": "Santos nÃ£o terÃ¡ Lima contra o Flu, e l",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1905,11 +1905,6 @@
           "jogador": "Mourinho elogia Wesley e reclama de susp",
           "motivo": "notícia GE",
           "impacto": "medio"
-        },
-        {
-          "jogador": "Vini Jr reclama de suspensão e faz autoc",
-          "motivo": "notícia GE",
-          "impacto": "medio"
         }
       ],
       "retornando": [
@@ -2137,12 +2132,12 @@
       },
       "desfalques": [
         {
-          "jogador": "De volta ao Remo após suspensão, Edson F",
+          "jogador": "Remo divulga boletim mÃ©dico e meia vira",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
         {
-          "jogador": "Remo divulga boletim médico e meia vira ",
+          "jogador": "De volta ao Remo apÃ³s suspensÃ£o, Edson",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
