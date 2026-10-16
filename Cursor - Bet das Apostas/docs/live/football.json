@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-16T00:23:20-03:00",
+    "atualizadoEm": "2026-10-16T05:26:17-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 398,
     "timesAtualizados": 118,
@@ -1461,9 +1461,9 @@
       },
       "desfalques": [
         {
-          "jogador": "SuspensÃ£o de Diego Tarzia abre espaÃ§o ",
+          "jogador": "Jamerson vive maior sequência como titul",
           "motivo": "notícia GE",
-          "impacto": "medio"
+          "impacto": "alto"
         }
       ],
       "retornando": [],
@@ -1668,12 +1668,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escobar se queixa de dores na coxa, fica",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Santos nÃ£o terÃ¡ Lima contra o Fluminen",
+          "jogador": "Escobar pode aumentar lista de desfalque",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
