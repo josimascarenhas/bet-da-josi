@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-16T17:35:24-03:00",
+    "atualizadoEm": "2026-10-16T20:16:58-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 398,
     "timesAtualizados": 118,
@@ -1033,7 +1033,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Coritiba",
+          "jogador": "Escalação do Atlético-MG",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1126,7 +1126,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Coritiba",
+          "jogador": "Escalação do Atlético-MG",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1246,7 +1246,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Raniele, do Corinthians, sofre lesão no ",
+          "jogador": "Com desfalque de Yuri Alberto, Seedorf c",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1667,6 +1667,11 @@
         "golsContra": 44
       },
       "desfalques": [
+        {
+          "jogador": "Desfalque de Arão agrava os problemas de",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Escobar pode aumentar lista de desfalque",
           "motivo": "notícia GE",
