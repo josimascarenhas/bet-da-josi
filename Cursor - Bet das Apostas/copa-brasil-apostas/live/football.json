@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-15T20:39:15-03:00",
+    "atualizadoEm": "2026-10-16T00:23:20-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 398,
     "timesAtualizados": 118,
@@ -375,7 +375,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Contratação de emergência do Estudiantes",
+          "jogador": "ContrataÃ§Ã£o de emergÃªncia do Estudian",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1669,6 +1669,11 @@
       "desfalques": [
         {
           "jogador": "Escobar se queixa de dores na coxa, fica",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Santos nÃ£o terÃ¡ Lima contra o Fluminen",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
