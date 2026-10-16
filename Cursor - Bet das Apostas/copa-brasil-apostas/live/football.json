@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-16T10:27:09-03:00",
+    "atualizadoEm": "2026-10-16T14:38:53-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 398,
     "timesAtualizados": 118,
@@ -590,7 +590,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Santos não terá Lima contra o Fluminense",
+          "jogador": "Martinelli sofre lesão no joelho esquerd",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1667,6 +1667,11 @@
         "golsContra": 44
       },
       "desfalques": [
+        {
+          "jogador": "Martinelli sofre lesão no joelho esquerd",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Escobar pode aumentar lista de desfalque",
           "motivo": "notícia GE",
