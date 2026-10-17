@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-17T18:37:21-03:00",
+    "atualizadoEm": "2026-10-17T20:47:30-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 400,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
+    "placaresFonte": "calendário + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -374,6 +374,11 @@
         "golsContra": 32
       },
       "desfalques": [
+        {
+          "jogador": "Com cinco desfalques, Flamengo chega a S",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Escalação do Bahia contra o Flamengo",
           "motivo": "notícia GE",
@@ -847,6 +852,11 @@
       },
       "desfalques": [
         {
+          "jogador": "Com cinco desfalques, Flamengo chega a S",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
           "jogador": "Escalação do Bahia contra o Flamengo",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -1126,7 +1136,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do AtlÃ©tico",
+          "jogador": "EscalaÃ§Ã£o do AtlÃ©tico-MG",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
