@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-17T13:53:09-03:00",
+    "atualizadoEm": "2026-10-17T16:03:41-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 398,
     "timesAtualizados": 118,
@@ -1246,17 +1246,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Corinthians acerta com a Caixa suspensão",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
           "jogador": "Estreia adiada",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
         {
-          "jogador": "Com desfalque de Yuri, Seedorf comanda t",
+          "jogador": "Corinthians e Caixa acertam suspensÃ£o d",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
