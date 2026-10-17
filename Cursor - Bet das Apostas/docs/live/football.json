@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-17T02:56:01-03:00",
+    "atualizadoEm": "2026-10-17T07:14:49-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 398,
     "timesAtualizados": 118,
@@ -234,7 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Palmeiras",
+          "jogador": "EscalaÃ§Ã£o",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1126,7 +1126,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Atlético-MG",
+          "jogador": "EscalaÃ§Ã£o",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1245,6 +1245,16 @@
         "golsContra": 40
       },
       "desfalques": [
+        {
+          "jogador": "Corinthians acerta com a Caixa suspensão",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Estreia adiada",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Com desfalque de Yuri Alberto, Seedorf c",
           "motivo": "notícia GE",
