@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-17T16:03:41-03:00",
+    "atualizadoEm": "2026-10-17T18:37:21-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 398,
+    "jogosFinalizados": 400,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + openligadb.de"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -18,10 +18,10 @@
         "Cruzeiro",
         "Bragantino",
         "Vitoria",
+        "Santos",
         "Coritiba",
         "Botafogo",
         "Gremio",
-        "Santos",
         "Corinthians",
         "Atletico-MG",
         "Remo",
@@ -584,9 +584,9 @@
         },
         "vitorias": 14,
         "empates": 9,
-        "derrotas": 6,
-        "golsPro": 46,
-        "golsContra": 35
+        "derrotas": 7,
+        "golsPro": 48,
+        "golsContra": 38
       },
       "desfalques": [
         {
@@ -706,7 +706,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Rodriguinho e Mosquera seguem fora dos t",
+          "jogador": "Escalação do Cruzeiro",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -997,7 +997,7 @@
     },
     "Coritiba": {
       "brasileirao": {
-        "posicao": 9,
+        "posicao": 10,
         "pontos": 38,
         "ultimos5": [
           "E 0-0",
@@ -1331,8 +1331,8 @@
     },
     "Botafogo": {
       "brasileirao": {
-        "posicao": 10,
-        "pontos": 36,
+        "posicao": 11,
+        "pontos": 37,
         "ultimos5": [
           "E 0-0 VIT",
           "V 1-0",
@@ -1360,10 +1360,10 @@
           "gsg": 1.67
         },
         "vitorias": 9,
-        "empates": 9,
+        "empates": 10,
         "derrotas": 11,
-        "golsPro": 41,
-        "golsContra": 44
+        "golsPro": 42,
+        "golsContra": 45
       },
       "desfalques": [
         {
@@ -1637,8 +1637,8 @@
     },
     "Santos": {
       "brasileirao": {
-        "posicao": 12,
-        "pontos": 35,
+        "posicao": 9,
+        "pontos": 38,
         "ultimos5": [
           "D 1-2",
           "E 2-2 CHA",
@@ -1665,15 +1665,15 @@
           "gpg": 1.5,
           "gsg": 1.9
         },
-        "vitorias": 9,
+        "vitorias": 10,
         "empates": 8,
         "derrotas": 11,
-        "golsPro": 40,
-        "golsContra": 44
+        "golsPro": 43,
+        "golsContra": 46
       },
       "desfalques": [
         {
-          "jogador": "Escobar pode aumentar lista de desfalque",
+          "jogador": "Escobar se queixa de dores na coxa, fica",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1757,7 +1757,7 @@
     },
     "Gremio": {
       "brasileirao": {
-        "posicao": 11,
+        "posicao": 12,
         "pontos": 35,
         "ultimos5": [
           "D 1-2",
@@ -2314,7 +2314,7 @@
     "Chapecoense": {
       "brasileirao": {
         "posicao": 20,
-        "pontos": 18,
+        "pontos": 19,
         "ultimos5": [
           "D 0-4 FLA",
           "E 2-2",
@@ -2342,10 +2342,10 @@
           "gsg": 1.64
         },
         "vitorias": 3,
-        "empates": 9,
+        "empates": 10,
         "derrotas": 16,
-        "golsPro": 31,
-        "golsContra": 57
+        "golsPro": 32,
+        "golsContra": 58
       },
       "desfalques": [
         {

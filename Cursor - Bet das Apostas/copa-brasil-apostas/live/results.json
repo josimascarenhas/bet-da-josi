@@ -1,10 +1,26 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-17T16:03:37.144105-03:00",
+    "atualizadoEm": "2026-10-17T18:37:17.642195-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "br-31-Botafogo-Chapecoense",
+      "data": "2026-10-17",
+      "comp": "brasileirao",
+      "mandante": "Botafogo",
+      "visitante": "Chapecoense",
+      "placar": "1-1"
+    },
+    {
+      "id": "br-31-Fluminense-Santos",
+      "data": "2026-10-17",
+      "comp": "brasileirao",
+      "mandante": "Fluminense",
+      "visitante": "Santos",
+      "placar": "2-3"
+    },
     {
       "id": "br-30-Bahia-Mirassol",
       "data": "2026-10-12",
@@ -228,22 +244,6 @@
       "mandante": "Gremio",
       "visitante": "Vasco",
       "placar": "3-0"
-    },
-    {
-      "id": "br-27-Mirassol-Vitoria",
-      "data": "2026-09-13",
-      "comp": "brasileirao",
-      "mandante": "Mirassol",
-      "visitante": "Vitoria",
-      "placar": "2-2"
-    },
-    {
-      "id": "br-27-Botafogo-Bragantino",
-      "data": "2026-09-12",
-      "comp": "brasileirao",
-      "mandante": "Botafogo",
-      "visitante": "Bragantino",
-      "placar": "1-1"
     }
   ]
 }
