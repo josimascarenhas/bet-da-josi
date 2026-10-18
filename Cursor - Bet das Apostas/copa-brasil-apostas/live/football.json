@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-18T15:48:30-03:00",
+    "atualizadoEm": "2026-10-18T18:18:05-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 400,
     "timesAtualizados": 118,
@@ -375,7 +375,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Jorginho volta ao Flamengo após suspensõ",
+          "jogador": "Jorginho volta apÃ³s suspensÃµes; veja r",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
@@ -496,7 +496,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Athletico tem volta de Odair Hellmann e ",
+          "jogador": "Athletico confirma grave lesão de Claudi",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -852,7 +852,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Com cinco desfalques, Flamengo chega a S",
+          "jogador": "EscalaÃ§Ã£o do Bahia contra o Flamengo",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1251,6 +1251,11 @@
       },
       "desfalques": [
         {
+          "jogador": "Escalação do Vitória contra o Corinthian",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
           "jogador": "Clube e Caixa acertam suspensÃ£o de paga",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -1471,9 +1476,9 @@
       },
       "desfalques": [
         {
-          "jogador": "Jamerson vive maior sequência como titul",
+          "jogador": "Escalação do Vitória contra o Corinthian",
           "motivo": "notícia GE",
-          "impacto": "alto"
+          "impacto": "medio"
         }
       ],
       "retornando": [],
@@ -1678,7 +1683,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escobar se queixa de dores na coxa, fica",
+          "jogador": "Desfalque de ArÃ£o agrava os problemas d",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
