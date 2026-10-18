@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-17T20:47:30-03:00",
+    "atualizadoEm": "2026-10-18T00:17:55-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 400,
     "timesAtualizados": 118,
@@ -376,11 +376,6 @@
       "desfalques": [
         {
           "jogador": "Com cinco desfalques, Flamengo chega a S",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Escalação do Bahia contra o Flamengo",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -853,11 +848,6 @@
       "desfalques": [
         {
           "jogador": "Com cinco desfalques, Flamengo chega a S",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Escalação do Bahia contra o Flamengo",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
