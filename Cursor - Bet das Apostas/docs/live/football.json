@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-18T05:16:36-03:00",
+    "atualizadoEm": "2026-10-18T09:44:13-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 400,
     "timesAtualizados": 118,
@@ -375,7 +375,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Com cinco desfalques, Flamengo chega a S",
+          "jogador": "Jorginho volta ao Flamengo após suspensõ",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Com cinco desfalques, Fla chega a Salvad",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1246,12 +1251,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Estreia adiada",
+          "jogador": "Clube e Caixa acertam suspensÃ£o de paga",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
         {
-          "jogador": "Corinthians e Caixa acertam suspensÃ£o d",
+          "jogador": "Estreia adiada",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
