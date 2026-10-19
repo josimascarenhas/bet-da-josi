@@ -1,42 +1,154 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-18T23:31:20.501842+00:00",
+    "atualizadoEm": "2026-10-19T03:30:24.151128+00:00",
     "fonte": "ge.globo.com",
     "fonteUrl": "https://ge.globo.com/"
   },
   "futebol": {
     "geral": [
       {
-        "titulo": "Bahia x Flamengo - Campeonato Brasileiro 2026 - globoesporte.com",
+        "titulo": "Corinthians goleia Caracas e carimba vaga às quartas da Libertadores Feminina",
         "resumo": "",
-        "url": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/18-10-2026/bahia-flamengo.ghtml",
+        "url": "https://ge.globo.com/sp/campinas-e-regiao/futebol/futebol-feminino/libertadores-feminina/jogo/18-10-2026/corinthians-caracas.ghtml",
         "imagem": "",
-        "data": "2026-10-18T23:28:17+00:00",
-        "dataFmt": "18/10/2026 23:28"
+        "data": "2026-10-19T02:06:40+00:00",
+        "dataFmt": "19/10/2026 02:06"
       },
       {
-        "titulo": "Remo x Bragantino - Campeonato Brasileiro 2026 - Ao vivo - globoesporte.com",
+        "titulo": "Independiente Dragonas x Universitario - Taça Libertadores Feminina 2026 - globoesporte.com",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/libertadores-feminina/jogo/18-10-2026/independiente-dragonas-universitario.ghtml",
+        "imagem": "",
+        "data": "2026-10-19T01:59:20+00:00",
+        "dataFmt": "19/10/2026 01:59"
+      },
+      {
+        "titulo": "Atuações do Remo: Ivan garante empate contra o Bragantino; dê suas notas",
+        "resumo": "",
+        "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/10/18/atuacoes-do-remo-ivan-garante-empate-contra-o-bragantino-de-suas-notas.ghtml",
+        "imagem": "",
+        "data": "2026-10-19T01:39:41+00:00",
+        "dataFmt": "19/10/2026 01:39"
+      },
+      {
+        "titulo": "Guto Ferreira avalia sobre empate sofrido pelo Vila no fim: \"Dói para caramba, mas não mata\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/go/futebol/times/vila-nova/noticia/2026/10/18/guto-ferreira-avalia-sobre-empate-sofrido-pelo-vila-no-fim-doi-para-caramba-mas-nao-mata.ghtml",
+        "imagem": "",
+        "data": "2026-10-19T01:28:33+00:00",
+        "dataFmt": "19/10/2026 01:28"
+      },
+      {
+        "titulo": "Ceni reconhece superioridade do Flamengo e desempenho ruim do Bahia: \"Jogamos muito abaixo\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/10/18/ceni-reconhece-superioridade-do-flamengo-e-desempenho-ruim-do-bahia-jogamos-muito-abaixo.ghtml",
+        "imagem": "",
+        "data": "2026-10-19T01:06:53+00:00",
+        "dataFmt": "19/10/2026 01:06"
+      },
+      {
+        "titulo": "Com um gol em cada tempo, Remo e Bragantino empatam pelo Brasileirão",
         "resumo": "",
         "url": "https://ge.globo.com/pa/futebol/brasileirao-serie-a/jogo/18-10-2026/remo-bragantino.ghtml",
         "imagem": "",
-        "data": "2026-10-18T23:28:05+00:00",
-        "dataFmt": "18/10/2026 23:28"
+        "data": "2026-10-19T01:06:12+00:00",
+        "dataFmt": "19/10/2026 01:06"
+      },
+      {
+        "titulo": "Guzmán Rodríguez vê dois tempos distintos em empate do Bragantino com Remo",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/times/bragantino/noticia/2026/10/18/guzman-rodriguez-ve-dois-tempos-distintos-em-empate-do-bragantino-com-remo.ghtml",
+        "imagem": "",
+        "data": "2026-10-19T01:01:15+00:00",
+        "dataFmt": "19/10/2026 01:01"
+      },
+      {
+        "titulo": "Rossi afirma que conversas por renovação com Flamengo serão retomadas no fim o ano: \"Desejo ficar\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/18/rossi-afirma-que-conversas-por-renovacao-com-flamengo-serao-retomadas-no-fim-da-temporada-desejo-ficar.ghtml",
+        "imagem": "",
+        "data": "2026-10-19T00:35:02+00:00",
+        "dataFmt": "19/10/2026 00:35"
+      },
+      {
+        "titulo": "Com dois de Mbappé, Real Madrid goleia Sevilla e ganha ânimo para clássico espanhol",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/jogo/18-10-2026/realmadrid-Sevilla.ghtml",
+        "imagem": "",
+        "data": "2026-10-19T00:20:28+00:00",
+        "dataFmt": "19/10/2026 00:20"
+      },
+      {
+        "titulo": "Ronaldo lamenta postura do Bahia contra o Flamengo e pede desculpa à torcida: \"Pior jogo em casa\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/10/18/ronaldo-lamenta-postura-do-bahia-contra-o-flamengo-e-pede-desculpa-a-torcida-pior-jogo-em-casa.ghtml",
+        "imagem": "",
+        "data": "2026-10-19T00:15:56+00:00",
+        "dataFmt": "19/10/2026 00:15"
+      },
+      {
+        "titulo": "Jardim diz que Flamengo foi dominante contra o Bahia e elogia Carrascal e Paquetá como armadores",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/18/jardim-analisa-vitoria-do-flamengo-e-retorno-a-lideranca-mandante-nos-dois-tempos.ghtml",
+        "imagem": "",
+        "data": "2026-10-19T00:07:44+00:00",
+        "dataFmt": "19/10/2026 00:07"
       },
       {
         "titulo": "Vila Nova sai atrás, vira, mas cede empate ao Novorizontino no último lance",
         "resumo": "",
         "url": "https://ge.globo.com/go/futebol/brasileirao-serie-b/jogo/18-10-2026/vila-nova-novorizontino.ghtml",
         "imagem": "",
-        "data": "2026-10-18T23:28:01+00:00",
-        "dataFmt": "18/10/2026 23:28"
+        "data": "2026-10-18T23:56:53+00:00",
+        "dataFmt": "18/10/2026 23:56"
       },
       {
-        "titulo": "Corinthians x Caracas - Taça Libertadores Feminina 2026 - Ao vivo - globoesporte.com",
+        "titulo": "Flamengo domina o Bahia e volta a ocupar a liderança do Brasileirão",
         "resumo": "",
-        "url": "https://ge.globo.com/sp/campinas-e-regiao/futebol/futebol-feminino/libertadores-feminina/jogo/18-10-2026/corinthians-caracas.ghtml",
+        "url": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/18-10-2026/bahia-flamengo.ghtml",
         "imagem": "",
-        "data": "2026-10-18T23:25:57+00:00",
-        "dataFmt": "18/10/2026 23:25"
+        "data": "2026-10-18T23:53:38+00:00",
+        "dataFmt": "18/10/2026 23:53"
+      },
+      {
+        "titulo": "Escalação do Corinthians: Seedorf finaliza preparação para a partida contra o Vitória",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/10/18/escalacao-do-corinthians-seedorf-finaliza-preparacao-para-a-partida-contra-o-vitoria.ghtml",
+        "imagem": "",
+        "data": "2026-10-18T23:46:01+00:00",
+        "dataFmt": "18/10/2026 23:46"
+      },
+      {
+        "titulo": "Bahia 0 x 3 Flamengo: assista aos gols e aos melhores momentos",
+        "resumo": "",
+        "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/10/18/bahia-0-x-3-flamengo-assista-aos-gols-e-aos-melhores-momentos.ghtml",
+        "imagem": "",
+        "data": "2026-10-18T23:44:28+00:00",
+        "dataFmt": "18/10/2026 23:44"
+      },
+      {
+        "titulo": "Atuações do Flamengo: Carrascal e Paquetá são os melhores em vitória sobre o Bahia; dê suas notas",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/18/atuacoes-do-flamengo-carrascal-e-paqueta-sao-os-melhores-em-vitoria-sobre-o-bahia-de-suas-notas.ghtml",
+        "imagem": "",
+        "data": "2026-10-18T23:42:17+00:00",
+        "dataFmt": "18/10/2026 23:42"
+      },
+      {
+        "titulo": "Atuações do Bahia: Roman Gomez, Juba e Marco Moreno recebem piores notas contra o Flamengo",
+        "resumo": "",
+        "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/10/18/atuacoes-do-bahia-roman-gomez-juba-e-marco-moreno-recebem-piores-notas-contra-o-flamengo.ghtml",
+        "imagem": "",
+        "data": "2026-10-18T23:30:28+00:00",
+        "dataFmt": "18/10/2026 23:30"
+      },
+      {
+        "titulo": "Com hat-trick de Kaio Jorge, Cruzeiro vira e afunda o Grêmio no Z-4",
+        "resumo": "",
+        "url": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/18-10-2026/gremio-cruzeiro.ghtml",
+        "imagem": "",
+        "data": "2026-10-18T23:28:57+00:00",
+        "dataFmt": "18/10/2026 23:28"
       },
       {
         "titulo": "Palmeiras vence Belgrano de virada e se classifica às quartas da Libertadores Feminina",
@@ -47,128 +159,32 @@
         "dataFmt": "18/10/2026 23:25"
       },
       {
-        "titulo": "Independiente Dragonas x Universitario - Taça Libertadores Feminina 2026 - Ao vivo - globoesporte.com",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/libertadores-feminina/jogo/18-10-2026/independiente-dragonas-universitario.ghtml",
-        "imagem": "",
-        "data": "2026-10-18T23:23:17+00:00",
-        "dataFmt": "18/10/2026 23:23"
-      },
-      {
         "titulo": "Fábio Matias admite que CRB jogou mal contra o Botafogo-SP: \"Dentro da nossa casa, foi o pior jogo\"",
         "resumo": "",
         "url": "https://ge.globo.com/al/futebol/times/crb/noticia/2026/10/18/fabio-matias-admite-que-crb-jogou-mal-contra-o-botafogo-sp-dentro-da-nossa-casa-foi-o-pior-jogo.ghtml",
         "imagem": "",
         "data": "2026-10-18T22:58:39+00:00",
         "dataFmt": "18/10/2026 22:58"
-      },
-      {
-        "titulo": "Santos aposta em \"quadrado mágico\" e vence o Fluminense de virada com brilho de Gabigol e Coutinho",
-        "resumo": "",
-        "url": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/18-10-2026/fluminense-santos.ghtml",
-        "imagem": "",
-        "data": "2026-10-18T22:58:27+00:00",
-        "dataFmt": "18/10/2026 22:58"
-      },
-      {
-        "titulo": "Itabaiana, Olímpico e Amadense serão os representantes sergipanos na Copa São Paulo 2027",
-        "resumo": "",
-        "url": "https://ge.globo.com/se/futebol/noticia/2026/10/18/itabaiana-olimpico-e-amadense-serao-os-representantes-sergipanos-na-copa-sao-paulo-2027.ghtml",
-        "imagem": "",
-        "data": "2026-10-18T22:56:29+00:00",
-        "dataFmt": "18/10/2026 22:56"
-      },
-      {
-        "titulo": "Colo-Colo x Santa Fe - Taça Libertadores Feminina 2026 - globoesporte.com",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/libertadores-feminina/jogo/18-10-2026/colo-colo-santa-fe.ghtml",
-        "imagem": "",
-        "data": "2026-10-18T22:48:44+00:00",
-        "dataFmt": "18/10/2026 22:48"
-      },
-      {
-        "titulo": "Renato volta a criticar o próprio Grêmio: \"Jogador veio 9kg acima do peso\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/10/18/renato-volta-a-disparar-criticas-ao-proprio-gremio-jogador-veio-9kg-acima-do-peso.ghtml",
-        "imagem": "",
-        "data": "2026-10-18T22:43:18+00:00",
-        "dataFmt": "18/10/2026 22:43"
-      },
-      {
-        "titulo": "Zagueiro se machuca e vira mais um desfalque no Náutico para jogo contra o Goiás",
-        "resumo": "",
-        "url": "https://ge.globo.com/pe/futebol/times/nautico/noticia/2026/10/18/zagueiro-se-machuca-e-vira-mais-um-desfalque-no-nautico-para-jogo-contra-o-goias.ghtml",
-        "imagem": "",
-        "data": "2026-10-18T22:37:15+00:00",
-        "dataFmt": "18/10/2026 22:37"
-      },
-      {
-        "titulo": "Público e renda: veja o borderô da derrota do CRB para o Botafogo-SP",
-        "resumo": "",
-        "url": "https://ge.globo.com/al/futebol/times/crb/noticia/2026/10/18/publico-e-renda-veja-o-bordero-da-derrota-do-crb-para-o-botafogo-sp.ghtml",
-        "imagem": "",
-        "data": "2026-10-18T22:26:23+00:00",
-        "dataFmt": "18/10/2026 22:26"
-      },
-      {
-        "titulo": "Cuca valoriza força do Santos como visitante e elogia Neymar: \"Partida em que mais competiu\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/10/18/cuca-valoriza-forca-do-santos-como-visitante-e-elogia-neymar-partida-em-que-mais-competiu.ghtml",
-        "imagem": "",
-        "data": "2026-10-18T21:52:05+00:00",
-        "dataFmt": "18/10/2026 21:52"
-      },
-      {
-        "titulo": "Paulinho critica arbitragem de Grêmio x Cruzeiro: \"Erro que poderia ter influenciado\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/10/18/paulinho-critica-arbitragem-de-gremio-x-cruzeiro-erro-que-poderia-ter-influenciado.ghtml",
-        "imagem": "",
-        "data": "2026-10-18T21:51:15+00:00",
-        "dataFmt": "18/10/2026 21:51"
-      },
-      {
-        "titulo": "Marcão analisa derrota e confia no Fluminense na Libertadores: \"Vamos buscar a classificação\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/18/marcao-reconhece-queda-de-desempenho-do-fluminense-mas-reforca-confianca-por-libertadores-vamos-buscar-a-classificacao.ghtml",
-        "imagem": "",
-        "data": "2026-10-18T21:50:19+00:00",
-        "dataFmt": "18/10/2026 21:50"
-      },
-      {
-        "titulo": "Kaio Jorge faz segundo hat-trick da carreira pelo Cruzeiro; veja os gols",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/10/18/kaio-jorge-faz-segundo-hat-trick-da-carreira-pelo-cruzeiro-veja-os-gols.ghtml",
-        "imagem": "",
-        "data": "2026-10-18T21:48:41+00:00",
-        "dataFmt": "18/10/2026 21:48"
-      },
-      {
-        "titulo": "Análise: CRB sente o peso do jogo decisivo e frustra mais uma vez a sua torcida",
-        "resumo": "",
-        "url": "https://ge.globo.com/al/futebol/times/crb/noticia/2026/10/18/analise-crb-sente-o-peso-do-jogo-decisivo-e-frusta-mais-uma-vez-a-sua-torcida.ghtml",
-        "imagem": "",
-        "data": "2026-10-18T21:46:40+00:00",
-        "dataFmt": "18/10/2026 21:46"
-      },
-      {
-        "titulo": "Blumenau vence o Nação pela Copa Santa Catarina",
-        "resumo": "",
-        "url": "https://ge.globo.com/sc/futebol/copa-santa-catarina/noticia/2026/10/18/blumenau-vence-o-nacao-pela-copa-santa-catarina.ghtml",
-        "imagem": "",
-        "data": "2026-10-18T21:34:45+00:00",
-        "dataFmt": "18/10/2026 21:34"
-      },
-      {
-        "titulo": "Atuações do Avaí: Felipe Vizeu perde oportunidade clara da vitória; dê suas notas",
-        "resumo": "",
-        "url": "https://ge.globo.com/sc/futebol/times/avai/noticia/2026/10/18/atuacoes-do-avai-felipe-vizeu-perde-oportunidade-clara-da-vitoria-de-suas-notas.ghtml",
-        "imagem": "",
-        "data": "2026-10-18T21:33:25+00:00",
-        "dataFmt": "18/10/2026 21:33"
       }
     ],
     "times": {
       "Palmeiras": [
+        {
+          "titulo": "Chances do Brasileirão: potencial de título do Flamengo é de 69% e Palmeiras tem 31%",
+          "resumo": "",
+          "url": "https://ge.globo.com/gato-mestre/noticia/2026/10/19/chances-do-brasileirao-potencial-de-titulo-do-flamengo-e-de-69percent-e-palmeiras-tem-31percent.ghtml",
+          "imagem": "",
+          "data": "2026-10-19T03:01:00+00:00",
+          "dataFmt": "19/10/2026 03:01"
+        },
+        {
+          "titulo": "Rizek elogia atuações de Flamengo e Palmeiras como visitantes: \"Diferença de nível\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/sportv/programas/fechamento-sportv/noticia/2026/10/18/rizek-elogia-atuacoes-de-flamengo-e-palmeiras-como-visitantes-diferenca-de-nivel.ghtml",
+          "imagem": "",
+          "data": "2026-10-19T01:08:46+00:00",
+          "dataFmt": "19/10/2026 01:08"
+        },
         {
           "titulo": "Palmeiras vence Belgrano de virada e se classifica às quartas da Libertadores Feminina",
           "resumo": "",
@@ -186,14 +202,6 @@
           "dataFmt": "18/10/2026 18:24"
         },
         {
-          "titulo": "Andreas Pereira pede desculpas por expulsão no Palmeiras e se explica: \"Foi um instinto meu\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/10/18/andreas-pereira-pede-desculpas-por-expulsao-no-palmeiras-e-se-explica-foi-um-instinto-meu.ghtml",
-          "imagem": "",
-          "data": "2026-10-18T15:18:51+00:00",
-          "dataFmt": "18/10/2026 15:18"
-        },
-        {
           "titulo": "Veja o lance da expulsÃ£o de Andreas em Athetico x Palmeiras",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/10/17/andreas-pereira-e-piquerez-desfalcam-palmeiras-contra-o-bragantino-no-brasileiro.ghtml",
@@ -208,6 +216,14 @@
           "imagem": "",
           "data": "",
           "dataFmt": "17/10/2026"
+        },
+        {
+          "titulo": "Andreas Pereira pede desculpas e explica expulsÃ£o",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/10/18/andreas-pereira-pede-desculpas-por-expulsao-no-palmeiras-e-se-explica-foi-um-instinto-meu.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "18/10/2026"
         },
         {
           "titulo": "AnÃ¡lise: Palmeiras se supera para brigar por tÃ­tulo",
@@ -248,32 +264,96 @@
           "imagem": "",
           "data": "",
           "dataFmt": "16/10/2026"
-        },
-        {
-          "titulo": "Ele jÃ¡ foi artilheiro da Libertadores e agora torce na arquibancada pelo Palmeiras",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/10/15/artilheiro-da-libertadores-de-2006-pelo-palmeiras-ex-atacante-vive-noite-de-torcedor-no-maracana.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "15/10/2026"
-        },
-        {
-          "titulo": "Palmeiras dorme lÃ­der e seca Flamengo para terminar rodada em primeiro lugar do Brasileiro",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/10/18/palmeiras-dorme-lider-e-seca-flamengo-para-terminar-rodada-em-primeiro-lugar-do-brasileiro.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "18/10/2026"
         }
       ],
       "Flamengo": [
         {
-          "titulo": "Bahia x Flamengo - Campeonato Brasileiro 2026 - globoesporte.com",
+          "titulo": "Chances do Brasileirão: potencial de título do Flamengo é de 69% e Palmeiras tem 31%",
+          "resumo": "",
+          "url": "https://ge.globo.com/gato-mestre/noticia/2026/10/19/chances-do-brasileirao-potencial-de-titulo-do-flamengo-e-de-69percent-e-palmeiras-tem-31percent.ghtml",
+          "imagem": "",
+          "data": "2026-10-19T03:01:00+00:00",
+          "dataFmt": "19/10/2026 03:01"
+        },
+        {
+          "titulo": "Rizek elogia atuações de Flamengo e Palmeiras como visitantes: \"Diferença de nível\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/sportv/programas/fechamento-sportv/noticia/2026/10/18/rizek-elogia-atuacoes-de-flamengo-e-palmeiras-como-visitantes-diferenca-de-nivel.ghtml",
+          "imagem": "",
+          "data": "2026-10-19T01:08:46+00:00",
+          "dataFmt": "19/10/2026 01:08"
+        },
+        {
+          "titulo": "Ceni reconhece superioridade do Flamengo e desempenho ruim do Bahia: \"Jogamos muito abaixo\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/10/18/ceni-reconhece-superioridade-do-flamengo-e-desempenho-ruim-do-bahia-jogamos-muito-abaixo.ghtml",
+          "imagem": "",
+          "data": "2026-10-19T01:06:53+00:00",
+          "dataFmt": "19/10/2026 01:06"
+        },
+        {
+          "titulo": "Bahia 0 x 3 Flamengo tem o maior público da 31ª rodada do Brasileiro; veja a lista",
+          "resumo": "",
+          "url": "https://ge.globo.com/gato-mestre/noticia/2026/10/18/bahia-0-x-3-flamengo-tem-o-maior-publico-da-31a-rodada-do-brasileiro-veja-a-lista.ghtml",
+          "imagem": "",
+          "data": "2026-10-19T00:59:23+00:00",
+          "dataFmt": "19/10/2026 00:59"
+        },
+        {
+          "titulo": "Rossi afirma que conversas por renovação com Flamengo serão retomadas no fim o ano: \"Desejo ficar\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/18/rossi-afirma-que-conversas-por-renovacao-com-flamengo-serao-retomadas-no-fim-da-temporada-desejo-ficar.ghtml",
+          "imagem": "",
+          "data": "2026-10-19T00:35:02+00:00",
+          "dataFmt": "19/10/2026 00:35"
+        },
+        {
+          "titulo": "Ronaldo lamenta postura do Bahia contra o Flamengo e pede desculpa à torcida: \"Pior jogo em casa\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/10/18/ronaldo-lamenta-postura-do-bahia-contra-o-flamengo-e-pede-desculpa-a-torcida-pior-jogo-em-casa.ghtml",
+          "imagem": "",
+          "data": "2026-10-19T00:15:56+00:00",
+          "dataFmt": "19/10/2026 00:15"
+        },
+        {
+          "titulo": "Jardim diz que Flamengo foi dominante contra o Bahia e elogia Carrascal e Paquetá como armadores",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/18/jardim-analisa-vitoria-do-flamengo-e-retorno-a-lideranca-mandante-nos-dois-tempos.ghtml",
+          "imagem": "",
+          "data": "2026-10-19T00:07:44+00:00",
+          "dataFmt": "19/10/2026 00:07"
+        },
+        {
+          "titulo": "Flamengo domina o Bahia e volta a ocupar a liderança do Brasileirão",
           "resumo": "",
           "url": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/18-10-2026/bahia-flamengo.ghtml",
           "imagem": "",
-          "data": "2026-10-18T23:28:17+00:00",
-          "dataFmt": "18/10/2026 23:28"
+          "data": "2026-10-18T23:53:38+00:00",
+          "dataFmt": "18/10/2026 23:53"
+        },
+        {
+          "titulo": "Bahia 0 x 3 Flamengo: assista aos gols e aos melhores momentos",
+          "resumo": "",
+          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/10/18/bahia-0-x-3-flamengo-assista-aos-gols-e-aos-melhores-momentos.ghtml",
+          "imagem": "",
+          "data": "2026-10-18T23:44:28+00:00",
+          "dataFmt": "18/10/2026 23:44"
+        },
+        {
+          "titulo": "Atuações do Flamengo: Carrascal e Paquetá são os melhores em vitória sobre o Bahia; dê suas notas",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/18/atuacoes-do-flamengo-carrascal-e-paqueta-sao-os-melhores-em-vitoria-sobre-o-bahia-de-suas-notas.ghtml",
+          "imagem": "",
+          "data": "2026-10-18T23:42:17+00:00",
+          "dataFmt": "18/10/2026 23:42"
+        },
+        {
+          "titulo": "Atuações do Bahia: Roman Gomez, Juba e Marco Moreno recebem piores notas contra o Flamengo",
+          "resumo": "",
+          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/10/18/atuacoes-do-bahia-roman-gomez-juba-e-marco-moreno-recebem-piores-notas-contra-o-flamengo.ghtml",
+          "imagem": "",
+          "data": "2026-10-18T23:30:28+00:00",
+          "dataFmt": "18/10/2026 23:30"
         },
         {
           "titulo": "Flamengo vence o Bahia e segue 100% sob comando de Filipe Luís",
@@ -282,86 +362,6 @@
           "imagem": "",
           "data": "2026-10-18T20:30:45+00:00",
           "dataFmt": "18/10/2026 20:30"
-        },
-        {
-          "titulo": "Com Acevedo, veja relacionados do Bahia para enfrentar o Flamengo",
-          "resumo": "",
-          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/10/18/com-acevedo-veja-relacionados-do-bahia-para-enfrentar-o-flamengo.ghtml",
-          "imagem": "",
-          "data": "2026-10-18T19:13:27+00:00",
-          "dataFmt": "18/10/2026 19:13"
-        },
-        {
-          "titulo": "River-PI 3 x 0 Flamengo-PI: veja as entrevistas após o título do Tricolor sobre o Fla-PI na Segundona 2026",
-          "resumo": "",
-          "url": "https://ge.globo.com/pi/futebol/piauiense-segunda-divisao/playlist/river-pi-3-x-0-flamengo-pi-veja-as-entrevistas-apos-o-titulo-do-tricolor-sobre-o-fla-pi-na-segundona-2026.ghtml",
-          "imagem": "",
-          "data": "2026-10-18T17:07:28+00:00",
-          "dataFmt": "18/10/2026 17:07"
-        },
-        {
-          "titulo": "NBB: Flamengo perde para o Bauru na estreia com cesta no último segundo",
-          "resumo": "",
-          "url": "https://ge.globo.com/basquete/noticia/2026/10/18/nbb-flamengo-perde-para-o-bauru-na-estreia-com-cesta-no-ultimo-segundo.ghtml",
-          "imagem": "",
-          "data": "2026-10-18T16:36:41+00:00",
-          "dataFmt": "18/10/2026 16:36"
-        },
-        {
-          "titulo": "Visitante indigesto no Brasileirão, Flamengo tenta retomar boas memórias na Fonte Nova",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/18/visitante-indigesto-no-brasileirao-flamengo-tenta-retomar-boas-memorias-na-fonte-nova.ghtml",
-          "imagem": "",
-          "data": "2026-10-18T15:00:00+00:00",
-          "dataFmt": "18/10/2026 15:00"
-        },
-        {
-          "titulo": "Alex Sandro engata sequÃªncia que nÃ£o acontecia desde marÃ§o",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/17/alex-sandro-se-destaca-e-engata-sequencia-que-nao-acontecia-desde-marco-no-flamengo.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "17/10/2026"
-        },
-        {
-          "titulo": "Entenda processo de renovaÃ§Ã£o de Rossi e visita de empresÃ¡rio na Argentina",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/17/entenda-processo-de-renovacao-de-rossi-e-visita-de-empresario-ao-hotel-do-flamengo-na-argentina.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "17/10/2026"
-        },
-        {
-          "titulo": "Freitas estreia na Libertadores e amplia alternativas de Jardim",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/16/freitas-estreia-na-libertadores-e-amplia-alternativas-de-jardim-no-flamengo.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "16/10/2026"
-        },
-        {
-          "titulo": "Jorginho volta ao Flamengo apÃ³s suspensÃµes; veja retrospecto com e sem o volante",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/18/jorginho-volta-ao-flamengo-apos-suspensoes-veja-retrospecto-com-e-sem-o-volante.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "18/10/2026"
-        },
-        {
-          "titulo": "Com cinco desfalques, Flamengo chega a Salvador para enfrentar o Bahia",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/17/com-cinco-desfalques-flamengo-chega-a-salvador-para-enfrentar-o-bahia.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "17/10/2026"
-        },
-        {
-          "titulo": "Flamengo divulga lista de relacionados para confronto com o Bahia, pelo BrasileirÃ£o; veja quem viaja",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/17/flamengo-divulga-lista-de-relacionados-para-confronto-com-o-bahia-pelo-brasileirao-veja-quem-viaja.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "17/10/2026"
         }
       ],
       "Athletico-PR": [
@@ -538,6 +538,14 @@
       ],
       "Cruzeiro": [
         {
+          "titulo": "Com hat-trick de Kaio Jorge, Cruzeiro vira e afunda o Grêmio no Z-4",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/18-10-2026/gremio-cruzeiro.ghtml",
+          "imagem": "",
+          "data": "2026-10-18T23:28:57+00:00",
+          "dataFmt": "18/10/2026 23:28"
+        },
+        {
           "titulo": "Paulinho critica arbitragem de Grêmio x Cruzeiro: \"Erro que poderia ter influenciado\"",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/10/18/paulinho-critica-arbitragem-de-gremio-x-cruzeiro-erro-que-poderia-ter-influenciado.ghtml",
@@ -562,14 +570,6 @@
           "dataFmt": "18/10/2026 21:30"
         },
         {
-          "titulo": "Com hat-trick de Kaio Jorge, Cruzeiro vira e afunda o Grêmio no Z-4",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/18-10-2026/gremio-cruzeiro.ghtml",
-          "imagem": "",
-          "data": "2026-10-18T21:16:27+00:00",
-          "dataFmt": "18/10/2026 21:16"
-        },
-        {
           "titulo": "Atuações do Cruzeiro: Kaio Jorge marca três vezes e lidera virada; dê suas notas",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/10/18/atuacoes-do-cruzeiro-kaio-jorge-marca-tres-vezes-e-lidera-virada-de-suas-notas.ghtml",
@@ -592,14 +592,6 @@
           "imagem": "",
           "data": "2026-10-18T20:50:40+00:00",
           "dataFmt": "18/10/2026 20:50"
-        },
-        {
-          "titulo": "Grêmio x Cruzeiro terá integrantes de comissão técnica da Seleção",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/noticia/2026/10/18/gremio-x-cruzeiro-tera-integrantes-de-comissao-tecnica-da-selecao.ghtml",
-          "imagem": "",
-          "data": "2026-10-18T16:40:04+00:00",
-          "dataFmt": "18/10/2026 16:40"
         },
         {
           "titulo": "EscalaÃ§Ã£o do Cruzeiro: volante retorna, Artur Jorge tem desfalque e pode mudar time",
@@ -632,16 +624,80 @@
           "imagem": "",
           "data": "",
           "dataFmt": "16/10/2026"
+        },
+        {
+          "titulo": "De eliminaÃ§Ãµes a atrito em campo: cinco motivos que ajudam a explicar oscilaÃ§Ã£o do Cruzeiro",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/10/16/de-eliminacoes-a-atrito-em-campo-cinco-motivos-que-ajudam-a-explicar-oscilacao-do-cruzeiro.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "16/10/2026"
         }
       ],
       "Bahia": [
         {
-          "titulo": "Bahia x Flamengo - Campeonato Brasileiro 2026 - globoesporte.com",
+          "titulo": "Ceni reconhece superioridade do Flamengo e desempenho ruim do Bahia: \"Jogamos muito abaixo\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/10/18/ceni-reconhece-superioridade-do-flamengo-e-desempenho-ruim-do-bahia-jogamos-muito-abaixo.ghtml",
+          "imagem": "",
+          "data": "2026-10-19T01:06:53+00:00",
+          "dataFmt": "19/10/2026 01:06"
+        },
+        {
+          "titulo": "Bahia 0 x 3 Flamengo tem o maior público da 31ª rodada do Brasileiro; veja a lista",
+          "resumo": "",
+          "url": "https://ge.globo.com/gato-mestre/noticia/2026/10/18/bahia-0-x-3-flamengo-tem-o-maior-publico-da-31a-rodada-do-brasileiro-veja-a-lista.ghtml",
+          "imagem": "",
+          "data": "2026-10-19T00:59:23+00:00",
+          "dataFmt": "19/10/2026 00:59"
+        },
+        {
+          "titulo": "Ronaldo lamenta postura do Bahia contra o Flamengo e pede desculpa à torcida: \"Pior jogo em casa\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/10/18/ronaldo-lamenta-postura-do-bahia-contra-o-flamengo-e-pede-desculpa-a-torcida-pior-jogo-em-casa.ghtml",
+          "imagem": "",
+          "data": "2026-10-19T00:15:56+00:00",
+          "dataFmt": "19/10/2026 00:15"
+        },
+        {
+          "titulo": "Jardim diz que Flamengo foi dominante contra o Bahia e elogia Carrascal e Paquetá como armadores",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/18/jardim-analisa-vitoria-do-flamengo-e-retorno-a-lideranca-mandante-nos-dois-tempos.ghtml",
+          "imagem": "",
+          "data": "2026-10-19T00:07:44+00:00",
+          "dataFmt": "19/10/2026 00:07"
+        },
+        {
+          "titulo": "Flamengo domina o Bahia e volta a ocupar a liderança do Brasileirão",
           "resumo": "",
           "url": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/18-10-2026/bahia-flamengo.ghtml",
           "imagem": "",
-          "data": "2026-10-18T23:28:17+00:00",
-          "dataFmt": "18/10/2026 23:28"
+          "data": "2026-10-18T23:53:38+00:00",
+          "dataFmt": "18/10/2026 23:53"
+        },
+        {
+          "titulo": "Bahia 0 x 3 Flamengo: assista aos gols e aos melhores momentos",
+          "resumo": "",
+          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/10/18/bahia-0-x-3-flamengo-assista-aos-gols-e-aos-melhores-momentos.ghtml",
+          "imagem": "",
+          "data": "2026-10-18T23:44:28+00:00",
+          "dataFmt": "18/10/2026 23:44"
+        },
+        {
+          "titulo": "Atuações do Flamengo: Carrascal e Paquetá são os melhores em vitória sobre o Bahia; dê suas notas",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/18/atuacoes-do-flamengo-carrascal-e-paqueta-sao-os-melhores-em-vitoria-sobre-o-bahia-de-suas-notas.ghtml",
+          "imagem": "",
+          "data": "2026-10-18T23:42:17+00:00",
+          "dataFmt": "18/10/2026 23:42"
+        },
+        {
+          "titulo": "Atuações do Bahia: Roman Gomez, Juba e Marco Moreno recebem piores notas contra o Flamengo",
+          "resumo": "",
+          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/10/18/atuacoes-do-bahia-roman-gomez-juba-e-marco-moreno-recebem-piores-notas-contra-o-flamengo.ghtml",
+          "imagem": "",
+          "data": "2026-10-18T23:30:28+00:00",
+          "dataFmt": "18/10/2026 23:30"
         },
         {
           "titulo": "Flamengo vence o Bahia e segue 100% sob comando de Filipe Luís",
@@ -674,72 +730,32 @@
           "imagem": "",
           "data": "",
           "dataFmt": "17/10/2026"
-        },
-        {
-          "titulo": "RogÃ©rio Ceni enfrenta o quarto treinador diferente do Flamengo desde que assumiu o Bahia",
-          "resumo": "",
-          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/10/17/rogerio-ceni-enfrenta-o-quarto-treinador-diferente-do-flamengo-desde-que-assumiu-o-bahia.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "17/10/2026"
-        },
-        {
-          "titulo": "Bahia chega para jogo contra o Flamengo em melhor momento como mandante no BrasileirÃ£o",
-          "resumo": "",
-          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/10/15/bahia-chega-para-jogo-contra-o-flamengo-em-melhor-momento-como-mandante-no-brasileirao.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "15/10/2026"
-        },
-        {
-          "titulo": "Com somente um jogador no DM, Bahia abre preparaÃ§Ã£o para enfrentar o Flamengo",
-          "resumo": "",
-          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/10/14/com-somente-um-jogador-no-dm-bahia-abre-preparacao-para-enfrentar-o-flamengo.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "14/10/2026"
-        },
-        {
-          "titulo": "Sexto zagueiro a ser titular do Bahia no  Brasileiro, Marco Moreno estreia com elogios de Ceni",
-          "resumo": "",
-          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/10/13/sexto-zagueiro-a-ser-titular-do-bahia-no-brasileiro-marco-moreno-estreia-com-elogios-de-ceni.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "13/10/2026"
-        },
-        {
-          "titulo": "AnÃ¡lise: Bahia joga bem, mas abusa de perder chances e tem mais sorte que juÃ­zo no fim",
-          "resumo": "",
-          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/10/12/analise-bahia-joga-bem-mas-abusa-de-perder-chances-e-tem-mais-sorte-que-juizo-no-fim.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "12/10/2026"
-        },
-        {
-          "titulo": "Ceni reclama de inÃ­cio de segundo tempo ruim do Bahia em vitÃ³ria sobre o Mirassol: \"Uma m...\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/10/11/ceni-reclama-de-inicio-de-segundo-tempo-ruim-do-bahia-em-vitoria-sobre-o-mirassol-uma-m.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "11/10/2026"
-        },
-        {
-          "titulo": "Bahia 1 x 0 Mirassol: assista ao gol e aos melhores momentos do jogo",
-          "resumo": "",
-          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/10/11/bahia-1-x-0-mirassol-assista-ao-gol-e-aos-melhores-momentos-do-jogo.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "11/10/2026"
         }
       ],
       "Bragantino": [
         {
-          "titulo": "Remo x Bragantino - Campeonato Brasileiro 2026 - Ao vivo - globoesporte.com",
+          "titulo": "Atuações do Remo: Ivan garante empate contra o Bragantino; dê suas notas",
+          "resumo": "",
+          "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/10/18/atuacoes-do-remo-ivan-garante-empate-contra-o-bragantino-de-suas-notas.ghtml",
+          "imagem": "",
+          "data": "2026-10-19T01:39:41+00:00",
+          "dataFmt": "19/10/2026 01:39"
+        },
+        {
+          "titulo": "Com um gol em cada tempo, Remo e Bragantino empatam pelo Brasileirão",
           "resumo": "",
           "url": "https://ge.globo.com/pa/futebol/brasileirao-serie-a/jogo/18-10-2026/remo-bragantino.ghtml",
           "imagem": "",
-          "data": "2026-10-18T23:28:05+00:00",
-          "dataFmt": "18/10/2026 23:28"
+          "data": "2026-10-19T01:06:12+00:00",
+          "dataFmt": "19/10/2026 01:06"
+        },
+        {
+          "titulo": "Guzmán Rodríguez vê dois tempos distintos em empate do Bragantino com Remo",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/times/bragantino/noticia/2026/10/18/guzman-rodriguez-ve-dois-tempos-distintos-em-empate-do-bragantino-com-remo.ghtml",
+          "imagem": "",
+          "data": "2026-10-19T01:01:15+00:00",
+          "dataFmt": "19/10/2026 01:01"
         },
         {
           "titulo": "Entenda o que leva o Braga a ser o Ãºnico clube a estar nas semis do Brasileiro sub-17 e sub-20",
@@ -793,14 +809,6 @@
           "titulo": "Herrera elogia postura do Bragantino para bater o Cruzeiro: \"Demos tudo em cada bola\"",
           "resumo": "",
           "url": "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/times/bragantino/noticia/2026/10/12/herrera-elogia-postura-do-bragantino-para-bater-o-cruzeiro-demos-tudo-em-cada-bola.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "12/10/2026"
-        },
-        {
-          "titulo": "AtuaÃ§Ãµes: ataque volta a ser efetivo em vitÃ³ria maiÃºscula sobre o Cruzeiro; dÃª suas notas",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/times/bragantino/noticia/2026/10/12/atuacoes-do-bragantino-ataque-volta-a-ser-efetivo-em-vitoria-maiuscula-sobre-o-cruzeiro-de-suas-notas.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "12/10/2026"
@@ -875,14 +883,6 @@
           "titulo": "EscalaÃ§Ã£o do Coritiba: volta de Bruno Melo e dÃºvidas no time contra o AtlÃ©tico-MG",
           "resumo": "",
           "url": "https://ge.globo.com/pr/futebol/times/coritiba/noticia/2026/10/14/escalacao-do-coritiba-volta-de-bruno-melo-e-duvidas-no-time-contra-o-atletico-mg.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "14/10/2026"
-        },
-        {
-          "titulo": "SequÃªncia decisiva: Coritiba enfrenta desafios distintos na reta final do BrasileirÃ£o; veja cenÃ¡rio",
-          "resumo": "",
-          "url": "https://ge.globo.com/pr/futebol/times/coritiba/noticia/2026/10/14/sequencia-decisiva-coritiba-enfrenta-desafios-distintos-na-reta-final-do-brasileirao-veja-cenario.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "14/10/2026"
@@ -988,12 +988,20 @@
       ],
       "Corinthians": [
         {
-          "titulo": "Corinthians x Caracas - Taça Libertadores Feminina 2026 - Ao vivo - globoesporte.com",
+          "titulo": "Corinthians goleia Caracas e carimba vaga às quartas da Libertadores Feminina",
           "resumo": "",
           "url": "https://ge.globo.com/sp/campinas-e-regiao/futebol/futebol-feminino/libertadores-feminina/jogo/18-10-2026/corinthians-caracas.ghtml",
           "imagem": "",
-          "data": "2026-10-18T23:25:57+00:00",
-          "dataFmt": "18/10/2026 23:25"
+          "data": "2026-10-19T02:06:40+00:00",
+          "dataFmt": "19/10/2026 02:06"
+        },
+        {
+          "titulo": "Escalação do Corinthians: Seedorf finaliza preparação para a partida contra o Vitória",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/10/18/escalacao-do-corinthians-seedorf-finaliza-preparacao-para-a-partida-contra-o-vitoria.ghtml",
+          "imagem": "",
+          "data": "2026-10-18T23:46:01+00:00",
+          "dataFmt": "18/10/2026 23:46"
         },
         {
           "titulo": "Escalação do Vitória contra o Corinthians: veja time provável, dúvidas e desfalques",
@@ -1028,30 +1036,6 @@
           "dataFmt": "18/10/2026"
         },
         {
-          "titulo": "Estreia adiada: Seedorf fica fora do jogo contra o VitÃ³ria",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/10/16/seedorf-nao-e-registrado-a-tempo-pelo-corinthians-e-fica-fora-da-partida-contra-o-vitoria.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "16/10/2026"
-        },
-        {
-          "titulo": "Raniele passa por cirurgia; veja a previsÃ£o de retorno",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/10/16/raniele-passa-por-cirurgia-e-deve-voltar-ao-corinthians-em-quatro-semanas.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "16/10/2026"
-        },
-        {
-          "titulo": "Yuri Alberto vai a campo; Seedorf treina bola parada",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/10/17/yuri-alberto-vai-a-campo-no-corinthians-e-deve-enfrentar-o-vitoria-seedorf-treina-bola-parada.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "17/10/2026"
-        },
-        {
           "titulo": "Seedorf visita a Neo QuÃ­mica Arena",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/10/17/com-estreia-adiada-no-corinthians-seedorf-visita-a-arena.ghtml",
@@ -1079,6 +1063,22 @@
           "titulo": "Memphis: pior desempenho da carreira preocupa clube",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/10/16/memphis-depay-vive-pior-ano-da-carreira-nas-participacoes-em-gol-e-preocupa-o-corinthians.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "16/10/2026"
+        },
+        {
+          "titulo": "Organizadas protestam e cobram Memphis: \"Futebol em atraso\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/10/16/organizadas-do-corinthians-protestam-no-parque-sao-jorge-memphis-futebol-em-atraso.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "16/10/2026"
+        },
+        {
+          "titulo": "RamÃ³n DÃ­az explica por que recusou assumir o TimÃ£o",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/10/16/ramon-diaz-diz-que-recusou-o-corinthians-para-esperar-proposta-do-river-plate.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "16/10/2026"
@@ -1184,6 +1184,30 @@
       ],
       "Vitoria": [
         {
+          "titulo": "Jardim diz que Flamengo foi dominante contra o Bahia e elogia Carrascal e Paquetá como armadores",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/18/jardim-analisa-vitoria-do-flamengo-e-retorno-a-lideranca-mandante-nos-dois-tempos.ghtml",
+          "imagem": "",
+          "data": "2026-10-19T00:07:44+00:00",
+          "dataFmt": "19/10/2026 00:07"
+        },
+        {
+          "titulo": "Escalação do Corinthians: Seedorf finaliza preparação para a partida contra o Vitória",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/10/18/escalacao-do-corinthians-seedorf-finaliza-preparacao-para-a-partida-contra-o-vitoria.ghtml",
+          "imagem": "",
+          "data": "2026-10-18T23:46:01+00:00",
+          "dataFmt": "18/10/2026 23:46"
+        },
+        {
+          "titulo": "Atuações do Flamengo: Carrascal e Paquetá são os melhores em vitória sobre o Bahia; dê suas notas",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/18/atuacoes-do-flamengo-carrascal-e-paqueta-sao-os-melhores-em-vitoria-sobre-o-bahia-de-suas-notas.ghtml",
+          "imagem": "",
+          "data": "2026-10-18T23:42:17+00:00",
+          "dataFmt": "18/10/2026 23:42"
+        },
+        {
           "titulo": "Atuações do Avaí: Felipe Vizeu perde oportunidade clara da vitória; dê suas notas",
           "resumo": "",
           "url": "https://ge.globo.com/sc/futebol/times/avai/noticia/2026/10/18/atuacoes-do-avai-felipe-vizeu-perde-oportunidade-clara-da-vitoria-de-suas-notas.ghtml",
@@ -1254,30 +1278,6 @@
           "imagem": "",
           "data": "",
           "dataFmt": "18/10/2026"
-        },
-        {
-          "titulo": "CaÃ­que quer aproveitar mÃ¡ fase do Corinthians para encerrar jejum",
-          "resumo": "",
-          "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/10/16/ainda-sem-vencer-fora-volante-do-vitoria-quer-aproveitar-ma-fase-do-corinthians-para-encerrar-jejum.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "16/10/2026"
-        },
-        {
-          "titulo": "Jamerson vive maior sequÃªncia como titular desde grave lesÃ£o",
-          "resumo": "",
-          "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/10/16/jamerson-vive-maior-sequencia-como-titular-do-vitoria-desde-grave-lesao-sofrida-em-2025.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "16/10/2026"
-        },
-        {
-          "titulo": "Substituto de CacÃ¡, BrÃ­tez tem mais jogos que todos os reforÃ§os do VitÃ³ria juntos",
-          "resumo": "",
-          "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/10/15/cotado-para-substituir-caca-britez-tem-mais-jogos-como-titular-que-todos-os-reforcos-do-vitoria-juntos.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "15/10/2026"
         }
       ],
       "Sao-Paulo": [
@@ -1338,14 +1338,6 @@
           "dataFmt": "16/10/2026"
         },
         {
-          "titulo": "Scout da base: estratÃ©gias vÃ£o da Guatemala a encostados nos rivais",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/10/15/da-guatemala-a-encostados-nos-rivais-as-estrategias-do-scout-da-base-do-sao-paulo.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "15/10/2026"
-        },
-        {
           "titulo": "\"Olhar para cima\": SÃ£o Paulo se afasta do Z-4 e comeÃ§a a fazer contas de olho na Libertadores",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/10/18/olhar-para-cima-sao-paulo-se-afasta-do-z-4-e-comeca-a-fazer-contas-de-olho-na-libertadores.ghtml",
@@ -1376,6 +1368,14 @@
           "imagem": "",
           "data": "",
           "dataFmt": "16/10/2026"
+        },
+        {
+          "titulo": "EscalaÃ§Ã£o do SÃ£o Paulo: Calleri, Luciano e Ferreira treinam e devem jogar contra o Vasco",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/10/15/escalacao-do-sao-paulo-calleri-luciano-e-ferreira-treinam-e-devem-jogar-contra-o-vasco.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "15/10/2026"
         }
       ],
       "Santos": [
@@ -1428,22 +1428,6 @@
           "dataFmt": "18/10/2026 20:37"
         },
         {
-          "titulo": "Teixeira rebate presidente do CuiabÃ¡ sobre dÃ­vida; entenda",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/10/16/desqualificado-teixeira-rebate-presidente-do-cuiaba-e-diz-que-santos-tambem-levou-calotes.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "16/10/2026"
-        },
-        {
-          "titulo": "Santos planeja mandar jogo do BrasileirÃ£o em SÃ£o Paulo",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/10/16/com-vila-belmiro-em-obras-santos-planeja-mandar-jogo-em-sao-paulo-na-reta-final-da-temporada.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "16/10/2026"
-        },
-        {
           "titulo": "Joia da base faz golaÃ§o com movimento inusitado; veja vÃ­deo",
           "resumo": "",
           "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/10/15/escorpiao-joia-da-base-do-santos-faz-golaco-com-movimento-inusitado-em-treino-veja-video.ghtml",
@@ -1474,9 +1458,33 @@
           "imagem": "",
           "data": "",
           "dataFmt": "17/10/2026"
+        },
+        {
+          "titulo": "\"Desqualificado\": Teixeira rebate presidente do CuiabÃ¡ e diz que Santos tambÃ©m levou calotes",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/10/16/desqualificado-teixeira-rebate-presidente-do-cuiaba-e-diz-que-santos-tambem-levou-calotes.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "16/10/2026"
+        },
+        {
+          "titulo": "Desfalque de ArÃ£o agrava os problemas de Cuca na defesa do Santos",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/10/16/desfalque-de-arao-agrava-os-problemas-de-cuca-na-defesa-do-santos.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "16/10/2026"
         }
       ],
       "Gremio": [
+        {
+          "titulo": "Com hat-trick de Kaio Jorge, Cruzeiro vira e afunda o Grêmio no Z-4",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/18-10-2026/gremio-cruzeiro.ghtml",
+          "imagem": "",
+          "data": "2026-10-18T23:28:57+00:00",
+          "dataFmt": "18/10/2026 23:28"
+        },
         {
           "titulo": "Renato volta a criticar o próprio Grêmio: \"Jogador veio 9kg acima do peso\"",
           "resumo": "",
@@ -1502,14 +1510,6 @@
           "dataFmt": "18/10/2026 21:29"
         },
         {
-          "titulo": "Com hat-trick de Kaio Jorge, Cruzeiro vira e afunda o Grêmio no Z-4",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/18-10-2026/gremio-cruzeiro.ghtml",
-          "imagem": "",
-          "data": "2026-10-18T21:16:27+00:00",
-          "dataFmt": "18/10/2026 21:16"
-        },
-        {
           "titulo": "Atuações do Grêmio: zaga compromete em derrota para o Cruzeiro; dê suas notas",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/10/18/atuacoes-do-gremio-zaga-compromete-em-derrota-para-o-cruzeiro-de-suas-notas.ghtml",
@@ -1524,14 +1524,6 @@
           "imagem": "",
           "data": "2026-10-18T20:50:40+00:00",
           "dataFmt": "18/10/2026 20:50"
-        },
-        {
-          "titulo": "Grêmio x Cruzeiro terá integrantes de comissão técnica da Seleção",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/noticia/2026/10/18/gremio-x-cruzeiro-tera-integrantes-de-comissao-tecnica-da-selecao.ghtml",
-          "imagem": "",
-          "data": "2026-10-18T16:40:04+00:00",
-          "dataFmt": "18/10/2026 16:40"
         },
         {
           "titulo": "Quebra de jejum na Arena e reta final pesada: o que o GrÃªmio encara contra o Cruzeiro",
@@ -1572,6 +1564,14 @@
           "imagem": "",
           "data": "",
           "dataFmt": "16/10/2026"
+        },
+        {
+          "titulo": "Consultor de arbitragem do GrÃªmio, Gaciba critica orientaÃ§Ã£o da CBF: \"O erro vem de cima\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/10/16/consultor-de-arbitragem-do-gremio-gaciba-critica-orientacao-da-cbf-o-erro-vem-de-cima.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "16/10/2026"
         }
       ],
       "Internacional": [
@@ -1580,8 +1580,8 @@
           "resumo": "",
           "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/jogo/18-10-2026/realmadrid-Sevilla.ghtml",
           "imagem": "",
-          "data": "2026-10-18T21:08:19+00:00",
-          "dataFmt": "18/10/2026 21:08"
+          "data": "2026-10-19T00:20:28+00:00",
+          "dataFmt": "19/10/2026 00:20"
         },
         {
           "titulo": "Arsenal vence o Nottingham Forest com gol de Madueke na Premier League",
@@ -1606,22 +1606,6 @@
           "imagem": "",
           "data": "2026-10-18T17:23:19+00:00",
           "dataFmt": "18/10/2026 17:23"
-        },
-        {
-          "titulo": "Monaco perde a primeira com Filipe Luís, e PSG encosta no Campeonato Francês",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-frances/noticia/2026/10/18/monaco-perde-a-primeira-com-filipe-luis-e-psg-encosta-no-campeonato-frances.ghtml",
-          "imagem": "",
-          "data": "2026-10-18T17:07:25+00:00",
-          "dataFmt": "18/10/2026 17:07"
-        },
-        {
-          "titulo": "Evanilson marca, chega a 100 gols na carreira e Bournemouth vence a primeira no Inglês",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/10/18/evanilson-marca-de-novo-chega-a-100-gols-na-carreira-e-bournemouth-vence-a-primeira-no-ingles.ghtml",
-          "imagem": "",
-          "data": "2026-10-18T15:23:54+00:00",
-          "dataFmt": "18/10/2026 15:23"
         },
         {
           "titulo": "Inter acumula problemas para jogo com Botafogo; veja lista",
@@ -1670,6 +1654,14 @@
           "imagem": "",
           "data": "",
           "dataFmt": "17/10/2026"
+        },
+        {
+          "titulo": "Veja a expulsÃ£o bizarra de Matheus Cunha logo no inÃ­cio do jogo",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/10/16/mirassol-x-inter-matheus-cunha-e-expulso-aos-14-minutos-veja-o-lance.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "16/10/2026"
         }
       ],
       "Mirassol": [
@@ -1760,24 +1752,32 @@
           "imagem": "",
           "data": "",
           "dataFmt": "13/10/2026"
-        },
-        {
-          "titulo": "Reinaldo, do Mirassol, erra no Ãºltimo lance e perde quarto pÃªnalti da carreira; assista",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/tem-esporte/futebol/times/mirassol/noticia/2026/10/12/reinaldo-do-mirassol-erra-no-ultimo-lance-e-perde-quarto-penalti-da-carreira-assista.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "12/10/2026"
         }
       ],
       "Remo": [
         {
-          "titulo": "Remo x Bragantino - Campeonato Brasileiro 2026 - Ao vivo - globoesporte.com",
+          "titulo": "Atuações do Remo: Ivan garante empate contra o Bragantino; dê suas notas",
+          "resumo": "",
+          "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/10/18/atuacoes-do-remo-ivan-garante-empate-contra-o-bragantino-de-suas-notas.ghtml",
+          "imagem": "",
+          "data": "2026-10-19T01:39:41+00:00",
+          "dataFmt": "19/10/2026 01:39"
+        },
+        {
+          "titulo": "Com um gol em cada tempo, Remo e Bragantino empatam pelo Brasileirão",
           "resumo": "",
           "url": "https://ge.globo.com/pa/futebol/brasileirao-serie-a/jogo/18-10-2026/remo-bragantino.ghtml",
           "imagem": "",
-          "data": "2026-10-18T23:28:05+00:00",
-          "dataFmt": "18/10/2026 23:28"
+          "data": "2026-10-19T01:06:12+00:00",
+          "dataFmt": "19/10/2026 01:06"
+        },
+        {
+          "titulo": "Guzmán Rodríguez vê dois tempos distintos em empate do Bragantino com Remo",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/times/bragantino/noticia/2026/10/18/guzman-rodriguez-ve-dois-tempos-distintos-em-empate-do-bragantino-com-remo.ghtml",
+          "imagem": "",
+          "data": "2026-10-19T01:01:15+00:00",
+          "dataFmt": "19/10/2026 01:01"
         },
         {
           "titulo": "Marcelinho cita evoluÃ§Ã£o do Remo e cobra eficiÃªncia contra o Bragantino",
@@ -1828,28 +1828,12 @@
           "dataFmt": "14/10/2026"
         },
         {
-          "titulo": "AnÃ¡lise: Remo resiste contra o Vasco, mas falta de vitÃ³rias pesa na permanÃªncia",
-          "resumo": "",
-          "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/10/11/analise-remo-resiste-contra-o-vasco-mas-falta-de-vitorias-pesa-na-permanencia.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "11/10/2026"
-        },
-        {
           "titulo": "Remo abre inscriÃ§Ãµes para peneira do futsal de base; veja como participar",
           "resumo": "",
           "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/10/13/remo-abre-inscricoes-para-peneira-do-futsal-de-base-veja-como-participar.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "13/10/2026"
-        },
-        {
-          "titulo": "Remo provoca Paysandu nas redes sociais apÃ³s rival nÃ£o conseguir o acesso",
-          "resumo": "",
-          "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/10/12/remo-provoca-paysandu-nas-redes-sociais-apos-rival-nao-conseguir-o-acesso.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "12/10/2026"
         }
       ],
       "Vasco": [
@@ -2145,12 +2129,12 @@
   "basquete": {
     "geral": [
       {
-        "titulo": "NBB: Flamengo perde para o Bauru na estreia com cesta no último segundo",
+        "titulo": "NBB: Flamengo perde para o Bauru na estreia com cesta no Ãºltimo segundo",
         "resumo": "",
         "url": "https://ge.globo.com/basquete/noticia/2026/10/18/nbb-flamengo-perde-para-o-bauru-na-estreia-com-cesta-no-ultimo-segundo.ghtml",
         "imagem": "",
-        "data": "2026-10-18T16:36:41+00:00",
-        "dataFmt": "18/10/2026 16:36"
+        "data": "",
+        "dataFmt": "18/10/2026"
       },
       {
         "titulo": "Unifacisa derrota o Osasco e estreia com vitÃ³ria no NBB 2026/2027",
