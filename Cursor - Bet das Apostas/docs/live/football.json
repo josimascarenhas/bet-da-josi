@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-19T00:30:28-03:00",
+    "atualizadoEm": "2026-10-19T06:17:08-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 402,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
+    "placaresFonte": "calendário + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -1250,11 +1250,6 @@
         "golsContra": 40
       },
       "desfalques": [
-        {
-          "jogador": "Escalação do Vitória contra o Corinthian",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
         {
           "jogador": "Clube e Caixa acertam suspensÃ£o de paga",
           "motivo": "notícia GE",
