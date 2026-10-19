@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-19T13:36:38-03:00",
+    "atualizadoEm": "2026-10-19T18:21:54-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 403,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
+    "placaresFonte": "calendário + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -2137,12 +2137,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Remo divulga boletim mÃ©dico e meia vira",
+          "jogador": "De volta ao Remo apÃ³s suspensÃ£o, Edson",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
         {
-          "jogador": "De volta ao Remo apÃ³s suspensÃ£o, Edson",
+          "jogador": "Remo divulga boletim mÃ©dico e meia vira",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2348,6 +2348,11 @@
         "golsContra": 58
       },
       "desfalques": [
+        {
+          "jogador": "Chapecoense tem zagueiro suspenso e reto",
+          "motivo": "notícia GE",
+          "impacto": "alto"
+        },
         {
           "jogador": "EscalaÃ§Ã£o da Chapecoense",
           "motivo": "notícia GE",
