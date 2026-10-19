@@ -1,10 +1,18 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-19T06:16:47.674408-03:00",
+    "atualizadoEm": "2026-10-19T18:21:49.108912-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "br-31-Bahia-Flamengo",
+      "data": "2026-10-19",
+      "comp": "brasileirao",
+      "mandante": "Bahia",
+      "visitante": "Flamengo",
+      "placar": "0-3"
+    },
     {
       "id": "br-31-Corinthians-Vitoria",
       "data": "2026-10-18",
@@ -236,14 +244,6 @@
       "mandante": "Platense",
       "visitante": "Fluminense",
       "placar": "2-1"
-    },
-    {
-      "id": "br-27-Bahia-Remo",
-      "data": "2026-09-14",
-      "comp": "brasileirao",
-      "mandante": "Bahia",
-      "visitante": "Remo",
-      "placar": "2-0"
     }
   ]
 }

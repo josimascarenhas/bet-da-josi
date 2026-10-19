@@ -1,8 +1,8 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-19T06:17:08-03:00",
+    "atualizadoEm": "2026-10-19T18:21:54-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 402,
+    "jogosFinalizados": 403,
     "timesAtualizados": 118,
     "placaresFonte": "calendário + openligadb.de"
   },
@@ -10,8 +10,8 @@
     "brasileirao": {
       "fase": "4ª rodada",
       "timesAtivos": [
-        "Palmeiras",
         "Flamengo",
+        "Palmeiras",
         "Fluminense",
         "Athletico-PR",
         "Bahia",
@@ -198,7 +198,7 @@
   "times": {
     "Palmeiras": {
       "brasileirao": {
-        "posicao": 1,
+        "posicao": 2,
         "pontos": 57,
         "ultimos5": [
           "D 1-2 ATLMG",
@@ -339,8 +339,8 @@
     },
     "Flamengo": {
       "brasileirao": {
-        "posicao": 2,
-        "pontos": 54,
+        "posicao": 1,
+        "pontos": 57,
         "ultimos5": [
           "E 1-1 SAOPA",
           "E 1-1",
@@ -367,10 +367,10 @@
           "gpg": 2.0,
           "gsg": 1.0
         },
-        "vitorias": 16,
+        "vitorias": 17,
         "empates": 6,
         "derrotas": 6,
-        "golsPro": 58,
+        "golsPro": 61,
         "golsContra": 32
       },
       "desfalques": [
@@ -846,9 +846,9 @@
         },
         "vitorias": 12,
         "empates": 10,
-        "derrotas": 7,
+        "derrotas": 8,
         "golsPro": 43,
-        "golsContra": 35
+        "golsContra": 38
       },
       "desfalques": [
         {
@@ -1907,7 +1907,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Dibu Martínez passa por cirurgia e vira ",
+          "jogador": "Técnico do City confirma lesão de Semeny",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2137,12 +2137,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Remo divulga boletim mÃ©dico e meia vira",
+          "jogador": "De volta ao Remo apÃ³s suspensÃ£o, Edson",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
         {
-          "jogador": "De volta ao Remo apÃ³s suspensÃ£o, Edson",
+          "jogador": "Remo divulga boletim mÃ©dico e meia vira",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2348,6 +2348,11 @@
         "golsContra": 58
       },
       "desfalques": [
+        {
+          "jogador": "Chapecoense tem zagueiro suspenso e reto",
+          "motivo": "notícia GE",
+          "impacto": "alto"
+        },
         {
           "jogador": "EscalaÃ§Ã£o da Chapecoense",
           "motivo": "notícia GE",
