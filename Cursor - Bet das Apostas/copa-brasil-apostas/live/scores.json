@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-19T06:16:47.674408-03:00",
-    "fonte": "calendário + openligadb.de",
-    "jogos": 402,
-    "finalizadosTotal": 402
+    "atualizadoEm": "2026-10-19T13:36:33.964625-03:00",
+    "fonte": "calendário + ge.globo.com + openligadb.de",
+    "jogos": 403,
+    "finalizadosTotal": 403
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -3173,6 +3173,15 @@
       "golsFora": 0,
       "data": "2026-10-18",
       "comp": "brasileirao"
+    },
+    "br-31-Bahia-Flamengo": {
+      "status": "finished",
+      "placar": "0-3",
+      "golsCasa": 0,
+      "golsFora": 3,
+      "data": "2026-10-19",
+      "comp": "brasileirao",
+      "fonte": "ge"
     },
     "eu-bundesliga-2026-08-29-RB-Leipzig-Borussia-Mgladbach": {
       "status": "finished",
