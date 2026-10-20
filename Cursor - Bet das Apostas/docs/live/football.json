@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-19T18:21:54-03:00",
+    "atualizadoEm": "2026-10-19T21:31:58-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 403,
+    "jogosFinalizados": 404,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + openligadb.de"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -24,8 +24,8 @@
         "Botafogo",
         "Mirassol",
         "Gremio",
-        "Atletico-MG",
         "Remo",
+        "Atletico-MG",
         "Internacional",
         "Vasco",
         "Sao-Paulo",
@@ -910,7 +910,7 @@
     "Bragantino": {
       "brasileirao": {
         "posicao": 7,
-        "pontos": 40,
+        "pontos": 41,
         "ultimos5": [
           "E 1-1",
           "E 0-0 COR",
@@ -938,10 +938,10 @@
           "gsg": 1.09
         },
         "vitorias": 11,
-        "empates": 7,
+        "empates": 8,
         "derrotas": 8,
-        "golsPro": 30,
-        "golsContra": 25
+        "golsPro": 31,
+        "golsContra": 26
       },
       "desfalques": [
         {
@@ -1095,7 +1095,7 @@
     },
     "Atletico-MG": {
       "brasileirao": {
-        "posicao": 15,
+        "posicao": 16,
         "pontos": 33,
         "ultimos5": [
           "E 1-1 BAH",
@@ -1466,7 +1466,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Vitória contra o Corinthian",
+          "jogador": "EscalaÃ§Ã£o do VitÃ³ria contra o Corinth",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2101,8 +2101,8 @@
     },
     "Remo": {
       "brasileirao": {
-        "posicao": 16,
-        "pontos": 33,
+        "posicao": 15,
+        "pontos": 34,
         "ultimos5": [
           "V 2-0 VIT",
           "D 1-2",
@@ -2130,10 +2130,10 @@
           "gsg": 1.83
         },
         "vitorias": 8,
-        "empates": 9,
+        "empates": 10,
         "derrotas": 12,
-        "golsPro": 40,
-        "golsContra": 43
+        "golsPro": 41,
+        "golsContra": 44
       },
       "desfalques": [
         {
@@ -2235,7 +2235,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Boca terÃ¡ desfalque de meia apontado co",
+          "jogador": "Escalação do Vasco",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
