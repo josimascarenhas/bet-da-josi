@@ -1,8 +1,8 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-19T21:31:58-03:00",
+    "atualizadoEm": "2026-10-20T02:42:23-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 404,
+    "jogosFinalizados": 405,
     "timesAtualizados": 118,
     "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
@@ -228,13 +228,13 @@
         },
         "vitorias": 16,
         "empates": 9,
-        "derrotas": 3,
+        "derrotas": 4,
         "golsPro": 49,
-        "golsContra": 23
+        "golsContra": 25
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o",
+          "jogador": "Conselheiro do Palmeiras que discutiu co",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -461,7 +461,7 @@
     "Athletico-PR": {
       "brasileirao": {
         "posicao": 4,
-        "pontos": 48,
+        "pontos": 51,
         "ultimos5": [
           "V 2-0 INT",
           "E 0-0",
@@ -488,10 +488,10 @@
           "gpg": 1.17,
           "gsg": 1.25
         },
-        "vitorias": 14,
+        "vitorias": 15,
         "empates": 6,
         "derrotas": 8,
-        "golsPro": 41,
+        "golsPro": 43,
         "golsContra": 33
       },
       "desfalques": [
