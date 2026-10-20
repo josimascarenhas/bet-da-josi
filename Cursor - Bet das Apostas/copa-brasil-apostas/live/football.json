@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-20T02:42:23-03:00",
+    "atualizadoEm": "2026-10-20T08:00:03-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 405,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
+    "placaresFonte": "calendário + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -1038,7 +1038,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Atlético-MG",
+          "jogador": "Coritiba tem desfalque no meio e busca a",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1793,7 +1793,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Suspenso, Wallace passarÃ¡ por cirurgia ",
+          "jogador": "Coritiba tem desfalque no meio e busca a",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2138,11 +2138,6 @@
       "desfalques": [
         {
           "jogador": "De volta ao Remo apÃ³s suspensÃ£o, Edson",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Remo divulga boletim mÃ©dico e meia vira",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
