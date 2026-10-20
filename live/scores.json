@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-19T18:21:49.108912-03:00",
-    "fonte": "calendário + openligadb.de",
-    "jogos": 403,
-    "finalizadosTotal": 403
+    "atualizadoEm": "2026-10-19T21:31:54.484499-03:00",
+    "fonte": "calendário + ge.globo.com + openligadb.de",
+    "jogos": 404,
+    "finalizadosTotal": 404
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -3181,6 +3181,15 @@
       "golsFora": 3,
       "data": "2026-10-19",
       "comp": "brasileirao"
+    },
+    "br-31-Remo-Bragantino": {
+      "status": "finished",
+      "placar": "1-1",
+      "golsCasa": 1,
+      "golsFora": 1,
+      "data": "2026-10-19",
+      "comp": "brasileirao",
+      "fonte": "ge"
     },
     "eu-bundesliga-2026-08-29-RB-Leipzig-Borussia-Mgladbach": {
       "status": "finished",
