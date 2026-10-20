@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-20T12:37:56-03:00",
+    "atualizadoEm": "2026-10-20T16:51:26-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 405,
     "timesAtualizados": 118,
@@ -234,6 +234,11 @@
       },
       "desfalques": [
         {
+          "jogador": "Bragantino tem um suspenso e atletas no ",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
           "jogador": "Conselheiro que discutiu com Leila em re",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -375,12 +380,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Jorginho volta ao Flamengo apÃ³s suspens",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Com cinco desfalques, Flamengo chega a S",
+          "jogador": "Flamengo avança para ter Ayrton Lucas de",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -945,7 +945,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Rodriguinho e Mosquera seguem fora dos t",
+          "jogador": "Bragantino tem um suspenso e atletas no ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1131,7 +1131,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do AtlÃ©tico-MG",
+          "jogador": "Atlético-MG leva Everson para Uruguai, m",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1367,7 +1367,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Coritiba tem baixa confirmada e dúvida n",
+          "jogador": "Justino perde espaço com Tite, e Marçal ",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Alan Patrick volta a treinar, mas Inter ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1673,7 +1678,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Desfalque de ArÃ£o agrava os problemas d",
+          "jogador": "Lucas Veríssimo tem lesão confirmada e p",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1793,7 +1798,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Coritiba tem desfalque no meio e busca a",
+          "jogador": "Danilo Barbosa sofre lesão e desfalca o ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1907,7 +1912,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Em má fase, Manchester United tem vários",
+          "jogador": "Alan Patrick volta a treinar, mas Inter ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
