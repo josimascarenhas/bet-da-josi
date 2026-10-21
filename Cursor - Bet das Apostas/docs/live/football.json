@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-20T22:24:56-03:00",
+    "atualizadoEm": "2026-10-21T03:22:29-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 405,
     "timesAtualizados": 118,
@@ -234,11 +234,6 @@
       },
       "desfalques": [
         {
-          "jogador": "Bragantino tem um suspenso e atletas no ",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
           "jogador": "Conselheiro que discutiu com Leila em re",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -381,11 +376,6 @@
       "desfalques": [
         {
           "jogador": "Técnico do Estudiantes não joga a toalha",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Flamengo avança para ter Ayrton Lucas de",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
