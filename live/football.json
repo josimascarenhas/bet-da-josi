@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-20T19:57:30-03:00",
+    "atualizadoEm": "2026-10-20T22:24:56-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 405,
     "timesAtualizados": 118,
@@ -600,7 +600,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Recuperado de lesão, Riquelme participa ",
+          "jogador": "Escalação do Fluminense",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1372,12 +1372,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Justino perde espaço com Tite, e Marçal ",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Alan Patrick volta a treinar, mas Inter ",
+          "jogador": "Justino perde espaÃ§o com Tite, e MarÃ§a",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1590,7 +1585,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Suspensão de Diego Tarzia abre espaço pa",
+          "jogador": "São Paulo se reapresenta, e Ferreira evo",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
