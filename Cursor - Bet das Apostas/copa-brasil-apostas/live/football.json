@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-21T21:07:25-03:00",
+    "atualizadoEm": "2026-10-22T02:12:17-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 405,
     "timesAtualizados": 118,
@@ -235,11 +235,6 @@
       "desfalques": [
         {
           "jogador": "Escalação do Fluminense",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Conselheiro do Palmeiras que discutiu co",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1131,7 +1126,7 @@
       },
       "desfalques": [
         {
-          "jogador": "AtlÃ©tico-MG leva Everson para Uruguai, ",
+          "jogador": "Atuações do Atlético-MG",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
