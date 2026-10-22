@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-21T18:19:02-03:00",
+    "atualizadoEm": "2026-10-21T21:07:25-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 405,
     "timesAtualizados": 118,
@@ -234,7 +234,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Conselheiro que discutiu com Leila em re",
+          "jogador": "Escalação do Fluminense",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Conselheiro do Palmeiras que discutiu co",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -375,7 +380,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Técnico do Estudiantes não joga a toalha",
+          "jogador": "Escalação do Flamengo",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1246,9 +1251,9 @@
       },
       "desfalques": [
         {
-          "jogador": "Clube e Caixa acertam suspensÃ£o de paga",
+          "jogador": "Memphis sofre lesão na coxa e desfalca o",
           "motivo": "notícia GE",
-          "impacto": "medio"
+          "impacto": "alto"
         }
       ],
       "retornando": [],
