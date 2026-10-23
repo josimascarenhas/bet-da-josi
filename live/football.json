@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-23T13:39:22-03:00",
+    "atualizadoEm": "2026-10-23T17:13:30-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 405,
     "timesAtualizados": 118,
@@ -595,7 +595,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Marcão sofre com desfalques e terá que r",
+          "jogador": "Millán sofre lesão muscular na coxa e vi",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "MarcÃ£o sofre com desfalques e terÃ¡ que",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -852,7 +857,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do Bahia contra o Flamengo",
+          "jogador": "Escalação do Bahia contra o Santos",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1466,7 +1471,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Vitória contra o Athletico-",
+          "jogador": "EscalaÃ§Ã£o do VitÃ³ria",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1673,7 +1678,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Lucas Veríssimo tem lesão confirmada e p",
+          "jogador": "Escalação do Bahia contra o Santos",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
