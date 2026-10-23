@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-23T17:13:30-03:00",
+    "atualizadoEm": "2026-10-23T20:20:20-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 405,
     "timesAtualizados": 118,
@@ -595,6 +595,11 @@
       },
       "desfalques": [
         {
+          "jogador": "Escalação do Fluminense",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
           "jogador": "Millán sofre lesão muscular na coxa e vi",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -857,7 +862,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Bahia contra o Santos",
+          "jogador": "EscalaÃ§Ã£o do Bahia",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1256,7 +1261,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Corinthians tem cinco desfalques em trei",
+          "jogador": "Corinthians chega ao Rio e tem cinco des",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2235,7 +2240,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Corinthians tem cinco desfalques em trei",
+          "jogador": "Corinthians chega ao Rio e tem cinco des",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2348,6 +2353,11 @@
         "golsContra": 58
       },
       "desfalques": [
+        {
+          "jogador": "Escalação do Fluminense",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Chapecoense tem zagueiro suspenso e reto",
           "motivo": "notícia GE",
