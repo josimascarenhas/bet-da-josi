@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-24T18:04:19.028897-03:00",
+    "atualizadoEm": "2026-10-24T20:33:05.980776-03:00",
     "fonte": "calendário + ge.globo.com + openligadb.de",
-    "jogos": 406,
-    "finalizadosTotal": 406
+    "jogos": 407,
+    "finalizadosTotal": 407
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -3203,6 +3203,14 @@
       "placar": "1-0",
       "golsCasa": 1,
       "golsFora": 0,
+      "data": "2026-10-24",
+      "comp": "brasileirao"
+    },
+    "br-32-Santos-Bahia": {
+      "status": "finished",
+      "placar": "4-1",
+      "golsCasa": 4,
+      "golsFora": 1,
       "data": "2026-10-24",
       "comp": "brasileirao",
       "fonte": "ge"

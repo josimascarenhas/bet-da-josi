@@ -1,8 +1,8 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-24T18:04:42-03:00",
+    "atualizadoEm": "2026-10-24T20:33:10-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 406,
+    "jogosFinalizados": 407,
     "timesAtualizados": 118,
     "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
@@ -17,8 +17,8 @@
         "Bahia",
         "Cruzeiro",
         "Bragantino",
-        "Vitoria",
         "Santos",
+        "Vitoria",
         "Corinthians",
         "Coritiba",
         "Botafogo",
@@ -375,11 +375,6 @@
       },
       "desfalques": [
         {
-          "jogador": "Vice-artilheiro do Atlético-MG vira dúvi",
-          "motivo": "notícia GE",
-          "impacto": "alto"
-        },
-        {
           "jogador": "Fla tem 4 na prÃ©-lista da SeleÃ§Ã£o, ma",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -496,12 +491,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Vitória contra o Athletico-",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Lateral do Athletico, Claudinho passa po",
+          "jogador": "Odair lamenta desfalques e analisa fragi",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -601,6 +591,11 @@
       "desfalques": [
         {
           "jogador": "EscalaÃ§Ã£o do Fluminense",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "MillÃ¡n sofre lesÃ£o muscular na coxa e ",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
@@ -856,13 +851,18 @@
         },
         "vitorias": 12,
         "empates": 10,
-        "derrotas": 8,
-        "golsPro": 43,
-        "golsContra": 38
+        "derrotas": 9,
+        "golsPro": 44,
+        "golsContra": 42
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do Bahia",
+          "jogador": "Relacionados",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "EscalaÃ§Ã£o do Bahia contra o Santos",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1261,7 +1261,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Elenco chega ao Rio com cinco desfalques",
+          "jogador": "Corinthians chega ao Rio e tem cinco des",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1440,7 +1440,7 @@
     },
     "Vitoria": {
       "brasileirao": {
-        "posicao": 8,
+        "posicao": 9,
         "pontos": 39,
         "ultimos5": [
           "D 0-2",
@@ -1476,12 +1476,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Cacá é vetado pelo departamento médico e",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "EscalaÃ§Ã£o do VitÃ³ria contra o Athleti",
+          "jogador": "Mari Brambilla tem lesão feia em vitória",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1652,8 +1647,8 @@
     },
     "Santos": {
       "brasileirao": {
-        "posicao": 9,
-        "pontos": 38,
+        "posicao": 8,
+        "pontos": 41,
         "ultimos5": [
           "D 1-2",
           "E 2-2 CHA",
@@ -1680,15 +1675,15 @@
           "gpg": 1.5,
           "gsg": 1.9
         },
-        "vitorias": 10,
+        "vitorias": 11,
         "empates": 8,
         "derrotas": 11,
-        "golsPro": 43,
-        "golsContra": 46
+        "golsPro": 47,
+        "golsContra": 47
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Bahia contra o Santos",
+          "jogador": "Relacionados",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
