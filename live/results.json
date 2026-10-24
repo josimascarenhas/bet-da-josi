@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-24T18:04:19.028897-03:00",
+    "atualizadoEm": "2026-10-24T20:33:05.980776-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
@@ -12,6 +12,14 @@
       "mandante": "Vasco",
       "visitante": "Corinthians",
       "placar": "1-0"
+    },
+    {
+      "id": "br-32-Santos-Bahia",
+      "data": "2026-10-24",
+      "comp": "brasileirao",
+      "mandante": "Santos",
+      "visitante": "Bahia",
+      "placar": "4-1"
     },
     {
       "id": "br-31-Bahia-Flamengo",
@@ -236,14 +244,6 @@
       "mandante": "Mirassol",
       "visitante": "Botafogo",
       "placar": "2-0"
-    },
-    {
-      "id": "br-28-Vasco-Coritiba",
-      "data": "2026-09-19",
-      "comp": "brasileirao",
-      "mandante": "Vasco",
-      "visitante": "Coritiba",
-      "placar": "5-0"
     }
   ]
 }
