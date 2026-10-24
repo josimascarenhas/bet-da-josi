@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-23T20:20:20-03:00",
+    "atualizadoEm": "2026-10-23T22:50:15-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 405,
     "timesAtualizados": 118,
@@ -596,16 +596,6 @@
       "desfalques": [
         {
           "jogador": "Escalação do Fluminense",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Millán sofre lesão muscular na coxa e vi",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "MarcÃ£o sofre com desfalques e terÃ¡ que",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
