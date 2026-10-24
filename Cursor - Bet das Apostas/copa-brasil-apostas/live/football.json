@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-24T15:20:06-03:00",
+    "atualizadoEm": "2026-10-24T18:04:42-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 405,
+    "jogosFinalizados": 406,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + openligadb.de"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -599,11 +599,6 @@
         "golsContra": 38
       },
       "desfalques": [
-        {
-          "jogador": "Lesão de Martinelli afeta planos na Sele",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
         {
           "jogador": "EscalaÃ§Ã£o do Fluminense",
           "motivo": "notícia GE",
@@ -1260,9 +1255,9 @@
         },
         "vitorias": 10,
         "empates": 8,
-        "derrotas": 13,
+        "derrotas": 14,
         "golsPro": 36,
-        "golsContra": 40
+        "golsContra": 41
       },
       "desfalques": [
         {
@@ -1481,7 +1476,12 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do VitÃ³ria",
+          "jogador": "Cacá é vetado pelo departamento médico e",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "EscalaÃ§Ã£o do VitÃ³ria contra o Athleti",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2210,7 +2210,7 @@
     "Vasco": {
       "brasileirao": {
         "posicao": 18,
-        "pontos": 29,
+        "pontos": 32,
         "ultimos5": [
           "D 0-1",
           "E 1-1 MIR",
@@ -2237,10 +2237,10 @@
           "gpg": 1.0,
           "gsg": 1.91
         },
-        "vitorias": 7,
+        "vitorias": 8,
         "empates": 8,
         "derrotas": 14,
-        "golsPro": 32,
+        "golsPro": 33,
         "golsContra": 45
       },
       "desfalques": [
