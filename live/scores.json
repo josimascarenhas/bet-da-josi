@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-24T12:28:48.088311-03:00",
-    "fonte": "calendário",
-    "jogos": 399,
-    "finalizadosTotal": 399
+    "atualizadoEm": "2026-10-24T15:20:00.992169-03:00",
+    "fonte": "calendário + openligadb.de",
+    "jogos": 405,
+    "finalizadosTotal": 405
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -3197,6 +3197,60 @@
       "golsFora": 0,
       "data": "2026-10-19",
       "comp": "brasileirao"
+    },
+    "eu-bundesliga-2026-08-29-RB-Leipzig-Borussia-Mgladbach": {
+      "status": "finished",
+      "placar": "3-0",
+      "golsCasa": 3,
+      "golsFora": 0,
+      "data": "2026-08-29",
+      "comp": "bundesliga",
+      "fonte": "openligadb"
+    },
+    "eu-bundesliga-2026-08-29-Mainz-SC-Paderborn": {
+      "status": "finished",
+      "placar": "0-0",
+      "golsCasa": 0,
+      "golsFora": 0,
+      "data": "2026-08-29",
+      "comp": "bundesliga",
+      "fonte": "openligadb"
+    },
+    "eu-bundesliga-2026-08-29-Union-Berlin-Eintracht-Frankfurt": {
+      "status": "finished",
+      "placar": "3-3",
+      "golsCasa": 3,
+      "golsFora": 3,
+      "data": "2026-08-29",
+      "comp": "bundesliga",
+      "fonte": "openligadb"
+    },
+    "eu-bundesliga-2026-08-29-SV-Elversberg-Bayer-Leverkusen": {
+      "status": "finished",
+      "placar": "3-2",
+      "golsCasa": 3,
+      "golsFora": 2,
+      "data": "2026-08-29",
+      "comp": "bundesliga",
+      "fonte": "openligadb"
+    },
+    "eu-bundesliga-2026-08-29-Borussia-Dortmund-Hamburger-SV": {
+      "status": "finished",
+      "placar": "2-0",
+      "golsCasa": 2,
+      "golsFora": 0,
+      "data": "2026-08-29",
+      "comp": "bundesliga",
+      "fonte": "openligadb"
+    },
+    "eu-bundesliga-2026-08-30-Augsburg-Schalke-04": {
+      "status": "finished",
+      "placar": "3-0",
+      "golsCasa": 3,
+      "golsFora": 0,
+      "data": "2026-08-30",
+      "comp": "bundesliga",
+      "fonte": "openligadb"
     }
   }
 }
