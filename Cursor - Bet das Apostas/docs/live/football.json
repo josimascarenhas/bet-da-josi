@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-24T03:55:25-03:00",
+    "atualizadoEm": "2026-10-24T08:52:51-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 405,
     "timesAtualizados": 118,
@@ -595,7 +595,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Fluminense",
+          "jogador": "Lesão de Martinelli afeta planos na Sele",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "EscalaÃ§Ã£o do Fluminense",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1251,7 +1256,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Corinthians chega ao Rio e tem cinco des",
+          "jogador": "Elenco chega ao Rio com cinco desfalques",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2343,11 +2348,6 @@
         "golsContra": 58
       },
       "desfalques": [
-        {
-          "jogador": "Escalação do Fluminense",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
         {
           "jogador": "Chapecoense tem zagueiro suspenso e reto",
           "motivo": "notícia GE",
