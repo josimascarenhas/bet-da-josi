@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-24T20:33:10-03:00",
+    "atualizadoEm": "2026-10-25T00:27:15-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 407,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
+    "placaresFonte": "calendário + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -491,7 +491,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Odair lamenta desfalques e analisa fragi",
+          "jogador": "Odair lamenta desfalques no Athletico e ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -590,17 +590,17 @@
       },
       "desfalques": [
         {
+          "jogador": "Suspenso, presidente do Fluminense assis",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
           "jogador": "EscalaÃ§Ã£o do Fluminense",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
         {
           "jogador": "MillÃ¡n sofre lesÃ£o muscular na coxa e ",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "MarcÃ£o sofre com desfalques e terÃ¡ que",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1261,6 +1261,11 @@
       },
       "desfalques": [
         {
+          "jogador": "Lingard recebe terceiro cartão amarelo e",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
           "jogador": "Corinthians chega ao Rio e tem cinco des",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -1476,7 +1481,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Mari Brambilla tem lesão feia em vitória",
+          "jogador": "Desfalques do Vitória",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2353,6 +2358,11 @@
         "golsContra": 58
       },
       "desfalques": [
+        {
+          "jogador": "Suspenso, presidente do Fluminense assis",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Chapecoense tem zagueiro suspenso e reto",
           "motivo": "notícia GE",
