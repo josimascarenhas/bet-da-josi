@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-25T16:53:08-03:00",
+    "atualizadoEm": "2026-10-25T19:20:03-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 407,
     "timesAtualizados": 118,
@@ -374,6 +374,11 @@
         "golsContra": 32
       },
       "desfalques": [
+        {
+          "jogador": "Escalação do Atlético-MG",
+          "motivo": "notícia GE",
+          "impacto": "alto"
+        },
         {
           "jogador": "Fla tem 4 na prÃ©-lista da SeleÃ§Ã£o, ma",
           "motivo": "notícia GE",
@@ -1131,7 +1136,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Vice-artilheiro do Atlético-MG vira dúvi",
+          "jogador": "Escalação do Atlético-MG",
           "motivo": "notícia GE",
           "impacto": "alto"
         }
@@ -1472,11 +1477,6 @@
       "desfalques": [
         {
           "jogador": "Desfalques do VitÃ³ria",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "EscalaÃ§Ã£o do VitÃ³ria contra o Athleti",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
