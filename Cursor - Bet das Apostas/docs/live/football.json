@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-26T15:48:50-03:00",
+    "atualizadoEm": "2026-10-26T20:02:34-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 408,
     "timesAtualizados": 118,
@@ -234,7 +234,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Ramón Sosa sofre lesão e vira desfalque ",
+          "jogador": "Santos inicia preparação para o clássico",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Sosa sofre lesÃ£o e vira desfalque; Vito",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -496,6 +501,11 @@
       },
       "desfalques": [
         {
+          "jogador": "Com dores, Viveros fica fora de treino d",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
           "jogador": "Athletico tem desfalque e expectativa de",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -599,6 +609,11 @@
         "golsContra": 38
       },
       "desfalques": [
+        {
+          "jogador": "Martinelli, do Fluminense, passa por cir",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Suspenso, presidente do Flu assiste ao j",
           "motivo": "notícia GE",
@@ -716,7 +731,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do Cruzeiro",
+          "jogador": "Escalação do Cruzeiro",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -857,11 +872,6 @@
       },
       "desfalques": [
         {
-          "jogador": "Segue o BAba debate treta com Neymar, tr",
-          "motivo": "notícia GE",
-          "impacto": "alto"
-        },
-        {
           "jogador": "Relacionados",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -954,6 +964,11 @@
         "golsContra": 28
       },
       "desfalques": [
+        {
+          "jogador": "Bragantino tem dois suspensos para enfre",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Bragantino tem um suspenso e atletas no ",
           "motivo": "notícia GE",
@@ -1141,7 +1156,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o",
+          "jogador": "EscalaÃ§Ã£o do AtlÃ©tico-MG",
           "motivo": "notícia GE",
           "impacto": "alto"
         }
@@ -1261,7 +1276,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Lingard vira desfalque no Corinthians",
+          "jogador": "Lingard recebe terceiro cartÃ£o amarelo ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1377,7 +1392,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Justino perde espaÃ§o com Tite, e MarÃ§a",
+          "jogador": "Remo tem desfalque na defesa, mas ganha ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1476,12 +1491,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Segue o BAba debate treta com Neymar, tr",
+          "jogador": "Desfalques do VitÃ³ria",
           "motivo": "notícia GE",
-          "impacto": "alto"
+          "impacto": "medio"
         },
         {
-          "jogador": "Desfalques do VitÃ³ria",
+          "jogador": "EscalaÃ§Ã£o do VitÃ³ria contra o Athleti",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1688,7 +1703,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Roque e Sosa são dúvidas, e Palmeiras bu",
+          "jogador": "Neymar é denunciado por infringir lei Vi",
+          "motivo": "notícia GE",
+          "impacto": "alto"
+        },
+        {
+          "jogador": "Santos inicia preparação para o clássico",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1808,7 +1828,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Athletico tem desfalque no meio e expect",
+          "jogador": "Com dores, Viveros fica fora de treino d",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2152,7 +2172,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Com voltas e desfalques, Remo define rel",
+          "jogador": "Remo tem desfalque na defesa, mas ganha ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2358,6 +2378,11 @@
         "golsContra": 58
       },
       "desfalques": [
+        {
+          "jogador": "Bragantino tem dois suspensos para enfre",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Chapecoense tem zagueiro suspenso e reto",
           "motivo": "notícia GE",
