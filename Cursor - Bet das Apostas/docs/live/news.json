@@ -1,26 +1,50 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-25T22:19:58.569021+00:00",
+    "atualizadoEm": "2026-10-26T00:34:36.729371+00:00",
     "fonte": "ge.globo.com",
     "fonteUrl": "https://ge.globo.com/"
   },
   "futebol": {
     "geral": [
       {
-        "titulo": "Deportivo Cali x Olimpia - Taça Libertadores Feminina 2026 - Ao vivo - globoesporte.com",
+        "titulo": "Cruzeiro x Libertad - Taça Libertadores Feminina 2026 - Ao vivo - globoesporte.com",
         "resumo": "",
-        "url": "https://ge.globo.com/futebol/libertadores-feminina/jogo/25-10-2026/deportivo-cali-olimpia.ghtml",
+        "url": "https://ge.globo.com/mg/triangulo-mineiro/futebol/futebol-feminino/libertadores-feminina/jogo/25-10-2026/cruzeiro-libertad.ghtml",
         "imagem": "",
-        "data": "2026-10-25T22:07:37+00:00",
-        "dataFmt": "25/10/2026 22:07"
+        "data": "2026-10-26T00:25:43+00:00",
+        "dataFmt": "26/10/2026 00:25"
       },
       {
         "titulo": "Mbappé decide, Real Madrid vence o Barcelona e põe fogo em LaLiga",
         "resumo": "",
         "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/jogo/25-10-2026/barcelona-realmadrid.ghtml",
         "imagem": "",
-        "data": "2026-10-25T22:06:40+00:00",
-        "dataFmt": "25/10/2026 22:06"
+        "data": "2026-10-26T00:22:18+00:00",
+        "dataFmt": "26/10/2026 00:22"
+      },
+      {
+        "titulo": "Deportivo Cali x Olimpia - Taça Libertadores Feminina 2026 - globoesporte.com",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/libertadores-feminina/jogo/25-10-2026/deportivo-cali-olimpia.ghtml",
+        "imagem": "",
+        "data": "2026-10-25T23:18:08+00:00",
+        "dataFmt": "25/10/2026 23:18"
+      },
+      {
+        "titulo": "Campeão da Série C, Maringá celebra título inédito em trio elétrico com torcedores; assista",
+        "resumo": "",
+        "url": "https://ge.globo.com/pr/futebol/times/maringa/noticia/2026/10/25/campeao-da-serie-c-maringa-celebra-titulo-inedito-em-trio-eletrico-com-torcedores-assista.ghtml",
+        "imagem": "",
+        "data": "2026-10-25T22:36:09+00:00",
+        "dataFmt": "25/10/2026 22:36"
+      },
+      {
+        "titulo": "Amazonense Raimar é eleito melhor lateral-esquerdo da Série C",
+        "resumo": "",
+        "url": "https://ge.globo.com/am/futebol/noticia/2026/10/25/amazonense-raimar-e-eleito-melhor-lateral-esquerdo-da-serie-c.ghtml",
+        "imagem": "",
+        "data": "2026-10-25T22:12:21+00:00",
+        "dataFmt": "25/10/2026 22:12"
       },
       {
         "titulo": "Com gols de Rayan e Evanilson, Bournemouth vence e aumenta crise no United",
@@ -141,30 +165,6 @@
         "imagem": "",
         "data": "2026-10-25T17:00:00+00:00",
         "dataFmt": "25/10/2026 17:00"
-      },
-      {
-        "titulo": "Bahia publica nota oficial para sair em defesa de Nestor e repudiar \"agressões verbais\" de Neymar",
-        "resumo": "",
-        "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/10/25/bahia-publica-nota-oficial-para-sair-em-defesa-de-nestor-e-repudiar-agressoes-verbais-de-neymar.ghtml",
-        "imagem": "",
-        "data": "2026-10-25T16:48:35+00:00",
-        "dataFmt": "25/10/2026 16:48"
-      },
-      {
-        "titulo": "Monaco, de Filipe Luís, e Lille, de Davide Ancelotti, empatam no Francês",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-frances/jogo/25-10-2026/monaco-lille.ghtml",
-        "imagem": "",
-        "data": "2026-10-25T16:45:17+00:00",
-        "dataFmt": "25/10/2026 16:45"
-      },
-      {
-        "titulo": "Tenório quer mudanças no conselho do CSA e indica advogada para assumir presidência",
-        "resumo": "",
-        "url": "https://ge.globo.com/al/futebol/times/csa/noticia/2026/10/25/tenorio-quer-mudancas-no-conselho-do-csa-e-indica-advogada-para-assumir-presidencia.ghtml",
-        "imagem": "",
-        "data": "2026-10-25T16:33:00+00:00",
-        "dataFmt": "25/10/2026 16:33"
       }
     ],
     "times": {
@@ -522,6 +522,14 @@
       ],
       "Cruzeiro": [
         {
+          "titulo": "Cruzeiro x Libertad - Taça Libertadores Feminina 2026 - Ao vivo - globoesporte.com",
+          "resumo": "",
+          "url": "https://ge.globo.com/mg/triangulo-mineiro/futebol/futebol-feminino/libertadores-feminina/jogo/25-10-2026/cruzeiro-libertad.ghtml",
+          "imagem": "",
+          "data": "2026-10-26T00:25:43+00:00",
+          "dataFmt": "26/10/2026 00:25"
+        },
+        {
           "titulo": "Cássio supera preconceito com psicólogo e rebate críticas a jogadores: \"Não é dinheiro\"",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/10/25/cassio-revela-preconceito-com-psicologo-e-rebate-criticas-a-jogadores-nao-e-dinheiro.ghtml",
@@ -536,14 +544,6 @@
           "imagem": "",
           "data": "2026-10-25T15:33:40+00:00",
           "dataFmt": "25/10/2026 15:33"
-        },
-        {
-          "titulo": "Cruzeiro x Libertad - Taça Libertadores Feminina 2026 - globoesporte.com",
-          "resumo": "",
-          "url": "https://ge.globo.com/mg/triangulo-mineiro/futebol/futebol-feminino/libertadores-feminina/jogo/25-10-2026/cruzeiro-libertad.ghtml",
-          "imagem": "",
-          "data": "2026-10-25T13:14:27+00:00",
-          "dataFmt": "25/10/2026 13:14"
         },
         {
           "titulo": "Gabriel Pec avança em recuperação no Cruzeiro e treina em campo",
@@ -1086,14 +1086,6 @@
           "dataFmt": "25/10/2026 11:00"
         },
         {
-          "titulo": "Com Botafogo-SP livre do rebaixamento, Tencati estabelece nova meta na Série B",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/botafogo-sp/noticia/2026/10/25/com-botafogo-sp-livre-do-rebaixamento-tencati-estabelece-nova-meta-na-serie-b.ghtml",
-          "imagem": "",
-          "data": "2026-10-25T10:00:01+00:00",
-          "dataFmt": "25/10/2026 10:00"
-        },
-        {
           "titulo": "AnÃ¡lise: Botafogo sobra em apatia, e falta de combatividade marca derrota",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/10/25/analise-botafogo-sobra-em-apatia-e-falta-de-combatividade-marca-derrota-para-o-internacional.ghtml",
@@ -1156,6 +1148,14 @@
           "imagem": "",
           "data": "",
           "dataFmt": "23/10/2026"
+        },
+        {
+          "titulo": "Lucas Emanuel, do Botafogo, celebra convocaÃ§Ã£o para a Copa do Mundo Sub-17: \"Sonho\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/10/22/lucas-emanuel-do-botafogo-celebra-convocacao-para-a-copa-do-mundo-sub-17-sonho.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "22/10/2026"
         }
       ],
       "Vitoria": [
@@ -1280,14 +1280,6 @@
           "imagem": "",
           "data": "2026-10-25T11:00:00+00:00",
           "dataFmt": "25/10/2026 11:00"
-        },
-        {
-          "titulo": "Guanaes lamenta chances perdidas pelo Mirassol contra o São Paulo: \"Era para estar 4 a 0\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/tem-esporte/futebol/times/mirassol/noticia/2026/10/25/guanaes-lamenta-chances-perdidas-pelo-mirassol-contra-o-sao-paulo-era-para-estar-4-a-0.ghtml",
-          "imagem": "",
-          "data": "2026-10-25T09:40:00+00:00",
-          "dataFmt": "25/10/2026 09:40"
         },
         {
           "titulo": "AtuaÃ§Ãµes: dÃª suas notas aos jogadores do SÃ£o Paulo",
@@ -1524,8 +1516,8 @@
           "resumo": "",
           "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/jogo/25-10-2026/barcelona-realmadrid.ghtml",
           "imagem": "",
-          "data": "2026-10-25T22:06:40+00:00",
-          "dataFmt": "25/10/2026 22:06"
+          "data": "2026-10-26T00:22:18+00:00",
+          "dataFmt": "26/10/2026 00:22"
         },
         {
           "titulo": "Com gols de Rayan e Evanilson, Bournemouth vence e aumenta crise no United",
@@ -1568,20 +1560,20 @@
           "dataFmt": "25/10/2026 11:33"
         },
         {
-          "titulo": "Análise: Eduardo Baptista cumpre promessa, comanda melhor atuação do ano e tira Inter do Z-4",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/10/25/analise-eduardo-baptista-cumpre-promessa-comanda-melhor-atuacao-do-ano-e-tira-inter-do-z-4.ghtml",
-          "imagem": "",
-          "data": "2026-10-25T08:00:00+00:00",
-          "dataFmt": "25/10/2026 08:00"
-        },
-        {
           "titulo": "AtuaÃ§Ãµes: tÃ©cnico brilha em vitÃ³ria; dÃª suas notas",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/10/24/atuacoes-do-inter-eduardo-baptista-brilha-em-escolhas-e-estrategia-em-vitoria-de-suas-notas.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "24/10/2026"
+        },
+        {
+          "titulo": "AnÃ¡lise: Eduardo Baptista comanda melhor atuaÃ§Ã£o do ano",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/10/25/analise-eduardo-baptista-cumpre-promessa-comanda-melhor-atuacao-do-ano-e-tira-inter-do-z-4.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "25/10/2026"
         },
         {
           "titulo": "Baptista destaca evoluÃ§Ã£o, mas avisa: \"NÃ£o resolvemos nosso problema ainda\"",
@@ -1626,12 +1618,12 @@
           "dataFmt": "25/10/2026 15:46"
         },
         {
-          "titulo": "Guanaes lamenta chances perdidas pelo Mirassol contra o São Paulo: \"Era para estar 4 a 0\"",
+          "titulo": "Guanaes lamenta chances perdidas pelo Mirassol contra o SÃ£o Paulo: \"Era para estar 4 a 0\"",
           "resumo": "",
           "url": "https://ge.globo.com/sp/tem-esporte/futebol/times/mirassol/noticia/2026/10/25/guanaes-lamenta-chances-perdidas-pelo-mirassol-contra-o-sao-paulo-era-para-estar-4-a-0.ghtml",
           "imagem": "",
-          "data": "2026-10-25T09:40:00+00:00",
-          "dataFmt": "25/10/2026 09:40"
+          "data": "",
+          "dataFmt": "25/10/2026"
         },
         {
           "titulo": "Notas: Mirassol desperdiÃ§a chances, falha na defesa e sÃ³ empata com o SÃ£o Paulo",
