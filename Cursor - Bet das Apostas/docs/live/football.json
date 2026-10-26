@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-25T21:34:40-03:00",
+    "atualizadoEm": "2026-10-26T09:21:41-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 408,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
+    "placaresFonte": "calendário + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -234,7 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Fluminense",
+          "jogador": "Roque e Sosa são dúvidas, e Palmeiras bu",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -495,6 +495,11 @@
         "golsContra": 33
       },
       "desfalques": [
+        {
+          "jogador": "Athletico tem desfalque no meio e expect",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Odair lamenta desfalques e analisa fragi",
           "motivo": "notícia GE",
@@ -858,6 +863,11 @@
       "desfalques": [
         {
           "jogador": "Relacionados",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "EscalaÃ§Ã£o do Bahia contra o Santos",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1257,11 +1267,6 @@
       "desfalques": [
         {
           "jogador": "Lingard vira desfalque no Corinthians",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Corinthians chega ao Rio e tem cinco des",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1683,7 +1688,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Relacionados",
+          "jogador": "Roque e Sosa são dúvidas, e Palmeiras bu",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1803,7 +1808,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Kannemann serÃ¡ julgado e pode virar des",
+          "jogador": "Athletico tem desfalque no meio e expect",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
