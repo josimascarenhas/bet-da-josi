@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-26T09:21:41-03:00",
+    "atualizadoEm": "2026-10-26T15:48:50-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 408,
     "timesAtualizados": 118,
@@ -234,7 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Roque e Sosa são dúvidas, e Palmeiras bu",
+          "jogador": "Ramón Sosa sofre lesão e vira desfalque ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -496,7 +496,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Athletico tem desfalque no meio e expect",
+          "jogador": "Athletico tem desfalque e expectativa de",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
@@ -601,11 +601,6 @@
       "desfalques": [
         {
           "jogador": "Suspenso, presidente do Flu assiste ao j",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "EscalaÃ§Ã£o do Fluminense",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -862,12 +857,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Relacionados",
+          "jogador": "Segue o BAba debate treta com Neymar, tr",
           "motivo": "notícia GE",
-          "impacto": "medio"
+          "impacto": "alto"
         },
         {
-          "jogador": "EscalaÃ§Ã£o do Bahia contra o Santos",
+          "jogador": "Relacionados",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1146,7 +1141,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Atlético-MG",
+          "jogador": "EscalaÃ§Ã£o",
           "motivo": "notícia GE",
           "impacto": "alto"
         }
@@ -1480,6 +1475,11 @@
         "golsContra": 40
       },
       "desfalques": [
+        {
+          "jogador": "Segue o BAba debate treta com Neymar, tr",
+          "motivo": "notícia GE",
+          "impacto": "alto"
+        },
         {
           "jogador": "Desfalques do VitÃ³ria",
           "motivo": "notícia GE",
