@@ -1,17 +1,17 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-25T19:20:03-03:00",
+    "atualizadoEm": "2026-10-25T21:34:40-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 407,
+    "jogosFinalizados": 408,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + openligadb.de"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
       "fase": "4ª rodada",
       "timesAtivos": [
-        "Flamengo",
         "Palmeiras",
+        "Flamengo",
         "Fluminense",
         "Athletico-PR",
         "Bahia",
@@ -198,8 +198,8 @@
   "times": {
     "Palmeiras": {
       "brasileirao": {
-        "posicao": 2,
-        "pontos": 57,
+        "posicao": 1,
+        "pontos": 60,
         "ultimos5": [
           "D 1-2 ATLMG",
           "V 4-0",
@@ -226,10 +226,10 @@
           "gpg": 1.83,
           "gsg": 0.92
         },
-        "vitorias": 16,
+        "vitorias": 17,
         "empates": 9,
         "derrotas": 4,
-        "golsPro": 49,
+        "golsPro": 51,
         "golsContra": 25
       },
       "desfalques": [
@@ -339,7 +339,7 @@
     },
     "Flamengo": {
       "brasileirao": {
-        "posicao": 1,
+        "posicao": 2,
         "pontos": 57,
         "ultimos5": [
           "E 1-1 SAOPA",
@@ -944,9 +944,9 @@
         },
         "vitorias": 11,
         "empates": 8,
-        "derrotas": 8,
+        "derrotas": 9,
         "golsPro": 31,
-        "golsContra": 26
+        "golsContra": 28
       },
       "desfalques": [
         {
