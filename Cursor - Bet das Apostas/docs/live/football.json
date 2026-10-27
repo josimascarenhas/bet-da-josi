@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-26T23:19:13-03:00",
+    "atualizadoEm": "2026-10-27T05:14:23-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 411,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -501,11 +501,6 @@
       },
       "desfalques": [
         {
-          "jogador": "Com dores, Viveros fica fora de treino d",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
           "jogador": "Athletico tem desfalque e expectativa de",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -609,11 +604,6 @@
         "golsContra": 40
       },
       "desfalques": [
-        {
-          "jogador": "Martinelli, do Fluminense, passa por cir",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
         {
           "jogador": "Suspenso, presidente do Flu assiste ao j",
           "motivo": "notícia GE",
@@ -1276,9 +1266,9 @@
       },
       "desfalques": [
         {
-          "jogador": "Lingard recebe terceiro cartÃ£o amarelo ",
+          "jogador": "Pressão, abatimento e nova lesão",
           "motivo": "notícia GE",
-          "impacto": "medio"
+          "impacto": "alto"
         }
       ],
       "retornando": [],
@@ -1703,6 +1693,11 @@
       },
       "desfalques": [
         {
+          "jogador": "Desfalque mais uma vez, Neymar joga um a",
+          "motivo": "notícia GE",
+          "impacto": "alto"
+        },
+        {
           "jogador": "Neymar é denunciado por infringir lei Vi",
           "motivo": "notícia GE",
           "impacto": "alto"
@@ -1829,11 +1824,6 @@
       "desfalques": [
         {
           "jogador": "Caito sente lesão com um minuto, demora ",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Com dores, Viveros fica fora de treino d",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
