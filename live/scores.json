@@ -1,7 +1,7 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-26T23:18:58.093817-03:00",
-    "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
+    "atualizadoEm": "2026-10-27T05:14:18.907962-03:00",
+    "fonte": "calendário + openligadb.de",
     "jogos": 411,
     "finalizadosTotal": 411
   },
@@ -3228,8 +3228,7 @@
       "golsCasa": 2,
       "golsFora": 1,
       "data": "2026-10-26",
-      "comp": "brasileirao",
-      "fonte": "ge"
+      "comp": "brasileirao"
     },
     "br-32-Internacional-Botafogo": {
       "status": "finished",
@@ -3237,8 +3236,7 @@
       "golsCasa": 4,
       "golsFora": 0,
       "data": "2026-10-26",
-      "comp": "brasileirao",
-      "fonte": "ge"
+      "comp": "brasileirao"
     },
     "br-32-Coritiba-Gremio": {
       "status": "finished",
@@ -3246,8 +3244,7 @@
       "golsCasa": 1,
       "golsFora": 0,
       "data": "2026-10-26",
-      "comp": "brasileirao",
-      "fonte": "ge"
+      "comp": "brasileirao"
     },
     "eu-bundesliga-2026-08-29-RB-Leipzig-Borussia-Mgladbach": {
       "status": "finished",
