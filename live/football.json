@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-27T05:14:23-03:00",
+    "atualizadoEm": "2026-10-27T11:49:07-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 411,
     "timesAtualizados": 118,
@@ -234,12 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Santos inicia preparação para o clássico",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Sosa vira desfalque; Vitor Roque treina ",
+          "jogador": "RamÃ³n Sosa sofre lesÃ£o e vira desfalqu",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1269,6 +1264,11 @@
           "jogador": "Pressão, abatimento e nova lesão",
           "motivo": "notícia GE",
           "impacto": "alto"
+        },
+        {
+          "jogador": "Desfalque, Memphis pode voltar sÃ³ depoi",
+          "motivo": "notícia GE",
+          "impacto": "alto"
         }
       ],
       "retornando": [],
@@ -1484,11 +1484,6 @@
           "jogador": "Desfalques do VitÃ³ria",
           "motivo": "notícia GE",
           "impacto": "medio"
-        },
-        {
-          "jogador": "EscalaÃ§Ã£o do VitÃ³ria contra o Athleti",
-          "motivo": "notícia GE",
-          "impacto": "medio"
         }
       ],
       "retornando": [],
@@ -1698,14 +1693,9 @@
           "impacto": "alto"
         },
         {
-          "jogador": "Neymar é denunciado por infringir lei Vi",
+          "jogador": "Neymar Ã© denunciado e pode pegar suspen",
           "motivo": "notícia GE",
           "impacto": "alto"
-        },
-        {
-          "jogador": "Santos inicia preparação para o clássico",
-          "motivo": "notícia GE",
-          "impacto": "medio"
         }
       ],
       "retornando": [
@@ -2057,7 +2047,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do Mirassol",
+          "jogador": "Negueba inicia nova fase de recuperação ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2373,6 +2363,11 @@
         "golsContra": 59
       },
       "desfalques": [
+        {
+          "jogador": "Escalação da Chapecoense",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Chapecoense tem zagueiro suspenso e reto",
           "motivo": "notícia GE",
