@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-27T11:49:07-03:00",
+    "atualizadoEm": "2026-10-27T16:51:09-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 411,
     "timesAtualizados": 118,
@@ -233,6 +233,11 @@
         "golsContra": 25
       },
       "desfalques": [
+        {
+          "jogador": "Mayke trata lesão no Palmeiras depois de",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "RamÃ³n Sosa sofre lesÃ£o e vira desfalqu",
           "motivo": "notícia GE",
@@ -857,7 +862,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Relacionados",
+          "jogador": "Escalação do São Paulo",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1261,9 +1266,9 @@
       },
       "desfalques": [
         {
-          "jogador": "Pressão, abatimento e nova lesão",
+          "jogador": "Lingard sofre fratura na costela e vira ",
           "motivo": "notícia GE",
-          "impacto": "alto"
+          "impacto": "medio"
         },
         {
           "jogador": "Desfalque, Memphis pode voltar sÃ³ depoi",
@@ -1595,7 +1600,7 @@
       },
       "desfalques": [
         {
-          "jogador": "São Paulo se reapresenta, e Ferreira evo",
+          "jogador": "Escalação do São Paulo",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1688,12 +1693,17 @@
       },
       "desfalques": [
         {
-          "jogador": "Desfalque mais uma vez, Neymar joga um a",
+          "jogador": "Mayke trata lesão no Palmeiras depois de",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Neymar Ã© denunciado e pode pegar suspen",
           "motivo": "notícia GE",
           "impacto": "alto"
         },
         {
-          "jogador": "Neymar Ã© denunciado e pode pegar suspen",
+          "jogador": "Desfalque mais uma vez, Neymar pouco jog",
           "motivo": "notícia GE",
           "impacto": "alto"
         }
@@ -2364,7 +2374,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação da Chapecoense",
+          "jogador": "EscalaÃ§Ã£o da Chapecoense",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
