@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-27T16:51:09-03:00",
+    "atualizadoEm": "2026-10-27T20:32:20-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 411,
     "timesAtualizados": 118,
@@ -234,12 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Mayke trata lesão no Palmeiras depois de",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "RamÃ³n Sosa sofre lesÃ£o e vira desfalqu",
+          "jogador": "Escalação do Palmeiras",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -862,6 +857,11 @@
       },
       "desfalques": [
         {
+          "jogador": "Escalação do Bahia contra o São Paulo",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
           "jogador": "Escalação do São Paulo",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -956,11 +956,6 @@
       "desfalques": [
         {
           "jogador": "Braga tem dois suspensos para enfrentar ",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Bragantino tem um suspenso e atletas no ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1266,11 +1261,6 @@
       },
       "desfalques": [
         {
-          "jogador": "Lingard sofre fratura na costela e vira ",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
           "jogador": "Desfalque, Memphis pode voltar sÃ³ depoi",
           "motivo": "notícia GE",
           "impacto": "alto"
@@ -1387,7 +1377,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Remo tem desfalque na defesa, mas ganha ",
+          "jogador": "Com dores musculares, Danilo vira desfal",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1600,6 +1590,11 @@
       },
       "desfalques": [
         {
+          "jogador": "Escalação do Bahia contra o São Paulo",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
           "jogador": "Escalação do São Paulo",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -1693,7 +1688,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Mayke trata lesão no Palmeiras depois de",
+          "jogador": "Escalação do Palmeiras",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
@@ -1823,7 +1818,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Caito sente lesão com um minuto, demora ",
+          "jogador": "Grêmio informa lesão do lateral-direito ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
