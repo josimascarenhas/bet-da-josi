@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-26T20:02:34-03:00",
+    "atualizadoEm": "2026-10-26T23:19:13-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 408,
+    "jogosFinalizados": 411,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + openligadb.de"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -12,21 +12,21 @@
       "timesAtivos": [
         "Palmeiras",
         "Flamengo",
-        "Fluminense",
         "Athletico-PR",
+        "Fluminense",
         "Bahia",
         "Cruzeiro",
         "Bragantino",
         "Santos",
+        "Coritiba",
         "Vitoria",
         "Corinthians",
-        "Coritiba",
         "Botafogo",
         "Mirassol",
         "Gremio",
+        "Internacional",
         "Remo",
         "Atletico-MG",
-        "Internacional",
         "Vasco",
         "Sao-Paulo",
         "Chapecoense"
@@ -239,7 +239,7 @@
           "impacto": "medio"
         },
         {
-          "jogador": "Sosa sofre lesÃ£o e vira desfalque; Vito",
+          "jogador": "Sosa vira desfalque; Vitor Roque treina ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -465,7 +465,7 @@
     },
     "Athletico-PR": {
       "brasileirao": {
-        "posicao": 4,
+        "posicao": 3,
         "pontos": 51,
         "ultimos5": [
           "V 2-0 INT",
@@ -574,7 +574,7 @@
     },
     "Fluminense": {
       "brasileirao": {
-        "posicao": 3,
+        "posicao": 4,
         "pontos": 51,
         "ultimos5": [
           "E 1-1",
@@ -604,9 +604,9 @@
         },
         "vitorias": 14,
         "empates": 9,
-        "derrotas": 7,
-        "golsPro": 48,
-        "golsContra": 38
+        "derrotas": 8,
+        "golsPro": 49,
+        "golsContra": 40
       },
       "desfalques": [
         {
@@ -965,7 +965,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Bragantino tem dois suspensos para enfre",
+          "jogador": "Braga tem dois suspensos para enfrentar ",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
@@ -1027,8 +1027,8 @@
     },
     "Coritiba": {
       "brasileirao": {
-        "posicao": 11,
-        "pontos": 38,
+        "posicao": 9,
+        "pontos": 41,
         "ultimos5": [
           "E 0-0",
           "D 0-1 CRU",
@@ -1055,10 +1055,10 @@
           "gpg": 1.25,
           "gsg": 1.42
         },
-        "vitorias": 10,
+        "vitorias": 11,
         "empates": 8,
         "derrotas": 11,
-        "golsPro": 36,
+        "golsPro": 37,
         "golsContra": 44
       },
       "desfalques": [
@@ -1120,7 +1120,7 @@
     },
     "Atletico-MG": {
       "brasileirao": {
-        "posicao": 16,
+        "posicao": 17,
         "pontos": 33,
         "ultimos5": [
           "E 1-1 BAH",
@@ -1240,7 +1240,7 @@
     },
     "Corinthians": {
       "brasileirao": {
-        "posicao": 10,
+        "posicao": 11,
         "pontos": 38,
         "ultimos5": [
           "E 1-1",
@@ -1386,9 +1386,9 @@
         },
         "vitorias": 9,
         "empates": 10,
-        "derrotas": 11,
+        "derrotas": 12,
         "golsPro": 42,
-        "golsContra": 45
+        "golsContra": 49
       },
       "desfalques": [
         {
@@ -1455,7 +1455,7 @@
     },
     "Vitoria": {
       "brasileirao": {
-        "posicao": 9,
+        "posicao": 10,
         "pontos": 39,
         "ultimos5": [
           "D 0-2",
@@ -1822,11 +1822,16 @@
         },
         "vitorias": 9,
         "empates": 8,
-        "derrotas": 12,
+        "derrotas": 13,
         "golsPro": 35,
-        "golsContra": 36
+        "golsContra": 37
       },
       "desfalques": [
+        {
+          "jogador": "Caito sente lesão com um minuto, demora ",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Com dores, Viveros fica fora de treino d",
           "motivo": "notícia GE",
@@ -1906,8 +1911,8 @@
     },
     "Internacional": {
       "brasileirao": {
-        "posicao": 17,
-        "pontos": 32,
+        "posicao": 15,
+        "pontos": 35,
         "ultimos5": [
           "D 0-2",
           "E 1-1 FLA",
@@ -1934,10 +1939,10 @@
           "gpg": 0.91,
           "gsg": 1.36
         },
-        "vitorias": 7,
+        "vitorias": 8,
         "empates": 11,
         "derrotas": 12,
-        "golsPro": 32,
+        "golsPro": 36,
         "golsContra": 39
       },
       "desfalques": [
@@ -2136,7 +2141,7 @@
     },
     "Remo": {
       "brasileirao": {
-        "posicao": 15,
+        "posicao": 16,
         "pontos": 34,
         "ultimos5": [
           "V 2-0 VIT",
@@ -2344,7 +2349,7 @@
     "Chapecoense": {
       "brasileirao": {
         "posicao": 20,
-        "pontos": 19,
+        "pontos": 22,
         "ultimos5": [
           "D 0-4 FLA",
           "E 2-2",
@@ -2371,18 +2376,13 @@
           "gpg": 0.55,
           "gsg": 1.64
         },
-        "vitorias": 3,
+        "vitorias": 4,
         "empates": 10,
         "derrotas": 16,
-        "golsPro": 32,
-        "golsContra": 58
+        "golsPro": 34,
+        "golsContra": 59
       },
       "desfalques": [
-        {
-          "jogador": "Bragantino tem dois suspensos para enfre",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
         {
           "jogador": "Chapecoense tem zagueiro suspenso e reto",
           "motivo": "notícia GE",
