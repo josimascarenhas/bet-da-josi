@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-27T20:32:20-03:00",
+    "atualizadoEm": "2026-10-28T01:17:21-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 411,
     "timesAtualizados": 118,
@@ -857,12 +857,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Bahia contra o São Paulo",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Escalação do São Paulo",
+          "jogador": "EscalaÃ§Ã£o do Bahia",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1590,12 +1585,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Bahia contra o São Paulo",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Escalação do São Paulo",
+          "jogador": "EscalaÃ§Ã£o",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
