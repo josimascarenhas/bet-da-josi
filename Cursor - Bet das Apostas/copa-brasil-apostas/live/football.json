@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-28T14:00:49-03:00",
+    "atualizadoEm": "2026-10-28T18:37:37-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 411,
+    "jogosFinalizados": 412,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + openligadb.de"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -12,8 +12,8 @@
       "timesAtivos": [
         "Palmeiras",
         "Flamengo",
-        "Athletico-PR",
         "Fluminense",
+        "Athletico-PR",
         "Bahia",
         "Cruzeiro",
         "Bragantino",
@@ -460,7 +460,7 @@
     },
     "Athletico-PR": {
       "brasileirao": {
-        "posicao": 3,
+        "posicao": 4,
         "pontos": 51,
         "ultimos5": [
           "V 2-0 INT",
@@ -496,12 +496,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Athletico tem desfalque e expectativa de",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Odair lamenta desfalques e analisa fragi",
+          "jogador": "Athletico tem desfalque no meio e expect",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -564,8 +559,8 @@
     },
     "Fluminense": {
       "brasileirao": {
-        "posicao": 4,
-        "pontos": 51,
+        "posicao": 3,
+        "pontos": 54,
         "ultimos5": [
           "E 1-1",
           "E 0-0 BAH",
@@ -592,11 +587,11 @@
           "gpg": 1.18,
           "gsg": 1.36
         },
-        "vitorias": 14,
+        "vitorias": 15,
         "empates": 9,
         "derrotas": 8,
-        "golsPro": 49,
-        "golsContra": 40
+        "golsPro": 53,
+        "golsContra": 41
       },
       "desfalques": [
         {
@@ -1471,7 +1466,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Marinho é punido pelo STJD com um jogo d",
+          "jogador": "Marinho pega um jogo de suspensÃ£o por e",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
@@ -1682,11 +1677,6 @@
         "golsContra": 47
       },
       "desfalques": [
-        {
-          "jogador": "STJD pune Neymar, do Santos, com dois jo",
-          "motivo": "notícia GE",
-          "impacto": "alto"
-        },
         {
           "jogador": "Desfalque mais uma vez, Neymar pouco jog",
           "motivo": "notícia GE",
@@ -1916,9 +1906,9 @@
         },
         "vitorias": 8,
         "empates": 11,
-        "derrotas": 12,
-        "golsPro": 36,
-        "golsContra": 39
+        "derrotas": 13,
+        "golsPro": 37,
+        "golsContra": 43
       },
       "desfalques": [
         {
@@ -2362,6 +2352,11 @@
           "jogador": "EscalaÃ§Ã£o da Chapecoense",
           "motivo": "notícia GE",
           "impacto": "medio"
+        },
+        {
+          "jogador": "Chapecoense tem zagueiro suspenso e reto",
+          "motivo": "notícia GE",
+          "impacto": "alto"
         }
       ],
       "retornando": [],

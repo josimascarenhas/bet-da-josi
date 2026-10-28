@@ -1,10 +1,18 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-28T14:00:38.101584-03:00",
+    "atualizadoEm": "2026-10-28T18:37:32.116359-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "br-33-Fluminense-Internacional",
+      "data": "2026-10-28",
+      "comp": "brasileirao",
+      "mandante": "Fluminense",
+      "visitante": "Internacional",
+      "placar": "4-1"
+    },
     {
       "id": "br-32-Chapecoense-Fluminense",
       "data": "2026-10-26",
@@ -235,14 +243,6 @@
       "comp": "brasileirao",
       "mandante": "Vitoria",
       "visitante": "Cruzeiro",
-      "placar": "5-0"
-    },
-    {
-      "id": "br-28-Remo-Santos",
-      "data": "2026-09-21",
-      "comp": "brasileirao",
-      "mandante": "Remo",
-      "visitante": "Santos",
       "placar": "5-0"
     }
   ]
