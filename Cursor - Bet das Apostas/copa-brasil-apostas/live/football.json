@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-28T22:35:58-03:00",
+    "atualizadoEm": "2026-10-29T05:06:29-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 416,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -1131,7 +1131,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Atlético-MG",
+          "jogador": "EscalaÃ§Ã£o",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1469,11 +1469,6 @@
           "jogador": "Marinho pega um jogo de suspensÃ£o por e",
           "motivo": "notícia GE",
           "impacto": "medio"
-        },
-        {
-          "jogador": "Desfalques do VitÃ³ria",
-          "motivo": "notícia GE",
-          "impacto": "medio"
         }
       ],
       "retornando": [],
@@ -1798,7 +1793,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Grêmio",
+          "jogador": "Com provÃ¡vel desfalque, veja escalaÃ§Ã£",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2352,11 +2347,6 @@
           "jogador": "EscalaÃ§Ã£o da Chapecoense",
           "motivo": "notícia GE",
           "impacto": "medio"
-        },
-        {
-          "jogador": "Chapecoense tem zagueiro suspenso e reto",
-          "motivo": "notícia GE",
-          "impacto": "alto"
         }
       ],
       "retornando": [],

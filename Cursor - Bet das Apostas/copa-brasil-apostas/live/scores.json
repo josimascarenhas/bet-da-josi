@@ -1,7 +1,7 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-28T22:35:48.962881-03:00",
-    "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
+    "atualizadoEm": "2026-10-29T05:06:24.365847-03:00",
+    "fonte": "calendário + openligadb.de",
     "jogos": 416,
     "finalizadosTotal": 416
   },
@@ -3260,8 +3260,7 @@
       "golsCasa": 3,
       "golsFora": 2,
       "data": "2026-10-28",
-      "comp": "brasileirao",
-      "fonte": "ge"
+      "comp": "brasileirao"
     },
     "br-33-Corinthians-Mirassol": {
       "status": "finished",
@@ -3269,8 +3268,7 @@
       "golsCasa": 2,
       "golsFora": 1,
       "data": "2026-10-28",
-      "comp": "brasileirao",
-      "fonte": "ge"
+      "comp": "brasileirao"
     },
     "br-33-Santos-Palmeiras": {
       "status": "finished",
@@ -3278,8 +3276,7 @@
       "golsCasa": 0,
       "golsFora": 0,
       "data": "2026-10-28",
-      "comp": "brasileirao",
-      "fonte": "ge"
+      "comp": "brasileirao"
     },
     "br-33-Bragantino-Chapecoense": {
       "status": "finished",
@@ -3287,8 +3284,7 @@
       "golsCasa": 3,
       "golsFora": 0,
       "data": "2026-10-28",
-      "comp": "brasileirao",
-      "fonte": "ge"
+      "comp": "brasileirao"
     },
     "eu-bundesliga-2026-08-29-RB-Leipzig-Borussia-Mgladbach": {
       "status": "finished",
