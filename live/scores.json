@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-28T18:37:32.116359-03:00",
-    "fonte": "calendário + ge.globo.com + openligadb.de",
-    "jogos": 412,
-    "finalizadosTotal": 412
+    "atualizadoEm": "2026-10-28T22:35:48.962881-03:00",
+    "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
+    "jogos": 416,
+    "finalizadosTotal": 416
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -3251,6 +3251,41 @@
       "placar": "4-1",
       "golsCasa": 4,
       "golsFora": 1,
+      "data": "2026-10-28",
+      "comp": "brasileirao"
+    },
+    "br-33-Vasco-Flamengo": {
+      "status": "finished",
+      "placar": "3-2",
+      "golsCasa": 3,
+      "golsFora": 2,
+      "data": "2026-10-28",
+      "comp": "brasileirao",
+      "fonte": "ge"
+    },
+    "br-33-Corinthians-Mirassol": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-10-28",
+      "comp": "brasileirao",
+      "fonte": "ge"
+    },
+    "br-33-Santos-Palmeiras": {
+      "status": "finished",
+      "placar": "0-0",
+      "golsCasa": 0,
+      "golsFora": 0,
+      "data": "2026-10-28",
+      "comp": "brasileirao",
+      "fonte": "ge"
+    },
+    "br-33-Bragantino-Chapecoense": {
+      "status": "finished",
+      "placar": "3-0",
+      "golsCasa": 3,
+      "golsFora": 0,
       "data": "2026-10-28",
       "comp": "brasileirao",
       "fonte": "ge"

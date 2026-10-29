@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-28T18:37:37-03:00",
+    "atualizadoEm": "2026-10-28T22:35:58-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 412,
+    "jogosFinalizados": 416,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -15,19 +15,19 @@
         "Fluminense",
         "Athletico-PR",
         "Bahia",
-        "Cruzeiro",
         "Bragantino",
         "Santos",
+        "Cruzeiro",
+        "Corinthians",
         "Coritiba",
         "Vitoria",
-        "Corinthians",
         "Botafogo",
         "Mirassol",
         "Gremio",
         "Internacional",
+        "Vasco",
         "Remo",
         "Atletico-MG",
-        "Vasco",
         "Sao-Paulo",
         "Chapecoense"
       ]
@@ -199,7 +199,7 @@
     "Palmeiras": {
       "brasileirao": {
         "posicao": 1,
-        "pontos": 60,
+        "pontos": 61,
         "ultimos5": [
           "D 1-2 ATLMG",
           "V 4-0",
@@ -227,7 +227,7 @@
           "gsg": 0.92
         },
         "vitorias": 17,
-        "empates": 9,
+        "empates": 10,
         "derrotas": 4,
         "golsPro": 51,
         "golsContra": 25
@@ -369,9 +369,9 @@
         },
         "vitorias": 17,
         "empates": 6,
-        "derrotas": 6,
-        "golsPro": 61,
-        "golsContra": 32
+        "derrotas": 7,
+        "golsPro": 63,
+        "golsContra": 35
       },
       "desfalques": [
         {
@@ -675,7 +675,7 @@
     },
     "Cruzeiro": {
       "brasileirao": {
-        "posicao": 6,
+        "posicao": 8,
         "pontos": 42,
         "ultimos5": [
           "D 0-1 BOT",
@@ -852,7 +852,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do Bahia",
+          "jogador": "EscalaÃ§Ã£o do Bahia contra o SÃ£o Paulo",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -909,8 +909,8 @@
     },
     "Bragantino": {
       "brasileirao": {
-        "posicao": 7,
-        "pontos": 41,
+        "posicao": 6,
+        "pontos": 44,
         "ultimos5": [
           "E 1-1",
           "E 0-0 COR",
@@ -937,10 +937,10 @@
           "gpg": 1.0,
           "gsg": 1.09
         },
-        "vitorias": 11,
+        "vitorias": 12,
         "empates": 8,
         "derrotas": 9,
-        "golsPro": 31,
+        "golsPro": 34,
         "golsContra": 28
       },
       "desfalques": [
@@ -1002,7 +1002,7 @@
     },
     "Coritiba": {
       "brasileirao": {
-        "posicao": 9,
+        "posicao": 10,
         "pontos": 41,
         "ultimos5": [
           "E 0-0",
@@ -1095,7 +1095,7 @@
     },
     "Atletico-MG": {
       "brasileirao": {
-        "posicao": 17,
+        "posicao": 18,
         "pontos": 33,
         "ultimos5": [
           "E 1-1 BAH",
@@ -1131,9 +1131,9 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do AtlÃ©tico-MG",
+          "jogador": "Escalação do Atlético-MG",
           "motivo": "notícia GE",
-          "impacto": "alto"
+          "impacto": "medio"
         }
       ],
       "retornando": [
@@ -1215,8 +1215,8 @@
     },
     "Corinthians": {
       "brasileirao": {
-        "posicao": 11,
-        "pontos": 38,
+        "posicao": 9,
+        "pontos": 41,
         "ultimos5": [
           "E 1-1",
           "E 0-0 ATHPR",
@@ -1243,11 +1243,11 @@
           "gpg": 1.08,
           "gsg": 1.17
         },
-        "vitorias": 10,
+        "vitorias": 11,
         "empates": 8,
         "derrotas": 14,
-        "golsPro": 36,
-        "golsContra": 41
+        "golsPro": 38,
+        "golsContra": 42
       },
       "desfalques": [
         {
@@ -1430,7 +1430,7 @@
     },
     "Vitoria": {
       "brasileirao": {
-        "posicao": 10,
+        "posicao": 11,
         "pontos": 39,
         "ultimos5": [
           "D 0-2",
@@ -1585,7 +1585,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Marcos AntÃ´nio vira desfalque; veja tim",
+          "jogador": "EscalaÃ§Ã£o do SÃ£o Paulo",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1642,8 +1642,8 @@
     },
     "Santos": {
       "brasileirao": {
-        "posicao": 8,
-        "pontos": 41,
+        "posicao": 7,
+        "pontos": 42,
         "ultimos5": [
           "D 1-2",
           "E 2-2 CHA",
@@ -1671,14 +1671,14 @@
           "gsg": 1.9
         },
         "vitorias": 11,
-        "empates": 8,
+        "empates": 9,
         "derrotas": 11,
         "golsPro": 47,
         "golsContra": 47
       },
       "desfalques": [
         {
-          "jogador": "Desfalque mais uma vez, Neymar pouco jog",
+          "jogador": "Desfalque mais uma vez, Neymar joga um a",
           "motivo": "notícia GE",
           "impacto": "alto"
         }
@@ -1798,7 +1798,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Grêmio informa lesão do lateral-direito ",
+          "jogador": "Escalação do Grêmio",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2026,9 +2026,9 @@
         },
         "vitorias": 9,
         "empates": 9,
-        "derrotas": 12,
-        "golsPro": 36,
-        "golsContra": 42
+        "derrotas": 13,
+        "golsPro": 37,
+        "golsContra": 44
       },
       "desfalques": [
         {
@@ -2106,7 +2106,7 @@
     },
     "Remo": {
       "brasileirao": {
-        "posicao": 16,
+        "posicao": 17,
         "pontos": 34,
         "ultimos5": [
           "V 2-0 VIT",
@@ -2199,8 +2199,8 @@
     },
     "Vasco": {
       "brasileirao": {
-        "posicao": 18,
-        "pontos": 32,
+        "posicao": 16,
+        "pontos": 35,
         "ultimos5": [
           "D 0-1",
           "E 1-1 MIR",
@@ -2227,11 +2227,11 @@
           "gpg": 1.0,
           "gsg": 1.91
         },
-        "vitorias": 8,
+        "vitorias": 9,
         "empates": 8,
         "derrotas": 14,
-        "golsPro": 33,
-        "golsContra": 45
+        "golsPro": 36,
+        "golsContra": 47
       },
       "desfalques": [
         {
@@ -2343,9 +2343,9 @@
         },
         "vitorias": 4,
         "empates": 10,
-        "derrotas": 16,
+        "derrotas": 17,
         "golsPro": 34,
-        "golsContra": 59
+        "golsContra": 62
       },
       "desfalques": [
         {
