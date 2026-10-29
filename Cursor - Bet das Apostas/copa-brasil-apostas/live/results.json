@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-28T18:37:32.116359-03:00",
+    "atualizadoEm": "2026-10-28T22:35:48.962881-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
@@ -12,6 +12,38 @@
       "mandante": "Fluminense",
       "visitante": "Internacional",
       "placar": "4-1"
+    },
+    {
+      "id": "br-33-Vasco-Flamengo",
+      "data": "2026-10-28",
+      "comp": "brasileirao",
+      "mandante": "Vasco",
+      "visitante": "Flamengo",
+      "placar": "3-2"
+    },
+    {
+      "id": "br-33-Corinthians-Mirassol",
+      "data": "2026-10-28",
+      "comp": "brasileirao",
+      "mandante": "Corinthians",
+      "visitante": "Mirassol",
+      "placar": "2-1"
+    },
+    {
+      "id": "br-33-Santos-Palmeiras",
+      "data": "2026-10-28",
+      "comp": "brasileirao",
+      "mandante": "Santos",
+      "visitante": "Palmeiras",
+      "placar": "0-0"
+    },
+    {
+      "id": "br-33-Bragantino-Chapecoense",
+      "data": "2026-10-28",
+      "comp": "brasileirao",
+      "mandante": "Bragantino",
+      "visitante": "Chapecoense",
+      "placar": "3-0"
     },
     {
       "id": "br-32-Chapecoense-Fluminense",
@@ -212,38 +244,6 @@
       "mandante": "Botafogo",
       "visitante": "Vasco",
       "placar": "2-0"
-    },
-    {
-      "id": "br-29-Fluminense-Coritiba",
-      "data": "2026-10-07",
-      "comp": "brasileirao",
-      "mandante": "Fluminense",
-      "visitante": "Coritiba",
-      "placar": "3-1"
-    },
-    {
-      "id": "br-29-Santos-Flamengo",
-      "data": "2026-10-07",
-      "comp": "brasileirao",
-      "mandante": "Santos",
-      "visitante": "Flamengo",
-      "placar": "3-1"
-    },
-    {
-      "id": "br-29-Bragantino-Mirassol",
-      "data": "2026-10-07",
-      "comp": "brasileirao",
-      "mandante": "Bragantino",
-      "visitante": "Mirassol",
-      "placar": "1-1"
-    },
-    {
-      "id": "br-28-Vitoria-Cruzeiro",
-      "data": "2026-09-21",
-      "comp": "brasileirao",
-      "mandante": "Vitoria",
-      "visitante": "Cruzeiro",
-      "placar": "5-0"
     }
   ]
 }
