@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-30T10:20:44-03:00",
+    "atualizadoEm": "2026-10-30T15:45:00-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 419,
     "timesAtualizados": 118,
@@ -375,12 +375,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Atlético-MG",
-          "motivo": "notícia GE",
-          "impacto": "alto"
-        },
-        {
-          "jogador": "Fla tem 4 na prÃ©-lista da SeleÃ§Ã£o, ma",
+          "jogador": "Paquetá faz exames, não tem lesão grave ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -595,7 +590,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Suspenso, presidente do Flu assiste ao j",
+          "jogador": "Fluminense terá mais um desfalque na def",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1465,6 +1460,16 @@
         "golsContra": 44
       },
       "desfalques": [
+        {
+          "jogador": "Fluminense terá mais um desfalque na def",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "EscalaÃ§Ã£o do VitÃ³ria",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Marinho pega um jogo de suspensÃ£o por e",
           "motivo": "notícia GE",
