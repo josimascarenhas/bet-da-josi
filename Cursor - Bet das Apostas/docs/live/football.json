@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-30T15:45:00-03:00",
+    "atualizadoEm": "2026-10-30T19:48:30-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 419,
     "timesAtualizados": 118,
@@ -375,7 +375,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Paquetá faz exames, não tem lesão grave ",
+          "jogador": "PaquetÃ¡ tem lesÃ£o leve, mas vira desfa",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -706,7 +706,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do Cruzeiro",
+          "jogador": "João Marcelo sofre lesão no joelho direi",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1362,7 +1362,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Com dores musculares, Danilo vira desfal",
+          "jogador": "Entre falhas e desfalques",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Sport deve ter mudança no ataque, e Soso",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
