@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-29T21:09:31.510018-03:00",
+    "atualizadoEm": "2026-10-30T03:14:18.522819-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
@@ -12,6 +12,22 @@
       "mandante": "Remo",
       "visitante": "Botafogo",
       "placar": "2-0"
+    },
+    {
+      "id": "br-33-Gremio-Athletico-PR",
+      "data": "2026-10-29",
+      "comp": "brasileirao",
+      "mandante": "Gremio",
+      "visitante": "Athletico-PR",
+      "placar": "2-0"
+    },
+    {
+      "id": "br-33-Coritiba-Vitoria",
+      "data": "2026-10-29",
+      "comp": "brasileirao",
+      "mandante": "Coritiba",
+      "visitante": "Vitoria",
+      "placar": "4-1"
     },
     {
       "id": "br-33-Fluminense-Internacional",
@@ -228,22 +244,6 @@
       "mandante": "Vitoria",
       "visitante": "Chapecoense",
       "placar": "4-0"
-    },
-    {
-      "id": "br-29-Remo-Gremio",
-      "data": "2026-10-08",
-      "comp": "brasileirao",
-      "mandante": "Remo",
-      "visitante": "Gremio",
-      "placar": "2-1"
-    },
-    {
-      "id": "br-29-Internacional-Corinthians",
-      "data": "2026-10-08",
-      "comp": "brasileirao",
-      "mandante": "Internacional",
-      "visitante": "Corinthians",
-      "placar": "2-1"
     }
   ]
 }
