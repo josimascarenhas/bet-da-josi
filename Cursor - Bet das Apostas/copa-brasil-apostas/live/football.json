@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-29T17:28:16-03:00",
+    "atualizadoEm": "2026-10-29T21:09:41-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 416,
+    "jogosFinalizados": 417,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + openligadb.de"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -21,12 +21,12 @@
         "Corinthians",
         "Coritiba",
         "Vitoria",
+        "Remo",
         "Botafogo",
         "Mirassol",
         "Gremio",
         "Internacional",
         "Vasco",
-        "Remo",
         "Atletico-MG",
         "Sao-Paulo",
         "Chapecoense"
@@ -711,7 +711,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o",
+          "jogador": "EscalaÃ§Ã£o do Cruzeiro",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1131,7 +1131,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o",
+          "jogador": "EscalaÃ§Ã£o do AtlÃ©tico-MG",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1331,7 +1331,7 @@
     },
     "Botafogo": {
       "brasileirao": {
-        "posicao": 12,
+        "posicao": 13,
         "pontos": 37,
         "ultimos5": [
           "E 0-0 VIT",
@@ -1361,9 +1361,9 @@
         },
         "vitorias": 9,
         "empates": 10,
-        "derrotas": 12,
+        "derrotas": 13,
         "golsPro": 42,
-        "golsContra": 49
+        "golsContra": 51
       },
       "desfalques": [
         {
@@ -1466,7 +1466,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Marinho pega um jogo de suspensÃ£o e nÃ£",
+          "jogador": "Marinho pega um jogo de suspensÃ£o por e",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
@@ -1762,7 +1762,7 @@
     },
     "Gremio": {
       "brasileirao": {
-        "posicao": 14,
+        "posicao": 15,
         "pontos": 35,
         "ultimos5": [
           "D 1-2",
@@ -1798,9 +1798,9 @@
       },
       "desfalques": [
         {
-          "jogador": "Com provÃ¡vel desfalque, veja escalaÃ§Ã£",
+          "jogador": "EscalaÃ§Ã£o do GrÃªmio",
           "motivo": "notícia GE",
-          "impacto": "medio"
+          "impacto": "alto"
         }
       ],
       "retornando": [],
@@ -1876,7 +1876,7 @@
     },
     "Internacional": {
       "brasileirao": {
-        "posicao": 15,
+        "posicao": 16,
         "pontos": 35,
         "ultimos5": [
           "D 0-2",
@@ -1912,7 +1912,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Real Madrid anuncia desfalque de Courtoi",
+          "jogador": "Alan Patrick e Thiago Maia podem virar d",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1996,7 +1996,7 @@
     },
     "Mirassol": {
       "brasileirao": {
-        "posicao": 13,
+        "posicao": 14,
         "pontos": 36,
         "ultimos5": [
           "E 1-1",
@@ -2106,8 +2106,8 @@
     },
     "Remo": {
       "brasileirao": {
-        "posicao": 17,
-        "pontos": 34,
+        "posicao": 12,
+        "pontos": 37,
         "ultimos5": [
           "V 2-0 VIT",
           "D 1-2",
@@ -2134,10 +2134,10 @@
           "gpg": 0.92,
           "gsg": 1.83
         },
-        "vitorias": 8,
+        "vitorias": 9,
         "empates": 10,
         "derrotas": 12,
-        "golsPro": 41,
+        "golsPro": 43,
         "golsContra": 44
       },
       "desfalques": [
@@ -2199,7 +2199,7 @@
     },
     "Vasco": {
       "brasileirao": {
-        "posicao": 16,
+        "posicao": 17,
         "pontos": 35,
         "ultimos5": [
           "D 0-1",

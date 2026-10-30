@@ -1,10 +1,18 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-29T17:27:54.441935-03:00",
+    "atualizadoEm": "2026-10-29T21:09:31.510018-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "br-33-Remo-Botafogo",
+      "data": "2026-10-29",
+      "comp": "brasileirao",
+      "mandante": "Remo",
+      "visitante": "Botafogo",
+      "placar": "2-0"
+    },
     {
       "id": "br-33-Fluminense-Internacional",
       "data": "2026-10-28",
@@ -236,14 +244,6 @@
       "mandante": "Internacional",
       "visitante": "Corinthians",
       "placar": "2-1"
-    },
-    {
-      "id": "br-29-Botafogo-Vasco",
-      "data": "2026-10-07",
-      "comp": "brasileirao",
-      "mandante": "Botafogo",
-      "visitante": "Vasco",
-      "placar": "2-0"
     }
   ]
 }
