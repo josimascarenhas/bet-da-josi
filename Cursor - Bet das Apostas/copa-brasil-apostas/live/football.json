@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-30T03:14:31-03:00",
+    "atualizadoEm": "2026-10-30T10:20:44-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 419,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -1580,6 +1580,11 @@
       },
       "desfalques": [
         {
+          "jogador": "Lucas Moura despista sobre futuro no São",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
           "jogador": "Sabino vira desfalque contra o Corinthia",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -2347,11 +2352,6 @@
           "jogador": "EscalaÃ§Ã£o da Chapecoense",
           "motivo": "notícia GE",
           "impacto": "medio"
-        },
-        {
-          "jogador": "Chapecoense tem zagueiro suspenso e reto",
-          "motivo": "notícia GE",
-          "impacto": "alto"
         }
       ],
       "retornando": [],
