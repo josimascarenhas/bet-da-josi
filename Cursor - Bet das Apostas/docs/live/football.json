@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-31T12:06:06-03:00",
+    "atualizadoEm": "2026-10-31T16:28:06-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 419,
     "timesAtualizados": 118,
@@ -1126,7 +1126,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do AtlÃ©tico-MG",
+          "jogador": "Em recuperação de lesão, Danilo treina s",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1362,7 +1362,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Entre falhas e desfalques",
+          "jogador": "Em recuperação de lesão, Danilo treina s",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1460,6 +1460,11 @@
         "golsContra": 44
       },
       "desfalques": [
+        {
+          "jogador": "EscalaÃ§Ã£o do VitÃ³ria",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Marinho pega um jogo de suspensÃ£o por e",
           "motivo": "notícia GE",
