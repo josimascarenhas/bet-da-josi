@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-30T19:48:30-03:00",
+    "atualizadoEm": "2026-10-30T23:02:52-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 419,
     "timesAtualizados": 118,
@@ -590,7 +590,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Fluminense terá mais um desfalque na def",
+          "jogador": "Fluminense terÃ¡ mais um desfalque na de",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1365,11 +1365,6 @@
           "jogador": "Entre falhas e desfalques",
           "motivo": "notícia GE",
           "impacto": "medio"
-        },
-        {
-          "jogador": "Sport deve ter mudança no ataque, e Soso",
-          "motivo": "notícia GE",
-          "impacto": "medio"
         }
       ],
       "retornando": [
@@ -1465,11 +1460,6 @@
         "golsContra": 44
       },
       "desfalques": [
-        {
-          "jogador": "Fluminense terá mais um desfalque na def",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
         {
           "jogador": "EscalaÃ§Ã£o do VitÃ³ria",
           "motivo": "notícia GE",
