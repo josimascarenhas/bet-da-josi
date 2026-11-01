@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-01T12:49:34-03:00",
+    "atualizadoEm": "2026-11-01T17:14:29-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 419,
     "timesAtualizados": 118,
@@ -1462,6 +1462,11 @@
       "desfalques": [
         {
           "jogador": "EscalaÃ§Ã£o do VitÃ³ria",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Marinho Ã© punido pelo STJD com um jogo ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
