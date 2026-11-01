@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-31T22:54:03-03:00",
+    "atualizadoEm": "2026-11-01T05:47:38-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 419,
     "timesAtualizados": 118,
@@ -706,7 +706,7 @@
       },
       "desfalques": [
         {
-          "jogador": "João Marcelo sofre lesão no joelho direi",
+          "jogador": "Artilheira do Cruzeiro se emociona após ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1462,11 +1462,6 @@
       "desfalques": [
         {
           "jogador": "EscalaÃ§Ã£o do VitÃ³ria",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Marinho pega um jogo de suspensÃ£o por e",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
