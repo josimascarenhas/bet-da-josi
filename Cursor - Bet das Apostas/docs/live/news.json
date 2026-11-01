@@ -1,26 +1,162 @@
 {
   "meta": {
-    "atualizadoEm": "2026-10-31T22:43:48.573201+00:00",
+    "atualizadoEm": "2026-11-01T01:54:00.776992+00:00",
     "fonte": "ge.globo.com",
     "fonteUrl": "https://ge.globo.com/"
   },
   "futebol": {
     "geral": [
       {
-        "titulo": "Náutico x Avaí - Campeonato Brasileiro Série B 2026 - Ao vivo - globoesporte.com",
+        "titulo": "Corinthians x Cruzeiro - Taça Libertadores Feminina 2026 - Ao vivo - globoesporte.com",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/campinas-e-regiao/futebol/futebol-feminino/libertadores-feminina/jogo/31-10-2026/corinthians-feminino-cruzeiro.ghtml",
+        "imagem": "",
+        "data": "2026-11-01T01:44:32+00:00",
+        "dataFmt": "01/11/2026 01:44"
+      },
+      {
+        "titulo": "Pivetti classifica permanência do Náutico na Série B como \"título\" diante das dificuldades",
+        "resumo": "",
+        "url": "https://ge.globo.com/pe/futebol/times/nautico/noticia/2026/10/31/pivetti-classifica-permanencia-do-nautico-na-serie-b-como-titulo-diante-das-dificuldades.ghtml",
+        "imagem": "",
+        "data": "2026-11-01T01:44:08+00:00",
+        "dataFmt": "01/11/2026 01:44"
+      },
+      {
+        "titulo": "Coritiba vence o Vitória, encerra jejum de dois meses e se afasta do Z-4 no Brasileirão",
+        "resumo": "",
+        "url": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/31-10-2026/coritiba-vitoria.ghtml",
+        "imagem": "",
+        "data": "2026-11-01T01:06:47+00:00",
+        "dataFmt": "01/11/2026 01:06"
+      },
+      {
+        "titulo": "Botafogo-SP e Sport empatam pela Série B",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/brasileirao-serie-b/jogo/31-10-2026/botafogo-sp-sport.ghtml",
+        "imagem": "",
+        "data": "2026-11-01T01:06:12+00:00",
+        "dataFmt": "01/11/2026 01:06"
+      },
+      {
+        "titulo": "Náutico vence o Avaí nos Aflitos e garante permanência na Série B em 2027",
         "resumo": "",
         "url": "https://ge.globo.com/pe/futebol/brasileirao-serie-b/jogo/31-10-2026/nautico-avai.ghtml",
         "imagem": "",
-        "data": "2026-10-31T22:37:04+00:00",
-        "dataFmt": "31/10/2026 22:37"
+        "data": "2026-11-01T01:05:41+00:00",
+        "dataFmt": "01/11/2026 01:05"
       },
       {
-        "titulo": "Vila Nova x Juventude - Campeonato Brasileiro Série B 2026 - Ao vivo - globoesporte.com",
+        "titulo": "Santa Fe x Olimpia - Taça Libertadores Feminina 2026 - globoesporte.com",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/libertadores-feminina/jogo/31-10-2026/santa-fe-olimpia.ghtml",
+        "imagem": "",
+        "data": "2026-11-01T01:05:33+00:00",
+        "dataFmt": "01/11/2026 01:05"
+      },
+      {
+        "titulo": "Juventude busca empate com Vila Nova duas vezes e dorme na liderança",
         "resumo": "",
         "url": "https://ge.globo.com/go/futebol/brasileirao-serie-b/jogo/31-10-2026/vila-nova-juventude.ghtml",
         "imagem": "",
-        "data": "2026-10-31T22:33:42+00:00",
-        "dataFmt": "31/10/2026 22:33"
+        "data": "2026-11-01T01:05:06+00:00",
+        "dataFmt": "01/11/2026 01:05"
+      },
+      {
+        "titulo": "Avaí perde para o Náutico e fica por um fio na Série B; dê suas notas",
+        "resumo": "",
+        "url": "https://ge.globo.com/sc/futebol/times/avai/noticia/2026/10/31/avai-perde-para-o-nautico-e-fica-por-um-fio-na-serie-b-de-suas-notas.ghtml",
+        "imagem": "",
+        "data": "2026-11-01T01:04:26+00:00",
+        "dataFmt": "01/11/2026 01:04"
+      },
+      {
+        "titulo": "Após permanência na Série B, Jean Carlos cobra diretoria do Náutico por salários atrasados",
+        "resumo": "",
+        "url": "https://ge.globo.com/pe/futebol/times/nautico/noticia/2026/10/31/apos-permanencia-na-serie-b-jean-carlos-cobra-diretoria-do-nautico-por-salarios-atrasados.ghtml",
+        "imagem": "",
+        "data": "2026-11-01T01:00:39+00:00",
+        "dataFmt": "01/11/2026 01:00"
+      },
+      {
+        "titulo": "Atuações: Borasi marca, e Muriel salva o Náutico em vitória do \"fico\" na Série B; dê suas notas",
+        "resumo": "",
+        "url": "https://ge.globo.com/pe/futebol/times/nautico/noticia/2026/10/31/atuacoes-borasi-marca-e-muriel-salva-o-nautico-em-vitoria-do-fico-na-serie-b-de-suas-notas.ghtml",
+        "imagem": "",
+        "data": "2026-11-01T00:38:16+00:00",
+        "dataFmt": "01/11/2026 00:38"
+      },
+      {
+        "titulo": "Flamengo fecha 2026 com R$ 667 milhões investidos em atletas e divulga valor de Freitas e Valencia",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/31/flamengo-fecha-2026-com-r-667-milhoes-investidos-em-atletas-e-divulga-valor-de-freitas-e-valencia.ghtml",
+        "imagem": "",
+        "data": "2026-11-01T00:27:48+00:00",
+        "dataFmt": "01/11/2026 00:27"
+      },
+      {
+        "titulo": "China x Brasil - Copa do Mundo Feminina Sub-17 2026 - globoesporte.com",
+        "resumo": "",
+        "url": "https://ge.globo.com/es/futebol/futebol-feminino/jogo/01-11-2026/china-brasil.ghtml",
+        "imagem": "",
+        "data": "2026-11-01T00:13:32+00:00",
+        "dataFmt": "01/11/2026 00:13"
+      },
+      {
+        "titulo": "Vila Nova reclama de pênalti não marcado em jogo contra o Juventude; veja lance",
+        "resumo": "",
+        "url": "https://ge.globo.com/go/futebol/times/vila-nova/noticia/2026/10/31/vila-nova-reclama-de-penalti-nao-marcado-em-jogo-contra-o-juventude-veja-lance.ghtml",
+        "imagem": "",
+        "data": "2026-10-31T23:51:18+00:00",
+        "dataFmt": "31/10/2026 23:51"
+      },
+      {
+        "titulo": "Finais da Taça das Favelas no Rio têm pix por gol olímpico e falta à moda Ronaldinho",
+        "resumo": "",
+        "url": "https://ge.globo.com/rj/futebol/noticia/2026/10/31/finais-da-taca-das-favelas-no-rio-tem-pix-por-gol-olimpico-e-falta-a-moda-ronaldinho.ghtml",
+        "imagem": "",
+        "data": "2026-10-31T23:33:34+00:00",
+        "dataFmt": "31/10/2026 23:33"
+      },
+      {
+        "titulo": "Barcelona goleia o Alavés com dois gols de Raphinha e segue líder de LaLiga",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/jogo/31-10-2026/barcelona-alaves.ghtml",
+        "imagem": "",
+        "data": "2026-10-31T23:31:07+00:00",
+        "dataFmt": "31/10/2026 23:31"
+      },
+      {
+        "titulo": "Interino do Coritiba, Guila Bossle valoriza força coletiva em vitória que encerra jejum no Brasileirão",
+        "resumo": "",
+        "url": "https://ge.globo.com/pr/futebol/times/coritiba/noticia/2026/10/31/interino-do-coritiba-guila-bossle-valoriza-forca-coletiva-em-vitoria-que-encerra-jejum-no-brasileirao.ghtml",
+        "imagem": "",
+        "data": "2026-10-31T23:29:43+00:00",
+        "dataFmt": "31/10/2026 23:29"
+      },
+      {
+        "titulo": "Corinthians mantém veto a candidatura de Janikian após anulação de condenação na Justiça",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/10/31/corinthians-mantem-veto-a-candidatura-de-janikian-apos-anulacao-de-condenacao-na-justica.ghtml",
+        "imagem": "",
+        "data": "2026-10-31T23:12:38+00:00",
+        "dataFmt": "31/10/2026 23:12"
+      },
+      {
+        "titulo": "Éder Militão teve casa roubada durante o clássico Barcelona x Real Madrid",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/10/31/eder-militao-teve-casa-roubada-durante-o-classico-barcelona-x-real-madrid.ghtml",
+        "imagem": "",
+        "data": "2026-10-31T22:56:37+00:00",
+        "dataFmt": "31/10/2026 22:56"
+      },
+      {
+        "titulo": "Juventude iguala sua melhor campanha na história na Série B; veja retrospectos",
+        "resumo": "",
+        "url": "https://ge.globo.com/rs/futebol/times/juventude/noticia/2026/10/31/juventude-iguala-sua-melhor-campanha-na-historia-na-serie-b-veja-retrospectos.ghtml",
+        "imagem": "",
+        "data": "2026-10-31T22:55:31+00:00",
+        "dataFmt": "31/10/2026 22:55"
       },
       {
         "titulo": "Término da 4ª rodada do Acreano Sub-11 tem goleadas e mais três times classificados às quartas",
@@ -29,142 +165,6 @@
         "imagem": "",
         "data": "2026-10-31T22:31:03+00:00",
         "dataFmt": "31/10/2026 22:31"
-      },
-      {
-        "titulo": "ASA inicia pré-venda de camisa com novo fornecedor de material esportivo",
-        "resumo": "",
-        "url": "https://ge.globo.com/al/futebol/times/asa/noticia/2026/10/31/asa-inicia-pre-venda-de-camisa-com-novo-fornecedor-de-material-esportivo.ghtml",
-        "imagem": "",
-        "data": "2026-10-31T22:15:45+00:00",
-        "dataFmt": "31/10/2026 22:15"
-      },
-      {
-        "titulo": "Nubank Parque recebe mais de 2 milhões de pessoas em 2026 às vésperas de semifinal",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/10/31/nubank-parque-recebe-mais-de-2-milhoes-de-pessoas-em-2026-as-vesperas-de-semifinal.ghtml",
-        "imagem": "",
-        "data": "2026-10-31T22:11:01+00:00",
-        "dataFmt": "31/10/2026 22:11"
-      },
-      {
-        "titulo": "Tencati lamenta empate do Botafogo-SP com Sport e esboça 2027: “Aprendizados para corrigir”",
-        "resumo": "",
-        "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/botafogo-sp/noticia/2026/10/31/tencati-lamenta-empate-do-botafogo-sp-com-sport-e-esboca-2027-aprendizados-para-corrigir.ghtml",
-        "imagem": "",
-        "data": "2026-10-31T22:10:46+00:00",
-        "dataFmt": "31/10/2026 22:10"
-      },
-      {
-        "titulo": "Barcelona goleia o Alavés com dois gols de Raphinha e segue líder de LaLiga",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/jogo/31-10-2026/barcelona-alaves.ghtml",
-        "imagem": "",
-        "data": "2026-10-31T22:09:20+00:00",
-        "dataFmt": "31/10/2026 22:09"
-      },
-      {
-        "titulo": "Popó revela que queria promover luta entre Aloísio Chulapa e Viola; assista",
-        "resumo": "",
-        "url": "https://ge.globo.com/al/futebol/noticia/2026/10/31/popo-revela-que-queria-promover-luta-entre-aloisio-chulapa-e-viola-assista.ghtml",
-        "imagem": "",
-        "data": "2026-10-31T22:07:49+00:00",
-        "dataFmt": "31/10/2026 22:07"
-      },
-      {
-        "titulo": "Figueirense sofre gol no último lance e perde para o Blumenau na Copa SC",
-        "resumo": "",
-        "url": "https://ge.globo.com/sc/futebol/times/figueirense/noticia/2026/10/31/figueirense-sofre-gol-no-ultimo-lance-e-perde-para-o-blumenau-na-copa-sc.ghtml",
-        "imagem": "",
-        "data": "2026-10-31T22:07:05+00:00",
-        "dataFmt": "31/10/2026 22:07"
-      },
-      {
-        "titulo": "Soso lamenta empate contra o Botafogo-SP e diz que Sport não sustentou ações para vencer",
-        "resumo": "",
-        "url": "https://ge.globo.com/pe/futebol/times/sport/noticia/2026/10/31/soso-cobra-mais-vontade-do-sport-e-admite-frustracao-com-empate-contra-o-botafogo-sp.ghtml",
-        "imagem": "",
-        "data": "2026-10-31T22:06:32+00:00",
-        "dataFmt": "31/10/2026 22:06"
-      },
-      {
-        "titulo": "Jair Ventura minimiza jejum como visitante após nova derrota do Vitória: \"Não tem o que fazer\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/10/31/jair-ventura-minimiza-jejum-como-visitante-apos-nova-derrota-do-vitoria-nao-tem-o-que-fazer.ghtml",
-        "imagem": "",
-        "data": "2026-10-31T22:03:54+00:00",
-        "dataFmt": "31/10/2026 22:03"
-      },
-      {
-        "titulo": "Santa Fe x Olimpia - Taça Libertadores Feminina 2026 - globoesporte.com",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/libertadores-feminina/jogo/31-10-2026/santa-fe-olimpia.ghtml",
-        "imagem": "",
-        "data": "2026-10-31T21:58:38+00:00",
-        "dataFmt": "31/10/2026 21:58"
-      },
-      {
-        "titulo": "Técnico destaca evolução do Paysandu contra o Palmeiras e quer agressividade na volta",
-        "resumo": "",
-        "url": "https://ge.globo.com/pa/futebol/times/paysandu/noticia/2026/10/31/tecnico-do-paysandu-sub-20-destaca-evolucao-contra-o-palmeiras-e-quer-agressividade-na-volta.ghtml",
-        "imagem": "",
-        "data": "2026-10-31T21:51:05+00:00",
-        "dataFmt": "31/10/2026 21:51"
-      },
-      {
-        "titulo": "Já classificado para as oitavas, Petrolina goleia o Ferroviário do Cabo e segue invicto no Pernambucano",
-        "resumo": "",
-        "url": "https://ge.globo.com/pe/petrolina-regiao/futebol/campeonato-pernambucano/jogo/31-10-2026/petrolina-ferroviario-do-cabo.ghtml",
-        "imagem": "",
-        "data": "2026-10-31T21:50:29+00:00",
-        "dataFmt": "31/10/2026 21:50"
-      },
-      {
-        "titulo": "Guaraí e Batalhão garantem acesso e vão decidir o título da Segundona 2026",
-        "resumo": "",
-        "url": "https://ge.globo.com/to/futebol/tocantinense-segunda-divisao/noticia/2026/10/31/guarai-e-batalhao-garantem-acesso-e-vao-decidir-o-titulo-da-segundona-2026.ghtml",
-        "imagem": "",
-        "data": "2026-10-31T21:31:01+00:00",
-        "dataFmt": "31/10/2026 21:31"
-      },
-      {
-        "titulo": "Coritiba vence o Vitória, encerra jejum de dois meses e se afasta do Z-4 no Brasileirão",
-        "resumo": "",
-        "url": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/31-10-2026/coritiba-vitoria.ghtml",
-        "imagem": "",
-        "data": "2026-10-31T21:29:01+00:00",
-        "dataFmt": "31/10/2026 21:29"
-      },
-      {
-        "titulo": "Coritiba 2 x 0 Vitória: assista aos gols e aos melhores momentos",
-        "resumo": "",
-        "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/10/31/coritiba-2-x-0-vitoria-assista-aos-gols-e-aos-melhores-momentos.ghtml",
-        "imagem": "",
-        "data": "2026-10-31T21:20:37+00:00",
-        "dataFmt": "31/10/2026 21:20"
-      },
-      {
-        "titulo": "Piauí acerta com lateral Felipe Prado, ex-São José-RS e Gaúcho, para 2027",
-        "resumo": "",
-        "url": "https://ge.globo.com/pi/futebol/noticia/2026/10/31/piaui-acerta-com-lateral-felipe-prado-ex-sao-jose-rs-e-gaucho-para-2027.ghtml",
-        "imagem": "",
-        "data": "2026-10-31T21:20:36+00:00",
-        "dataFmt": "31/10/2026 21:20"
-      },
-      {
-        "titulo": "Orlando de Moraes e Residencial Triunfo conquistam a Taça das Favelas 2026",
-        "resumo": "",
-        "url": "https://ge.globo.com/go/futebol/noticia/2026/10/31/orlando-de-moraes-e-residencial-triunfo-conquistam-a-taca-das-favelas-2026.ghtml",
-        "imagem": "",
-        "data": "2026-10-31T21:18:09+00:00",
-        "dataFmt": "31/10/2026 21:18"
-      },
-      {
-        "titulo": "Torcida do CRB \"seca\" e Sport tropeça na 36ª rodada da Série B",
-        "resumo": "",
-        "url": "https://ge.globo.com/al/futebol/times/crb/noticia/2026/10/31/torcida-do-crb-seca-e-sport-tropeca-na-36a-rodada-da-serie-b.ghtml",
-        "imagem": "",
-        "data": "2026-10-31T21:18:04+00:00",
-        "dataFmt": "31/10/2026 21:18"
       }
     ],
     "times": {
@@ -200,14 +200,6 @@
           "imagem": "",
           "data": "2026-10-31T17:35:19+00:00",
           "dataFmt": "31/10/2026 17:35"
-        },
-        {
-          "titulo": "Andrés Gómez está fora da partida do Vasco contra o Palmeiras",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/31/andres-gomez-esta-fora-da-partida-do-vasco-contra-o-palmeiras.ghtml",
-          "imagem": "",
-          "data": "2026-10-31T17:21:44+00:00",
-          "dataFmt": "31/10/2026 17:21"
         },
         {
           "titulo": "Conmebol define horÃ¡rio da final da Libertadores; veja detalhes",
@@ -264,9 +256,33 @@
           "imagem": "",
           "data": "",
           "dataFmt": "30/10/2026"
+        },
+        {
+          "titulo": "Palmeiras nÃ£o depende mais sÃ³ de si para ser campeÃ£o brasileiro",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/10/29/palmeiras-nao-depende-mais-apenas-de-si-para-ser-campeao-brasileiro-compare-jogos-e-simule.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "29/10/2026"
         }
       ],
       "Flamengo": [
+        {
+          "titulo": "Flamengo fecha 2026 com R$ 667 milhões investidos em atletas e divulga valor de Freitas e Valencia",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/31/flamengo-fecha-2026-com-r-667-milhoes-investidos-em-atletas-e-divulga-valor-de-freitas-e-valencia.ghtml",
+          "imagem": "",
+          "data": "2026-11-01T00:27:48+00:00",
+          "dataFmt": "01/11/2026 00:27"
+        },
+        {
+          "titulo": "Sesc-Flamengo bate o Mackenzie por 3 a 0 e lidera a Superliga com 100% de aproveitamento",
+          "resumo": "",
+          "url": "https://ge.globo.com/volei/noticia/2026/10/31/sesc-flamengo-bate-o-mackenzie-por-3-a-0-e-lidera-a-superliga-com-100percent-de-aproveitamento.ghtml",
+          "imagem": "",
+          "data": "2026-10-31T23:27:49+00:00",
+          "dataFmt": "31/10/2026 23:27"
+        },
         {
           "titulo": "Pedrinho diz que Vasco se surpreendeu com comunicado de Flamengo e Fluminense: “Se acham espertos”",
           "resumo": "",
@@ -276,7 +292,7 @@
           "dataFmt": "31/10/2026 17:40"
         },
         {
-          "titulo": "Por que Jardim comentou possÃ­vel saÃ­da do Flamengo e como estÃ¡ cenÃ¡rio",
+          "titulo": "Por que Jardim comentou possÃ­vel saÃ­da? Entenda cenÃ¡rio",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/31/por-que-jardim-comentou-possivel-saida-do-flamengo-e-como-esta-cenario-para-sua-permanencia-e-a-de-boto.ghtml",
           "imagem": "",
@@ -346,14 +362,6 @@
           "imagem": "",
           "data": "",
           "dataFmt": "30/10/2026"
-        },
-        {
-          "titulo": "Jardim prega cautela por tÃ­tulo do Flamengo: \"Ainda falta muito campeonato\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/10/29/jardim-valoriza-vitoria-do-flamengo-no-classico-contra-o-vasco-mas-pede-foco-ainda-falta-muito-campeonato.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "29/10/2026"
         }
       ],
       "Athletico-PR": [
@@ -440,17 +448,17 @@
           "dataFmt": "31/10/2026 17:40"
         },
         {
-          "titulo": "Ídolo do Fluminense, André detalha recusa ao Liverpool pelo sonho da Libertadores: \"Era para mudar de vida\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/31/idolo-do-fluminense-andre-detalha-recusa-ao-liverpool-pelo-sonho-da-libertadores-era-para-mudar-de-vida.ghtml",
-          "imagem": "",
-          "data": "2026-10-31T16:03:59+00:00",
-          "dataFmt": "31/10/2026 16:03"
-        },
-        {
           "titulo": "Sem espaÃ§o no Flu, Riquelme tem chance de retomada com a SeleÃ§Ã£o sub-20",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/31/sem-espaco-no-fluminense-riquelme-tem-chance-de-retomada-com-a-selecao-sub-20.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "31/10/2026"
+        },
+        {
+          "titulo": "AndrÃ© detalha recusa ao Liverpool pelo sonho da Libertadores: \"Era para mudar de vida\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/31/idolo-do-fluminense-andre-detalha-recusa-ao-liverpool-pelo-sonho-da-libertadores-era-para-mudar-de-vida.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "31/10/2026"
@@ -522,20 +530,20 @@
       ],
       "Cruzeiro": [
         {
+          "titulo": "Corinthians x Cruzeiro - Taça Libertadores Feminina 2026 - Ao vivo - globoesporte.com",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/campinas-e-regiao/futebol/futebol-feminino/libertadores-feminina/jogo/31-10-2026/corinthians-feminino-cruzeiro.ghtml",
+          "imagem": "",
+          "data": "2026-11-01T01:44:32+00:00",
+          "dataFmt": "01/11/2026 01:44"
+        },
+        {
           "titulo": "Corinthians domina o Cruzeiro e abre vantagem na final do Brasileirão Sub-17",
           "resumo": "",
           "url": "https://ge.globo.com/mg/triangulo-mineiro/futebol/brasileirao-sub-17/jogo/31-10-2026/corinthians-cruzeiro.ghtml",
           "imagem": "",
           "data": "2026-10-31T17:53:13+00:00",
           "dataFmt": "31/10/2026 17:53"
-        },
-        {
-          "titulo": "Corinthians x Cruzeiro - Taça Libertadores Feminina 2026 - globoesporte.com",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/campinas-e-regiao/futebol/futebol-feminino/libertadores-feminina/jogo/31-10-2026/corinthians-feminino-cruzeiro.ghtml",
-          "imagem": "",
-          "data": "2026-10-31T17:16:35+00:00",
-          "dataFmt": "31/10/2026 17:16"
         },
         {
           "titulo": "JoÃ£o Marcelo nÃ£o joga mais pelo Cruzeiro na temporada",
@@ -788,8 +796,16 @@
           "resumo": "",
           "url": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/31-10-2026/coritiba-vitoria.ghtml",
           "imagem": "",
-          "data": "2026-10-31T21:29:01+00:00",
-          "dataFmt": "31/10/2026 21:29"
+          "data": "2026-11-01T01:06:47+00:00",
+          "dataFmt": "01/11/2026 01:06"
+        },
+        {
+          "titulo": "Interino do Coritiba, Guila Bossle valoriza força coletiva em vitória que encerra jejum no Brasileirão",
+          "resumo": "",
+          "url": "https://ge.globo.com/pr/futebol/times/coritiba/noticia/2026/10/31/interino-do-coritiba-guila-bossle-valoriza-forca-coletiva-em-vitoria-que-encerra-jejum-no-brasileirao.ghtml",
+          "imagem": "",
+          "data": "2026-10-31T23:29:43+00:00",
+          "dataFmt": "31/10/2026 23:29"
         },
         {
           "titulo": "Coritiba 2 x 0 Vitória: assista aos gols e aos melhores momentos",
@@ -854,22 +870,6 @@
           "imagem": "",
           "data": "",
           "dataFmt": "29/10/2026"
-        },
-        {
-          "titulo": "Fernando Seabra se manifesta pela 1Âª vez apÃ³s ser demitido do Coritiba",
-          "resumo": "",
-          "url": "https://ge.globo.com/pr/futebol/times/coritiba/noticia/2026/10/28/fernando-seabra-se-manifesta-pela-1a-vez-apos-ser-demitido-do-coritiba.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "28/10/2026"
-        },
-        {
-          "titulo": "SebastiÃ¡n GÃ³mez pede perdÃ£o Ã  torcida do Coritiba apÃ³s derrota para o GrÃªmio; veja o desabafo",
-          "resumo": "",
-          "url": "https://ge.globo.com/pr/futebol/times/coritiba/noticia/2026/10/28/sebastian-gomez-pede-perdao-a-torcida-do-coritiba-apos-derrota-para-o-gremio-veja-o-desabafo.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "28/10/2026"
         }
       ],
       "Atletico-MG": [
@@ -972,28 +972,28 @@
       ],
       "Corinthians": [
         {
+          "titulo": "Corinthians x Cruzeiro - Taça Libertadores Feminina 2026 - Ao vivo - globoesporte.com",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/campinas-e-regiao/futebol/futebol-feminino/libertadores-feminina/jogo/31-10-2026/corinthians-feminino-cruzeiro.ghtml",
+          "imagem": "",
+          "data": "2026-11-01T01:44:32+00:00",
+          "dataFmt": "01/11/2026 01:44"
+        },
+        {
+          "titulo": "Corinthians mantém veto a candidatura de Janikian após anulação de condenação na Justiça",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/10/31/corinthians-mantem-veto-a-candidatura-de-janikian-apos-anulacao-de-condenacao-na-justica.ghtml",
+          "imagem": "",
+          "data": "2026-10-31T23:12:38+00:00",
+          "dataFmt": "31/10/2026 23:12"
+        },
+        {
           "titulo": "Corinthians domina o Cruzeiro e abre vantagem na final do Brasileirão Sub-17",
           "resumo": "",
           "url": "https://ge.globo.com/mg/triangulo-mineiro/futebol/brasileirao-sub-17/jogo/31-10-2026/corinthians-cruzeiro.ghtml",
           "imagem": "",
           "data": "2026-10-31T17:53:13+00:00",
           "dataFmt": "31/10/2026 17:53"
-        },
-        {
-          "titulo": "Corinthians encerra jejum, vence o Mirassol e esquenta briga contra o rebaixamento no Brasileirão",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/30-10-2026/corinthians-mirassol.ghtml",
-          "imagem": "",
-          "data": "2026-10-31T17:31:32+00:00",
-          "dataFmt": "31/10/2026 17:31"
-        },
-        {
-          "titulo": "Corinthians x Cruzeiro - Taça Libertadores Feminina 2026 - globoesporte.com",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/campinas-e-regiao/futebol/futebol-feminino/libertadores-feminina/jogo/31-10-2026/corinthians-feminino-cruzeiro.ghtml",
-          "imagem": "",
-          "data": "2026-10-31T17:16:35+00:00",
-          "dataFmt": "31/10/2026 17:16"
         },
         {
           "titulo": "TimÃ£o tem maior nÃºmero de finalizaÃ§Ãµes em mais de dois anos",
@@ -1052,7 +1052,7 @@
           "dataFmt": "30/10/2026"
         },
         {
-          "titulo": "Atual parceira notifica o Corinthians e ameaÃ§a ir Ã  JustiÃ§a",
+          "titulo": "One Fan notifica Corinthians e ameaÃ§a ir Ã  JustiÃ§a em caso de rompimento unilateral do contrato",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/10/30/one-fan-notifica-corinthians-e-ameaca-ir-a-justica-em-caso-de-rompimento-unilateral-do-contrato.ghtml",
           "imagem": "",
@@ -1060,15 +1060,23 @@
           "dataFmt": "30/10/2026"
         },
         {
-          "titulo": "Corinthians avanÃ§a para fechar com nova gestora de ingressos",
+          "titulo": "CBF define datas dos jogos do Corinthians contra Botafogo e AtlÃ©tico-MG no BrasileirÃ£o",
           "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/10/30/corinthians-encaminha-acordo-com-nova-gestora-de-ingressos-e-planeja-quitar-atrasos-com-elenco.ghtml",
+          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/10/30/cbf-define-datas-para-jogos-do-corinthians-contra-botafogo-e-atletico-mg-pelo-brasileirao.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "30/10/2026"
         }
       ],
       "Botafogo": [
+        {
+          "titulo": "Botafogo-SP e Sport empatam pela Série B",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/brasileirao-serie-b/jogo/31-10-2026/botafogo-sp-sport.ghtml",
+          "imagem": "",
+          "data": "2026-11-01T01:06:12+00:00",
+          "dataFmt": "01/11/2026 01:06"
+        },
         {
           "titulo": "Tencati lamenta empate do Botafogo-SP com Sport e esboça 2027: “Aprendizados para corrigir”",
           "resumo": "",
@@ -1084,14 +1092,6 @@
           "imagem": "",
           "data": "2026-10-31T22:06:32+00:00",
           "dataFmt": "31/10/2026 22:06"
-        },
-        {
-          "titulo": "Botafogo-SP e Sport empatam pela Série B",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/brasileirao-serie-b/jogo/31-10-2026/botafogo-sp-sport.ghtml",
-          "imagem": "",
-          "data": "2026-10-31T21:08:59+00:00",
-          "dataFmt": "31/10/2026 21:08"
         },
         {
           "titulo": "Atuações do Sport: Habraão vai bem na defesa, e Barletta apagado contra o Botafogo-SP; dê suas notas",
@@ -1168,20 +1168,36 @@
       ],
       "Vitoria": [
         {
+          "titulo": "Coritiba vence o Vitória, encerra jejum de dois meses e se afasta do Z-4 no Brasileirão",
+          "resumo": "",
+          "url": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/31-10-2026/coritiba-vitoria.ghtml",
+          "imagem": "",
+          "data": "2026-11-01T01:06:47+00:00",
+          "dataFmt": "01/11/2026 01:06"
+        },
+        {
+          "titulo": "Atuações: Borasi marca, e Muriel salva o Náutico em vitória do \"fico\" na Série B; dê suas notas",
+          "resumo": "",
+          "url": "https://ge.globo.com/pe/futebol/times/nautico/noticia/2026/10/31/atuacoes-borasi-marca-e-muriel-salva-o-nautico-em-vitoria-do-fico-na-serie-b-de-suas-notas.ghtml",
+          "imagem": "",
+          "data": "2026-11-01T00:38:16+00:00",
+          "dataFmt": "01/11/2026 00:38"
+        },
+        {
+          "titulo": "Interino do Coritiba, Guila Bossle valoriza força coletiva em vitória que encerra jejum no Brasileirão",
+          "resumo": "",
+          "url": "https://ge.globo.com/pr/futebol/times/coritiba/noticia/2026/10/31/interino-do-coritiba-guila-bossle-valoriza-forca-coletiva-em-vitoria-que-encerra-jejum-no-brasileirao.ghtml",
+          "imagem": "",
+          "data": "2026-10-31T23:29:43+00:00",
+          "dataFmt": "31/10/2026 23:29"
+        },
+        {
           "titulo": "Jair Ventura minimiza jejum como visitante após nova derrota do Vitória: \"Não tem o que fazer\"",
           "resumo": "",
           "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/10/31/jair-ventura-minimiza-jejum-como-visitante-apos-nova-derrota-do-vitoria-nao-tem-o-que-fazer.ghtml",
           "imagem": "",
           "data": "2026-10-31T22:03:54+00:00",
           "dataFmt": "31/10/2026 22:03"
-        },
-        {
-          "titulo": "Coritiba vence o Vitória, encerra jejum de dois meses e se afasta do Z-4 no Brasileirão",
-          "resumo": "",
-          "url": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/31-10-2026/coritiba-vitoria.ghtml",
-          "imagem": "",
-          "data": "2026-10-31T21:29:01+00:00",
-          "dataFmt": "31/10/2026 21:29"
         },
         {
           "titulo": "Coritiba 2 x 0 Vitória: assista aos gols e aos melhores momentos",
@@ -1246,22 +1262,6 @@
           "imagem": "",
           "data": "",
           "dataFmt": "31/10/2026"
-        },
-        {
-          "titulo": "Pior visitante, VitÃ³ria se isola como time que ainda nÃ£o venceu fora de casa na SÃ©rie A 2026",
-          "resumo": "",
-          "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/10/28/pior-visitante-vitoria-se-isola-como-time-que-ainda-nao-venceu-fora-de-casa-na-serie-a-2026.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "28/10/2026"
-        },
-        {
-          "titulo": "Recomendadas pelo editor",
-          "resumo": "",
-          "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2025/12/08/contratacoes-do-vitoria-para-2026-veja-quem-chega-quem-fica-e-quem-vai-embora.ghtml",
-          "imagem": "https://s2-ge.glbimg.com/B0soB1r6LOk10WwWGd32_Mpp0oA=/0x153:1080x1233/94x94/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/K/r/v5mlpGQHSEzxtD5q8xaA/hl07eykwuaa40vg.jpg",
-          "data": "",
-          "dataFmt": "08/12/2025"
         }
       ],
       "Sao-Paulo": [
@@ -1494,15 +1494,7 @@
           "dataFmt": "30/10/2026"
         },
         {
-          "titulo": "Renato volta a destacar seu trabalho apÃ³s vitÃ³ria; confira",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/10/30/renato-volta-a-destacar-o-trabalho-em-vitoria-do-gremio-troquei-os-quatro-pneus-com-o-carro-andando.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "30/10/2026"
-        },
-        {
-          "titulo": "Dois titulares levam terceiro amarelo a pedido de Renato",
+          "titulo": "Weverton e Carlos Vinicius levam cartÃ£o e desfalcam GrÃªmio contra o Flamengo a pedido de Renato",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/10/30/weverton-e-carlos-vinicius-levam-cartao-e-desfalcam-gremio-contra-o-flamengo-a-pedido-de-renato.ghtml",
           "imagem": "",
@@ -1513,6 +1505,14 @@
           "titulo": "AnÃ¡lise: GrÃªmio empolga contra o Athletico e atinge aproveitamento que pode evitar queda",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/10/30/analise-gremio-empolga-contra-o-athletico-e-atinge-aproveitamento-que-pode-evitar-queda.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "30/10/2026"
+        },
+        {
+          "titulo": "Renato volta a destacar o trabalho em vitÃ³ria do GrÃªmio: \"Troquei os quatro pneus com o carro andando\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/10/30/renato-volta-a-destacar-o-trabalho-em-vitoria-do-gremio-troquei-os-quatro-pneus-com-o-carro-andando.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "30/10/2026"
@@ -1564,8 +1564,16 @@
           "resumo": "",
           "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/jogo/31-10-2026/barcelona-alaves.ghtml",
           "imagem": "",
-          "data": "2026-10-31T22:09:20+00:00",
-          "dataFmt": "31/10/2026 22:09"
+          "data": "2026-10-31T23:31:07+00:00",
+          "dataFmt": "31/10/2026 23:31"
+        },
+        {
+          "titulo": "Éder Militão teve casa roubada durante o clássico Barcelona x Real Madrid",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/10/31/eder-militao-teve-casa-roubada-durante-o-classico-barcelona-x-real-madrid.ghtml",
+          "imagem": "",
+          "data": "2026-10-31T22:56:37+00:00",
+          "dataFmt": "31/10/2026 22:56"
         },
         {
           "titulo": "Kaká entra para o Hall da Fama do Milan e se emociona com homenagem da torcida",
@@ -1590,30 +1598,6 @@
           "imagem": "",
           "data": "2026-10-31T18:40:37+00:00",
           "dataFmt": "31/10/2026 18:40"
-        },
-        {
-          "titulo": "Harry Kane apresenta a Bola de Ouro à torcida do Bayern de Munique antes de clássico alemão",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-alemao/noticia/2026/10/31/harry-kane-apresenta-a-bola-de-ouro-a-torcida-do-bayern-de-munique-antes-de-classico-alemao.ghtml",
-          "imagem": "",
-          "data": "2026-10-31T17:30:46+00:00",
-          "dataFmt": "31/10/2026 17:30"
-        },
-        {
-          "titulo": "Racing Santander x Real Madrid em LaLiga: onde assistir ao vivo e horário",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/noticia/2026/10/31/racing-santander-x-real-madrid-em-laliga-onde-assistir-ao-vivo-e-horario.ghtml",
-          "imagem": "",
-          "data": "2026-10-31T17:20:58+00:00",
-          "dataFmt": "31/10/2026 17:20"
-        },
-        {
-          "titulo": "Chelsea bate o Manchester United, e Estêvão é titular e tem dois gols anulados",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/jogo/31-10-2026/Chelsea-Manchesterunited.ghtml",
-          "imagem": "",
-          "data": "2026-10-31T17:05:04+00:00",
-          "dataFmt": "31/10/2026 17:05"
         },
         {
           "titulo": "CadÃª o Carbonero? Atacante perde espaÃ§o com Eduardo Baptista",
@@ -1654,17 +1638,25 @@
           "imagem": "",
           "data": "",
           "dataFmt": "29/10/2026"
+        },
+        {
+          "titulo": "Eduardo Baptista engrossa coro do Inter contra arbitragem: \"Resultado alterado\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/10/28/eduardo-baptista-engrossa-coro-do-inter-contra-arbitragem-resultado-alterado.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "28/10/2026"
+        },
+        {
+          "titulo": "Presidente do Inter cobra pÃªnalti nÃ£o marcado e expulsÃ£o de RenÃª; veja os lances",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/10/28/presidente-do-inter-reclama-partida-decidida-por-erros-de-arbitragem.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "28/10/2026"
         }
       ],
       "Mirassol": [
-        {
-          "titulo": "Corinthians encerra jejum, vence o Mirassol e esquenta briga contra o rebaixamento no Brasileirão",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/30-10-2026/corinthians-mirassol.ghtml",
-          "imagem": "",
-          "data": "2026-10-31T17:31:32+00:00",
-          "dataFmt": "31/10/2026 17:31"
-        },
         {
           "titulo": "Reinaldo cita ameaÃ§as Ã  arbitragem e vÃª Mirassol prejudicado contra o Corinthians",
           "resumo": "",
@@ -1870,12 +1862,12 @@
           "dataFmt": "31/10/2026 17:35"
         },
         {
-          "titulo": "Andrés Gómez está fora da partida do Vasco contra o Palmeiras",
+          "titulo": "AndrÃ©s GÃ³mez estÃ¡ fora da partida do Vasco contra o Palmeiras",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/10/31/andres-gomez-esta-fora-da-partida-do-vasco-contra-o-palmeiras.ghtml",
           "imagem": "",
-          "data": "2026-10-31T17:21:44+00:00",
-          "dataFmt": "31/10/2026 17:21"
+          "data": "",
+          "dataFmt": "31/10/2026"
         },
         {
           "titulo": "Vasco deve enfrentar o Palmeiras em SÃ£o JanuÃ¡rio na volta da Copa do Brasil",
@@ -1997,33 +1989,33 @@
   "tenis": {
     "geral": [
       {
-        "titulo": "Naná Silva é eliminada na semifinal do WTA 125 de Curitiba com \"pneu\" de francesa",
+        "titulo": "NanÃ¡ Silva Ã© eliminada na semi do WTA 125 de Curitiba com \"pneu\" de francesa",
         "resumo": "",
         "url": "https://ge.globo.com/tenis/noticia/2026/10/31/nana-silva-e-eliminada-na-semifinal-do-wta-125-de-curitiba-com-pneu-de-francesa.ghtml",
         "imagem": "",
-        "data": "2026-10-31T16:51:01+00:00",
-        "dataFmt": "31/10/2026 16:51"
-      },
-      {
-        "titulo": "Jodar será top-10 aos 20 anos e supera marca de Guga no tênis",
-        "resumo": "",
-        "url": "https://ge.globo.com/tenis/noticia/2026/10/31/jodar-sera-top-10-aos-20-anos-e-supera-marca-de-guga-no-tenis.ghtml",
-        "imagem": "",
-        "data": "2026-10-31T16:42:05+00:00",
-        "dataFmt": "31/10/2026 16:42"
-      },
-      {
-        "titulo": "Alcaraz leva a melhor em jogo de ex-números 1, elimina Medvedev e vai à final em Viena",
-        "resumo": "",
-        "url": "https://ge.globo.com/tenis/noticia/2026/10/31/alcaraz-leva-a-melhor-em-jogo-de-ex-numeros-1-elimina-medvedev-e-vai-a-final-em-viena.ghtml",
-        "imagem": "",
-        "data": "2026-10-31T15:49:27+00:00",
-        "dataFmt": "31/10/2026 15:49"
+        "data": "",
+        "dataFmt": "31/10/2026"
       },
       {
         "titulo": "Luisa Stefani e Dabrowski viram sobre australianas e avanÃ§am Ã  final do WTA 500 de TÃ³quio",
         "resumo": "",
         "url": "https://ge.globo.com/tenis/noticia/2026/10/31/luisa-stefani-e-dabrowski-viram-sobre-australianas-e-avancam-a-final-do-wta-de-toquio.ghtml",
+        "imagem": "",
+        "data": "",
+        "dataFmt": "31/10/2026"
+      },
+      {
+        "titulo": "Alcaraz leva a melhor em jogo de ex-nÃºmeros 1, elimina Medvedev e vai Ã  final em Viena",
+        "resumo": "",
+        "url": "https://ge.globo.com/tenis/noticia/2026/10/31/alcaraz-leva-a-melhor-em-jogo-de-ex-numeros-1-elimina-medvedev-e-vai-a-final-em-viena.ghtml",
+        "imagem": "",
+        "data": "",
+        "dataFmt": "31/10/2026"
+      },
+      {
+        "titulo": "Jodar serÃ¡ top-10 aos 20 anos e supera marca de Guga no tÃªnis",
+        "resumo": "",
+        "url": "https://ge.globo.com/tenis/noticia/2026/10/31/jodar-sera-top-10-aos-20-anos-e-supera-marca-de-guga-no-tenis.ghtml",
         "imagem": "",
         "data": "",
         "dataFmt": "31/10/2026"
@@ -2120,6 +2112,22 @@
   },
   "basquete": {
     "geral": [
+      {
+        "titulo": "Mogi vence Independiente de Oliva e avança ao Final Four da Liga Sul-Americana de Basquete",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/mogi-das-cruzes-suzano/basquete/noticia/2026/10/31/mogi-vence-independiente-de-oliva-e-avanca-ao-final-four-da-liga-sul-americana-de-basquete.ghtml",
+        "imagem": "",
+        "data": "2026-11-01T00:48:29+00:00",
+        "dataFmt": "01/11/2026 00:48"
+      },
+      {
+        "titulo": "Wembanyama veste fantasia de Witcher antes de jogo dos Spurs na NBA",
+        "resumo": "",
+        "url": "https://ge.globo.com/basquete/nba/noticia/2026/10/31/wembanyama-veste-fantasia-de-witcher-antes-de-jogo-dos-spurs-na-nba.ghtml",
+        "imagem": "",
+        "data": "2026-10-31T22:59:48+00:00",
+        "dataFmt": "31/10/2026 22:59"
+      },
       {
         "titulo": "Curry dÃ¡ drible desconcertante e deixa Doncic no chÃ£o: \"NÃ£o esperava que ficasse tÃ£o feio\"",
         "resumo": "",
@@ -2223,27 +2231,19 @@
         "imagem": "",
         "data": "",
         "dataFmt": "29/10/2026"
-      },
-      {
-        "titulo": "LeBron faz dancinha e protagoniza erro inacreditÃ¡vel no aquecimento; veja",
-        "resumo": "",
-        "url": "https://ge.globo.com/basquete/nba/noticia/2026/10/29/lebron-faz-dancinha-e-protagoniza-erro-inacreditavel-no-aquecimento-veja.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "29/10/2026"
-      },
-      {
-        "titulo": "Bam Adebayo comanda primeira vitÃ³ria do Miami Heat e vira maior reboteiro da histÃ³ria da franquia",
-        "resumo": "",
-        "url": "https://ge.globo.com/basquete/nba/noticia/2026/10/29/bam-adebayo-comanda-primeira-vitoria-do-miami-heat-e-vira-maior-reboteiro-da-historia-da-franquia.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "29/10/2026"
       }
     ]
   },
   "ufc": {
     "geral": [
+      {
+        "titulo": "Oktagon 96: Amiran Gogoladze vence luta principal e conquista cinturão meio-médio",
+        "resumo": "",
+        "url": "https://ge.globo.com/combate/noticia/2026/10/31/oktagon-96.ghtml",
+        "imagem": "",
+        "data": "2026-10-31T23:18:36+00:00",
+        "dataFmt": "31/10/2026 23:18"
+      },
       {
         "titulo": "Oktagon 96",
         "resumo": "",
@@ -2360,14 +2360,6 @@
         "titulo": "Makhachev rebate Prates apÃ³s ser provocado: \"VocÃª nÃ£o estÃ¡ no meu nÃ­vel\"",
         "resumo": "",
         "url": "https://ge.globo.com/combate/noticia/2026/10/25/makhachev-rebate-prates-apos-ser-provocado-voce-nao-esta-no-meu-nivel.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "25/10/2026"
-      },
-      {
-        "titulo": "Boxe: O'Shaquie Foster derruba Navarrete duas vezes, vence e unifica trÃªs cinturÃµes",
-        "resumo": "",
-        "url": "https://ge.globo.com/combate/noticia/2026/10/25/boxe-oshaquie-foster-derruba-navarrete-duas-vezes-vence-e-unifica-tres-cinturoes.ghtml",
         "imagem": "",
         "data": "",
         "dataFmt": "25/10/2026"
