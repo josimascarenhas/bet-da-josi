@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-02T19:25:44-03:00",
+    "atualizadoEm": "2026-11-03T00:37:34-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 419,
     "timesAtualizados": 118,
@@ -1798,7 +1798,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Weverton comenta suspensão forçada contr",
+          "jogador": "Weverton comenta suspensÃ£o forÃ§ada em ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1913,11 +1913,6 @@
       "desfalques": [
         {
           "jogador": "Escalação do Inter",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Atacante sofre parada cardíaca após divi",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
