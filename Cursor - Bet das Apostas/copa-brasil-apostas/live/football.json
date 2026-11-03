@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-03T08:40:53-03:00",
+    "atualizadoEm": "2026-11-03T16:08:54-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 419,
     "timesAtualizados": 118,
@@ -234,9 +234,9 @@
       },
       "desfalques": [
         {
-          "jogador": "Mauricio vive o ano mais artilheiro da c",
+          "jogador": "Contra o Palmeiras, Remo não terá suspen",
           "motivo": "notícia GE",
-          "impacto": "alto"
+          "impacto": "medio"
         }
       ],
       "retornando": [
@@ -375,7 +375,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Weverton comenta suspensão forçada contr",
+          "jogador": "Escalação do Grêmio",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1798,7 +1798,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Weverton comenta suspensÃ£o forÃ§ada em ",
+          "jogador": "Escalação do Grêmio",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Weverton comenta suspensÃ£o forÃ§ada con",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2142,7 +2147,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Remo tem desfalque na defesa, mas ganha ",
+          "jogador": "Contra o Palmeiras, Remo não terá suspen",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2235,7 +2240,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Andrés Gómez continua com dores no pé, a",
+          "jogador": "Relacionados do Vasco",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
