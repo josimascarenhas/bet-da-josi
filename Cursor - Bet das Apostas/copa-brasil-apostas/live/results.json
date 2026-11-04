@@ -1,10 +1,18 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-04T12:09:46.301963-03:00",
+    "atualizadoEm": "2026-11-04T18:26:11.903466-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "br-34-Flamengo-Gremio",
+      "data": "2026-11-04",
+      "comp": "brasileirao",
+      "mandante": "Flamengo",
+      "visitante": "Gremio",
+      "placar": "1-0"
+    },
     {
       "id": "br-33-Remo-Botafogo",
       "data": "2026-10-29",
@@ -236,14 +244,6 @@
       "mandante": "Vasco",
       "visitante": "Remo",
       "placar": "0-0"
-    },
-    {
-      "id": "br-29-Vitoria-Chapecoense",
-      "data": "2026-10-08",
-      "comp": "brasileirao",
-      "mandante": "Vitoria",
-      "visitante": "Chapecoense",
-      "placar": "4-0"
     }
   ]
 }

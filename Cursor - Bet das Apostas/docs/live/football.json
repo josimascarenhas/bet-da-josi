@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-04T12:10:20-03:00",
+    "atualizadoEm": "2026-11-04T18:26:15-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 419,
+    "jogosFinalizados": 420,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + openligadb.de"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -234,7 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Contra o Palmeiras, Remo não terá suspen",
+          "jogador": "Escalação do Palmeiras",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -340,7 +340,7 @@
     "Flamengo": {
       "brasileirao": {
         "posicao": 2,
-        "pontos": 57,
+        "pontos": 60,
         "ultimos5": [
           "E 1-1 SAOPA",
           "E 1-1",
@@ -367,10 +367,10 @@
           "gpg": 2.0,
           "gsg": 1.0
         },
-        "vitorias": 17,
+        "vitorias": 18,
         "empates": 6,
         "derrotas": 7,
-        "golsPro": 63,
+        "golsPro": 64,
         "golsContra": 35
       },
       "desfalques": [
@@ -847,7 +847,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do Bahia contra o SÃ£o Paulo",
+          "jogador": "EscalaÃ§Ã£o do Bahia",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1362,7 +1362,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Em recuperação de lesão, Danilo treina s",
+          "jogador": "Montoro retorna de suspensão e volta a s",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1792,9 +1792,9 @@
         },
         "vitorias": 10,
         "empates": 8,
-        "derrotas": 13,
+        "derrotas": 14,
         "golsPro": 37,
-        "golsContra": 37
+        "golsContra": 38
       },
       "desfalques": [
         {
@@ -2142,6 +2142,11 @@
       },
       "desfalques": [
         {
+          "jogador": "Escalação do Palmeiras",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
           "jogador": "Remo nÃ£o terÃ¡ suspensos contra o Palme",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -2235,7 +2240,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Relacionados do Vasco",
+          "jogador": "Cuesta passará por cirurgia e não jogará",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
