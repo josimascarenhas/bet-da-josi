@@ -1,8 +1,8 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-04T18:26:15-03:00",
+    "atualizadoEm": "2026-11-04T22:41:08-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 420,
+    "jogosFinalizados": 422,
     "timesAtualizados": 118,
     "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
@@ -14,8 +14,8 @@
         "Flamengo",
         "Fluminense",
         "Athletico-PR",
-        "Bahia",
         "Bragantino",
+        "Bahia",
         "Coritiba",
         "Santos",
         "Cruzeiro",
@@ -199,7 +199,7 @@
     "Palmeiras": {
       "brasileirao": {
         "posicao": 1,
-        "pontos": 61,
+        "pontos": 64,
         "ultimos5": [
           "D 1-2 ATLMG",
           "V 4-0",
@@ -226,15 +226,15 @@
           "gpg": 1.83,
           "gsg": 0.92
         },
-        "vitorias": 17,
+        "vitorias": 18,
         "empates": 10,
         "derrotas": 4,
-        "golsPro": 51,
-        "golsContra": 25
+        "golsPro": 54,
+        "golsContra": 26
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Palmeiras",
+          "jogador": "Sosa avanÃ§a em recuperaÃ§Ã£o, mas ainda",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -375,7 +375,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Grêmio",
+          "jogador": "Athletico x Vasco",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -491,7 +491,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Athletico tem desfalque no meio e expect",
+          "jogador": "Athletico x Vasco",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -811,7 +811,7 @@
     },
     "Bahia": {
       "brasileirao": {
-        "posicao": 5,
+        "posicao": 6,
         "pontos": 46,
         "ultimos5": [
           "E 1-1 COR",
@@ -904,8 +904,8 @@
     },
     "Bragantino": {
       "brasileirao": {
-        "posicao": 6,
-        "pontos": 44,
+        "posicao": 5,
+        "pontos": 47,
         "ultimos5": [
           "E 1-1",
           "E 0-0 COR",
@@ -932,11 +932,11 @@
           "gpg": 1.0,
           "gsg": 1.09
         },
-        "vitorias": 12,
+        "vitorias": 13,
         "empates": 8,
         "derrotas": 9,
-        "golsPro": 34,
-        "golsContra": 28
+        "golsPro": 36,
+        "golsContra": 29
       },
       "desfalques": [
         {
@@ -1362,7 +1362,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Montoro retorna de suspensão e volta a s",
+          "jogador": "Montoro retorna de suspensÃ£o e volta a ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1672,9 +1672,9 @@
         },
         "vitorias": 11,
         "empates": 9,
-        "derrotas": 11,
-        "golsPro": 47,
-        "golsContra": 47
+        "derrotas": 12,
+        "golsPro": 48,
+        "golsContra": 49
       },
       "desfalques": [
         {
@@ -1797,6 +1797,11 @@
         "golsContra": 38
       },
       "desfalques": [
+        {
+          "jogador": "EscalaÃ§Ã£o do GrÃªmio",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Weverton comenta suspensÃ£o forÃ§ada con",
           "motivo": "notícia GE",
@@ -2136,16 +2141,11 @@
         },
         "vitorias": 9,
         "empates": 10,
-        "derrotas": 12,
-        "golsPro": 43,
-        "golsContra": 44
+        "derrotas": 13,
+        "golsPro": 44,
+        "golsContra": 47
       },
       "desfalques": [
-        {
-          "jogador": "Escalação do Palmeiras",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
         {
           "jogador": "Remo nÃ£o terÃ¡ suspensos contra o Palme",
           "motivo": "notícia GE",
@@ -2239,6 +2239,11 @@
         "golsContra": 47
       },
       "desfalques": [
+        {
+          "jogador": "Athletico x Vasco",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Cuesta passará por cirurgia e não jogará",
           "motivo": "notícia GE",
