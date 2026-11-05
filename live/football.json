@@ -1,8 +1,8 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-04T22:41:08-03:00",
+    "atualizadoEm": "2026-11-05T14:33:04-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 422,
+    "jogosFinalizados": 423,
     "timesAtualizados": 118,
     "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
@@ -19,8 +19,8 @@
         "Coritiba",
         "Santos",
         "Cruzeiro",
-        "Corinthians",
         "Vitoria",
+        "Corinthians",
         "Gremio",
         "Remo",
         "Botafogo",
@@ -491,7 +491,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Athletico x Vasco",
+          "jogador": "Viveros Ã© expulso por pisÃ£o e Ã© desfa",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -584,9 +584,9 @@
         },
         "vitorias": 15,
         "empates": 9,
-        "derrotas": 8,
-        "golsPro": 53,
-        "golsContra": 41
+        "derrotas": 9,
+        "golsPro": 54,
+        "golsContra": 43
       },
       "desfalques": [
         {
@@ -1210,7 +1210,7 @@
     },
     "Corinthians": {
       "brasileirao": {
-        "posicao": 10,
+        "posicao": 11,
         "pontos": 41,
         "ultimos5": [
           "E 1-1",
@@ -1246,7 +1246,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Mirassol",
+          "jogador": "Yuri Ã© expulso, e Corinthians tem mais ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1425,8 +1425,8 @@
     },
     "Vitoria": {
       "brasileirao": {
-        "posicao": 11,
-        "pontos": 39,
+        "posicao": 10,
+        "pontos": 42,
         "ultimos5": [
           "D 0-2",
           "D 0-4 PAL",
@@ -1453,11 +1453,11 @@
           "gpg": 0.58,
           "gsg": 2.17
         },
-        "vitorias": 11,
+        "vitorias": 12,
         "empates": 6,
         "derrotas": 13,
-        "golsPro": 36,
-        "golsContra": 44
+        "golsPro": 38,
+        "golsContra": 45
       },
       "desfalques": [
         {
@@ -1580,12 +1580,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Lucas Moura despista sobre futuro no São",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Sabino vira desfalque contra o Corinthia",
+          "jogador": "SÃ£o Paulo tem trÃªs suspensos para a pr",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1797,6 +1792,11 @@
         "golsContra": 38
       },
       "desfalques": [
+        {
+          "jogador": "Renato justifica desfalques e critica",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "EscalaÃ§Ã£o do GrÃªmio",
           "motivo": "notícia GE",
