@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-05T14:33:00.177908-03:00",
+    "atualizadoEm": "2026-11-05T20:19:25.917145-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
@@ -12,6 +12,14 @@
       "mandante": "Vitoria",
       "visitante": "Fluminense",
       "placar": "2-1"
+    },
+    {
+      "id": "br-34-Chapecoense-Mirassol",
+      "data": "2026-11-05",
+      "comp": "brasileirao",
+      "mandante": "Chapecoense",
+      "visitante": "Mirassol",
+      "placar": "2-0"
     },
     {
       "id": "br-34-Flamengo-Gremio",
@@ -236,14 +244,6 @@
       "mandante": "Coritiba",
       "visitante": "Botafogo",
       "placar": "1-1"
-    },
-    {
-      "id": "br-30-Palmeiras-Corinthians",
-      "data": "2026-10-11",
-      "comp": "brasileirao",
-      "mandante": "Palmeiras",
-      "visitante": "Corinthians",
-      "placar": "4-1"
     }
   ]
 }

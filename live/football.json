@@ -1,8 +1,8 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-05T14:33:04-03:00",
+    "atualizadoEm": "2026-11-05T20:19:29-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 423,
+    "jogosFinalizados": 424,
     "timesAtualizados": 118,
     "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
@@ -234,7 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Sosa avanÃ§a em recuperaÃ§Ã£o, mas ainda",
+          "jogador": "EscalaÃ§Ã£o do Palmeiras",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -491,7 +491,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Viveros Ã© expulso por pisÃ£o e Ã© desfa",
+          "jogador": "Athletico x Vasco",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -590,7 +590,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Fluminense tem dez pendurados e liga ale",
+          "jogador": "Escalação do Vitória contra o Fluminense",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Escalação do Fluminense",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1246,6 +1251,16 @@
       },
       "desfalques": [
         {
+          "jogador": "Yuri Alberto, do Corinthians, é denuncia",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Rodrigo Garro sofre lesão no joelho e po",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
           "jogador": "Yuri Ã© expulso, e Corinthians tem mais ",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -1461,12 +1476,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Suspenso pelo TJD, Diego Souza assiste a",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "EscalaÃ§Ã£o do VitÃ³ria",
+          "jogador": "Escalação do Vitória contra o Fluminense",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1673,7 +1683,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Barreal recebe terceiro amarelo e vira d",
+          "jogador": "Barreal sofre lesão na coxa e vai desfal",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1801,11 +1811,6 @@
           "jogador": "EscalaÃ§Ã£o do GrÃªmio",
           "motivo": "notícia GE",
           "impacto": "medio"
-        },
-        {
-          "jogador": "Weverton comenta suspensÃ£o forÃ§ada con",
-          "motivo": "notícia GE",
-          "impacto": "medio"
         }
       ],
       "retornando": [],
@@ -1917,7 +1922,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Barcelona confirma lesão de Rodri, que d",
+          "jogador": "Alan Patrick é absolvido no STJD, mas pr",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2031,9 +2036,9 @@
         },
         "vitorias": 9,
         "empates": 9,
-        "derrotas": 13,
+        "derrotas": 14,
         "golsPro": 37,
-        "golsContra": 44
+        "golsContra": 46
       },
       "desfalques": [
         {
@@ -2324,7 +2329,7 @@
     "Chapecoense": {
       "brasileirao": {
         "posicao": 20,
-        "pontos": 22,
+        "pontos": 25,
         "ultimos5": [
           "D 0-4 FLA",
           "E 2-2",
@@ -2351,10 +2356,10 @@
           "gpg": 0.55,
           "gsg": 1.64
         },
-        "vitorias": 4,
+        "vitorias": 5,
         "empates": 10,
         "derrotas": 17,
-        "golsPro": 34,
+        "golsPro": 36,
         "golsContra": 62
       },
       "desfalques": [
