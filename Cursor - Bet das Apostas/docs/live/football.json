@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-06T15:57:21-03:00",
+    "atualizadoEm": "2026-11-06T20:41:36-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 427,
     "timesAtualizados": 118,
@@ -590,7 +590,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o",
+          "jogador": "EscalaÃ§Ã£o do Fluminense",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -706,7 +706,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Atlético-MG x Cruzeiro",
+          "jogador": "Kaio Jorge Ã© absolvido pelo STJD por pr",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1129,11 +1129,6 @@
           "jogador": "Grêmio tem duas dúvidas para encarar o A",
           "motivo": "notícia GE",
           "impacto": "medio"
-        },
-        {
-          "jogador": "Atlético-MG x Cruzeiro",
-          "motivo": "notícia GE",
-          "impacto": "medio"
         }
       ],
       "retornando": [
@@ -1251,17 +1246,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Destaque do futsal não joga na volta ao ",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
           "jogador": "Atacante pode pegar atÃ© 12 jogos de sus",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Yuri Ã© expulso, e Corinthians tem mais ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1476,7 +1461,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Vitória contra o Fluminense",
+          "jogador": "EscalaÃ§Ã£o do VitÃ³ria contra o Flumine",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1809,6 +1794,11 @@
         },
         {
           "jogador": "Kannemann e Villasanti sÃ£o desfalques c",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Renato justifica desfalques do GrÃªmio p",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
