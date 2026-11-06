@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-05T20:19:29-03:00",
+    "atualizadoEm": "2026-11-06T00:32:36-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 424,
+    "jogosFinalizados": 427,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -16,16 +16,16 @@
         "Athletico-PR",
         "Bragantino",
         "Bahia",
+        "Cruzeiro",
         "Coritiba",
         "Santos",
-        "Cruzeiro",
         "Vitoria",
         "Corinthians",
         "Gremio",
+        "Internacional",
         "Remo",
         "Botafogo",
         "Mirassol",
-        "Internacional",
         "Vasco",
         "Atletico-MG",
         "Sao-Paulo",
@@ -456,7 +456,7 @@
     "Athletico-PR": {
       "brasileirao": {
         "posicao": 4,
-        "pontos": 51,
+        "pontos": 54,
         "ultimos5": [
           "V 2-0 INT",
           "E 0-0",
@@ -483,11 +483,11 @@
           "gpg": 1.17,
           "gsg": 1.25
         },
-        "vitorias": 15,
+        "vitorias": 16,
         "empates": 6,
         "derrotas": 9,
-        "golsPro": 43,
-        "golsContra": 35
+        "golsPro": 46,
+        "golsContra": 36
       },
       "desfalques": [
         {
@@ -675,8 +675,8 @@
     },
     "Cruzeiro": {
       "brasileirao": {
-        "posicao": 9,
-        "pontos": 42,
+        "posicao": 7,
+        "pontos": 45,
         "ultimos5": [
           "D 0-1 BOT",
           "V 1-0",
@@ -703,11 +703,11 @@
           "gpg": 1.18,
           "gsg": 1.64
         },
-        "vitorias": 12,
+        "vitorias": 13,
         "empates": 6,
         "derrotas": 11,
-        "golsPro": 38,
-        "golsContra": 45
+        "golsPro": 41,
+        "golsContra": 47
       },
       "desfalques": [
         {
@@ -846,13 +846,13 @@
         },
         "vitorias": 12,
         "empates": 10,
-        "derrotas": 9,
-        "golsPro": 44,
-        "golsContra": 42
+        "derrotas": 10,
+        "golsPro": 46,
+        "golsContra": 45
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do Bahia",
+          "jogador": "EscalaÃ§Ã£o do Bahia contra o Cruzeiro",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1002,7 +1002,7 @@
     },
     "Coritiba": {
       "brasileirao": {
-        "posicao": 7,
+        "posicao": 8,
         "pontos": 44,
         "ultimos5": [
           "E 0-0",
@@ -1032,9 +1032,9 @@
         },
         "vitorias": 12,
         "empates": 8,
-        "derrotas": 11,
+        "derrotas": 12,
         "golsPro": 41,
-        "golsContra": 45
+        "golsContra": 46
       },
       "desfalques": [
         {
@@ -1256,11 +1256,6 @@
           "impacto": "medio"
         },
         {
-          "jogador": "Rodrigo Garro sofre lesão no joelho e po",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
           "jogador": "Yuri Ã© expulso, e Corinthians tem mais ",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -1341,7 +1336,7 @@
     },
     "Botafogo": {
       "brasileirao": {
-        "posicao": 14,
+        "posicao": 15,
         "pontos": 37,
         "ultimos5": [
           "E 0-0 VIT",
@@ -1647,7 +1642,7 @@
     },
     "Santos": {
       "brasileirao": {
-        "posicao": 8,
+        "posicao": 9,
         "pontos": 42,
         "ultimos5": [
           "D 1-2",
@@ -1886,8 +1881,8 @@
     },
     "Internacional": {
       "brasileirao": {
-        "posicao": 16,
-        "pontos": 35,
+        "posicao": 13,
+        "pontos": 38,
         "ultimos5": [
           "D 0-2",
           "E 1-1 FLA",
@@ -1914,10 +1909,10 @@
           "gpg": 0.91,
           "gsg": 1.36
         },
-        "vitorias": 8,
+        "vitorias": 9,
         "empates": 11,
         "derrotas": 13,
-        "golsPro": 37,
+        "golsPro": 38,
         "golsContra": 43
       },
       "desfalques": [
@@ -2006,7 +2001,7 @@
     },
     "Mirassol": {
       "brasileirao": {
-        "posicao": 15,
+        "posicao": 16,
         "pontos": 36,
         "ultimos5": [
           "E 1-1",
@@ -2116,7 +2111,7 @@
     },
     "Remo": {
       "brasileirao": {
-        "posicao": 13,
+        "posicao": 14,
         "pontos": 37,
         "ultimos5": [
           "V 2-0 VIT",
@@ -2239,9 +2234,9 @@
         },
         "vitorias": 9,
         "empates": 8,
-        "derrotas": 14,
-        "golsPro": 36,
-        "golsContra": 47
+        "derrotas": 15,
+        "golsPro": 37,
+        "golsContra": 50
       },
       "desfalques": [
         {
