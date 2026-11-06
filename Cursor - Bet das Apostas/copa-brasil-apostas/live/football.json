@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-06T08:51:52-03:00",
+    "atualizadoEm": "2026-11-06T15:57:21-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 427,
     "timesAtualizados": 118,
@@ -706,7 +706,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Artilheira do Cruzeiro se emociona após ",
+          "jogador": "Atlético-MG x Cruzeiro",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1126,7 +1126,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Em recuperação de lesão, Danilo treina s",
+          "jogador": "Grêmio tem duas dúvidas para encarar o A",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Atlético-MG x Cruzeiro",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1246,7 +1251,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Yuri Alberto pode pegar atÃ© 12 jogos de",
+          "jogador": "Destaque do futsal não joga na volta ao ",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Atacante pode pegar atÃ© 12 jogos de sus",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
@@ -1793,12 +1803,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Renato justifica desfalques e critica",
+          "jogador": "Grêmio tem duas dúvidas para encarar o A",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
         {
-          "jogador": "EscalaÃ§Ã£o do GrÃªmio",
+          "jogador": "Kannemann e Villasanti sÃ£o desfalques c",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1912,7 +1922,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Alan Patrick é absolvido no STJD, mas pr",
+          "jogador": "Alan Patrick Ã© absolvido no STJD; presi",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
