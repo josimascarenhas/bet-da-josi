@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-06T00:32:36-03:00",
+    "atualizadoEm": "2026-11-06T08:51:52-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 427,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -590,12 +590,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Vitória contra o Fluminense",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Escalação do Fluminense",
+          "jogador": "EscalaÃ§Ã£o",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1251,7 +1246,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Yuri Alberto, do Corinthians, é denuncia",
+          "jogador": "Yuri Alberto pode pegar atÃ© 12 jogos de",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
