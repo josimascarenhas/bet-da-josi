@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-05T20:19:25.917145-03:00",
+    "atualizadoEm": "2026-11-06T00:32:31.604572-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
@@ -20,6 +20,30 @@
       "mandante": "Chapecoense",
       "visitante": "Mirassol",
       "placar": "2-0"
+    },
+    {
+      "id": "br-34-Cruzeiro-Bahia",
+      "data": "2026-11-05",
+      "comp": "brasileirao",
+      "mandante": "Cruzeiro",
+      "visitante": "Bahia",
+      "placar": "3-2"
+    },
+    {
+      "id": "br-34-Internacional-Coritiba",
+      "data": "2026-11-05",
+      "comp": "brasileirao",
+      "mandante": "Internacional",
+      "visitante": "Coritiba",
+      "placar": "1-0"
+    },
+    {
+      "id": "br-34-Athletico-PR-Vasco",
+      "data": "2026-11-05",
+      "comp": "brasileirao",
+      "mandante": "Athletico-PR",
+      "visitante": "Vasco",
+      "placar": "3-1"
     },
     {
       "id": "br-34-Flamengo-Gremio",
@@ -220,30 +244,6 @@
       "mandante": "Bahia",
       "visitante": "Mirassol",
       "placar": "1-0"
-    },
-    {
-      "id": "br-30-Chapecoense-Athletico-PR",
-      "data": "2026-10-12",
-      "comp": "brasileirao",
-      "mandante": "Chapecoense",
-      "visitante": "Athletico-PR",
-      "placar": "4-1"
-    },
-    {
-      "id": "br-30-Gremio-Internacional",
-      "data": "2026-10-12",
-      "comp": "brasileirao",
-      "mandante": "Gremio",
-      "visitante": "Internacional",
-      "placar": "3-0"
-    },
-    {
-      "id": "br-30-Coritiba-Botafogo",
-      "data": "2026-10-12",
-      "comp": "brasileirao",
-      "mandante": "Coritiba",
-      "visitante": "Botafogo",
-      "placar": "1-1"
     }
   ]
 }
