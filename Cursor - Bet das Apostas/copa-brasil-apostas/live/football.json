@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-07T01:52:34-03:00",
+    "atualizadoEm": "2026-11-07T08:32:11-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 427,
     "timesAtualizados": 118,
@@ -234,7 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do Palmeiras",
+          "jogador": "Abel fará mudanças contra Vasco, tem dúv",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1246,6 +1246,11 @@
       },
       "desfalques": [
         {
+          "jogador": "Reabilitação de Memphis, opções para os ",
+          "motivo": "notícia GE",
+          "impacto": "alto"
+        },
+        {
           "jogador": "Atacante pode pegar atÃ© 12 jogos de sus",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -2230,12 +2235,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Athletico x Vasco",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Cuesta passará por cirurgia e não jogará",
+          "jogador": "Abel fará mudanças contra Vasco, tem dúv",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
