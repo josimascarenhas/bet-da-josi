@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-07T14:29:22-03:00",
+    "atualizadoEm": "2026-11-07T18:04:11-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 427,
     "timesAtualizados": 118,
@@ -1246,11 +1246,6 @@
       },
       "desfalques": [
         {
-          "jogador": "Reabilitação de Memphis, opções para os ",
-          "motivo": "notícia GE",
-          "impacto": "alto"
-        },
-        {
           "jogador": "Atacante pode pegar atÃ© 12 jogos de sus",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -2137,7 +2132,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Remo nÃ£o terÃ¡ suspensos contra o Palme",
+          "jogador": "Contra o Palmeiras, Remo nÃ£o terÃ¡ susp",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
