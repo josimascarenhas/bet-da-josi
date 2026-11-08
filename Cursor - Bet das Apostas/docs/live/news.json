@@ -1,181 +1,261 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-08T18:58:09.110944+00:00",
+    "atualizadoEm": "2026-11-08T22:44:30.458363+00:00",
     "fonte": "ge.globo.com",
     "fonteUrl": "https://ge.globo.com/"
   },
   "futebol": {
     "geral": [
       {
-        "titulo": "Paranavaí x Athletico-PR - Copa Paraná 2026 - Ao vivo - globoesporte.com",
-        "resumo": "",
-        "url": "https://ge.globo.com/pr/futebol/taca-fpf/jogo/08-11-2026/paranavai-atletico-pr.ghtml",
-        "imagem": "",
-        "data": "2026-11-08T18:48:21+00:00",
-        "dataFmt": "08/11/2026 18:48"
-      },
-      {
-        "titulo": "Afogados x Salgueiro - Campeonato Pernambucano 2026/2027 - Ao vivo - globoesporte.com",
-        "resumo": "",
-        "url": "https://ge.globo.com/pe/petrolina-regiao/futebol/campeonato-pernambucano/jogo/08-11-2026/afogados-salgueirope.ghtml",
-        "imagem": "",
-        "data": "2026-11-08T18:48:13+00:00",
-        "dataFmt": "08/11/2026 18:48"
-      },
-      {
-        "titulo": "Athletic Club x Atlético-GO - Campeonato Brasileiro Série B 2026 - Ao vivo - globoesporte.com",
-        "resumo": "",
-        "url": "https://ge.globo.com/mg/zona-da-mata-centro-oeste/futebol/brasileirao-serie-b/jogo/08-11-2026/athletic-club-atletico-go.ghtml",
-        "imagem": "",
-        "data": "2026-11-08T18:46:53+00:00",
-        "dataFmt": "08/11/2026 18:46"
-      },
-      {
-        "titulo": "Porto-PE x Chã Grande - Campeonato Pernambucano 2026/2027 - Ao vivo - globoesporte.com",
-        "resumo": "",
-        "url": "https://ge.globo.com/pe/caruaru-regiao/futebol/campeonato-pernambucano/jogo/08-11-2026/porto-chagrande.ghtml",
-        "imagem": "",
-        "data": "2026-11-08T18:45:39+00:00",
-        "dataFmt": "08/11/2026 18:45"
-      },
-      {
-        "titulo": "FácilNet x Petrolina - Campeonato Pernambucano 2026/2027 - Ao vivo - globoesporte.com",
-        "resumo": "",
-        "url": "https://ge.globo.com/pe/petrolina-regiao/futebol/campeonato-pernambucano/jogo/08-11-2026/facilnet-petrolina.ghtml",
-        "imagem": "",
-        "data": "2026-11-08T18:44:44+00:00",
-        "dataFmt": "08/11/2026 18:44"
-      },
-      {
-        "titulo": "Central x Belo Jardim - Campeonato Pernambucano 2026/2027 - Ao vivo - globoesporte.com",
-        "resumo": "",
-        "url": "https://ge.globo.com/pe/caruaru-regiao/futebol/campeonato-pernambucano/jogo/08-11-2026/central-belo-jardim.ghtml",
-        "imagem": "",
-        "data": "2026-11-08T18:43:45+00:00",
-        "dataFmt": "08/11/2026 18:43"
-      },
-      {
-        "titulo": "Ypiranga-PE x Pesqueira - Campeonato Pernambucano 2026/2027 - Ao vivo - globoesporte.com",
-        "resumo": "",
-        "url": "https://ge.globo.com/pe/caruaru-regiao/futebol/campeonato-pernambucano/jogo/08-11-2026/ypiranga-pe-pesqueira.ghtml",
-        "imagem": "",
-        "data": "2026-11-08T18:42:32+00:00",
-        "dataFmt": "08/11/2026 18:42"
-      },
-      {
-        "titulo": "United busca empate de forma heroica nos acréscimos, mas segue no Z-3",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/jogo/08-11-2026/Manchesterunited-Astonvilla.ghtml",
-        "imagem": "",
-        "data": "2026-11-08T18:41:20+00:00",
-        "dataFmt": "08/11/2026 18:41"
-      },
-      {
-        "titulo": "Serra Branca x Atlético-PB - Copa Paraíba 2026 - Ao vivo - globoesporte.com",
-        "resumo": "",
-        "url": "https://ge.globo.com/pb/futebol/copa-paraiba/jogo/08-11-2026/serra-branca-ec-atletico-pb.ghtml",
-        "imagem": "",
-        "data": "2026-11-08T18:36:36+00:00",
-        "dataFmt": "08/11/2026 18:36"
-      },
-      {
-        "titulo": "Vasco x Palmeiras - Copa do Brasil 2026 - Ao vivo - globoesporte.com",
-        "resumo": "",
-        "url": "https://ge.globo.com/rj/futebol/copa-do-brasil/jogo/08-11-2026/vasco-palmeiras.ghtml",
-        "imagem": "",
-        "data": "2026-11-08T18:32:20+00:00",
-        "dataFmt": "08/11/2026 18:32"
-      },
-      {
-        "titulo": "Vai ficar? Lateral ganha chance em nova posição no Cruzeiro em reta final de contrato",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/11/08/vai-ficar-lateral-ganha-chance-em-nova-posicao-no-cruzeiro-em-reta-final-de-contrato.ghtml",
-        "imagem": "",
-        "data": "2026-11-08T18:10:54+00:00",
-        "dataFmt": "08/11/2026 18:10"
-      },
-      {
-        "titulo": "Hugo Pilo se torna primeiro técnico estrangeiro campeão da Segunda Divisão Tocantinense; veja ranking",
-        "resumo": "",
-        "url": "https://ge.globo.com/to/futebol/tocantinense-segunda-divisao/noticia/2026/11/08/hugo-pilo-se-torna-primeiro-tecnico-estrangeiro-campeao-da-segunda-divisao-tocantinense-veja-ranking.ghtml",
-        "imagem": "",
-        "data": "2026-11-08T18:00:00+00:00",
-        "dataFmt": "08/11/2026 18:00"
-      },
-      {
-        "titulo": "Paysandu confirma estreia no Parazão 2027 e decisão da Supercopa no Mangueirão",
-        "resumo": "",
-        "url": "https://ge.globo.com/pa/futebol/times/paysandu/noticia/2026/11/08/paysandu-confirma-estreia-no-parazao-2027-e-decisao-da-supercopa-no-mangueirao.ghtml",
-        "imagem": "",
-        "data": "2026-11-08T17:58:59+00:00",
-        "dataFmt": "08/11/2026 17:58"
-      },
-      {
-        "titulo": "Contratações do CSA para 2027: veja quem chega, quem fica e quem vai embora",
-        "resumo": "",
-        "url": "https://ge.globo.com/al/futebol/times/csa/noticia/2026/11/08/contratacoes-do-csa-para-2027-veja-quem-chega-quem-fica-e-quem-vai-embora.ghtml",
-        "imagem": "",
-        "data": "2026-11-08T17:52:32+00:00",
-        "dataFmt": "08/11/2026 17:52"
-      },
-      {
-        "titulo": "Cria do Náutico, Thiaguinho marca nos Aflitos e comemora vitória do CRB: \"Entramos ligados\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/al/futebol/times/crb/noticia/2026/11/08/cria-do-nautico-thiaguinho-marca-nos-aflitos-e-comemora-vitoria-do-crb-entramos-ligados.ghtml",
-        "imagem": "",
-        "data": "2026-11-08T17:35:14+00:00",
-        "dataFmt": "08/11/2026 17:35"
-      },
-      {
-        "titulo": "Bismarck: da glória no Campinense às passagens apagadas por Treze e Botafogo-PB",
-        "resumo": "",
-        "url": "https://ge.globo.com/pb/futebol/noticia/2026/11/08/bismarck-da-gloria-no-campinense-as-passagens-apagadas-por-treze-e-botafogo-pb.ghtml",
-        "imagem": "",
-        "data": "2026-11-08T17:28:31+00:00",
-        "dataFmt": "08/11/2026 17:28"
-      },
-      {
-        "titulo": "Jogadores do Fluminense se mobilizam em campanha “fica, Thiago Silva\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/11/08/jogadores-do-fluminense-se-mobilizam-em-campanha-fica-thiago-silva.ghtml",
-        "imagem": "",
-        "data": "2026-11-08T17:21:49+00:00",
-        "dataFmt": "08/11/2026 17:21"
-      },
-      {
-        "titulo": "Atlético de Madrid x Barcelona - Campeonato Espanhol 2026/27 - globoesporte.com",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/jogo/08-11-2026/atleticodemadri-barcelona.ghtml",
-        "imagem": "",
-        "data": "2026-11-08T17:01:51+00:00",
-        "dataFmt": "08/11/2026 17:01"
-      },
-      {
-        "titulo": "Ceará x América-MG - Campeonato Brasileiro Série B 2026 - globoesporte.com",
-        "resumo": "",
-        "url": "https://ge.globo.com/ce/futebol/brasileirao-serie-b/jogo/08-11-2026/ceara-america-mg.ghtml",
-        "imagem": "",
-        "data": "2026-11-08T17:01:45+00:00",
-        "dataFmt": "08/11/2026 17:01"
-      },
-      {
-        "titulo": "Goiás x Ponte Preta - Campeonato Brasileiro Série B 2026 - globoesporte.com",
+        "titulo": "Goiás x Ponte Preta - Campeonato Brasileiro Série B 2026 - Ao vivo - globoesporte.com",
         "resumo": "",
         "url": "https://ge.globo.com/go/futebol/brasileirao-serie-b/jogo/08-11-2026/goias-ponte-preta.ghtml",
         "imagem": "",
-        "data": "2026-11-08T17:01:43+00:00",
-        "dataFmt": "08/11/2026 17:01"
+        "data": "2026-11-08T22:41:45+00:00",
+        "dataFmt": "08/11/2026 22:41"
+      },
+      {
+        "titulo": "Ceará x América-MG - Campeonato Brasileiro Série B 2026 - Ao vivo - globoesporte.com",
+        "resumo": "",
+        "url": "https://ge.globo.com/ce/futebol/brasileirao-serie-b/jogo/08-11-2026/ceara-america-mg.ghtml",
+        "imagem": "",
+        "data": "2026-11-08T22:41:39+00:00",
+        "dataFmt": "08/11/2026 22:41"
+      },
+      {
+        "titulo": "Palmeiras se classifica para a 13ª final com o técnico Abel Ferreira",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/08/palmeiras-se-classifica-para-a-13a-final-com-o-tecnico-abel-ferreira.ghtml",
+        "imagem": "",
+        "data": "2026-11-08T22:40:50+00:00",
+        "dataFmt": "08/11/2026 22:40"
+      },
+      {
+        "titulo": "Guarani elimina o Palmeiras e vai enfrentar o São Paulo nas semifinais do Paulista Sub-14",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/campinas-e-regiao/futebol/times/guarani/noticia/2026/11/08/guarani-elimina-o-palmeiras-e-vai-enfrentar-o-sao-paulo-nas-semifinais-do-paulista-sub-14.ghtml",
+        "imagem": "",
+        "data": "2026-11-08T22:40:44+00:00",
+        "dataFmt": "08/11/2026 22:40"
+      },
+      {
+        "titulo": "Carlos Miguel pega quinto pênalti em três decisões e é herói mais uma vez no Palmeiras",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/08/carlos-miguel-pega-quinto-penalti-em-tres-decisoes-e-e-heroi-mais-uma-vez-no-palmeiras.ghtml",
+        "imagem": "",
+        "data": "2026-11-08T22:38:26+00:00",
+        "dataFmt": "08/11/2026 22:38"
+      },
+      {
+        "titulo": "Com brilho de Carlos Miguel, Palmeiras elimina o Vasco e vai à final da Copa do Brasil",
+        "resumo": "",
+        "url": "https://ge.globo.com/rj/futebol/copa-do-brasil/jogo/08-11-2026/vasco-palmeiras.ghtml",
+        "imagem": "",
+        "data": "2026-11-08T22:37:24+00:00",
+        "dataFmt": "08/11/2026 22:37"
+      },
+      {
+        "titulo": "Atuações do Vasco: Gabriel e Paulo Henrique os piores, e Gómez o vilão na eliminação; dê suas notas",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/11/08/atuacoes-do-vasco-gabriel-e-paulo-henrique-os-piores-e-gomez-o-vilao-em-eliminacao-de-suas-notas.ghtml",
+        "imagem": "",
+        "data": "2026-11-08T22:36:22+00:00",
+        "dataFmt": "08/11/2026 22:36"
+      },
+      {
+        "titulo": "Andrés Gómez perde pênalti decisivo em Vasco x Palmeiras e deixa gramado consolado por Arias",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/11/08/andres-gomez-perde-penalti-decisivo-em-vasco-x-palmeiras-e-sai-de-campo-consolado-por-arias.ghtml",
+        "imagem": "",
+        "data": "2026-11-08T22:33:33+00:00",
+        "dataFmt": "08/11/2026 22:33"
+      },
+      {
+        "titulo": "Nacional de Patos x Campinense - Copa Paraíba 2026 - globoesporte.com",
+        "resumo": "",
+        "url": "https://ge.globo.com/pb/futebol/copa-paraiba/jogo/08-11-2026/nacionaldepatos-campinense.ghtml",
+        "imagem": "",
+        "data": "2026-11-08T22:31:21+00:00",
+        "dataFmt": "08/11/2026 22:31"
+      },
+      {
+        "titulo": "Com Palmeiras na final, Grêmio terá vaga na fase de grupos da Libertadores se não for rebaixado",
+        "resumo": "",
+        "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/11/08/com-palmeiras-na-final-gremio-tera-vaga-na-fase-de-grupos-da-libertadores-se-nao-for-rebaixado.ghtml",
+        "imagem": "",
+        "data": "2026-11-08T22:30:17+00:00",
+        "dataFmt": "08/11/2026 22:30"
+      },
+      {
+        "titulo": "Palmeiras garante R$ 34 milhões com vaga na final da Copa do Brasil e aumenta arrecadação no ano",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/08/palmeiras-garante-r-34-milhoes-com-vaga-na-final-da-copa-do-brasil-e-aumenta-arrecadacao-no-ano.ghtml",
+        "imagem": "",
+        "data": "2026-11-08T22:24:24+00:00",
+        "dataFmt": "08/11/2026 22:24"
+      },
+      {
+        "titulo": "Atuações do Palmeiras: defesa falha, mas Carlos Miguel é herói outra vez; dê suas notas",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/08/atuacoes-do-palmeiras-defesa-falha-mas-carlos-miguel-e-heroi-outra-vez-de-suas-notas.ghtml",
+        "imagem": "",
+        "data": "2026-11-08T22:23:39+00:00",
+        "dataFmt": "08/11/2026 22:23"
+      },
+      {
+        "titulo": "Marcílio Dias vence o Figueirense em jogo de semifinal com três expulsões na Copa SC",
+        "resumo": "",
+        "url": "https://ge.globo.com/sc/futebol/copa-santa-catarina/jogo/08-11-2026/marciliodias-figueirense.ghtml",
+        "imagem": "",
+        "data": "2026-11-08T22:21:13+00:00",
+        "dataFmt": "08/11/2026 22:21"
+      },
+      {
+        "titulo": "Atlético-GO vira sobre o Athletic de forma épica e segue na luta por acesso na Série B",
+        "resumo": "",
+        "url": "https://ge.globo.com/mg/zona-da-mata-centro-oeste/futebol/brasileirao-serie-b/jogo/08-11-2026/athletic-club-atletico-go.ghtml",
+        "imagem": "",
+        "data": "2026-11-08T22:03:14+00:00",
+        "dataFmt": "08/11/2026 22:03"
+      },
+      {
+        "titulo": "Barcelona vence o Atlético de Madrid de virada e segue firme na liderança da LaLiga",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/jogo/08-11-2026/atleticodemadri-barcelona.ghtml",
+        "imagem": "",
+        "data": "2026-11-08T22:00:01+00:00",
+        "dataFmt": "08/11/2026 22:00"
+      },
+      {
+        "titulo": "Gabigol, do Santos, registra encontro com ídolo Lewis Hamilton",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/11/08/gabigol-do-santos-registra-encontro-com-idolo-lewis-hamilton.ghtml",
+        "imagem": "",
+        "data": "2026-11-08T21:54:33+00:00",
+        "dataFmt": "08/11/2026 21:54"
+      },
+      {
+        "titulo": "Glauber Gonçalves é eleito presidente do Remo para o triênio 2027-2029",
+        "resumo": "",
+        "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/11/08/glauber-goncalves-e-eleito-presidente-do-remo-para-o-trienio-2027-2029.ghtml",
+        "imagem": "",
+        "data": "2026-11-08T21:47:11+00:00",
+        "dataFmt": "08/11/2026 21:47"
+      },
+      {
+        "titulo": "Neymar brinca após erro com nome de Bortoleto: \"Se tivesse um nome mais abrasileirado...\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/11/08/neymar-brinca-apos-erro-com-nome-de-bortoleto-se-tivesse-um-nome-mais-abrasileirado.ghtml",
+        "imagem": "",
+        "data": "2026-11-08T21:38:21+00:00",
+        "dataFmt": "08/11/2026 21:38"
+      },
+      {
+        "titulo": "Dupla sequência sem derrotas e título: veja como foi a 1ª passagem de Gerson Gusmão pelo River-PI",
+        "resumo": "",
+        "url": "https://ge.globo.com/pi/futebol/times/river-pi/noticia/2026/11/08/dupla-sequencia-sem-derrotas-e-titulo-veja-como-foi-a-1a-passagem-de-gerson-gusmao-pelo-river-pi.ghtml",
+        "imagem": "",
+        "data": "2026-11-08T21:31:20+00:00",
+        "dataFmt": "08/11/2026 21:31"
+      },
+      {
+        "titulo": "1º de Maio vence o Ferroviário de virada por 4 a 2, mas dá adeus ao Pernambucano",
+        "resumo": "",
+        "url": "https://ge.globo.com/pe/petrolina-regiao/futebol/campeonato-pernambucano/noticia/2026/11/08/1o-de-maio-vence-o-ferroviario-de-virada-por-4-a-2-mas-da-adeus-ao-pernambucano.ghtml",
+        "imagem": "",
+        "data": "2026-11-08T21:23:47+00:00",
+        "dataFmt": "08/11/2026 21:23"
       }
     ],
     "times": {
       "Palmeiras": [
         {
-          "titulo": "Vasco x Palmeiras - Copa do Brasil 2026 - Ao vivo - globoesporte.com",
+          "titulo": "Palmeiras se classifica para a 13ª final com o técnico Abel Ferreira",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/08/palmeiras-se-classifica-para-a-13a-final-com-o-tecnico-abel-ferreira.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T22:40:50+00:00",
+          "dataFmt": "08/11/2026 22:40"
+        },
+        {
+          "titulo": "Guarani elimina o Palmeiras e vai enfrentar o São Paulo nas semifinais do Paulista Sub-14",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/campinas-e-regiao/futebol/times/guarani/noticia/2026/11/08/guarani-elimina-o-palmeiras-e-vai-enfrentar-o-sao-paulo-nas-semifinais-do-paulista-sub-14.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T22:40:44+00:00",
+          "dataFmt": "08/11/2026 22:40"
+        },
+        {
+          "titulo": "Carlos Miguel pega quinto pênalti em três decisões e é herói mais uma vez no Palmeiras",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/08/carlos-miguel-pega-quinto-penalti-em-tres-decisoes-e-e-heroi-mais-uma-vez-no-palmeiras.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T22:38:26+00:00",
+          "dataFmt": "08/11/2026 22:38"
+        },
+        {
+          "titulo": "Com brilho de Carlos Miguel, Palmeiras elimina o Vasco e vai à final da Copa do Brasil",
           "resumo": "",
           "url": "https://ge.globo.com/rj/futebol/copa-do-brasil/jogo/08-11-2026/vasco-palmeiras.ghtml",
           "imagem": "",
-          "data": "2026-11-08T18:32:20+00:00",
-          "dataFmt": "08/11/2026 18:32"
+          "data": "2026-11-08T22:37:24+00:00",
+          "dataFmt": "08/11/2026 22:37"
+        },
+        {
+          "titulo": "Andrés Gómez perde pênalti decisivo em Vasco x Palmeiras e deixa gramado consolado por Arias",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/11/08/andres-gomez-perde-penalti-decisivo-em-vasco-x-palmeiras-e-sai-de-campo-consolado-por-arias.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T22:33:33+00:00",
+          "dataFmt": "08/11/2026 22:33"
+        },
+        {
+          "titulo": "Com Palmeiras na final, Grêmio terá vaga na fase de grupos da Libertadores se não for rebaixado",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/11/08/com-palmeiras-na-final-gremio-tera-vaga-na-fase-de-grupos-da-libertadores-se-nao-for-rebaixado.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T22:30:17+00:00",
+          "dataFmt": "08/11/2026 22:30"
+        },
+        {
+          "titulo": "Palmeiras garante R$ 34 milhões com vaga na final da Copa do Brasil e aumenta arrecadação no ano",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/08/palmeiras-garante-r-34-milhoes-com-vaga-na-final-da-copa-do-brasil-e-aumenta-arrecadacao-no-ano.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T22:24:24+00:00",
+          "dataFmt": "08/11/2026 22:24"
+        },
+        {
+          "titulo": "Atuações do Palmeiras: defesa falha, mas Carlos Miguel é herói outra vez; dê suas notas",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/08/atuacoes-do-palmeiras-defesa-falha-mas-carlos-miguel-e-heroi-outra-vez-de-suas-notas.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T22:23:39+00:00",
+          "dataFmt": "08/11/2026 22:23"
+        },
+        {
+          "titulo": "Gustavo Gómez se desentende com policial militar em Vasco x Palmeiras; veja vídeo",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/08/gustavo-gomez-se-desentende-com-a-policia-militar-em-vasco-x-palmeiras-veja-video.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T21:04:04+00:00",
+          "dataFmt": "08/11/2026 21:04"
+        },
+        {
+          "titulo": "PC Oliveira diz que Gabriel Pereira deveria ter sido expulso em Vasco x Palmeiras; veja vídeo",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/08/pc-oliveira-diz-que-gabriel-pereira-deveria-ter-sido-expulso-em-vasco-x-palmeiras-veja-video.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T20:30:49+00:00",
+          "dataFmt": "08/11/2026 20:30"
+        },
+        {
+          "titulo": "Futuro investidor da SAF do Vasco, Lamacchia vê semifinal contra o Palmeiras no meio da torcida",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/11/08/novo-dono-da-saf-do-vasco-lamacchia-ve-semifinal-contra-o-palmeiras-no-meio-da-torcida.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T19:34:47+00:00",
+          "dataFmt": "08/11/2026 19:34"
         },
         {
           "titulo": "Assermurb goleia Palmeiras-AC, garante acesso e avança à final do Acreano de Futsal Feminino Série B",
@@ -184,125 +264,29 @@
           "imagem": "",
           "data": "2026-11-08T16:30:06+00:00",
           "dataFmt": "08/11/2026 16:30"
-        },
-        {
-          "titulo": "Veja cinco motivos para o torcedor do Vasco acreditar na virada sobre o Palmeiras na Copa do Brasil",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/11/08/veja-cinco-motivos-para-o-torcedor-do-vasco-acreditar-na-virada-sobre-o-palmeiras-na-copa-do-brasil.ghtml",
-          "imagem": "",
-          "data": "2026-11-08T13:00:00+00:00",
-          "dataFmt": "08/11/2026 13:00"
-        },
-        {
-          "titulo": "Abel deixa Luxemburgo para trás no Palmeiras e busca ampliar mais um recorde na Copa do Brasil",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/08/abel-deixa-luxemburgo-para-tras-no-palmeiras-e-busca-ampliar-mais-um-recorde-na-copa-do-brasil.ghtml",
-          "imagem": "",
-          "data": "2026-11-08T10:51:09+00:00",
-          "dataFmt": "08/11/2026 10:51"
-        },
-        {
-          "titulo": "Veja como foi o Ãºltimo treino antes da viagem ao Rio",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/07/escalacao-do-palmeiras-sosa-deve-ser-novidade-em-semifinal-da-copa-do-brasil.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "07/11/2026"
-        },
-        {
-          "titulo": "Palmeiras desembarca no Rio para semi da Copa do Brasil; veja relacionados",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/07/palmeiras-desembarca-no-rio-para-semi-da-copa-do-brasil-com-sosa-como-novidade-veja-relacionados.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "07/11/2026"
-        },
-        {
-          "titulo": "Final da Libertadores terÃ¡ venda de ingressos para setor misto",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/06/palmeiras-x-estudiantes-conmebol-anuncia-nova-venda-de-ingressos-para-torcida-mista.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "06/11/2026"
-        },
-        {
-          "titulo": "Palmeirenses esgotam setor exclusivo do CentenÃ¡rio",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/06/torcida-do-palmeiras-esgota-ingressos-para-setor-exclusivo-na-final-da-libertadores.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "06/11/2026"
-        },
-        {
-          "titulo": "Torcida reclama de ingressos da final da Libertadores; entenda",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/07/torcida-do-palmeiras-reclama-da-venda-de-ingressos-para-final-da-libertadores-veja-o-que-diz-o-clube.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "07/11/2026"
-        },
-        {
-          "titulo": "Abel farÃ¡ mudanÃ§as contra Vasco e manda recado a Vitor Roque",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/07/abel-fara-mudancas-contra-vasco-tem-duvida-no-palmeiras-e-avisa-vitor-roque-tem-que-se-preparar.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "07/11/2026"
-        },
-        {
-          "titulo": "Palmeiras anuncia renovaÃ§Ã£o de Erick BelÃ©",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/06/palmeiras-anuncia-renovacao-de-erick-bele-ate-2031.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "06/11/2026"
-        },
-        {
-          "titulo": "Palmeiras ou Vasco? Deyverson declara torcida na Copa do Brasil",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/06/deyverson-declara-torcida-na-copa-do-brasil-ao-palmeiras-tenho-um-enorme-carinho-pelo-vasco-mas.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "06/11/2026"
         }
       ],
       "Flamengo": [
         {
-          "titulo": "Teresina anuncia atacante Lukinha, ex-Flamengo-PI, para o Piauiense 2027",
+          "titulo": "Gallardo convoca Equador com jogadores de Flamengo, Atlético-MG, Cruzeiro e Inter",
           "resumo": "",
-          "url": "https://ge.globo.com/pi/futebol/noticia/2026/11/08/teresina-anuncia-atacante-lukinha-ex-flamengo-pi-para-o-piauiense-2027.ghtml",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/11/08/gallardo-convoca-equador-pela-primeira-vez-com-jogadores-de-flamengo-e-atletico-mg.ghtml",
           "imagem": "",
-          "data": "2026-11-08T15:40:45+00:00",
-          "dataFmt": "08/11/2026 15:40"
-        },
-        {
-          "titulo": "Flamengo tem terceira melhor campanha até a 34ª rodada do Brasileirão e fica próximo de superar 2025",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/11/08/flamengo-tem-terceira-melhor-campanha-ate-a-34a-rodada-do-brasileirao-e-fica-proximo-de-superar-2025.ghtml",
-          "imagem": "",
-          "data": "2026-11-08T14:00:11+00:00",
-          "dataFmt": "08/11/2026 14:00"
-        },
-        {
-          "titulo": "NBB: Flamengo vence Pato Basquete e chega a cinco jogos de invencibilidade",
-          "resumo": "",
-          "url": "https://ge.globo.com/pr/basquete/nbb/noticia/2026/11/08/nbb-flamengo-vence-pato-basquete-e-chega-a-cinco-jogos-de-invencibilidade.ghtml",
-          "imagem": "",
-          "data": "2026-11-08T13:19:29+00:00",
-          "dataFmt": "08/11/2026 13:19"
-        },
-        {
-          "titulo": "Grêmio iguala o Flamengo como maior finalista da Copa do Brasil; veja a lista",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/copa-do-brasil/noticia/2026/11/08/gremio-iguala-o-flamengo-como-maior-finalista-da-copa-do-brasil-veja-a-lista.ghtml",
-          "imagem": "",
-          "data": "2026-11-08T10:52:36+00:00",
-          "dataFmt": "08/11/2026 10:52"
+          "data": "2026-11-08T19:32:03+00:00",
+          "dataFmt": "08/11/2026 19:32"
         },
         {
           "titulo": "Lino faz temporada mais artilheira e se inspira em Arrascaeta por marca",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/11/08/samuel-lino-atinge-temporada-mais-artilheira-da-carreira-e-se-inspira-em-arrascaeta-por-marca-no-flamengo.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "08/11/2026"
+        },
+        {
+          "titulo": "Fla tem terceira melhor campanha atÃ© a 34Âª rodada e fica prÃ³ximo de superar 2025",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/11/08/flamengo-tem-terceira-melhor-campanha-ate-a-34a-rodada-do-brasileirao-e-fica-proximo-de-superar-2025.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "08/11/2026"
@@ -362,17 +346,17 @@
           "imagem": "",
           "data": "",
           "dataFmt": "06/11/2026"
+        },
+        {
+          "titulo": "Flamengo faz homenagem a Bruno Henrique em camisa do mÃªs da ConsciÃªncia Negra; veja fotos",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/11/06/flamengo-faz-homenagem-a-bruno-henrique-em-camisa-do-mes-da-consciencia-negra-veja-fotos.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "06/11/2026"
         }
       ],
       "Athletico-PR": [
-        {
-          "titulo": "Paranavaí x Athletico-PR - Copa Paraná 2026 - Ao vivo - globoesporte.com",
-          "resumo": "",
-          "url": "https://ge.globo.com/pr/futebol/taca-fpf/jogo/08-11-2026/paranavai-atletico-pr.ghtml",
-          "imagem": "",
-          "data": "2026-11-08T18:48:21+00:00",
-          "dataFmt": "08/11/2026 18:48"
-        },
         {
           "titulo": "Odair admite chance de nova troca no gol do Athletico no BrasileirÃ£o",
           "resumo": "",
@@ -480,17 +464,17 @@
           "dataFmt": "08/11/2026 16:26"
         },
         {
-          "titulo": "Castillo mostra eficiência e busca mais espaço no ataque do Fluminense; compare os números",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/11/08/castillo-mostra-eficiencia-e-busca-mais-espaco-no-ataque-do-fluminense-compare-os-numeros.ghtml",
-          "imagem": "",
-          "data": "2026-11-08T13:00:01+00:00",
-          "dataFmt": "08/11/2026 13:00"
-        },
-        {
           "titulo": "Lucho Acosta volta a responder bem e justifica oportunidade",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/11/08/lucho-acosta-volta-a-responder-bem-e-justifica-oportunidade-entre-os-titulares-do-fluminense.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "08/11/2026"
+        },
+        {
+          "titulo": "Castillo mostra eficiÃªncia e busca mais espaÃ§o no ataque; compare nÃºmeros",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/11/08/castillo-mostra-eficiencia-e-busca-mais-espaco-no-ataque-do-fluminense-compare-os-numeros.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "08/11/2026"
@@ -562,20 +546,20 @@
       ],
       "Cruzeiro": [
         {
+          "titulo": "Gallardo convoca Equador com jogadores de Flamengo, Atlético-MG, Cruzeiro e Inter",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/11/08/gallardo-convoca-equador-pela-primeira-vez-com-jogadores-de-flamengo-e-atletico-mg.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T19:32:03+00:00",
+          "dataFmt": "08/11/2026 19:32"
+        },
+        {
           "titulo": "Vai ficar? Lateral ganha chance em nova posição no Cruzeiro em reta final de contrato",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/11/08/vai-ficar-lateral-ganha-chance-em-nova-posicao-no-cruzeiro-em-reta-final-de-contrato.ghtml",
           "imagem": "",
           "data": "2026-11-08T18:10:54+00:00",
           "dataFmt": "08/11/2026 18:10"
-        },
-        {
-          "titulo": "Cestinha contra Cruzeiro, Gui Deodato experimenta evolução gradual com Franca",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/11/08/cestinha-contra-cruzeiro-gui-deodato-experimenta-evolucao-gradual-com-franca.ghtml",
-          "imagem": "",
-          "data": "2026-11-08T12:00:00+00:00",
-          "dataFmt": "08/11/2026 12:00"
         },
         {
           "titulo": "Artur Jorge revela bastidores do planejamento do Cruzeiro para 2027",
@@ -668,14 +652,6 @@
           "dataFmt": "08/11/2026 18:02"
         },
         {
-          "titulo": "Caio Suassuna retorna ao Bahia em comum acordo com o Avaí",
-          "resumo": "",
-          "url": "https://ge.globo.com/sc/futebol/noticia/2026/11/08/caio-suassuna-retorna-ao-bahia-em-comum-acordo-com-o-avai.ghtml",
-          "imagem": "",
-          "data": "2026-11-08T12:00:00+00:00",
-          "dataFmt": "08/11/2026 12:00"
-        },
-        {
           "titulo": "Defesa, novo sistema e mental: como o Bahia pode aproveitar Ãºltima Data Fifa",
           "resumo": "",
           "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/11/08/defesa-novo-sistema-e-mental-como-o-bahia-pode-aproveitar-pausa-para-ultima-data-fifa.ghtml",
@@ -754,6 +730,14 @@
           "imagem": "",
           "data": "",
           "dataFmt": "05/11/2026"
+        },
+        {
+          "titulo": "Recomendadas pelo editor",
+          "resumo": "",
+          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2025/12/08/contratacoes-do-bahia-para-2026-veja-quem-chega-quem-fica-e-quem-vai-embora.ghtml",
+          "imagem": "https://s2-ge.glbimg.com/TNRdPClEmM-lK-X-9QoJtv4bsds=/243x0:1609x1366/94x94/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/p/V/BZn0tPTbC4DwDRu2PbWg/hlxiqlwxeaa7smz.jpg",
+          "data": "",
+          "dataFmt": "08/12/2025"
         }
       ],
       "Bragantino": [
@@ -874,6 +858,22 @@
       ],
       "Atletico-MG": [
         {
+          "titulo": "Quanto o Atlético-MG já tem em premiação? Veja ranking após queda na Copa do Brasil",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/08/quanto-o-atletico-mg-ja-tem-em-premiacao-veja-ranking-apos-queda-na-copa-do-brasil.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T19:58:33+00:00",
+          "dataFmt": "08/11/2026 19:58"
+        },
+        {
+          "titulo": "Gallardo convoca Equador com jogadores de Flamengo, Atlético-MG, Cruzeiro e Inter",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/11/08/gallardo-convoca-equador-pela-primeira-vez-com-jogadores-de-flamengo-e-atletico-mg.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T19:32:03+00:00",
+          "dataFmt": "08/11/2026 19:32"
+        },
+        {
           "titulo": "Choro, apreensão e silêncio: os bastidores da eliminação do Atlético-MG",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/08/choro-apreensao-e-silencio-os-bastidores-da-eliminacao-do-atletico-mg.ghtml",
@@ -952,25 +952,17 @@
           "imagem": "",
           "data": "",
           "dataFmt": "07/11/2026"
-        },
-        {
-          "titulo": "Como ex-AtlÃ©tico-MG, Flamengo e GrÃªmio foi de polÃ­tico a vencedor de reality no Equador",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/06/como-ex-atletico-mg-flamengo-e-gremio-foi-de-politico-a-vencedor-de-reality-no-equador.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "06/11/2026"
-        },
-        {
-          "titulo": "EscalaÃ§Ã£o do AtlÃ©tico-MG: Fred e Cassierra reforÃ§am o time em jogo decisivo contra o GrÃªmio",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/06/escalacao-do-atletico-mg-fred-e-cassierra-reforcam-o-time-em-jogo-decisivo-contra-o-gremio.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "06/11/2026"
         }
       ],
       "Corinthians": [
+        {
+          "titulo": "Dupla ex-Corinthians decide clássico e dá liderança ao Al-Rayyan no Catar em duelo com Firmino",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/11/08/dupla-ex-corinthians-decide-classico-e-da-lideranca-ao-al-rayyan-no-catar-em-duelo-com-firmino.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T20:54:05+00:00",
+          "dataFmt": "08/11/2026 20:54"
+        },
         {
           "titulo": "Corinthians atrasa pagamento de acordo por dÃ­vida bilionÃ¡ria",
           "resumo": "",
@@ -1062,6 +1054,14 @@
       ],
       "Botafogo": [
         {
+          "titulo": "Tencati traça perfil de reforços e valoriza evolução da base no Botafogo-SP",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/botafogo-sp/noticia/2026/11/08/tencati-traca-perfil-de-reforcos-e-valoriza-evolucao-da-base-no-botafogo-sp.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T21:17:01+00:00",
+          "dataFmt": "08/11/2026 21:17"
+        },
+        {
           "titulo": "Bismarck: da glória no Campinense às passagens apagadas por Treze e Botafogo-PB",
           "resumo": "",
           "url": "https://ge.globo.com/pb/futebol/noticia/2026/11/08/bismarck-da-gloria-no-campinense-as-passagens-apagadas-por-treze-e-botafogo-pb.ghtml",
@@ -1070,12 +1070,12 @@
           "dataFmt": "08/11/2026 17:28"
         },
         {
-          "titulo": "Torcedores do Botafogo elegem centroavante como posição mais urgente no mercado em 2027",
+          "titulo": "Torcedores elegem centroavante como posiÃ§Ã£o mais urgente no mercado em 2027",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/11/08/torcedores-do-botafogo-elegem-centroavante-como-posicao-mais-urgente-no-mercado-em-2027.ghtml",
           "imagem": "",
-          "data": "2026-11-08T14:00:21+00:00",
-          "dataFmt": "08/11/2026 14:00"
+          "data": "",
+          "dataFmt": "08/11/2026"
         },
         {
           "titulo": "Ferraresi vira referÃªncia e tem segunda temporada com mais jogos na carreira",
@@ -1148,17 +1148,25 @@
           "imagem": "",
           "data": "",
           "dataFmt": "05/11/2026"
-        },
-        {
-          "titulo": "Saiba por que o Botafogo contratou Marcelo de Lima Henrique",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/11/05/profissionalizacao-e-capacidade-tecnica-entenda-a-contratacao-de-marcelo-de-lima-henrique-pelo-botafogo.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "05/11/2026"
         }
       ],
       "Vitoria": [
+        {
+          "titulo": "Bressan exalta Mikael e Lyncon nos bastidores da vitória do CRB contra o Náutico; vídeo",
+          "resumo": "",
+          "url": "https://ge.globo.com/al/futebol/times/crb/noticia/2026/11/08/bressan-exalta-mikael-e-lyncon-nos-bastidores-da-vitoria-do-crb-contra-o-nautico-video.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T21:14:52+00:00",
+          "dataFmt": "08/11/2026 21:14"
+        },
+        {
+          "titulo": "Basquete Cearense conquista primeira vitória no NBB 2026/27 diante do Paulistano",
+          "resumo": "",
+          "url": "https://ge.globo.com/ce/basquete/nbb/noticia/2026/11/08/basquete-cearense-conquista-primeira-vitoria-no-nbb-202627-diante-do-paulistano.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T18:51:27+00:00",
+          "dataFmt": "08/11/2026 18:51"
+        },
         {
           "titulo": "Cria do Náutico, Thiaguinho marca nos Aflitos e comemora vitória do CRB: \"Entramos ligados\"",
           "resumo": "",
@@ -1174,30 +1182,6 @@
           "imagem": "",
           "data": "2026-11-08T16:57:06+00:00",
           "dataFmt": "08/11/2026 16:57"
-        },
-        {
-          "titulo": "Porto Vitória confirma retornos de Léo Rodrigues e Marcudinho para 2027",
-          "resumo": "",
-          "url": "https://ge.globo.com/es/futebol/times/porto-vitoria/noticia/2026/11/08/porto-vitoria-confirma-retornos-de-leo-rodrigues-e-marcudinho-para-2027.ghtml",
-          "imagem": "",
-          "data": "2026-11-08T12:49:22+00:00",
-          "dataFmt": "08/11/2026 12:49"
-        },
-        {
-          "titulo": "Curry brilha com 41 pontos e supera marca de LeBron na sétima vitória seguida dos Warriors",
-          "resumo": "",
-          "url": "https://ge.globo.com/basquete/nba/noticia/2026/11/08/curry-brilha-com-41-pontos-e-supera-marca-de-lebron-na-setima-vitoria-seguida-dos-warriors.ghtml",
-          "imagem": "",
-          "data": "2026-11-08T12:35:50+00:00",
-          "dataFmt": "08/11/2026 12:35"
-        },
-        {
-          "titulo": "Marcos Degli perde na estreia no UFC e tem sequência de 13 vitórias interrompida",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/vale-do-paraiba-regiao/noticia/2026/11/08/marcos-degli-perde-na-estreia-no-ufc-e-tem-sequencia-de-13-vitorias-interrompida.ghtml",
-          "imagem": "",
-          "data": "2026-11-08T11:52:58+00:00",
-          "dataFmt": "08/11/2026 11:52"
         },
         {
           "titulo": "Diretor do VitÃ³ria explica recusas de tÃ©cnicos e aponta CondÃ© como possibilidade",
@@ -1254,11 +1238,59 @@
           "imagem": "",
           "data": "",
           "dataFmt": "05/11/2026"
+        },
+        {
+          "titulo": "Relacionados: Mateus Silva, Luan CÃ¢ndido e Jamerson reforÃ§am o VitÃ³ria contra o Fluminense",
+          "resumo": "",
+          "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/2026/11/06/relacionados-mateus-silva-luan-candido-e-jamerson-reforcam-o-vitoria-contra-o-fluminense.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "06/11/2026"
         }
       ],
       "Sao-Paulo": [
         {
-          "titulo": "Norris larga mal, mas se recupera e vence GP de São Paulo; Bortoleto é 16º, e Câmara termina em 20º",
+          "titulo": "Guarani elimina o Palmeiras e vai enfrentar o São Paulo nas semifinais do Paulista Sub-14",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/campinas-e-regiao/futebol/times/guarani/noticia/2026/11/08/guarani-elimina-o-palmeiras-e-vai-enfrentar-o-sao-paulo-nas-semifinais-do-paulista-sub-14.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T22:40:44+00:00",
+          "dataFmt": "08/11/2026 22:40"
+        },
+        {
+          "titulo": "Bortoleto desabafa após mais um ano de frustração no Brasil: \"Não consigo ganhar com esse carro\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/motor/formula-1/noticia/2026/11/08/bortoleto-diz-que-se-divertiu-em-disputa-por-posicao-com-rafa-camara-no-gp-de-sao-paulo.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T20:51:31+00:00",
+          "dataFmt": "08/11/2026 20:51"
+        },
+        {
+          "titulo": "Fórmula 1 comete gafe e coloca nome errado no pódio do GP de São Paulo",
+          "resumo": "",
+          "url": "https://ge.globo.com/motor/formula-1/noticia/2026/11/08/formula-1-comete-gafe-coloca-nome-errado-no-podio-do-gp-de-sao-paulo-e-torcedores-reagem.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T19:41:11+00:00",
+          "dataFmt": "08/11/2026 19:41"
+        },
+        {
+          "titulo": "Lando Norris se empolga no pódio do GP de São Paulo e quebra garrafa de champagne; vídeo",
+          "resumo": "",
+          "url": "https://ge.globo.com/motor/formula-1/noticia/2026/11/08/lando-norris-se-empolga-no-podio-do-gp-de-sao-paulo-e-quebra-garrafa-de-champagne-video.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T19:26:26+00:00",
+          "dataFmt": "08/11/2026 19:26"
+        },
+        {
+          "titulo": "Lando Norris vence o GP de São Paulo de F1 2026",
+          "resumo": "",
+          "url": "https://ge.globo.com/motor/formula-1/ao-vivo/gp-brasil-de-f1-2026-assista-ao-vivo-a-etapa-de-sao-paulo.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T19:08:34+00:00",
+          "dataFmt": "08/11/2026 19:08"
+        },
+        {
+          "titulo": "Norris vence, e Verstappen é 2º após ganhar 19 posições no GP de São Paulo; brasileiros não pontuam",
           "resumo": "",
           "url": "https://ge.globo.com/motor/formula-1/noticia/2026/11/08/norris-larga-mal-mas-se-recupera-e-vence-gp-de-sao-paulo-bortoleto-e-16o-e-camara-termina-em-20o.ghtml",
           "imagem": "",
@@ -1274,60 +1306,12 @@
           "dataFmt": "08/11/2026 18:39"
         },
         {
-          "titulo": "Assista ao vivo ao GP de São Paulo de F1 2026",
-          "resumo": "",
-          "url": "https://ge.globo.com/motor/formula-1/ao-vivo/gp-brasil-de-f1-2026-assista-ao-vivo-a-etapa-de-sao-paulo.ghtml",
-          "imagem": "",
-          "data": "2026-11-08T17:42:49+00:00",
-          "dataFmt": "08/11/2026 17:42"
-        },
-        {
           "titulo": "Neymar dá camisa 10 do Santos de presente a Verstappen no GP de São Paulo de F1",
           "resumo": "",
           "url": "https://ge.globo.com/motor/formula-1/noticia/2026/11/08/neymar-da-camisa-10-do-santos-de-presente-a-verstappen-no-gp-de-sao-paulo-de-f1.ghtml",
           "imagem": "",
           "data": "2026-11-08T16:36:40+00:00",
           "dataFmt": "08/11/2026 16:36"
-        },
-        {
-          "titulo": "Bortoleto mexe no motor, perde 10 posições, mas seguirá largando em 19º no GP de São Paulo; entenda",
-          "resumo": "",
-          "url": "https://ge.globo.com/motor/formula-1/noticia/2026/11/08/gabriel-bortoleto-faz-trocas-no-motor-e-vai-largar-dos-boxes-em-sao-paulo.ghtml",
-          "imagem": "",
-          "data": "2026-11-08T15:14:53+00:00",
-          "dataFmt": "08/11/2026 15:14"
-        },
-        {
-          "titulo": "Amistoso entre Noroeste e São Paulo tem ingressos acima de R$ 400; veja preços",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/tem-esporte/futebol/noticia/2026/11/08/amistoso-entre-noroeste-e-sao-paulo-tem-ingressos-acima-de-r-400-veja-precos.ghtml",
-          "imagem": "",
-          "data": "2026-11-08T14:41:00+00:00",
-          "dataFmt": "08/11/2026 14:41"
-        },
-        {
-          "titulo": "Neymar, Depay, Gabigol e mais famosos prestigiam o GP de São Paulo; veja fotos",
-          "resumo": "",
-          "url": "https://ge.globo.com/motor/formula-1/noticia/2026/11/08/famosos-prestigiam-o-gp-de-sao-paulo-veja-fotos.ghtml",
-          "imagem": "",
-          "data": "2026-11-08T13:42:23+00:00",
-          "dataFmt": "08/11/2026 13:42"
-        },
-        {
-          "titulo": "Namorada de Bortoleto rouba a cena com vestido da Audi na chegada ao GP de São Paulo de F1",
-          "resumo": "",
-          "url": "https://ge.globo.com/motor/formula-1/noticia/2026/11/08/look-da-namorada-de-bortoleto-rouba-cena-em-chegada-a-interlagos-neste-domingo.ghtml",
-          "imagem": "",
-          "data": "2026-11-08T13:20:21+00:00",
-          "dataFmt": "08/11/2026 13:20"
-        },
-        {
-          "titulo": "Fenômeno Colapinto: piloto da Alpine arrasta milhares de argentinos para o GP de São Paulo",
-          "resumo": "",
-          "url": "https://ge.globo.com/motor/formula-1/noticia/2026/11/08/fenomeno-colapinto-piloto-da-alpine-arrasta-milhares-de-argentinos-para-o-gp-de-sao-paulo.ghtml",
-          "imagem": "",
-          "data": "2026-11-08T10:04:39+00:00",
-          "dataFmt": "08/11/2026 10:04"
         },
         {
           "titulo": "Reformular programa de sÃ³cios e aproximar torcida: os planos do marketing",
@@ -1352,9 +1336,41 @@
           "imagem": "",
           "data": "",
           "dataFmt": "07/11/2026"
+        },
+        {
+          "titulo": "SÃ£o Paulo elimina Palmeiras no sub-15 com brilho de meia dispensado pelo rival",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/11/07/sao-paulo-elimina-hexacampeao-palmeiras-no-sub-15-com-brilho-de-meia-dispensado-pelo-rival.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "07/11/2026"
         }
       ],
       "Santos": [
+        {
+          "titulo": "Gabigol, do Santos, registra encontro com ídolo Lewis Hamilton",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/11/08/gabigol-do-santos-registra-encontro-com-idolo-lewis-hamilton.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T21:54:33+00:00",
+          "dataFmt": "08/11/2026 21:54"
+        },
+        {
+          "titulo": "Neymar brinca após erro com nome de Bortoleto: \"Se tivesse um nome mais abrasileirado...\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/11/08/neymar-brinca-apos-erro-com-nome-de-bortoleto-se-tivesse-um-nome-mais-abrasileirado.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T21:38:21+00:00",
+          "dataFmt": "08/11/2026 21:38"
+        },
+        {
+          "titulo": "Com tradução em Libras, alunos surdos participam de clínica gratuita de beach tennis em Santos",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/santos-e-regiao/noticia/2026/11/08/com-traducao-em-libras-alunos-surdos-participam-de-clinica-gratuita-de-beach-tennis-em-santos.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T19:08:31+00:00",
+          "dataFmt": "08/11/2026 19:08"
+        },
         {
           "titulo": "Neymar dá camisa 10 do Santos de presente a Verstappen no GP de São Paulo de F1",
           "resumo": "",
@@ -1364,28 +1380,20 @@
           "dataFmt": "08/11/2026 16:36"
         },
         {
-          "titulo": "Neymar pai diz que estruturação do elenco pode manter craque no Santos: \"Eu preciso deixá-lo feliz\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/11/08/neymar-pai-diz-que-estruturacao-do-elenco-pode-manter-craque-no-santos-eu-preciso-deixa-lo-feliz.ghtml",
-          "imagem": "",
-          "data": "2026-11-08T14:13:40+00:00",
-          "dataFmt": "08/11/2026 14:13"
-        },
-        {
-          "titulo": "Portuguesa e Santos disputam o título da Copa Meio do Mundo Feminina Sub-20",
-          "resumo": "",
-          "url": "https://ge.globo.com/ap/noticia/2026/11/08/portuguesa-e-santos-disputam-o-titulo-da-copa-meio-do-mundo-feminina-sub-20.ghtml",
-          "imagem": "",
-          "data": "2026-11-08T13:00:00+00:00",
-          "dataFmt": "08/11/2026 13:00"
-        },
-        {
           "titulo": "EmpresÃ¡rio foi anunciado como novo CEO",
           "resumo": "",
           "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/11/06/pai-de-neymar-e-o-novo-ceo-do-santos.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "06/11/2026"
+        },
+        {
+          "titulo": "Pai de Neymar revela tÃ¡tica para mantÃª-lo no Santos",
+          "resumo": "",
+          "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/11/08/neymar-pai-diz-que-estruturacao-do-elenco-pode-manter-craque-no-santos-eu-preciso-deixa-lo-feliz.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "08/11/2026"
         },
         {
           "titulo": "Cuca pode escalar reforÃ§os mais badalados como titulares",
@@ -1434,48 +1442,16 @@
           "imagem": "",
           "data": "",
           "dataFmt": "05/11/2026"
-        },
-        {
-          "titulo": "Michel Salgado, Ã­dolo do Real Madrid, visita CT do Santos",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/11/05/santos-recebe-a-visita-de-michel-salgado-idolo-do-real-madrid.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "05/11/2026"
-        },
-        {
-          "titulo": "Neymar tem pena reduzida e reforÃ§a Santos contra Coritiba",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/11/05/neymar-tem-pena-reduzida-no-stjd-e-reforca-santos-contra-coritiba.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "05/11/2026"
         }
       ],
       "Gremio": [
         {
-          "titulo": "Vice do Grêmio comenta futuro de Carlos Vinicius, alvo do Vasco: \"Vamos garantir a permanência\"",
+          "titulo": "Com Palmeiras na final, Grêmio terá vaga na fase de grupos da Libertadores se não for rebaixado",
           "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/11/08/vice-do-gremio-comenta-futuro-de-carlos-vinicius-alvo-do-vasco-vamos-garantir-a-permanencia.ghtml",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/11/08/com-palmeiras-na-final-gremio-tera-vaga-na-fase-de-grupos-da-libertadores-se-nao-for-rebaixado.ghtml",
           "imagem": "",
-          "data": "2026-11-08T14:00:00+00:00",
-          "dataFmt": "08/11/2026 14:00"
-        },
-        {
-          "titulo": "A essência do Grêmio é ser inexplicável",
-          "resumo": "",
-          "url": "https://ge.globo.com/blogs/blog-do-alliatti/post/2026/11/08/a-essencia-do-gremio-e-ser-inexplicavel.ghtml",
-          "imagem": "",
-          "data": "2026-11-08T12:25:23+00:00",
-          "dataFmt": "08/11/2026 12:25"
-        },
-        {
-          "titulo": "Grêmio iguala o Flamengo como maior finalista da Copa do Brasil; veja a lista",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/copa-do-brasil/noticia/2026/11/08/gremio-iguala-o-flamengo-como-maior-finalista-da-copa-do-brasil-veja-a-lista.ghtml",
-          "imagem": "",
-          "data": "2026-11-08T10:52:36+00:00",
-          "dataFmt": "08/11/2026 10:52"
+          "data": "2026-11-08T22:30:17+00:00",
+          "dataFmt": "08/11/2026 22:30"
         },
         {
           "titulo": "Renato esbanja confianÃ§a: \"Sim, eu sou o cara\"",
@@ -1486,15 +1462,7 @@
           "dataFmt": "07/11/2026"
         },
         {
-          "titulo": "GrÃªmio estÃ¡ na Libertadores, mas pode nÃ£o jogar; entenda",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/11/07/gremio-se-classifica-para-a-libertadores-de-2027-mas-pode-nao-jogar-entenda.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "07/11/2026"
-        },
-        {
-          "titulo": "AnÃ¡lise: mortal e imortal, GrÃªmio de Renato faz o inesperado com final",
+          "titulo": "AnÃ¡lise: mortal e imortal, time de Renato faz o inesperado com final",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/11/08/analise-mortal-e-imortal-gremio-de-renato-faz-o-inesperado-ao-chegar-na-final-da-copa-do-brasil.ghtml",
           "imagem": "",
@@ -1502,15 +1470,15 @@
           "dataFmt": "08/11/2026"
         },
         {
-          "titulo": "GrÃªmio garante bolada com final; veja os valores",
+          "titulo": "Vice do GrÃªmio comenta futuro de Carlos Vinicius; veja o que ele disse",
           "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/11/07/gremio-garante-pelo-menos-r-34-milhoes-com-final-da-copa-do-brasil-veja-total-de-premiacao.ghtml",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/11/08/vice-do-gremio-comenta-futuro-de-carlos-vinicius-alvo-do-vasco-vamos-garantir-a-permanencia.ghtml",
           "imagem": "",
           "data": "",
-          "dataFmt": "07/11/2026"
+          "dataFmt": "08/11/2026"
         },
         {
-          "titulo": "Torcedor acerta placar e gol de Carlos Vinicius; veja o vÃ­deo",
+          "titulo": "Menino viraliza ao acertar placar e gol de Carlos Vinicius; veja o vÃ­deo",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/11/08/torcedor-do-gremio-viraliza-ao-acertar-placar-e-gol-de-carlos-vinicius-veja-o-video.ghtml",
           "imagem": "",
@@ -1518,7 +1486,7 @@
           "dataFmt": "08/11/2026"
         },
         {
-          "titulo": "Veja reaÃ§Ãµes e memes da classificaÃ§Ã£o do GrÃªmio",
+          "titulo": "Veja reaÃ§Ãµes e memes da classificaÃ§Ã£o do GrÃªmio Ã  final da Copa do Brasil",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/11/07/chora-renan-lodi-e-milhoes-ao-carlos-vinicius-veja-reacoes-e-memes-da-classificacao.ghtml",
           "imagem": "",
@@ -1526,38 +1494,110 @@
           "dataFmt": "07/11/2026"
         },
         {
-          "titulo": "AtuaÃ§Ãµes: Weverton e Carlos Vinicius sÃ£o decisivos; dÃª suas notas",
+          "titulo": "GrÃªmio garante pelo menos R$ 34 milhÃµes com final da Copa do Brasil; veja total de premiaÃ§Ã£o",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/11/07/gremio-garante-pelo-menos-r-34-milhoes-com-final-da-copa-do-brasil-veja-total-de-premiacao.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "07/11/2026"
+        },
+        {
+          "titulo": "GrÃªmio se classifica para a Libertadores de 2027, mas pode nÃ£o jogar; entenda",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/11/07/gremio-se-classifica-para-a-libertadores-de-2027-mas-pode-nao-jogar-entenda.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "07/11/2026"
+        },
+        {
+          "titulo": "AtuaÃ§Ãµes: Weverton e Carlos Vinicius levam o GrÃªmio Ã  final da Copa do Brasil; dÃª suas notas",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/11/07/atuacoes-weverton-e-carlos-vinicius-levam-o-gremio-a-final-de-suas-notas.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "07/11/2026"
+        },
+        {
+          "titulo": "Contra o AtlÃ©tico-MG, Carlos Vinicius chega a 35 gols pelo GrÃªmio; veja o vÃ­deo",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/11/07/carlos-vinicius-chega-a-35-gols-pelo-gremio-veja-o-gol-no-atletico-mg.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "07/11/2026"
+        },
+        {
+          "titulo": "Veja motivos para acreditar na classificaÃ§Ã£o do GrÃªmio contra o AtlÃ©tico-MG na Copa do Brasil",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/11/07/veja-motivos-para-acreditar-na-classificacao-do-gremio-contra-o-atletico-mg-na-copa-do-brasil.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "07/11/2026"
+        },
+        {
+          "titulo": "GrÃªmio tem duas dÃºvidas para encarar o AtlÃ©tico-MG; veja provÃ¡vel escalaÃ§Ã£o",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/11/06/gremio-tem-duas-duvidas-para-encarar-o-atletico-mg-veja-provavel-escalacao.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "06/11/2026"
         }
       ],
       "Internacional": [
+        {
+          "titulo": "Barcelona vence o Atlético de Madrid de virada e segue firme na liderança da LaLiga",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/jogo/08-11-2026/atleticodemadri-barcelona.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T22:00:01+00:00",
+          "dataFmt": "08/11/2026 22:00"
+        },
         {
           "titulo": "United busca empate de forma heroica nos acréscimos, mas segue no Z-3",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/jogo/08-11-2026/Manchesterunited-Astonvilla.ghtml",
           "imagem": "",
-          "data": "2026-11-08T18:41:20+00:00",
-          "dataFmt": "08/11/2026 18:41"
+          "data": "2026-11-08T20:56:54+00:00",
+          "dataFmt": "08/11/2026 20:56"
         },
         {
-          "titulo": "Atlético de Madrid x Barcelona - Campeonato Espanhol 2026/27 - globoesporte.com",
+          "titulo": "Dupla ex-Corinthians decide clássico e dá liderança ao Al-Rayyan no Catar em duelo com Firmino",
           "resumo": "",
-          "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/jogo/08-11-2026/atleticodemadri-barcelona.ghtml",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/11/08/dupla-ex-corinthians-decide-classico-e-da-lideranca-ao-al-rayyan-no-catar-em-duelo-com-firmino.ghtml",
           "imagem": "",
-          "data": "2026-11-08T17:01:51+00:00",
-          "dataFmt": "08/11/2026 17:01"
+          "data": "2026-11-08T20:54:05+00:00",
+          "dataFmt": "08/11/2026 20:54"
+        },
+        {
+          "titulo": "Colo-Colo é campeão chileno com golaço de Vidal; Vozinha é titular e conquista primeiro título",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/11/08/colo-colo-e-campeao-chileno-com-golaco-de-vidal-vozinha-e-titular-e-conquista-primeiro-titulo.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T19:59:35+00:00",
+          "dataFmt": "08/11/2026 19:59"
+        },
+        {
+          "titulo": "Gallardo convoca Equador com jogadores de Flamengo, Atlético-MG, Cruzeiro e Inter",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/11/08/gallardo-convoca-equador-pela-primeira-vez-com-jogadores-de-flamengo-e-atletico-mg.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T19:32:03+00:00",
+          "dataFmt": "08/11/2026 19:32"
         },
         {
           "titulo": "Chelsea é surpreendido e perde para o Sunderland na Premier League",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/jogo/08-11-2026/Sunderland-Chelsea.ghtml",
           "imagem": "",
-          "data": "2026-11-08T16:59:31+00:00",
-          "dataFmt": "08/11/2026 16:59"
+          "data": "2026-11-08T19:18:19+00:00",
+          "dataFmt": "08/11/2026 19:18"
+        },
+        {
+          "titulo": "Parte de arquibancada desaba durante jogo na Noruega; veja imagens",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/11/08/parte-de-arquibancada-desaba-durante-jogo-na-noruega-veja-imagens.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T18:56:03+00:00",
+          "dataFmt": "08/11/2026 18:56"
         },
         {
           "titulo": "Inter confirma vaga e tentará primeiro título nacional no futebol feminino profissional",
@@ -1584,30 +1624,6 @@
           "dataFmt": "08/11/2026 16:26"
         },
         {
-          "titulo": "Atacante do Colo Colo se envolve em acidente grave antes de jogo e é detido por uso de bebida alcóolica",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/11/08/atacante-do-colo-colo-se-envolve-em-acidente-grave-antes-de-jogo-e-e-detido-por-uso-de-bebida-alcoolica.ghtml",
-          "imagem": "",
-          "data": "2026-11-08T15:10:19+00:00",
-          "dataFmt": "08/11/2026 15:10"
-        },
-        {
-          "titulo": "Jogadores do Rosario tentam explicar comemoração frustrada por título inexistente: \"Efeito dominó\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/11/08/jogadores-do-rosario-central-tentam-explicar-comemoracao-frustrada-por-titulo-inexistente-efeito-domino.ghtml",
-          "imagem": "",
-          "data": "2026-11-08T12:47:29+00:00",
-          "dataFmt": "08/11/2026 12:47"
-        },
-        {
-          "titulo": "Com 100% no Beira-Rio, Eduardo Baptista desenha rota do Inter na briga contra rebaixamento",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/11/08/com-100percent-no-beira-rio-eduardo-baptista-desenha-rota-do-inter-na-briga-contra-rebaixamento.ghtml",
-          "imagem": "",
-          "data": "2026-11-08T08:00:01+00:00",
-          "dataFmt": "08/11/2026 08:00"
-        },
-        {
           "titulo": "Volta? Inter ganha tempo recuperar Alan Patrick; saiba mais",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/11/07/inter-ganha-tempo-para-ter-alan-patrick-de-volta-na-luta-contra-o-rebaixamento-saiba-mais.ghtml",
@@ -1616,20 +1632,12 @@
           "dataFmt": "07/11/2026"
         },
         {
-          "titulo": "Nervoso, torcedor sai do Beira-Rio antes de pÃªnalti e comemora gol sozinho no pÃ¡tio; conheÃ§a",
+          "titulo": "Com 100% em casa, Baptista desenha rota na briga contra queda",
           "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/11/06/nervoso-torcedor-sai-do-beira-rio-antes-de-penalti-e-comemora-gol-sozinho-no-patio-conheca.ghtml",
+          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/11/08/com-100percent-no-beira-rio-eduardo-baptista-desenha-rota-do-inter-na-briga-contra-rebaixamento.ghtml",
           "imagem": "",
           "data": "",
-          "dataFmt": "06/11/2026"
-        },
-        {
-          "titulo": "VitÃ£o, do Flamengo, cobra o Inter na JustiÃ§a; veja o valor",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/11/06/vitao-do-flamengo-cobra-o-inter-na-justica-veja-o-valor.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "06/11/2026"
+          "dataFmt": "08/11/2026"
         }
       ],
       "Mirassol": [
@@ -1708,6 +1716,30 @@
       ],
       "Remo": [
         {
+          "titulo": "Glauber Gonçalves é eleito presidente do Remo para o triênio 2027-2029",
+          "resumo": "",
+          "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/11/08/glauber-goncalves-e-eleito-presidente-do-remo-para-o-trienio-2027-2029.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T21:47:11+00:00",
+          "dataFmt": "08/11/2026 21:47"
+        },
+        {
+          "titulo": "Vice na chapa de Glauber, Jean Klay promete \"Remo Academy\" e reorganização no futebol",
+          "resumo": "",
+          "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/11/08/vice-na-chapa-de-glauber-jean-klay-promete-remo-academy-e-reorganizacao-no-futebol.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T19:37:29+00:00",
+          "dataFmt": "08/11/2026 19:37"
+        },
+        {
+          "titulo": "Gilmar Nascimento promete transparência e respeito ao estatuto no Remo",
+          "resumo": "",
+          "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/11/08/gilmar-nascimento-promete-transparencia-e-respeito-ao-estatuto-no-remo.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T19:13:29+00:00",
+          "dataFmt": "08/11/2026 19:13"
+        },
+        {
           "titulo": "Remo realiza eleiÃ§Ãµes neste domingo, 8; veja candidatos e detalhes da votaÃ§Ã£o",
           "resumo": "",
           "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/11/07/remo-realiza-eleicoes-neste-domingo-8-veja-candidatos-e-detalhes-da-votacao.ghtml",
@@ -1748,14 +1780,6 @@
           "dataFmt": "05/11/2026"
         },
         {
-          "titulo": "Remo e Patrick tÃªm interesse em renovaÃ§Ã£o de contrato",
-          "resumo": "",
-          "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/11/04/remo-e-patrick-tem-interesse-em-renovacao-de-contrato.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "04/11/2026"
-        },
-        {
           "titulo": "AtuaÃ§Ãµes do Remo: JosÃ© Welison atÃ© marcou para o LeÃ£o, mas nÃ£o evitou a goleada; dÃª suas notas",
           "resumo": "",
           "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/11/05/atuacoes-do-remo-jose-welison-ate-marcou-para-o-leao-mas-nao-evitou-a-goleada-de-suas-notas.ghtml",
@@ -1772,59 +1796,83 @@
           "dataFmt": "05/11/2026"
         },
         {
-          "titulo": "Patrick celebra 350 jogos em Brasileiros e projeta duelo do Remo contra o Palmeiras",
+          "titulo": "Remo e Patrick tÃªm interesse em renovaÃ§Ã£o de contrato",
           "resumo": "",
-          "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/11/04/patrick-celebra-350-jogos-em-brasileiros-e-projeta-duelo-do-remo-contra-o-palmeiras.ghtml",
+          "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/11/04/remo-e-patrick-tem-interesse-em-renovacao-de-contrato.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "04/11/2026"
-        },
-        {
-          "titulo": "Contra o Palmeiras, Remo nÃ£o terÃ¡ suspensos pela primeira vez nos Ãºltimos sete jogos da SÃ©rie A",
-          "resumo": "",
-          "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/11/03/contra-o-palmeiras-remo-nao-tera-suspensos-pela-primeira-vez-nos-ultimos-sete-jogos-da-serie-a.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "03/11/2026"
         }
       ],
       "Vasco": [
         {
-          "titulo": "Vasco x Palmeiras - Copa do Brasil 2026 - Ao vivo - globoesporte.com",
+          "titulo": "Com brilho de Carlos Miguel, Palmeiras elimina o Vasco e vai à final da Copa do Brasil",
           "resumo": "",
           "url": "https://ge.globo.com/rj/futebol/copa-do-brasil/jogo/08-11-2026/vasco-palmeiras.ghtml",
           "imagem": "",
-          "data": "2026-11-08T18:32:20+00:00",
-          "dataFmt": "08/11/2026 18:32"
+          "data": "2026-11-08T22:37:24+00:00",
+          "dataFmt": "08/11/2026 22:37"
         },
         {
-          "titulo": "\"Time da virada\": como música que ecoa nas arquibancadas serve de inspiração para o Vasco",
+          "titulo": "Atuações do Vasco: Gabriel e Paulo Henrique os piores, e Gómez o vilão na eliminação; dê suas notas",
           "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/11/08/time-da-virada-como-musica-que-ecoa-nas-arquibancadas-serve-de-inspiracao-para-o-vasco.ghtml",
+          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/11/08/atuacoes-do-vasco-gabriel-e-paulo-henrique-os-piores-e-gomez-o-vilao-em-eliminacao-de-suas-notas.ghtml",
           "imagem": "",
-          "data": "2026-11-08T15:00:00+00:00",
-          "dataFmt": "08/11/2026 15:00"
+          "data": "2026-11-08T22:36:22+00:00",
+          "dataFmt": "08/11/2026 22:36"
         },
         {
-          "titulo": "Vice do Grêmio comenta futuro de Carlos Vinicius, alvo do Vasco: \"Vamos garantir a permanência\"",
+          "titulo": "Andrés Gómez perde pênalti decisivo em Vasco x Palmeiras e deixa gramado consolado por Arias",
           "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/11/08/vice-do-gremio-comenta-futuro-de-carlos-vinicius-alvo-do-vasco-vamos-garantir-a-permanencia.ghtml",
+          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/11/08/andres-gomez-perde-penalti-decisivo-em-vasco-x-palmeiras-e-sai-de-campo-consolado-por-arias.ghtml",
           "imagem": "",
-          "data": "2026-11-08T14:00:00+00:00",
-          "dataFmt": "08/11/2026 14:00"
+          "data": "2026-11-08T22:33:33+00:00",
+          "dataFmt": "08/11/2026 22:33"
         },
         {
-          "titulo": "Veja cinco motivos para o torcedor do Vasco acreditar na virada sobre o Palmeiras na Copa do Brasil",
+          "titulo": "Gustavo Gómez se desentende com policial militar em Vasco x Palmeiras; veja vídeo",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/08/gustavo-gomez-se-desentende-com-a-policia-militar-em-vasco-x-palmeiras-veja-video.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T21:04:04+00:00",
+          "dataFmt": "08/11/2026 21:04"
+        },
+        {
+          "titulo": "PC Oliveira diz que Gabriel Pereira deveria ter sido expulso em Vasco x Palmeiras; veja vídeo",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/08/pc-oliveira-diz-que-gabriel-pereira-deveria-ter-sido-expulso-em-vasco-x-palmeiras-veja-video.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T20:30:49+00:00",
+          "dataFmt": "08/11/2026 20:30"
+        },
+        {
+          "titulo": "Futuro investidor da SAF do Vasco, Lamacchia vê semifinal contra o Palmeiras no meio da torcida",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/11/08/novo-dono-da-saf-do-vasco-lamacchia-ve-semifinal-contra-o-palmeiras-no-meio-da-torcida.ghtml",
+          "imagem": "",
+          "data": "2026-11-08T19:34:47+00:00",
+          "dataFmt": "08/11/2026 19:34"
+        },
+        {
+          "titulo": "Veja cinco motivos para acreditar na virada sobre o Palmeiras na Copa do Brasil",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/11/08/veja-cinco-motivos-para-o-torcedor-do-vasco-acreditar-na-virada-sobre-o-palmeiras-na-copa-do-brasil.ghtml",
           "imagem": "",
-          "data": "2026-11-08T13:00:00+00:00",
-          "dataFmt": "08/11/2026 13:00"
+          "data": "",
+          "dataFmt": "08/11/2026"
         },
         {
           "titulo": "O que estÃ¡ em jogo para o projeto de Pedrinho no Vasco na semifinal",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/11/08/alem-da-vaga-o-que-esta-em-jogo-para-o-projeto-de-pedrinho-no-vasco-na-semifinal-contra-o-palmeiras.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "08/11/2026"
+        },
+        {
+          "titulo": "\"Time da virada\": mÃºsica serve de inspiraÃ§Ã£o para o Vasco",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/11/08/time-da-virada-como-musica-que-ecoa-nas-arquibancadas-serve-de-inspiracao-para-o-vasco.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "08/11/2026"
@@ -1852,56 +1900,32 @@
           "imagem": "",
           "data": "",
           "dataFmt": "07/11/2026"
-        },
-        {
-          "titulo": "EscalaÃ§Ã£o: Cuiabano e AndrÃ©s GÃ³mez devem ser titulares",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/11/07/escalacao-do-vasco-cuiabano-e-andres-gomez-devem-ser-titulares-contra-palmeiras.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "07/11/2026"
-        },
-        {
-          "titulo": "AndrÃ©s GÃ³mez fica fora de convocaÃ§Ã£o e pode jogar Chapecoense x Vasco",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/11/06/andres-gomez-fica-fora-de-convocacao-da-colombia-e-pode-jogar-chapecoense-x-vasco.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "06/11/2026"
-        },
-        {
-          "titulo": "Pedro Emanuel tem desafios e pontos de atenÃ§Ã£o na defesa do Vasco",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/11/06/contra-melhor-ataque-da-copa-do-brasil-pedro-emanuel-tem-desafios-e-pontos-de-atencao-na-defesa-do-vasco.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "06/11/2026"
-        },
-        {
-          "titulo": "VC Escala: monte o Vasco ideal para a semifinal contra o Palmeiras",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/11/06/vc-escala-monte-o-vasco-ideal-para-a-semifinal-contra-o-palmeiras.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "06/11/2026"
         }
       ],
       "Chapecoense": [
         {
-          "titulo": "Zagueiro Rafael Thyere deixa a Chapecoense após rebaixamento",
+          "titulo": "Diretoria da Chapecoense rebate declaração de Giovanni Augusto: \"Deveria ser homem para pontuar\"",
           "resumo": "",
-          "url": "https://ge.globo.com/sc/futebol/times/chapecoense/noticia/2026/11/08/zagueiro-rafael-thyere-deixa-a-chapecoense-apos-rebaixamento.ghtml",
+          "url": "https://ge.globo.com/sc/futebol/times/chapecoense/noticia/2026/11/08/diretoria-da-chapecoense-critica-declaracoes-de-giovanni-augusto-deveria-ser-homem-para-pontuar.ghtml",
           "imagem": "",
-          "data": "2026-11-08T14:14:12+00:00",
-          "dataFmt": "08/11/2026 14:14"
+          "data": "2026-11-08T20:17:05+00:00",
+          "dataFmt": "08/11/2026 20:17"
         },
         {
-          "titulo": "Diretoria da Chapecoense revela bastidores e planejamento após rebaixamento: \"Faltou qualidade\"",
+          "titulo": "Diretoria da Chapecoense revela planejamento apÃ³s rebaixamento",
           "resumo": "",
           "url": "https://ge.globo.com/sc/futebol/times/chapecoense/noticia/2026/11/08/diretoria-da-chapecoense-revela-bastidores-e-planejamento-apos-rebaixamento-faltou-qualidade.ghtml",
           "imagem": "",
-          "data": "2026-11-08T13:47:45+00:00",
-          "dataFmt": "08/11/2026 13:47"
+          "data": "",
+          "dataFmt": "08/11/2026"
+        },
+        {
+          "titulo": "Zagueiro Rafael Thyere deixa a Chapecoense apÃ³s rebaixamento",
+          "resumo": "",
+          "url": "https://ge.globo.com/sc/futebol/times/chapecoense/noticia/2026/11/08/zagueiro-rafael-thyere-deixa-a-chapecoense-apos-rebaixamento.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "08/11/2026"
         },
         {
           "titulo": "Chape inicia reformulaÃ§Ã£o e anuncia a saÃ­da de Bruno Matias",
@@ -1950,14 +1974,6 @@
           "imagem": "",
           "data": "",
           "dataFmt": "07/01/2026"
-        },
-        {
-          "titulo": "EscalaÃ§Ã£o da Chapecoense: Rafael Lacerda tem retorno de dupla de volantes titular",
-          "resumo": "",
-          "url": "https://ge.globo.com/sc/futebol/times/chapecoense/noticia/2026/11/02/escalacao-da-chapecoense-rafael-lacerda-tem-retorno-de-dupla-de-volantes-titular.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "02/11/2026"
         }
       ]
     }
@@ -2089,28 +2105,28 @@
   "basquete": {
     "geral": [
       {
+        "titulo": "Basquete Cearense conquista primeira vitória no NBB 2026/27 diante do Paulistano",
+        "resumo": "",
+        "url": "https://ge.globo.com/ce/basquete/nbb/noticia/2026/11/08/basquete-cearense-conquista-primeira-vitoria-no-nbb-202627-diante-do-paulistano.ghtml",
+        "imagem": "",
+        "data": "2026-11-08T18:51:27+00:00",
+        "dataFmt": "08/11/2026 18:51"
+      },
+      {
         "titulo": "NBB: Flamengo vence Pato Basquete e chega a cinco jogos de invencibilidade",
         "resumo": "",
         "url": "https://ge.globo.com/pr/basquete/nbb/noticia/2026/11/08/nbb-flamengo-vence-pato-basquete-e-chega-a-cinco-jogos-de-invencibilidade.ghtml",
         "imagem": "",
-        "data": "2026-11-08T13:19:29+00:00",
-        "dataFmt": "08/11/2026 13:19"
+        "data": "",
+        "dataFmt": "08/11/2026"
       },
       {
-        "titulo": "Curry brilha com 41 pontos e supera marca de LeBron na sétima vitória seguida dos Warriors",
+        "titulo": "Curry brilha com 41 pontos e supera marca de LeBron na sÃ©tima vitÃ³ria seguida dos Warriors",
         "resumo": "",
         "url": "https://ge.globo.com/basquete/nba/noticia/2026/11/08/curry-brilha-com-41-pontos-e-supera-marca-de-lebron-na-setima-vitoria-seguida-dos-warriors.ghtml",
         "imagem": "",
-        "data": "2026-11-08T12:35:50+00:00",
-        "dataFmt": "08/11/2026 12:35"
-      },
-      {
-        "titulo": "Cestinha contra Cruzeiro, Gui Deodato experimenta evolução gradual com Franca",
-        "resumo": "",
-        "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/11/08/cestinha-contra-cruzeiro-gui-deodato-experimenta-evolucao-gradual-com-franca.ghtml",
-        "imagem": "",
-        "data": "2026-11-08T12:00:00+00:00",
-        "dataFmt": "08/11/2026 12:00"
+        "data": "",
+        "dataFmt": "08/11/2026"
       },
       {
         "titulo": "Fora de casa, SÃ£o JosÃ© Ã© derrotado pelo Pinheiros por 103 a 87 no NBB",
@@ -2221,7 +2237,23 @@
   "ufc": {
     "geral": [
       {
-        "titulo": "Oktagon: Igor Severino nocauteia em 54 segundos, frustra torcida alemÃ£ e mantÃ©m tÃ­tulo; assista",
+        "titulo": "UFC: Johnny Walker embolsa cerca de R$ 550 mil com bônus por \"luta da noite\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/combate/noticia/2026/11/08/ufc-johnny-walker-embolsa-cerca-de-r-550-mil-com-bonus-por-luta-da-noite.ghtml",
+        "imagem": "",
+        "data": "2026-11-08T21:11:13+00:00",
+        "dataFmt": "08/11/2026 21:11"
+      },
+      {
+        "titulo": "FMS Fight Night 12",
+        "resumo": "",
+        "url": "https://ge.globo.com/combate/ao-vivo/fms-fight-night-12.ghtml",
+        "imagem": "",
+        "data": "2026-11-08T21:00:58+00:00",
+        "dataFmt": "08/11/2026 21:00"
+      },
+      {
+        "titulo": "Oktagon: Igor Severino nocauteia em 54s, frustra torcida alemÃ£ e mantÃ©m tÃ­tulo",
         "resumo": "",
         "url": "https://ge.globo.com/combate/noticia/2026/11/07/oktagon-igor-severino-nocauteia-em-54-segundos-frustra-torcida-alema-e-mantem-titulo.ghtml",
         "imagem": "",
@@ -2229,7 +2261,7 @@
         "dataFmt": "07/11/2026"
       },
       {
-        "titulo": "UFC: Johnny Walker nocauteia dominicano no peso-pesado; Virna perde nos pontos",
+        "titulo": "UFC: Johnny Walker nocauteia dominicano em evento com 4 vitÃ³rias brasileiras e 7 derrotas",
         "resumo": "",
         "url": "https://ge.globo.com/combate/noticia/2026/11/08/ufc-johnny-walker-nocauteia-dominicano-no-peso-pesado-virna-perde-nos-pontos.ghtml",
         "imagem": "",
@@ -2261,6 +2293,14 @@
         "dataFmt": "01/01/2026"
       },
       {
+        "titulo": "Fisioterapeuta de astros da luta conta como fÃ© ajudou em tratamento",
+        "resumo": "",
+        "url": "https://ge.globo.com/combate/noticia/2026/11/05/fisioterapeuta-de-estrelas-do-jiu-jitsu-conta-metodos-de-tratamento-e-ate-promessa-por-recuperacao.ghtml",
+        "imagem": "",
+        "data": "",
+        "dataFmt": "05/11/2026"
+      },
+      {
         "titulo": "Victor Hugo salva a noite brasileira no ONE Fight Night 49",
         "resumo": "",
         "url": "https://ge.globo.com/combate/noticia/2026/11/07/victor-hugo-salva-a-noite-brasileira-no-one-fight-night-49.ghtml",
@@ -2275,14 +2315,6 @@
         "imagem": "",
         "data": "",
         "dataFmt": "06/11/2026"
-      },
-      {
-        "titulo": "Fisioterapeuta de astros da luta conta como fÃ© ajudou em tratamento",
-        "resumo": "",
-        "url": "https://ge.globo.com/combate/noticia/2026/11/05/fisioterapeuta-de-estrelas-do-jiu-jitsu-conta-metodos-de-tratamento-e-ate-promessa-por-recuperacao.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "05/11/2026"
       },
       {
         "titulo": "Victor Hugo estreia no ONE apÃ³s feito histÃ³rico no ADCC: \"Era o caminho certo\"",
@@ -2331,14 +2363,6 @@
         "imagem": "",
         "data": "",
         "dataFmt": "02/11/2026"
-      },
-      {
-        "titulo": "Ex-campeÃ£o do UFC critica intervenÃ§Ã£o de Ã¡rbitro em luta de Moicano",
-        "resumo": "",
-        "url": "https://ge.globo.com/combate/noticia/2026/11/01/ex-campeao-do-ufc-critica-intervencao-de-arbitro-em-luta-de-moicano.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "01/11/2026"
       }
     ]
   }
