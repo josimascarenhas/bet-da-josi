@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-09T07:06:41-03:00",
+    "atualizadoEm": "2026-11-09T17:58:07-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 427,
     "timesAtualizados": 118,
@@ -491,7 +491,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Athletico x Vasco",
+          "jogador": "Athletico Ã© multado por caso de racismo",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1246,6 +1246,11 @@
       },
       "desfalques": [
         {
+          "jogador": "Atacante Ã© punido com dois jogos de sus",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
           "jogador": "Atacante pode pegar atÃ© 12 jogos de sus",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -1362,7 +1367,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Montoro retorna de suspensÃ£o e volta a ",
+          "jogador": "Domingos Andrade Ã© convocado por Angola",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1902,7 +1907,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Alan Patrick Ã© absolvido no STJD; presi",
+          "jogador": "Alan Patrick Ã© absolvido no STJD, mas p",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
