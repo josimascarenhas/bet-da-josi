@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-10T00:19:43-03:00",
+    "atualizadoEm": "2026-11-10T08:32:37-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 427,
     "timesAtualizados": 118,
@@ -709,11 +709,6 @@
           "jogador": "Primo de Militão e ex-Al Ahli treinam co",
           "motivo": "notícia GE",
           "impacto": "alto"
-        },
-        {
-          "jogador": "AtlÃ©tico-MG x Cruzeiro",
-          "motivo": "notícia GE",
-          "impacto": "medio"
         }
       ],
       "retornando": [
