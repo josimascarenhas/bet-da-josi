@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-09T17:58:07-03:00",
+    "atualizadoEm": "2026-11-10T00:19:43-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 427,
     "timesAtualizados": 118,
@@ -491,7 +491,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Athletico Ã© multado por caso de racismo",
+          "jogador": "Viveros Ã© suspenso por pisÃ£o, e Athlet",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -705,6 +705,11 @@
         "golsContra": 47
       },
       "desfalques": [
+        {
+          "jogador": "Primo de Militão e ex-Al Ahli treinam co",
+          "motivo": "notícia GE",
+          "impacto": "alto"
+        },
         {
           "jogador": "AtlÃ©tico-MG x Cruzeiro",
           "motivo": "notícia GE",
@@ -1247,11 +1252,6 @@
       "desfalques": [
         {
           "jogador": "Atacante Ã© punido com dois jogos de sus",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Atacante pode pegar atÃ© 12 jogos de sus",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1907,7 +1907,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Alan Patrick Ã© absolvido no STJD, mas p",
+          "jogador": "Joaquín Correa sofre lesão na coxa e vir",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
