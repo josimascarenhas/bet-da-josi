@@ -1,18 +1,82 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-11T00:13:04.995370+00:00",
+    "atualizadoEm": "2026-11-11T06:57:01.518465+00:00",
     "fonte": "ge.globo.com",
     "fonteUrl": "https://ge.globo.com/"
   },
   "futebol": {
     "geral": [
       {
-        "titulo": "Cuiabá x Chapada - Copa FMF 2026 - Ao vivo - globoesporte.com",
+        "titulo": "Magalhães normaliza gestão de minutos na Seleção e vê Raphinha mal interpretado: “É um menino exemplar”",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/selecao-brasileira/noticia/2026/11/11/magalhaes-normaliza-gestao-de-minutos-na-selecao-e-ve-raphinha-mal-interpretado-e-um-menino-exemplar.ghtml",
+        "imagem": "",
+        "data": "2026-11-11T06:30:57+00:00",
+        "dataFmt": "11/11/2026 06:30"
+      },
+      {
+        "titulo": "Crise no Paraguai impacta futebol e pode provocar prejuízo de R$ 55 milhões a jogadores da seleção",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/11/11/crise-no-paraguai-impacta-futebol-e-pode-provocar-prejuizo-de-r-55-milhoes-a-jogadores-da-selecao.ghtml",
+        "imagem": "",
+        "data": "2026-11-11T06:00:00+00:00",
+        "dataFmt": "11/11/2026 06:00"
+      },
+      {
+        "titulo": "Cuiabá vence o Chapada por 2 a 0 e conquista a Copa FMF",
         "resumo": "",
         "url": "https://ge.globo.com/mt/futebol/copa-fmf/jogo/10-11-2026/cuiaba-chapada.ghtml",
         "imagem": "",
-        "data": "2026-11-11T00:06:12+00:00",
-        "dataFmt": "11/11/2026 00:06"
+        "data": "2026-11-11T03:58:29+00:00",
+        "dataFmt": "11/11/2026 03:58"
+      },
+      {
+        "titulo": "Itacoatiara mira vaga nacional e aposta na profissionalização: \"Vamos chegar bem competitivos\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/am/futebol/times/itacoatiara/noticia/2026/11/11/itacoatiara-mira-vaga-nacional-e-aposta-na-profissionalizacao-vamos-chegar-bem-competitivos.ghtml",
+        "imagem": "",
+        "data": "2026-11-11T03:49:55+00:00",
+        "dataFmt": "11/11/2026 03:49"
+      },
+      {
+        "titulo": "Presidente do Manaus quer clube de volta às finais e esquecer 2026: \"Passar uma borracha\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/am/futebol/times/manaus/noticia/2026/11/11/presidente-do-manaus-quer-clube-de-volta-as-finais-e-esquecer-2026-passar-uma-borracha.ghtml",
+        "imagem": "",
+        "data": "2026-11-11T03:33:31+00:00",
+        "dataFmt": "11/11/2026 03:33"
+      },
+      {
+        "titulo": "João Carlos fica fora da decisão da Copa FMF pelo Cuiabá",
+        "resumo": "",
+        "url": "https://ge.globo.com/mt/futebol/times/cuiaba/noticia/2026/11/10/joao-carlos-fica-fora-da-final-da-copa-fmf-e-nao-e-relacionado-pelo-cuiaba.ghtml",
+        "imagem": "",
+        "data": "2026-11-11T01:30:18+00:00",
+        "dataFmt": "11/11/2026 01:30"
+      },
+      {
+        "titulo": "Goleira do Palmeiras se emociona com convocação do Brasil: \"Foram meses de dor, lágrimas, medo\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/10/goleira-do-palmeiras-se-emociona-com-convocacao-do-brasil-foram-meses-de-dor-lagrimas-medo.ghtml",
+        "imagem": "",
+        "data": "2026-11-11T01:29:35+00:00",
+        "dataFmt": "11/11/2026 01:29"
+      },
+      {
+        "titulo": "Vídeo gera polêmica com Matheus Pereira e Carrillo no Corinthians; diretor diz que caso está resolvido",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/11/10/video-gera-polemica-com-matheus-pereira-e-carrillo-no-corinthians-diretor-diz-que-caso-esta-resolvido.ghtml",
+        "imagem": "",
+        "data": "2026-11-11T00:57:02+00:00",
+        "dataFmt": "11/11/2026 00:57"
+      },
+      {
+        "titulo": "\"A gente tem muito interesse\": vice do Palmeiras comenta possível retorno de Raphael Veiga",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/10/a-gente-tem-muito-interesse-vice-do-palmeiras-comenta-possivel-retorno-de-raphael-veiga.ghtml",
+        "imagem": "",
+        "data": "2026-11-11T00:35:10+00:00",
+        "dataFmt": "11/11/2026 00:35"
       },
       {
         "titulo": "Conselho define nova data de debate entre candidatos à presidência do São Paulo",
@@ -101,74 +165,26 @@
         "imagem": "",
         "data": "2026-11-10T22:39:29+00:00",
         "dataFmt": "10/11/2026 22:39"
-      },
-      {
-        "titulo": "Siga o sorteio dos confrontos do Paulistão 2027",
-        "resumo": "",
-        "url": "https://ge.globo.com/sp/futebol/campeonato-paulista/ao-vivo/acompanhe-o-sorteio-dos-grupos-do-paulistao-2027.ghtml",
-        "imagem": "",
-        "data": "2026-11-10T22:31:20+00:00",
-        "dataFmt": "10/11/2026 22:31"
-      },
-      {
-        "titulo": "Penedense anuncia mais três contratações, uma renovação e um retorno",
-        "resumo": "",
-        "url": "https://ge.globo.com/al/futebol/times/penedense/noticia/2026/11/10/penedense-anuncia-mais-tres-contratacoes-uma-renovacao-e-um-retorno.ghtml",
-        "imagem": "",
-        "data": "2026-11-10T22:29:25+00:00",
-        "dataFmt": "10/11/2026 22:29"
-      },
-      {
-        "titulo": "Vojvoda volta atrás e acerta com o Fortaleza para Série B",
-        "resumo": "",
-        "url": "https://ge.globo.com/ce/futebol/times/fortaleza/noticia/2026/11/10/vojvoda-volta-atras-e-acerta-com-o-fortaleza.ghtml",
-        "imagem": "",
-        "data": "2026-11-10T22:27:00+00:00",
-        "dataFmt": "10/11/2026 22:27"
-      },
-      {
-        "titulo": "Patrick pede dignidade ao Remo na reta final da Série A",
-        "resumo": "",
-        "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/11/10/patrick-pede-dignidade-ao-remo-na-reta-final-da-serie-a.ghtml",
-        "imagem": "",
-        "data": "2026-11-10T22:25:04+00:00",
-        "dataFmt": "10/11/2026 22:25"
-      },
-      {
-        "titulo": "Após menos de dois meses e só quatro partidas, Dudu é desligado da Chapecoense",
-        "resumo": "",
-        "url": "https://ge.globo.com/sc/futebol/times/chapecoense/noticia/2026/11/10/apos-menos-de-dois-meses-e-so-quatro-partidas-dudu-e-desligado-da-chapecoense.ghtml",
-        "imagem": "",
-        "data": "2026-11-10T22:24:12+00:00",
-        "dataFmt": "10/11/2026 22:24"
-      },
-      {
-        "titulo": "Canindé e Carmópolis se classificam para as semifinais da Série A2 do Campeonato Sergipano",
-        "resumo": "",
-        "url": "https://ge.globo.com/se/futebol/sergipano-serie-a2/noticia/2026/11/10/caninde-e-carmopolis-se-classificam-para-as-semifinais-da-serie-a2-do-campeonato-sergipano.ghtml",
-        "imagem": "",
-        "data": "2026-11-10T22:23:41+00:00",
-        "dataFmt": "10/11/2026 22:23"
-      },
-      {
-        "titulo": "Campeonato Paulista de 2027 terá clássicos na primeira fase; veja todos os confrontos",
-        "resumo": "",
-        "url": "https://ge.globo.com/sp/futebol/campeonato-paulista/noticia/2026/11/10/campeonato-paulista-de-2027-tera-classicos-na-primeira-fase-veja-todos-os-confrontos.ghtml",
-        "imagem": "",
-        "data": "2026-11-10T22:23:35+00:00",
-        "dataFmt": "10/11/2026 22:23"
-      },
-      {
-        "titulo": "Cirurgia antecipada para não perder Seleção e diálogo por minutos: bastidores de Raphinha na Data Fifa",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/selecao-brasileira/noticia/2026/11/10/cirurgia-antecipada-para-nao-perder-selecao-e-dialogo-por-minutos-bastidores-de-raphinha-na-data-fifa.ghtml",
-        "imagem": "",
-        "data": "2026-11-10T22:20:36+00:00",
-        "dataFmt": "10/11/2026 22:20"
       }
     ],
     "times": {
       "Palmeiras": [
+        {
+          "titulo": "Goleira do Palmeiras se emociona com convocação do Brasil: \"Foram meses de dor, lágrimas, medo\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/10/goleira-do-palmeiras-se-emociona-com-convocacao-do-brasil-foram-meses-de-dor-lagrimas-medo.ghtml",
+          "imagem": "",
+          "data": "2026-11-11T01:29:35+00:00",
+          "dataFmt": "11/11/2026 01:29"
+        },
+        {
+          "titulo": "\"A gente tem muito interesse\": vice do Palmeiras comenta possível retorno de Raphael Veiga",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/10/a-gente-tem-muito-interesse-vice-do-palmeiras-comenta-possivel-retorno-de-raphael-veiga.ghtml",
+          "imagem": "",
+          "data": "2026-11-11T00:35:10+00:00",
+          "dataFmt": "11/11/2026 00:35"
+        },
         {
           "titulo": "Palmeiras anuncia auxiliar Bruno Proton como técnico interino do time feminino",
           "resumo": "",
@@ -186,12 +202,12 @@
           "dataFmt": "10/11/2026 19:43"
         },
         {
-          "titulo": "Paredão: Carlos Miguel, do Palmeiras, ocupa 21% do espaço do gol mesmo parado",
+          "titulo": "Carlos Miguel ocupa 21% do espaÃ§o do gol mesmo parado",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/10/paredao-carlos-miguel-do-palmeiras-ocupa-21percent-do-espaco-do-gol-mesmo-parado.ghtml",
           "imagem": "",
-          "data": "2026-11-10T18:35:25+00:00",
-          "dataFmt": "10/11/2026 18:35"
+          "data": "",
+          "dataFmt": "10/11/2026"
         },
         {
           "titulo": "\"EstÃ£o mais calmos?\": a histÃ³ria por trÃ¡s do meme que virou marca",
@@ -248,17 +264,17 @@
           "imagem": "",
           "data": "",
           "dataFmt": "09/11/2026"
-        },
-        {
-          "titulo": "\"NÃ£o tenho receita mÃ¡gica\": as novas estratÃ©gias atÃ© as finais",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/09/nao-tenho-receita-magica-como-palmeiras-mudou-estrategia-para-chegar-a-todas-as-finais-de-2026.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "09/11/2026"
         }
       ],
       "Flamengo": [
+        {
+          "titulo": "Franca domina Flamengo no Maracanãzinho e conquista primeira vitória fora de casa",
+          "resumo": "",
+          "url": "https://ge.globo.com/basquete/noticia/2026/11/10/franca-domina-flamengo-dentro-do-maracanazinho-e-conquista-primeira-vitoria-fora-de-casa.ghtml",
+          "imagem": "",
+          "data": "2026-11-11T01:26:19+00:00",
+          "dataFmt": "11/11/2026 01:26"
+        },
         {
           "titulo": "Flamengo-PI encaminha acerto com Marcelo Soares para o Campeonato Piauiense de 2027",
           "resumo": "",
@@ -343,14 +359,6 @@
           "titulo": "Gramado do MaracanÃ£ terÃ¡ tecnologia de 15 dos 16 estÃ¡dios da Ãºltima Copa",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/11/09/novo-gramado-do-maracana-tera-tecnologia-utilizada-em-15-dos-16-estadios-da-ultima-copa-veja-detalhes.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "09/11/2026"
-        },
-        {
-          "titulo": "Ã espera de PaquetÃ¡ e Alex Sandro, Flamengo tem a Ãºltima semana livre antes da reta final",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/11/09/a-espera-dos-retornos-de-paqueta-e-alex-sandro-flamengo-tem-a-ultima-semana-livre-antes-da-reta-final-do-ano.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "09/11/2026"
@@ -956,6 +964,14 @@
       ],
       "Corinthians": [
         {
+          "titulo": "Vídeo gera polêmica com Matheus Pereira e Carrillo no Corinthians; diretor diz que caso está resolvido",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/11/10/video-gera-polemica-com-matheus-pereira-e-carrillo-no-corinthians-diretor-diz-que-caso-esta-resolvido.ghtml",
+          "imagem": "",
+          "data": "2026-11-11T00:57:02+00:00",
+          "dataFmt": "11/11/2026 00:57"
+        },
+        {
           "titulo": "Treino do Corinthians: Gabriel Paulista e Raniele iniciam transição e avançam em recuperação",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/11/10/treino-do-corinthians-gabriel-paulista-e-raniele-iniciam-transicao-e-avancam-em-recuperacao.ghtml",
@@ -1054,14 +1070,6 @@
           "dataFmt": "10/11/2026 22:11"
         },
         {
-          "titulo": "Botafogo S.A. e Trexx pedem fim de plano de dívidas do Botafogo Futebol Clube na Justiça",
-          "resumo": "",
-          "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/futebol/times/botafogo-sp/noticia/2026/11/10/botafogo-sa-e-trexx-pedem-fim-de-plano-de-dividas-do-botafogo-futebol-clube-na-justica.ghtml",
-          "imagem": "",
-          "data": "2026-11-10T18:23:41+00:00",
-          "dataFmt": "10/11/2026 18:23"
-        },
-        {
           "titulo": "Luiz Henrique responde a pedido para voltar para o Botafogo: \"Quem sabe\"",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/11/10/luiz-henrique-fala-sobre-possibilidade-de-retornar-ao-botafogo-quem-sabe.ghtml",
@@ -1140,9 +1148,25 @@
           "imagem": "",
           "data": "",
           "dataFmt": "07/11/2026"
+        },
+        {
+          "titulo": "Torcedores criticam Marcelo de Lima Henrique; entenda rejeiÃ§Ã£o",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/botafogo/noticia/2026/11/06/torcedores-do-botafogo-criticam-contratacao-de-marcelo-de-lima-henrique-entenda-origem-da-rejeicao.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "06/11/2026"
         }
       ],
       "Vitoria": [
+        {
+          "titulo": "Franca domina Flamengo no Maracanãzinho e conquista primeira vitória fora de casa",
+          "resumo": "",
+          "url": "https://ge.globo.com/basquete/noticia/2026/11/10/franca-domina-flamengo-dentro-do-maracanazinho-e-conquista-primeira-vitoria-fora-de-casa.ghtml",
+          "imagem": "",
+          "data": "2026-11-11T01:26:19+00:00",
+          "dataFmt": "11/11/2026 01:26"
+        },
         {
           "titulo": "De virada, São José bate Montes Claros e conquista primeira vitória na Superliga de Vôlei",
           "resumo": "",
@@ -1158,14 +1182,6 @@
           "imagem": "",
           "data": "2026-11-10T18:52:53+00:00",
           "dataFmt": "10/11/2026 18:52"
-        },
-        {
-          "titulo": "Vitória-ES anuncia lateral Rossales, atacante Sávio Santos e zagueiro Dedé para 2027",
-          "resumo": "",
-          "url": "https://ge.globo.com/es/futebol/times/vitoria-es/noticia/2026/11/10/vitoria-es-anuncia-lateral-rossales-atacante-savio-santos-e-zagueiro-dede-para-2027.ghtml",
-          "imagem": "",
-          "data": "2026-11-10T18:37:17+00:00",
-          "dataFmt": "10/11/2026 18:37"
         },
         {
           "titulo": "VitÃ³ria confirma chegada de Rafael Lacerda: \"Treinador sanguinÃ¡rio\"",
@@ -1364,14 +1380,6 @@
           "dataFmt": "10/11/2026 19:37"
         },
         {
-          "titulo": "Vitória-ES anuncia lateral Rossales, atacante Sávio Santos e zagueiro Dedé para 2027",
-          "resumo": "",
-          "url": "https://ge.globo.com/es/futebol/times/vitoria-es/noticia/2026/11/10/vitoria-es-anuncia-lateral-rossales-atacante-savio-santos-e-zagueiro-dede-para-2027.ghtml",
-          "imagem": "",
-          "data": "2026-11-10T18:37:17+00:00",
-          "dataFmt": "10/11/2026 18:37"
-        },
-        {
           "titulo": "Santos pede para atuar em SÃ£o Paulo no inÃ­cio do PaulistÃ£o",
           "resumo": "",
           "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/11/10/reforma-na-vila-belmiro-faz-santos-pedir-para-atuar-em-sao-paulo-no-inicio-do-paulistao.ghtml",
@@ -1518,14 +1526,6 @@
           "dataFmt": "08/11/2026"
         },
         {
-          "titulo": "Renato defende escolhas no GrÃªmio com ida para a final e esbanja confianÃ§a: \"Eu sou o cara\"",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/11/07/renato-defende-escolhas-no-gremio-com-ida-para-a-final-e-esbanja-confianca-eu-sou-o-cara.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "07/11/2026"
-        },
-        {
           "titulo": "InformaÃ§Ã£o, opiniÃ£o e anÃ¡lise sobre o Tricolor na sua playlist",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/gremio/noticia/2026/01/12/estatisticas-do-gremio-em-2026-veja-campanha-artilheiros-e-videos.ghtml",
@@ -1535,6 +1535,14 @@
         }
       ],
       "Internacional": [
+        {
+          "titulo": "Crise no Paraguai impacta futebol e pode provocar prejuízo de R$ 55 milhões a jogadores da seleção",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/11/11/crise-no-paraguai-impacta-futebol-e-pode-provocar-prejuizo-de-r-55-milhoes-a-jogadores-da-selecao.ghtml",
+          "imagem": "",
+          "data": "2026-11-11T06:00:00+00:00",
+          "dataFmt": "11/11/2026 06:00"
+        },
         {
           "titulo": "Cabofriense vence seleção sub-17 do Haiti por 3 a 2 em amistoso internacional",
           "resumo": "",
@@ -1568,17 +1576,17 @@
           "dataFmt": "10/11/2026 19:21"
         },
         {
-          "titulo": "Sanabria prepara volta ao Inter e corre para evitar seca que pode chegar a mais de um ano",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/11/10/sanabria-prepara-volta-ao-inter-e-corre-para-evitar-seca-que-pode-chegar-a-mais-de-um-ano.ghtml",
-          "imagem": "",
-          "data": "2026-11-10T18:31:40+00:00",
-          "dataFmt": "10/11/2026 18:31"
-        },
-        {
           "titulo": "As trÃªs missÃµes de Eduardo Baptista no Inter na Data Fifa",
           "resumo": "",
           "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/11/10/as-tres-missoes-de-eduardo-baptista-no-inter-na-data-fifa.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "10/11/2026"
+        },
+        {
+          "titulo": "Sanabria tenta evitar seca que pode ultrapassar um ano",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/11/10/sanabria-prepara-volta-ao-inter-e-corre-para-evitar-seca-que-pode-chegar-a-mais-de-um-ano.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "10/11/2026"
@@ -1622,14 +1630,6 @@
           "imagem": "",
           "data": "",
           "dataFmt": "07/11/2026"
-        },
-        {
-          "titulo": "Nervoso, torcedor sai do Beira-Rio antes de pÃªnalti e comemora gol sozinho no pÃ¡tio; conheÃ§a",
-          "resumo": "",
-          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/11/06/nervoso-torcedor-sai-do-beira-rio-antes-de-penalti-e-comemora-gol-sozinho-no-patio-conheca.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "06/11/2026"
         }
       ],
       "Mirassol": [
@@ -1974,20 +1974,20 @@
           "imagem": "",
           "data": "",
           "dataFmt": "03/11/2026"
-        },
-        {
-          "titulo": "AtuaÃ§Ãµes da Chape: falha de Anderson confirma o rebaixamento",
-          "resumo": "",
-          "url": "https://ge.globo.com/sc/futebol/times/chapecoense/noticia/2026/11/03/atuacoes-da-chapecoense-gol-contra-bizarro-de-anderson-confirma-o-rebaixamento-de-suas-notas.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "03/11/2026"
         }
       ]
     }
   },
   "tenis": {
     "geral": [
+      {
+        "titulo": "Sinner projeta jogar Australian Open, mas adota precaução: \"Seguir os protocolos sem pressa\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/tenis/noticia/2026/11/10/sinner-projeta-jogar-australian-open-mas-adota-precaucao-seguir-os-protocolos-sem-pressa.ghtml",
+        "imagem": "",
+        "data": "2026-11-11T00:33:40+00:00",
+        "dataFmt": "11/11/2026 00:33"
+      },
       {
         "titulo": "Noskova vence Gauff e é a tenista mais jovem na semifinal do WTA Finals desde 2011",
         "resumo": "",
@@ -2045,28 +2045,20 @@
         "dataFmt": "08/11/2026"
       },
       {
-        "titulo": "NÃºmero 1 do mundo e atual campeÃ£, Elena Rybakina desiste do WTA Finals por problemas fÃ­sicos",
-        "resumo": "",
-        "url": "https://ge.globo.com/tenis/noticia/2026/11/07/numero-1-do-mundo-e-atual-campea-elena-rybakina-desiste-do-wta-finals-por-problemas-fisicos.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "07/11/2026"
-      },
-      {
-        "titulo": "ATP convida Guto Miguel para treinos com melhores do mundo no ATP Finals",
-        "resumo": "",
-        "url": "https://ge.globo.com/tenis/noticia/2026/11/06/atp-convida-guto-miguel-para-treinos-com-melhores-tenistas-do-mundo-durante-o-atp-finals.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "06/11/2026"
-      },
-      {
         "titulo": "De olho no topo do ranking de Masters, brasileiro quinto do mundo faz dobradinha em Porto Alegre",
         "resumo": "",
         "url": "https://ge.globo.com/sp/campinas-e-regiao/tenis/noticia/2026/11/09/de-olho-no-topo-do-ranking-de-masters-brasileiro-quinto-do-mundo-faz-dobradinha-em-porto-alegre.ghtml",
         "imagem": "",
         "data": "",
         "dataFmt": "09/11/2026"
+      },
+      {
+        "titulo": "NÃºmero 1 do mundo e atual campeÃ£, Elena Rybakina desiste do WTA Finals por problemas fÃ­sicos",
+        "resumo": "",
+        "url": "https://ge.globo.com/tenis/noticia/2026/11/07/numero-1-do-mundo-e-atual-campea-elena-rybakina-desiste-do-wta-finals-por-problemas-fisicos.ghtml",
+        "imagem": "",
+        "data": "",
+        "dataFmt": "07/11/2026"
       },
       {
         "titulo": "Alcaraz vence Casper Ruud e avanÃ§a Ã  final do Masters 1000 de Paris pela 1Âª vez",
@@ -2080,6 +2072,14 @@
         "titulo": "Dois jogos seguidos de Fritz em Paris tÃªm boleiras deixando a quadra; Alcaraz vira nas quartas",
         "resumo": "",
         "url": "https://ge.globo.com/tenis/noticia/2026/11/06/boleira-deixa-quadra-chorando-pelo-segundo-jogo-seguido-de-fritz-que-sofre-virada-de-alcaraz.ghtml",
+        "imagem": "",
+        "data": "",
+        "dataFmt": "06/11/2026"
+      },
+      {
+        "titulo": "ATP convida Guto Miguel para treinos com melhores tenistas do mundo durante o ATP Finals",
+        "resumo": "",
+        "url": "https://ge.globo.com/tenis/noticia/2026/11/06/atp-convida-guto-miguel-para-treinos-com-melhores-tenistas-do-mundo-durante-o-atp-finals.ghtml",
         "imagem": "",
         "data": "",
         "dataFmt": "06/11/2026"
@@ -2099,19 +2099,19 @@
         "imagem": "",
         "data": "",
         "dataFmt": "05/11/2026"
-      },
-      {
-        "titulo": "Boleira deixa a quadra chorando apÃ³s levar bolada de Taylor Fritz; veja",
-        "resumo": "",
-        "url": "https://ge.globo.com/tenis/noticia/2026/11/05/boleira-deixa-a-quadra-chorando-apos-levar-bolada-de-taylor-fritz.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "05/11/2026"
       }
     ]
   },
   "basquete": {
     "geral": [
+      {
+        "titulo": "Franca domina Flamengo no Maracanãzinho e conquista primeira vitória fora de casa",
+        "resumo": "",
+        "url": "https://ge.globo.com/basquete/noticia/2026/11/10/franca-domina-flamengo-dentro-do-maracanazinho-e-conquista-primeira-vitoria-fora-de-casa.ghtml",
+        "imagem": "",
+        "data": "2026-11-11T01:26:19+00:00",
+        "dataFmt": "11/11/2026 01:26"
+      },
       {
         "titulo": "Bauru vence o Pato Basquete com show de Harris e se reabilita no NBB",
         "resumo": "",
@@ -2223,14 +2223,6 @@
         "imagem": "",
         "data": "",
         "dataFmt": "08/11/2026"
-      },
-      {
-        "titulo": "Fora de casa, SÃ£o JosÃ© Ã© derrotado pelo Pinheiros por 103 a 87 no NBB",
-        "resumo": "",
-        "url": "https://ge.globo.com/sp/vale-do-paraiba-regiao/basquete/nbb/noticia/2026/11/07/fora-de-casa-sao-jose-e-derrotado-pelo-pinheiros-por-103-a-87-no-nbb.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "07/11/2026"
       }
     ]
   },
