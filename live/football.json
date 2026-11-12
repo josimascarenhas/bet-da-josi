@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-12T15:42:57-03:00",
+    "atualizadoEm": "2026-11-12T20:58:58-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 427,
     "timesAtualizados": 118,
@@ -590,7 +590,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do Fluminense",
+          "jogador": "Andrey, do Fluminense, é cortado por les",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1668,9 +1668,9 @@
       },
       "desfalques": [
         {
-          "jogador": "Coritiba terá desfalques contra o Santos",
+          "jogador": "Pai de Neymar pede à Fifa suspensão de i",
           "motivo": "notícia GE",
-          "impacto": "medio"
+          "impacto": "alto"
         }
       ],
       "retornando": [
