@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-13T03:23:19-03:00",
+    "atualizadoEm": "2026-11-13T11:49:01-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 427,
     "timesAtualizados": 118,
@@ -234,7 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "\"Reforços\", base e desfalques",
+          "jogador": "Palmeiras treina de olho no Cruzeiro com",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -375,6 +375,11 @@
       },
       "desfalques": [
         {
+          "jogador": "Alex Sandro cumpre prazo de Jardim no Fl",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
           "jogador": "SuspensÃ£o de Viveros abre brecha para P",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -490,6 +495,11 @@
         "golsContra": 36
       },
       "desfalques": [
+        {
+          "jogador": "Alex Sandro cumpre prazo de Jardim no Fl",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Viveros Ã© suspenso por pisÃ£o, e Athlet",
           "motivo": "notícia GE",
@@ -706,7 +716,7 @@
       },
       "desfalques": [
         {
-          "jogador": "\"Reforços\", base e desfalques",
+          "jogador": "\"ReforÃ§os\", base e desfalques",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1246,7 +1256,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Atacante Ã© punido com dois jogos de sus",
+          "jogador": "Corinthians recorre ao STJD para reduzir",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
