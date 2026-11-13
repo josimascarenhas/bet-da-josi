@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-13T11:49:01-03:00",
+    "atualizadoEm": "2026-11-13T18:13:24-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 427,
     "timesAtualizados": 118,
@@ -375,12 +375,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Alex Sandro cumpre prazo de Jardim no Fl",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "SuspensÃ£o de Viveros abre brecha para P",
+          "jogador": "Flamengo e Betano debatem suspensÃ£o de ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -495,11 +490,6 @@
         "golsContra": 36
       },
       "desfalques": [
-        {
-          "jogador": "Alex Sandro cumpre prazo de Jardim no Fl",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
         {
           "jogador": "Viveros Ã© suspenso por pisÃ£o, e Athlet",
           "motivo": "notícia GE",
@@ -1136,7 +1126,12 @@
       },
       "desfalques": [
         {
-          "jogador": "TCE mantém suspensão de patrocínio de R$",
+          "jogador": "Escalação do Atlético-MG",
+          "motivo": "notícia GE",
+          "impacto": "alto"
+        },
+        {
+          "jogador": "AtlÃ©tico tem lista grande de desfalques",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1255,6 +1250,11 @@
         "golsContra": 42
       },
       "desfalques": [
+        {
+          "jogador": "Treino do Corinthians",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Corinthians recorre ao STJD para reduzir",
           "motivo": "notícia GE",
@@ -1912,7 +1912,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação da Seleção",
+          "jogador": "Goleiro Jesús Owono é suspenso por 12 jo",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
