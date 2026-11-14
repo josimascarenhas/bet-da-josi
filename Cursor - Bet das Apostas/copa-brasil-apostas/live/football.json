@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-13T22:36:10-03:00",
+    "atualizadoEm": "2026-11-14T12:36:19-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 427,
     "timesAtualizados": 118,
@@ -1126,11 +1126,6 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Atlético-MG",
-          "motivo": "notícia GE",
-          "impacto": "alto"
-        },
-        {
           "jogador": "AtlÃ©tico tem lista grande de desfalques",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -1251,7 +1246,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Treino do Corinthians",
+          "jogador": "Danilo faz tratamento intensivo para les",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
@@ -1372,7 +1367,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Domingos Andrade Ã© convocado por Angola",
+          "jogador": "Danilo faz tratamento intensivo para les",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
