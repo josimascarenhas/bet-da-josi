@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-14T17:27:38-03:00",
+    "atualizadoEm": "2026-11-14T21:07:34-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 427,
     "timesAtualizados": 118,
@@ -1126,7 +1126,12 @@
       },
       "desfalques": [
         {
-          "jogador": "AtlÃ©tico tem lista grande de desfalques",
+          "jogador": "EscalaÃ§Ã£o do AtlÃ©tico-MG",
+          "motivo": "notícia GE",
+          "impacto": "alto"
+        },
+        {
+          "jogador": "AtlÃ©tico-MG tem lista grande de desfalq",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2225,7 +2230,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Vasco",
+          "jogador": "EscalaÃ§Ã£o do Vasco",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
