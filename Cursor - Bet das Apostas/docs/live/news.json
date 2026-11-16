@@ -1,11 +1,83 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-16T00:11:37.168833+00:00",
+    "atualizadoEm": "2026-11-16T07:04:24.751270+00:00",
     "fonte": "ge.globo.com",
     "fonteUrl": "https://ge.globo.com/"
   },
   "futebol": {
     "geral": [
+      {
+        "titulo": "Após busto, Bruno Henrique mira o 19º título pelo Flamengo no fim do Brasileiro: \"Dar a vida nesses jogos\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/11/16/apos-busto-bruno-henrique-mira-o-19o-titulo-pelo-flamengo-no-fim-do-brasileiro-dar-a-vida-nesses-jogos.ghtml",
+        "imagem": "",
+        "data": "2026-11-16T06:00:00+00:00",
+        "dataFmt": "16/11/2026 06:00"
+      },
+      {
+        "titulo": "Vini Jr. admite relaxamento pós-Copa e faz autocrítica: \"Treinei menos. Errei, sou humano\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/selecao-brasileira/noticia/2026/11/16/vini-jr-abre-o-jogo-sobre-fase-no-real-madrid-sou-humano.ghtml",
+        "imagem": "",
+        "data": "2026-11-16T05:48:46+00:00",
+        "dataFmt": "16/11/2026 05:48"
+      },
+      {
+        "titulo": "Presidente do Nacional-AM admite diferenças entre elencos do Barezão e da Série C",
+        "resumo": "",
+        "url": "https://ge.globo.com/am/futebol/times/nacional-am/noticia/2026/11/16/presidente-do-nacional-am-admite-diferencas-entre-elencos-do-barezao-e-da-serie-c.ghtml",
+        "imagem": "",
+        "data": "2026-11-16T03:08:57+00:00",
+        "dataFmt": "16/11/2026 03:08"
+      },
+      {
+        "titulo": "Ronaldinho Gaúcho aprova retorno e não descarta mais jogos pelo Ravenna: \"Se o presidente chamar...\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/11/16/ronaldinho-gaucho-aprova-retorno-e-nao-descarta-mais-jogos-pelo-ravenna-se-o-presidente-chamar.ghtml",
+        "imagem": "",
+        "data": "2026-11-16T03:00:00+00:00",
+        "dataFmt": "16/11/2026 03:00"
+      },
+      {
+        "titulo": "Aos 94 anos, Morre Dino Sani, ex-volante campeão do mundo com o Brasil em 1958",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/selecao-brasileira/noticia/2026/11/15/morre-dino-sani-ex-jogador-campeao-do-mundo-com-o-brasil-em-1958.ghtml",
+        "imagem": "",
+        "data": "2026-11-16T02:06:18+00:00",
+        "dataFmt": "16/11/2026 02:06"
+      },
+      {
+        "titulo": "CBF divulga datas e horários dos playoffs da Série B",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/noticia/2026/11/15/cbf-divulga-datas-e-horarios-dos-playoffs-da-serie-b.ghtml",
+        "imagem": "",
+        "data": "2026-11-16T01:40:47+00:00",
+        "dataFmt": "16/11/2026 01:40"
+      },
+      {
+        "titulo": "Flamengo fará mais dois bustos em 2027 com votação popular para escolher homenageados",
+        "resumo": "",
+        "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/11/15/flamengo-fara-mais-dois-bustos-em-2027-com-votacao-popular-para-escolher-homenageados.ghtml",
+        "imagem": "",
+        "data": "2026-11-16T01:25:13+00:00",
+        "dataFmt": "16/11/2026 01:25"
+      },
+      {
+        "titulo": "Técnico campeão pelo Inter valoriza força do Beira-Rio: \"Este estádio tem algo especial\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/11/15/tecnico-campeao-pelo-inter-valoriza-forca-do-beira-rio-este-estadio-tem-algo-especial.ghtml",
+        "imagem": "",
+        "data": "2026-11-16T01:10:35+00:00",
+        "dataFmt": "16/11/2026 01:10"
+      },
+      {
+        "titulo": "Fumaça branca e fim do mistério: Sampaio vai anunciar Léo Goiano como novo técnico",
+        "resumo": "",
+        "url": "https://ge.globo.com/ma/futebol/times/sampaio-correa/noticia/2026/11/15/fumaca-branca-e-fim-do-misterio-sampaio-vai-anunciar-leo-goiano-como-novo-tecnico.ghtml",
+        "imagem": "",
+        "data": "2026-11-16T00:35:30+00:00",
+        "dataFmt": "16/11/2026 00:35"
+      },
       {
         "titulo": "Nacional-AM anuncia lateral-esquerdo Rodrigues, ex-Santa Cruz, e renova com Miliano para 2027",
         "resumo": "",
@@ -93,89 +165,17 @@
         "imagem": "",
         "data": "2026-11-15T22:30:39+00:00",
         "dataFmt": "15/11/2026 22:30"
-      },
-      {
-        "titulo": "Cristiane desabafa após vice do Flamengo e cita problemas internos: \"Jogando contra todo mundo\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/11/15/cristiane-desabafa-apos-vice-do-flamengo-e-cita-problemas-internos-jogando-contra-todo-mundo.ghtml",
-        "imagem": "",
-        "data": "2026-11-15T22:22:47+00:00",
-        "dataFmt": "15/11/2026 22:22"
-      },
-      {
-        "titulo": "Central vence Ypiranga e se classifica para quadrangular final do primeiro turno do Pernambucano",
-        "resumo": "",
-        "url": "https://ge.globo.com/pe/caruaru-regiao/futebol/campeonato-pernambucano/jogo/15-11-2026/central-ypiranga-pe.ghtml",
-        "imagem": "",
-        "data": "2026-11-15T22:15:42+00:00",
-        "dataFmt": "15/11/2026 22:15"
-      },
-      {
-        "titulo": "Treze vence o Campinense em jogo marcado por três expulsões e gol nos acréscimos",
-        "resumo": "",
-        "url": "https://ge.globo.com/pb/futebol/copa-paraiba/jogo/15-11-2026/campinense-treze.ghtml",
-        "imagem": "",
-        "data": "2026-11-15T22:10:42+00:00",
-        "dataFmt": "15/11/2026 22:10"
-      },
-      {
-        "titulo": "Com futuro indefinido no Vasco, Jair recebe chance como titular e é exaltado por Pedro Emanuel",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/11/15/com-futuro-indefinido-no-vasco-jair-recebe-chance-como-titular-e-e-exaltado-por-pedro-emanuel.ghtml",
-        "imagem": "",
-        "data": "2026-11-15T22:06:46+00:00",
-        "dataFmt": "15/11/2026 22:06"
-      },
-      {
-        "titulo": "Vitória é campeão baiano feminino ao vencer o Bahia por 1 a 0 no Barradão",
-        "resumo": "",
-        "url": "https://ge.globo.com/ba/futebol/campeonato-baiano/noticia/2026/11/15/vitoria-e-campeao-baiano-feminino-ao-vencer-o-bahia-por-1-a-0-no-barradao.ghtml",
-        "imagem": "",
-        "data": "2026-11-15T22:06:44+00:00",
-        "dataFmt": "15/11/2026 22:06"
-      },
-      {
-        "titulo": "França joga bem, vence a Turquia e se classifica em primeiro na Liga das Nações",
-        "resumo": "",
-        "url": "https://ge.globo.com/futebol/futebol-internacional/liga-das-nacoes/jogo/15-11-2026/franca-turquia.ghtml",
-        "imagem": "",
-        "data": "2026-11-15T22:04:39+00:00",
-        "dataFmt": "15/11/2026 22:04"
-      },
-      {
-        "titulo": "Vila Nova terá vantagens no playoff contra o Atlético-GO; veja quais",
-        "resumo": "",
-        "url": "https://ge.globo.com/go/futebol/times/vila-nova/noticia/2026/11/15/vila-nova-tera-vantagens-no-playoff-contra-o-atletico-go-veja-quais.ghtml",
-        "imagem": "",
-        "data": "2026-11-15T22:04:33+00:00",
-        "dataFmt": "15/11/2026 22:04"
-      },
-      {
-        "titulo": "Campeãs do Inter prometem festa em lugarzinho bom e vibram: \"Patinho feio\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/11/15/campeas-do-inter-prometem-festa-em-lugarzinho-bom-e-vibram-patinho-feio.ghtml",
-        "imagem": "",
-        "data": "2026-11-15T22:04:03+00:00",
-        "dataFmt": "15/11/2026 22:04"
-      },
-      {
-        "titulo": "ASA lamenta a morte do cantor Claudionor Germano, intérprete do hino oficial do clube",
-        "resumo": "",
-        "url": "https://ge.globo.com/al/futebol/times/asa/noticia/2026/11/15/asa-lamenta-a-morte-do-cantor-claudionor-germano-interprete-do-hino-oficial-do-clube.ghtml",
-        "imagem": "",
-        "data": "2026-11-15T22:03:43+00:00",
-        "dataFmt": "15/11/2026 22:03"
       }
     ],
     "times": {
       "Palmeiras": [
         {
-          "titulo": "Piquerez sofre lesão em jogo do Uruguai e vira preocupação no Palmeiras",
+          "titulo": "Piquerez sofre lesÃ£o em jogo do Uruguai e vira preocupaÃ§Ã£o no Palmeiras",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/15/piquerez-sofre-lesao-em-jogo-do-uruguai-e-vira-preocupacao-no-palmeiras.ghtml",
           "imagem": "",
-          "data": "2026-11-15T16:20:08+00:00",
-          "dataFmt": "15/11/2026 16:20"
+          "data": "",
+          "dataFmt": "15/11/2026"
         },
         {
           "titulo": "VerdÃ£o faz 3 a 0 no Santos e se classifica Ã  final do Paulista Sub-20",
@@ -218,6 +218,14 @@
           "dataFmt": "13/11/2026"
         },
         {
+          "titulo": "Palmeiras renova contratos de Giay e Mauricio; Lucas Evangelista deve ser o prÃ³ximo",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/16/palmeiras-renova-contratos-de-giay-e-mauricio-lucas-evangelista-deve-ser-o-proximo.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "16/11/2026"
+        },
+        {
           "titulo": "EscalaÃ§Ã£o: Palmeiras simula situaÃ§Ãµes de jogo Ã  espera da volta de Piquerez contra o Cruzeiro",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/13/escalacao-palmeiras-simula-situacoes-de-jogo-a-espera-da-volta-de-piquerez-contra-o-cruzeiro.ghtml",
@@ -256,17 +264,25 @@
           "imagem": "",
           "data": "",
           "dataFmt": "12/11/2026"
-        },
-        {
-          "titulo": "Palmeiras x Estudiantes: saiba como comprar ingressos de novo lote para a final da Libertadores",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/palmeiras/noticia/2026/11/11/palmeiras-x-estudiantes-saiba-como-comprar-ingressos-de-novo-lote-para-a-final-da-libertadores.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "11/11/2026"
         }
       ],
       "Flamengo": [
+        {
+          "titulo": "Após busto, Bruno Henrique mira o 19º título pelo Flamengo no fim do Brasileiro: \"Dar a vida nesses jogos\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/11/16/apos-busto-bruno-henrique-mira-o-19o-titulo-pelo-flamengo-no-fim-do-brasileiro-dar-a-vida-nesses-jogos.ghtml",
+          "imagem": "",
+          "data": "2026-11-16T06:00:00+00:00",
+          "dataFmt": "16/11/2026 06:00"
+        },
+        {
+          "titulo": "Flamengo fará mais dois bustos em 2027 com votação popular para escolher homenageados",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/11/15/flamengo-fara-mais-dois-bustos-em-2027-com-votacao-popular-para-escolher-homenageados.ghtml",
+          "imagem": "",
+          "data": "2026-11-16T01:25:13+00:00",
+          "dataFmt": "16/11/2026 01:25"
+        },
         {
           "titulo": "Flamengo impõe virada ao Boca Juniors e garante classificação ao Final Four da Liga Sul-Americana",
           "resumo": "",
@@ -300,7 +316,7 @@
           "dataFmt": "15/11/2026 18:30"
         },
         {
-          "titulo": "Arrascaeta se torna o primeiro estrangeiro a ter um busto no Flamengo",
+          "titulo": "Arrascaeta se torna o primeiro estrangeiro a ter um busto no Fla",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/11/15/arrascaeta-se-torna-neste-domingo-o-primeiro-estrangeiro-a-ter-um-busto-no-flamengo.ghtml",
           "imagem": "",
@@ -316,7 +332,7 @@
           "dataFmt": "14/11/2026"
         },
         {
-          "titulo": "AlÃ©m de Arrascaeta e cia: Fla tem 11 convocados da base",
+          "titulo": "Flamengo tem 11 convocados da base nesta Data Fifa; veja quem sÃ£o",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/11/14/alem-de-arrascaeta-e-companhia-flamengo-tem-11-convocados-da-base-nesta-data-fifa-veja-quem-sao.ghtml",
           "imagem": "",
@@ -332,33 +348,9 @@
           "dataFmt": "14/11/2026"
         },
         {
-          "titulo": "Flamengo e Betano debatem suspensÃ£o de patrocÃ­nio",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/11/13/flamengo-e-betano-debatem-suspensao-de-patrocinio.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "13/11/2026"
-        },
-        {
           "titulo": "Flamengo nÃ£o disputarÃ¡ a Copinha em 2027",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/11/13/flamengo-nao-disputara-a-copinha-em-2027.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "13/11/2026"
-        },
-        {
-          "titulo": "Das camisas de Zico Ã  chuteira de Gabigol: exposiÃ§Ã£o reÃºne acervo de colecionadores do Flamengo; vÃ­deo",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/11/13/das-camisas-de-zico-a-chuteira-de-gabigol-exposicao-reune-acervo-de-colecionadores-do-flamengo-video.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "13/11/2026"
-        },
-        {
-          "titulo": "CBF queria final da Copa do Brasil feminina no MaracanÃ£, mas Flamengo preferiu o Luso-Brasileiro",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/11/13/cbf-queria-final-da-copa-do-brasil-feminina-no-maracana-mas-flamengo-preferiu-o-luso-brasileiro.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "13/11/2026"
@@ -480,12 +472,12 @@
           "dataFmt": "15/11/2026 22:30"
         },
         {
-          "titulo": "Riquelme brilha pela Seleção, e técnico explica poucas chances no Fluminense: \"Não é fácil\"",
+          "titulo": "Riquelme brilha pela SeleÃ§Ã£o, e tÃ©cnico explica poucas chances no Flu",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/11/15/riquelme-brilha-pela-selecao-e-tecnico-explica-poucas-chances-no-fluminense-nao-e-facil.ghtml",
           "imagem": "",
-          "data": "2026-11-15T16:43:40+00:00",
-          "dataFmt": "15/11/2026 16:43"
+          "data": "",
+          "dataFmt": "15/11/2026"
         },
         {
           "titulo": "Fora contra o SÃ£o Paulo, Alisson volta a treinar e comenta lesÃ£o: \"Dias difÃ­ceis\"",
@@ -618,6 +610,14 @@
           "dataFmt": "11/11/2026"
         },
         {
+          "titulo": "Gabigol ou Kaio Jorge? Cruzeiro pode ter disputa no ataque em 2027; compare nÃºmeros",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/11/16/gabigol-ou-kaio-jorge-cruzeiro-pode-ter-disputa-no-ataque-em-2027-compare-numeros.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "16/11/2026"
+        },
+        {
           "titulo": "Ãdolo na FranÃ§a e no Cruzeiro cria nova face como tÃ©cnico e cita Luxa, De Zerbi e Blanc entre referÃªncias",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/11/13/idolo-na-franca-e-no-cruzeiro-cria-nova-face-como-tecnico-e-cita-luxa-de-zerbi-e-blanc-entre-referencias.ghtml",
@@ -645,14 +645,6 @@
           "titulo": "\"ReforÃ§os\", base e desfalques: veja as opÃ§Ãµes do Cruzeiro para enfrentar o Palmeiras",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/11/12/reforcos-base-e-desfalques-veja-as-opcoes-do-cruzeiro-para-enfrentar-o-palmeiras.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "12/11/2026"
-        },
-        {
-          "titulo": "Destaque com Artur Jorge e titular de Gallardo no Equador, Arroyo dobra valor de mercado no Cruzeiro",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/11/12/destaque-com-artur-jorge-e-titular-de-gallardo-no-equador-arroyo-dobra-valor-de-mercado-no-cruzeiro.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "12/11/2026"
@@ -708,6 +700,14 @@
           "dataFmt": "10/11/2026"
         },
         {
+          "titulo": "Com presenÃ§a em 90% dos jogos do Bahia na SÃ©rie A, Jean Lucas se aproxima de marca centenÃ¡ria",
+          "resumo": "",
+          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/11/16/com-presenca-em-90percent-dos-jogos-do-bahia-na-serie-a-jean-lucas-se-aproxima-de-marca-centenaria.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "16/11/2026"
+        },
+        {
           "titulo": "MÃ©dia de gols sofridos pelo Bahia cresce no 2Âº turno, e RogÃ©rio Ceni alerta: \"A gente se desconecta\"",
           "resumo": "",
           "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/11/10/media-de-gols-sofridos-pelo-bahia-cresce-no-2o-turno-e-rogerio-ceni-alerta-a-gente-se-desconecta.ghtml",
@@ -722,14 +722,6 @@
           "imagem": "",
           "data": "",
           "dataFmt": "09/11/2026"
-        },
-        {
-          "titulo": "Defesa, novo sistema e mental: como o Bahia pode aproveitar pausa para Ãºltima Data Fifa",
-          "resumo": "",
-          "url": "https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/11/08/defesa-novo-sistema-e-mental-como-o-bahia-pode-aproveitar-pausa-para-ultima-data-fifa.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "08/11/2026"
         },
         {
           "titulo": "Recomendadas pelo editor",
@@ -808,12 +800,12 @@
       ],
       "Coritiba": [
         {
-          "titulo": "Coritiba terá retorno de emprestados a clubes da Série B e vai estudar destinos; veja a lista",
+          "titulo": "Coritiba terÃ¡ retorno de emprestados a clubes da SÃ©rie B; veja a lista",
           "resumo": "",
           "url": "https://ge.globo.com/pr/futebol/times/coritiba/noticia/2026/11/15/coritiba-tera-retorno-de-emprestados-a-clubes-da-serie-b-e-vai-estudar-destinos-veja-a-lista.ghtml",
           "imagem": "",
-          "data": "2026-11-15T16:23:19+00:00",
-          "dataFmt": "15/11/2026 16:23"
+          "data": "",
+          "dataFmt": "15/11/2026"
         },
         {
           "titulo": "NicolÃ¡s Fonseca ganha espaÃ§o no Coritiba na reta final e convoca torcida",
@@ -970,6 +962,14 @@
           "dataFmt": "13/11/2026"
         },
         {
+          "titulo": "AtlÃ©tico-MG busca protagonismo brasileiro que sobra na Libertadores e falta na Sul-Americana",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/16/atletico-mg-busca-protagonismo-brasileiro-que-sobra-na-libertadores-e-falta-na-sul-americana.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "16/11/2026"
+        },
+        {
           "titulo": "AtuaÃ§Ãµes do AtlÃ©tico-MG: defesa faz jogo correto e ataque nÃ£o tem sucesso; dÃª notas",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/14/atuacoes-do-atletico-mg-defesa-faz-jogo-correto-e-ataque-nao-tem-sucesso-de-notas.ghtml",
@@ -981,14 +981,6 @@
           "titulo": "EscalaÃ§Ã£o do AtlÃ©tico-MG: com desfalques, DomÃ­nguez relaciona titulares antes da final da Sula",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/13/escalacao-do-atletico-mg-com-desfalques-dominguez-relaciona-titulares-antes-da-final-da-sula.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "13/11/2026"
-        },
-        {
-          "titulo": "AtlÃ©tico-MG tem lista grande de desfalques para enfrentar o Mirassol; veja",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/13/atletico-mg-tem-lista-grande-de-desfalques-para-enfrentar-o-mirassol-veja.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "13/11/2026"
@@ -1068,6 +1060,14 @@
           "dataFmt": "12/11/2026"
         },
         {
+          "titulo": "Com futuro indefinido, Angileri pode alcanÃ§ar maior sequÃªncia pelo Corinthians em 18 meses",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/11/16/com-futuro-indefinido-angileri-pode-alcancar-maior-sequencia-pelo-corinthians-em-18-meses.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "16/11/2026"
+        },
+        {
           "titulo": "Treino do Corinthians: em tratamento de lesÃ£o, Garro faz corrida em campo",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/11/13/treino-do-corinthians-em-tratamento-de-lesao-garro-faz-corrida-em-campo.ghtml",
@@ -1079,14 +1079,6 @@
           "titulo": "Seedorf, do Corinthians, cita Berlusconi e detalha mudanÃ§a de carreira: \"Estava pronto\"",
           "resumo": "",
           "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/11/13/seedorf-do-corinthians-cita-berlusconi-e-detalha-virada-de-carreira-para-tecnico-estava-pronto.ghtml",
-          "imagem": "",
-          "data": "",
-          "dataFmt": "13/11/2026"
-        },
-        {
-          "titulo": "Corinthians recorre ao STJD para reduzir suspensÃ£o de Yuri Alberto",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/11/13/corinthians-recorre-de-punicao-a-yuri-alberto-e-stjd-marca-julgamento-para-analisar-reducao-de-pena.ghtml",
           "imagem": "",
           "data": "",
           "dataFmt": "13/11/2026"
@@ -1476,12 +1468,12 @@
           "dataFmt": "12/11/2026"
         },
         {
-          "titulo": "Santos tem melhor ataque desde a era Sampaoli; Gabigol participa de quase 40% dos gols",
+          "titulo": "Neymar deve repetir \"maratona\" de 2025 pelo Santos, mas sem lesÃ£o e em busca da Libertadores",
           "resumo": "",
-          "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/11/12/santos-tem-melhor-ataque-desde-a-era-sampaoli-gabigol-participa-de-quase-40percent-dos-gols.ghtml",
+          "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/11/16/neymar-deve-repetir-maratona-de-2025-pelo-santos-mas-sem-lesao-e-em-busca-da-libertadores.ghtml",
           "imagem": "",
           "data": "",
-          "dataFmt": "12/11/2026"
+          "dataFmt": "16/11/2026"
         }
       ],
       "Gremio": [
@@ -1559,6 +1551,22 @@
         }
       ],
       "Internacional": [
+        {
+          "titulo": "Ronaldinho Gaúcho aprova retorno e não descarta mais jogos pelo Ravenna: \"Se o presidente chamar...\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/11/16/ronaldinho-gaucho-aprova-retorno-e-nao-descarta-mais-jogos-pelo-ravenna-se-o-presidente-chamar.ghtml",
+          "imagem": "",
+          "data": "2026-11-16T03:00:00+00:00",
+          "dataFmt": "16/11/2026 03:00"
+        },
+        {
+          "titulo": "Técnico campeão pelo Inter valoriza força do Beira-Rio: \"Este estádio tem algo especial\"",
+          "resumo": "",
+          "url": "https://ge.globo.com/rs/futebol/times/internacional/noticia/2026/11/15/tecnico-campeao-pelo-inter-valoriza-forca-do-beira-rio-este-estadio-tem-algo-especial.ghtml",
+          "imagem": "",
+          "data": "2026-11-16T01:10:35+00:00",
+          "dataFmt": "16/11/2026 01:10"
+        },
         {
           "titulo": "Espanha perde invencibilidade recorde em derrota para a Inglaterra em Madri",
           "resumo": "",
@@ -1638,22 +1646,6 @@
           "imagem": "",
           "data": "2026-11-15T18:37:14+00:00",
           "dataFmt": "15/11/2026 18:37"
-        },
-        {
-          "titulo": "Ronaldinho Gaúcho posta bastidores de retorno ao futebol; veja",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/11/15/ronaldinho-gaucho-posta-bastidores-de-retorno-ao-futebol-veja.ghtml",
-          "imagem": "",
-          "data": "2026-11-15T18:20:38+00:00",
-          "dataFmt": "15/11/2026 18:20"
-        },
-        {
-          "titulo": "Retorno de Ronaldinho Gaúcho é destaque na imprensa europeia; veja capas",
-          "resumo": "",
-          "url": "https://ge.globo.com/futebol/futebol-internacional/noticia/2026/11/15/veja-a-repercussao-na-imprensa-europeia-do-retorno-de-ronaldinho-gaucho.ghtml",
-          "imagem": "",
-          "data": "2026-11-15T17:41:56+00:00",
-          "dataFmt": "15/11/2026 17:41"
         }
       ],
       "Mirassol": [
@@ -1756,14 +1748,6 @@
       ],
       "Remo": [
         {
-          "titulo": "Remo repudia violência em final de futsal no Mangueirinho e promete colaborar com investigações",
-          "resumo": "",
-          "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/11/15/remo-repudia-violencia-em-final-de-futsal-no-mangueirinho-e-promete-colaborar-com-investigacoes.ghtml",
-          "imagem": "",
-          "data": "2026-11-15T16:57:36+00:00",
-          "dataFmt": "15/11/2026 16:57"
-        },
-        {
           "titulo": "Remo informa desligamento do executivo LuÃ­s Vagner VÃ­vian",
           "resumo": "",
           "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/11/12/remo-informa-desligamento-do-executivo-luis-vagner-vivian.ghtml",
@@ -1834,6 +1818,14 @@
           "imagem": "",
           "data": "",
           "dataFmt": "08/11/2026"
+        },
+        {
+          "titulo": "Remo repudia violÃªncia em final de futsal no Mangueirinho e promete colaborar com investigaÃ§Ãµes",
+          "resumo": "",
+          "url": "https://ge.globo.com/pa/futebol/times/remo/noticia/2026/11/15/remo-repudia-violencia-em-final-de-futsal-no-mangueirinho-e-promete-colaborar-com-investigacoes.ghtml",
+          "imagem": "",
+          "data": "",
+          "dataFmt": "15/11/2026"
         },
         {
           "titulo": "Vice na chapa de Glauber, Jean Klay promete \"Remo Academy\" e reorganizaÃ§Ã£o no futebol",
@@ -2053,6 +2045,14 @@
   "tenis": {
     "geral": [
       {
+        "titulo": "Alcaraz analisa adversários na fase de grupos do ATP Finals e projeta \"guerra\" diante de ex-nº 1",
+        "resumo": "",
+        "url": "https://ge.globo.com/tenis/noticia/2026/11/15/alcaraz-analisa-adversarios-na-fase-de-grupos-do-atp-finals-e-projeta-guerra-diante-de-ex-no-1.ghtml",
+        "imagem": "",
+        "data": "2026-11-16T02:27:09+00:00",
+        "dataFmt": "16/11/2026 02:27"
+      },
+      {
         "titulo": "Mirra Andreeva vence Svitolina e é campeã do WTA Finals aos 19 anos de idade",
         "resumo": "",
         "url": "https://ge.globo.com/tenis/noticia/2026/11/15/mirra-andreeva-vence-svitolina-e-e-campea-do-wta-finals-aos-19-anos-de-idade.ghtml",
@@ -2109,14 +2109,6 @@
         "dataFmt": "12/11/2026"
       },
       {
-        "titulo": "Sabalenka perde a compostura e solta palavrÃ£o apÃ³s derrota para Andreeva",
-        "resumo": "",
-        "url": "https://ge.globo.com/tenis/noticia/2026/11/12/sabalenka-perde-a-compostura-e-solta-palavrao-apos-derrota-para-andreeva.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "12/11/2026"
-      },
-      {
         "titulo": "Luisa Stefani e Dabrowski avanÃ§am invictas Ã  semifinal no WTA Finals; veja confrontos",
         "resumo": "",
         "url": "https://ge.globo.com/tenis/noticia/2026/11/13/luisa-stefani-e-dabrowski-avancam-invictas-a-semifinal-no-wta-finals.ghtml",
@@ -2131,6 +2123,14 @@
         "imagem": "",
         "data": "",
         "dataFmt": "13/11/2026"
+      },
+      {
+        "titulo": "Sabalenka faz autocrÃ­tica apÃ³s derrota para Andreeva e brinca:  \"Que perdedora de m...!\"",
+        "resumo": "",
+        "url": "https://ge.globo.com/tenis/noticia/2026/11/12/sabalenka-perde-a-compostura-e-solta-palavrao-apos-derrota-para-andreeva.ghtml",
+        "imagem": "",
+        "data": "",
+        "dataFmt": "12/11/2026"
       },
       {
         "titulo": "Ex-tenista nÃºmero 1 do mundo viraliza com mochilÃ£o pela AmÃ©rica do Sul; veja fotos",
@@ -2163,14 +2163,6 @@
         "imagem": "",
         "data": "",
         "dataFmt": "11/11/2026"
-      },
-      {
-        "titulo": "Sinner projeta jogar Australian Open, mas adota precauÃ§Ã£o: \"Seguir os protocolos sem pressa\"",
-        "resumo": "",
-        "url": "https://ge.globo.com/tenis/noticia/2026/11/10/sinner-projeta-jogar-australian-open-mas-adota-precaucao-seguir-os-protocolos-sem-pressa.ghtml",
-        "imagem": "",
-        "data": "",
-        "dataFmt": "10/11/2026"
       }
     ]
   },

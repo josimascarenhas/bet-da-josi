@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-15T21:11:40-03:00",
+    "atualizadoEm": "2026-11-16T04:04:27-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 427,
     "timesAtualizados": 118,
@@ -1129,11 +1129,6 @@
           "jogador": "EscalaÃ§Ã£o do AtlÃ©tico-MG",
           "motivo": "notícia GE",
           "impacto": "alto"
-        },
-        {
-          "jogador": "AtlÃ©tico-MG tem lista grande de desfalq",
-          "motivo": "notícia GE",
-          "impacto": "medio"
         }
       ],
       "retornando": [
