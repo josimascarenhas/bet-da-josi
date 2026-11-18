@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-18T05:54:38-03:00",
+    "atualizadoEm": "2026-11-18T14:50:13-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 427,
     "timesAtualizados": 118,
@@ -492,11 +492,6 @@
       "desfalques": [
         {
           "jogador": "EscalaÃ§Ã£o",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Com trÃªs desfalques, veja as opÃ§Ãµes d",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1251,7 +1246,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Corinthians",
+          "jogador": "EscalaÃ§Ã£o",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
@@ -1590,7 +1585,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Fora contra o São Paulo, Alisson volta a",
+          "jogador": "Bobadilla deve ser nono desfalque do tim",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
