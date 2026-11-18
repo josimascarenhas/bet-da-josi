@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-17T15:17:27-03:00",
+    "atualizadoEm": "2026-11-17T22:10:08-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 427,
     "timesAtualizados": 118,
@@ -234,7 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação",
+          "jogador": "EscalaÃ§Ã£o",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -490,6 +490,11 @@
         "golsContra": 36
       },
       "desfalques": [
+        {
+          "jogador": "EscalaÃ§Ã£o",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Com trÃªs desfalques, veja as opÃ§Ãµes d",
           "motivo": "notícia GE",
@@ -847,7 +852,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Bahia contra o Grêmio",
+          "jogador": "Escalação do Grêmio",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "EscalaÃ§Ã£o do Bahia",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1246,7 +1256,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Seedorf confirma desfalque de Garro no j",
+          "jogador": "Escalação do Corinthians",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
@@ -1372,7 +1382,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Seedorf confirma desfalque de Garro no j",
+          "jogador": "Escalação do Corinthians",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1798,7 +1808,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Bahia contra o Grêmio",
+          "jogador": "Escalação do Grêmio",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
