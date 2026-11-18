@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-18T14:50:13-03:00",
+    "atualizadoEm": "2026-11-18T20:57:04-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 427,
+    "jogosFinalizados": 428,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + openligadb.de"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -23,10 +23,10 @@
         "Corinthians",
         "Gremio",
         "Internacional",
+        "Vasco",
         "Remo",
         "Botafogo",
         "Mirassol",
-        "Vasco",
         "Atletico-MG",
         "Sao-Paulo",
         "Chapecoense"
@@ -233,6 +233,11 @@
         "golsContra": 26
       },
       "desfalques": [
+        {
+          "jogador": "Abel Ferreira reclama de desfalques no P",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "EscalaÃ§Ã£o",
           "motivo": "notícia GE",
@@ -590,9 +595,14 @@
       },
       "desfalques": [
         {
-          "jogador": "Fora contra o São Paulo, Alisson volta a",
+          "jogador": "Escalação do Fluminense",
           "motivo": "notícia GE",
           "impacto": "medio"
+        },
+        {
+          "jogador": "Canobbio e Savarino serÃ£o desfalques pa",
+          "motivo": "notícia GE",
+          "impacto": "alto"
         }
       ],
       "retornando": [],
@@ -847,7 +857,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do Bahia",
+          "jogador": "EscalaÃ§Ã£o do Bahia contra o GrÃªmio",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -940,7 +950,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Braga tem dois suspensos para enfrentar ",
+          "jogador": "Escalação do Vitória contra o Bragantino",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1246,11 +1256,6 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
           "jogador": "Como Corinthians tenta baliza zero mesmo",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -1336,7 +1341,7 @@
     },
     "Botafogo": {
       "brasileirao": {
-        "posicao": 15,
+        "posicao": 16,
         "pontos": 37,
         "ultimos5": [
           "E 0-0 VIT",
@@ -1471,7 +1476,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do VitÃ³ria contra o Flumine",
+          "jogador": "Escalação do Vitória contra o Bragantino",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1906,9 +1911,9 @@
         },
         "vitorias": 9,
         "empates": 11,
-        "derrotas": 13,
+        "derrotas": 14,
         "golsPro": 38,
-        "golsContra": 43
+        "golsContra": 45
       },
       "desfalques": [
         {
@@ -1996,7 +2001,7 @@
     },
     "Mirassol": {
       "brasileirao": {
-        "posicao": 16,
+        "posicao": 17,
         "pontos": 36,
         "ultimos5": [
           "E 1-1",
@@ -2106,7 +2111,7 @@
     },
     "Remo": {
       "brasileirao": {
-        "posicao": 14,
+        "posicao": 15,
         "pontos": 37,
         "ultimos5": [
           "V 2-0 VIT",
@@ -2199,8 +2204,8 @@
     },
     "Vasco": {
       "brasileirao": {
-        "posicao": 17,
-        "pontos": 35,
+        "posicao": 14,
+        "pontos": 38,
         "ultimos5": [
           "D 0-1",
           "E 1-1 MIR",
@@ -2227,10 +2232,10 @@
           "gpg": 1.0,
           "gsg": 1.91
         },
-        "vitorias": 9,
+        "vitorias": 10,
         "empates": 8,
         "derrotas": 15,
-        "golsPro": 37,
+        "golsPro": 39,
         "golsContra": 50
       },
       "desfalques": [
