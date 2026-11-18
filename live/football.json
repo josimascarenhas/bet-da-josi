@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-17T22:10:08-03:00",
+    "atualizadoEm": "2026-11-18T05:54:38-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 427,
     "timesAtualizados": 118,
@@ -851,11 +851,6 @@
         "golsContra": 45
       },
       "desfalques": [
-        {
-          "jogador": "Escalação do Grêmio",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
         {
           "jogador": "EscalaÃ§Ã£o do Bahia",
           "motivo": "notícia GE",
