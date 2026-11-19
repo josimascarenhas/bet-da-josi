@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-19T12:59:45.926985-03:00",
+    "atualizadoEm": "2026-11-19T20:00:39.962557-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
@@ -12,6 +12,14 @@
       "mandante": "Vitoria",
       "visitante": "Bragantino",
       "placar": "4-0"
+    },
+    {
+      "id": "br-35-Remo-Chapecoense",
+      "data": "2026-11-19",
+      "comp": "brasileirao",
+      "mandante": "Remo",
+      "visitante": "Chapecoense",
+      "placar": "0-2"
     },
     {
       "id": "br-35-Flamengo-Athletico-PR",
@@ -236,14 +244,6 @@
       "mandante": "Athletico-PR",
       "visitante": "Palmeiras",
       "placar": "2-0"
-    },
-    {
-      "id": "br-31-Corinthians-Vitoria",
-      "data": "2026-10-18",
-      "comp": "brasileirao",
-      "mandante": "Corinthians",
-      "visitante": "Vitoria",
-      "placar": "3-0"
     }
   ]
 }
