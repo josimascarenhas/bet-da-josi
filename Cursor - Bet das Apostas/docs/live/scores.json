@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-19T03:27:41.989844-03:00",
-    "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
-    "jogos": 430,
-    "finalizadosTotal": 430
+    "atualizadoEm": "2026-11-19T12:59:45.926985-03:00",
+    "fonte": "calendário + ge.globo.com + openligadb.de",
+    "jogos": 431,
+    "finalizadosTotal": 431
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -3374,6 +3374,14 @@
       "data": "2026-11-05",
       "comp": "brasileirao"
     },
+    "br-35-Flamengo-Athletico-PR": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-11-18",
+      "comp": "brasileirao"
+    },
     "br-35-Vasco-Internacional": {
       "status": "finished",
       "placar": "2-0",
@@ -3382,21 +3390,20 @@
       "data": "2026-11-18",
       "comp": "brasileirao"
     },
-    "br-35-Flamengo-Athletico-PR": {
-      "status": "finished",
-      "placar": "2-1",
-      "golsCasa": 2,
-      "golsFora": 1,
-      "data": "2026-11-18",
-      "comp": "brasileirao",
-      "fonte": "ge"
-    },
     "br-35-Corinthians-Botafogo": {
       "status": "finished",
       "placar": "4-0",
       "golsCasa": 4,
       "golsFora": 0,
       "data": "2026-11-18",
+      "comp": "brasileirao"
+    },
+    "br-35-Vitoria-Bragantino": {
+      "status": "finished",
+      "placar": "4-0",
+      "golsCasa": 4,
+      "golsFora": 0,
+      "data": "2026-11-19",
       "comp": "brasileirao",
       "fonte": "ge"
     },

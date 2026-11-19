@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-19T03:27:44-03:00",
+    "atualizadoEm": "2026-11-19T12:59:49-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 430,
+    "jogosFinalizados": 431,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -16,11 +16,11 @@
         "Athletico-PR",
         "Bragantino",
         "Bahia",
+        "Vitoria",
         "Cruzeiro",
         "Corinthians",
         "Coritiba",
         "Santos",
-        "Vitoria",
         "Gremio",
         "Internacional",
         "Vasco",
@@ -234,7 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Abel Ferreira reclama de desfalques no P",
+          "jogador": "Abel reclama de desfalques pela Data Fif",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -491,7 +491,12 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o",
+          "jogador": "AnÃ¡lise",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "EscalaÃ§Ã£o do Athletico",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -590,7 +595,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Fluminense",
+          "jogador": "EscalaÃ§Ã£o do Flu",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
@@ -675,7 +680,7 @@
     },
     "Cruzeiro": {
       "brasileirao": {
-        "posicao": 7,
+        "posicao": 8,
         "pontos": 45,
         "ultimos5": [
           "D 0-1 BOT",
@@ -939,9 +944,9 @@
         },
         "vitorias": 13,
         "empates": 8,
-        "derrotas": 9,
+        "derrotas": 10,
         "golsPro": 36,
-        "golsContra": 29
+        "golsContra": 33
       },
       "desfalques": [
         {
@@ -1002,7 +1007,7 @@
     },
     "Coritiba": {
       "brasileirao": {
-        "posicao": 9,
+        "posicao": 10,
         "pontos": 44,
         "ultimos5": [
           "E 0-0",
@@ -1215,7 +1220,7 @@
     },
     "Corinthians": {
       "brasileirao": {
-        "posicao": 8,
+        "posicao": 9,
         "pontos": 44,
         "ultimos5": [
           "E 1-1",
@@ -1251,12 +1256,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Como Corinthians tenta baliza zero mesmo",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "STJD nega recurso e mantÃ©m suspensÃ£o d",
+          "jogador": "Suspenso, Carrillo desfalca time contra ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1435,8 +1435,8 @@
     },
     "Vitoria": {
       "brasileirao": {
-        "posicao": 11,
-        "pontos": 42,
+        "posicao": 7,
+        "pontos": 45,
         "ultimos5": [
           "D 0-2",
           "D 0-4 PAL",
@@ -1463,10 +1463,10 @@
           "gpg": 0.58,
           "gsg": 2.17
         },
-        "vitorias": 12,
+        "vitorias": 13,
         "empates": 6,
         "derrotas": 13,
-        "golsPro": 38,
+        "golsPro": 42,
         "golsContra": 45
       },
       "desfalques": [
@@ -1642,7 +1642,7 @@
     },
     "Santos": {
       "brasileirao": {
-        "posicao": 10,
+        "posicao": 11,
         "pontos": 42,
         "ultimos5": [
           "D 1-2",
@@ -1678,9 +1678,9 @@
       },
       "desfalques": [
         {
-          "jogador": "Pai de Neymar pede à Fifa suspensão de i",
+          "jogador": "Gustavo Henrique estÃ¡ fora do jogo cont",
           "motivo": "notícia GE",
-          "impacto": "alto"
+          "impacto": "medio"
         }
       ],
       "retornando": [
