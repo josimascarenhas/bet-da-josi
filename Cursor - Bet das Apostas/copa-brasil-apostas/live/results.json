@@ -1,10 +1,18 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-18T20:57:01.386109-03:00",
+    "atualizadoEm": "2026-11-19T03:27:41.989844-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "br-35-Flamengo-Athletico-PR",
+      "data": "2026-11-18",
+      "comp": "brasileirao",
+      "mandante": "Flamengo",
+      "visitante": "Athletico-PR",
+      "placar": "2-1"
+    },
     {
       "id": "br-35-Vasco-Internacional",
       "data": "2026-11-18",
@@ -12,6 +20,14 @@
       "mandante": "Vasco",
       "visitante": "Internacional",
       "placar": "2-0"
+    },
+    {
+      "id": "br-35-Corinthians-Botafogo",
+      "data": "2026-11-18",
+      "comp": "brasileirao",
+      "mandante": "Corinthians",
+      "visitante": "Botafogo",
+      "placar": "4-0"
     },
     {
       "id": "br-34-Vitoria-Fluminense",
@@ -228,22 +244,6 @@
       "mandante": "Mirassol",
       "visitante": "Internacional",
       "placar": "2-0"
-    },
-    {
-      "id": "br-31-Botafogo-Chapecoense",
-      "data": "2026-10-17",
-      "comp": "brasileirao",
-      "mandante": "Botafogo",
-      "visitante": "Chapecoense",
-      "placar": "1-1"
-    },
-    {
-      "id": "br-31-Fluminense-Santos",
-      "data": "2026-10-17",
-      "comp": "brasileirao",
-      "mandante": "Fluminense",
-      "visitante": "Santos",
-      "placar": "2-3"
     }
   ]
 }

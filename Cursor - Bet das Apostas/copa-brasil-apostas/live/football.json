@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-18T20:57:04-03:00",
+    "atualizadoEm": "2026-11-19T03:27:44-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 428,
+    "jogosFinalizados": 430,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -17,10 +17,10 @@
         "Bragantino",
         "Bahia",
         "Cruzeiro",
+        "Corinthians",
         "Coritiba",
         "Santos",
         "Vitoria",
-        "Corinthians",
         "Gremio",
         "Internacional",
         "Vasco",
@@ -237,11 +237,6 @@
           "jogador": "Abel Ferreira reclama de desfalques no P",
           "motivo": "notícia GE",
           "impacto": "medio"
-        },
-        {
-          "jogador": "EscalaÃ§Ã£o",
-          "motivo": "notícia GE",
-          "impacto": "medio"
         }
       ],
       "retornando": [
@@ -345,7 +340,7 @@
     "Flamengo": {
       "brasileirao": {
         "posicao": 2,
-        "pontos": 60,
+        "pontos": 63,
         "ultimos5": [
           "E 1-1 SAOPA",
           "E 1-1",
@@ -372,11 +367,11 @@
           "gpg": 2.0,
           "gsg": 1.0
         },
-        "vitorias": 18,
+        "vitorias": 19,
         "empates": 6,
         "derrotas": 7,
-        "golsPro": 64,
-        "golsContra": 35
+        "golsPro": 66,
+        "golsContra": 36
       },
       "desfalques": [
         {
@@ -490,9 +485,9 @@
         },
         "vitorias": 16,
         "empates": 6,
-        "derrotas": 9,
-        "golsPro": 46,
-        "golsContra": 36
+        "derrotas": 10,
+        "golsPro": 47,
+        "golsContra": 38
       },
       "desfalques": [
         {
@@ -1007,7 +1002,7 @@
     },
     "Coritiba": {
       "brasileirao": {
-        "posicao": 8,
+        "posicao": 9,
         "pontos": 44,
         "ultimos5": [
           "E 0-0",
@@ -1220,8 +1215,8 @@
     },
     "Corinthians": {
       "brasileirao": {
-        "posicao": 11,
-        "pontos": 41,
+        "posicao": 8,
+        "pontos": 44,
         "ultimos5": [
           "E 1-1",
           "E 0-0 ATHPR",
@@ -1248,10 +1243,10 @@
           "gpg": 1.08,
           "gsg": 1.17
         },
-        "vitorias": 11,
+        "vitorias": 12,
         "empates": 8,
         "derrotas": 14,
-        "golsPro": 38,
+        "golsPro": 42,
         "golsContra": 42
       },
       "desfalques": [
@@ -1371,9 +1366,9 @@
         },
         "vitorias": 9,
         "empates": 10,
-        "derrotas": 13,
+        "derrotas": 14,
         "golsPro": 42,
-        "golsContra": 51
+        "golsContra": 55
       },
       "desfalques": [
         {
@@ -1440,7 +1435,7 @@
     },
     "Vitoria": {
       "brasileirao": {
-        "posicao": 10,
+        "posicao": 11,
         "pontos": 42,
         "ultimos5": [
           "D 0-2",
@@ -1590,7 +1585,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Bobadilla deve ser nono desfalque do tim",
+          "jogador": "Bobadilla deve ser nono desfalque do SÃ£",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1647,7 +1642,7 @@
     },
     "Santos": {
       "brasileirao": {
-        "posicao": 9,
+        "posicao": 10,
         "pontos": 42,
         "ultimos5": [
           "D 1-2",
@@ -1917,7 +1912,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Goleiro Jesús Owono é suspenso por 12 jo",
+          "jogador": "Bernabei tem lesão e desfalca o Inter co",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2240,7 +2235,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do Vasco",
+          "jogador": "Bernabei tem lesão e desfalca o Inter co",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
