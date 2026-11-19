@@ -1,8 +1,8 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-19T12:59:49-03:00",
+    "atualizadoEm": "2026-11-19T20:00:43-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 431,
+    "jogosFinalizados": 432,
     "timesAtualizados": 118,
     "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
@@ -28,8 +28,8 @@
         "Botafogo",
         "Mirassol",
         "Atletico-MG",
-        "Sao-Paulo",
-        "Chapecoense"
+        "Chapecoense",
+        "Sao-Paulo"
       ]
     },
     "primeira-liga": {
@@ -234,7 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Abel reclama de desfalques pela Data Fif",
+          "jogador": "Abel Ferreira reclama de desfalques no P",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -857,7 +857,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do Bahia contra o GrÃªmio",
+          "jogador": "Morisco volta da Seleção e reforça o Cor",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1043,7 +1043,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Coritiba terÃ¡ desfalques contra o Santo",
+          "jogador": "Morisco volta da Seleção e reforça o Cor",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1471,7 +1471,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Vitória contra o Bragantino",
+          "jogador": "EscalaÃ§Ã£o do VitÃ³ria contra o Bragant",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1549,7 +1549,7 @@
     },
     "Sao-Paulo": {
       "brasileirao": {
-        "posicao": 19,
+        "posicao": 20,
         "pontos": 27,
         "ultimos5": [
           "D 1-2 ATHPR",
@@ -1678,6 +1678,11 @@
       },
       "desfalques": [
         {
+          "jogador": "Bontempo volta da Seleção sem lesão e de",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
           "jogador": "Gustavo Henrique estÃ¡ fora do jogo cont",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -1798,7 +1803,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Grêmio",
+          "jogador": "Bontempo volta da Seleção sem lesão e de",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Carlos Vinicius não tem lesão muscular c",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2136,9 +2146,9 @@
         },
         "vitorias": 9,
         "empates": 10,
-        "derrotas": 13,
+        "derrotas": 14,
         "golsPro": 44,
-        "golsContra": 47
+        "golsContra": 49
       },
       "desfalques": [
         {
@@ -2313,8 +2323,8 @@
     },
     "Chapecoense": {
       "brasileirao": {
-        "posicao": 20,
-        "pontos": 25,
+        "posicao": 19,
+        "pontos": 28,
         "ultimos5": [
           "D 0-4 FLA",
           "E 2-2",
@@ -2341,10 +2351,10 @@
           "gpg": 0.55,
           "gsg": 1.64
         },
-        "vitorias": 5,
+        "vitorias": 6,
         "empates": 10,
         "derrotas": 17,
-        "golsPro": 36,
+        "golsPro": 38,
         "golsContra": 62
       },
       "desfalques": [
