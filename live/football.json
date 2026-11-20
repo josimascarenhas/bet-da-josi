@@ -1,8 +1,8 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-19T20:00:43-03:00",
+    "atualizadoEm": "2026-11-20T00:57:18-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 432,
+    "jogosFinalizados": 434,
     "timesAtualizados": 118,
     "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
@@ -14,13 +14,13 @@
         "Flamengo",
         "Fluminense",
         "Athletico-PR",
+        "Cruzeiro",
         "Bragantino",
         "Bahia",
+        "Santos",
         "Vitoria",
-        "Cruzeiro",
         "Corinthians",
         "Coritiba",
-        "Santos",
         "Gremio",
         "Internacional",
         "Vasco",
@@ -228,9 +228,9 @@
         },
         "vitorias": 18,
         "empates": 10,
-        "derrotas": 4,
-        "golsPro": 54,
-        "golsContra": 26
+        "derrotas": 5,
+        "golsPro": 55,
+        "golsContra": 28
       },
       "desfalques": [
         {
@@ -595,14 +595,9 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do Flu",
+          "jogador": "EscalaÃ§Ã£o do Fluminense",
           "motivo": "notícia GE",
           "impacto": "medio"
-        },
-        {
-          "jogador": "Canobbio e Savarino serÃ£o desfalques pa",
-          "motivo": "notícia GE",
-          "impacto": "alto"
         }
       ],
       "retornando": [],
@@ -680,8 +675,8 @@
     },
     "Cruzeiro": {
       "brasileirao": {
-        "posicao": 8,
-        "pontos": 45,
+        "posicao": 5,
+        "pontos": 48,
         "ultimos5": [
           "D 0-1 BOT",
           "V 1-0",
@@ -708,11 +703,11 @@
           "gpg": 1.18,
           "gsg": 1.64
         },
-        "vitorias": 13,
+        "vitorias": 14,
         "empates": 6,
         "derrotas": 11,
-        "golsPro": 41,
-        "golsContra": 47
+        "golsPro": 43,
+        "golsContra": 48
       },
       "desfalques": [
         {
@@ -821,7 +816,7 @@
     },
     "Bahia": {
       "brasileirao": {
-        "posicao": 6,
+        "posicao": 7,
         "pontos": 46,
         "ultimos5": [
           "E 1-1 COR",
@@ -914,7 +909,7 @@
     },
     "Bragantino": {
       "brasileirao": {
-        "posicao": 5,
+        "posicao": 6,
         "pontos": 47,
         "ultimos5": [
           "E 1-1",
@@ -1007,7 +1002,7 @@
     },
     "Coritiba": {
       "brasileirao": {
-        "posicao": 10,
+        "posicao": 11,
         "pontos": 44,
         "ultimos5": [
           "E 0-0",
@@ -1037,13 +1032,13 @@
         },
         "vitorias": 12,
         "empates": 8,
-        "derrotas": 12,
+        "derrotas": 13,
         "golsPro": 41,
-        "golsContra": 46
+        "golsContra": 47
       },
       "desfalques": [
         {
-          "jogador": "Morisco volta da Seleção e reforça o Cor",
+          "jogador": "Morisco volta e reforÃ§a o Coritiba, mas",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1220,7 +1215,7 @@
     },
     "Corinthians": {
       "brasileirao": {
-        "posicao": 9,
+        "posicao": 10,
         "pontos": 44,
         "ultimos5": [
           "E 1-1",
@@ -1435,7 +1430,7 @@
     },
     "Vitoria": {
       "brasileirao": {
-        "posicao": 7,
+        "posicao": 9,
         "pontos": 45,
         "ultimos5": [
           "D 0-2",
@@ -1642,8 +1637,8 @@
     },
     "Santos": {
       "brasileirao": {
-        "posicao": 11,
-        "pontos": 42,
+        "posicao": 8,
+        "pontos": 45,
         "ultimos5": [
           "D 1-2",
           "E 2-2 CHA",
@@ -1670,10 +1665,10 @@
           "gpg": 1.5,
           "gsg": 1.9
         },
-        "vitorias": 11,
+        "vitorias": 12,
         "empates": 9,
         "derrotas": 12,
-        "golsPro": 48,
+        "golsPro": 49,
         "golsContra": 49
       },
       "desfalques": [
@@ -1804,11 +1799,6 @@
       "desfalques": [
         {
           "jogador": "Bontempo volta da Seleção sem lesão e de",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Carlos Vinicius não tem lesão muscular c",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
