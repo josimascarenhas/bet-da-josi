@@ -1,7 +1,7 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-20T00:57:15.410181-03:00",
-    "fonte": "calendário + ge.globo.com + openligadb.de",
+    "atualizadoEm": "2026-11-20T09:37:23.066786-03:00",
+    "fonte": "calendário + openligadb.de",
     "jogos": 434,
     "finalizadosTotal": 434
   },
@@ -3420,8 +3420,7 @@
       "golsCasa": 2,
       "golsFora": 1,
       "data": "2026-11-19",
-      "comp": "brasileirao",
-      "fonte": "ge"
+      "comp": "brasileirao"
     },
     "br-35-Coritiba-Santos": {
       "status": "finished",
@@ -3429,8 +3428,7 @@
       "golsCasa": 0,
       "golsFora": 1,
       "data": "2026-11-19",
-      "comp": "brasileirao",
-      "fonte": "ge"
+      "comp": "brasileirao"
     },
     "eu-bundesliga-2026-08-29-RB-Leipzig-Borussia-Mgladbach": {
       "status": "finished",
