@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-19T20:00:39.962557-03:00",
+    "atualizadoEm": "2026-11-20T00:57:15.410181-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
@@ -20,6 +20,22 @@
       "mandante": "Remo",
       "visitante": "Chapecoense",
       "placar": "0-2"
+    },
+    {
+      "id": "br-35-Cruzeiro-Palmeiras",
+      "data": "2026-11-19",
+      "comp": "brasileirao",
+      "mandante": "Cruzeiro",
+      "visitante": "Palmeiras",
+      "placar": "2-1"
+    },
+    {
+      "id": "br-35-Coritiba-Santos",
+      "data": "2026-11-19",
+      "comp": "brasileirao",
+      "mandante": "Coritiba",
+      "visitante": "Santos",
+      "placar": "0-1"
     },
     {
       "id": "br-35-Flamengo-Athletico-PR",
@@ -228,22 +244,6 @@
       "mandante": "Bahia",
       "visitante": "Flamengo",
       "placar": "0-3"
-    },
-    {
-      "id": "br-31-Remo-Bragantino",
-      "data": "2026-10-19",
-      "comp": "brasileirao",
-      "mandante": "Remo",
-      "visitante": "Bragantino",
-      "placar": "1-1"
-    },
-    {
-      "id": "br-31-Athletico-PR-Palmeiras",
-      "data": "2026-10-19",
-      "comp": "brasileirao",
-      "mandante": "Athletico-PR",
-      "visitante": "Palmeiras",
-      "placar": "2-0"
     }
   ]
 }
