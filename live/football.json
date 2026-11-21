@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-21T06:37:46-03:00",
+    "atualizadoEm": "2026-11-21T14:08:43-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 434,
     "timesAtualizados": 118,
@@ -374,11 +374,6 @@
         "golsContra": 36
       },
       "desfalques": [
-        {
-          "jogador": "Escalação do Palmeiras",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
         {
           "jogador": "Jardim tem trÃªs desfalques",
           "motivo": "notícia GE",
@@ -852,7 +847,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Bahia contra o Coritiba",
+          "jogador": "Fora contra o Coritiba, Willian José não",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1037,6 +1032,11 @@
         "golsContra": 47
       },
       "desfalques": [
+        {
+          "jogador": "Fora contra o Coritiba, Willian José não",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Morisco volta e reforÃ§a o Coritiba, mas",
           "motivo": "notícia GE",
@@ -1466,7 +1466,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do VitÃ³ria contra o Bragant",
+          "jogador": "Escalação do Inter",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1580,7 +1580,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Rafael Tolói sofre lesão na coxa e vira ",
+          "jogador": "Rafael TolÃ³i sofre lesÃ£o na coxa e vir",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1907,7 +1907,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Harry Kane sofre lesão grave no tornozel",
+          "jogador": "Escalação do Inter",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Alan Patrick serÃ¡ desfalque contra o Vi",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
