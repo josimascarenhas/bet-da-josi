@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-20T17:57:11-03:00",
+    "atualizadoEm": "2026-11-20T23:01:02-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 434,
     "timesAtualizados": 118,
@@ -234,6 +234,11 @@
       },
       "desfalques": [
         {
+          "jogador": "Escalação do Palmeiras",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
           "jogador": "Escalação do Flamengo",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -374,6 +379,11 @@
         "golsContra": 36
       },
       "desfalques": [
+        {
+          "jogador": "Escalação do Palmeiras",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Escalação do Flamengo",
           "motivo": "notícia GE",
@@ -1033,11 +1043,6 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Bahia contra o Coritiba",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
           "jogador": "Morisco volta e reforÃ§a o Coritiba, mas",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -1131,9 +1136,9 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do AtlÃ©tico-MG",
+          "jogador": "Escalação do Atlético-MG",
           "motivo": "notícia GE",
-          "impacto": "alto"
+          "impacto": "medio"
         }
       ],
       "retornando": [
@@ -1907,12 +1912,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Alan Patrick será desfalque do Inter con",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Jogador é suspenso por oito anos após at",
+          "jogador": "Harry Kane sofre lesão grave no tornozel",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
