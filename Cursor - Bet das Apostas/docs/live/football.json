@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-21T14:08:43-03:00",
+    "atualizadoEm": "2026-11-21T19:17:52-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 434,
     "timesAtualizados": 118,
@@ -940,7 +940,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Lucas Barbosa volta de suspensão, mas Br",
+          "jogador": "Lucas Barbosa volta de suspensÃ£o, mas B",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1033,12 +1033,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Fora contra o Coritiba, Willian José não",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Morisco volta e reforÃ§a o Coritiba, mas",
+          "jogador": "Morisco volta da SeleÃ§Ã£o e reforÃ§a o ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1250,6 +1245,11 @@
         "golsContra": 42
       },
       "desfalques": [
+        {
+          "jogador": "Gabriel Paulista sofre lesão no joelho e",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Suspenso, Carrillo desfalca time contra ",
           "motivo": "notícia GE",
@@ -1466,7 +1466,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Inter",
+          "jogador": "EscalaÃ§Ã£o do VitÃ³ria contra o Bragant",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1907,12 +1907,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Inter",
+          "jogador": "PSG perde atacante da seleção da França ",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
         {
-          "jogador": "Alan Patrick serÃ¡ desfalque contra o Vi",
+          "jogador": "Alan Patrick serÃ¡ desfalque do Inter em",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
