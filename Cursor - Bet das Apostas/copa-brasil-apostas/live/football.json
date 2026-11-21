@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-20T23:01:02-03:00",
+    "atualizadoEm": "2026-11-21T06:37:46-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 434,
     "timesAtualizados": 118,
@@ -237,11 +237,6 @@
           "jogador": "Escalação do Palmeiras",
           "motivo": "notícia GE",
           "impacto": "medio"
-        },
-        {
-          "jogador": "Escalação do Flamengo",
-          "motivo": "notícia GE",
-          "impacto": "medio"
         }
       ],
       "retornando": [
@@ -385,7 +380,7 @@
           "impacto": "medio"
         },
         {
-          "jogador": "Escalação do Flamengo",
+          "jogador": "Jardim tem trÃªs desfalques",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -950,7 +945,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Vitória contra o Bragantino",
+          "jogador": "Lucas Barbosa volta de suspensão, mas Br",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2235,7 +2230,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Bernabei tem lesão e desfalca o Inter co",
+          "jogador": "Lucas Barbosa volta de suspensão, mas Br",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
