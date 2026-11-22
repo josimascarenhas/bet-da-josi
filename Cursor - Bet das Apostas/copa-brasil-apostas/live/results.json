@@ -1,10 +1,18 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-21T19:17:48.606239-03:00",
+    "atualizadoEm": "2026-11-21T23:31:01.649532-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "br-36-Santos-Gremio",
+      "data": "2026-11-21",
+      "comp": "brasileirao",
+      "mandante": "Santos",
+      "visitante": "Gremio",
+      "placar": "2-1"
+    },
     {
       "id": "br-35-Vitoria-Bragantino",
       "data": "2026-11-19",
@@ -236,14 +244,6 @@
       "mandante": "Santos",
       "visitante": "Bahia",
       "placar": "4-1"
-    },
-    {
-      "id": "br-31-Bahia-Flamengo",
-      "data": "2026-10-19",
-      "comp": "brasileirao",
-      "mandante": "Bahia",
-      "visitante": "Flamengo",
-      "placar": "0-3"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-21T19:17:52-03:00",
+    "atualizadoEm": "2026-11-21T23:31:05-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 434,
+    "jogosFinalizados": 435,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + openligadb.de"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -14,10 +14,10 @@
         "Flamengo",
         "Fluminense",
         "Athletico-PR",
+        "Santos",
         "Cruzeiro",
         "Bragantino",
         "Bahia",
-        "Santos",
         "Vitoria",
         "Corinthians",
         "Coritiba",
@@ -670,7 +670,7 @@
     },
     "Cruzeiro": {
       "brasileirao": {
-        "posicao": 5,
+        "posicao": 6,
         "pontos": 48,
         "ultimos5": [
           "D 0-1 BOT",
@@ -811,7 +811,7 @@
     },
     "Bahia": {
       "brasileirao": {
-        "posicao": 7,
+        "posicao": 8,
         "pontos": 46,
         "ultimos5": [
           "E 1-1 COR",
@@ -904,7 +904,7 @@
     },
     "Bragantino": {
       "brasileirao": {
-        "posicao": 6,
+        "posicao": 7,
         "pontos": 47,
         "ultimos5": [
           "E 1-1",
@@ -1245,11 +1245,6 @@
         "golsContra": 42
       },
       "desfalques": [
-        {
-          "jogador": "Gabriel Paulista sofre lesão no joelho e",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
         {
           "jogador": "Suspenso, Carrillo desfalca time contra ",
           "motivo": "notícia GE",
@@ -1637,8 +1632,8 @@
     },
     "Santos": {
       "brasileirao": {
-        "posicao": 8,
-        "pontos": 45,
+        "posicao": 5,
+        "pontos": 48,
         "ultimos5": [
           "D 1-2",
           "E 2-2 CHA",
@@ -1665,11 +1660,11 @@
           "gpg": 1.5,
           "gsg": 1.9
         },
-        "vitorias": 12,
+        "vitorias": 13,
         "empates": 9,
         "derrotas": 12,
-        "golsPro": 49,
-        "golsContra": 49
+        "golsPro": 51,
+        "golsContra": 50
       },
       "desfalques": [
         {
@@ -1787,9 +1782,9 @@
         },
         "vitorias": 10,
         "empates": 8,
-        "derrotas": 14,
-        "golsPro": 37,
-        "golsContra": 38
+        "derrotas": 15,
+        "golsPro": 38,
+        "golsContra": 40
       },
       "desfalques": [
         {
@@ -2349,7 +2344,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Giovanni Augusto Ã© desfalque e Chape te",
+          "jogador": "Giovanni Augusto Ã© desfalque e Chapecoe",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
