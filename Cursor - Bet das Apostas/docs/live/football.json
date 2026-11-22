@@ -1,8 +1,8 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-21T23:31:05-03:00",
+    "atualizadoEm": "2026-11-22T07:12:20-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 435,
+    "jogosFinalizados": 436,
     "timesAtualizados": 118,
     "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
@@ -234,7 +234,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Palmeiras",
+          "jogador": "Análise",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -555,7 +555,7 @@
     "Fluminense": {
       "brasileirao": {
         "posicao": 3,
-        "pontos": 54,
+        "pontos": 57,
         "ultimos5": [
           "E 1-1",
           "E 0-0 BAH",
@@ -582,11 +582,11 @@
           "gpg": 1.18,
           "gsg": 1.36
         },
-        "vitorias": 15,
+        "vitorias": 16,
         "empates": 9,
         "derrotas": 9,
-        "golsPro": 54,
-        "golsContra": 43
+        "golsPro": 56,
+        "golsContra": 44
       },
       "desfalques": [
         {
@@ -706,7 +706,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação",
+          "jogador": "Análise",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1246,7 +1246,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Suspenso, Carrillo desfalca time contra ",
+          "jogador": "Como Seedorf superou desfalques para faz",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -2021,9 +2021,9 @@
         },
         "vitorias": 9,
         "empates": 9,
-        "derrotas": 14,
-        "golsPro": 37,
-        "golsContra": 46
+        "derrotas": 15,
+        "golsPro": 38,
+        "golsContra": 48
       },
       "desfalques": [
         {

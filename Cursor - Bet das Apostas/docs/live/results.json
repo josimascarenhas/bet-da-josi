@@ -1,10 +1,18 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-21T23:31:01.649532-03:00",
+    "atualizadoEm": "2026-11-22T07:12:17.351414-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "br-36-Fluminense-Mirassol",
+      "data": "2026-11-21",
+      "comp": "brasileirao",
+      "mandante": "Fluminense",
+      "visitante": "Mirassol",
+      "placar": "2-1"
+    },
     {
       "id": "br-36-Santos-Gremio",
       "data": "2026-11-21",
@@ -236,14 +244,6 @@
       "mandante": "Vasco",
       "visitante": "Corinthians",
       "placar": "1-0"
-    },
-    {
-      "id": "br-32-Santos-Bahia",
-      "data": "2026-10-24",
-      "comp": "brasileirao",
-      "mandante": "Santos",
-      "visitante": "Bahia",
-      "placar": "4-1"
     }
   ]
 }
