@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-22T07:12:20-03:00",
+    "atualizadoEm": "2026-11-22T14:59:21-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 436,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
+    "placaresFonte": "calendário + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -1461,7 +1461,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do VitÃ³ria contra o Bragant",
+          "jogador": "Escalação do Vitória contra o Inter",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1668,9 +1668,9 @@
       },
       "desfalques": [
         {
-          "jogador": "Gustavo Henrique estÃ¡ fora do jogo cont",
+          "jogador": "João Pedro está suspenso, e Grêmio tem d",
           "motivo": "notícia GE",
-          "impacto": "medio"
+          "impacto": "alto"
         }
       ],
       "retornando": [
@@ -1788,9 +1788,9 @@
       },
       "desfalques": [
         {
-          "jogador": "Bontempo volta da Seleção sem lesão e de",
+          "jogador": "João Pedro está suspenso, e Grêmio tem d",
           "motivo": "notícia GE",
-          "impacto": "medio"
+          "impacto": "alto"
         }
       ],
       "retornando": [],
@@ -1901,11 +1901,6 @@
         "golsContra": 45
       },
       "desfalques": [
-        {
-          "jogador": "PSG perde atacante da seleção da França ",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
         {
           "jogador": "Alan Patrick serÃ¡ desfalque do Inter em",
           "motivo": "notícia GE",

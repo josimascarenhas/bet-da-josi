@@ -1,7 +1,7 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-22T07:12:17.351414-03:00",
-    "fonte": "calendário + ge.globo.com + openligadb.de",
+    "atualizadoEm": "2026-11-22T14:59:15.735925-03:00",
+    "fonte": "calendário + openligadb.de",
     "jogos": 436,
     "finalizadosTotal": 436
   },
@@ -3430,7 +3430,7 @@
       "data": "2026-11-19",
       "comp": "brasileirao"
     },
-    "br-36-Santos-Gremio": {
+    "br-36-Fluminense-Mirassol": {
       "status": "finished",
       "placar": "2-1",
       "golsCasa": 2,
@@ -3438,14 +3438,13 @@
       "data": "2026-11-21",
       "comp": "brasileirao"
     },
-    "br-36-Fluminense-Mirassol": {
+    "br-36-Santos-Gremio": {
       "status": "finished",
       "placar": "2-1",
       "golsCasa": 2,
       "golsFora": 1,
       "data": "2026-11-21",
-      "comp": "brasileirao",
-      "fonte": "ge"
+      "comp": "brasileirao"
     },
     "eu-bundesliga-2026-08-29-RB-Leipzig-Borussia-Mgladbach": {
       "status": "finished",
