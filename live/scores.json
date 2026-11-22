@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-21T23:31:01.649532-03:00",
+    "atualizadoEm": "2026-11-22T07:12:17.351414-03:00",
     "fonte": "calendário + ge.globo.com + openligadb.de",
-    "jogos": 435,
-    "finalizadosTotal": 435
+    "jogos": 436,
+    "finalizadosTotal": 436
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -3431,6 +3431,14 @@
       "comp": "brasileirao"
     },
     "br-36-Santos-Gremio": {
+      "status": "finished",
+      "placar": "2-1",
+      "golsCasa": 2,
+      "golsFora": 1,
+      "data": "2026-11-21",
+      "comp": "brasileirao"
+    },
+    "br-36-Fluminense-Mirassol": {
       "status": "finished",
       "placar": "2-1",
       "golsCasa": 2,
