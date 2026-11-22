@@ -1,10 +1,18 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-22T14:59:15.735925-03:00",
+    "atualizadoEm": "2026-11-22T20:34:51.983539-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "br-36-Palmeiras-Flamengo",
+      "data": "2026-11-22",
+      "comp": "brasileirao",
+      "mandante": "Palmeiras",
+      "visitante": "Flamengo",
+      "placar": "3-1"
+    },
     {
       "id": "br-36-Fluminense-Mirassol",
       "data": "2026-11-21",
@@ -236,14 +244,6 @@
       "mandante": "Palmeiras",
       "visitante": "Bragantino",
       "placar": "2-0"
-    },
-    {
-      "id": "br-32-Vasco-Corinthians",
-      "data": "2026-10-24",
-      "comp": "brasileirao",
-      "mandante": "Vasco",
-      "visitante": "Corinthians",
-      "placar": "1-0"
     }
   ]
 }

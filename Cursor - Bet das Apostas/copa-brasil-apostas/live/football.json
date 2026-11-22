@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-22T14:59:21-03:00",
+    "atualizadoEm": "2026-11-22T20:34:57-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 436,
+    "jogosFinalizados": 437,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + openligadb.de"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -199,7 +199,7 @@
     "Palmeiras": {
       "brasileirao": {
         "posicao": 1,
-        "pontos": 64,
+        "pontos": 67,
         "ultimos5": [
           "D 1-2 ATLMG",
           "V 4-0",
@@ -226,11 +226,11 @@
           "gpg": 1.83,
           "gsg": 0.92
         },
-        "vitorias": 18,
+        "vitorias": 19,
         "empates": 10,
         "derrotas": 5,
-        "golsPro": 55,
-        "golsContra": 28
+        "golsPro": 58,
+        "golsContra": 29
       },
       "desfalques": [
         {
@@ -369,9 +369,9 @@
         },
         "vitorias": 19,
         "empates": 6,
-        "derrotas": 7,
-        "golsPro": 66,
-        "golsContra": 36
+        "derrotas": 8,
+        "golsPro": 67,
+        "golsContra": 39
       },
       "desfalques": [
         {
@@ -706,7 +706,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Análise",
+          "jogador": "AnÃ¡lise",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1246,7 +1246,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Como Seedorf superou desfalques para faz",
+          "jogador": "Como Seedorf superou desfalques e arrumo",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1362,7 +1362,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Corinthians",
+          "jogador": "Escalação do São Paulo",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1574,6 +1574,11 @@
         "golsContra": 27
       },
       "desfalques": [
+        {
+          "jogador": "Escalação do São Paulo",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Rafael TolÃ³i sofre lesÃ£o na coxa e vir",
           "motivo": "notícia GE",
