@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-22T20:34:51.983539-03:00",
-    "fonte": "calendário + ge.globo.com + openligadb.de",
-    "jogos": 437,
-    "finalizadosTotal": 437
+    "atualizadoEm": "2026-11-23T02:59:32.838696-03:00",
+    "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
+    "jogos": 438,
+    "finalizadosTotal": 438
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -3451,6 +3451,14 @@
       "placar": "3-1",
       "golsCasa": 3,
       "golsFora": 1,
+      "data": "2026-11-22",
+      "comp": "brasileirao"
+    },
+    "br-36-Bragantino-Vasco": {
+      "status": "finished",
+      "placar": "1-0",
+      "golsCasa": 1,
+      "golsFora": 0,
       "data": "2026-11-22",
       "comp": "brasileirao",
       "fonte": "ge"
