@@ -1,10 +1,18 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-23T02:59:32.838696-03:00",
+    "atualizadoEm": "2026-11-23T14:56:00.896559-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
   "ultimos": [
+    {
+      "id": "br-36-Bahia-Coritiba",
+      "data": "2026-11-23",
+      "comp": "brasileirao",
+      "mandante": "Bahia",
+      "visitante": "Coritiba",
+      "placar": "0-1"
+    },
     {
       "id": "br-36-Palmeiras-Flamengo",
       "data": "2026-11-22",
@@ -236,14 +244,6 @@
       "mandante": "Internacional",
       "visitante": "Botafogo",
       "placar": "4-0"
-    },
-    {
-      "id": "br-32-Coritiba-Gremio",
-      "data": "2026-10-26",
-      "comp": "brasileirao",
-      "mandante": "Coritiba",
-      "visitante": "Gremio",
-      "placar": "1-0"
     }
   ]
 }

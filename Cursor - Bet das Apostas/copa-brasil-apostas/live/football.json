@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-23T02:59:36-03:00",
+    "atualizadoEm": "2026-11-23T14:56:04-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 438,
+    "jogosFinalizados": 439,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -17,10 +17,10 @@
         "Bragantino",
         "Santos",
         "Cruzeiro",
+        "Coritiba",
         "Bahia",
         "Vitoria",
         "Corinthians",
-        "Coritiba",
         "Gremio",
         "Internacional",
         "Vasco",
@@ -811,7 +811,7 @@
     },
     "Bahia": {
       "brasileirao": {
-        "posicao": 8,
+        "posicao": 9,
         "pontos": 46,
         "ultimos5": [
           "E 1-1 COR",
@@ -841,9 +841,9 @@
         },
         "vitorias": 12,
         "empates": 10,
-        "derrotas": 10,
+        "derrotas": 11,
         "golsPro": 46,
-        "golsContra": 45
+        "golsContra": 46
       },
       "desfalques": [
         {
@@ -997,8 +997,8 @@
     },
     "Coritiba": {
       "brasileirao": {
-        "posicao": 11,
-        "pontos": 44,
+        "posicao": 8,
+        "pontos": 47,
         "ultimos5": [
           "E 0-0",
           "D 0-1 CRU",
@@ -1025,10 +1025,10 @@
           "gpg": 1.25,
           "gsg": 1.42
         },
-        "vitorias": 12,
+        "vitorias": 13,
         "empates": 8,
         "derrotas": 13,
-        "golsPro": 41,
+        "golsPro": 42,
         "golsContra": 47
       },
       "desfalques": [
@@ -1210,7 +1210,7 @@
     },
     "Corinthians": {
       "brasileirao": {
-        "posicao": 10,
+        "posicao": 11,
         "pontos": 44,
         "ultimos5": [
           "E 1-1",
@@ -1425,7 +1425,7 @@
     },
     "Vitoria": {
       "brasileirao": {
-        "posicao": 9,
+        "posicao": 10,
         "pontos": 45,
         "ultimos5": [
           "D 0-2",
@@ -1575,7 +1575,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do São Paulo",
+          "jogador": "Entenda por que Artur Ã© desfalque no jo",
           "motivo": "notícia GE",
           "impacto": "medio"
         },
