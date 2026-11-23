@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-23T02:59:32.838696-03:00",
-    "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
-    "jogos": 438,
-    "finalizadosTotal": 438
+    "atualizadoEm": "2026-11-23T14:56:00.896559-03:00",
+    "fonte": "calendário + ge.globo.com + openligadb.de",
+    "jogos": 439,
+    "finalizadosTotal": 439
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -3460,6 +3460,14 @@
       "golsCasa": 1,
       "golsFora": 0,
       "data": "2026-11-22",
+      "comp": "brasileirao"
+    },
+    "br-36-Bahia-Coritiba": {
+      "status": "finished",
+      "placar": "0-1",
+      "golsCasa": 0,
+      "golsFora": 1,
+      "data": "2026-11-23",
       "comp": "brasileirao",
       "fonte": "ge"
     },
