@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-22T20:34:57-03:00",
+    "atualizadoEm": "2026-11-23T02:59:36-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 437,
+    "jogosFinalizados": 438,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -14,9 +14,9 @@
         "Flamengo",
         "Fluminense",
         "Athletico-PR",
+        "Bragantino",
         "Santos",
         "Cruzeiro",
-        "Bragantino",
         "Bahia",
         "Vitoria",
         "Corinthians",
@@ -670,7 +670,7 @@
     },
     "Cruzeiro": {
       "brasileirao": {
-        "posicao": 6,
+        "posicao": 7,
         "pontos": 48,
         "ultimos5": [
           "D 0-1 BOT",
@@ -904,8 +904,8 @@
     },
     "Bragantino": {
       "brasileirao": {
-        "posicao": 7,
-        "pontos": 47,
+        "posicao": 5,
+        "pontos": 50,
         "ultimos5": [
           "E 1-1",
           "E 0-0 COR",
@@ -932,10 +932,10 @@
           "gpg": 1.0,
           "gsg": 1.09
         },
-        "vitorias": 13,
+        "vitorias": 14,
         "empates": 8,
         "derrotas": 10,
-        "golsPro": 36,
+        "golsPro": 37,
         "golsContra": 33
       },
       "desfalques": [
@@ -1637,7 +1637,7 @@
     },
     "Santos": {
       "brasileirao": {
-        "posicao": 5,
+        "posicao": 6,
         "pontos": 48,
         "ultimos5": [
           "D 1-2",
@@ -1793,7 +1793,7 @@
       },
       "desfalques": [
         {
-          "jogador": "João Pedro está suspenso, e Grêmio tem d",
+          "jogador": "Lateral Ã© desfalque, e GrÃªmio tem titu",
           "motivo": "notícia GE",
           "impacto": "alto"
         }
@@ -2224,9 +2224,9 @@
         },
         "vitorias": 10,
         "empates": 8,
-        "derrotas": 15,
+        "derrotas": 16,
         "golsPro": 39,
-        "golsContra": 50
+        "golsContra": 51
       },
       "desfalques": [
         {
