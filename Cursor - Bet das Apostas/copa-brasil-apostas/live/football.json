@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-24T00:52:43-03:00",
+    "atualizadoEm": "2026-11-24T11:36:32-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 442,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
+    "placaresFonte": "calendário + openligadb.de"
   },
   "competicoes": {
     "brasileirao": {
@@ -590,7 +590,7 @@
       },
       "desfalques": [
         {
-          "jogador": "EscalaÃ§Ã£o do Fluminense",
+          "jogador": "Matheus Henrique sofre pequena lesão e v",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -705,6 +705,11 @@
         "golsContra": 49
       },
       "desfalques": [
+        {
+          "jogador": "Matheus Henrique sofre pequena lesão e v",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "AnÃ¡lise",
           "motivo": "notícia GE",
@@ -939,6 +944,11 @@
         "golsContra": 33
       },
       "desfalques": [
+        {
+          "jogador": "Bragantino tem voltas de Fernando e Math",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Lucas Barbosa volta de suspensÃ£o, mas B",
           "motivo": "notícia GE",
@@ -1246,7 +1256,12 @@
       },
       "desfalques": [
         {
-          "jogador": "Como Seedorf superou desfalques e arrumo",
+          "jogador": "Corinthians não cumpre ordem judicial de",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Noriega vira desfalque do Grêmio em duel",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1787,6 +1802,11 @@
         "golsContra": 40
       },
       "desfalques": [
+        {
+          "jogador": "Noriega vira desfalque do Grêmio em duel",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "JoÃ£o Pedro estÃ¡ suspenso, e GrÃªmio te",
           "motivo": "notícia GE",
