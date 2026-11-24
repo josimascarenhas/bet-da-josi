@@ -1,10 +1,10 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-23T14:56:04-03:00",
+    "atualizadoEm": "2026-11-24T00:52:43-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
-    "jogosFinalizados": 439,
+    "jogosFinalizados": 442,
     "timesAtualizados": 118,
-    "placaresFonte": "calendário + ge.globo.com + openligadb.de"
+    "placaresFonte": "calendário + ge.globo.com + openligadb.de + 365scores.com"
   },
   "competicoes": {
     "brasileirao": {
@@ -14,15 +14,15 @@
         "Flamengo",
         "Fluminense",
         "Athletico-PR",
+        "Cruzeiro",
         "Bragantino",
         "Santos",
-        "Cruzeiro",
         "Coritiba",
         "Bahia",
         "Vitoria",
         "Corinthians",
-        "Gremio",
         "Internacional",
+        "Gremio",
         "Vasco",
         "Remo",
         "Botafogo",
@@ -456,7 +456,7 @@
     "Athletico-PR": {
       "brasileirao": {
         "posicao": 4,
-        "pontos": 54,
+        "pontos": 57,
         "ultimos5": [
           "V 2-0 INT",
           "E 0-0",
@@ -483,11 +483,11 @@
           "gpg": 1.17,
           "gsg": 1.25
         },
-        "vitorias": 16,
+        "vitorias": 17,
         "empates": 6,
         "derrotas": 10,
-        "golsPro": 47,
-        "golsContra": 38
+        "golsPro": 51,
+        "golsContra": 40
       },
       "desfalques": [
         {
@@ -670,8 +670,8 @@
     },
     "Cruzeiro": {
       "brasileirao": {
-        "posicao": 7,
-        "pontos": 48,
+        "posicao": 5,
+        "pontos": 51,
         "ultimos5": [
           "D 0-1 BOT",
           "V 1-0",
@@ -698,11 +698,11 @@
           "gpg": 1.18,
           "gsg": 1.64
         },
-        "vitorias": 14,
+        "vitorias": 15,
         "empates": 6,
         "derrotas": 11,
-        "golsPro": 43,
-        "golsContra": 48
+        "golsPro": 45,
+        "golsContra": 49
       },
       "desfalques": [
         {
@@ -904,7 +904,7 @@
     },
     "Bragantino": {
       "brasileirao": {
-        "posicao": 5,
+        "posicao": 6,
         "pontos": 50,
         "ultimos5": [
           "E 1-1",
@@ -1455,9 +1455,9 @@
         },
         "vitorias": 13,
         "empates": 6,
-        "derrotas": 13,
-        "golsPro": 42,
-        "golsContra": 45
+        "derrotas": 14,
+        "golsPro": 44,
+        "golsContra": 50
       },
       "desfalques": [
         {
@@ -1575,12 +1575,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Entenda por que Artur Ã© desfalque no jo",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
-          "jogador": "Rafael TolÃ³i sofre lesÃ£o na coxa e vir",
+          "jogador": "EscalaÃ§Ã£o do SÃ£o Paulo",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1637,7 +1632,7 @@
     },
     "Santos": {
       "brasileirao": {
-        "posicao": 6,
+        "posicao": 7,
         "pontos": 48,
         "ultimos5": [
           "D 1-2",
@@ -1757,7 +1752,7 @@
     },
     "Gremio": {
       "brasileirao": {
-        "posicao": 12,
+        "posicao": 13,
         "pontos": 38,
         "ultimos5": [
           "D 1-2",
@@ -1793,7 +1788,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Lateral Ã© desfalque, e GrÃªmio tem titu",
+          "jogador": "JoÃ£o Pedro estÃ¡ suspenso, e GrÃªmio te",
           "motivo": "notícia GE",
           "impacto": "alto"
         }
@@ -1871,8 +1866,8 @@
     },
     "Internacional": {
       "brasileirao": {
-        "posicao": 13,
-        "pontos": 38,
+        "posicao": 12,
+        "pontos": 41,
         "ultimos5": [
           "D 0-2",
           "E 1-1 FLA",
@@ -1899,11 +1894,11 @@
           "gpg": 0.91,
           "gsg": 1.36
         },
-        "vitorias": 9,
+        "vitorias": 10,
         "empates": 11,
         "derrotas": 14,
-        "golsPro": 38,
-        "golsContra": 45
+        "golsPro": 43,
+        "golsContra": 47
       },
       "desfalques": [
         {
@@ -2131,9 +2126,9 @@
         },
         "vitorias": 9,
         "empates": 10,
-        "derrotas": 14,
-        "golsPro": 44,
-        "golsContra": 49
+        "derrotas": 15,
+        "golsPro": 46,
+        "golsContra": 53
       },
       "desfalques": [
         {
@@ -2338,9 +2333,9 @@
         },
         "vitorias": 6,
         "empates": 10,
-        "derrotas": 17,
-        "golsPro": 38,
-        "golsContra": 62
+        "derrotas": 18,
+        "golsPro": 39,
+        "golsContra": 64
       },
       "desfalques": [
         {

@@ -1,9 +1,9 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-23T14:56:00.896559-03:00",
-    "fonte": "calendário + ge.globo.com + openligadb.de",
-    "jogos": 439,
-    "finalizadosTotal": 439
+    "atualizadoEm": "2026-11-24T00:52:38.766913-03:00",
+    "fonte": "calendário + ge.globo.com + openligadb.de + 365scores.com",
+    "jogos": 442,
+    "finalizadosTotal": 442
   },
   "jogos": {
     "br-1-Atletico-MG-Palmeiras": {
@@ -3467,6 +3467,32 @@
       "placar": "0-1",
       "golsCasa": 0,
       "golsFora": 1,
+      "data": "2026-11-23",
+      "comp": "brasileirao"
+    },
+    "br-36-Chapecoense-Cruzeiro": {
+      "status": "finished",
+      "placar": "1-2",
+      "golsCasa": 1,
+      "golsFora": 2,
+      "data": "2026-11-23",
+      "comp": "brasileirao",
+      "fonte": "ge"
+    },
+    "br-36-Internacional-Vitoria": {
+      "status": "finished",
+      "placar": "5-2",
+      "golsCasa": 5,
+      "golsFora": 2,
+      "data": "2026-11-23",
+      "comp": "brasileirao",
+      "fonte": "ge"
+    },
+    "br-36-Athletico-PR-Remo": {
+      "status": "finished",
+      "placar": "4-2",
+      "golsCasa": 4,
+      "golsFora": 2,
       "data": "2026-11-23",
       "comp": "brasileirao",
       "fonte": "ge"
