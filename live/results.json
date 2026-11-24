@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-23T14:56:00.896559-03:00",
+    "atualizadoEm": "2026-11-24T00:52:38.766913-03:00",
     "fonte": "calendário + placares ao vivo",
     "ultimosFinalizados": 30
   },
@@ -12,6 +12,30 @@
       "mandante": "Bahia",
       "visitante": "Coritiba",
       "placar": "0-1"
+    },
+    {
+      "id": "br-36-Chapecoense-Cruzeiro",
+      "data": "2026-11-23",
+      "comp": "brasileirao",
+      "mandante": "Chapecoense",
+      "visitante": "Cruzeiro",
+      "placar": "1-2"
+    },
+    {
+      "id": "br-36-Internacional-Vitoria",
+      "data": "2026-11-23",
+      "comp": "brasileirao",
+      "mandante": "Internacional",
+      "visitante": "Vitoria",
+      "placar": "5-2"
+    },
+    {
+      "id": "br-36-Athletico-PR-Remo",
+      "data": "2026-11-23",
+      "comp": "brasileirao",
+      "mandante": "Athletico-PR",
+      "visitante": "Remo",
+      "placar": "4-2"
     },
     {
       "id": "br-36-Palmeiras-Flamengo",
@@ -220,30 +244,6 @@
       "mandante": "Santos",
       "visitante": "Palmeiras",
       "placar": "0-0"
-    },
-    {
-      "id": "br-33-Bragantino-Chapecoense",
-      "data": "2026-10-28",
-      "comp": "brasileirao",
-      "mandante": "Bragantino",
-      "visitante": "Chapecoense",
-      "placar": "3-0"
-    },
-    {
-      "id": "br-32-Chapecoense-Fluminense",
-      "data": "2026-10-26",
-      "comp": "brasileirao",
-      "mandante": "Chapecoense",
-      "visitante": "Fluminense",
-      "placar": "2-1"
-    },
-    {
-      "id": "br-32-Internacional-Botafogo",
-      "data": "2026-10-26",
-      "comp": "brasileirao",
-      "mandante": "Internacional",
-      "visitante": "Botafogo",
-      "placar": "4-0"
     }
   ]
 }
