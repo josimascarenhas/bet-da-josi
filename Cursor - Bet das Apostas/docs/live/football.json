@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-25T04:14:26-03:00",
+    "atualizadoEm": "2026-11-25T15:06:59-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 442,
     "timesAtualizados": 118,
@@ -706,11 +706,6 @@
       },
       "desfalques": [
         {
-          "jogador": "Gabriel Pec faz primeiro treino com elen",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
-        {
           "jogador": "AnÃ¡lise",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -944,6 +939,11 @@
         "golsContra": 33
       },
       "desfalques": [
+        {
+          "jogador": "Inter perde Alerrandro, mas tem retorno ",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
         {
           "jogador": "Braga tem voltas de Fernando e Matheus F",
           "motivo": "notícia GE",
@@ -1683,9 +1683,9 @@
       },
       "desfalques": [
         {
-          "jogador": "João Pedro está suspenso, e Grêmio tem d",
+          "jogador": "Volta de Gustavo Henrique cria nova dúvi",
           "motivo": "notícia GE",
-          "impacto": "alto"
+          "impacto": "medio"
         }
       ],
       "retornando": [
@@ -1806,11 +1806,6 @@
           "jogador": "Noriega vira desfalque em duelo direto c",
           "motivo": "notícia GE",
           "impacto": "medio"
-        },
-        {
-          "jogador": "JoÃ£o Pedro estÃ¡ suspenso, e GrÃªmio te",
-          "motivo": "notícia GE",
-          "impacto": "alto"
         }
       ],
       "retornando": [],
@@ -1922,7 +1917,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Alan Patrick serÃ¡ desfalque do Inter em",
+          "jogador": "Inter perde Alerrandro, mas tem retorno ",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
