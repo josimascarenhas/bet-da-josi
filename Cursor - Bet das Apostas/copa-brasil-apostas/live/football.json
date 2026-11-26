@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-25T15:06:59-03:00",
+    "atualizadoEm": "2026-11-25T22:54:38-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 442,
     "timesAtualizados": 118,
@@ -939,11 +939,6 @@
         "golsContra": 33
       },
       "desfalques": [
-        {
-          "jogador": "Inter perde Alerrandro, mas tem retorno ",
-          "motivo": "notícia GE",
-          "impacto": "medio"
-        },
         {
           "jogador": "Braga tem voltas de Fernando e Matheus F",
           "motivo": "notícia GE",
