@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-27T08:51:12-03:00",
+    "atualizadoEm": "2026-11-27T17:44:46-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 442,
     "timesAtualizados": 118,
@@ -706,7 +706,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Cruzeiro",
+          "jogador": "EscalaÃ§Ã£o do Cruzeiro",
           "motivo": "notícia GE",
           "impacto": "alto"
         }
@@ -847,7 +847,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Fora contra o Coritiba, Willian José não",
+          "jogador": "EscalaÃ§Ã£o do Bahia contra o Botafogo",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1131,7 +1131,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Escalação do Atlético-MG",
+          "jogador": "Escalação do Vasco",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
@@ -1912,6 +1912,16 @@
       },
       "desfalques": [
         {
+          "jogador": "Escalação do Inter",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
+          "jogador": "Musiala sofre nova lesão e só deve retor",
+          "motivo": "notícia GE",
+          "impacto": "medio"
+        },
+        {
           "jogador": "Alerrandro Ã© desfalque contra o Bragant",
           "motivo": "notícia GE",
           "impacto": "medio"
@@ -2235,7 +2245,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Lucas Barbosa volta de suspensão, mas Br",
+          "jogador": "Escalação do Vasco",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
