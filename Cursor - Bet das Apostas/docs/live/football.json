@@ -1,6 +1,6 @@
 {
   "meta": {
-    "atualizadoEm": "2026-11-26T16:47:42-03:00",
+    "atualizadoEm": "2026-11-26T23:41:24-03:00",
     "fonte": "CBF / GE / modelo xG / calendário",
     "jogosFinalizados": 442,
     "timesAtualizados": 118,
@@ -590,9 +590,9 @@
       },
       "desfalques": [
         {
-          "jogador": "Matheus Henrique sofre pequena lesão e v",
+          "jogador": "Escalação do Fluminense",
           "motivo": "notícia GE",
-          "impacto": "medio"
+          "impacto": "alto"
         }
       ],
       "retornando": [],
@@ -706,9 +706,9 @@
       },
       "desfalques": [
         {
-          "jogador": "AnÃ¡lise",
+          "jogador": "Escalação do Cruzeiro",
           "motivo": "notícia GE",
-          "impacto": "medio"
+          "impacto": "alto"
         }
       ],
       "retornando": [
@@ -1372,7 +1372,7 @@
       },
       "desfalques": [
         {
-          "jogador": "Marçal é suspenso por dois jogos pelo ST",
+          "jogador": "MarÃ§al Ã© suspenso por dois jogos e des",
           "motivo": "notícia GE",
           "impacto": "medio"
         }
